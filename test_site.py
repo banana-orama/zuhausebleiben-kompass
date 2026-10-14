@@ -2,8 +2,10 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 import xml.etree.ElementTree as ET
+import json
 root=Path(__file__).parent/'dist'
-base='/zuhausebleiben-kompass'
+site=urlsplit(json.loads((root.parent/'data/content.json').read_text())['brand']['base_url'])
+base=site.path.rstrip('/')
 class Page(HTMLParser):
     def __init__(self):
         super().__init__();self.links=[];self.forms=0;self.h1=0;self.noindex=False
@@ -21,7 +23,7 @@ for f in files:
     assert p.noindex,(f,'preview indexing')
     for href in p.links:
         u=urlsplit(href)
-        if u.netloc=='banana-orama.github.io' and u.path.startswith(base):
+        if u.netloc==site.netloc and u.path.startswith(base):
             rel=unquote(u.path[len(base):]).lstrip('/') or 'index.html'
             target=root/rel
             if target.is_dir():target=target/'index.html'

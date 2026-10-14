@@ -3,7 +3,7 @@
     "name": "ZuhauseBleiben Kompass",
     "claim": "Treppenlift & barrierefreier Umbau: Kosten, Förderung, Angebote — ohne Verwirrung.",
     "description": "Unabhängiger Ratgeber für Treppenlift, Bad-Umbau und altersgerechtes Wohnen: Alle Zuschüsse auf einen Blick (Pflegekasse, Land, KfW), ehrliche Kostenbeispiele und ein kostenloser Angebotsvergleich.",
-    "base_url": "https://banana-orama.github.io/zuhausebleiben-kompass",
+    "base_url": "https://zuhausebleiben-kompass.de",
     "base_url_note": "Auf eigener Domain umziehen: base_url ändern + rebuild, dann Custom-Domain in Pages-Settings",
     "contact_email": "anfragen@zuhausebleiben-kompass.de",
     "operator": {"name": "Tobias Batke", "street": "Sängertshöhe 14", "postal_code": "51588", "city": "Nümbrecht", "country": "Deutschland"},

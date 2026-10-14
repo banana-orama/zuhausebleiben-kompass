@@ -30,6 +30,6 @@ pages.push({path:'datenschutz.html',title:'Datenschutz — Vorschau',desc:'Infor
 pages.push({path:'rss.xml',raw:`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>ZuhauseBleiben Kompass</title><link>${url('/')}</link><description>Ratgeberprojekt im Aufbau. Noch keine verifizierten Statusmeldungen.</description></channel></rss>`});
 pages.push({path:'sitemap.xml',raw:`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.filter(p=>p.path.endsWith('.html')).map(p=>`<url><loc>${url('/'+p.path.replace('index.html',''))}</loc></url>`).join('')}</urlset>`});
 pages.push({path:'robots.txt',raw:'User-agent: *\nAllow: /\n'});
-mkdirSync(OUT,{recursive:true});writeFileSync(join(OUT,'.nojekyll'),'');
+mkdirSync(OUT,{recursive:true});writeFileSync(join(OUT,'.nojekyll'),'');writeFileSync(join(OUT,'CNAME'),new URL(B.base_url).hostname+'\n');
 for(const p of pages){const f=join(OUT,p.path);mkdirSync(dirname(f),{recursive:true});writeFileSync(f,p.raw??layout(p.title,p.desc,p.body,'/'+p.path.replace('index.html',''),p.home));}
 console.log(`Built ${pages.length} pages. Preview mode: noindex; no lead collection.`);
