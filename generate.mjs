@@ -18,6 +18,11 @@ const FORM = `
   <h2>Kostenlose Angebote einholen</h2>
   <p>Unverbindlich &amp; kostenlos: Passende Fachbetriebe aus deiner Region melden sich mit Angebot — max. 3, kein Telefonterror.</p>
   <form class="leadform" method="POST" action="${esc(B.form_endpoint)}">
+    <input type="hidden" name="_subject" value="Neuer Lead: ZuhauseBleiben Kompass">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="_honey" style="display:none">
+    <input type="hidden" name="quelle" value="portal">
     <label>PLZ <input name="plz" required pattern="[0-9]{5}" inputmode="numeric" placeholder="z. B. 44135"></label>
     <label>Bundesland
       <select name="bundesland" required>
