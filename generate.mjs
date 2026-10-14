@@ -1,4 +1,4 @@
-import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync,copyFileSync} from 'node:fs';
 import {join,dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 const ROOT=dirname(fileURLToPath(import.meta.url)), OUT=join(ROOT,'dist');
@@ -30,6 +30,29 @@ pages.push({path:'datenschutz.html',title:'Datenschutz — Vorschau',desc:'Infor
 pages.push({path:'rss.xml',raw:`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>ZuhauseBleiben Kompass</title><link>${url('/')}</link><description>Ratgeberprojekt im Aufbau. Noch keine verifizierten Statusmeldungen.</description></channel></rss>`});
 pages.push({path:'sitemap.xml',raw:`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.filter(p=>p.path.endsWith('.html')).map(p=>`<url><loc>${url('/'+p.path.replace('index.html',''))}</loc></url>`).join('')}</urlset>`});
 pages.push({path:'robots.txt',raw:'User-agent: *\nAllow: /\n'});
-mkdirSync(OUT,{recursive:true});writeFileSync(join(OUT,'.nojekyll'),'');writeFileSync(join(OUT,'CNAME'),new URL(B.base_url).hostname+'\n');
+// ---- Entwurf: Treppenlift-Angebote vergleichen (Briefing 1) – noindex via layout(), absichtlich NICHT in der Sitemap ----
+const DRAFT=JSON.parse(readFileSync(join(ROOT,'content-drafts/treppenlift-angebote-vergleichen.briefing.json'),'utf8'));
+const LEDGER=JSON.parse(readFileSync(join(ROOT,'citations-ledger.json'),'utf8'));
+const usedIds=new Set();
+const inlineCite=t=>esc(t)
+ .replace(/\[unverified\]/g,'<sup class="cite" title="Redaktionelle Ergänzung ohne direkte Stelle in den genannten Quellen">*</sup>')
+ .replace(/\[(\d)\]/g,(m,n)=>{usedIds.add(Number(n));return `<sup class="cite"><a href="#quelle-${n}">[${n}]</a></sup>`;});
+const cell=t=>`<${t}>`;
+const tableHtml=bl=>`<table><thead><tr>${bl.head.map(h=>`<th>${inlineCite(h)}</th>`).join('')}</tr></thead><tbody>${bl.rows.map(r=>`<tr>${r.map(c=>`<td>${inlineCite(c)}</td>`).join('')}</tr>`).join('')}</tbody></table><span class="tbl-cap">${inlineCite(bl.cap)}</span>`;
+const SVG_INLINE=readFileSync(join(ROOT,'content-drafts/assets/angebot-aufbau.svg'),'utf8');
+const blockHtml=bl=>{
+ if(bl.t==='p')return `<p>${inlineCite(bl.x)}</p>`;
+ if(bl.t==='ol')return `<ol>${bl.x.map(i=>`<li>${inlineCite(i)}</li>`).join('')}</ol>`;
+ if(bl.t==='ul')return `<ul>${bl.x.map(i=>`<li>${inlineCite(i)}</li>`).join('')}</ul>`;
+ if(bl.t==='table')return tableHtml(bl);
+ if(bl.t==='img')return `<figure>${SVG_INLINE}<figcaption class="figure-cap">${esc(DRAFT.image.caption)} ${esc(DRAFT.image.ai_label)}</figcaption></figure>`;
+ if(bl.t==='faq')return `<div class="faq">${bl.x.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${inlineCite(a)}</p></details>`).join('')}</div>`;
+ if(bl.t==='figure_caption')return '';
+ throw new Error('unknown block type: '+bl.t);
+};
+const draftBody=`<span class="draft-badge">ENTWURF · NOINDEX · NICHT FREIGEGEBEN</span><h1>${esc(DRAFT.h1)}</h1><p class="lead">${inlineCite(DRAFT.lead)}</p><div class="notice"><strong>Hinweis zum Entwurf:</strong> Diese Seite befindet sich in der redaktionellen Prüfung. Alle Preisbeispiele und Grafikwerte sind erfunden und dienen nur der Veranschaulichung. Es werden keine Angebote vermittelt und keine Kontaktdaten entgegengenommen. Förderangaben sind keine Bewilligungszusage.</div>${DRAFT.sections.map(sec=>`<h2>${esc(sec.h2)}</h2>${sec.blocks.map(blockHtml).join('')}`).join('')}<h2>Weiterlesen</h2><ul>${DRAFT.related.map(([slug,t])=>`<li><a href="${url('/'+slug+'.html')}">${esc(t)}</a></li>`).join('')}</ul><div class="sourcelist"><strong>Quellen</strong> (Abruf: ${esc(DRAFT.sources_checked)}):<ol>${[...usedIds].sort((a,b)=>a-b).map(n=>{const s=LEDGER.sources.find(x=>x.id===n);if(!s)throw new Error('ledger id missing: '+n);return `<li id="quelle-${n}">[${n}] <a href="${esc(s.url)}" rel="noopener">${esc(s.title||s.url)}</a>${s.accessed?` (abgerufen ${esc(s.accessed)})`:''}</li>`;}).join('')}</ol><p class="fine">* Redaktionelle Ergänzung oder eigene Einschätzung ohne direkte Stelle in den genannten Quellen. Diese Seite ist ein Entwurf und bis zum regulären Start von der Indexierung ausgeschlossen.</p></div>${FORM}`;
+pages.push({path:DRAFT.slug+'.html',title:DRAFT.title+' — ZuhauseBleiben Kompass',desc:DRAFT.description,body:draftBody});
+mkdirSync(OUT,{recursive:true});writeFileSync(join(OUT,'.nojekyll'),'');
+mkdirSync(join(OUT,'assets'),{recursive:true});copyFileSync(join(ROOT,'content-drafts/assets/angebot-aufbau.svg'),join(OUT,'assets/angebot-aufbau.svg'));writeFileSync(join(OUT,'CNAME'),new URL(B.base_url).hostname+'\n');
 for(const p of pages){const f=join(OUT,p.path);mkdirSync(dirname(f),{recursive:true});writeFileSync(f,p.raw??layout(p.title,p.desc,p.body,'/'+p.path.replace('index.html',''),p.home));}
 console.log(`Built ${pages.length} pages. Preview mode: noindex; no lead collection.`);

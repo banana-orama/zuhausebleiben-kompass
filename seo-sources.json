@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "title": "",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "title": "",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "title": "",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "url": "https://developers.google.com/search/docs/appearance/google-images",
+      "title": "",
+      "accessed": "2026-10-14"
+    }
+  ]
+}

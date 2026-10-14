@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "project": "ZuhauseBleiben Kompass / barrierefrei-leads",
+  "label": "KI-Illustration · schematisch",
+  "policy": {
+    "original_assets_only": true,
+    "local_resources_only": true,
+    "no_customer_or_product_photographs": true,
+    "caption_required": true,
+    "no_fake_logos_seals_metrics_prices": true,
+    "publication_note": "Manifest liefert Bildangaben, aber bindet Assets nicht in den Renderer ein. Sichtbare Captions, passende Alt-Texte und HTML-Textalternativen beim Einbau übernehmen."
+  },
+  "images": [
+    {
+      "src": "assets/images/zuhause-orientierung.svg",
+      "alt": "Wohnschema mit Sitzbereich, Durchgang und Treppe: Alltag verstehen, Wege ansehen und Umbaufragen vor Ort klären.",
+      "caption": "KI-Illustration · schematisch. Ein Wohnschema zur ersten Orientierung: Alltagshürden, Wege und mögliche Umbaufragen sammeln.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / OpenAI",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css.",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für Portalstartseite und Ratgeber des Projekts vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, realer Kunde, Produktreferenz oder Fachplanung."
+      },
+      "limitations": [
+        "Keine reale Wohnung, Person oder Kundenreferenz.",
+        "Nicht maßstäblich; keine Aussage zur Barrierefreiheit, Sicherheit oder Eignung eines konkreten Wohnraums."
+      ],
+      "dimensions": {
+        "width": 1200,
+        "height": 780,
+        "unit": "px",
+        "viewBox": "0 0 1200 780"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen; bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
+    },
+    {
+      "src": "assets/images/treppenlift-planung.svg",
+      "alt": "Treppe ohne Liftinstallation mit Fragen zu Zugang, Treppenverlauf sowie Ein- und Ausstieg vor dem Aufmaß.",
+      "caption": "KI-Illustration · schematisch. Fragen für das Gespräch vor dem Aufmaß; eine geeignete Lösung kann erst nach Prüfung vor Ort beurteilt werden.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / OpenAI",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css.",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für Portalstartseite und Ratgeber des Projekts vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, realer Kunde, Produktreferenz oder Fachplanung."
+      },
+      "limitations": [
+        "Keine Schienenführung, Montageposition oder technisch zulässige Installation dargestellt.",
+        "Keine Maß-, Fluchtweg-, Brandschutz-, Statik- oder individuelle Nutzungseignungsprüfung."
+      ],
+      "dimensions": {
+        "width": 1000,
+        "height": 930,
+        "unit": "px",
+        "viewBox": "0 0 1000 930"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen; bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
+    },
+    {
+      "src": "assets/images/angebotsvergleich.svg",
+      "alt": "Drei Angebotsblöcke A, B und C: Leistungen, Zusatzarbeiten, Wartung und Bedingungen jeweils auf gleicher Grundlage prüfen.",
+      "caption": "KI-Illustration · schematisch. Neutrales Prüfraster für drei Angebote, ohne Anbieter, Preise oder Bewertungen.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / OpenAI",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css.",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für Portalstartseite und Ratgeber des Projekts vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, realer Kunde, Produktreferenz oder Fachplanung."
+      },
+      "limitations": [
+        "Kein tatsächlicher Markt-, Preis- oder Anbietervergleich.",
+        "Keine Bewertung und keine Aussage über Vollständigkeit eines individuellen Angebots."
+      ],
+      "dimensions": {
+        "width": 1000,
+        "height": 940,
+        "unit": "px",
+        "viewBox": "0 0 1000 940"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen; bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
+    },
+    {
+      "src": "assets/images/bad-planung.svg",
+      "alt": "Schematisches Bad mit Duschzugang, möglicher Haltestelle und gestricheltem Bewegungsraum als Planungsfragen ohne Normmaße.",
+      "caption": "KI-Illustration · schematisch. Duschzugang, Halt und Bewegungsraum als Fragen für die Fachplanung; die Freiraumfläche ist kein Normmaß.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / OpenAI",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css.",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für Portalstartseite und Ratgeber des Projekts vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, realer Kunde, Produktreferenz oder Fachplanung."
+      },
+      "limitations": [
+        "Nicht maßstäblich und keine normgerechte Badplanung.",
+        "Keine Aussage zu geeigneten Griffpositionen, Wandtragfähigkeit, Abdichtung, Gefälle oder tatsächlicher Zugänglichkeit.",
+        "Gestrichelte Fläche ist ein Orientierungssymbol, keine vorgeschriebene Bewegungsfläche."
+      ],
+      "dimensions": {
+        "width": 1000,
+        "height": 930,
+        "unit": "px",
+        "viewBox": "0 0 1000 930"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen; bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
+    },
+    {
+      "src": "assets/images/foerderablauf.svg",
+      "alt": "Vier Schritte zur Förderorientierung: Voraussetzungen, Angebot und Antrag nach Programmregeln, Entscheidung, dann Umsetzung unter den geltenden Freigaben.",
+      "caption": "KI-Illustration · schematisch. Vereinfachter Förderablauf. Antrag, Auftragszeitpunkt, Freigaben und Nachweise richten sich nach dem konkreten Programm.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / OpenAI",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css.",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für Portalstartseite und Ratgeber des Projekts vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, realer Kunde, Produktreferenz oder Fachplanung."
+      },
+      "limitations": [
+        "Keine universelle Antrags-, Auftrags- oder Wartepflicht behauptet; verbindlich sind die Regeln des konkreten Programms.",
+        "Keine Aussage über Förderfähigkeit, Mittelverfügbarkeit, Zuschusshöhe oder Bewilligung.",
+        "Vereinfachte Orientierung; besondere Programmabläufe und Ausnahmen sind nicht vollständig dargestellt."
+      ],
+      "dimensions": {
+        "width": 1000,
+        "height": 1090,
+        "unit": "px",
+        "viewBox": "0 0 1000 1090"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen; bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
+    }
+  ]
+}

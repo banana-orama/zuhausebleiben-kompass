@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" width="980" height="720" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Aufbau eines vergleichbaren Treppenlift-Angebots mit Beispielwerten</title>
+  <desc id="gdesc">Zwei beispielhafte Angebote mit den Positionen Geraet, Schiene, Montage, Lieferung, Zwischensumme und jaehrlicher Wartung. Hinweise: Jede Position einzeln ausweisen, Festpreis vereinbaren, Wartung und Stoerungsdienst mitschreiben. Alle Betraege sind erfundene Beispielwerte.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .cardhead{font-size:17px;font-weight:700;fill:#194533}
+    .cardsub{font-size:12px;fill:#53655e}
+    .row{font-size:15px}
+    .val{font-size:15px;font-weight:600;fill:#194533}
+    .sum{font-size:17px;font-weight:700;fill:#194533}
+    .hint{font-size:13px;fill:#243b35}
+    .foot{font-size:12px;fill:#53655e}
+    .num{font-size:14px;font-weight:700;fill:#ffffff}
+  </style>
+  <rect width="980" height="720" fill="#ffffff"/>
+  <text class="t h" x="60" y="48">Angebote vergleichen: So ist ein Angebot aufgebaut</text>
+  <text class="t sub" x="60" y="74">Zwei Beispielangebote mit derselben Struktur. Alle Betraege sind erfundene Beispielwerte — keine Marktdaten.</text>
+
+  <!-- Card A -->
+  <rect x="60" y="96" width="400" height="360" rx="10" fill="#ffffff" stroke="#d8dfd6"/>
+  <text class="t cardhead" x="84" y="130">Angebot A — gerade Treppe</text>
+  <text class="t cardsub" x="84" y="150">Beispielwerte, frei erfunden</text>
+  <line x1="84" y1="164" x2="436" y2="164" stroke="#d8dfd6"/>
+  <text class="t row" x="84" y="192">Gerät (Sitzlift, Beispiel)</text>
+  <text class="t val" x="436" y="192" text-anchor="end">3.450 €</text>
+  <line x1="84" y1="206" x2="436" y2="206" stroke="#eae4d5"/>
+  <text class="t row" x="84" y="230">Schiene inkl. Fertigung</text>
+  <text class="t val" x="436" y="230" text-anchor="end">980 €</text>
+  <line x1="84" y1="244" x2="436" y2="244" stroke="#eae4d5"/>
+  <text class="t row" x="84" y="268">Montage</text>
+  <text class="t val" x="436" y="268" text-anchor="end">150 €</text>
+  <line x1="84" y1="282" x2="436" y2="282" stroke="#eae4d5"/>
+  <text class="t row" x="84" y="306">Lieferung und Logistik</text>
+  <text class="t val" x="436" y="306" text-anchor="end">90 €</text>
+  <rect x="72" y="322" width="376" height="42" rx="8" fill="#e8ede5"/>
+  <text class="t sum" x="84" y="349">Zwischensumme</text>
+  <text class="t sum" x="436" y="349" text-anchor="end">4.670 €</text>
+  <text class="t row" x="84" y="396">Wartung pro Jahr</text>
+  <text class="t val" x="436" y="396" text-anchor="end">130 €</text>
+  <text class="t cardsub" x="84" y="422">Intervalle und Zusatzkosten im Vertrag festhalten</text>
+
+  <!-- Card B -->
+  <rect x="520" y="96" width="400" height="360" rx="10" fill="#ffffff" stroke="#d8dfd6"/>
+  <text class="t cardhead" x="544" y="130">Angebot B — Kurventreppe</text>
+  <text class="t cardsub" x="544" y="150">Beispielwerte, frei erfunden</text>
+  <line x1="544" y1="164" x2="896" y2="164" stroke="#d8dfd6"/>
+  <text class="t row" x="544" y="192">Gerät (Kurvensitzlift, Beispiel)</text>
+  <text class="t val" x="896" y="192" text-anchor="end">13.900 €</text>
+  <line x1="544" y1="206" x2="896" y2="206" stroke="#eae4d5"/>
+  <text class="t row" x="544" y="230">Schiene, individuell gefertigt</text>
+  <text class="t val" x="896" y="230" text-anchor="end">2.750 €</text>
+  <line x1="544" y1="244" x2="896" y2="244" stroke="#eae4d5"/>
+  <text class="t row" x="544" y="268">Montage</text>
+  <text class="t val" x="896" y="268" text-anchor="end">450 €</text>
+  <line x1="544" y1="282" x2="896" y2="282" stroke="#eae4d5"/>
+  <text class="t row" x="544" y="306">Lieferung und Logistik</text>
+  <text class="t val" x="896" y="306" text-anchor="end">190 €</text>
+  <rect x="532" y="322" width="376" height="42" rx="8" fill="#e8ede5"/>
+  <text class="t sum" x="544" y="349">Zwischensumme</text>
+  <text class="t sum" x="896" y="349" text-anchor="end">17.290 €</text>
+  <text class="t row" x="544" y="396">Wartung pro Jahr</text>
+  <text class="t val" x="896" y="396" text-anchor="end">210 €</text>
+  <text class="t cardsub" x="544" y="422">Erreichbarkeit im Störungsfall klären</text>
+
+  <!-- Hint band -->
+  <rect x="60" y="496" width="273" height="104" rx="10" fill="#f7f5ef" stroke="#eae4d5"/>
+  <circle cx="92" cy="530" r="14" fill="#245b47"/>
+  <text class="t num" x="92" y="535" text-anchor="middle">1</text>
+  <text class="t hint" x="116" y="524">Jede Position einzeln</text>
+  <text class="t hint" x="116" y="542">ausweisen lassen — nicht</text>
+  <text class="t hint" x="116" y="560">nur den Endpreis.</text>
+
+  <rect x="353" y="496" width="273" height="104" rx="10" fill="#f7f5ef" stroke="#eae4d5"/>
+  <circle cx="385" cy="530" r="14" fill="#245b47"/>
+  <text class="t num" x="385" y="535" text-anchor="middle">2</text>
+  <text class="t hint" x="409" y="524">Festpreis vereinbaren: beim</text>
+  <text class="t hint" x="409" y="542">Kostenvoranschlag sind bis</text>
+  <text class="t hint" x="409" y="560" fill="#976b22">20 % Überschreitung möglich.</text>
+
+  <rect x="646" y="496" width="273" height="104" rx="10" fill="#f7f5ef" stroke="#eae4d5"/>
+  <circle cx="678" cy="530" r="14" fill="#245b47"/>
+  <text class="t num" x="678" y="535" text-anchor="middle">3</text>
+  <text class="t hint" x="702" y="524">Wartung und Störungsdienst</text>
+  <text class="t hint" x="702" y="542">gleich mitschreiben: Intervalle,</text>
+  <text class="t hint" x="702" y="560">Kosten, Erreichbarkeit.</text>
+
+  <text class="t foot" x="490" y="650" text-anchor="middle">Grafik: ZuhauseBleiben Kompass (eigene Darstellung, KI-unterstützt erstellt) · Schema-Grafik mit erfundenen Beispielwerten</text>
+  <text class="t foot" x="490" y="670" text-anchor="middle">Keine Marktdaten, keine Preisempfehlung · Festpreis-/Wartungshinweise: Verbraucherzentrale, Stand 14.10.2026</text>
+</svg>
