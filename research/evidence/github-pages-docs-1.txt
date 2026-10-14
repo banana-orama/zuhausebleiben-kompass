@@ -1,0 +1,89 @@
+URL: https://docs.github.com/de/pages/getting-started-with-github-pages/about-github-pages
+ABRUF: 2026-10-14
+---
+Skip to main content
+
+Einige Teile dieser Seite wurden möglicherweise mit KI oder maschinell übersetzt.
+
+Skip to content
+GitHub Docs
+Wählen Sie Ihren Plan aus:
+Free, Pro, & Team
+Suchen oder Fragen Sie Copilot
+/
+Deutsch
+Registrieren
+StartseiteGitHub PagesErste SchritteWas ist GitHub Pages?
+GitHub Pages
+Schnellstart
+Erste Schritte
+Was ist GitHub Pages?
+Erstellen einer GitHub Pages-Seite
+GitHub Seitenbeschränkungen
+Verwenden benutzerdefinierter Workflows
+Konfigurieren der Veröffentlichungsquelle
+Löschen einer GitHub Pages-Seite
+Veröffentlichung der Pages-Website aufheben
+Erstellen einer benutzerdefinierten 404-Seite
+Schützen der Website mit HTTPS
+Verwenden von Submodulen mit Pages
+Behandeln von Fehlern vom Typ „404“
+Einrichten einer Website mit Jekyll
+Konfigurieren einer benutzerdefinierten Domäne
+Was ist GitHub Pages?
+
+Sie können GitHub Pages verwenden, um eine Website über sich selbst, Ihre Organisation oder Ihr Projekt direkt aus einem Repository auf GitHub zu hosten.
+
+Markdown kopieren
+Wer kann dieses Feature verwenden?
+
+GitHub Pages ist in öffentlichen Repositorys mit GitHub Free und GitHub Free für Organisationen sowie in öffentlichen und privaten Repositorys mit GitHub Pro, GitHub Team, GitHub Enterprise Cloud und GitHub Enterprise Server verfügbar. Siehe Pläne von GitHub.
+
+IN DIESEM ARTIKEL
+Informationen zum GitHub Pages
+GitHub Pages Websitetypen
+Datensammlung
+Weiterführende Lektüre
+Informationen zum GitHub Pages
+
+GitHub Pages ist ein statischer Websitehostingdienst, der HTML-, CSS- und JavaScript-Dateien direkt aus einem Repository GitHubverwendet, optional die Dateien über einen Buildprozess ausführt und eine Website veröffentlicht. Beispiele für GitHub Pages Websites finden Sie in der GitHub Pages Beispielsammlung.
+
+GitHub Pages Websitetypen
+
+Es gibt zwei Arten von GitHub Pages Websites. Websites, die einem Benutzer- oder Organisationskonto zugeordnet sind, und Websites für ein bestimmtes Projekt.
+
+Eigenschaft	Benutzer- und Organisationswebsites	Projektwebsites
+Quelldateien	Muss in einem Repository namens <owner>.github.io gespeichert werden, wobei <owner> der Name des persönlichen Kontos oder des Organisationskontos ist	In einem Ordner innerhalb des Repositorys gespeichert, das den Code des Projekts enthält
+Grenzwerte	Maximal eine Pages-Website pro Konto	Maximal eine Pages-Website pro Repository
+Standardort der Website	http(s)://<owner>.github.io	http(s)://<owner>.github.io/<repositoryname>
+Hosten in deiner eigenen benutzerdefinierten Domäne
+
+Sie können Ihre Website in GitHubder github.io Domäne oder ihrer eigenen benutzerdefinierten Domäne hosten. Weitere Informationen findest du unter Konfigurieren einer benutzerdefinierten Domäne für Ihre GitHub Seitenwebsite.
+
+Datensammlung
+
+Wenn eine GitHub Pages Website besucht wird, wird die IP-Adresse des Besuchers für Sicherheitszwecke protokolliert und gespeichert, unabhängig davon, ob sich der Besucher angemeldet GitHub hat oder nicht. Weitere Informationen zu GitHubden Sicherheitspraktiken finden Sie in GitHub den Datenschutzbestimmungen.
+
+Weiterführende Lektüre
+GitHub Pages Auf GitHub Skills
+REST-API-Endpunkte für Repositorys
+Eine Veröffentlichungsquelle für deine GitHub Pages-Website konfigurieren*Informationen zu benutzerdefinierten Domänen und GitHub Seiten
+
+Einige dieser Inhalte können maschinell oder mit KI übersetzt sein.
+
+Zurück nach oben
+Hilfe und Support
+War dieses Dokument hilfreich?
+JaNein
+BENÖTIGST DU WEITERE HILFE?
+Fragen Sie die GitHub Community
+Support kontaktieren
+Experten-Dienstleistungen
+Blog
+
+GITHUB INC. © 2026
+Impressum
+Begriffe
+Datenschutz
+Status
+Preise

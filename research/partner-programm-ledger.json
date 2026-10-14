@@ -130,6 +130,70 @@
           "added": "2026-10-14"
         }
       ]
+    },
+    {
+      "id": 9,
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679",
+      "title": "DSGVO (VO (EU) 2016/679) konsolidiert, EUR-Lex DE",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "den Namen und die Kontaktdaten des Verantwortlichen sowie gegebenenfalls seines Vertreters;",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.ldi.nrw.de",
+      "title": "LDI NRW: Landesbeauftragter für Datenschutz und Informationsfreiheit",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "LDI - Landesbeauftragte für Datenschutz und Informationsfreihei",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://docs.github.com/de/pages/getting-started-with-github-pages/what-is-github-pages",
+      "title": "GitHub Docs: Was ist GitHub Pages?",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "Sie können GitHub Pages verwenden, um eine Website über sich selbst, Ihre Organisation oder Ihr Projekt direkt aus einem Repository auf GitHub zu hosten.",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement",
+      "title": "GitHub Datenschutzerklärung (General Privacy Statement, DE)",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "Website-Nutzungsdaten: Wir protokollieren automatisch Daten über Ihre Website-Interaktionen, einschließlich der verweisenden Website, Datum und Uhrzeit des Besuchs, der aufgerufenen Seiten und der angeklickten Links.",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Weitere Informationen zum Datenschutzgrundsatz (DPF)-Programm und zum Anzeigen unserer Zertifizierung finden Sie unter https",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://webgo.de/datenschutz",
+      "title": "webgo GmbH Datenschutzerklärung",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "werden zunächst technische Informationen, wie Informationen zum Browser und Ihrem System, als auch Ihre IP-Adresse und Zeitpunkt des Abrufs erhoben.",
+          "added": "2026-10-14"
+        }
+      ]
     }
   ]
 }
