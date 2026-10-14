@@ -1,201 +1,35 @@
-// ZuhauseBleiben-Kompass — Seitengenerator
-// Aus data/content.json -> statische Seiten in dist/ (GitHub-Pages-kompatibel)
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
-import { join, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
-
-const ROOT = dirname(fileURLToPath(import.meta.url));
-const OUT = join(ROOT, "dist");
-const C = JSON.parse(readFileSync(join(ROOT, "data/content.json"), "utf8"));
-const B = C.brand;
-
-const esc = (s) => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-const url = (p="/") => `${B.base_url}${p}`;
-const STAND = esc(B.stand);
-
-const FORM = `
-<section class="leadbox" id="angebote">
-  <h2>Kostenlose Angebote einholen</h2>
-  <p>Unverbindlich &amp; kostenlos: Passende Fachbetriebe aus deiner Region melden sich mit Angebot — max. 3, kein Telefonterror.</p>
-  <form class="leadform" method="POST" action="${esc(B.form_endpoint)}">
-    <input type="hidden" name="_subject" value="Neuer Lead: ZuhauseBleiben Kompass">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="_honey" style="display:none">
-    <input type="hidden" name="quelle" value="portal">
-    <label>PLZ <input name="plz" required pattern="[0-9]{5}" inputmode="numeric" placeholder="z. B. 44135"></label>
-    <label>Bundesland
-      <select name="bundesland" required>
-        <option>Baden-Württemberg</option><option>Bayern</option><option>Berlin</option><option>Brandenburg</option>
-        <option>Bremen</option><option>Hamburg</option><option>Hessen</option><option>Mecklenburg-Vorpommern</option>
-        <option>Niedersachsen</option><option>Nordrhein-Westfalen</option><option>Rheinland-Pfalz</option>
-        <option>Saarland</option><option>Sachsen</option><option>Sachsen-Anhalt</option>
-        <option>Schleswig-Holstein</option><option>Thüringen</option>
-      </select>
-    </label>
-    <label>Was brauchst du?
-      <select name="thema" required>
-        <option>Treppenlift</option>
-        <option>Barrierefreier Bad-Umbau</option>
-        <option>Beides / Wohnraumanpassung komplett</option>
-        <option>Noch unklar — erst beraten lassen</option>
-      </select>
-    </label>
-    <label>Pflegegrad vorhanden? 
-      <select name="pflegegrad">
-        <option>Ja</option><option>Nein, aber Antrag läuft</option><option>Nein</option><option>Weiß nicht</option>
-      </select>
-    </label>
-    <label>Zeitpunkt
-      <select name="zeitpunkt">
-        <option>So schnell wie möglich</option><option>In 1–3 Monaten</option><option>Nur erst informieren</option>
-      </select>
-    </label>
-    <label>Kürze deine Situation (optional) <textarea name="nachricht" rows="3" placeholder="z. B. Gerade Treppe, 13 Stufen, für meine Mutter (79)"></textarea></label>
-    <label class="consent"><input type="checkbox" required> Ich stimme zu, dass meine Anfrage an passende Fachbetriebe weitergegeben wird. <a href="/datenschutz.html">Datenschutz</a></label>
-    <button type="submit">Angebote anfordern — kostenlos</button>
-    <p class="tiny">Ohne Pflegegrad? Kein Problem — die Betriebe beraten auch zur Pflegegrad-Beantragung.</p>
-  </form>
-</section>`;
-
-const CSS = `
-:root{--bg:#fbf9f6;--card:#ffffff;--txt:#26303b;--mut:#5b6b7a;--acc:#0e7a5f;--acc2:#c2571b;--line:#e4ddd2}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:18px/1.7 Georgia,'Times New Roman',serif}
-a{color:var(--acc)}a:hover{text-decoration:underline}
-header{background:var(--card);border-bottom:2px solid var(--line);padding:14px 20px;display:flex;gap:18px;align-items:baseline;flex-wrap:wrap}
-.brand{font-size:21px;font-weight:700;color:var(--acc);text-decoration:none}
-nav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap}nav a{color:var(--mut);text-decoration:none;font-size:16px}
-main{max-width:760px;margin:0 auto;padding:26px 20px 70px}
-h1{font-size:33px;line-height:1.25;margin:14px 0 10px}h2{font-size:24px;margin:34px 0 8px}
-p{margin:10px 0}.lead{font-size:20px;color:var(--mut)}
-.notice{background:#fdf3e7;border:1px solid #eccfa8;border-radius:10px;padding:12px 16px;margin:16px 0}
-.okbox{background:#eef7f2;border:1px solid #bfe0d2;border-radius:10px;padding:12px 16px;margin:16px 0}
-.leadbox{background:var(--card);border:2px solid var(--acc);border-radius:14px;padding:22px;margin:34px 0}
-.leadbox h2{margin-top:0}
-.leadform label{display:block;margin:12px 0;font-weight:700}
-.leadform input,.leadform select,.leadform textarea{width:100%;padding:10px;font:inherit;margin-top:4px;border:1px solid var(--line);border-radius:8px;background:#fff}
-.leadform .consent{font-weight:400;font-size:15px}
-.leadform button{background:var(--acc);color:#fff;border:0;border-radius:10px;padding:14px 22px;font-size:19px;width:100%;margin-top:10px;cursor:pointer}
-.tiny{font-size:14px;color:var(--mut)}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin:18px 0}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
-.card h3{margin:0 0 6px;font-size:19px}.card h3 a{color:var(--txt)}
-.card p{color:var(--mut);font-size:15.5px;margin:4px 0 0}
-footer{border-top:2px solid var(--line);background:var(--card);padding:20px;margin-top:40px}
-footer .wrap{max-width:760px;margin:0 auto;color:var(--mut);font-size:15px}
-.pill{display:inline-block;background:#eef7f2;color:var(--acc);border-radius:999px;padding:2px 12px;font-size:15px;margin:0 6px 8px 0}
-table{width:100%;border-collapse:collapse;margin:14px 0;background:var(--card)}td,th{border:1px solid var(--line);padding:9px 12px;text-align:left}th{background:#f2ede4}
-`;
-
-function layout(title, desc, body, path) {
-  return `<!doctype html>
-<html lang="de">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(title)}</title><meta name="description" content="${esc(desc)}">
-<link rel="canonical" href="${esc(url(path))}">
-<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}">
-<style>${CSS}</style>
-</head>
-<body>
-<header>
-  <a class="brand" href="/">ZuhauseBleiben Kompass</a>
-  <nav>
-    <a href="/treppenlift-kosten.html">Kosten</a>
-    <a href="/treppenlift-zuschuss.html">Zuschüsse</a>
-    <a href="/bad-umbau-barrierefrei.html">Bad-Umbau</a>
-    <a href="/regional.html">Region</a>
-    <a href="/#angebote">Angebote</a>
-  </nav>
-</header>
-<main>${body}</main>
-<footer><div class="wrap">
-  <p><strong>ZuhauseBleiben Kompass</strong> — unabhängiger Ratgeber. Stand: ${STAND}. Alle Angaben ohne Gewähr; maßgeblich sind die Auskünfte der Kostenträger und KfW.</p>
-  <p><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a> · <a href="/rss.xml">RSS</a></p>
-</div></footer>
-</body></html>`;
-}
-
-const pages = [];
-
-/* Index */
-pages.push({ path: "index.html", title: `${B.name} — ${B.claim}`, desc: B.description, body: `
-<h1>Treppenlift &amp; barrierefreier Umbau — ohne Verwirrung.</h1>
-<p class="lead">${esc(B.description)}</p>
-<div class="okbox"><strong>🟢 Pflegekasse zahlt aktuell zuverlässig: bis 4.180 € Zuschuss</strong> für Treppenlift &amp; Bad-Umbau (§ 40 SGB XI, ab Pflegegrad 1). <a href="/treppenlift-zuschuss.html">So bekommst du ihn →</a></div>
-<div class="notice"><strong>🔴 KfW 455-B „Altersgerecht Umbauen“: seit 31.07.2026 geschlossen</strong> — Bundesmittel erschöpft. Viele Portale bewerben ihn noch. Wir prüfen wöchentlich, ob er wieder öffnet.</div>
-<h2>Die wichtigsten Fragen</h2>
-<div class="cards">
-${C.pages.filter(p=>p.type==="article").map(p=>`<div class="card"><h3><a href="/${p.slug}.html">${esc(p.h1.split(":")[0])}</a></h3><p>${esc(p.description.slice(0,110))}…</p></div>`).join("\n")}
-<div class="card"><h3><a href="/regional.html">Regionale Betriebe</a></h3><p>Fachbetriebe &amp; Landesförderung — nach Bundesland.</p></div>
-</div>
-${FORM}
-`});
-
-/* Artikel */
-for (const p of C.pages.filter(p=>p.type==="article")) {
-  const body = `<h1>${esc(p.h1)}</h1><p class="lead">Stand: ${STAND} · von uns wöchentlich geprüft</p>` +
-    p.sections.map(s=>`<h2>${esc(s.h2)}</h2>` + s.p.map(t=>`<p>${t}</p>`).join("")).join("\n") + FORM;
-  pages.push({ path: `${p.slug}.html`, title: p.title, desc: p.description, body });
-}
-
-/* Regional */
-const reg = C.pages.find(p=>p.type==="regional");
-pages.push({ path: "regional.html", title: reg.title, desc: reg.description, body: `
-<h1>${esc(reg.h1)}</h1>
-<p class="lead">Wähle dein Bundesland — wir zeigen Förderprogramme und vermitteln Fachbetriebe aus deiner Region.</p>
-<div class="cards">
-${reg.regions.map(r=>`<div class="card"><h3><a href="/region/${r.slug}.html">${esc(r.name)}</a></h3><p>Treppenlift &amp; Bad-Umbau in ${esc(r.name)}: Betriebe, Landesförderung, Pflegekassen-Zuschuss.</p></div>`).join("\n")}
-</div>${FORM}`});
-
-for (const r of reg.regions) {
-  pages.push({ path: `region/${r.slug}.html`, title: `Treppenlift ${r.name}: Kosten, Förderung, Fachbetriebe (${B.stand})`,
-    desc: `Treppenlift & barrierefreier Bad-Umbau in ${r.name}: Pflegekasse zahlt bis 4.180 €, Landesprogramme, kostenlose Angebote von regionalen Fachbetrieben.`,
-    body: `
-<h1>Treppenlift &amp; Barrierefrei-Umbau in ${esc(r.name)}</h1>
-<p class="lead">Der Pflegekassen-Zuschuss (bis 4.180 €, ab Pflegegrad 1) gilt bundesweit — auch in ${esc(r.name)}. Zusätzlich gibt es in vielen Bundesländern eigene Programme; die aktuellen Konditionen für ${esc(r.name)} liefert die Angebotsanfrage gleich mit.</p>
-<div class="okbox"><strong>Kostenlose Angebote aus ${esc(r.name)}:</strong> Fachbetriebe mit Barrierefrei-Erfahrung, max. 3 Angebote, unverbindlich.</div>
-${FORM}`});
-}
-
-/* Impressum & Datenschutz als Platzhalter (Muss vom Nutzer finalisiert werden) */
-pages.push({ path: "impressum.html", title: "Impressum", desc: "Impressum", body: `
-<h1>Impressum</h1>
-<div class="notice"><strong>Platzhalter — vor Live-Schaltung durch echte Betreiberdaten ersetzen (Rechtspflicht!).</strong></div>
-<p>Angaben gemäß § 5 TMG / § 18 MStV:<br>[Name / Firma]<br>[Adresse]<br>[E-Mail]</p>`});
-pages.push({ path: "datenschutz.html", title: "Datenschutzerklärung", desc: "Datenschutzerklärung", body: `
-<h1>Datenschutzerklärung</h1>
-<div class="notice"><strong>Platzhalter — vor Live-Schaltung finalisieren.</strong> Kernpunkte der Endversion: Verantwortlicher, Zweck der Lead-Weitergabe an Fachbetriebe, Rechtsgrundlage Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), Widerrufsrecht, Empfänger, Speicherdauer, Kontaktformular-Dienstleister (Formspree/Alternative) mit AVV.</div>
-<p>Es gelten diestandardmäßigen Pflichtangaben nach DSGVO. Diese Seite verwendet kein Tracking, keine Cookies, keine externen Analyse-Skripte.</p>`});
-
-/* RSS (Status-Updates Förderung) */
-pages.push({ path: "rss.xml", raw: `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel>
-<title>ZuhauseBleiben Kompass — Förder-Status</title>
-<link>${url("/")}</link>
-<description>Aktuelle Zuschüsse für Treppenlift &amp; Barrierefrei-Umbau: Pflegekasse, KfW-Status, Länder.</description>
-<language>de</language>
-<pubDate>${new Date().toUTCString()}</pubDate>
-<item><title>Pflegekasse: 4.180 € Wohnraumanpassung weiter zuverlässig verfügbar</title><link>${url("/treppenlift-zuschuss.html")}</link><guid>${url("/treppenlift-zuschuss.html")}#p1</guid><pubDate>${new Date().toUTCString()}</pubDate><description>Bis 4.180 € Zuschuss ab Pflegegrad 1 (§ 40 Abs. 4 SGB XI). Antrag vor Kauf stellen.</description></item>
-<item><title>KfW 455-B bleibt geschlossen — Bundesmittel erschöpft</title><link>${url("/treppenlift-zuschuss.html")}</link><guid>${url("/treppenlift-zuschuss.html")}#k1</guid><pubDate>${new Date().toUTCString()}</pubDate><description>Seit 31.07.2026 keine neuen Anträge möglich. Laufende Zusagen bleiben gültig.</description></item>
-</channel></rss>`});
-
-/* Sitemap */
-const slugs = ["/", ...C.pages.filter(p=>p.type==="article").map(p=>`/${p.slug}.html`), "/regional.html", ...reg.regions.map(r=>`/region/${r.slug}.html`), "/impressum.html", "/datenschutz.html"];
-pages.push({ path: "sitemap.xml", raw: `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${slugs.map(s=>`  <url><loc>${url(s)}</loc></url>`).join("\n")}
-</urlset>`});
-
-/* robots */
-pages.push({ path: "robots.txt", raw: `User-agent: *\nAllow: /\nSitemap: ${url("/sitemap.xml")}\n` });
-
-/* write */
-mkdirSync(OUT, { recursive: true });
-writeFileSync(join(OUT, ".nojekyll"), "", "utf8");
-for (const pg of pages) {
-  const fp = join(OUT, pg.path);
-  mkdirSync(dirname(fp), { recursive: true });
-  writeFileSync(fp, pg.raw ?? layout(pg.title, pg.desc, pg.body, "/" + pg.path.replace("index.html","")), "utf8");
-}
-console.log(`OK: ${pages.length} Seiten gebaut (davon ${reg.regions.length} Regional-Landingpages).`);
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {join,dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+const ROOT=dirname(fileURLToPath(import.meta.url)), OUT=join(ROOT,'dist');
+const C=JSON.parse(readFileSync(join(ROOT,'data/content.json'),'utf8')), B=C.brand;
+const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const url=(p='/')=>B.base_url.replace(/\/$/,'')+p;
+const CSS=readFileSync(join(ROOT,'design.css'),'utf8');
+const FORM=`<section class="prelaunch" id="angebote" aria-labelledby="request-title"><div><span class="eyebrow">Transparent von Anfang an</span><h2 id="request-title">Erst informieren.<br>Dann in Ruhe entscheiden.</h2></div><div><p>Unser Ratgeber befindet sich im Aufbau. Eine Angebotsvermittlung ist noch nicht verfügbar. Wir nehmen deshalb derzeit keine Kontaktdaten oder Angaben zur Pflegebedürftigkeit entgegen.</p><p>Nutzen Sie unsere Ratgeber, um Fragen für ein Gespräch mit einem Fachbetrieb vorzubereiten.</p><a href="${url('/treppenlift-firmen-vergleich.html')}">Worauf Sie bei Anbietern achten sollten →</a></div></section>`;
+const mark=`<svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 23 24 8l17 15M12 20v21h24V20M20 41V28h8v13"/><path d="m16 19 8-7 8 7"/></svg>`;
+function layout(title,desc,body,path,home=false){return `<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${esc(url(path))}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><style>${CSS}</style></head><body><a class="skip" href="#inhalt">Direkt zum Inhalt</a><div class="topline">Orientierung für ältere Menschen und ihre Angehörigen · Ratgeber im Aufbau</div><header><a class="brand" href="${url('/')}">${mark}<span>ZuhauseBleiben<small>Der Umbau-Kompass</small></span></a><nav aria-label="Hauptnavigation"><a href="${url('/treppenlift-kosten.html')}">Treppenlift</a><a href="${url('/bad-umbau-barrierefrei.html')}">Bad-Umbau</a><a href="${url('/treppenlift-zuschuss.html')}">Förderung</a><a href="${url('/#ueber-uns')}">Über uns</a></nav></header><main id="inhalt">${home?body:`<div class="article-body">${body}</div>`}</main><footer><div class="footer-inner"><div><span class="footer-title">Ein Zuhause, das zu Ihrem Leben passt.</span><p style="margin-top:14px">ZuhauseBleiben Kompass bietet eine erste Orientierung zu Treppenliften und barrierearmem Umbau. Keine technische, medizinische oder rechtliche Einzelfallberatung.</p></div><div><p>Dieser Internetauftritt ist eine Vorschau. Betreiberangaben, Datenschutzinformationen und Vermittlungspartner sind noch nicht vollständig eingerichtet. Die Anfragefunktion ist deaktiviert.</p><div class="footer-links"><a href="${url('/impressum.html')}">Impressum</a><a href="${url('/datenschutz.html')}">Datenschutz</a><a href="${url('/#ueber-uns')}">Transparenz</a></div></div></div></footer></body></html>`;}
+const pages=[];
+const guideData=[['treppenlift-kosten','Was kostet ein Treppenlift?','Welche Faktoren den Preis bestimmen und was Sie vor einem Angebot klären sollten.'],['treppenlift-zuschuss','Welche Förderung kommt infrage?','Pflegekasse und KfW: Voraussetzungen verstehen und den aktuellen Stand selbst prüfen.'],['bad-umbau-barrierefrei','Wie wird das Bad leichter nutzbar?','Eine erste Orientierung zu Dusche, Bewegungsflächen und Umbauplanung.'],['treppenlift-firmen-vergleich','Wie vergleiche ich Anbieter?','Die richtigen Fragen zu Aufmaß, Wartung, Garantie und einem nachvollziehbaren Angebot.']];
+const sources=`<div class="source-note">Förderbedingungen können sich ändern. Maßgeblich sind die aktuellen Informationen der <a href="https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/">KfW</a> und die Entscheidung des zuständigen Kostenträgers. <a href="https://www.gesetze-im-internet.de/sgb_11/__40.html">§ 40 SGB XI im Original lesen</a>.</div>`;
+pages.push({path:'index.html',title:'ZuhauseBleiben Kompass — In vertrauter Umgebung leben',desc:'Verständliche Orientierung zu Treppenliften, barrierearmem Bad-Umbau und Förderung. Für ältere Menschen und ihre Angehörigen.',home:true,body:`<section class="hero"><div><span class="eyebrow">Zuhause bleiben. Gut vorbereitet.</span><h1>Vertrautes Zuhause.<br>Neue Möglichkeiten.</h1><p class="hero-copy">Wenn Treppen oder das Bad im Alltag zur Hürde werden, entstehen viele Fragen. Wir helfen Ihnen, Kosten, Umbauoptionen und Förderung verständlich einzuordnen — Schritt für Schritt und ohne Entscheidungsdruck.</p><div class="actions"><a class="button" href="#orientierung">Den passenden Ratgeber finden</a><a class="text-link" href="${url('/treppenlift-zuschuss.html')}">Förderung verstehen →</a></div><p class="fine">Für Sie selbst, Ihre Eltern oder andere Angehörige.</p></div><aside class="hero-aside" aria-label="Orientierung in drei Schritten"><span class="eyebrow">Ein guter Anfang</span><h2>Sie müssen nicht alles auf einmal entscheiden.</h2><ol class="journey"><li><div><strong>Was soll leichter werden?</strong>Die Treppe, das Bad oder der Zugang zum Haus.</div></li><li><div><strong>Was kommt infrage?</strong>Möglichkeiten, Kosten und Förderbedingungen kennenlernen.</div></li><li><div><strong>Was ist vor Ort machbar?</strong>Die konkrete Lösung mit einem Fachbetrieb prüfen.</div></li></ol></aside></section><div class="trustline"><span>Verständliche Orientierung</span><span>Keine Fördergarantien</span><span>Derzeit keine Datenerfassung</span></div><section class="section" id="orientierung"><div class="section-head"><div><span class="eyebrow">Womit möchten Sie beginnen?</span><h2>Antworten auf die ersten Fragen.</h2></div><p>Sie entscheiden, welches Thema gerade wichtig ist. Unsere Ratgeber geben Ihnen einen Einstieg.</p></div><div class="guides">${guideData.map(([slug,title,desc],i)=>`<a class="guide" href="${url('/'+slug+'.html')}"><span class="num">0${i+1} · RATGEBER</span><h3>${title}</h3><p>${desc}</p><span class="arrow" aria-hidden="true">↗</span></a>`).join('')}</div></section><section class="section"><div class="section-head"><div><span class="eyebrow">Förderung mit Augenmaß</span><h2>Möglichkeiten kennen.<br>Voraussetzungen prüfen.</h2></div><p>Ein Zuschuss ist kein Automatismus. Prüfen Sie die Bedingungen, bevor Sie einen Auftrag vergeben.</p></div><div class="funding"><div class="funding-item"><span class="label">Wohnumfeldverbesserung</span><h3>Unterstützung durch die Pflegekasse</h3><p>Für bestimmte Maßnahmen kann bei Pflegebedürftigkeit ein Zuschuss infrage kommen. Ob Ihr Vorhaben gefördert wird, entscheidet die zuständige Pflegekasse.</p><a href="https://www.gesetze-im-internet.de/sgb_11/__40.html">Gesetzliche Grundlage ansehen ↗</a></div><div class="funding-item"><span class="label caution">Verfügbarkeit prüfen</span><h3>KfW: Kredit und Zuschuss unterscheiden</h3><p>Förderprogramme haben unterschiedliche Voraussetzungen. Zuschussmittel können begrenzt sein; informieren Sie sich vor der Planung direkt bei der KfW.</p><a href="https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/">Aktuelle KfW-Informationen ↗</a></div></div></section><section class="section" id="ueber-uns"><div class="section-head"><div><span class="eyebrow">Wie wir arbeiten</span><h2>Vertrauen braucht Klarheit.</h2></div><p>Wir sind kein Hersteller, kein Kostenträger und keine öffentliche Beratungsstelle.</p></div><p style="max-width:750px">ZuhauseBleiben Kompass ist ein neu aufgebautes Ratgeberprojekt. Die Inhalte werden mit KI-Unterstützung erstellt. Sie bieten eine erste Orientierung und ersetzen keine individuelle Prüfung. Wir veröffentlichen keine erfundenen Kundenerfahrungen oder Testsiegel.</p><p style="max-width:750px">Eine spätere Vermittlung an Anbieter ist geplant und kann durch Provisionen finanziert werden. Solange Partner und Datenschutzabläufe nicht eingerichtet sind, gibt es keine Angebotsanfrage.</p></section><section class="section faq"><span class="eyebrow">Häufige Fragen</span><h2 style="margin-top:12px">Gut zu wissen, bevor Sie starten.</h2><details><summary>Kann ich schon Angebote anfordern?</summary><p>Noch nicht. Der Ratgeber ist als Vorschau verfügbar. Wir erfassen derzeit keine Kontaktdaten und vermitteln noch keine Anbieter.</p></details><details><summary>Kann ich mich hier auch für meine Eltern informieren?</summary><p>Ja. Die Ratgeber richten sich ausdrücklich auch an Angehörige. Für die konkrete Planung sollten die Wünsche der betroffenen Person und die Situation vor Ort gemeinsam betrachtet werden.</p></details><details><summary>Ist ein Zuschuss garantiert?</summary><p>Nein. Ein Zuschuss hängt von den Voraussetzungen des Förderprogramms und der Bewilligung ab. Lassen Sie die Förderfähigkeit vor einer Beauftragung beim zuständigen Kostenträger klären.</p></details></section>${FORM}`});
+const editorial={
+ 'treppenlift-kosten':{title:'Treppenlift-Kosten verstehen',sections:[['Was den Preis bestimmt','Treppenverlauf, Anzahl der Etagen, Schienenanfertigung und Ausstattung beeinflussen den Preis. Ein genauer Betrag lässt sich erst nach einer Prüfung der Treppe nennen.'],['Angebote vergleichbar machen','Lassen Sie Schiene, Montage, Wartung, Garantie und mögliche Zusatzkosten getrennt aufführen. Vergleichen Sie den vollständigen Leistungsumfang, nicht nur den Einstiegspreis.'],['Förderung vor der Beauftragung klären','Ein Zuschuss kann den Eigenanteil reduzieren, ist aber nicht garantiert. Klären Sie Bedingungen und Antragstellung beim zuständigen Kostenträger, bevor Sie einen Auftrag vergeben.']]},
+ 'treppenlift-zuschuss':{title:'Förderung für Treppenlift und Umbau',sections:[['Pflegekasse: Voraussetzungen zuerst','Bei Pflegebedürftigkeit kann ein Zuschuss zur Verbesserung des Wohnumfelds infrage kommen. Die Maßnahme muss die gesetzlichen Voraussetzungen erfüllen. Fragen Sie die zuständige Pflegekasse nach Betrag, Unterlagen und Verfahren.'],['KfW: Zuschuss ist nicht gleich Kredit','Die KfW bietet unterschiedliche Förderprodukte an. Ein Kredit muss zurückgezahlt werden. Zuschüsse können von verfügbaren Haushaltsmitteln abhängen. Prüfen Sie den aktuellen Programmstatus direkt bei der KfW.'],['Landesprogramme individuell prüfen','Regionale Programme können zusätzliche Bedingungen vorsehen. Auf dieser Vorschau sind noch keine Landesprogramme abschließend geprüft. Eine Kombination verschiedener Förderungen sollte beim jeweiligen Kostenträger geklärt werden.']]},
+ 'bad-umbau-barrierefrei':{title:'Ein Bad, das den Alltag erleichtert',sections:[['Mit dem Alltag beginnen','Welche Tätigkeiten fallen schwer: der Einstieg in die Wanne, das Stehen beim Duschen oder die Bewegung mit einer Gehhilfe? Diese Fragen helfen, den Umbau auf tatsächliche Bedürfnisse auszurichten.'],['Machbarkeit vor Ort prüfen','Eine bodengleiche Dusche ist nicht in jeder Bestandswohnung ohne größere Eingriffe möglich. Abfluss, Bodenaufbau, Bewegungsflächen und Befestigungen sollten von einem qualifizierten Fachbetrieb geprüft werden.'],['Kosten und Umfang festhalten','Ein Angebot sollte Rückbau, Sanitärarbeiten, Abdichtung, Fliesen und Ausstattung nachvollziehbar aufführen. Vereinbaren Sie schriftlich, welche Leistungen enthalten sind und wie zusätzliche Arbeiten freigegeben werden.']]},
+ 'pflegegrad-beantragen':{title:'Pflegegrad: Wo Sie Unterstützung finden',sections:[['Die richtige Anlaufstelle','Für Fragen zu einem Pflegegrad und zum Antragsverfahren ist die zuständige Pflegekasse beziehungsweise Pflegeversicherung die erste Anlaufstelle. Dieses Portal bietet keine Versicherungsberatung und keine Unterstützung beim Vertragsabschluss.'],['Persönliche Beratung nutzen','Pflegestützpunkte und zuständige Beratungsstellen können beim Verständnis des Verfahrens helfen. Erkundigen Sie sich dort nach passenden Angeboten für Ihre Situation.'],['Keine Einstufung versprechen lassen','Ein Pflegegrad wird nicht durch einen Treppenliftwunsch begründet. Die persönliche Situation wird im vorgesehenen Verfahren geprüft. Vermeiden Sie Angebote, die eine bestimmte Einstufung garantieren.']]},
+ 'treppenlift-firmen-vergleich':{title:'Treppenlift-Anbieter in Ruhe vergleichen',sections:[['Ein nachvollziehbares Angebot verlangen','Fragen Sie nach Aufmaß, Montage, Schienenanfertigung, Lieferzeit und allen Zusatzkosten. Eine belastbare Planung setzt die Prüfung der Situation vor Ort voraus.'],['Auch an die Zeit nach dem Einbau denken','Wer übernimmt Wartung und Reparatur? Wie erreichen Sie den Service? Welche Bedingungen gelten bei Garantie, Umzug und Rückbau? Lassen Sie Zusagen schriftlich festhalten.'],['Ohne Zeitdruck entscheiden','Nehmen Sie sich Zeit für den Vergleich. Auf diesem Portal gibt es noch keine geprüfte Anbieterübersicht und keine Vermittlung. Empfehlungen oder Partnersiegel werden nicht vorgetäuscht.']]}
+};
+for(const p of C.pages.filter(p=>p.type==='article')){const e=editorial[p.slug];p.h1=e.title;p.title=e.title+' — ZuhauseBleiben Kompass';p.description=e.sections[0][1];p.sections=e.sections.map(([h2,text])=>({h2,p:[text]}));}
+for(const p of C.pages.filter(p=>p.type==='article'))pages.push({path:p.slug+'.html',title:p.title,desc:p.description,body:`<a class="fine" href="${url('/')}">Startseite / Ratgeber</a><h1>${esc(p.h1)}</h1><p class="lead">Entwurf zur ersten Orientierung · Inhalte werden vor dem regulären Start fachlich und auf Quellen geprüft.</p><div class="notice"><strong>Hinweis zum Entwurf:</strong> Preisbeispiele und Förderangaben sind nicht verbindlich. Prüfen Sie aktuelle Voraussetzungen bei den offiziellen Stellen. Es werden noch keine Angebote vermittelt.</div>${p.sections.map(s=>`<h2>${esc(s.h2)}</h2>${s.p.map(t=>`<p>${esc(t)}</p>`).join('')}`).join('')}${sources}${FORM}`});
+const reg=C.pages.find(p=>p.type==='regional');
+pages.push({path:'regional.html',title:'Regionale Orientierung — ZuhauseBleiben Kompass',desc:'Regionale Informationen sind in Vorbereitung.',body:`<h1>Orientierung in Ihrer Region.</h1><p class="lead">Eine regionale Anbieterübersicht ist in Vorbereitung. Es bestehen derzeit noch keine Vermittlungsvereinbarungen.</p><div class="cards">${reg.regions.map(r=>`<div class="card"><h3><a href="${url('/region/'+r.slug+'.html')}">${esc(r.name)}</a></h3><p>Informationen in Vorbereitung</p></div>`).join('')}</div>${FORM}`});
+for(const r of reg.regions)pages.push({path:'region/'+r.slug+'.html',title:r.name+' — ZuhauseBleiben Kompass',desc:'Regionale Informationen in Vorbereitung.',body:`<h1>Orientierung für ${esc(r.name)}.</h1><p class="lead">Konkrete Landesprogramme und regionale Anbieter sind noch nicht recherchiert und angebunden. Wir versprechen deshalb keine verfügbaren Fachbetriebe.</p><a href="${url('/treppenlift-zuschuss.html')}">Allgemeine Förderinformationen lesen →</a>${FORM}`});
+pages.push({path:'impressum.html',title:'Impressum — in Vorbereitung',desc:'Betreiberangaben in Vorbereitung.',body:'<h1>Impressum in Vorbereitung.</h1><p>Die vollständigen Betreiberangaben fehlen noch. Dieser Auftritt ist eine Vorschau und noch kein fertig eingerichtetes Vermittlungsangebot. Die Angebotsanfrage ist deaktiviert.</p>'});
+pages.push({path:'datenschutz.html',title:'Datenschutz — Vorschau',desc:'Informationen zur Vorschau.',body:'<h1>Datenschutz: Stand der Vorschau.</h1><p>Die Anfragefunktion ist deaktiviert. Es gibt keine Eingabefelder für Kontakt- oder Pflegeinformationen, keine Analyse-Skripte und keine eingebundenen Webfonts.</p><p>Der technische Hostinganbieter kann beim Seitenaufruf Verbindungsdaten verarbeiten. Die vollständige Datenschutzerklärung einschließlich Verantwortlichem und Hostingangaben muss vor dem regulären Start ergänzt werden.</p>'});
+pages.push({path:'rss.xml',raw:`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>ZuhauseBleiben Kompass</title><link>${url('/')}</link><description>Ratgeberprojekt im Aufbau. Noch keine verifizierten Statusmeldungen.</description></channel></rss>`});
+pages.push({path:'sitemap.xml',raw:`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.filter(p=>p.path.endsWith('.html')).map(p=>`<url><loc>${url('/'+p.path.replace('index.html',''))}</loc></url>`).join('')}</urlset>`});
+pages.push({path:'robots.txt',raw:'User-agent: *\nAllow: /\n'});
+mkdirSync(OUT,{recursive:true});writeFileSync(join(OUT,'.nojekyll'),'');
+for(const p of pages){const f=join(OUT,p.path);mkdirSync(dirname(f),{recursive:true});writeFileSync(f,p.raw??layout(p.title,p.desc,p.body,'/'+p.path.replace('index.html',''),p.home));}
+console.log(`Built ${pages.length} pages. Preview mode: noindex; no lead collection.`);

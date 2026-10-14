@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://banana-orama.github.io/zuhausebleiben-kompass/sitemap.xml
