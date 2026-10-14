@@ -5,8 +5,9 @@
     "description": "Unabhängiger Ratgeber für Treppenlift, Bad-Umbau und altersgerechtes Wohnen: Alle Zuschüsse auf einen Blick (Pflegekasse, Land, KfW), ehrliche Kostenbeispiele und ein kostenloser Angebotsvergleich.",
     "base_url": "https://banana-orama.github.io/zuhausebleiben-kompass",
     "base_url_note": "Auf eigener Domain umziehen: base_url ändern + rebuild, dann Custom-Domain in Pages-Settings",
-    "contact_email": "TODO@domain.tdl",
-    "impressum": "TODO: Impressum/Datenschutz mit echten Betreiberdaten füllen (Pflicht vor Live-Schaltung der Anfrage-Strecke)",
+    "contact_email": "anfragen@zuhausebleiben-kompass.de",
+    "operator": {"name": "Tobias Batke", "street": "Sängertshöhe 14", "postal_code": "51588", "city": "Nümbrecht", "country": "Deutschland"},
+    "impressum": "Betreiberangaben vom Betreiber bereitgestellt; zusätzliche Pflichtangaben bei Bedarf gesondert prüfen.",
     "form_endpoint": "https://formsubmit.co/TODO_EMPFANGS_EMAIL",
     "form_endpoint_note": "formsubmit.co: KEIN Konto nötig — beim ersten echten Formular-Absenden kommt eine Aktivierungs-Mail an die Empfangs-Adresse, einmalig bestätigen, fertig",
     "stand": "Oktober 2026"
