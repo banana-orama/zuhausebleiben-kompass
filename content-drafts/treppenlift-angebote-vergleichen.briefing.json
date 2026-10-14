@@ -210,6 +210,17 @@
       "sitemap": "Entwurf absichtlich NICHT in sitemap.xml (0 Treffer verifiziert)",
       "visual": "Desktop 1280px + mobil 390px geprüft: keine Überlappungen, Grafik eingebettet, Quellenblock korrekt",
       "noindex_readback": "meta robots noindex,follow + ENTWURF-Badge im generierten HTML verifiziert"
-    }
+    },
+    "deployment": {
+      "commit": "c916940 (pushed 2026-10-14, Workflow 38627160265: completed/success)",
+      "readback": "GitHub-Pages-Edge (--resolve 185.199.111.153): Entwurf HTTP 200 mit noindex, SVG HTTP 200, sitemap.xml ohne Entwurf",
+      "blocker_dns": "zuhausebleiben-kompass.de löst öffentlich auf 185.30.32.51 (webgo-Webhost, nginx 403/404) statt auf GitHub Pages (185.199.108.153–111.153) auf. Öffentliche Erreichbarkeit erst nach DNS-Umstellung durch Tobias (webgo-Zone: A-Records auf 185.199.108.153/109.153/110.153/111.153, www CNAME auf banana-orama.github.io; Mail-DNS-Einträge unverändert lassen). Kein webgo-Zugang im Vault; Zugangsdaten nicht erfragt (Cron-Vorgabe)."
+    },
+    "next_steps": [
+      "Nutzer: DNS von zuhausebleiben-kompass.de auf GitHub Pages umstellen (A 185.199.108–111.153, www auf banana-orama.github.io), Mail-DNS erhalten; danach Readback der öffentlichen URL.",
+      "Danach: Shortlist-Entwurf mit Betreiber durchgehen, Korrekturen einarbeiten, Erst-Volltext gegen die drei Primärquellen gegenlesen.",
+      "Danach: Indexierung erst nach dokumentiertem Gate-PASS und Startfähigkeit (Impressum/Datenschutz vollständig, Partner geklärt) freigeben.",
+      "Nächstes Briefing laut Strategie: Treppenlift gebraucht oder neu (Briefing 2)."
+    ]
   }
 }
