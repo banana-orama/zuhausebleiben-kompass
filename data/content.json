@@ -1,0 +1,173 @@
+{
+  "brand": {
+    "name": "ZuhauseBleiben Kompass",
+    "claim": "Treppenlift & barrierefreier Umbau: Kosten, Förderung, Angebote — ohne Verwirrung.",
+    "description": "Unabhängiger Ratgeber für Treppenlift, Bad-Umbau und altersgerechtes Wohnen: Alle Zuschüsse auf einen Blick (Pflegekasse, Land, KfW), ehrliche Kostenbeispiele und ein kostenloser Angebotsvergleich.",
+    "base_url": "https://banana-orama.github.io/zuhausebleiben-kompass",
+    "base_url_note": "Auf eigener Domain umziehen: base_url ändern + rebuild, dann Custom-Domain in Pages-Settings",
+    "contact_email": "TODO@domain.tdl",
+    "impressum": "TODO: Impressum/Datenschutz mit echten Betreiberdaten füllen (Pflicht vor Live-Schaltung der Anfrage-Strecke)",
+    "form_endpoint": "https://formspree.io/f/TODO_ERSETZEN",
+    "form_endpoint_note": "TODO: Nutzer erstellt kostenloses Formspree-Konto, ID eintragen; bis dahin zeigt das Formular einen Mail-Fallback",
+    "stand": "Oktober 2026"
+  },
+  "foerderung": {
+    "pflegekasse": {
+      "amount": "4.180 €",
+      "legal": "§ 40 Abs. 4 SGB XI (Wohnraumanpassung)",
+      "facts": [
+        "Zuschuss der Pflegekasse für Maßnahmen zur Wohnraumanpassung — Stand 2026: bis 4.180 € pro Person.",
+        "Anspruch besteht ab Pflegegrad 1 — ein Treppenlift-Interesse allein reicht nicht, aber der Grad muss nicht hoch sein.",
+        "Keine Einkommensprüfung. Mehrere im Haushalt lebende Pflegebedürftige können den Betrag je erhalten.",
+        "Gilt u. a. für Treppenlifte, Türöffner, Bad-Umbau (dusche statt Wanne), Rampen — nicht für rein kosmetische Renovierung.",
+        "Antrag vor dem Kauf/Handwerkerstart stellen — rückwirkend gibt es nichts."
+      ]
+    },
+    "kfw_455b": {
+      "status": "GESCHLOSSEN seit 31.07.2026",
+      "facts": [
+        "Der KfW-Zuschuss 455-B (Altersgerecht Umbauen — Barrierereduzierung) ist seit 31.07.2026 für neue Anträge geschlossen: die Bundesmittel 2026 sind ausgeschöpft.",
+        "Bereits bewilligte Anträge bleiben gültig.",
+        "Eine Wiederöffnung hängt an neuen Bundesmitteln — dieser Monitor prüft den Status wöchentlich."
+      ]
+    },
+    "kfw_159": {
+      "amount": "bis 50.000 € Kredit",
+      "facts": [
+        "Der KfW-Kredit 159 (Altersgerecht Umbauen) läuft weiter: zinsgünstiges Darlehen bis 50.000 € je Wohneinheit.",
+        "Kein Ersatz für den Zuschuss, aber Option für größere Umbauten."
+      ]
+    },
+    "laender": {
+      "facts": [
+        "Mehrere Bundesländer zählen eigene Programme für barrierearmes Umbauen (Zuschüsse oder vergünstigte Darlehen) — Beispiele sind Programme in Bayern, NRW, Baden-Württemberg, Hessen und anderen; Konditionen und Topf-Stände ändern sich laufend.",
+        "Wir pflegen eine Landesprogramm-Tabelle und prüfen sie monatlich gegen die offiziellen Seiten. Für die konkrete Auswahl zählt dein Bundesland im Anfrage-Formular."
+      ]
+    }
+  },
+  "pages": [
+    {
+      "slug": "treppenlift-kosten",
+      "h1": "Treppenlift Kosten 2026: Was ein Treppenlift wirklich kostet",
+      "title": "Treppenlift Kosten 2026: Preise für gerade & kurvige Lifte",
+      "description": "Treppenlift Kosten im Überblick: gerade Lifte ab ca. 3.000 €, kurvige ab ca. 8.000 €. Dazu, welche Zuschüsse (Pflegekasse 4.180 €) den Preis drücken.",
+      "type": "article",
+      "sections": [
+        {"h2": "Die Preise im Überblick", "p": [
+          "Ein gerader Treppenlift für eine Standard-Eintagentreppe kostet inklusive Einbau typischerweise etwa 3.000 bis 6.000 € (Beobachtungen von Vergleichsportal-Preislisten, Stand 2026). Kurvige Lifte starten bei ca. 7.500–9.000 € und können bei mehreren Etagen und komplexen Treppenläufen 15.000 € und deutlich mehr erreichen.",
+          "Der Grund für die Spanne: Schienenfertigung (kurvige Schienen werden individuell angefertigt), Treppenlänge, Antrieb (mit Akku für Stromausfall), Extras wie Plattform oder Senkrechtlift."
+        ]},
+        {"h2": "Was davon du selbst zahlst: Der Zuschuss-Effekt", "p": [
+          "Ohne Förderung zahlst du den vollen Preis. Mit Pflegegrad (ab Grad 1) übernimmt die Pflegekasse bis zu 4.180 € — der effektive Eigenanteil bei einem geraden Lift für 3.500 € sinkt damit auf 0 €.",
+          "ACHTUNG: Der frühere KfW-Zuschuss 455-B ist seit 31.07.2026 für neue Anträge geschlossen (Mittel ausgeschöpft). Wer dir heute noch KfW-Zuschüsse verspricht, arbeitet mit alten Informationen."
+        ]},
+        {"h2": "Kauf, Gebraucht oder Miete?", "p": [
+          "Gebrauchte Lifte (bei gerader Treppe teils 1.500–2.500 €) sind eine Option, wenn die Schiene passt — kurvige Gebraucht-Schienen passen praktisch nie. Miete lohnt bei befristetem Bedarf (Reha), meist ab ca. 100–200 €/Monat plus Einbau."
+        ]},
+        {"h2": "3 Angebote einholen — immer", "p": [
+          "Die Preisspanne zwischen Anbietern beträgt für dieselbe Treppe oft 20–40 %. Ein unverbindlicher Vor-Ort-Termin mit Vermessung ist Standard und kostenlos. Über das Anfrage-Formular unten bekommst du Angebote von passenden regionalen Fachbetrieben — ohne Verpflichtung."
+        ]}
+      ]
+    },
+    {
+      "slug": "treppenlift-zuschuss",
+      "h1": "Treppenlift Zuschuss: Pflegekasse, Land & KfW-Status (2026)",
+      "title": "Treppenlift Zuschuss 2026: 4.180 € Pflegekasse + Landesförderung",
+      "description": "Welcher Treppenlift-Zuschuss 2026 wirklich fließt: Pflegekasse 4.180 € (§ 40 SGB XI, ab Pflegegrad 1), Landesprogramme, KfW-455-B-Status (geschlossen) und der KfW-159-Kredit.",
+      "type": "article",
+      "sections": [
+        {"h2": "1. Die Pflegekasse: 4.180 € — der verlässlichste Zuschuss", "p": [
+          "Nach § 40 Abs. 4 SGB XI zahlt die Pflegekasse für Wohnraumanpassung bis zu 4.180 € pro Person (Stand 2026). Voraussetzung: ein Pflegegrad (ab Grad 1). Der Antrag ist beim zuständigen Kostenträger vor Beginn der Maßnahme zu stellen.",
+          "Das deckt bei vielen geraden Treppenliften einen großen Teil oder alles. Bad-Umbauten kombinierst du idealerweise mit demselben Antrag."
+        ]},
+        {"h2": "2. KfW 455-B: geschlossen — aber prüfen lohnt", "p": [
+          "Der bekannte KfW-Zuschuss „Altersgerecht Umbauen — Barrierereduzierung“ (455-B) ist seit 31.07.2026 für neue Anträge gesperrt (Bundesmittel 2026 erschöpft). Laufende Bewilligungen bleiben gültig. Ob der Topf neu befüllt wird, prüft dieser Kompass wöchentlich — trag dich in den Status-Newsletter unten ein."
+        ]},
+        {"h2": "3. KfW 159: Kredit statt Zuschuss", "p": [
+          "Der KfW-Kredit 159 läuft weiter (bis 50.000 € je Wohneinheit). Für größere Projekte (Lift + Bad + Türöffner) eine Option — beantragt wird er über die Hausbank."
+        ]},
+        {"h2": "4. Dein Bundesland", "p": [
+          "Zusätzlich existieren Landesprogramme (Zuschüsse oder vergünstigte Darlehen, teils mit Tilgungsnachlass). Konditionen wechseln — gib im Anfrage-Formular dein Bundesland an, dann liefert die Angebotsanfrage direkt die passenden Programm-Hinweise mit."
+        ]},
+        {"h2": "5. Schritt-für-Schritt: So kommt der Zuschuss", "p": [
+          "1) Pflegegrad beantragen (falls nicht vorhanden) — beim Pflegekasse-Antrag des Versicherers, Begutachtung durch den MD kommt nach Hause. 2) Vor dem Kauf: Zuschuss-Antrag stellen. 3) Angebote einholen (unten). 4) Nach Einbau: Rechnungen einreichen. Die Pflegekasse erstattet direkt."
+        ]}
+      ]
+    },
+    {
+      "slug": "bad-umbau-barrierefrei",
+      "h1": "Barrierefreier Bad-Umbau: Kosten, Förderung, Ablauf",
+      "title": "Bad umbauen fürs Alter: Kosten & 4.180 € Förderung (2026)",
+      "description": "Barrierefreier Bad-Umbau: Dusche statt Wanne ab ca. 5.000–15.000 €. Pflegekasse zahlt bis 4.180 €, Landesprogramme obendrauf. Ablauf, Kostenbeispiele, Förder-Check.",
+      "type": "article",
+      "sections": [
+        {"h2": "Was kostet ein barrierefreies Bad?", "p": [
+          "Bodengleiche Dusche statt Wanne: typischerweise 5.000–12.000 €. Kompletter Umbau (Fliesen, WC, Waschtisch, Griffe): 10.000–25.000 €, je nach Zustand der Sanitärobjekte und Verrohrung."
+        ]},
+        {"h2": "Förderung: Pflegekasse zuerst", "p": [
+          "Bis 4.180 € von der Pflegekasse (ab Pflegegrad 1) sind real — Bad-Umbau ist ein klassischer Anwendungsfall von Wohnraumanpassung. Der frühere KfW-455-B-Zuschuss ist seit 31.07.2026 geschlossen; Landesprogramme ggf. zusätzlich."
+        ]},
+        {"h2": "Planungsfehler, die dich Geld kosten", "p": [
+          "Zu steile Duschenge (Norm max. ~6 % — wird bei Nachrüstung teuer), zu enge Türaufmaße für Rollator, fehlende Verstärkungen in der Wand für spätere Griffe, Warmwasser-Einbindung für spätere Pflege. Ein Fachbetrieb mit Barrierefrei-Erfahrung plant das mit — unser Formular vermittelt genau solche."
+        ]}
+      ]
+    },
+    {
+      "slug": "pflegegrad-beantragen",
+      "h1": "Pflegegrad beantragen: Der schnelle Weg zur Förderung",
+      "title": "Pflegegrad beantragen: Ablauf, Fristen, Tipps (2026)",
+      "description": "Ohne Pflegegrad kein Pflegekassen-Zuschuss: So beantragst du den Grad, was der Gutachter prüft und wie du die Einstufung beschleunigst.",
+      "type": "article",
+      "sections": [
+        {"h2": "Warum der Pflegegrad alles ist", "p": [
+          "Die 4.180 € der Pflegekasse gibt es nur mit Pflegegrad — ab Grad 1. Der Antrag kostet nichts und ist beim Pflegeversicherer deiner Krankenkasse zu stellen (Formular oder Anruf genügt)."
+        ]},
+        {"h2": "Ablauf & Fristen", "p": [
+          "Antrag → Begutachtung durch den MD (Medizinischer Dienst) zuhause → Bescheid. Der Gutachter muss sich innerhalb von 5 Wochen melden (bei Klinikentlassung kürzer). Ab Antrag zählt er rückwirkend ab Antragsdatum."
+        ]},
+        {"h2": "Was der Gutachter sieht — und was du vorbereitest", "p": [
+          "Bewertet werden 6 Module (Mobilität, kognitive Fähigkeiten, Selbstversorgung, Umgang mit Krankheit, Alltag, soziale Kontakte). Vorbereiten: Pflegetagebuch (1–2 Wochen), Liste der Medikamente, bestehende Hilfsmittel, Aussagen der pflegenden Angehörigen. Der Fokus liegt auf dem, was NICHT mehr allein geht."
+        ]},
+        {"h2": "Widerspruch? Oft lohnend", "p": [
+          "Rund ein Drittel der Widersprüche gegen Pflegegrad-Bescheide führt nach Erfahrung vieler Beratungsstellen zu einer Höherstufung. Kostenloser Rat: Pflegestützpunkte und Verbraucherzentralen."
+        ]}
+      ]
+    },
+    {
+      "slug": "treppenlift-firmen-vergleich",
+      "h1": "Treppenlift Anbieter im Vergleich: Worauf es ankommt",
+      "title": "Treppenlift Anbieter Vergleich 2026: Kriterien statt Marketing",
+      "description": "Treppenlift-Firmen im Vergleich: Was bei Garantie, Service-Reaktion, Schienenherstellung und Beratung wirklich zählt — unabhängig bewertet.",
+      "type": "article",
+      "sections": [
+        {"h2": "Die 6 echten Entscheidungskriterien", "p": [
+          "1) Eigene Schienenfertigung vs. Zukauf (Ersatzteil-Versorgung!). 2) Garantielänge auf Motor UND Schiene. 3) Reaktionszeit beim Service (Ziel: <48h). 4) Vor-Ort-Aufmaß kostenlos und unverbindlich? 5) Referenzen in deiner Region. 6) Transparenz beim Gebraucht-/Mitnahme-Markt."
+        ]},
+        {"h2": "Vergleichsportale: Nützlich, aber so nutzt du sie richtig", "p": [
+          "Portale (auch dieses) leben von Vermittlung — seriöse sind kostenlos für dich, weil die Betriebe für vermittelte Anfragen zahlen. Achte darauf, dass maximal 3 Angebote kommen (mehr bedeutet oft Telefonterror) und die Weiter-Empfehlung nach Region qualifiziert ist."
+        ]}
+      ]
+    },
+    {
+      "slug": "regional",
+      "h1": "Treppenlift & Umbau in deiner Region",
+      "title": "Treppenlift & Barrierefrei-Umbau regional: Fachbetriebe & Förderung",
+      "description": "Regionale Treppenlift-Fachbetriebe und Landes-Förderprogramme: Wähle deine Region und bekomm passende Angebote mit Fördermittel-Hinweis.",
+      "type": "regional",
+      "regions": [
+        {"slug":"nordrhein-westfalen","name":"Nordrhein-Westfalen"},
+        {"slug":"bayern","name":"Bayern"},
+        {"slug":"baden-wuerttemberg","name":"Baden-Württemberg"},
+        {"slug":"hessen","name":"Hessen"},
+        {"slug":"niedersachsen","name":"Niedersachsen"},
+        {"slug":"berlin","name":"Berlin"},
+        {"slug":"hamburg","name":"Hamburg"},
+        {"slug":"rheinland-pfalz","name":"Rheinland-Pfalz"},
+        {"slug":"sachsen","name":"Sachsen"},
+        {"slug":"schleswig-holstein","name":"Schleswig-Holstein"},
+        {"slug":"thueringen","name":"Thüringen"},
+        {"slug":"brandenburg","name":"Brandenburg"}
+      ]
+    }
+  ]
+}
