@@ -207,8 +207,8 @@
   ],
   "image": {
     "src": "assets/images/treppenlift-planung.svg",
-    "alt": "Schematische Darstellung einer Treppe mit geplanter Treppenlift-Schiene zur Orientierung bei Aufmaß und Kostenplanung",
+    "alt": "Schematische Treppe ohne Liftinstallation mit Fragen zu Zugang, Treppenverlauf sowie Ein- und Ausstieg vor dem Aufmaß",
     "caption": "Schematische KI-Illustration; keine konkrete Einbausituation."
   },
-  "status": "review-required"
+  "status": "editorial-reviewed-preview"
 }

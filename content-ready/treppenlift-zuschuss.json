@@ -113,5 +113,5 @@
     {"title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-10-14"}
   ],
   "image": {"src": "assets/images/foerderablauf.svg", "alt": "Schematischer Förderablauf von Bedarfsklärung und Angebot über Förderentscheidung bis Einbau und Nachweisen", "caption": "Schematische KI-Illustration; keine technische Ausführungsplanung."},
-  "status": "review-required"
+  "status": "editorial-reviewed-preview"
 }

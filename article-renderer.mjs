@@ -4,7 +4,7 @@ const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>
 const safeJson=d=>JSON.stringify(d).replace(/</g,'\\u003c');
 export function renderArticles(root,base,closing){
  const url=p=>base.replace(/\/$/,'')+p;
- const articles=readdirSync(join(root,'content-ready')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(readFileSync(join(root,'content-ready',f),'utf8')));
+ const articles=readdirSync(join(root,'content-ready')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(readFileSync(join(root,'content-ready',f),'utf8'))).filter(a=>a.status==='editorial-reviewed-preview');
  const slugs=new Set();
  for(const a of articles){
   if(slugs.has(a.slug)||!/^[a-z0-9-]+$/.test(a.slug))throw Error('Invalid/duplicate slug '+a.slug);slugs.add(a.slug);
