@@ -4,6 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node generate.mjs"
+    "build": "node generate.mjs",
+    "test:consent": "playwright test",
+    "test": "npm run build && python3 test_site.py && python3 test_articles.py && npm run test:consent"
+  },
+  "dependencies": {
+    "vanilla-cookieconsent": "3.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
   }
 }
