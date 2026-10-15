@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
-      - run: npm run build
+      - run: npm run build:launch
       - run: python3 test_site.py && python3 test_articles.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

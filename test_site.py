@@ -20,7 +20,12 @@ for f in files:
     p=Page();p.feed(f.read_text())
     assert p.h1==1,(f,'heading count')
     assert p.forms==0,(f,'unsafe form')
-    assert p.noindex,(f,'preview indexing')
+    if f.name == 'treppenlift-angebote-vergleichen.html':
+        assert p.noindex,(f,'draft pages stay noindex')
+    elif f.name == 'datenschutz.html':
+        assert not p.noindex,(f,'privacy policy is indexable at launch')
+    else:
+        assert not p.noindex,(f,'launch build: indexable page without noindex')
     for href in p.links:
         u=urlsplit(href)
         if u.netloc==site.netloc and u.path.startswith(base):
@@ -29,4 +34,5 @@ for f in files:
             if target.is_dir():target=target/'index.html'
             assert target.exists(),(f,href)
 for name in ('sitemap.xml','rss.xml'):ET.parse(root/name)
-print(f'PASS: {len(files)} HTML pages, internal links, single H1, no forms, preview noindex and XML.')
+mode='PREVIEW (noindex)' if not __import__('os').environ.get('INDEX') else 'LAUNCH (index)'
+print(f'PASS: {len(files)} HTML pages, internal links, single H1, no forms, {mode}, XML valid.')
