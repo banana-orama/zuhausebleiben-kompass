@@ -18,7 +18,7 @@ class Doc(HTMLParser):
     def handle_endtag(self,t):
         if t=='script' and self.current is not None:self.scripts.append(json.loads(self.current));self.current=None
 articles=list((ROOT/'content-ready').glob('*.json'))
-assert len(articles)==6
+assert len(articles)==7
 for f in articles:
     a=json.loads(f.read_text());p=Doc();p.feed((ROOT/'dist'/f'{a["slug"]}.html').read_text())
     assert all(x in p.ids for x in p.refs),(f,'broken anchor')
@@ -29,4 +29,4 @@ for f in articles:
     assert len(p.scripts)==1
     assert p.scripts[0]['@graph'][0]['@type']=='Article'
 for f in (ROOT/'dist/assets/images').glob('*.svg'):ET.parse(f)
-print('PASS: 6 article renders, image assets and dimensions, citation/TOC anchors, Article/Breadcrumb JSON-LD, SVG XML.')
+print(f'PASS: {len(articles)} article renders, image assets and dimensions, citation/TOC anchors, Article/Breadcrumb JSON-LD, SVG XML.')
