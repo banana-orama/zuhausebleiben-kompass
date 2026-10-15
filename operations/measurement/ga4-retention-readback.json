@@ -1,0 +1,10 @@
+{
+  "url": "https://analytics.google.com/analytics/web/#/a412126546p559120219/admin/datapolicies/dataretention",
+  "text": "\u00a0Analytics\nAll accounts\nchevron_right\nZuhauseBleiben Kompass\nZuhauseBleiben Kompass\narrow_drop_down\nsearch\nhelp\nHome\nReports\nExplore\nAdvertising\nTasks\nAdmin\nCreate\nAdmin\nMy preferences\nAccount settings\nAccount\nProperty settings\nProperty\nData collection and modification\nData streams\nData collection\nData import\nData retention\nData filters\nData deletion requests\nConsent settings\nData display\nProduct links\nData retention\nUser and event data retention\nYou can change the retention period for data you send that is associated with cookies, user identifiers, or advertising identifiers. These controls don't affect most standard reporting, which is based on aggregated data. Changes to these settings take effect after 24 hours. Learn more about data retention settings\nEvent data\nData retention\n2 months\t\nUser data\nData retention\n2 months\t\nReset on new user activity\nSave\nCancel\n\u00a9 2026 Google | Analytics home | Terms of Service | Privacy Policy | \nSend feedback",
+  "switches": [
+    {
+      "name": "isLastVisitModeEnabled",
+      "checked": "false"
+    }
+  ]
+}

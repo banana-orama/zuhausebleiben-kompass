@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Hausnotruf im Notfall: Ablauf vom Knopfdruck bis zur Hilfe</title>
+<desc id="desc">Schematischer Ablauf ohne Personen und ohne konkretes Anbieterprodukt: Notrufknopf ausloesen, Sprechkontakt mit der besetzten Notrufzentrale, Zentrale organisiert Hilfe ueber Vertrauensperson oder Rettungsdienst, Hilfe vor Ort. Hinweis auf Reichweite des Funkknopfs innerhalb der Wohnung.</desc>
+<rect width="1200" height="760" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">HAUSNOTRUF · ABLAUF</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="42">Vom Knopf bis zur Hilfe</text>
+<rect x="60" y="170" width="240" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<circle cx="120" cy="230" r="34" fill="#b3402e"/>
+<text x="120" y="240" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="28" font-weight="600" text-anchor="middle">1</text>
+<text x="176" y="222" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Knopf druecken</text>
+<text x="176" y="252" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Armband oder Kette</text>
+<rect x="360" y="170" width="240" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="480" y="230" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="30" font-weight="600" text-anchor="middle">2</text>
+<text x="480" y="266" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">Sprechen</text>
+<rect x="660" y="170" width="240" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="780" y="230" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="30" font-weight="600" text-anchor="middle">3</text>
+<text x="780" y="266" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">Zentrale organisiert</text>
+<rect x="960" y="170" width="180" height="150" rx="14" fill="#e8ede5" stroke="#245b47" stroke-width="3"/>
+<text x="1050" y="230" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="30" font-weight="600" text-anchor="middle">4</text>
+<text x="1050" y="266" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">Hilfe kommt</text>
+<path d="M300 245 H360 M600 245 H660 M900 245 H960" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round"/>
+<path d="M352 237 l10 8 -10 8 M652 237 l10 8 -10 8 M952 237 l10 8 -10 8" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="380" width="1080" height="150" rx="14" fill="#ffffff" stroke="#d8dfd6" stroke-width="2"/>
+<text x="90" y="424" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Wen ruft die Zentrale?</text>
+<text x="90" y="462" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Vertrauensperson · Pflegedienst · Bereitschaftsdienst · Rettungsdienst im medizinischen Notfall</text>
+<text x="90" y="500" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Reihenfolge und Einsatzregeln stehen im Vertrag des jeweiligen Anbieters.</text>
+<rect x="60" y="560" width="1080" height="120" rx="14" fill="#eae4d5" stroke="#d8dfd6" stroke-width="2"/>
+<text x="90" y="602" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Vor dem Abschluss selbst pruefen</text>
+<text x="90" y="640" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Reichweite des Funkknopfs bis Garten und Keller · Verhalten bei Strom- oder Internetausfall · Sprechverbindung wohin?</text>
+<path d="M44 700 H1156" fill="none" stroke="#d8dfd6" stroke-width="2"/>
+<text x="44" y="736" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22">Allgemeiner Ablauf ohne Leistungsversprechen. Kein konkretes Produkt, keine Wartezeitangabe.</text>
+<text x="44" y="756" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22">KI-Illustration · schematisch</text>
+</svg>

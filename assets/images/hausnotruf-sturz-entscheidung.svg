@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Sturz erkannt: Entscheidungsweg von Sensor und Notrufknopf</title>
+<desc id="desc">Schematischer Entscheidungsbaum: Sensor registriert Sturz und Reglosigkeit, Vorlaufphase mit Abbruchmoeglichkeit, danach Alarm an die Zentrale. Daneben der direkte Weg ueber den manuellen Notrufknopf. Hinweistext: sehr langsame Stuerze koennen unentdeckt bleiben, Fehlalarme sind moeglich.</desc>
+<rect width="1200" height="760" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">HAUSNOTRUF · ENTSCHEIDUNG</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="42">Automatik und Knopf: zwei Wege</text>
+<rect x="60" y="170" width="330" height="170" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="90" y="214" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Automatische Erkennung</text>
+<text x="90" y="250" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Sensor misst Bewegung, Lage,</text>
+<text x="90" y="278" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Reglosigkeit nach dem Sturz.</text>
+<text x="90" y="314" fill="#b3402e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="600">Erkennt nicht jeden Sturz.</text>
+<rect x="450" y="170" width="330" height="170" rx="14" fill="#ffffff" stroke="#d8dfd6" stroke-width="3"/>
+<text x="480" y="214" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Vorlauf mit Abbruch</text>
+<text x="480" y="250" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Signal ertoent. Wer kann,</text>
+<text x="480" y="278" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">bricht den Alarm selbst ab.</text>
+<text x="480" y="314" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Fehlalarme bleiben moeglich.</text>
+<rect x="840" y="170" width="300" height="170" rx="14" fill="#e8ede5" stroke="#245b47" stroke-width="3"/>
+<text x="870" y="214" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Alarm an die Zentrale</text>
+<text x="870" y="250" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Ohne Reaktion wird die</text>
+<text x="870" y="278" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Notrufzentrale informiert.</text>
+<path d="M390 255 H450 M780 255 H840" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round"/>
+<path d="M442 247 l10 8 -10 8 M832 247 l10 8 -10 8" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="390" width="520" height="160" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="90" y="434" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Manueller Knopf</text>
+<text x="90" y="470" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Sie entscheiden selbst, ob Hilfe</text>
+<text x="90" y="498" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">kommt. Setzt Handlungsfaehigkeit</text>
+<text x="90" y="526" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">nach dem Sturz voraus.</text>
+<rect x="640" y="390" width="500" height="160" rx="14" fill="#eae4d5" stroke="#d8dfd6" stroke-width="2"/>
+<text x="670" y="434" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Grenzen benennen</text>
+<text x="670" y="470" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Langsames Zusammensacken oder</text>
+<text x="670" y="498" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Gleiten wird oft nicht erkannt.</text>
+<text x="670" y="526" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20">Manueller Knopf bleibt wichtig.</text>
+<text x="60" y="612" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">Vor dem Zusatzbuchungsgespraech klaeren:</text>
+<text x="60" y="646" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Wie laut ist der Vorlauf? Wie bricht man ab? Wer wird bei Alarm benachrichtigt? Was kostet der Zusatztarif monatlich?</text>
+<path d="M44 690 H1156" fill="none" stroke="#d8dfd6" stroke-width="2"/>
+<text x="44" y="726" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22">Allgemeine Systemlogik, keine Aussage zu einem konkreten Geraet oder einer Erkennungsquote.</text>
+<text x="44" y="748" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22">KI-Illustration · schematisch</text>
+</svg>

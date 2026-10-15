@@ -1,0 +1,67 @@
+GTM-M6SDZCN4 
+Version: QUICK_PREVIEW
+Summary
+collect
+collect
+collect
+collect
+1 page_view
+Event: page_view
+Output of GTM-M6SDZCN4 
+Request
+Tags
+Variables
+Event Data
+Console (0)
+Client
+ZBK — opt-in analytics receiver
+ZBK — strict consent and event allowlist - Claimed
+Event Data
+Name	Value
+
+analytics_allowed
+	
+true
+
+
+client_id
+	
+"5d1e2cc2-24c0-427f-afad-d62d7def920e"
+
+
+consent
+	
+{
+  analytics_storage: "granted",
+  ad_storage: "denied",
+  ad_user_data: "denied",
+  ad_personalization: "denied"
+}
+
+
+consent_version
+	
+2
+
+
+content_id
+	
+"c04"
+
+
+cta_id
+	
+""
+
+
+event_id
+	
+"89ed1537-b169-4969-8671-23afbf74dd2d"
+
+
+event_name
+	
+"page_view"
+Send requests manually
+Send requests from an app
+Export session

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://ui.awin.com/merchant-profile/112616",
+      "title": "",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "url": "https://ui.awin.com/merchant-profile/21107",
+      "title": "",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "url": "https://ui.awin.com/merchant-profile/20355/commission-groups",
+      "title": "",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "url": "https://seniovo.de/partner",
+      "title": "",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "url": "https://www.sanitaets-online.de/partnerprogramm",
+      "title": "",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

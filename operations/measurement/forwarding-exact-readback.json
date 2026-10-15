@@ -1,0 +1,251 @@
+{
+  "tag": {
+    "tagId": "14",
+    "name": "ZBK \u2014 GA4 analytics-only sanitized forwarding",
+    "type": "sgtmgaaw",
+    "path": "accounts/572865630/containers/267197767/workspaces/2/tags/14",
+    "firingTriggerId": [
+      "12"
+    ],
+    "parameter": [
+      {
+        "type": "boolean",
+        "key": "redactVisitorIp",
+        "value": "true"
+      },
+      {
+        "type": "template",
+        "key": "epToIncludeDropdown",
+        "value": "none"
+      },
+      {
+        "type": "boolean",
+        "key": "isMeasurementIdMandatory",
+        "value": "true"
+      },
+      {
+        "type": "list",
+        "key": "eventParameters",
+        "list": [
+          {
+            "type": "map",
+            "map": [
+              {
+                "type": "template",
+                "key": "fieldName",
+                "value": "event_id"
+              },
+              {
+                "type": "template",
+                "key": "value",
+                "value": "{{ZBK ED - event_id}}"
+              }
+            ]
+          },
+          {
+            "type": "map",
+            "map": [
+              {
+                "type": "template",
+                "key": "fieldName",
+                "value": "content_id"
+              },
+              {
+                "type": "template",
+                "key": "value",
+                "value": "{{ZBK ED - content_id}}"
+              }
+            ]
+          },
+          {
+            "type": "map",
+            "map": [
+              {
+                "type": "template",
+                "key": "fieldName",
+                "value": "cta_id"
+              },
+              {
+                "type": "template",
+                "key": "value",
+                "value": "{{ZBK ED - cta_id}}"
+              }
+            ]
+          },
+          {
+            "type": "map",
+            "map": [
+              {
+                "type": "template",
+                "key": "fieldName",
+                "value": "debug_mode"
+              },
+              {
+                "type": "template",
+                "key": "value",
+                "value": "{{Debug Mode}}"
+              }
+            ]
+          },
+          {
+            "type": "map",
+            "map": [
+              {
+                "type": "template",
+                "key": "fieldName",
+                "value": "non_personalized_ads"
+              },
+              {
+                "type": "template",
+                "key": "value",
+                "value": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "template",
+        "key": "upToIncludeDropdown",
+        "value": "none"
+      },
+      {
+        "type": "template",
+        "key": "measurementId",
+        "value": "G-5738T8FHWW"
+      }
+    ],
+    "fingerprint": "1792057139270"
+  },
+  "trigger": {
+    "triggerId": "12",
+    "name": "ZBK \u2014 sanitized analytics-only events",
+    "type": "customEvent",
+    "path": "accounts/572865630/containers/267197767/workspaces/2/triggers/12",
+    "filter": [
+      {
+        "type": "equals",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "arg0",
+            "value": "{{ZBK ED - analytics_allowed}}"
+          },
+          {
+            "type": "template",
+            "key": "arg1",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "type": "equals",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "arg0",
+            "value": "{{ZBK ED - consent_version}}"
+          },
+          {
+            "type": "template",
+            "key": "arg1",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "type": "equals",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "arg0",
+            "value": "{{ZBK ED - consent.analytics_storage}}"
+          },
+          {
+            "type": "template",
+            "key": "arg1",
+            "value": "granted"
+          }
+        ]
+      },
+      {
+        "type": "equals",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "arg0",
+            "value": "{{ZBK ED - consent.ad_storage}}"
+          },
+          {
+            "type": "template",
+            "key": "arg1",
+            "value": "denied"
+          }
+        ]
+      },
+      {
+        "type": "equals",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "arg0",
+            "value": "{{ZBK ED - consent.ad_user_data}}"
+          },
+          {
+            "type": "template",
+            "key": "arg1",
+            "value": "denied"
+          }
+        ]
+      },
+      {
+        "type": "equals",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "arg0",
+            "value": "{{ZBK ED - consent.ad_personalization}}"
+          },
+          {
+            "type": "template",
+            "key": "arg1",
+            "value": "denied"
+          }
+        ]
+      },
+      {
+        "type": "equals",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "arg0",
+            "value": "{{Client Name}}"
+          },
+          {
+            "type": "template",
+            "key": "arg1",
+            "value": "ZBK \u2014 opt-in analytics receiver"
+          }
+        ]
+      }
+    ],
+    "customEventFilter": [
+      {
+        "type": "matchRegex",
+        "parameter": [
+          {
+            "type": "template",
+            "key": "arg0",
+            "value": "{{_event}}"
+          },
+          {
+            "type": "template",
+            "key": "arg1",
+            "value": "^(page_view|cta_click)$"
+          }
+        ]
+      }
+    ],
+    "fingerprint": "1792056976053"
+  }
+}

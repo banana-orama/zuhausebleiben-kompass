@@ -1,0 +1,191 @@
+{
+  "slug": "hausnotruf-sturzerkennung-oder-knopf",
+  "title": "Hausnotruf mit Sturzerkennung oder Knopf?",
+  "description": "Wie automatische Sturzerkennung funktioniert, welche Grenzen und Fehlalarme bleiben, für wen sich der Aufpreis lohnt – mit Entscheidungsmatrix.",
+  "h1": "Hausnotruf mit Sturz: automatische Erkennung oder Knopf?",
+  "intro": "Ein klassischer Hausnotruf hilft nur, wenn Sie nach dem Sturz noch drücken können. Automatische Sturzerkennung verspricht, genau diese Lücke zu schließen: Sensoren im getragenen Sender registrieren ein Sturzmuster und lösen dann selbst einen Notruf aus.[1] Die Technik hat aber Grenzen – sehr langsame Stürze werden oft nicht erkannt, Fehlalarme sind möglich, und der Aufpreis wird nicht von der Pflegekasse bezahlt.[1][2] Dieser Ratgeber erklärt die Funktionsweise, benennt Zuverlässigkeitsgrenzen ehrlich und hilft Ihnen mit einer Entscheidungsmatrix zu prüfen, ob sich die Zusatzbuchung für Ihre Situation lohnt.",
+  "sections": [
+    {
+      "heading": "Wie automatische Sturzerkennung technisch funktioniert",
+      "paragraphs": [
+        "Im getragenen Sender sitzen Bewegungssensoren, die Beschleunigung und Lageveränderung messen.[1][2] Das System sucht nicht nach einem einzelnen Messwert, sondern nach einem Muster: eine abrupte Bewegung wie beim Fallen, ein Aufprall und danach eine Lage, die zum Boden passt, gefolgt von Reglosigkeit.[2][3]",
+        "Ein Herstellerbeschreibung zufolge läuft der Ablauf in Schritten ab: Der Sensor registriert das Sturzmuster, dann folgt eine kurze Vorlaufphase, damit Fehlalarme vermieden werden; ein Signal ertönt, und wer kann, bricht den Alarm durch Bewegung oder Knopfdruck ab; erst ohne Reaktion wird automatisch die Notrufzentrale informiert.[3] Diese Vorlaufphase ist kein Konstruktionsfehler, sondern die eingebaute Rückfrage an Sie – wer antworten kann, braucht keinen automatischen Notruf."
+      ]
+    },
+    {
+      "heading": "Zuverlässigkeitsgrenzen: was Sensoren erkennbar überfordert",
+      "paragraphs": [
+        "Kein Anbieter oder Test belegt in unseren Quellen eine Erkennungsquote, und wir behaupten deshalb auch keine. Klar benennbar sind dagegen typische Schwachstellen: Ein Redakteursratgeber beschreibt, dass langsames Zusammensacken oder Abrutschen aus Sessel oder Rollstuhl oft nicht als Sturz registriert wird, weil der harte Aufprall fehlt.[1] Auch heftige Armbewegungen oder das schnelle Hinsetzen können Fehlalarme auslösen; bei manchen Nutzern führe die Frustration dazu, dass das Gerät abgelegt wird.[1]",
+        "Ein Anbieter erläutert die Konsequenz so: Sehr langsame Stürze würden seltener erkannt, und deshalb bleibe der manuelle Notrufknopf daneben immer wichtig.[2] Genau diese Kombination sollten Sie erwarten: Die Automatik ist eine Rückfallebene für Situationen, in denen Sie nicht drücken können – kein Ersatz für den Knopf und keine Garantie, jeden Sturz zu finden. Fragen Sie im Beratungsgespräch ausdrücklich, welche Sturzarten das gewählte System nach Herstellerangabe erkennt und welche nicht."
+      ]
+    },
+    {
+      "heading": "Fehlalarme: warum sie entstehen und wie man sie beherrscht",
+      "paragraphs": [
+        "Fehlalarme entstehen meist in der Vorlaufphase oder danach: schnelles Hinsetzen, das Ablegen des Senders auf harte Oberflächen oder ruckartige Bewegungen können ein Sturzmuster nachahmen.[1][3] Systeme reagieren darauf mit Vorlauf und Abbruchsignal; maßgeblich ist, wie lang die Frist bemessen ist und wie deutlich das Signal ertönt.[3]",
+        "Praktisch wichtig sind die Folgen: Jeder Alarm belegt Mitarbeiter in der Zentrale und kann – je nach Vertrag – eine Vertrauensperson oder einen Einsatz auslösen. Fragen Sie deshalb konkret, ob Fehlalarmkosten vertraglich ausgeschlossen sind, wie die Zentrale einen abgebrochenen Alarm dokumentiert und ob Sie bei häufigen Fehlalarmen die Sensorempfindlichkeit anpassen lassen können. Ein System, das wegen ständiger Fehlalarme im Schrank landet, hilft im Ernstfall niemandem."
+      ],
+      "table": {
+        "headers": [
+          "Situation",
+          "Typisches Verhalten automatischer Systeme laut Quellenlage"
+        ],
+        "rows": [
+          [
+            "Sturz mit Bewusstlosigkeit oder Reglosigkeit",
+            "Alarm nach Vorlaufzeit, sofern das Muster erkannt wurde.[3]"
+          ],
+          [
+            "Sturz mit anschließender Bewegung",
+            "In der Vorlaufphase abbrechbar; nach Abbruch kein Notruf.[3]"
+          ],
+          [
+            "Langsames Zusammensacken, Abrutschen, Gleiten",
+            "Wird oft nicht als Sturz erkannt, weil der Aufprall fehlt.[1][2]"
+          ],
+          [
+            "Schnelles Hinsetzen, heftige Armbewegung",
+            "Kann Fehlalarm auslösen.[1]"
+          ],
+          [
+            "Sender auf Tisch oder ins Regal gelegt",
+            "Kein verlässlicher Schutz – der Sensor muss getragen werden.[2][3]"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Wer besonders von Automatik profitieren kann",
+      "paragraphs": [
+        "Ein Anbieter nennt als Zielgruppen Menschen mit erhöhtem Sturzrisiko, etwa bei Osteoporose, Schwindel oder Gangproblemen, alleinlebende ältere Menschen, Personen nach Schlaganfall oder mit neurologischen Erkrankungen sowie Menschen, deren Medikamente Schwindel verursachen können.[3] Diese Liste ist eine Orientierung aus Herstellerperspektive, keine medizinische Indikation.",
+        "Ein Redakteursratgeber ergänzt das Gesamtbild: Mehr als vier Millionen Menschen ab 65 Jahren stürzen demnach mindestens einmal im Jahr.[1] Ob nach einem Sturz die Handlungsfähigkeit erhalten bleibt, lässt sich nicht vorhersagen – genau darin liegt die eigentliche Argumentation für eine Automatik. Ob sie für Sie oder Ihren Angehörigen sinnvoll ist, sollte eine fachliche Beratung klären, zum Beispiel im Gespräch mit Pflegedienst, Hausarztpraxis oder Pflegeberatung; dieser Artikel stellt keine Diagnose und gibt keine medizinische Empfehlung."
+      ]
+    },
+    {
+      "heading": "Entscheidungsmatrix: Automatik, nur Knopf, zusätzliche Beratung",
+      "paragraphs": [
+        "Die Matrix ordnet typische Alltagssituationen einer planbaren Richtung zu. Sie ersetzt keine individuelle Einschätzung durch fachliches Personal, hilft aber, das Beratungsgespräch strukturiert vorzubereiten."
+      ],
+      "table": {
+        "headers": [
+          "Ihre Situation",
+          "Planbare Richtung",
+          "Vor Abschluss klären"
+        ],
+        "rows": [
+          [
+            "Sturzrisiko, aber nach Stürzen bisher immer selbst aufgestanden und telefonierfähig",
+            "Basistarif mit Knopf genügt oft",
+            "Reichweite, Sprechverbindung, Übung im Alltag"
+          ],
+          [
+            "Stürze mit längerer Reglosigkeit oder Benommenheit bereits vorgekommen",
+            "Automatik als Rückfallebene ernsthaft prüfen",
+            "Erkennungsgrenzen, Vorlaufzeit, Abbruch, Fehlalarmkosten"
+          ],
+          [
+            "Bewusstseinstrübungen oder Medikamente mit Schwindelwirkung",
+            "Automatik prüfen und medizinisch beraten lassen",
+            "Fachliche Einschätzung zum Sturzrisiko vor der Zusatzbuchung"
+          ],
+          [
+            "Trägerakzeptanz unsicher (Sender wird als störend empfunden)",
+            "Zunächst Knopflösung, Automatik später ergänzen",
+            "Tragekomfort, Gewicht, Wasserschutz, Alltagstauglichkeit"
+          ],
+          [
+            "Erste Anzeichen einer Demenz, Knopf wird im Test vergessen",
+            "Gemeinsam mit Pflegeberatung Alternativen prüfen",
+            "Ob Sensorik die konkrete Situation überhaupt abdecken kann"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Kosten und Pflegekasse beim Sturzsensor",
+      "paragraphs": [
+        "Sturzerkennung ist üblicherweise eine Zusatzleistung zum Basistarif. Ein Redakteursratgeber beziffert Systeme mit Automatik auf rund 35 bis 85 Euro monatlich und stellt klar, dass der Aufpreis für den Sturzsensor trotz Pflegekassenzuschuss selbst getragen wird.[1] Die Verbraucherzentrale ordnet Falldetektoren ausdrücklich den kostenpflichtigen Zusatzleistungen zu.[2]",
+        "Prüfen Sie deshalb getrennt: Was kostet der Basistarif, was der Zusatztarif mit Automatik, und welcher Teil würde bei berechtigtem Antrag durch die Pflegekasse abgedeckt? Rechnen Sie mit dem vollen Betrag, bis die Übernahme schriftlich vorliegt. Buchen Sie die Automatik nicht aus Angst, sondern aus einem absehbaren Alltagsszenario heraus – das unterscheidet eine gute von einer teuren Entscheidung."
+      ]
+    },
+    {
+      "heading": "Notrufdaten bewusst verstehen: was über Sie gespeichert wird",
+      "paragraphs": [
+        "Damit die Zentrale im Notfall richtig reagiert, sind laut Verbraucherzentrale Adresse und Zugang zur Wohnung, Gesundheitszustand und Medikamente sowie Kontaktdaten von Angehörigen hinterlegt; diese Daten müssen sicher und DSGVO-konform gespeichert werden.[2] Bei Systemen mit Automatik kommen technische Ereignisdaten hinzu, etwa erkannte Stürze oder abgebrochene Alarme.",
+        "Fragen Sie deshalb nach: Wer kann welche Daten einsehen, wie lange bleiben Ereignisse gespeichert, wann und wie werden sie gelöscht, und welche Angaben sind für den Notfall wirklich notwendig? Legen Sie selbst fest, welche Gesundheitsangaben hinterlegt werden, und prüfen Sie nach Vertragsende die Löschung. Auf diesem Portal sammeln wir keine Gesundheitsdaten; dieser Ratgeber ist eine allgemeine Orientierung, keine Rechtsberatung."
+      ]
+    },
+    {
+      "heading": "Checkliste für das Beratungsgespräch",
+      "paragraphs": [
+        "Nehmen Sie die Punkte zum Termin mit und lassen Sie Antworten schriftlich geben. Eine vertraute Person kann mitlesen; Sie müssen nicht im Erstgespräch entscheiden."
+      ],
+      "bullets": [
+        "Welche Sturzarten erkennt das System nach Herstellerangabe – und welche ausdrücklich nicht?",
+        "Wie lang ist die Vorlaufzeit, wie ertönt das Abbruchsignal, wie bricht man den Alarm ab?",
+        "Wird der Sender getragen oder montiert? Wie lässt er sich im Alltag sichern, damit er bei einem Sturz dabei ist?",
+        "Was kostet der Zusatztarif monatlich, und welche Bestandteile übernimmt die Pflegekasse gegebenenfalls?",
+        "Sind Fehlalarmkosten vertraglich ausgeschlossen? Wie reagiert die Zentrale auf einen abgebrochenen Alarm?",
+        "Welche Daten werden in der Zentrale gespeichert, wer liest mit, wann werden sie gelöscht?",
+        "Was passiert bei Strom- oder Internetausfall und bei leerer Batterie im Sender?",
+        "Gibt es Testzeiträume oder Probezeiten für die Automatik?"
+      ]
+    },
+    {
+      "heading": "Transparenz und Grenzen",
+      "paragraphs": [
+        "Betreiber dieses Portals ist Tobias Batke. Dieser Ratgeber wurde mit KI-Unterstützung aus öffentlich zugänglichen Quellen erarbeitet. Wir haben keine Sturzsensorik getestet, keine Erkennungsquoten gemessen und keine Anbieter bewertet. Hersteller- und Redaktionsangaben in unseren Quellen sind deren eigene Aussagen, keine von uns verifizierten Leistungsversprechen.",
+        "Dieser Text ist allgemeine Orientierung und ersetzt weder medizinische Beratung noch eine individuelle Prüfung Ihrer Wohnsituation oder Ihres Vertrags. Bei Sturzproblemen oder Medikamentenfragen wenden Sie sich an fachliches Personal. Quellenzahlen in eckigen Klammern verweisen auf die Quellenliste dieses Artikels."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Erkennt automatische Sturzerkennung jeden Sturz?",
+      "answer": "Nein. Quellen beschreiben, dass sehr langsame Stürze wie Zusammensacken oder Gleiten oft nicht erkannt werden, weil der Aufprall fehlt; der manuelle Knopf bleibt deshalb daneben wichtig.[1][2] Eine allgemeine Erkennungsquote belegt keine unserer Quellen."
+    },
+    {
+      "question": "Was passiert, wenn ich den Sturzsensor versehentlich auslöse?",
+      "answer": "Systeme sehen eine Vorlaufphase mit akustischem Signal vor, in der Sie den Alarm durch Bewegung oder Knopfdruck abbrechen können.[3] Klären Sie zusätzlich, ob Fehlalarme vertraglich kostenpflichtig sind, und lassen Sie das schriftlich bestätigen."
+    },
+    {
+      "question": "Zahlt die Pflegekasse den Sturzsensor?",
+      "answer": "Der Basistarif kann bei Pflegegrad unter Voraussetzungen mit bis zu 27 Euro monatlich bezuschusst werden; Falldetektoren und Sturzsensoren gehören nach Verbraucherzentrale zu den kostenpflichtigen Zusatzleistungen, die Sie selbst tragen.[1][2] Verlassen Sie sich erst auf eine schriftliche Entscheidung der Pflegekasse."
+    },
+    {
+      "question": "Für wen lohnt sich die Automatik besonders?",
+      "answer": "Herstellerangaben nennen Menschen mit erhöhtem Sturzrisiko, alleinlebende ältere Menschen, Personen nach Schlaganfall oder mit neurologischen Erkrankungen sowie Medikamentennutzer mit Schwindelwirkung.[3] Ob Ihr Einzelfall passt, sollte eine fachliche Beratung klären – dieser Artikel ersetzt sie nicht."
+    },
+    {
+      "question": "Muss der Sensor immer am Körper getragen werden?",
+      "answer": "Ja, der Schutz gilt nur, wenn der Sender getragen wird; abgelegte Geräte erkennen keinen Sturz.[2][3] Fragen Sie nach Tragekomfort, Gewicht, Wasserschutz und geeigneten Tragevarianten für die Dusche."
+    },
+    {
+      "question": "Welche Daten werden über mich gespeichert?",
+      "answer": "Laut Verbraucherzentrale gehören Adresse und Wohnungszugang, Gesundheitszustand und Medikamente sowie Kontaktdaten Angehöriger in die Notrufzentrale; die Speicherung muss DSGVO-konform sein.[2] Fragen Sie nach Einsicht, Speicherdauer und Löschung und legen Sie selbst fest, welche Gesundheitsangaben nötig sind."
+    }
+  ],
+  "sources": [
+    {
+      "title": "pflege.net: Hausnotruf Sturzsensor – automatische Erkennung ohne Knopfdruck (Redaktionsratgeber mit Grenzen und Kosten)",
+      "url": "https://www.pflege.net/hausnotruf-sturzsensor/",
+      "checked_at": "2026-10-15"
+    },
+    {
+      "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt – Funktionen, Vorteile, Kosten",
+      "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
+      "checked_at": "2026-10-15"
+    },
+    {
+      "title": "BeWo TeleHealthcare: Sturzerkennung beim HausNotruf – Herstellerangaben zu Ablauf und Zielgruppen",
+      "url": "https://www.bewo-telehealthcare.com/ratgeber/sturzerkennung-hausnotruf",
+      "checked_at": "2026-10-15"
+    }
+  ],
+  "image": {
+    "src": "assets/images/hausnotruf-sturz-entscheidung.svg",
+    "alt": "Schematischer Entscheidungsbaum: Sensor erkennt Sturz und Reglosigkeit, Vorlaufphase mit Abbruchmöglichkeit, dann Alarm an die Zentrale; daneben der direkte Weg über den manuellen Knopf",
+    "caption": "Schematische KI-Illustration; keine Erkennungsquote und kein konkretes Gerät."
+  },
+  "status": "editorial-reviewed-preview"
+}

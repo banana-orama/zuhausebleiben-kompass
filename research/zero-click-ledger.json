@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results",
+      "title": "",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "url": "https://blog.cloudflare.com/crawlers-click-ai-bots-training",
+      "title": "",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

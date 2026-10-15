@@ -1,0 +1,118 @@
+[
+  {
+    "case": "accept",
+    "status": 204,
+    "body": "",
+    "headers": {
+      "Access-Control-Allow-Origin": "https://zuhausebleiben-kompass.de",
+      "Cache-Control": "no-store",
+      "Date": "Thu, 15 Oct 2026 09:14:29 GMT",
+      "Trace-Id": "8fd0716d-7519-4b77-8e6e-9f3e7fb80ef8",
+      "Vary": "Origin",
+      "X-Robots-Tag": "noindex, nofollow",
+      "Connection": "close"
+    }
+  },
+  {
+    "case": "deny",
+    "status": 204,
+    "body": "",
+    "headers": {
+      "Access-Control-Allow-Origin": "https://zuhausebleiben-kompass.de",
+      "Cache-Control": "no-store",
+      "Date": "Thu, 15 Oct 2026 09:14:29 GMT",
+      "Trace-Id": "bc2bdbaf-3870-454a-b558-4e5917fe4ca1",
+      "Vary": "Origin",
+      "X-Robots-Tag": "noindex, nofollow",
+      "Connection": "close"
+    }
+  },
+  {
+    "case": "missing-consent",
+    "status": 204,
+    "body": "",
+    "headers": {
+      "Access-Control-Allow-Origin": "https://zuhausebleiben-kompass.de",
+      "Cache-Control": "no-store",
+      "Date": "Thu, 15 Oct 2026 09:14:29 GMT",
+      "Trace-Id": "8f933636-3610-4a53-bfce-c8ea678aad6b",
+      "Vary": "Origin",
+      "X-Robots-Tag": "noindex, nofollow",
+      "Connection": "close"
+    }
+  },
+  {
+    "case": "unexpected-field",
+    "status": 204,
+    "body": "",
+    "headers": {
+      "Access-Control-Allow-Origin": "https://zuhausebleiben-kompass.de",
+      "Cache-Control": "no-store",
+      "Date": "Thu, 15 Oct 2026 09:14:30 GMT",
+      "Trace-Id": "53099fa4-bae4-4785-9d58-d18c7257dce0",
+      "Vary": "Origin",
+      "X-Robots-Tag": "noindex, nofollow",
+      "Connection": "close"
+    }
+  },
+  {
+    "case": "cta-accept",
+    "status": 400,
+    "body": "",
+    "test_harness_error": "Empty Preview header accidentally selected from Event Data textareas; corrected in following retry."
+  },
+  {
+    "case": "analytics-denied",
+    "status": 400,
+    "body": "",
+    "test_harness_error": "Empty Preview header accidentally selected from Event Data textareas; corrected in following retry."
+  },
+  {
+    "case": "advertising-granted",
+    "status": 400,
+    "body": "",
+    "test_harness_error": "Empty Preview header accidentally selected from Event Data textareas; corrected in following retry."
+  },
+  {
+    "case": "stale-revision",
+    "status": 400,
+    "body": "",
+    "test_harness_error": "Empty Preview header accidentally selected from Event Data textareas; corrected in following retry."
+  },
+  {
+    "case": "malformed-json",
+    "status": 400,
+    "body": "",
+    "test_harness_error": "Empty Preview header accidentally selected from Event Data textareas; corrected in following retry."
+  },
+  {
+    "case": "cta-accept",
+    "status": 204,
+    "body": "",
+    "retry": true
+  },
+  {
+    "case": "analytics-denied",
+    "status": 204,
+    "body": "",
+    "retry": true
+  },
+  {
+    "case": "advertising-granted",
+    "status": 204,
+    "body": "",
+    "retry": true
+  },
+  {
+    "case": "stale-revision",
+    "status": 204,
+    "body": "",
+    "retry": true
+  },
+  {
+    "case": "malformed-json",
+    "status": 204,
+    "body": "",
+    "retry": true
+  }
+]

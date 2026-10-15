@@ -1,0 +1,70 @@
+GTM-M6SDZCN4 
+Version: QUICK_PREVIEW
+Summary
+collect
+collect
+collect
+collect
+collect
+2 cta_click
+collect
+collect
+collect
+collect
+1 page_view
+Event: cta_click
+Output of GTM-M6SDZCN4 
+Request
+Tags
+Variables
+Event Data
+Console (0)
+Client
+ZBK — opt-in analytics receiver
+ZBK — strict consent and event allowlist - Claimed
+Event Data
+Name	Value
+
+analytics_allowed
+	
+true
+
+
+client_id
+	
+"b5d2bf0f-c591-403b-b83f-0d9d42195958"
+
+
+consent
+	
+{
+  analytics_storage: "granted",
+  ad_storage: "denied",
+  ad_user_data: "denied",
+  ad_personalization: "denied"
+}
+
+
+consent_version
+	
+2
+
+
+content_id
+	
+"c04"
+
+
+cta_id
+	
+"editorial_contact"
+
+
+event_id
+	
+"2924c02d-bc3b-43f4-9ee1-3dd5fa16f66f"
+
+
+event_name
+	
+"cta_click"

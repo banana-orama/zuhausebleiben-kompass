@@ -1,0 +1,326 @@
+{
+  "web-tag": {
+    "ok": true,
+    "command": "tags get",
+    "data": {
+      "tagId": "10",
+      "name": "ZBK \u2014 dispatch permitted queue to Stape",
+      "type": "html",
+      "path": "accounts/572865630/containers/267198165/workspaces/2/tags/10",
+      "firingTriggerId": [
+        "9"
+      ],
+      "parameter": [
+        {
+          "type": "template",
+          "key": "html",
+          "value": "<script>if(window.zbkConsent && window.zbkConsent.analyticsAllowed && window.zbkMeasurement){window.zbkMeasurement.flush();}</script>"
+        },
+        {
+          "type": "boolean",
+          "key": "supportDocumentWrite",
+          "value": "false"
+        }
+      ],
+      "fingerprint": "1792055461135"
+    },
+    "error": null,
+    "meta": {
+      "profile": "default",
+      "dryRun": false,
+      "timestamp": "2026-10-15T09:16:52.669Z",
+      "durationMs": 767
+    }
+  },
+  "web-trigger": {
+    "ok": true,
+    "command": "triggers get",
+    "data": {
+      "triggerId": "9",
+      "name": "ZBK \u2014 sanitized analytics-only events",
+      "type": "customEvent",
+      "path": "accounts/572865630/containers/267198165/workspaces/2/triggers/9",
+      "filter": [
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK DLV - analytics_allowed}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK DLV - consent_version}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK DLV - consent.analytics_storage}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "granted"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK DLV - consent.ad_storage}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "denied"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK DLV - consent.ad_user_data}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "denied"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK DLV - consent.ad_personalization}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "denied"
+            }
+          ]
+        }
+      ],
+      "customEventFilter": [
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{_event}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "zbk_measurement"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "1792055426279"
+    },
+    "error": null,
+    "meta": {
+      "profile": "default",
+      "dryRun": false,
+      "timestamp": "2026-10-15T09:16:53.890Z",
+      "durationMs": 888
+    }
+  },
+  "server-trigger": {
+    "ok": true,
+    "command": "triggers get",
+    "data": {
+      "triggerId": "12",
+      "name": "ZBK \u2014 sanitized analytics-only events",
+      "type": "customEvent",
+      "path": "accounts/572865630/containers/267197767/workspaces/2/triggers/12",
+      "filter": [
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK ED - analytics_allowed}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK ED - consent_version}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK ED - consent.analytics_storage}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "granted"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK ED - consent.ad_storage}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "denied"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK ED - consent.ad_user_data}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "denied"
+            }
+          ]
+        },
+        {
+          "type": "equals",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{ZBK ED - consent.ad_personalization}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "denied"
+            }
+          ]
+        }
+      ],
+      "customEventFilter": [
+        {
+          "type": "matchRegex",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{_event}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "^(page_view|cta_click)$"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "1792055491424"
+    },
+    "error": null,
+    "meta": {
+      "profile": "default",
+      "dryRun": false,
+      "timestamp": "2026-10-15T09:16:55.088Z",
+      "durationMs": 857
+    }
+  },
+  "server-client": {
+    "ok": true,
+    "command": "clients get",
+    "data": {
+      "clientId": "5",
+      "name": "ZBK \u2014 opt-in analytics receiver",
+      "type": "cvt_267197767_4",
+      "path": "accounts/572865630/containers/267197767/workspaces/2/clients/5",
+      "fingerprint": "1792054910166",
+      "priority": 100
+    },
+    "error": null,
+    "meta": {
+      "profile": "default",
+      "dryRun": false,
+      "timestamp": "2026-10-15T09:16:56.156Z",
+      "durationMs": 742
+    }
+  },
+  "server-template": {
+    "ok": true,
+    "command": "templates get",
+    "data": {
+      "templateId": "4",
+      "name": "ZBK \u2014 strict consent and event allowlist",
+      "path": "accounts/572865630/containers/267197767/workspaces/2/templates/4",
+      "fingerprint": "1792054856043",
+      "templateData": "___INFO___\n\n{\n  \"type\": \"CLIENT\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"ZBK \u2014 strict consent and event allowlist\",\n  \"description\": \"Project-only analytics consent gate. No forwarding, logging or cookies.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst getRequestPath=require('getRequestPath');\nconst getRequestMethod=require('getRequestMethod');\nconst getRequestHeader=require('getRequestHeader');\nconst getRequestBody=require('getRequestBody');\nconst claimRequest=require('claimRequest');\nconst setResponseStatus=require('setResponseStatus');\nconst setResponseHeader=require('setResponseHeader');\nconst returnResponse=require('returnResponse');\nconst runContainer=require('runContainer');\nconst JSON=require('JSON');\n// Also embedded verbatim into both server templates: fail closed on missing/contradictory consent.\nfunction sanitizeMeasurement(p, revision) {\n  if (!p || p.analytics_allowed !== true || p.consent_version !== revision || !p.consent) return null;\n  const c=p.consent;\n  const keys=['event_name','event_id','client_id','content_id','cta_id','analytics_allowed','consent_version','consent'];\n  for (const key in p) {if (keys.indexOf(key)<0) return null;}\n  for (const key in c) {if (['analytics_storage','ad_storage','ad_user_data','ad_personalization'].indexOf(key)<0) return null;}\n  const uuid = value => {\n    if (typeof value!=='string' || value.length!==36) return false;\n    for (let i=0;i<36;i++) {if ([8,13,18,23].indexOf(i)>=0 ? value[i]!=='-' : '0123456789abcdef'.indexOf(value[i])<0) return false;}\n    return true;\n  };\n  if (!uuid(p.event_id) || !uuid(p.client_id)) return null;\n  if (['site','c01','c02','c03','c04','c05','c06','c07'].indexOf(p.content_id)<0) return null;\n  if (p.event_name==='page_view') {if (p.cta_id!=='') return null;}\n  else if (p.event_name==='cta_click') {if (p.content_id==='site' || ['checklist_top','compare_top','print_bottom','editorial_contact'].indexOf(p.cta_id)<0) return null;}\n  else return null;\n  if (c.analytics_storage!=='granted' || c.ad_storage!=='denied' || c.ad_user_data!=='denied' || c.ad_personalization!=='denied') return null;\n  return {event_name:p.event_name,event_id:p.event_id,client_id:p.client_id,content_id:p.content_id,cta_id:p.cta_id,analytics_allowed:true,consent_version:revision,consent:{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'}};\n}\n\nif(getRequestPath()!=='/zbk/collect') return;\nclaimRequest();\nconst origin=getRequestHeader('origin');\nif(origin!=='https://zuhausebleiben-kompass.de') {setResponseStatus(403);returnResponse();return;}\nsetResponseHeader('Access-Control-Allow-Origin','https://zuhausebleiben-kompass.de');\nsetResponseHeader('Vary','Origin');\nsetResponseHeader('Cache-Control','no-store');\nif(getRequestMethod()!=='POST') {setResponseStatus(405);returnResponse();return;}\nconst body=getRequestBody();\nif(!body || body.length>2048) {setResponseStatus(400);returnResponse();return;}\nconst event=sanitizeMeasurement(JSON.parse(body),2);\nif(!event) {setResponseStatus(204);returnResponse();return;}\nrunContainer(event,()=>{setResponseStatus(204);returnResponse();});\n\n\n___SERVER_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_request\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"requestAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        },\n        {\n          \"key\": \"headerAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"allowedHeaders\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"origin\"\n              }\n            ]\n          }\n        },\n        {\n          \"key\": \"queryParameterAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"none\"\n          }\n        }\n      ]\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"return_response\",\n        \"versionId\": \"1\"\n      },\n      \"param\": []\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"access_response\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"writeResponseAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        },\n        {\n          \"key\": \"writeHeaderAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"run_container\",\n        \"versionId\": \"1\"\n      },\n      \"param\": []\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n"
+    },
+    "error": null,
+    "meta": {
+      "profile": "default",
+      "dryRun": false,
+      "timestamp": "2026-10-15T09:16:57.274Z",
+      "durationMs": 783
+    }
+  }
+}
