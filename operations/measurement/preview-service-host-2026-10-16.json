@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-16",
+  "transport": "https://service.zuhausebleiben-kompass.de (valid Let's Encrypt certificate, CN=service.zuhausebleiben-kompass.de, issuer Let's Encrypt YR1, valid 2026-10-15 to 2027-01-13; /healthy returns 200)",
+  "preview": {
+    "type": "QUICK_PREVIEW (workspace draft, NOT published)",
+    "server_container": "GTM-M6SDZCN4",
+    "preview_url_host": "service.zuhausebleiben-kompass.de (Server container URLs setting previously set to built-in host; UI-generated debug URL now uses the service host)",
+    "manual_header": "X-Gtm-Server-Preview token read live from Tag Assistant > overflow menu > 'Send requests manually'. Per handoff policy the token value is NOT stored in repository artifacts (it is session-bound and rotates)."
+  },
+  "wrong_header_probes": [
+    {"header": "x-gtm-preview / X-GTM-Preview", "result": "HTTP 400 (matches prior-run finding: wrong/empty preview header is rejected; correct header yields 204)"}
+  ],
+  "valid_request": {
+    "method": "POST",
+    "url": "https://service.zuhausebleiben-kompass.de/zbk/collect",
+    "headers": ["Content-Type: text/plain", "Origin: https://zuhausebleiben-kompass.de", "X-Gtm-Server-Preview: <session token, not stored>"],
+    "payload": {"event_name": "page_view", "event_id": "fce548fa-f43e-4d3d-a123-961d0a3d6701", "client_id": "<random uuid>", "content_id": "c04", "cta_id": "", "analytics_allowed": true, "consent_version": 2, "consent": {"analytics_storage": "granted", "ad_storage": "denied", "ad_user_data": "denied", "ad_personalization": "denied"}},
+    "http_status": 204,
+    "earlier_accept_with_token": {"http_status": 204, "event_id": "31ad69ae-b86b-4267-877e-fe47a927b5db"}
+  },
+  "tag_assistant_result": {
+    "summary": "collect / 1 page_view",
+    "tags_fired": ["ZBK — GA4 analytics-only sanitized forwarding — Google Analytics: GA4 - Fired 1 time"],
+    "tags_not_fired": "None",
+    "evidence_png": ["preview-service-host-ga4-tag-fired.png", "preview-overflow-menu.png", "preview-manual-send-dialog.png"],
+    "note": "Tag Assistant reports the tag as fired (outbound request executed by the container). It does NOT prove Google-side receipt."
+  },
+  "ga4_side_verification": {
+    "status": "NOT CONFIRMED within this session",
+    "details": "GA4 Home/Realtime showed 'No data available' and 0 active users ~9 minutes after the verified forward. DebugView could not be opened through UI automation (SPA stayed on Admin). Possible causes: GA4 processing latency for first-party server hits, or the Stape container being over its request quota (see stape_quota_warning).",
+    "stape_quota_warning": "Stape dashboard shows 'Your request limit has been reached in your current billing period' — 18432 of 10000 requests, Free plan, renews 2026-11-15. Operator decision required: upgrade or accept risk of container disablement."
+  }
+}
