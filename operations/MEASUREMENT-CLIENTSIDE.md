@@ -87,11 +87,10 @@ happens, re-verify `/healthy`, quota state and the whole consent chain before an
 
 ## Explicitly NOT done (owner: operator / parent task)
 
-- No GTM container published (web or server). Publish web container 267198165 together with the
-  site deploy; keep server container 267197767 unpublished.
-- No git commit/push, no site deploy.
+- ~~No GTM container published~~ → **Web container PUBLISHED 16.10.2026**: Version 2 "ZBK v1: consent-gated client-side GA4" is Live/Latest (2 tags, 2 triggers, 9 variables; previous version was Empty Container). Server container 267197767 stays unpublished/dormant.
+- Site deploy: commit `afc779d`, workflow 38883162986 success. Live readback: privacy page names GA4/Google Ireland, no Stape mentions; measurement.mjs client-mode only, no service/Stape endpoints; homepage ships no GTM loader before consent.
 
-## Remaining receipt verification (after deploy + web publish, no Stape involved)
+## Remaining receipt verification (post-publish, no Stape involved)
 
 1. Accept analytics consent on the live site in a normal browser; GA4 Admin → Realtime
    (`properties/559120219`) should show 1 user / page_view within ~30 min.
