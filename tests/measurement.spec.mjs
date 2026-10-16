@@ -1,30 +1,32 @@
 import {test, expect} from '@playwright/test';
 
 const service = 'https://service.zuhausebleiben-kompass.de';
-test('shipped integration stays inactive even after consent',async({page})=>{
- const requests=[];page.on('request',r=>{if(/googletagmanager|google-analytics|stape|service\.zuhausebleiben/.test(r.url()))requests.push(r.url());});
+test('shipped integration is active after consent: exactly one GTM loader and one sanitized page_view',async({page})=>{
+ const loaders=[], hits=[];
+ await page.route('https://www.googletagmanager.com/gtm.js**', async route => {
+   loaders.push(route.request());
+   await route.fulfill({contentType:'text/javascript',body:'window.zbkMeasurement.flush(); const push=window.dataLayer.push.bind(window.dataLayer); window.dataLayer.push=function(v){const n=push(v);if(v.event==="zbk_measurement")window.zbkMeasurement.flush();return n;};'});
+ });
+ await page.route(service+'/**', async route => {hits.push(route.request()); await route.fulfill({status:204});});
  await page.goto('/treppenlift-kosten.html');
- await page.evaluate(async()=>{const m=await import('/assets/measurement.mjs');m.installMeasurement();});
  await page.getByRole('button',{name:'Alle akzeptieren',exact:true}).click();
- await page.waitForTimeout(100);expect(requests).toEqual([]);
+ await expect.poll(()=>hits.length).toBe(1); expect(loaders).toHaveLength(1);
+ const p=JSON.parse(hits[0].postData());
+ expect(p.event_name).toBe('page_view'); expect(p.consent_version).toBe(2);
+ expect(p.consent).toEqual({analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
 });
 test('failed GTM loader never falls back to direct analytics and navigation remains functional',async({page})=>{
- const hits=[];await page.route('https://www.googletagmanager.com/**',r=>r.abort());
- await page.route(service+'/**',async r=>{hits.push(r.request());await r.fulfill({status:204});});
- await page.goto('/treppenlift-kosten.html');await install(page);
- await page.getByRole('button',{name:'Alle akzeptieren',exact:true}).click();
+const hits=[];await page.route('https://www.googletagmanager.com/**',r=>r.abort());
+await page.route(service+'/**',async r=>{hits.push(r.request());await r.fulfill({status:204});});
+await page.goto('/treppenlift-kosten.html');
+await page.getByRole('button',{name:'Alle akzeptieren',exact:true}).click();
  await page.locator('[data-cta-id="checklist_top"]').click();
  await page.waitForTimeout(100);expect(hits).toEqual([]);expect(new URL(page.url()).hash).toMatch(/abschnitt/);
  await page.getByRole('button',{name:'Einwilligung widerrufen',exact:true}).click();
  await page.evaluate(()=>window.zbkMeasurement.flush());expect(hits).toEqual([]);
 });
-async function install(page) {
-  await page.evaluate(async () => {
-    const {installMeasurement} = await import('/assets/measurement.mjs');
-    installMeasurement({enabled:true, webContainer:'GTM-M9TZZPLQ', endpoint:'https://service.zuhausebleiben-kompass.de/zbk/collect', consentRevision:1, tlsVerified:true, serverGateVerified:true, destinationVerified:true});
-  });
-}
-test('candidate measurement denies by default, opts in once and withdraws without more requests', async ({page}) => {
+// Candidate fixture retired; the third test exercises the real shipped module end-to-end.
+test('activated measurement denies by default, opts in once and withdraws without more requests', async ({page}) => {
   const loaders=[], hits=[];
   await page.route('https://www.googletagmanager.com/gtm.js**', async route => {
     loaders.push(route.request());
@@ -33,7 +35,8 @@ test('candidate measurement denies by default, opts in once and withdraws withou
   });
   await page.route(service+'/**', async route => {hits.push(route.request()); await route.fulfill({status:204});});
   await page.goto('/treppenlift-kosten.html?email=person@example.org&diagnose=private#private');
-  await install(page);
+  // Revision 2 must invalidate any stored revision-1 selection: the banner must re-appear.
+  await expect(page.getByRole('button',{name:'Alle akzeptieren',exact:true})).toBeVisible();
   await page.waitForTimeout(100); expect(loaders).toHaveLength(0); expect(hits).toHaveLength(0);
   await page.getByRole('button',{name:'Alle ablehnen',exact:true}).click();
   await page.locator('[data-cta-id="checklist_top"]').click(); expect(hits).toHaveLength(0);

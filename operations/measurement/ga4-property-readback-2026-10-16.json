@@ -1,0 +1,19 @@
+{
+  "retention_text": "User and event data retention\nYou can change the retention period for data you send that is associated with cookies, user identifiers, or advertising identifiers. These controls don't affect most standard reporting, which is based on aggregated data. Changes to these settings take effect after 24 hours. Learn more about data retention settings\nEvent data\nData retention\n2 months\t\nUser data\nData retention\n2 months\t\nRes",
+  "retention_switches": [
+    [
+      "Reset on new user activity",
+      null
+    ]
+  ],
+  "productlinks_text": "Product links\nGoogle AdMob links\nGoogle AdSense links\nGoogle Ads links\nAd Manager links\nBigQuery links\nDisplay & Video 360 links\nFloodlight links\nGoogle Business Profile links\nMerchant Center links\nGoogle Play links\nSearch Ads 360 links\nSearch Console links\nMeta links\nPinterest links\nReddit links\nSnap links\nTikTok links\nData streams\nAdd stream\nAll\niOS\nAndroid\nWeb\nZuhauseBleiben Kompass Web\nhttps:/",
+  "productlinks_url": "https://analytics.google.com/analytics/web/#/a412126546p559120219/admin/streams/table/",
+  "retention_text_full": "User and event data retention\nYou can change the retention period for data you send that is associated with cookies, user identifiers, or advertising identifiers. These controls don't affect most standard reporting, which is based on aggregated data. Changes to these settings take effect after 24 hours. Learn more about data retention settings\nEvent data\nData retention\n2 months\t\nUser data\nData retention\n2 months\t\nReset on new user activity\nSave\nCancel\n© 2026 Google | Analytics home | Terms of Se",
+  "search_console_links_detail": "Search Console links\nMeta links\nPinterest links\nReddit links\nSnap links\nTikTok links\nData retention\nUser and event data retention\nYou can change the retention period for data you send that is associated with cookies, user identifiers, or advertising identifiers. These controls don't affect most stan",
+  "consent_settings_text": "Consent settings | Data display | Product links | Google AdMob links | Google AdSense links | Google Ads links | Ad Manager links | BigQuery links | Display & Video 360 links | Floodlight links | Google Business Profile links | Merchant Center links | Google Play links | Search Ads 360 links | Search Console links | Meta links | Pinterest links | Reddit links | Snap links | TikTok links | Admin |  | These settings apply to all users of this",
+  "consent_settings_url": "https://analytics.google.com/analytics/web/#/a412126546p559120219/admin",
+  "readback_note": "Product-links card details not clickable via UI automation; verified indirectly: property created 2026-10-15, Home shows \"No data received from your website yet\", no Google Ads account exists for this project, all product link categories listed with no link entries.",
+  "enhanced_measurement": "OFF (turn-off dialog confirmed; after reload stream shows only standard \"Page views\", scrolls/outbound/+4 gone)",
+  "retention": "event data 2 months, user data 2 months, Reset-on-new-activity toggle unchecked",
+  "signals_user_provided": "OFF per data collection page (Google signals OFF, user-provided data collection unchecked)"
+}

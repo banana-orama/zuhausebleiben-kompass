@@ -1,0 +1,102 @@
+{
+ "captured": "2026-10-16",
+ "source": "live gtm CLI list calls (this session)",
+ "web": {
+  "container": "GTM-M9TZZPLQ",
+  "accountId": "572865630",
+  "workspace": "2",
+  "tags": [
+   {
+    "id": "10",
+    "name": "ZBK — dispatch permitted queue to Stape",
+    "type": "html"
+   }
+  ],
+  "triggers": [
+   {
+    "id": "9",
+    "name": "ZBK — sanitized analytics-only events",
+    "type": "customEvent"
+   }
+  ],
+  "variables": [
+   {
+    "id": "3",
+    "name": "ZBK DLV - analytics_allowed"
+   },
+   {
+    "id": "4",
+    "name": "ZBK DLV - consent_version"
+   },
+   {
+    "id": "5",
+    "name": "ZBK DLV - consent.analytics_storage"
+   },
+   {
+    "id": "6",
+    "name": "ZBK DLV - consent.ad_storage"
+   },
+   {
+    "id": "7",
+    "name": "ZBK DLV - consent.ad_user_data"
+   },
+   {
+    "id": "8",
+    "name": "ZBK DLV - consent.ad_personalization"
+   }
+  ]
+ },
+ "server": {
+  "container": "GTM-M6SDZCN4",
+  "accountId": "572865630",
+  "workspace": "2",
+  "tags": [
+   {
+    "id": "14",
+    "name": "ZBK — GA4 analytics-only sanitized forwarding",
+    "type": "sgtmgaaw",
+    "note": "destination G-5738T8FHWW per forwarding-exact-readback.json; redactVisitorIp=true; fixed event params event_id/content_id/cta_id + debug_mode + non_personalized_ads=true"
+   }
+  ],
+  "triggers": [
+   {
+    "id": "12",
+    "name": "ZBK — sanitized analytics-only events",
+    "type": "customEvent",
+    "note": "regex ^(page_view|cta_click)$; filters: analytics_allowed=true, consent_version=2, analytics_storage=granted, ad_storage/ad_user_data/ad_personalization=denied, Client Name = client5"
+   }
+  ],
+  "clients": [
+   {
+    "id": "1",
+    "name": "GA4",
+    "type": "gaaw_client",
+    "note": "pre-existing, untouched"
+   },
+   {
+    "id": "5",
+    "name": "ZBK — opt-in analytics receiver",
+    "type": "cvt_267197767_4"
+   }
+  ],
+  "variables": [
+   {
+    "id": "6..11",
+    "note": "analytics_allowed, consent_version, consent.*"
+   },
+   {
+    "id": "15",
+    "name": "ZBK ED - event_id"
+   },
+   {
+    "id": "16",
+    "name": "ZBK ED - content_id"
+   },
+   {
+    "id": "17",
+    "name": "ZBK ED - cta_id"
+   }
+  ]
+ },
+ "note": "Exact parameter payloads: forwarding-exact-readback.json (tag14/trigger12), exact-draft-readback.json (web tag10/trigger9/DLVs, server client5)."
+}

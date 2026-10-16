@@ -22,10 +22,14 @@ test.beforeEach(async ({page}) => {
     const u = new URL(route.request().url());
     await route.fulfill({response: await route.fetch({url: 'http://127.0.0.1:4179' + u.pathname + u.search})});
   });
+  // Since measurement activation these hosts are reached only AFTER an analytics accept.
+  // Block them here so consent tests stay hermetic; their behavior is covered in measurement.spec.mjs.
+  await page.route(/googletagmanager\.com|google-analytics\.com|service\.zuhausebleiben-kompass\.de|stape\.io/, r => r.abort());
 });
 function observe(page) {
   const external = [], errors = [];
-  page.on('request', r => {if (!['http://127.0.0.1:4179', 'https://zuhausebleiben-kompass.de'].includes(new URL(r.url()).origin)) external.push(r.url());});
+  // Measurement hosts are intentionally excluded: CMP tests verify consent mechanics only.
+  page.on('request', r => {if (!['http://127.0.0.1:4179', 'https://zuhausebleiben-kompass.de'].includes(new URL(r.url()).origin) && !/googletagmanager\.com|google-analytics\.com|service\.zuhausebleiben-kompass\.de|stape\.io/.test(r.url())) external.push(r.url());});
   page.on('pageerror', e => errors.push(e.message));
   return {external, errors};
 }
@@ -87,7 +91,7 @@ test('accept grants only analytics, ordered GTM event observes updated state, wi
 test('individual settings are keyboard usable and restore focus', async ({page}) => {
   const observed = observe(page);
   await page.goto('/'); await page.getByRole('button', {name: 'Einstellungen', exact: true}).click();
-  const toggle = page.getByRole('checkbox', {name: 'Optionale Statistik (noch nicht aktiv)'});
+  const toggle = page.getByRole('checkbox', {name: 'Optionale Statistik'});
   await expect(toggle).not.toBeChecked();
   await toggle.focus(); await page.keyboard.press('Space'); await expect(toggle).toBeChecked();
   await page.getByRole('button', {name: 'Auswahl speichern', exact: true}).click();
