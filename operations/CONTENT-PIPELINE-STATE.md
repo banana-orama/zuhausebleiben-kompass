@@ -42,13 +42,12 @@ Recherche-Dokumente:
 
 ## Zustand und Gates
 
-- Alle 4 Batch-2-Artikel: status „review-required". Kein Build, kein Deploy, keine Sitemap-Änderung, noindex-Status unangetastet.
+- **Aktualisiert 2026-10-16 (Lauf 2):** Die 4 Batch-2-Artikel wurden am 16.10. nach Quellen-Verifikation veröffentlicht (Commit 5f38a01, Parallel-Lauf) und sind live/indexierbar; die beiden folgenden historischen Batch-2-Zeilen beschreiben den Stand zum Batch-Zeitpunkt. Renderer/Generate wurden im Lauf 2 gezielt geändert (Cluster-Related + CTA-Ziele + Footer), mit Tests in beiden Build-Modi.
+- Alle 4 Batch-2-Artikel: status „review-required“. Kein Build, kein Deploy, keine Sitemap-Änderung, noindex-Status unangetastet.
 - Renderer/Generate/Design/CTA/Tests: nicht angefasst (Sperrliste beachtet).
-- Offene Integrationsfragen für das Gate:
-  1. article-renderer.mjs „Passend dazu"-Logik ordnet Nicht-Treppenlift-Slugs derzeit dem Treppenlift-Kontext zu (related-Filter auf slug.startsWith('treppenlift')). Sobald Hausnotruf/Wohn-Klein-Artikel freigegeben werden, sollte die Related-Zuordnung erweitert werden (z. B. thematische Cluster-Map). Bewusst nicht selbst geändert.
-  2. Early-CTA-Zieltexte des Renderers sind treppenlift-spezifisch („Anbieter prüfen", „Kosten vergleichen"); für die neuen Cluster prüfen, ob eigene CTA-Ziele (z. B. Hausnotruf-Checkliste) sinnvoll sind.
-  3. Vor Veröffentlichung: Pflegekassen-27-Euro-Stand (VZ, Stand 29.07.2026) erneut gegen aktuelle Quelle prüfen; KfW-Status unverändert lassen (455-B geschlossen, 159 offen — Stand 2026-10-14, betrifft bestehende Artikel).
-  4. Bildpfade existieren; visuelle Layoutprüfung bleibt Gate.
+- Offene Integrationsfragen für das Gate: **Frage 1 und 2 am 2026-10-16 (Lauf 2) gelöst** — article-renderer.mjs hat jetzt Cluster-Logik (bad/care/lift per Slug-Präfix) für „Passend dazu" und kontextpassende Early-CTA-Ziele (specialMap + Cluster-Defaults); Pflege-Cluster-Artikel verlinken sich gegenseitig statt in den Treppenlift-Trichter. Verbleibend:
+  1. Vor Veröffentlichung: Pflegekassen-27-Euro-Stand (VZ, Stand 29.07.2026) erneut gegen aktuelle Quelle prüfen; KfW-Status unverändert lassen (455-B geschlossen, 159 offen — Stand 2026-10-14, betrifft bestehende Artikel).
+  2. Bildpfade existieren; visuelle Layoutprüfung bleibt Gate.
 - Cluster-Historie für spätere Auswertung: Hausnotruf laut HORIZONTALE-EXPANSION.md organischer angrenzender Cluster (Malteser als Referenz, Awin 112616 öffentlich bewerbbar); Wohnraum-klein stärkt Upsell-Pfad zu Treppenlift/Bad.
 
 ## Qualitätsgate-Regeln, die in Batch 2 angewandt wurden (für künftige Batches)

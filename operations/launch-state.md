@@ -1,6 +1,6 @@
 # Launch-State: ZuhauseBleiben Kompass
 
-Aktualisiert: 2026-10-15 (Launch-Freigabe durch Betreiber: „Du bestimmst das wann go ist“) · Verifizierte Tatsachen mit Datum; Offenes markiert.
+Aktualisiert: 2026-10-16 (Lauf 2: Related/CTA-Cluster-Fix + Footer-Wahrheit) · Verifizierte Tatsachen mit Datum; Offenes markiert.
 
 ## Phase-Übersicht
 
@@ -21,6 +21,10 @@ Aktualisiert: 2026-10-15 (Launch-Freigabe durch Betreiber: „Du bestimmst das w
 - 2026-10-15: service.zuhausebleiben-kompass.de TLS gültig, /healthy HTTP 200 (CNAME euh.stape.net von Nutzer angelegt).
 - 2026-10-15: Launch öffentlich verifiziert: Homepage robots=index,follow, HTTP 200 (server: GitHub.com), öffentliche Sitemap 23 URLs ohne Entwurf, Datenschutz indexierbar, /treppenlift-kosten.html HTTP 200. Damit Readback noindex→index abgeschlossen.
 - 2026-10-15: robots.txt hatte keine Sitemap-Direktive (Google musste Sitemap selbst entdecken) — Generator-Fix in generate.mjs (Zeile robots.txt), beide Build-Modi geprüft (PREVIEW: Sitemap-Direktive ja, Sitemap leer; LAUNCH: 23 URLs). test_site LAUNCH+PREVIEW PASS. Deploy folgt.
+- 2026-10-16 (Lauf 2): Öffentliche Sitemap erneut verifiziert: 33 <loc>-URLs (16 Ratgeber inkl. Batch 3, Regionen, Rechtseiten; Draft nicht enthalten); Homepage index,follow. Zähl-Artefakt (grep -c zählt Zeilen, nicht Vorkommen) korrigiert — keine Regression gewesen.
+- 2026-10-16 (Lauf 2): Parent-Acceptance Batch 3 nachgeholt: Alle tragenden Rechtzahlen der 4 neuen Artikel gegen heute abgerufene Originale bestätigt — §40 SGB XI (42 €/Monat Verbrauchsmaterial, 10 % max. 25 € Zuzahlung), §41 (721 € PG2 … 2 085 € PG5 Gesamtwert), §42a (3 539 € Gemeinsamer Jahresbetrag), §39 (Ersatzpflege längstens 8 Wochen), §15 (Pflegegrad-Schwellen 12,5/27/90-100 Punkte), §84 SGG (Widerspruch binnen eines Monats). Hinweise: gesetze-im-internet liefert ISO-8859-1 + HTML-Entities (&#228;), Tausendergruppen mit geschütztem Leerzeichen — naive Stringsuche meldet fälschlich "nicht gefunden".
+- 2026-10-16 (Lauf 2): Renderer-Kontextfehler behoben (article-renderer.mjs): „Passend dazu" und Early-CTA „Anbieter prüfen" schickten 9 von 16 Artikeln (Hausnotruf×2, Pflegegrad×2, Hilfsmittel, Rollator, Verhinderungspflege, Türen, Beleuchtung) ausschließlich in den Treppenlift-Trichter. Neu: Cluster-Logik (bad/care/lift), Pflege-Cluster miteinander verlinkt, kontextpassende CTA-Ziele (z. B. Hausnotruf → Pflegegrad-Antrag vorbereiten; Rollator → Hilfsmittel-Kostenübernahme), Bad/ Treppenlift-Verhalten unverändert. Beide Build-Modi geprüft (PREVIEW: Draft noindex, Sitemap leer; LAUNCH: 32 Sitemap-URLs), test_site LAUNCH + test_articles PASS.
+- 2026-10-16 (Lauf 2): Footer-Unwahrheit beseitigt (generate.mjs layout()): „Dieser Internetauftritt ist eine Vorschau. Datenschutzinformationen … noch nicht eingerichtet." stimmte seit Launch nicht mehr; jetzt „befindet sich im weiteren Aufbau; Angebotsvermittlung noch nicht eingerichtet" mit direktem Datenschutz-Link. Vermittlung bleibt korrekt als nicht verfügbar beschrieben.
 - 2026-10-15: Liftstar-Autoantwort (INBOX id 11232, 10:55 UTC): Kontakt ab 22.10.2026 wieder erreichbar. Keine substanzielle Antwort, keine Konditionsänderung.
 - 2026-10-14: Lifta-Konditionen offiziell 50 €/validem Lead bzw. 500 €/Auftrag, 30-Tage-Cookie (ui.awin.com Profil 40988); SEM/Brand-Bidding verboten (Listing 2023 als Kontext).
 
