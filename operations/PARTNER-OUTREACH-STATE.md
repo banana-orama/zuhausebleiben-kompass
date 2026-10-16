@@ -1,14 +1,17 @@
 # Status: Partneranfrage Lifta über Awin
 
-## Tatsächlich gesendet
-Erstmail an koop@liftstar-marketing.de am 15.10.2026 aus dem echten Projektpostfach anfragen@zuhausebleiben-kompass.de versendet (Himalaya/SMTP). Sendebeleg im Ordner Gesendet, Nachrichten-ID 36, Betreff „Bewerbung Lifta DE Partnerprogramm (Awin 40988) — Ratgeber-Website zuhausebleiben-kompass.de". Inhalte: Bewerbungskontext, geplanter rein organischer Traffic ohne SEM/Brand-Bidding, die vier Klärungsfragen (aktuelle T&C, Pinterest-Freigabe, Leadübernahmeweg, Datenschutz/AVV).
+## Durchbruch am 15.10.2026 (nachmittags)
+- Awin-Konto des Betreibers existiert: tobias.batke@gmail.com, Publisher-ID **3124891**, Name „Zuhausebleiben-Kompass". Passwort wurde vom Betreiber per Reset selbst neu gesetzt; Login läuft über die Browsersitzung. Kein Vault-Eintrag bisher (geschützter Dialog kann nachgeholt werden, nie ein Chat-Passwort).
+- Erstmail an koop@liftstar-marketing.de am 15.10. versendet (Himalaya/SMTP; Gesendet-Beleg id 36): Bewerbungskontext, rein organischer Traffic ohne SEM/Brand-Bidding, vier Klärungsfragen (T&C, Pinterest, Leadübernahme, Datenschutz/AVV).
+- **Lifta-Bewerbung im Awin-Login ist draußen:** Bewerbungsdialog (Merchant 40988) ausgefüllt — Promotion „Content" mit zuhausebleiben-kompass.de, 975-Zeichen-Nachricht (Zielgruppe, Quellenansatz, kein SEM, Verweis auf die vier Mailfragen), AGB-Checkbox bestätigt, abgesendet. Readback auf der Profilseite: Status **„Bewerbung offen"** (vorher „Nicht beworben").
 
-## Aktiver Stand
-- Awin-Publisher-Registrierung: Schritt 1 von 4 offen, noch NICHT abgeschickt. Erster Speicherdialog für ein Awin-Login wurde vom Nutzer abgelehnt; Konto und Passwort existieren laut Nutzer bisher nicht. Registrierung ohne gespeicherten Zugang nicht alleine fortsetzen; Passwortabfrage bleibt geschützt (Vault/Dialog), nie im Chat.
-- IMAP/SMTP des Projektpostfachs sind verifiziert (Testmail id 35 round-trip). Gesendet-Ordner funktioniert; Serverszeitstempel der Gesendet-Objekte zeigt 1970 (Anzeigebug des Servers, Inhalt korrekt).
-- Stape-Custom-Domain service.zuhausebleiben-kompass.de liefert nun gültiges TLS und /healthy HTTP 200; Messkette GA4/Web-GTM/Server-GTM wird im Hintergrund abgenommen.
+## Konditionen laut Awin-Profil (15.10. gelesen)
+- 50 € pro validem Lead oder 500 € pro Auftrag; Cookie 30 Tage; Autobestätigungszeitraum 60 Tage; Programm online seit 23.01.2023; Risikostufe 2 (Advertiser-Zahlungsverhalten); mobil optimiert; kein Produktfeed.
+- SEM/Brand-Bidding verboten (Listing 2023, Kontext); Bewerbung nur auf freigegebenen Werbeplätzen.
 
-## Warteschleife/Nächste Schritte
-1. Antwort von Liftstar abwarten; Eingang im INBOX-Ordner des Projektpostfachs prüfen (Himalaya).
-2. Awin-Registrierung abschließen, sobald der Nutzer das Login im geschützten Dialog hinterlegt (hinterher Lifta-Bewerbung im Login, Schritt 2 laut research/partner-programm-awin-lifta.md).
-3. Kein Leadformular, keine Indexierung und keine Pinterest-Werbung vor schriftlicher Lifta-Antwort (Startgate bleibt zu).
+## Warteschleifen
+1. Programmzusage im Awin-Login („Bewerbung offen" → zugelassen/abgelehnt) UND substanzielle Antwort von Genc Kashtanjeva (koop@liftstar-marketing.de; laut Auto-Antwort ab 22.10.2026 erreichbar, Posteingang id 11232). Beides abwarten; Nachfassen ab 22.10. geplant.
+2. Erst nach Zusage: aktuelle T&C im Login lesen, Werbemittel/Links nur aus dem Programm, Leadformular-Weg laut Frage-3-Antwort bauen, Pinterest nur mit Kanalfreigabe. Kein Leadformular, keine Partnerlinks vorher.
+3. Awin-Profil ist laut Dashboard-Hinweis unvollständig — Vervollständigung erst mit Betreiber-Rücksprache/Zusage, keine Datenerfindung.
+4. Projektpostfach: IMAP/SMTP aktiv (Himalaya, Schlüsselbund); Eingang regelmäßig prüfen. Gesendet-Stempel zeigt 1970 (Server-Anzeigebug, Inhalt korrekt).
+5. Stape service.zuhausebleiben-kompass.de: gültiges TLS, /healthy 200; Messkette in Abnahme (MEASUREMENT-HANDOFF.md), GA4-ToS-Freigabe offen.
