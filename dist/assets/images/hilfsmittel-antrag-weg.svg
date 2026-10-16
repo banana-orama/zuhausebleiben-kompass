@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Pflegehilfsmittel: Antragweg bei der Pflegekasse mit Fristen und Eigenanteilen</title>
+<desc id="desc">Schematischer Ablauf ohne Personen: Antrag bei der Pflegekasse stellen, Entscheidung innerhalb von drei oder fuenf Wochen je nach Beteiligung des Medizinischen Dienstes, Versorgung leihweise oder als Kauf ueber benannten Anbieter, Eigenanteil zehn Prozent maximal 25 Euro je technischem Hilfsmittel beziehungsweise 42 Euro monatlich fuer Hilfsmittel zum Verbrauch.</desc>
+<rect width="1200" height="760" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">PFLEGEMITTEL · ANTRAGSWEG</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="42">Vom Antrag zur Versorgung</text>
+<rect x="60" y="160" width="240" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="180" y="206" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="28" font-weight="600" text-anchor="middle">1</text>
+<text x="180" y="240" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600" text-anchor="middle">Antrag stellen</text>
+<text x="180" y="268" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">formlos · Eingang belegen</text>
+<text x="180" y="292" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">Pflegegrad nötig</text>
+<rect x="360" y="160" width="240" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="480" y="206" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="28" font-weight="600" text-anchor="middle">2</text>
+<text x="480" y="240" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600" text-anchor="middle">Entscheidung</text>
+<text x="480" y="268" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">3 Wochen · mit MD 5</text>
+<text x="480" y="292" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">sonst genehmigt</text>
+<rect x="660" y="160" width="240" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="780" y="206" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="28" font-weight="600" text-anchor="middle">3</text>
+<text x="780" y="240" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600" text-anchor="middle">Versorgung</text>
+<text x="780" y="268" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">vorrangig leihweise ·</text>
+<text x="780" y="292" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">Anbieter wird benannt</text>
+<rect x="960" y="160" width="180" height="150" rx="14" fill="#e8ede5" stroke="#245b47" stroke-width="3"/>
+<text x="1050" y="206" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="28" font-weight="600" text-anchor="middle">4</text>
+<text x="1050" y="240" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600" text-anchor="middle">Service</text>
+<text x="1050" y="268" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">Anpassung · Einweisung</text>
+<text x="1050" y="292" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">Reparatur · Ersatz</text>
+<path d="M300 235 H360 M600 235 H660 M900 235 H960" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round"/>
+<path d="M352 227 l10 8 -10 8 M652 227 l10 8 -10 8 M952 227 l10 8 -10 8" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="360" width="520" height="180" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="90" y="398" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" font-weight="600">Technische Pflegehilfsmittel</text>
+<text x="90" y="430" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">z. B. Pflegebett, Notrufsystem</text>
+<text x="90" y="468" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="600">Eigenanteil 10 % · max. 25 €</text>
+<text x="90" y="500" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Befreiung bei Härte oder erreichter</text>
+<text x="90" y="524" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Belastungsgrenze möglich</text>
+<rect x="620" y="360" width="520" height="180" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<text x="650" y="398" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" font-weight="600">Pflegehilfsmittel zum Verbrauch</text>
+<text x="650" y="430" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">z. B. Einmalhandschuhe, Einlagen</text>
+<text x="650" y="468" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="600">42 € monatlich · ohne Zuzahlung</text>
+<text x="650" y="500" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">auch als Kostenerstattung möglich ·</text>
+<text x="650" y="524" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Grenze seit 1.1.2025 (§ 40 Abs. 2)</text>
+<rect x="60" y="570" width="1080" height="86" rx="14" fill="#f3e6df" stroke="#b3402e" stroke-width="2"/>
+<text x="90" y="600" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">Abgrenzung beachten</text>
+<text x="90" y="628" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Verordnete Gehhilfen/Rollstühle: Krankenkasse (10 %, min. 5 €, max. 10 €)</text>
+<text x="90" y="652" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Fest verbaute Maßnahmen: Wohnumfeldzuschuss bis 4.180 € (§ 40 Abs. 4)</text>
+<path d="M44 682 H1156" fill="none" stroke="#d8dfd6" stroke-width="2"/>
+<text x="44" y="712" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Beträge und Fristen nach SGB XI, BMG, Verbraucherzentrale (16.10.2026).</text>
+<text x="44" y="738" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Bewilligung bleibt Einzelfall · keine Anspruchsberatung durch dieses Portal.</text>
+<text x="1156" y="738" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" text-anchor="end">KI-Illustration</text>
+</svg>

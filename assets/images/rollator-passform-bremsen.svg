@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Rollator Passform: Griffhöhe messen und Bremsen prüfen</title>
+<desc id="desc">Schematische Seitenansicht eines Rollators ohne Personen mit drei Pruefpunkten: Griffhoehe auf Hoehe der Handgelenksfalte bei aufrechter Haltung, beide Holme auf derselben Rasterstufe, Handbremse am Griff zum Abbremsen und Feststellbremse zum Einrasten vor dem Hinsetzen.</desc>
+<rect width="1200" height="760" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">ROLLATOR · PASSFORM-CHECK</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="42">Drei Prüfungen vor dem ersten Weg</text>
+<rect x="140" y="170" width="220" height="300" rx="10" fill="none" stroke="#245b47" stroke-width="6"/>
+<line x1="160" y1="170" x2="140" y2="450" stroke="#245b47" stroke-width="6"/>
+<line x1="340" y1="170" x2="360" y2="450" stroke="#245b47" stroke-width="6"/>
+<line x1="140" y1="330" x2="360" y2="330" stroke="#245b47" stroke-width="5"/>
+<rect x="245" y="338" width="130" height="52" rx="10" fill="#e8ede5" stroke="#245b47" stroke-width="4"/>
+<circle cx="175" cy="495" r="46" fill="none" stroke="#243b35" stroke-width="6"/>
+<circle cx="325" cy="495" r="46" fill="none" stroke="#243b35" stroke-width="6"/>
+<circle cx="175" cy="495" r="9" fill="#243b35"/>
+<circle cx="325" cy="495" r="9" fill="#243b35"/>
+<circle cx="152" cy="194" r="12" fill="#b3402e"/>
+<circle cx="348" cy="194" r="12" fill="#b3402e"/>
+<line x1="380" y1="194" x2="470" y2="194" stroke="#b3402e" stroke-width="3" stroke-dasharray="8 6"/>
+<rect x="500" y="150" width="640" height="120" rx="14" fill="#ffffff" stroke="#d8dfd6" stroke-width="2"/>
+<text x="530" y="186" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">1 · Griffhöhe messen</text>
+<text x="530" y="216" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Boden bis Handgelenksfalte, in Alltagsschuhen ·</text>
+<text x="530" y="242" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Ellenbogen leicht gebeugt, Blick nach vorn</text>
+<rect x="500" y="290" width="640" height="120" rx="14" fill="#ffffff" stroke="#d8dfd6" stroke-width="2"/>
+<text x="530" y="326" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">2 · Rasterstufen gleich</text>
+<text x="530" y="356" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Beide Holme auf derselben Stufe einrasten ·</text>
+<text x="530" y="382" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">eine Stufe Unterschied kippt die Haltung</text>
+<rect x="500" y="430" width="640" height="150" rx="14" fill="#ffffff" stroke="#d8dfd6" stroke-width="2"/>
+<text x="530" y="466" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">3 · Bremsen prüfen</text>
+<text x="530" y="496" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Handbremse: beim Gehen abbremsen</text>
+<text x="530" y="522" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Feststellbremse: einrasten vor Hinsetzen</text>
+<text x="530" y="548" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Test: anschieben, Hinterräder müssen stehen</text>
+<rect x="60" y="600" width="1080" height="70" rx="14" fill="#eae4d5" stroke="#d8dfd6" stroke-width="2"/>
+<text x="90" y="628" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" font-weight="600">Innen und außen trennen</text>
+<text x="90" y="656" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Drinnen Wendigkeit, draußen große Räder und kräftige Bremsen · Modelle getrennt einstellen</text>
+<path d="M44 692 H1156" fill="none" stroke="#d8dfd6" stroke-width="2"/>
+<text x="44" y="716" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Einstellregeln als Fach- und Redaktionsdarstellung. Kein konkretes Produkt, kein Test.</text>
+<text x="44" y="742" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Keine medizinische Beratung. Einweisung im Fachgeschäft ergänzen.</text>
+<text x="1156" y="742" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" text-anchor="end">KI-Illustration · schematisch</text>
+</svg>

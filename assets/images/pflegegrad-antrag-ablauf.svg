@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Pflegegrad-Antrag: Ablauf mit Fristen vom Antrag bis zum Bescheid</title>
+<desc id="desc">Schematische Zeitleiste ohne Personen: Formloser Antrag bei der Pflegekasse, Auftragsuebermittlung an den Medizinischen Dienst innerhalb von drei Arbeitstagen, Pflegeberatung innerhalb von zwei Wochen, Begutachtung zu Hause, Bescheid innerhalb von 25 Arbeitstagen. Bei Ablehnung Widerspruch binnen eines Monats, danach Klage vor dem Sozialgericht.</desc>
+<rect width="1200" height="760" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">PFLEGEGRAD · ANTRAGSFAHRPLAN</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="42">Vom Antrag bis zum Bescheid</text>
+<line x1="90" y1="240" x2="1110" y2="240" stroke="#245b47" stroke-width="4"/>
+<circle cx="120" cy="240" r="14" fill="#245b47"/>
+<text x="120" y="200" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" font-weight="600" text-anchor="middle">Antrag</text>
+<text x="120" y="286" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">formlos stellen</text>
+<text x="120" y="310" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">Datum sichern</text>
+<circle cx="330" cy="240" r="14" fill="#245b47"/>
+<text x="330" y="200" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" font-weight="600" text-anchor="middle">Weiterleitung</text>
+<text x="330" y="286" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">an Medizinischen</text>
+<text x="330" y="310" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">Dienst: 3 Tage</text>
+<circle cx="540" cy="240" r="14" fill="#245b47"/>
+<text x="540" y="200" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" font-weight="600" text-anchor="middle">Beratung</text>
+<text x="540" y="286" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">Termin innerhalb</text>
+<text x="540" y="310" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">von 2 Wochen</text>
+<circle cx="750" cy="240" r="14" fill="#245b47"/>
+<text x="750" y="200" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" font-weight="600" text-anchor="middle">Begutachtung</text>
+<text x="750" y="286" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">zuhause, 6</text>
+<text x="750" y="310" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">Lebensbereiche</text>
+<circle cx="960" cy="240" r="14" fill="#245b47"/>
+<text x="960" y="200" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" font-weight="600" text-anchor="middle">Bescheid</text>
+<text x="960" y="286" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">25 Arbeitstage,</text>
+<text x="960" y="310" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18" text-anchor="middle">mit Gutachten</text>
+<rect x="60" y="370" width="520" height="160" rx="14" fill="#e8ede5" stroke="#245b47" stroke-width="2"/>
+<text x="90" y="410" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="23" font-weight="600">Bescheid positiv</text>
+<text x="90" y="446" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Leistungen ab Antragstellung</text>
+<text x="90" y="474" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Zuordnung kann befristet werden:</text>
+<text x="90" y="502" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">insgesamt max. 3 Jahre (§ 33 SGB XI)</text>
+<rect x="620" y="370" width="520" height="160" rx="14" fill="#f3e6df" stroke="#b3402e" stroke-width="2"/>
+<text x="650" y="410" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">Bescheid negativ oder zu niedrig</text>
+<text x="650" y="446" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Widerspruch binnen 1 Monat (§ 84 SGG)</text>
+<text x="650" y="474" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">danach Klage beim Sozialgericht</text>
+<text x="650" y="502" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">je 1 Monat Frist nach Bekanntgabe</text>
+<rect x="60" y="552" width="1080" height="118" rx="14" fill="#ffffff" stroke="#d8dfd6" stroke-width="2"/>
+<text x="90" y="586" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">Verkürzte Begutachtungsfristen nach BMG</text>
+<text x="90" y="616" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Klinik · Reha · Hospiz · Palliativversorgung: 1 Woche</text>
+<text x="90" y="642" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Pflegezeit-Freistellung angekündigt: 2 Wochen · Kurzzeitpflege nach Klinik: 10 Arbeitstage</text>
+<path d="M44 692 H1156" fill="none" stroke="#d8dfd6" stroke-width="2"/>
+<text x="44" y="716" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Fristen nach BMG-Ratgeber und SGB XI, Abruf 16.10.2026. Keine Rechtsberatung.</text>
+<text x="44" y="742" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21">Verzugspauschale 70 € je Woche (BMG). Einzelfälle: Pflegekasse, Pflegestützpunkt.</text>
+<text x="1156" y="742" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="21" text-anchor="end">KI-Illustration</text>
+</svg>
