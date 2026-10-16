@@ -1,6 +1,6 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-15 (Batch 2). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; status review-required gilt weiter für alles unten.
+Letzte Aktualisierung: 2026-10-16 (Batch 3). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
 
@@ -12,6 +12,11 @@ Letzte Aktualisierung: 2026-10-15 (Batch 2). Diese Datei ist das Produktionslog 
 - treppenlift-mieten
 - treppenlift-firmen-vergleich
 - treppenlift-gebraucht-oder-neu
+
+### Batch 3 (2026-10-16, Cron-Lauf)
+1. **Neu veröffentlicht:** treppenlift-mietwohnung.json (Briefing 4 laut SEO-STRATEGIE.md) — Zustimmungs-Fahrplan Miete/Eigentum/gemeinsames Treppenhaus (§ 554 BGB, § 20 WEG, § 40 SGB XI wörtlich belegt), Brandschutz als häufigster Ablehnungsgrund, Antrags-/Rückbau-/Sicherheitsleistung-Einordnung, 6-Schritte-Checkliste, 6 FAQs, 7 Quellen mit Verbatim-Evidenz (research/mietwohnung-ledger.json), Grafik assets/images/treppenlift-mietwohnung-zustimmung.svg (visuell geprüft), Protokoll research/treppenlift-mietwohnung-batch.md + Acceptance research/evidence/treppenlift-mietwohnung-acceptance.md. Status editorial-reviewed-preview → im Launch-Index wie die übrigen Ratgeber.
+2. **Renderer-Fix:** article-renderer.mjs rendert jetzt `paragraphs_after` (Feld wurde bisher gedroppt). Betraf live den Artikel treppenlift-mieten: Schlussabsatz der Beispielrechnung (Break-even 23,6 Monate) fehlte seit Deploy 15.10. Nur dieser Artikel nutzt das Feld.
+3. **Testzähler:** test_articles.py 11→12 Artikel.
 
 ### Batch 1 (2026-10-14, vorherige Session; Scratch: treppenlift-batch/, bad-batch/)
 - Keine neuen content-ready-Dateien in Batch 1; bestehende 7 Artikel waren Gegenstand von Verifikation/Ledgern. Protokolle: research/treppenlift-batch.md, research/bad-foerderung-batch.md.

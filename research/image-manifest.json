@@ -157,6 +157,36 @@
         "recommended_min_width_px": 740,
         "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen; bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
       }
+    },
+    {
+      "src": "assets/images/treppenlift-mietwohnung-zustimmung.svg",
+      "alt": "Ablaufschema in vier Schritten: Wohnsituation feststellen (Vermieter nach § 554 BGB oder Eigentümerschaft nach § 20 WEG), Brandschutz und Fluchtwege prüfen, schriftlichen Antrag mit Rückbauzusage und Sicherheitsleistung stellen, erst danach Aufmaß und Pflegekassen-Zuschuss beantragen",
+      "caption": "KI-Illustration · schematisch. Vier-Schritte-Fahrplan für den Treppenlift-Einbau in der Mietwohnung; keine reale Wohnsituation und keine Rechtsberatung.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / Z.ai (GLM)",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css; Normangaben aus den am 2026-10-16 geprüften Gesetzestexten (§ 554 BGB, § 20 WEG, § 40 SGB XI).",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für den Ratgeber treppenlift-mietwohnung vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, realer Kunde, Produktreferenz oder Rechtsberatung."
+      },
+      "limitations": [
+        "Keine Schienenführung, Montageposition oder technische Zulässigkeit einer konkreten Treppe dargestellt.",
+        "Keine Rechtsberatung; Zustimmungs- und Rückbaupflichten hängen vom Einzelfall ab.",
+        "Rechtsstand der genannten Normen: Prüfung 2026-10-16; Gesetze können sich ändern."
+      ],
+      "dimensions": {
+        "width": 1000,
+        "height": 780,
+        "unit": "px",
+        "viewBox": "0 0 1000 780"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen (Artikeltext enthält alle Schritte); bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
     }
   ]
 }

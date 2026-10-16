@@ -1,8 +1,10 @@
-// Inactive by default. Do not enable before TLS, GA4 retention and server Preview acceptance.
+// Activated 2026-10-16 after: valid LE TLS on service host (/healthy 200), GA4 retention 2 months
+// without reset (read back in GA4 Admin), enhanced measurement OFF, forwarding tag 14 gated on
+// trigger 12 (consent_version 2, analytics-only), server Preview acceptance in operations/measurement/.
 export const measurementConfig = Object.freeze({
-  enabled:false, webContainer:'GTM-M9TZZPLQ',
+  enabled:true, webContainer:'GTM-M9TZZPLQ',
   endpoint:'https://service.zuhausebleiben-kompass.de/zbk/collect',
-  consentRevision:2, tlsVerified:false, serverGateVerified:false, destinationVerified:false
+  consentRevision:2, tlsVerified:true, serverGateVerified:true, destinationVerified:true
 });
 const contentIds = Object.freeze({
   'bad-umbau-barrierefrei':'c01', 'treppenlift-firmen-vergleich':'c02',

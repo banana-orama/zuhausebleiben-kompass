@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="780" viewBox="0 0 1000 780" role="img" aria-labelledby="title desc">
+<title id="title">Treppenlift in der Mietwohnung: Zustimmungen vor der Planung</title>
+<desc id="desc">Schematischer Ablauf in vier Schritten: Schritt 1 Wohnsituation feststellen (Miete: Vermieter nach § 554 BGB; Eigentumswohnung: Wohnungseigentümerschaft nach § 20 WEG; Haus mit gemeinschaftlichem Treppenhaus: zusätzlich Miteigentümer oder andere Mieter). Schritt 2 Brandschutz und Fluchtwege prüfen lassen. Schritt 3 Schriftlichen Antrag mit Liftmodell, Fachfirma, Rückbauzusage und Sicherheitsleistung stellen. Schritt 4 Erst nach schriftlicher Zustimmung: Aufmaß und Förderantrag. Alle Angaben sind allgemeine Orientierung, keine Rechtsberatung.</desc>
+<rect width="1000" height="780" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600" text-anchor="start">TREPPENLIFT · MIETWOHNUNG</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="40" text-anchor="start">Wer muss zustimmen – und in welcher Reihenfolge?</text>
+<text x="44" y="142" fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18">Vier Schritte vor dem Aufmaß · Allgemeine Orientierung, keine Rechtsberatung</text>
+
+<!-- Schritt 1 -->
+<rect x="44" y="176" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="88" cy="220" r="22" fill="#245b47"/>
+<text x="88" y="227" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">1</text>
+<text x="124" y="216" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Wohnsituation feststellen</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="124" y="244">Miete → Vermieter (§ 554 BGB)</tspan>
+  <tspan x="124" y="265">Eigentumswohnung → Eigentümer-</tspan>
+  <tspan x="140" y="286">gemeinschaft (§ 20 WEG)</tspan>
+  <tspan x="124" y="307">gemeinsames Treppenhaus → auch</tspan>
+  <tspan x="140" y="328">Miteigentümer / andere Mieter</tspan>
+</text>
+
+<!-- Schritt 2 -->
+<rect x="516" y="176" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="560" cy="220" r="22" fill="#245b47"/>
+<text x="560" y="227" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">2</text>
+<text x="596" y="216" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Brandschutz/Fluchtwege prüfen</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="596" y="244">Häufigster Ablehnungsgrund: Das</tspan>
+  <tspan x="596" y="265">Treppenhaus wird durch Schiene und</tspan>
+  <tspan x="596" y="286">Sitz zu schmal für Flucht- und</tspan>
+  <tspan x="596" y="307">Rettungswege.</tspan>
+  <tspan x="596" y="328">Der Fachbetrieb prüft das vor Ort.</tspan>
+</text>
+
+<!-- Pfeil 1→2 -->
+<path d="M484 261 h24" stroke="#245b47" stroke-width="2.5" fill="none"/>
+<path d="m516 261-11-7 v14 z" fill="#245b47"/>
+
+<!-- Schritt 3 -->
+<rect x="44" y="392" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="88" cy="436" r="22" fill="#245b47"/>
+<text x="88" y="443" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">3</text>
+<text x="124" y="432" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Schriftlichen Antrag stellen</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="124" y="460">Liftmodell · Fachfirma · Strom-</tspan>
+  <tspan x="140" y="481">anschluss · Rückbauzusage ·</tspan>
+  <tspan x="124" y="502">Sicherheitsleistung für den</tspan>
+  <tspan x="140" y="523">späteren Rückbau</tspan>
+  <tspan x="124" y="546" fill="#8a5a2a" font-weight="600">Nie ohne schriftliche Zustimmung bauen</tspan>
+</text>
+
+<!-- Schritt 4 -->
+<rect x="516" y="392" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="560" cy="436" r="22" fill="#245b47"/>
+<text x="560" y="443" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">4</text>
+<text x="596" y="432" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Erst danach: Aufmaß + Förderung</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="596" y="460">Verbindliches Angebot nach Aufmaß.</tspan>
+  <tspan x="596" y="481">Pflegekasse prüft Zuschuss</tspan>
+  <tspan x="596" y="502">(§ 40 SGB XI: bis 4.180 € je</tspan>
+  <tspan x="596" y="523">Maßnahme, Ermessen, keine Zusage;</tspan>
+  <tspan x="596" y="544">Entscheidung meist in 3 Wochen,</tspan>
+  <tspan x="596" y="558">mit Medizinischem Dienst in 5).</tspan>
+</text>
+
+<!-- Pfeil 2→3 (umknickend) -->
+<path d="M736 346 v20 h-248 v26" stroke="#245b47" stroke-width="2.5" fill="none"/>
+<path d="m488 392-7-11 h14 z" fill="#245b47"/>
+<!-- Pfeil 3→4 -->
+<path d="M484 477 h24" stroke="#245b47" stroke-width="2.5" fill="none"/>
+<path d="m516 477-11-7 v14 z" fill="#245b47"/>
+
+<!-- Hinweisleiste Zustimmung -->
+<rect x="44" y="596" width="912" height="76" rx="12" fill="#eef3ec" stroke="#245b47" stroke-width="1.5"/>
+<text x="68" y="626" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="17" font-weight="600">Zustimmung ist Voraussetzung – auch für die Förderung.</text>
+<text x="68" y="652" fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">Ohne schriftliche Erlaubnis läuft weder der Umbau noch der Förderantrag. Rückbau beim Auszug: in der Regel Pflicht des Mieters.</text>
+
+<!-- Fußzeile -->
+<text x="44" y="712" fill="#8a938c" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="13">Schematische KI-Illustration. Keine reale Wohnsituation, keine Rechtsberatung; maßgeblich sind Mietvertrag, Beschlüsse und die Prüfung vor Ort.</text>
+<text x="44" y="732" fill="#8a938c" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="13">Rechtsstand geprüft am 2026-10-16: § 554 BGB, § 20 WEG, § 40 SGB XI (gesetze-im-internet.de).</text>
+</svg>
