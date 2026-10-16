@@ -22,8 +22,9 @@ test.beforeEach(async ({page}) => {
     const u = new URL(route.request().url());
     await route.fulfill({response: await route.fetch({url: 'http://127.0.0.1:4179' + u.pathname + u.search})});
   });
-  // Since measurement activation these hosts are reached only AFTER an analytics accept.
-  // Block them here so consent tests stay hermetic; their behavior is covered in measurement.spec.mjs.
+  // Since the client-side measurement pivot these hosts are reached only AFTER an analytics
+  // accept. Block them here so consent tests stay hermetic (the former server endpoint and
+  // Stape hosts are blocked defensively; zero requests to them are asserted in measurement.spec.mjs).
   await page.route(/googletagmanager\.com|google-analytics\.com|service\.zuhausebleiben-kompass\.de|stape\.io/, r => r.abort());
 });
 function observe(page) {

@@ -9,7 +9,7 @@ window.gtag('consent', 'default', {
   let state = Object.freeze({analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied'});
   // Getter returns a frozen snapshot; consumers cannot accidentally grant consent.
   // version 2: consent_version MUST match the shipped CMP revision (consent.mjs revision: 2)
-  // and the server-side gate (client 5 / trigger 12 require consent_version === 2).
+  // and the consent-gated Web-GTM trigger (trigger 9 requires consent_version === 2).
   window.zbkConsent = Object.freeze({
     version: 2,
     get state() { return state; },

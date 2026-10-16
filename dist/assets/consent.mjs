@@ -2,7 +2,7 @@ import * as CookieConsent from './vendor/cookieconsent.esm.js';
 import {installMeasurement} from './measurement.mjs';
 
 // revision 2: invalidates all revision-1 selections (vanilla-cookieconsent re-shows the banner
-// and stores the new revision). The strict server client accepts consent_version 2 only.
+// and stores the new revision). The consent-gated Web-GTM container accepts consent_version 2 only.
 const sync = () => window.zbkConsent.update(CookieConsent.acceptedCategory('analytics'));
 await CookieConsent.run({
   mode: 'opt-in', revision: 2, hideFromBots: false,
@@ -21,7 +21,7 @@ await CookieConsent.run({
   language: {default: 'de', translations: {de: {
     consentModal: {
       title: 'Ihre Privatsphäre zählt',
-      description: 'Wir speichern Ihre Auswahl in einem notwendigen Cookie. Optional laden wir bei Ihrer Zustimmung Google Analytics 4 über unseren eigenen Google-Tag-Manager auf einer Serverplattform von Stape (Niederlande). Es werden nur ereignisbezogene Klick- und Seitenaufrufdaten ohne Seiten-URLs, Suchbegriffe oder personenbezogene Inhalte übertragen; Ihre IP-Adresse wird bei der Übertragung verarbeitet. Details: Datenschutzerklärung. Sie können Ihre Auswahl jederzeit im Fußbereich ändern oder widerrufen.',
+      description: 'Wir speichern Ihre Auswahl in einem notwendigen Cookie. Optional laden wir bei Ihrer Zustimmung Google Analytics 4 (Google Ireland Ltd.) über unseren eigenen Web-Google-Tag-Manager: Ihr Browser sendet die Messdaten dann direkt an Google. Es werden nur ereignisbezogene Klick- und Seitenaufrufdaten ohne Seiten-URLs, Suchbegriffe oder personenbezogene Inhalte übertragen; Ihre IP-Adresse wird dabei übertragen und von Google gekürzt. Details: Datenschutzerklärung. Sie können Ihre Auswahl jederzeit im Fußbereich ändern oder widerrufen.',
       acceptAllBtn: 'Alle akzeptieren', acceptNecessaryBtn: 'Alle ablehnen', showPreferencesBtn: 'Einstellungen',
       footer: '<a href="/datenschutz.html">Datenschutz</a> <a href="/impressum.html">Impressum</a>'
     },
@@ -31,7 +31,7 @@ await CookieConsent.run({
       sections: [
         {title: 'Sie entscheiden', description: 'Ablehnen und Akzeptieren sind gleichwertig. Die Ratgeber bleiben ohne optionale Einwilligung voll nutzbar. Ihre Auswahl gilt 180 Tage und kann jederzeit geändert oder widerrufen werden. Neu: Nach dieser Klarstellung des Einsatzes fragen wir erneut; eine frühere Auswahl ist damit widerrufen.'},
         {title: 'Notwendige Speicherung', linkedCategory: 'necessary', description: 'Das selbst gehostete CookieConsent speichert Ihre Auswahl und deren Zeitpunkt im Cookie zbk_consent (180 Tage, nur diese Website). Keine Übertragung an einen CMP-Anbieter.'},
-        {title: 'Optionale Statistik', linkedCategory: 'analytics', description: 'Bei Zustimmung laden wir Google Analytics 4 (Google Ireland Ltd.) über unseren eigenen Web-Google-Tag-Manager (Google Ireland Ltd.) und einen Server-Google-Tag-Manager auf der Plattform Stape B.V. (Niederlande) in die EU. Übertragen werden nur Seitenaufrufe und anonyme Klick-Ereignisse mit zufälligen Kennungen (keine Cookies auf Ihrer Festplatte, keine Seiten-URLs, Suchbegriffe oder Eingaben). Ihre IP-Adresse wird bei der Übertragung verarbeitet und von Google gekürzt; Ereignisdaten werden bei Google nach 2 Monaten gelöscht. Werbung und personalisierte Werbung bleiben immer abgelehnt. Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG); ein Widerruf beendet die Übertragungen sofort.'}
+        {title: 'Optionale Statistik', linkedCategory: 'analytics', description: 'Bei Zustimmung laden wir Google Analytics 4 (Google Ireland Ltd.) über unseren eigenen Web-Google-Tag-Manager (Google Ireland Ltd.): Ihr Browser sendet die Messdaten dann selbst und unmittelbar an Google; eigene Server- oder Proxy-Dienste sind nicht dazwischengeschaltet. Übertragen werden nur Seitenaufrufe und anonyme Klick-Ereignisse mit zufälligen Kennungen (keine Analyse-Cookies, keine Seiten-URLs, Suchbegriffe oder Eingaben). Ihre IP-Adresse wird bei der Übertragung an Google übermittelt und von Google bei der Erfassung gekürzt; Ereignisdaten werden bei Google nach 2 Monaten gelöscht. Werbung und personalisierte Werbung bleiben immer abgelehnt. Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG); ein Widerruf beendet die Übertragungen sofort.'}
       ]
     }
   }}}

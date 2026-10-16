@@ -1,10 +1,12 @@
-// Activated 2026-10-16 after: valid LE TLS on service host (/healthy 200), GA4 retention 2 months
-// without reset (read back in GA4 Admin), enhanced measurement OFF, forwarding tag 14 gated on
-// trigger 12 (consent_version 2, analytics-only), server Preview acceptance in operations/measurement/.
+// Pivoted 2026-10-16 to consent-gated client-side GA4 (operator decision): Stape Free quota
+// exhausted (18,432/10,000), container disablement imminent, no paid upgrade approved.
+// After analytics consent, ONE Web-GTM loader (GTM-M9TZZPLQ) is injected; the container's
+// consent-gated GA4 tags (G-5738T8FHWW, auto page_view OFF) receive only minimal events
+// (page_view once per page, cta_click with content_id/cta_id). No server endpoint, no Stape,
+// no first-party proxy: the browser talks directly to googletagmanager.com/Google.
 export const measurementConfig = Object.freeze({
-  enabled:true, webContainer:'GTM-M9TZZPLQ',
-  endpoint:'https://service.zuhausebleiben-kompass.de/zbk/collect',
-  consentRevision:2, tlsVerified:true, serverGateVerified:true, destinationVerified:true
+  enabled:true, webContainer:'GTM-M9TZZPLQ', measurementId:'G-5738T8FHWW',
+  consentRevision:2, mode:'client'
 });
 const contentIds = Object.freeze({
   'bad-umbau-barrierefrei':'c01', 'treppenlift-firmen-vergleich':'c02',
@@ -14,38 +16,31 @@ const contentIds = Object.freeze({
 const placements = new Set(['checklist_top','compare_top','print_bottom','editorial_contact']);
 
 export function installMeasurement(config = measurementConfig) {
-  if (window.zbkMeasurement || !config.enabled || !config.tlsVerified || !config.serverGateVerified || !config.destinationVerified) return;
-  if (config.endpoint !== measurementConfig.endpoint || config.webContainer !== measurementConfig.webContainer) return;
-  let loader, pageViewed=false, pending=[], clientId;
+  if (window.zbkMeasurement || !config.enabled || config.mode !== 'client') return;
+  if (config.webContainer !== measurementConfig.webContainer || config.measurementId !== measurementConfig.measurementId) return;
+  if (config.consentRevision !== measurementConfig.consentRevision) return;
+  let loader=false, pageViewed=false;
   const allowed = () => window.zbkConsent?.version === config.consentRevision && window.zbkConsent.analyticsAllowed && ['ad_storage','ad_user_data','ad_personalization'].every(k=>window.zbkConsent.state[k]==='denied');
-  // Page-scoped random identity only. Never read or write a visitor-identifying cookie/storage.
-  const randomId = () => crypto.randomUUID();
   const currentContent = () => contentIds[location.pathname.replace(/^\//,'').replace(/\.html$/,'')] || 'site';
-  const flush = () => {
-    if (!allowed()) {pending=[]; return;}
-    for (const payload of pending.splice(0)) {
-      if (!allowed()) break;
-      fetch(config.endpoint,{method:'POST',body:JSON.stringify(payload),headers:{'Content-Type':'text/plain'},credentials:'omit',referrerPolicy:'no-referrer',keepalive:true}).catch(()=>{});
-    }
-  };
-  window.zbkMeasurement=Object.freeze({flush});
+  window.zbkMeasurement=Object.freeze({});
   const enqueue = (eventName, ctaId='') => {
     if (!allowed()) return;
-    clientId ||= randomId();
-    const payload={event_name:eventName,event_id:randomId(),client_id:clientId,content_id:currentContent(),cta_id:ctaId,analytics_allowed:true,consent_version:config.consentRevision,consent:{...window.zbkConsent.state}};
-    if (pending.length>=20) return;
-    pending.push(payload);
-    window.dataLayer.push({event:'zbk_measurement',analytics_allowed:true,consent_version:config.consentRevision,consent:{...window.zbkConsent.state},measurement:{event_name:eventName,content_id:payload.content_id,cta_id:ctaId}});
+    if (eventName==='page_view') {if (pageViewed) return; pageViewed=true;}
+    // Strict minimal payload; GTM trigger 9 re-checks the same consent allowlist.
+    window.dataLayer.push({event:'zbk_measurement',analytics_allowed:true,consent_version:config.consentRevision,
+      consent:{...window.zbkConsent.state},measurement:{event_name:eventName,content_id:currentContent(),cta_id:ctaId}});
   };
   const sync = () => {
-    if (!allowed()) {pending=[];clientId=undefined;return;}
+    if (!allowed()) return;
     if (!loader) {
-      loader=document.createElement('script');loader.async=true;loader.referrerPolicy='no-referrer';
-      loader.src='https://www.googletagmanager.com/gtm.js?id='+config.webContainer;
+      loader=true;
+      // Single consent-gated loader with no referrer; never sent without consent.
+      const script=document.createElement('script');script.async=true;script.referrerPolicy='no-referrer';
+      script.src='https://www.googletagmanager.com/gtm.js?id='+config.webContainer;
       window.dataLayer.push({'gtm.start':Date.now(),event:'gtm.js'});
-      document.head.append(loader);
+      document.head.append(script);
     }
-    if (!pageViewed) {pageViewed=true;enqueue('page_view');}
+    enqueue('page_view');
   };
   window.addEventListener('zbk:consent',sync);
   document.addEventListener('click',e=>{

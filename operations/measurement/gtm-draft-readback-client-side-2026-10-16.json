@@ -1,0 +1,431 @@
+{
+ "captured": "2026-10-16",
+ "source": "live gtm CLI get calls after client-side pivot",
+ "web": {
+  "container": "GTM-M9TZZPLQ",
+  "accountId": "572865630",
+  "workspace": "2",
+  "tags": [
+   {
+    "tagId": "14",
+    "name": "ZBK — GA4 client-side (consent-gated)",
+    "type": "googtag",
+    "path": "accounts/572865630/containers/267198165/workspaces/2/tags/14",
+    "firingTriggerId": [
+     "9"
+    ],
+    "parameter": [
+     {
+      "type": "template",
+      "key": "tagId",
+      "value": "G-5738T8FHWW"
+     },
+     {
+      "type": "list",
+      "key": "configSettingsTable",
+      "list": [
+       {
+        "type": "map",
+        "map": [
+         {
+          "type": "template",
+          "key": "parameter",
+          "value": "send_page_view"
+         },
+         {
+          "type": "template",
+          "key": "parameterValue",
+          "value": "true"
+         }
+        ]
+       },
+       {
+        "type": "map",
+        "map": [
+         {
+          "type": "template",
+          "key": "parameter",
+          "value": "page_location"
+         },
+         {
+          "type": "template",
+          "key": "parameterValue",
+          "value": "https://zuhausebleiben-kompass.de/"
+         }
+        ]
+       },
+       {
+        "type": "map",
+        "map": [
+         {
+          "type": "template",
+          "key": "parameter",
+          "value": "page_referrer"
+         },
+         {
+          "type": "template",
+          "key": "parameterValue"
+         }
+        ]
+       },
+       {
+        "type": "map",
+        "map": [
+         {
+          "type": "template",
+          "key": "parameter",
+          "value": "page_title"
+         },
+         {
+          "type": "template",
+          "key": "parameterValue"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "fingerprint": "1792143575557"
+   },
+   {
+    "tagId": "16",
+    "name": "ZBK — GA4 cta_click (consent-gated)",
+    "type": "gaawe",
+    "path": "accounts/572865630/containers/267198165/workspaces/2/tags/16",
+    "firingTriggerId": [
+     "15"
+    ],
+    "parameter": [
+     {
+      "type": "list",
+      "key": "eventSettingsTable",
+      "list": [
+       {
+        "type": "map",
+        "map": [
+         {
+          "type": "template",
+          "key": "parameter",
+          "value": "content_id"
+         },
+         {
+          "type": "template",
+          "key": "parameterValue",
+          "value": "{{ZBK DLV - measurement.content_id}}"
+         }
+        ]
+       },
+       {
+        "type": "map",
+        "map": [
+         {
+          "type": "template",
+          "key": "parameter",
+          "value": "cta_id"
+         },
+         {
+          "type": "template",
+          "key": "parameterValue",
+          "value": "{{ZBK DLV - measurement.cta_id}}"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "template",
+      "key": "eventName",
+      "value": "cta_click"
+     },
+     {
+      "type": "template",
+      "key": "measurementIdOverride",
+      "value": "G-5738T8FHWW"
+     }
+    ],
+    "fingerprint": "1792143321315"
+   }
+  ],
+  "triggers": [
+   {
+    "triggerId": "9",
+    "name": "ZBK — sanitized analytics-only events",
+    "type": "customEvent",
+    "path": "accounts/572865630/containers/267198165/workspaces/2/triggers/9",
+    "filter": [
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - analytics_allowed}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "true"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent_version}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "2"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent.analytics_storage}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "granted"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent.ad_storage}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "denied"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent.ad_user_data}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "denied"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent.ad_personalization}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "denied"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - measurement.event_name}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "page_view"
+       }
+      ]
+     }
+    ],
+    "customEventFilter": [
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{_event}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "zbk_measurement"
+       }
+      ]
+     }
+    ],
+    "fingerprint": "1792143080318"
+   },
+   {
+    "triggerId": "15",
+    "name": "ZBK — cta_click only (consent-gated)",
+    "type": "customEvent",
+    "path": "accounts/572865630/containers/267198165/workspaces/2/triggers/15",
+    "filter": [
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - analytics_allowed}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "true"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent_version}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "2"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent.analytics_storage}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "granted"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent.ad_storage}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "denied"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent.ad_user_data}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "denied"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - consent.ad_personalization}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "denied"
+       }
+      ]
+     },
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{ZBK DLV - measurement.event_name}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "cta_click"
+       }
+      ]
+     }
+    ],
+    "customEventFilter": [
+     {
+      "type": "equals",
+      "parameter": [
+       {
+        "type": "template",
+        "key": "arg0",
+        "value": "{{_event}}"
+       },
+       {
+        "type": "template",
+        "key": "arg1",
+        "value": "zbk_measurement"
+       }
+      ]
+     }
+    ],
+    "fingerprint": "1792143141584"
+   }
+  ],
+  "variables": [
+   "3 analytics_allowed",
+   "4 consent_version",
+   "5 consent.analytics_storage",
+   "6 consent.ad_storage",
+   "7 consent.ad_user_data",
+   "8 consent.ad_personalization",
+   "11 measurement.content_id",
+   "12 measurement.event_name",
+   "13 measurement.cta_id"
+  ],
+  "removed": "tag 10 (ZBK — dispatch permitted queue to Stape, html) deleted from draft"
+ },
+ "server": {
+  "container": "GTM-M6SDZCN4",
+  "status": "untouched, drafts dormant, NOT published"
+ },
+ "publish": "NOT performed (operator owns container publish)"
+}
