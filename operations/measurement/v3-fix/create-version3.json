@@ -1,0 +1,6 @@
+{
+  "versionId": "3",
+  "name": "ZBK v3: client-side GA4 runtime fix",
+  "path": "accounts/572865630/containers/267198165/versions/3",
+  "description": "Re-save of tags 14/16 and triggers 9/15 (config identical to v2; notes touched) to force runtime regeneration after published v2 never fired despite verified site-side consent chain. Authorized by operator 2026-10-16."
+}

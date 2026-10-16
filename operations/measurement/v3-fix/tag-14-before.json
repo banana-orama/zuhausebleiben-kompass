@@ -1,0 +1,81 @@
+{
+ "tagId": "14",
+ "name": "ZBK \u2014 GA4 client-side (consent-gated)",
+ "type": "googtag",
+ "path": "accounts/572865630/containers/267198165/workspaces/3/tags/14",
+ "firingTriggerId": [
+  "9"
+ ],
+ "parameter": [
+  {
+   "type": "template",
+   "key": "tagId",
+   "value": "G-5738T8FHWW"
+  },
+  {
+   "type": "list",
+   "key": "configSettingsTable",
+   "list": [
+    {
+     "type": "map",
+     "map": [
+      {
+       "type": "template",
+       "key": "parameter",
+       "value": "send_page_view"
+      },
+      {
+       "type": "template",
+       "key": "parameterValue",
+       "value": "true"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "map": [
+      {
+       "type": "template",
+       "key": "parameter",
+       "value": "page_location"
+      },
+      {
+       "type": "template",
+       "key": "parameterValue",
+       "value": "https://zuhausebleiben-kompass.de/"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "map": [
+      {
+       "type": "template",
+       "key": "parameter",
+       "value": "page_referrer"
+      },
+      {
+       "type": "template",
+       "key": "parameterValue"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "map": [
+      {
+       "type": "template",
+       "key": "parameter",
+       "value": "page_title"
+      },
+      {
+       "type": "template",
+       "key": "parameterValue"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "fingerprint": "1792143575557"
+}

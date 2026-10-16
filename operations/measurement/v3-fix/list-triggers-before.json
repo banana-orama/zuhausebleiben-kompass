@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "total": 2,
+    "byType": {
+      "customEvent": 2
+    }
+  },
+  "triggers": [
+    {
+      "triggerId": "9",
+      "name": "ZBK — sanitized analytics-only events",
+      "type": "customEvent",
+      "path": "accounts/572865630/containers/267198165/workspaces/3/triggers/9"
+    },
+    {
+      "triggerId": "15",
+      "name": "ZBK — cta_click only (consent-gated)",
+      "type": "customEvent",
+      "path": "accounts/572865630/containers/267198165/workspaces/3/triggers/15"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "total": 2,
+    "byType": {
+      "googtag": 1,
+      "gaawe": 1
+    },
+    "paused": 0,
+    "withoutTriggers": []
+  },
+  "tags": [
+    {
+      "tagId": "14",
+      "name": "ZBK — GA4 client-side (consent-gated)",
+      "type": "googtag",
+      "path": "accounts/572865630/containers/267198165/workspaces/3/tags/14",
+      "firingTriggerId": [
+        "9"
+      ]
+    },
+    {
+      "tagId": "16",
+      "name": "ZBK — GA4 cta_click (consent-gated)",
+      "type": "gaawe",
+      "path": "accounts/572865630/containers/267198165/workspaces/3/tags/16",
+      "firingTriggerId": [
+        "15"
+      ]
+    }
+  ]
+}

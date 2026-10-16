@@ -1,0 +1,58 @@
+{
+ "tagId": "16",
+ "name": "ZBK \u2014 GA4 cta_click (consent-gated)",
+ "type": "gaawe",
+ "path": "accounts/572865630/containers/267198165/workspaces/3/tags/16",
+ "firingTriggerId": [
+  "15"
+ ],
+ "parameter": [
+  {
+   "type": "list",
+   "key": "eventSettingsTable",
+   "list": [
+    {
+     "type": "map",
+     "map": [
+      {
+       "type": "template",
+       "key": "parameter",
+       "value": "content_id"
+      },
+      {
+       "type": "template",
+       "key": "parameterValue",
+       "value": "{{ZBK DLV - measurement.content_id}}"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "map": [
+      {
+       "type": "template",
+       "key": "parameter",
+       "value": "cta_id"
+      },
+      {
+       "type": "template",
+       "key": "parameterValue",
+       "value": "{{ZBK DLV - measurement.cta_id}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "template",
+   "key": "eventName",
+   "value": "cta_click"
+  },
+  {
+   "type": "template",
+   "key": "measurementIdOverride",
+   "value": "G-5738T8FHWW"
+  }
+ ],
+ "fingerprint": "1792143321315"
+}

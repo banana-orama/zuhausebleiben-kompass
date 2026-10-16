@@ -1,0 +1,6 @@
+{
+  "versionId": "4",
+  "name": "ZBK v4: client-side GA4 runtime fix (delete+recreate)",
+  "path": "accounts/572865630/containers/267198165/versions/4",
+  "description": "Tags 14/16 and triggers 9/15 deleted and recreated with identical parameters (new IDs 20/21/18/19) after re-save-only version 3 still did not register the googtag runtime. Authorized by operator 2026-10-16."
+}

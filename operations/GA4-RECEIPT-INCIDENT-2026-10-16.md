@@ -1,6 +1,32 @@
 # GA4-Empfangsblocker: Published Container-Tags feuern nie (2026-10-16)
 
-## Kurzfassung
+## RESOLUTION (2026-10-16 Abend, Version 5) — GESENDET & BESTÄTIGT
+
+**Wurzelursache (bewiesen):** Die Variablen 11/12/13 (`ZBK DLV - measurement.*`) wurden ohne
+den Parameter `dataLayerVersion` angelegt und defaulted damit auf **Data-Layer Version 1**,
+die keine Dot-Paths in verschachtelte Objekte auflösen kann. Die Site pusht
+`measurement:{event_name:'page_view',...}` verschachtelt → Prädikat 6/8
+(`measurement.event_name == page_view|cta_click`) war immer `undefined == "…"` → **false**.
+Kein Trigger-Match, kein Tag-Fire — in jeder Runtime. Konsistenz-Check: Variablen 3–8
+(Consent-Prädikate) hatten `dataLayerVersion:2` und funktionierten; der Mismatch betraf
+genau die measurement-Variablen. Re-Save (v3) und Delete+Recreate (v4) mussten daran
+scheitern, weil sie die Konfiguration identisch reproduzierten.
+
+**Fix (Version 5, publiziert):** `dataLayerVersion: 2` auf Variablen 11/12/13 — sonst nichts.
+
+**End-to-Empfangsnachweis (20:0x CEST):** Live-Probe auf der echten Seite: 1× gtm.js →
+`gtag/js?id=G-5738T8FHWW` → **2× `/g/collect` HTTP 204** (`gcs=G101`, page_view + cta_click);
+`google_tag_manager` enthält `G-5738T8FHWW`. GA4-Property 559120219: Realtime zeigt
+**1 aktiver Nutzer (Germany)**, Event-Snapshot **first_visit 1, page_view 1, session_start 1**
+(Screenshot: `measurement/v3-fix/ga4-realtime-receipt-v5.png`). Der Banner
+„No data received from your website yet" ist damit obsolet (Historie bis 16.10.).
+Site-Tests `tests/measurement.spec.mjs`: 3/3 passed, Repo unverändert.
+
+Vollständige Beweiskette, Versionen 3/4/5 und Tooling-Notizen:
+**`operations/measurement/v3-fix/FIX-LOG.md`** (mit lokalem Runtime-Bisect gegen die
+echten publizierten Bytes; neue Live-Entity-IDs: Tags 20/21, Trigger 18/19).
+
+## Kurzfassung (historisch, vor Auflösung)
 
 Die consent-gegatete Client-GA4-Kette ist **site-seitig funktionsfähig und verifiziert**
 (Consent → genau ein GTM-Loader → vollständiger Event-Push), aber die beiden GA4-Tags im

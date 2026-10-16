@@ -1,0 +1,87 @@
+{
+ "steps": [
+  {
+   "ws4Triggers": [
+    {
+     "id": "18",
+     "name": "ZBK — sanitized analytics-only events",
+     "type": "customEvent"
+    },
+    {
+     "id": "19",
+     "name": "ZBK — cta_click only (consent-gated)",
+     "type": "customEvent"
+    }
+   ]
+  },
+  {
+   "createdTag": {
+    "was": "14",
+    "newId": "20",
+    "firingTriggerId": [
+     "18"
+    ],
+    "fingerprint": "1792169106114"
+   }
+  },
+  {
+   "createdTag": {
+    "was": "16",
+    "newId": "21",
+    "firingTriggerId": [
+     "19"
+    ],
+    "fingerprint": "1792169106528"
+   }
+  }
+ ],
+ "ok": true,
+ "triggers": [
+  {
+   "was": "9",
+   "newId": "18",
+   "found": true,
+   "filterExact": true,
+   "customEventFilterExact": true,
+   "filterCount": 7
+  },
+  {
+   "was": "15",
+   "newId": "19",
+   "found": true,
+   "filterExact": true,
+   "customEventFilterExact": true,
+   "filterCount": 7
+  }
+ ],
+ "tags": [
+  {
+   "was": "14",
+   "newId": "20",
+   "found": true,
+   "type": "googtag",
+   "paramsExact": true,
+   "firingTriggerId": [
+    "18"
+   ],
+   "paused": false,
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "was": "16",
+   "newId": "21",
+   "found": true,
+   "type": "gaawe",
+   "paramsExact": true,
+   "firingTriggerId": [
+    "19"
+   ],
+   "paused": false,
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  }
+ ]
+}

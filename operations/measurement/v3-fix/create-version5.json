@@ -1,0 +1,6 @@
+{
+  "versionId": "5",
+  "name": "ZBK v5: measurement variables dataLayerVersion=2 (root cause fix)",
+  "path": "accounts/572865630/containers/267198165/versions/5",
+  "description": "Root cause of GA4 non-firing: variables 11/12/13 (ZBK DLV - measurement.*) lacked dataLayerVersion and defaulted to DLv1, which cannot read the nested measurement{event_name,...} object the site pushes. Trigger predicate measurement.event_name never matched, so tags never fired. Fix: dataLayerVersion=2 on the three variables. Diagnosed via local bisect of published runtime; verified locally before publish."
+}

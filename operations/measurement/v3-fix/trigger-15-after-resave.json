@@ -1,0 +1,131 @@
+{
+ "triggerId": "15",
+ "name": "ZBK \u2014 cta_click only (consent-gated)",
+ "type": "customEvent",
+ "path": "accounts/572865630/containers/267198165/workspaces/3/triggers/15",
+ "filter": [
+  {
+   "type": "equals",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "arg0",
+     "value": "{{ZBK DLV - analytics_allowed}}"
+    },
+    {
+     "type": "template",
+     "key": "arg1",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "equals",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "arg0",
+     "value": "{{ZBK DLV - consent_version}}"
+    },
+    {
+     "type": "template",
+     "key": "arg1",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "type": "equals",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "arg0",
+     "value": "{{ZBK DLV - consent.analytics_storage}}"
+    },
+    {
+     "type": "template",
+     "key": "arg1",
+     "value": "granted"
+    }
+   ]
+  },
+  {
+   "type": "equals",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "arg0",
+     "value": "{{ZBK DLV - consent.ad_storage}}"
+    },
+    {
+     "type": "template",
+     "key": "arg1",
+     "value": "denied"
+    }
+   ]
+  },
+  {
+   "type": "equals",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "arg0",
+     "value": "{{ZBK DLV - consent.ad_user_data}}"
+    },
+    {
+     "type": "template",
+     "key": "arg1",
+     "value": "denied"
+    }
+   ]
+  },
+  {
+   "type": "equals",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "arg0",
+     "value": "{{ZBK DLV - consent.ad_personalization}}"
+    },
+    {
+     "type": "template",
+     "key": "arg1",
+     "value": "denied"
+    }
+   ]
+  },
+  {
+   "type": "equals",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "arg0",
+     "value": "{{ZBK DLV - measurement.event_name}}"
+    },
+    {
+     "type": "template",
+     "key": "arg1",
+     "value": "cta_click"
+    }
+   ]
+  }
+ ],
+ "customEventFilter": [
+  {
+   "type": "equals",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "arg0",
+     "value": "{{_event}}"
+    },
+    {
+     "type": "template",
+     "key": "arg1",
+     "value": "zbk_measurement"
+    }
+   ]
+  }
+ ],
+ "fingerprint": "1792143141584"
+}

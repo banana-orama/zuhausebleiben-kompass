@@ -1,0 +1,256 @@
+{
+ "version": "4",
+ "macros": [
+  {
+   "function": "__v",
+   "vtp_dataLayerVersion": 2,
+   "vtp_name": "analytics_allowed"
+  },
+  {
+   "function": "__v",
+   "vtp_dataLayerVersion": 2,
+   "vtp_name": "consent_version"
+  },
+  {
+   "function": "__v",
+   "vtp_dataLayerVersion": 2,
+   "vtp_name": "consent.analytics_storage"
+  },
+  {
+   "function": "__v",
+   "vtp_dataLayerVersion": 2,
+   "vtp_name": "consent.ad_storage"
+  },
+  {
+   "function": "__v",
+   "vtp_dataLayerVersion": 2,
+   "vtp_name": "consent.ad_user_data"
+  },
+  {
+   "function": "__v",
+   "vtp_dataLayerVersion": 2,
+   "vtp_name": "consent.ad_personalization"
+  },
+  {
+   "function": "__v",
+   "vtp_name": "measurement.event_name"
+  },
+  {
+   "function": "__e"
+  },
+  {
+   "function": "__v",
+   "vtp_name": "measurement.content_id"
+  },
+  {
+   "function": "__v",
+   "vtp_name": "measurement.cta_id"
+  },
+  {
+   "function": "__u",
+   "vtp_component": "URL",
+   "vtp_enableMultiQueryKeys": false,
+   "vtp_enableIgnoreEmptyQueryParam": false
+  },
+  {
+   "function": "__u",
+   "vtp_component": "HOST",
+   "vtp_enableMultiQueryKeys": false,
+   "vtp_enableIgnoreEmptyQueryParam": false
+  },
+  {
+   "function": "__u",
+   "vtp_component": "PATH",
+   "vtp_enableMultiQueryKeys": false,
+   "vtp_enableIgnoreEmptyQueryParam": false
+  },
+  {
+   "function": "__f",
+   "vtp_component": "URL"
+  },
+  {
+   "function": "__e"
+  }
+ ],
+ "tags": [
+  {
+   "function": "__googtag",
+   "vtp_tagId": "G-5738T8FHWW",
+   "vtp_configSettingsTable": [
+    "list",
+    [
+     "map",
+     "parameter",
+     "send_page_view",
+     "parameterValue",
+     "true"
+    ],
+    [
+     "map",
+     "parameter",
+     "page_location",
+     "parameterValue",
+     "https://zuhausebleiben-kompass.de/"
+    ],
+    [
+     "map",
+     "parameter",
+     "page_referrer",
+     "parameterValue",
+     ""
+    ],
+    [
+     "map",
+     "parameter",
+     "page_title",
+     "parameterValue",
+     ""
+    ]
+   ],
+   "tag_id": 20
+  },
+  {
+   "function": "__gaawe",
+   "vtp_eventSettingsTable": [
+    "list",
+    [
+     "map",
+     "parameter",
+     "content_id",
+     "parameterValue",
+     [
+      "macro",
+      8
+     ]
+    ],
+    [
+     "map",
+     "parameter",
+     "cta_id",
+     "parameterValue",
+     [
+      "macro",
+      9
+     ]
+    ]
+   ],
+   "vtp_eventName": "cta_click",
+   "vtp_measurementIdOverride": "G-5738T8FHWW",
+   "vtp_enableUserProperties": true,
+   "vtp_enableEuid": true,
+   "vtp_migratedToV2": true,
+   "vtp_demoV2": false,
+   "tag_id": 21
+  }
+ ],
+ "predicates": [
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    0
+   ],
+   "arg1": "true"
+  },
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    1
+   ],
+   "arg1": "2"
+  },
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    2
+   ],
+   "arg1": "granted"
+  },
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    3
+   ],
+   "arg1": "denied"
+  },
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    4
+   ],
+   "arg1": "denied"
+  },
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    5
+   ],
+   "arg1": "denied"
+  },
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    6
+   ],
+   "arg1": "page_view"
+  },
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    7
+   ],
+   "arg1": "zbk_measurement"
+  },
+  {
+   "function": "_eq",
+   "arg0": [
+    "macro",
+    6
+   ],
+   "arg1": "cta_click"
+  }
+ ],
+ "rules": [
+  [
+   [
+    "if",
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   [
+    "add",
+    0
+   ]
+  ],
+  [
+   [
+    "if",
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+   ],
+   [
+    "add",
+    1
+   ]
+  ]
+ ]
+}
