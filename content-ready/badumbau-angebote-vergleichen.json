@@ -1,0 +1,215 @@
+{
+  "slug": "badumbau-angebote-vergleichen",
+  "title": "Badumbau-Angebote vergleichen: Positionen prüfen statt Preise",
+  "description": "Badumbau-Angebote sind erst vergleichbar, wenn Umfang, Abdichtung, Zusatzarbeiten und Zahlungsregeln gleich benannt sind. Mit Positionstabelle, Fragen zu DIN 18534 und Abschlagsregeln.",
+  "h1": "Badumbau-Angebote vergleichen: So werden Angebote wirklich vergleichbar",
+  "intro": "Zwei Badumbau-Angebote unterscheiden sich selten nur im Preis — sie beschreiben oft zwei verschiedene Vorhaben. Der eine Betrieb kalkuliert Rückbau, Entsorgung und Abdichtung mit ein, der andere listet eine attraktive Basisleistung und behandelt alles Weitere als späteren Zusatz. Vergleichen können Sie nur, was beide Angebote in derselben Sprache benennen: gleiche Beschreibung, gleiche Positionen, gleiche Regeln für Änderungen und Zahlungen. Dieser Ratgeber zeigt Schritt für Schritt, wie Sie Angebote in eine vergleichbare Form bringen, welche Fragen zur Abdichtung nach der aktuellen DIN 18534 gehören und welche Zahlungs- und Gewährleistungsregeln das BGB vorgibt — als Orientierung für Ihre eigenen Gespräche, nicht als Rechtsberatung.",
+  "sections": [
+    {
+      "heading": "Kurz beantwortet: Wie vergleiche ich Badumbau-Angebote richtig?",
+      "paragraphs": [
+        "Vergleichen Sie Angebote erst, wenn vier Dinge gleich benannt sind: der Umfang (dieselbe Beschreibung für jeden Betrieb), die Positionen (Rückbau, Sanitär, Elektro, Abdichtung, Fliesen, Entsorgung einzeln aufgeführt), die Abdichtung (welche Wassereinwirkungsklassen und Materialien nach DIN 18534 verplant sind) und die Zahlungsregeln (Festpreis oder unverbindlicher Kostenvoranschlag, Abschläge, Zusatzarbeiten).[1] Ein niedrigerer Gesamtbetrag bei fehlenden Positionen ist kein besseres Angebot — er ist ein anderes, oft nur scheinbar kleineres Vorhaben.[1]",
+        "Die Verbraucherzentrale empfiehlt, vor der Auftragsvergabe zwei bis drei Angebote oder Kostenvoranschläge verschiedener Firmen einzuholen — und warnt: Kostenvoranschläge sind unverbindlich, es kann teurer werden; steigt der Preis um mehr als 15 bis 20 Prozent, muss der Unternehmer darauf hinweisen, und Sie können dann den Vertrag kündigen. An die Preise in Angeboten sind die Unternehmen dagegen in aller Regel gebunden.[1] Genau dieser Unterschied gehört in jeden Vergleich.",
+        "Wichtig zur Einordnung: Es geht hier um die Vergleichbarkeit von Angeboten — um Reihenfolge, Fragen und schriftliche Regeln. Ob ein Preis angemessen ist, kann ohne konkrete Kostenaufstellung niemand seriös beurteilen; Marktdurchschnittswerte erfinden wir bewusst nicht."
+      ],
+      "bullets": [
+        "Alle Angebote für denselben beschriebenen Umfang anfordern — nicht für „Bad sanieren, bitte Angebot“.",
+        "Kostenvoranschlag (unverbindlich) und Festpreisangebot (in aller Regel gebunden) im Vergleich unterscheiden.[1]",
+        "Fehlende Positionen (Rückbau, Entsorgung, Abdichtung, Elektro) als Rückfrage führen, nicht als gespartes Geld lesen.",
+        "Regeln für Zusatzarbeiten und Abschläge schriftlich — erst dann ist ein Angebot wirklich vergleichbar."
+      ]
+    },
+    {
+      "heading": "Die Vergleichsbasis: dieselbe Beschreibung für jeden Betrieb",
+      "paragraphs": [
+        "Die Verbraucherzentrale rät, schon in der Angebotsanfrage Leistungen und Anforderungen gut zu beschreiben — denn Angebote sind nur vergleichbar, wenn alle Betriebe dasselbe Vorhaben kalkulieren.[1] Für den Badumbau heißt das: Ein kurzes Anschreiben mit Baujahr oder Bild, den gewünschten Maßnahmen (etwa Wanne durch Dusche ersetzen, bodengleich oder mit flacher Restschwelle), den Rahmenbedingungen (Mietwohnung oder Eigentum, kleines Bad mit einem WC, bewohnte Wohnung während der Bauphase) und den gewünschten Nachweisen. Wer denselben Text an drei Betriebe schickt, bekommt drei kalkulierbare Antworten statt drei individuelle Interpretationen.",
+        "Praktisch bewährt hat sich eine Nummerierung der Anforderungen, damit die Antwort darauf bezogen werden kann: „Zu Punkt 3 (Abdichtung): wir setzen AIV nach DIN 18534-3 ein …“. Ein Betrieb, der Punkte nicht beantwortet, beantwortet sie meistens nicht ohne Grund — genau das wird im Vergleich sichtbar.",
+        "Die Verbraucherzentrale nennt als Beispiel den Gerüstbau beim Fenstertausch: Angebote und Kostenvoranschläge sollen alle Vor-, Nach- und Nebenarbeiten berücksichtigen.[1] Beim Badumbau sind diese Randarbeiten häufig gerade die Preistreiber — Leitungssanierung hinter der Wand, Trockenbau der Vorwandinstallation, Entsorgung der ausgebauten Wanne, Staubschutz und Reinigung."
+      ]
+    },
+    {
+      "heading": "Positionen statt Pauschale: die Kostenaufstellung lesen",
+      "paragraphs": [
+        "Ein Vergleichsangebot zeigt seine Positionen einzeln. Daraus entsteht eine einfache Prüftabelle: dieselben Zeilen für jedes Angebot, und zu jeder Zeile der Betrag. Fehlt eine Zeile, ist das zunächst eine Rückfrage — „ist X enthalten oder ausgeschlossen?“ — und kein automatischer Vorteil. Die Verbraucherzentrale empfiehlt außerdem, die Rechnung erst vollständig zu bezahlen, wenn alles zur Zufriedenheit erledigt ist, und dass alle Lohn-, Fahrt- und Materialkosten darin einzeln aufgeführt werden.[1] Diese Erwartung an die Rechnung lässt sich schon ans Angebot richten: Wer nicht einzeln ausweisen will, wird es in der Abrechnung auch nicht tun."
+      ],
+      "table": {
+        "headers": [
+          "Position",
+          "Was hier steht",
+          "Ihre Vergleichsfrage"
+        ],
+        "rows": [
+          [
+            "Rückbau und Entsorgung",
+            "Ausbau von Wanne/Dusche, Fliesen, Beläge; Container oder Einzelabfuhr.",
+            "„Ist die Entsorgung enthalten — wohin, und mit Nachweis?“"
+          ],
+          [
+            "Sanitär-/Installationsarbeiten",
+            "Leitungen, Ablauf, Armaturen, Vorwandinstallation; Alt-Leitungen bei Bedarf.",
+            "„Was passiert, wenn die Alt-Leitungen mangelhaft sind — wer schätzt, wer freigibt?“"
+          ],
+          [
+            "Elektro",
+            "Neue Schalterstellungen, Beleuchtung über Spiegel/Dusche, ggf. Lüftung.",
+            "„Ist ein Elektrofachbetrieb einbezogen — mit eigener Position?“"
+          ],
+          [
+            "Abdichtung nach DIN 18534",
+            "System, Wassereinwirkungsklassen je Fläche, Hochführungen, Übergänge.[6][7]",
+            "„Welche Klassen sind verplant — und welches System/Hersteller?“"
+          ],
+          [
+            "Fliesen und Oberflächen",
+            "Material, Format, Verlegetyp, Fugenbilder, Silikonfugen als Wartungspunkte.",
+            "„Gleiche Materialqualität in allen Angeboten — oder vergleiche ich Äpfel mit Birnen?“"
+          ],
+          [
+            "Trockenbau/Ausgleich",
+            "Vorwandinstallation, Schichtung, Bodenaufbau — bei bodengleich oft der größte Block.",
+            "„Ist der Bodenaufbau enthalten, und mit welcher Aufbauhöhe kalkuliert?“"
+          ],
+          [
+            "Baustellenlogistik",
+            "Staubschutz, Nutzungsausfall Bad/WC, Übergangslösung, Reinigung, Dauer.",
+            "„Wie lange ist das Bad unbenutzbar — und was gilt, wenn es länger dauert?“"
+          ]
+        ]
+      },
+      "paragraphs_after": [
+        "Zwei Warnsignale aus der Verbraucherzentrale-Logik, auf Angebote übertragen: Auffällig niedrige Gesamtbeträge, die erst durch spätere Zusatzpositionen „wahr“ werden, und Angebote, die auf die Frage nach einzelnen Positionen mit Verweis auf die Baustelle antworten („das sieht man dann“). Beides ist kein Beweis für Unseriousness — aber beides zerstört die Vergleichbarkeit, und das genügt als Grund, den Betrieb nicht weiter zu vergleichen."
+      ]
+    },
+    {
+      "heading": "Abdichtung im Angebot: DIN 18534 nach der Neufassung von 2025",
+      "paragraphs": [
+        "Die DIN 18534 „Abdichtung von Innenräumen“ wurde im Oktober 2025 neu gefasst und behandelt die Planung, Umsetzung und Wartung von Abdichtungen für Böden und Wände in Innenräumen; die Grundanforderung bleibt in allen Fällen, Wasserschäden an der Bausubstanz zu vermeiden.[6] Für Ihren Vergleich ändert sich dadurch etwas Praktisches: Ältere Merkblätter und Ausschreibungstexte mit Stand 2017 sind teilweise überholt — das Hersteller-Merkblatt zur Neufassung warnt ausdrücklich davor.[8] Fragen Sie deshalb nach der aktuellen Ausgabe und danach, welches Abdichtungssystem (bahnenförmig, flüssig im Verbund, plattenförmig) verplant ist.[6]",
+        "Die Norm ordnet jede Fläche einzeln einer Wassereinwirkungsklasse zu — die Intensität der Wassereinwirkung wird über die Klassen W0-I bis W3-I geregelt.[7] Für das häusliche Bad nennt das Hersteller-Merkblatt als typische Zuordnung: die Wandfläche in der Dusche meist W1-I, den Boden einer bodengleichen Dusche W2-I; die Zuordnung im Einzelfall trifft der Planer, bei Unklarheit wird die höhere Klasse angesetzt.[8] Für Ihren Vergleich reicht diese Erkenntnis: Ein Angebot, das zu Abdichtung, Klassen oder Untergründen schweigt, macht die Position für Sie unvergleichbar — und bei der W2-I-Bodensituation einer bodengleichen Dusche sind laut der Systemdarstellung ausschließlich feuchtigkeitsunempfindliche Untergründe zulässig.[7]",
+        "Ein Sonderfall, den das Merkblatt ausdrücklich benennt: Eine fugenlose Oberfläche auf der Abdichtung ist in der Norm nicht geregelt und muss vorher vereinbart werden.[8] Wenn Sie an fugenlose Oberflächen denken, gehört dieser Punkt also ins Angebot — nicht in die Baustellenbesprechung. Und weil „die Ausführung der Arbeiten aller beteiligten Gewerke aufeinander abgestimmt sein und koordiniert werden“ muss,[6] lohnt die Frage, wer diese Koordination übernimmt: ein Betrieb für alles, oder Sie selbst zwischen Fliesenleger, Sanitär und Elektro."
+      ]
+    },
+    {
+      "heading": "Zusatzarbeiten: die teuerste Unbekannte im Vergleich",
+      "paragraphs": [
+        "Die meisten Badumbau-Überraschungen entstehen nicht in den Positionen, sondern zwischen ihnen: Die Alt-Leitung hinter der Wand ist mangelhaft, unter den Fliesen liegt eine alte Wanneneinbausituation mit Fäulnis, der Estrich braucht doch einen Ausgleich. Für genau diese Situation ist die schriftliche Regelung wichtiger als jeder Rabatt — und das BGB liefert die Regeln, die ein gutes Angebot spiegeln sollte.",
+        "Für den Verbraucherbauvertrag gilt: Begehren Sie als Besteller eine Änderung, sind die Vertragsparteien gehalten, sich über die Änderung und die daraus folgende Mehr- oder Mindervergütung zu verständigen — und der Unternehmer ist verpflichtet, ein Angebot über die Mehr- oder Mindervergütung zu erstellen.[3] Übersetzt in die Praxis: Verlangen Sie, dass Mehrkosten nie „einfach eingebaut“ werden, sondern als Preisangebot vor der Ausführung vorliegen und von Ihnen schriftlich freigegeben werden. Ein Angebot, das diese Rückkopplung von sich aus anbietet, ist im Vergleich besser — unabhängig vom Basispreis.",
+        "Der Vertrag selbst bestimmt, was geschuldet ist: Die Angaben der vorvertraglich zur Verfügung gestellten Baubeschreibung werden Inhalt des Vertrags, es sei denn, etwas anderes wurde ausdrücklich vereinbart — und zweifelhafte Auslegungen gehen zu Lasten des Unternehmers.[4] Deshalb ist die Beschreibung aus Schritt 2 kein Bürokratieakt, sondern Ihr stärkstes Schriftstück. Außerdem muss ein Bauvertrag verbindliche Angaben zur Fertigstellungszeit oder Bauausführungsdauer enthalten[4] — ein Badumbau-Angebot ohne Angabe zur Bauzeit ist damit unvollständig, nicht konservativ.",
+        "Vorsicht vor der Umkehrung dieses Arguments: Diese Regeln machen keine Garantie daraus. Sie geben Ihnen Argumente und Reihenfolgen für das Gespräch — eine juristische Bewertung Ihres konkreten Vertrags leisten wir nicht."
+      ]
+    },
+    {
+      "heading": "Zahlungen: Abschläge, Festpreis und die 15-bis-20-Prozent-Schwelle",
+      "paragraphs": [
+        "Bei größeren Bauleistungen sind Abschlagszahlungen normal — aber sie sind kein Freibrief. Der Unternehmer kann Abschläge in Höhe des Werts der bereits erbrachten und nach dem Vertrag geschuldeten Leistungen verlangen; diese Leistungen sind durch eine Aufstellung nachzuweisen, die eine rasche und sichere Beurteilung ermöglicht.[2] Sind die erbrachten Leistungen nicht vertragsgemäß, kann der Besteller die Zahlung eines angemessenen Teils des Abschlags verweigern — die Beweislast für die vertragsgemäße Leistung bleibt bis zur Abnahme beim Unternehmer.[2] Für Ihren Vergleich: Fragen Sie nach der vorgesehenen Abschlagsstaffel und verknüpfen Sie jede Zahlung mit der zugehörigen Aufstellung.",
+        "Der Preis-Typ entscheidet über Ihre Sicherheit: Der Kostenvoranschlag ist unverbindlich — hier greift die Verbraucherzentrale-Regel, dass der Unternehmer ab einer Preiserhöhung von mehr als 15 bis 20 Prozent darauf hinweisen muss und Sie dann kündigen können; das Angebot mit Festpreischarakter ist dagegen in aller Regel bindend.[1] Im Vergleichstabelle gehört zu jedem Angebot also ein Feld: „KV oder Festpreis?“ — und bei KV die vom Betrieb selbst genannte Mehrpreisregel.",
+        "Die Vollendungslogik gehört ebenfalls in den Vergleich: Die Rechnung erst vollständig bezahlen, wenn alles zur Zufriedenheit erledigt ist — Lohn, Fahrt und Material darin einzeln ausgewiesen.[1] Kombiniert mit der Abschlagsregel entsteht ein einfacher Zahlungsplan, den seriöse Betriebe kennen: Schlussrate erst nach gemeinsamer Abnahme gegen die vereinbarte Positionsaufstellung."
+      ]
+    },
+    {
+      "heading": "Gewährleistung und Abnahme: Was nach dem Vergleich zählt",
+      "paragraphs": [
+        "Die Mängelrechte verjähren nach dem BGB grundsätzlich in zwei Jahren — bei einem Bauwerk dagegen in fünf Jahren; in beiden Fällen beginnt die Verjährung mit der Abnahme.[5] Ein Badumbau kann je nach Auslegung in die eine oder andere Kategorie fallen; genau deshalb gehört die Frage nach der Gewährleistungsdauer ins Angebot — als dokumentierte schriftliche Angabe des Betriebs, die Sie mit den gesetzlichen Fristen abgleichen können. Ein Betrieb, der die Abnahme lange hinauszögert, verschiebt damit auch den Beginn dieser Fristen; ein solches Verhalten gehört in Ihre Vergleichstabelle, auch wenn der Preis gewinnt.",
+        "Für die Abnahme selbst gilt die Verbraucherzentrale-Logik: Das Ergebnis prüfen, Mängel fotografieren und dem verantwortlichen Betrieb sofort schriftlich schildern.[1] Bleiben offene Punkte, erklären Sie die Abnahme ausdrücklich nur unter Vorbehalt und halten die offenen Punkte schriftlich im Protokoll fest — die Abnahme startet die Verjährungsfristen der Mängelansprüche.[5] Lassen Sie sich die Übergabe dokumentieren: ausgeführte Positionen gegen Angebot, Restpunkte mit Frist, Bedienungsanleitungen für Armatur, Ablauf und Reinigung der Abdichtungsflächen.",
+        "Und die Förderung? Sie ändert am Vergleich nichts an der Mechanik — aber an der Reihenfolge: § 40 Absatz 4 SGB XI begrenzt den Zuschuss der Pflegekasse für wohnumfeldverbessernde Maßnahmen auf 4 180 Euro je Maßnahme;[9] ob Ihr konkreter Umbau erfasst ist, klärt die Pflegekasse mit einem konkreten, beschriebenen Vorhaben. Holen Sie daher die Angebote zuerst vollständig und vergleichbar ein — die Förderklärung auf Basis des besten Angebots ist der letzte Schritt vor der Beauftragung, nicht der erste."
+      ]
+    },
+    {
+      "heading": "Angebotscheck: Ihre Fragen pro Betrieb",
+      "paragraphs": [
+        "Diese Fragen fassen die Vergleichsschritte zusammen. Tragen Sie die Antworten pro Betrieb in dieselbe Tabelle ein — danach vergleicht sich das Angebot fast von selbst."
+      ],
+      "bullets": [
+        "„Erhalten Sie dieses Angebot auf Basis derselben Beschreibung wie die Mitbewerber — welche Punkte können Sie nicht abdecken?“",
+        "„Festpreis oder Kostenvoranschlag — und welche Hinweisschwelle gilt bei Mehrkosten?“[1]",
+        "„Welche Positionen (Rückbau, Entsorgung, Elektro, Abdichtung, Trockenbau) sind enthalten — was ist ausdrücklich ausgeschlossen?“",
+        "„Welches Abdichtungssystem und welche Wassereinwirkungsklassen verplanen Sie — nach welcher Norm-Ausgabe?“[6][7][8]",
+        "„Wie laufen Zusatzarbeiten ab: Preisangebot vor Ausführung, schriftliche Freigabe durch uns?“[3]",
+        "„Welche Abschlagsstaffel schlagen Sie vor — mit welcher Aufstellung pro Zahlung?“[2]",
+        "„Wie lange dauert die Ausführung — und welche Gewährleistungsdauer geben Sie schriftlich?“[4][5]",
+        "„Wie ist die Abnahme geregelt — gemeinsamer Termin, Mängelprotokoll, Schlussrate danach?“[1]"
+      ],
+      "paragraphs_after": [
+        "Bewahren Sie Beschreibung, Angebote, Antworten, Zusatzfreigaben, Abnahmeprotokoll und Rechnungen zusammen auf — diese Ablage ist Ihr Vergleichsergebnis und Ihr Nachweis zugleich. Dieser Ratgeber ist mit KI-Unterstützung entstanden und vor Veröffentlichung redaktionell gegen die genannten Quellen geprüft; es gab keine eigenen Baustellen- oder Produkttests. Eine Partnervermittlung ist derzeit nicht eingerichtet — die Fragen sind für Ihre selbst organisierten Gespräche mit Fachbetrieben."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wie viele Badumbau-Angebote sollte ich einholen?",
+      "answer": "Die Verbraucherzentrale empfiehlt, vor der Auftragsvergabe zwei bis drei Angebote oder Kostenvoranschläge verschiedener Firmen einzuholen.[1] Wichtiger als die Anzahl ist die Vergleichsbasis: Jeder Betrieb bekommt dieselbe Beschreibung, und die Antworten landen in derselben Positionstabelle. Drei unvergleichbare Angebote sind weniger wert als zwei vergleichbare."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Kostenvoranschlag und Angebot?",
+      "answer": "Kostenvoranschläge sind unverbindlich — es kann also teurer werden. Steigt der Preis um mehr als 15 bis 20 Prozent, muss der Unternehmer darauf hinweisen, und Sie können dann den Vertrag kündigen. An die Preise in Angeboten sind die Unternehmen dagegen in aller Regel gebunden.[1] Welcher Preis-Typ vorliegt, gehört deshalb in jede Vergleichstabelle."
+    },
+    {
+      "question": "Muss die Abdichtung nach DIN 18534 im Angebot stehen?",
+      "answer": "Eine Abdichtung braucht jede Dusche; die Norm ordnet jede Fläche einer Wassereinwirkungsklasse zu — im häuslichen Bad meist W1-I für die Duschwand und W2-I für den Boden einer bodengleichen Dusche, die Zuordnung trifft der Planer.[7][8] Ein Angebot, das zu System und Klassen schweigt, ist kein Verstoß gegen ein Gesetz — aber für Ihren Vergleich unvergleichbar. Fragen Sie nach der aktuellen Ausgabe von 2025; ältere Merkblätter mit Stand 2017 sind teilweise überholt.[6][8]"
+    },
+    {
+      "question": "Darf der Handwerker einfach Abschläge verlangen?",
+      "answer": "Er kann Abschläge in Höhe des Werts der erbrachten und geschuldeten Leistungen verlangen; diese Leistungen müssen durch eine Aufstellung nachgewiesen werden, die eine rasche und sichere Beurteilung ermöglicht. Ist die Leistung nicht vertragsgemäß, können Sie einen angemessenen Teil des Abschlags verweigern — die Beweislast für die vertragsgemäße Leistung bleibt bis zur Abnahme beim Unternehmer.[2] Vereinbaren Sie die Staffel vorab und knüpfen Sie jede Zahlung an die Aufstellung."
+    },
+    {
+      "question": "Was gilt, wenn während des Umbaus Zusatzarbeiten nötig werden?",
+      "answer": "Im Verbraucherbauvertrag ist der Unternehmer verpflichtet, ein Angebot über die Mehr- oder Mindervergütung zu erstellen, wenn eine Änderung begehrt wird.[3] Verlangen Sie in jedem Fall: erst schriftliches Preisangebot, dann Ihre Freigabe, dann Ausführung. Die Baubeschreibung aus Ihrer Anfrage wird nach § 650k BGB Vertragsinhalt; Unklarheiten in der Auslegung gehen zu Lasten des Unternehmers.[4]"
+    },
+    {
+      "question": "Wie lange habe ich Gewährleistung nach dem Badumbau?",
+      "answer": "Die gesetzliche Verjährung der Mängelansprüche beträgt grundsätzlich zwei Jahre, bei einem Bauwerk fünf Jahre — in beiden Fällen beginnt die Frist mit der Abnahme.[5] Welcher Fall bei Ihrem Umbau vorliegt, ist eine Einzelfrage; lassen Sie sich die Gewährleistungsdauer schriftlich nennen und planen Sie die gemeinsame Abnahme als bewussten Termin, nicht als Nebensache am Zahlungstag."
+    }
+  ],
+  "sources": [
+    {
+      "title": "[1] Verbraucherzentrale – Handwerker finden: So vermeiden Sie böse Überraschungen (Stand 10.12.2025)",
+      "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[2] § 632a BGB – Abschlagszahlungen",
+      "url": "https://www.gesetze-im-internet.de/bgb/__632a.html",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[3] § 650b BGB – Änderung des Vertrags; Anordnungsrecht des Bestellers",
+      "url": "https://www.gesetze-im-internet.de/bgb/__650b.html",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[4] § 650k BGB – Inhalt des Vertrags (Verbraucherbauvertrag)",
+      "url": "https://www.gesetze-im-internet.de/bgb/__650k.html",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[5] § 634a BGB – Verjährung der Mängelansprüche",
+      "url": "https://www.gesetze-im-internet.de/bgb/__634a.html",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[6] DIN e. V. Verbraucherrat – Schutz vor Wasserschäden mit DIN 18534 (Neufassung Oktober 2025)",
+      "url": "https://www.din.de/de/ueber-normen-und-standards/nutzen-fuer-den-verbraucher/verbraucherrat/ueber-uns/din-18534-bauwerksabdichtungen-1231076",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[7] Schlüter-Systems – Abdichtung von Innenräumen (DIN 18534, Hersteller-Fachdarstellung)",
+      "url": "https://eu.schluter.com/de-DE/abdichtung-von-innenraeumen-9932.html",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[8] Einhorn Werke – Merkblatt „Duschen abdichten nach DIN 18534“ (Stand 09/2026, Norm 2025-10)",
+      "url": "https://www.einhornwerke.de/wp-content/uploads/2026/10/EW_Merkblatt_Duschen_DIN18534.pdf",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[9] § 40 SGB XI – Pflegehilfsmittel und wohnumfeldverbessernde Maßnahmen",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "checked_at": "2026-10-19"
+    }
+  ],
+  "image": {
+    "src": "assets/images/badumbau-angebote-vergleich.svg",
+    "alt": "Schematische Übersicht der vier Vergleichsschritte: gleiche Vergleichsbasis, Positionen statt Pauschale, Abdichtung nach DIN 18534 erfragen, Preisbindung und Abschlagsregeln prüfen",
+    "caption": "Schematische KI-Illustration der vier Vergleichsschritte; keine Rechtsberatung und keine technische Ausführungsplanung."
+  },
+  "status": "editorial-reviewed-preview"
+}

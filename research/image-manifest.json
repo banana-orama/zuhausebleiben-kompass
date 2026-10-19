@@ -217,6 +217,36 @@
         "recommended_min_width_px": 740,
         "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen (Artikeltext enthält alle Prüfpunkte); bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
       }
+    },
+    {
+      "src": "assets/images/badumbau-angebote-vergleich.svg",
+      "alt": "Vier Vergleichsschritte für Badumbau-Angebote: gleiche Vergleichsbasis, Positionen statt Pauschale, Abdichtung nach DIN 18534 erfragen, Preisbindung und Abschlagsregeln prüfen; plus Hinweis, alles Schriftliche aufzubewahren",
+      "caption": "KI-Illustration · schematisch. Vier Vergleichsschritte vor der Beauftragung; keine Rechtsberatung und keine technische Ausführungsplanung.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / Z.ai (GLM)",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css; Zahlen aus den am 2026-10-19 geprüften Quellen (research/badumbau-angebote-ledger.json: Verbraucherzentrale, §§ 632a/650b/650k/634a BGB, DIN-Verbraucherrat, Schlüter-Systemdarstellung, Einhorn-Werke-Merkblatt).",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für den Ratgeber badumbau-angebote-vergleichen vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, reale Baustelle, Produktreferenz oder Fachplanung."
+      },
+      "limitations": [
+        "Keine Preis-, Kaufmanns- oder Normwerte für konkrete Bäder; die Grafik zeigt den Vergleichsablauf, keine Kalkulation.",
+        "Rechtliche Kennzahlen (15–20-%-Hinweisschwelle, §§ 632a/650b/650k/634a BGB) sind vereinfachte Orientierung mit Quellenbeleg im Artikel, keine Rechtsberatung.",
+        "DIN-18534-Klassen (W1-I/W2-I) sind gekennzeichnete Hersteller-/Fachdarstellungen; die Zuordnung im Einzelfall trifft der Planer."
+      ],
+      "dimensions": {
+        "width": 1000,
+        "height": 780,
+        "unit": "px",
+        "viewBox": "0 0 1000 780"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen (Artikeltext enthält alle Vergleichsschritte); bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
     }
   ]
 }

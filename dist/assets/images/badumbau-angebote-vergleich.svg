@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="780" viewBox="0 0 1000 780" role="img" aria-labelledby="title desc">
+<title id="title">Badumbau-Angebote vergleichen: Vier Schritte zur vergleichbaren Kostenaufstellung</title>
+<desc id="desc">Schematische Grafik mit vier Vergleichsschritten: 1 Gleicher Umfang, gleiche Vergleichsbasis (Verbraucherzentrale: zwei bis drei Angebote einholen; alle Vor-, Nach- und Nebenarbeiten benennen). 2 Positionen statt Pauschale (Rückbau, Sanitär, Elektro, Abdichtung, Fliesen, Entsorgung einzeln benannt; fehlender Posten ist eine Rückfrage, kein Gratisbestandteil). 3 Abdichtung nach DIN 18534 (Neufassung Oktober 2025; Wand in der Dusche meist W1-I, Boden einer bodengleichen Dusche W2-I; fugenlose Oberfläche ist in der Norm nicht geregelt und muss vorher vereinbart werden). 4 Preisbindung, Abschlag, Gewährleistung (Kostenvoranschlag unverbindlich mit 15 bis 20 Prozent Hinweisschwelle, Festpreisangebot in der Regel gebunden; Abschläge nur gegen nachweisbare Leistungen mit Aufstellung nach § 632a BGB; Mängelansprüche verjähren nach § 634a BGB in zwei beziehungsweise fünf Jahren, Beginn mit Abnahme). Hinweis: Allgemeine Orientierung für die eigene Angebotssuche, keine Rechtsberatung und keine technische Prüfung.</desc>
+<rect width="1000" height="780" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600" text-anchor="start">BAD · ANGEBOTE VERGLEICHEN</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="40" text-anchor="start">Angebote vergleichbar machen — in vier Schritten</text>
+<text x="44" y="142" fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18">Positionen statt Pauschale · Schematische Orientierung, keine Rechtsberatung</text>
+
+<!-- Schritt 1 -->
+<rect x="44" y="176" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="88" cy="220" r="22" fill="#245b47"/>
+<text x="88" y="227" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">1</text>
+<text x="124" y="216" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Gleicher Umfang, gleiche Basis</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="124" y="244">Zwei bis drei Angebote einholen</tspan>
+  <tspan x="124" y="265">(Verbraucherzentrale) — jeder Betrieb</tspan>
+  <tspan x="124" y="286">bekommt dieselbe Beschreibung.</tspan>
+  <tspan x="124" y="307">Vor-, Nach- und Nebenarbeiten</tspan>
+  <tspan x="124" y="328">ausdrücklich benennen.</tspan>
+</text>
+
+<!-- Schritt 2 -->
+<rect x="516" y="176" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="560" cy="220" r="22" fill="#245b47"/>
+<text x="560" y="227" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">2</text>
+<text x="596" y="216" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Positionen statt Pauschale</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="596" y="244">Rückbau, Sanitär, Elektro, Abdichtung,</tspan>
+  <tspan x="596" y="265">Fliesen, Entsorgung einzeln benannt?</tspan>
+  <tspan x="596" y="286">Rechnung: alle Positionen einzeln</tspan>
+  <tspan x="596" y="307">ausweisen. Ein fehlender Posten ist</tspan>
+  <tspan x="596" y="328">eine Rückfrage — kein Gratisbestandteil.</tspan>
+</text>
+
+<!-- Schritt 3 -->
+<rect x="44" y="392" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="88" cy="436" r="22" fill="#245b47"/>
+<text x="88" y="443" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">3</text>
+<text x="124" y="432" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Abdichtung: DIN 18534 erfragen</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="124" y="460">Neufassung seit Oktober 2025.</tspan>
+  <tspan x="124" y="481">Wand meist W1-I, Boden bodengleicher</tspan>
+  <tspan x="124" y="502">Dusche W2-I (Hersteller-Merkblatt).</tspan>
+  <tspan x="124" y="523">Fugenlose Oberfläche: in der Norm nicht</tspan>
+  <tspan x="124" y="544">geregelt → vorher schriftlich vereinbaren.</tspan>
+</text>
+
+<!-- Schritt 4 -->
+<rect x="516" y="392" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="560" cy="436" r="22" fill="#245b47"/>
+<text x="560" y="443" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">4</text>
+<text x="596" y="432" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Preis, Abschlag, Gewährleistung</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="596" y="460">Kostenvoranschlag unverbindlich</tspan>
+  <tspan x="596" y="481">(Hinweis ab 15–20 % Mehrpreis);</tspan>
+  <tspan x="596" y="502">Abschlag nur gegen Aufstellung (§ 632a</tspan>
+  <tspan x="596" y="523">BGB); Mängelfristen 2/5 Jahre ab</tspan>
+  <tspan x="596" y="544">Abnahme (§ 634a BGB).</tspan>
+</text>
+
+<!-- Hinweis unten -->
+<rect x="44" y="600" width="912" height="120" rx="14" fill="#edf3ee" stroke="#c9d8cd" stroke-width="2"/>
+<text x="76" y="640" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="17" font-weight="600">Erst vergleichen, dann beauftragen — und alles Schriftliche aufbewahren</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="76" y="666">Beschreibung, Angebote, Zusatzfreigaben, Abnahme und Rechnungen gehören in eine Ablage.</tspan>
+  <tspan x="76" y="688">Allgemeine Orientierung nach Verbraucherzentrale und BGB — keine Rechtsberatung im Einzelfall.</tspan>
+</text>
+</svg>

@@ -1,8 +1,14 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-19 (Batch 4). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-19 (Batch 5). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Batch 5 (2026-10-19, Cron-Lauf, Abend) — Briefing 7
+1. **Neu veröffentlicht:** badumbau-angebote-vergleichen.json — Vergleichsmechanik für Badumbau-Angebote (Vergleichsbasis: dieselbe Beschreibung für jeden Betrieb; Positionstabelle Rückbau→Logistik; Abdichtung nach DIN 18534 Neufassung 2025-10 mit W1-I/W2-I und fugenlos=Vereinbarungspflicht; Preisbindung KV vs. Festpreis mit 15–20-%-Hinweisschwelle; Zusatzarbeiten § 650b/650k BGB; Abschläge § 632a BGB; Verjährung § 634a BGB 2/5 Jahre ab Abnahme; 8-Punkte-Fragenliste pro Betrieb). 8 Abschnitte, 6 FAQs, 9 Quellen mit Verbatim-Evidenz (research/badumbau-angebote-ledger.json, 25/25 maschinell verifiziert), Grafik assets/images/badumbau-angebote-vergleich.svg (Chromium-Sichtkontrolle), Protokoll research/badumbau-angebote-vergleichen-batch.md. Keine Marktpreise erfunden; DIN-Angaben als Hersteller-/Fachdarstellung gekennzeichnet; Rechtszahlen nur mit BGB-Quellenbeleg.
+2. **Renderer:** article-renderer.mjs specialMap-Eintrag +1 (Early-CTA „Badumbau planen“ → /bad-umbau-barrierefrei.html statt Bad-Cluster-Default „Förderung prüfen“ → Treppenlift-Zuschuss).
+3. **Testzähler:** test_articles.py 17→18 Artikel.
+4. **Abgrenzung:** wanne-zur-dusche (Produktentscheidung/Bauablauf) und bad-umbau-barrierefrei (Gesamtplanung) unangetastet; neuer Artikel deckt die dedizierte Angebotsvergleichs-Mechanik (KV/Festpreis, Abschläge, §§ 650b/650k/634a, DIN-18534-Nachfragen) — intent-distinct, Related-Links im Bad-Cluster.
 
 ### Batch 4 (2026-10-19, Cron-Lauf) — Briefing 6
 1. **Neu veröffentlicht:** bodengleiche-dusche-altbau.json — Machbarkeits-Fahrplan Altbau (vier Prüfentscheidungen: Aufbauhöhe, Weg zum Fallrohr, Decke/Konstruktion, Norm als Zielgröße), flache Alternative mit Restschwelle als ehrliche Option, 10-Punkte-Fragenliste für den Vor-Ort-Termin, Förderlogik § 40 Abs. 4 SGB XI (4.180/16.720 €, Ermessen), KfW 455-B Antragstopp (19.10. verifiziert) + 159 inkl. wörtlichem Kombinationsverbot/Ausnahme, § 554 BGB-Verweis mit Link auf Mietwohnung-Ratgeber. 8 Abschnitte, 6 FAQs, ~2.390 Wörter, 10 Quellen mit Verbatim-Evidenz (research/altbau-dusche-ledger.json, 29/29 Zitate maschinell verifiziert), Grafik assets/images/bodengleiche-dusche-altbau-pruefpunkte.svg (Chromium-Sichtkontrolle), Protokoll research/bodengleiche-dusche-altbau-batch.md + Acceptance research/evidence/bodengleiche-dusche-altbau-acceptance.md.

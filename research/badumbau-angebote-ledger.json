@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "task": "Briefing 7: Badumbau-Angebote vergleichen (Vergleichsmechanik: Positionen, Abdichtung DIN 18534, Preisbindung, Abschläge, Zusatzarbeiten, Gewährleistung)",
+  "checked": "2026-10-19",
+  "checked_by": "milo (Hermes Agent, Cron-Lauf)",
+  "method": "curl-Vollabrufe (rohe HTML/PDF in scratch/badumbau-batch gesichert), Tag-Strip + Entity-Decode + Whitespace-Normalisierung, Verbatim-Quotes aus den extrahierten Volltexten; maschinelle Verifikation via verify_ledger.py; § 40 SGB XI zusätzlich heute im Recheck (research/foerderstatus.md) bestätigt",
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664",
+      "title": "Verbraucherzentrale – Handwerker finden: So vermeiden Sie böse Überraschungen (Stand 10.12.2025)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Vor Auftragsvergabe sollten immer zwei bis drei Angebote oder Kostenvoranschläge verschiedener Firmen eingeholt werden.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Kostenvoranschläge sind nicht verbindlich, es kann also teurer werden. Steigt der Preis um mehr als 15 bis 20 Prozent, muss der Unternehmer jedoch darauf hinweisen. Sie können dann den Vertrag kündigen. An die Preise in Angeboten sind die Unternehmen dagegen in aller Regel gebunden.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "So sollten Angebote und Kostenvoranschläge auch alle Vor-, Nach- und Nebenarbeiten berücksichtigen, beim Fenstertausch zum Beispiel den Gerüstbau.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die Rechnung sollten Sie erst dann vollständig bezahlen, wenn alles zu Ihrer Zufriedenheit erledigt ist. Alle Lohn-, Fahrt- und Materialkosten sollten darin einzeln aufgeführt werden",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Gibt es Mängel, sollten Sie sie nach Möglichkeit fotografieren und dem verantwortlichen Betrieb sofort schriftlich schildern.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.gesetze-im-internet.de/bgb/__632a.html",
+      "title": "§ 632a BGB – Abschlagszahlungen",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Der Unternehmer kann von dem Besteller eine Abschlagszahlung in Höhe des Wertes der von ihm erbrachten und nach dem Vertrag geschuldeten Leistungen verlangen.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Sind die erbrachten Leistungen nicht vertragsgemäß, kann der Besteller die Zahlung eines angemessenen Teils des Abschlags verweigern. Die Beweislast für die vertragsgemäße Leistung verbleibt bis zur Abnahme beim Unternehmer.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die Leistungen sind durch eine Aufstellung nachzuweisen, die eine rasche und sichere Beurteilung der Leistungen ermöglichen muss.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.gesetze-im-internet.de/bgb/__650b.html",
+      "title": "§ 650b BGB – Änderung des Vertrags; Anordnungsrecht des Bestellers",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Der Unternehmer ist verpflichtet, ein Angebot über die Mehr- oder Mindervergütung zu erstellen",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.gesetze-im-internet.de/bgb/__650k.html",
+      "title": "§ 650k BGB – Inhalt des Vertrags (Verbraucherbauvertrag)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Die Angaben der vorvertraglich zur Verfügung gestellten Baubeschreibung in Bezug auf die Bauausführung werden Inhalt des Vertrags, es sei denn, die Vertragsparteien haben ausdrücklich etwas anderes vereinbart.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Der Bauvertrag muss verbindliche Angaben zum Zeitpunkt der Fertigstellung des Werks oder, wenn dieser Zeitpunkt zum Zeitpunkt des Abschlusses des Bauvertrags nicht angegeben werden kann, zur Dauer der Bauausführung enthalten.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.gesetze-im-internet.de/bgb/__634a.html",
+      "title": "§ 634a BGB – Verjährung der Mängelansprüche",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "vorbehaltlich der Nummer 2 in zwei Jahren bei einem Werk, dessen Erfolg in der Herstellung, Wartung oder Veränderung einer Sache oder in der Erbringung von Planungs- oder Überwachungsleistungen hierfür besteht, 2. in fünf Jahren bei einem Bauwerk und einem Werk, dessen Erfolg in der Erbringung von Planungs- oder Überwachungsleistungen hierfür besteht, und 3. im Übrigen in der regelmäßigen Verjährungsfrist.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die Verjährung beginnt in den Fällen des Absatzes 1 Nr. 1 und 2 mit der Abnahme.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://www.din.de/de/ueber-normen-und-standards/nutzen-fuer-den-verbraucher/verbraucherrat/ueber-uns/din-18534-bauwerksabdichtungen-1231076",
+      "title": "DIN e. V. Verbraucherrat – Schutz vor Wasserschäden mit DIN 18534 (Neufassung Oktober 2025)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Die im Oktober 2025 veröffentlichte Neufassung der DIN 18534",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "behandelt die Planung, Umsetzung und Wartung von Abdichtungen für Böden und Wände in Innenräumen.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Eine Grundanforderung besteht jedoch in allen Fällen: Wasserschäden an der Bausubstanz müssen vermieden werden.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die Ausführung der Arbeiten aller beteiligten Gewerke müssen aufeinander abgestimmt sein und koordiniert werden.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://eu.schluter.com/de-DE/abdichtung-von-innenraeumen-9932.html",
+      "title": "Schlüter-Systems – Abdichtung von Innenräumen (DIN 18534, Hersteller-Fachdarstellung)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Jede Fläche eines Nassraums wird einzeln hinsichtlich der möglichen Art, Einwirkungsdauer und -intensität des anfallenden Wassers betrachtet und einer Wassereinwirkungsklasse zugeordnet.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Gemäß DIN 18534 wird die Intensität der Wassereinwirkung über vier Beanspruchungsklassen geregelt: die Wassereinwirkungsklassen W0-I bis W3-I.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Wassereinwirkungsklasse W2-I: Es sind ausschließlich feuchtigkeitsunempfindliche Untergründe zulässig.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://www.einhornwerke.de/wp-content/uploads/2026/10/EW_Merkblatt_Duschen_DIN18534.pdf",
+      "title": "Einhorn Werke – Merkblatt „Duschen abdichten nach DIN 18534“ (Hersteller-Merkblatt, Stand 09/2026, Norm 2025-10)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Auf einen Blick: Jede Dusche braucht eine Abdichtung nach DIN 18534. Die Norm ordnet jede Fläche einer Wassereinwirkungsklasse zu: die Wand in der Dusche meist W1-I, den Boden einer bodengleichen Dusche W2-I.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Seit Oktober 2025 gilt eine überarbeitete Ausgabe. Eine fugenlose Oberfläche auf der Abdichtung ist in der Norm nicht geregelt und muss vorher vereinbart werden.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die aktuelle Ausgabe ist vom Oktober 2025 und ersetzt die Fassung vom Juli 2017. Merkblätter und Broschüren mit Stand 2017 sind in Teilen überholt.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die Zuordnung im Einzelfall trifft der Planer",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "title": "§ 40 SGB XI – Pflegehilfsmittel und wohnumfeldverbessernde Maßnahmen",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen.",
+          "added": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}
