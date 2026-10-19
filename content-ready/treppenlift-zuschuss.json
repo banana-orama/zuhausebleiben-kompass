@@ -23,7 +23,7 @@
         "rows": [
           ["Pflegegrad und eine konkrete Hürde im häuslichen Alltag", "Pflegekasse", "Individueller Zweck, Maßnahmeumfang und erforderliche Nachweise.[1][4]"],
           ["Kein Pflegegrad oder allgemeine Vorsorgeplanung", "Wohnberatung und bei Kreditbedarf Finanzierungspartner", "Bauliche Eignung und Kreditbedingungen; KfW 159 richtet sich unter anderem an Eigentümer und Mieter unabhängig vom Alter.[3]"],
-          ["Sie suchen einen neuen KfW-455-B-Zuschuss", "Aktuelle KfW-Produktseite", "Am 14.10.2026 keine neuen Anträge wegen ausgeschöpfter Mittel; nicht als Einnahme einplanen.[2]"],
+          ["Sie suchen einen neuen KfW-455-B-Zuschuss", "Aktuelle KfW-Produktseite", "Am 19.10.2026 keine neuen Anträge wegen ausgeschöpfter Mittel; nicht als Einnahme einplanen.[2]"],
           ["Sie haben bereits einen 455-B-Antrag oder eine Zusage", "KfW und vorhandene Antragsunterlagen", "Laufende Anträge werden weiter bearbeitet; erteilte Zusagen bleiben reserviert.[2]"],
           ["Lift und Badumbau sind zugleich geplant", "Pflegekasse und gegebenenfalls Finanzierungspartner", "Maßnahmeabgrenzung und getrennte Kostenzuordnung; dieselbe Maßnahme nicht doppelt finanzieren.[1][3]"],
           ["Mietwohnung oder gemeinschaftlich betroffene Bereiche", "Vermieter beziehungsweise zuständige Verwaltung", "Zustimmungen und Verantwortlichkeiten vor dem Auftrag; § 554 BGB ist keine pauschale Einbaufreigabe.[5]"]
@@ -41,7 +41,7 @@
     {
       "heading": "KfW 455-B: Neue Anträge derzeit nicht möglich",
       "paragraphs": [
-        "Die KfW-Produktseite wurde am 14. Oktober 2026 direkt im Browser geprüft. Sie meldet, dass die Fördermittel für Barrierereduzierung ausgeschöpft sind und keine neuen Anträge mehr gestellt werden können.[2] Wir übernehmen keinen unbelegten Stichtag für den Beginn des Stopps. Maßgeblich ist der beim Abruf sichtbare aktuelle Status, nicht eine ältere Suchbeschreibung.",
+        "Die KfW-Produktseite wurde am 19. Oktober 2026 direkt im Browser geprüft. Sie meldet, dass die Fördermittel für Barrierereduzierung ausgeschöpft sind und keine neuen Anträge mehr gestellt werden können.[2] Wir übernehmen keinen unbelegten Stichtag für den Beginn des Stopps. Maßgeblich ist der beim Abruf sichtbare aktuelle Status, nicht eine ältere Suchbeschreibung.",
         "Bereits eingereichte Anträge werden laut KfW weiter bearbeitet. Wer die Voraussetzungen erfüllt, erhält eine Zusage; mit einer erteilten Zusage ist der Zuschuss reserviert und wird nach Nachweis der Fördervoraussetzungen ausgezahlt.[2] Ein vorhandener Antrag ist deshalb anders zu behandeln als die Absicht, heute erstmals einen Antrag zu stellen.",
         "Eine neue Antragstellung wäre nach Aussage der KfW wieder möglich, falls 2027 erneut Bundesmittel bereitgestellt werden.[2] Das ist keine bestätigte Wiederöffnung. Warten Sie nicht auf Grundlage einer solchen Hoffnung mit einer notwendigen Lösung und planen Sie den unbewilligten Zuschuss nicht fest ein. Besprechen Sie tragbare Alternativen mit Ihren Ansprechpartnern und prüfen Sie den Status erneut, bevor Sie handeln."
       ]
@@ -101,16 +101,16 @@
     {"question": "Erhalte ich ab Pflegegrad 1 automatisch einen Treppenlift-Zuschuss?", "answer": "Nein. Das BMG beschreibt die Möglichkeit für Pflegegrade 1 bis 5.[4] Entscheidend bleibt der individuelle Zweck nach § 40 Absatz 4 SGB XI: häusliche Pflege ermöglichen oder erheblich erleichtern oder eine möglichst selbständige Lebensführung wiederherstellen.[1]"},
     {"question": "Ist 4.180 Euro der Zuschuss pro Person oder pro Lift?", "answer": "Für den individuellen Zuschuss gilt die Obergrenze von 4.180 Euro je Maßnahme. Bei mehreren Pflegebedürftigen in einer gemeinsamen Wohnung gelten höchstens 4.180 Euro je Pflegebedürftigem und höchstens 16.720 Euro je gemeinsamer Maßnahme.[1] Die konkrete Maßnahmeabgrenzung klären Sie mit der Pflegekasse."},
     {"question": "Gibt es jedes Jahr einen neuen Zuschuss?", "answer": "Ein jährliches Budget lässt sich aus § 40 Absatz 4 SGB XI nicht ableiten.[1] Das BMG nennt einen erneuten Zuschuss, wenn eine veränderte Pflegesituation neue Maßnahmen erforderlich macht.[4] Ob Ihr neues Vorhaben diese Voraussetzungen erfüllt, muss gesondert geprüft werden."},
-    {"question": "Kann ich 455-B jetzt neu beantragen?", "answer": "Beim direkten Abruf am 14. Oktober 2026 lautete die KfW-Aussage: keine neuen Anträge wegen ausgeschöpfter Fördermittel. Laufende Anträge und erteilte Zusagen sind nicht vom Antragstopp betroffen; ein möglicher Neustart 2027 hängt von neuen Bundesmitteln ab.[2]"},
+    {"question": "Kann ich 455-B jetzt neu beantragen?", "answer": "Beim direkten Abruf am 19. Oktober 2026 lautete die KfW-Aussage: keine neuen Anträge wegen ausgeschöpfter Fördermittel. Laufende Anträge und erteilte Zusagen sind nicht vom Antragstopp betroffen; ein möglicher Neustart 2027 hängt von neuen Bundesmitteln ab.[2]"},
     {"question": "Kann ich Pflegekassenzuschuss und KfW-159-Kredit für denselben Lift kombinieren?", "answer": "KfW 159 schließt pflegeversicherungsgeförderte Maßnahmen aus. Die genannte Ausnahme betrifft verschiedene Maßnahmen, etwa Badumbau und Treppenlift.[3] Nehmen Sie daher keine Kombination für dieselbe Liftmaßnahme an; lassen Sie die konkrete Zuordnung vor einem Auftrag schriftlich klären."},
     {"question": "Übernimmt das Portal Antrag oder Vermittlung?", "answer": "Nein. Eine Partnerweiterleitung ist derzeit nicht eingerichtet. Die Checklisten helfen Ihnen, Ihre eigenen Gespräche vorzubereiten; sie ersetzen weder eine Antragsprüfung noch eine individuelle Bewilligungsentscheidung."}
   ],
   "sources": [
-    {"title": "[1] § 40 SGB XI – insbesondere Absatz 4", "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "checked_at": "2026-10-14"},
-    {"title": "[2] KfW 455-B – aktueller Antragstatus", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)", "checked_at": "2026-10-14"},
-    {"title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)", "checked_at": "2026-10-14"},
-    {"title": "[4] BMG – Zuschüsse zur Wohnungsanpassung", "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung", "checked_at": "2026-10-14"},
-    {"title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-10-14"}
+    {"title": "[1] § 40 SGB XI – insbesondere Absatz 4", "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "checked_at": "2026-10-19"},
+    {"title": "[2] KfW 455-B – aktueller Antragstatus", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)", "checked_at": "2026-10-19"},
+    {"title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)", "checked_at": "2026-10-19"},
+    {"title": "[4] BMG – Zuschüsse zur Wohnungsanpassung", "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung", "checked_at": "2026-10-19"},
+    {"title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-10-19"}
   ],
   "image": {"src": "assets/images/foerderablauf.svg", "alt": "Schematischer Förderablauf von Bedarfsklärung und Angebot über Förderentscheidung bis Einbau und Nachweisen", "caption": "Schematische KI-Illustration; keine technische Ausführungsplanung."},
   "status": "editorial-reviewed-preview"

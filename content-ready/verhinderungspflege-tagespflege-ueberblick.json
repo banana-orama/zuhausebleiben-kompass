@@ -186,37 +186,37 @@
     {
       "title": "§ 39 SGB XI – Verhinderungspflege (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "BMG: Teilstationäre Tages- oder Nachtpflege (Stand 15.09.2026) – Anspruchsbeträge und Kostenlogik",
       "url": "https://www.bundesgesundheitsministerium.de/tagespflege-und-nachtpflege",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 41 SGB XI – Tagespflege und Nachtpflege (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__41.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 37 SGB XI – Pflegegeld (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__37.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 42a SGB XI – Gemeinsamer Jahresbetrag (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__42a.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "BMG: Weitere Leistungen und Angebote zur Unterstützung im Alltag – Entlastungsbetrag",
       "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/weitere-leistungen-und-angebote-zur-unterstuetzung-im-alltag",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 30 SGB XI – Dynamisierung der Leistungsbeträge (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__30.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "pflege.de: Verhinderungspflege – Tabelle 2026 (Redaktionsratgeber, Reformstand 30.09.2026)",
@@ -227,7 +227,7 @@
   "image": {
     "src": "assets/images/verhinderung-tagespflege-matrix.svg",
     "alt": "Schematische Gegenüberstellung von Verhinderungspflege und Tagespflege: zwei Spalten mit Anspruchslogik, Jahresbudget 3.539 Euro beziehungsweise monatliche Höchstbeträge nach Pflegegrad, und gemeinsame Schnittstelle häusliche Pflege",
-    "caption": "Schematische KI-Illustration; Beträge nach SGB XI und BMG, Stand 16.10.2026, keine Beratung."
+    "caption": "Schematische KI-Illustration; Beträge nach SGB XI und BMG, Stand 19.10.2026, keine Beratung."
   },
   "status": "editorial-reviewed-preview"
 }

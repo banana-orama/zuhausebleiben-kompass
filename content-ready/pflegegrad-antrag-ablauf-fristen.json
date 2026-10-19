@@ -189,37 +189,37 @@
     {
       "title": "Bundesgesundheitsministerium: Antragsverfahren Pflegegrad (Online-Ratgeber Pflege, Stand 14.09.2026)",
       "url": "https://www.bundesgesundheitsministerium.de/pflegegrade",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 33 SGB XI – Leistungsvoraussetzungen (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__33.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 14 SGB XI – Begriff der Pflegebedürftigkeit (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__14.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 15 SGB XI – Ermittlung des Pflegegrads, Begutachtungsinstrument (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__15.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 18 SGB XI – Beauftragung der Begutachtung (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__18.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 84 SGG – Widerspruchsverfahren (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgg/__84.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 87 SGG – Klagefrist (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgg/__87.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "gesund.bund.de: Widerspruch und Klage gegen einen Bescheid der Pflegekasse",
@@ -240,7 +240,7 @@
   "image": {
     "src": "assets/images/pflegegrad-antrag-ablauf.svg",
     "alt": "Schematischer Ablauf des Pflegegrad-Antrags als Zeitleiste: formloser Antrag, Weiterleitung an den Medizinischen Dienst, Pflegeberatung, Begutachtung, Bescheid und im Ablehnungsfall Widerspruch und Klage mit den jeweiligen Fristen",
-    "caption": "Schematische KI-Illustration des Verfahrens; Fristen laut BMG-Ratgeber und SGB XI (Abruf 16.10.2026)."
+    "caption": "Schematische KI-Illustration des Verfahrens; Fristen laut BMG-Ratgeber und SGB XI (Abruf 19.10.2026)."
   },
   "status": "editorial-reviewed-preview"
 }

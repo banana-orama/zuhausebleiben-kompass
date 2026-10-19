@@ -73,7 +73,7 @@
     {
       "heading": "KfW: Zuschussstatus und Kredit auseinanderhalten",
       "paragraphs": [
-        "Am 14. Oktober 2026 meldet die direkt geprüfte KfW-Produktseite zu 455-B: Neue Anträge sind wegen ausgeschöpfter Fördermittel nicht mehr möglich. Bereits gestellte Anträge werden weiter bearbeitet; erteilte Zusagen bleiben reserviert.[2] Ein möglicher Neustart 2027 steht unter der Voraussetzung neuer Bundesmittel und ist nicht zugesichert.[2] Prüfen Sie den Status vor Ihrer Entscheidung erneut.",
+        "Am 19. Oktober 2026 meldet die direkt geprüfte KfW-Produktseite zu 455-B: Neue Anträge sind wegen ausgeschöpfter Fördermittel nicht mehr möglich. Bereits gestellte Anträge werden weiter bearbeitet; erteilte Zusagen bleiben reserviert.[2] Ein möglicher Neustart 2027 steht unter der Voraussetzung neuer Bundesmittel und ist nicht zugesichert.[2] Prüfen Sie den Status vor Ihrer Entscheidung erneut.",
         "KfW 159 ist dagegen ein rückzahlbarer Kredit von bis zu 50.000 Euro je Wohneinheit. Den Antrag stellen Sie über einen Finanzierungspartner, nicht direkt bei der KfW; die Förderung steht unter Haushaltsmittelvorbehalt.[3] Für den regulären Ablauf sollen Sie vor Abschluss von Lieferungs- oder Leistungsverträgen mit dem Finanzierungspartner sprechen und erst nach Zusage Verträge schließen und starten.[3] Etwaige Sonderfälle müssen Sie dort vorab klären.",
         "KfW 159 schließt Maßnahmen aus, die über die soziale Pflegeversicherung oder private Pflege-Pflichtversicherung gefördert werden. Die KfW nennt als Ausnahme verschiedene Maßnahmen, etwa Badumbau über die Pflegeversicherung und Treppenlift über den Kredit.[3] Das ist keine Erlaubnis, dieselbe Badrechnung doppelt fördern zu lassen. Lassen Sie die Zuordnung vorab schriftlich prüfen."
       ]
@@ -105,15 +105,15 @@
     {"question": "Ist ein Bad mit bodengleicher Dusche automatisch barrierefrei?", "answer": "Nein, beurteilen Sie nicht nur den Einstieg. Zugang, Bewegungsmöglichkeiten und Bedienbarkeit müssen zur vorgesehenen Nutzung passen. Lassen Sie die vereinbarte Planungsgrundlage und verbleibende Einschränkungen schriftlich beschreiben; dieser Artikel bestätigt keine Normerfüllung."},
     {"question": "Muss für einen Zuschuss das gesamte Bad erneuert werden?", "answer": "Das BMG nennt den pflegegerechten Badumbau als mögliches Beispiel.[4] Entscheidend ist der individuelle Zweck nach § 40 Absatz 4 SGB XI, nicht eine vollständige Modernisierung.[1] Lassen Sie den benötigten Umfang und die Förderfähigkeit mit der Pflegekasse klären."},
     {"question": "Erhalte ich mit Pflegegrad sicher 4.180 Euro?", "answer": "Nein. 4.180 Euro sind die Obergrenze je Maßnahme, keine Pauschale. Die Pflegekasse prüft insbesondere, ob die Maßnahme häusliche Pflege ermöglicht oder erheblich erleichtert oder möglichst selbständige Lebensführung wiederherstellt.[1]"},
-    {"question": "Ist der KfW-Zuschuss 455-B derzeit offen?", "answer": "Beim direkten Abruf am 14. Oktober 2026 waren neue Anträge laut KfW wegen ausgeschöpfter Mittel nicht möglich. Bereits gestellte Anträge und Zusagen werden gesondert behandelt. Ein Neustart hängt von neuen Bundesmitteln ab.[2]"},
+    {"question": "Ist der KfW-Zuschuss 455-B derzeit offen?", "answer": "Beim direkten Abruf am 19. Oktober 2026 waren neue Anträge laut KfW wegen ausgeschöpfter Mittel nicht möglich. Bereits gestellte Anträge und Zusagen werden gesondert behandelt. Ein Neustart hängt von neuen Bundesmitteln ab.[2]"},
     {"question": "Kann ich Badumbau und Treppenlift gemeinsam finanzieren lassen?", "answer": "KfW 159 nennt verschiedene Maßnahmen als mögliche Ausnahme vom Ausschluss pflegeversicherungsgeförderter Maßnahmen, zum Beispiel Badumbau über die Pflegeversicherung und Treppenlift über den Kredit.[3] Lassen Sie vorher sowohl die Maßnahmeabgrenzung bei der Pflegekasse als auch die Kostenzuordnung beim Finanzierungspartner prüfen; daraus folgt kein automatischer Gesamtanspruch."}
   ],
   "sources": [
-    {"title": "[1] § 40 SGB XI – insbesondere Absatz 4", "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "checked_at": "2026-10-14"},
-    {"title": "[2] KfW 455-B – aktueller Antragstatus", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)", "checked_at": "2026-10-14"},
-    {"title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)", "checked_at": "2026-10-14"},
-    {"title": "[4] BMG – Zuschüsse zur Wohnungsanpassung", "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung", "checked_at": "2026-10-14"},
-    {"title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-10-14"}
+    {"title": "[1] § 40 SGB XI – insbesondere Absatz 4", "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "checked_at": "2026-10-19"},
+    {"title": "[2] KfW 455-B – aktueller Antragstatus", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)", "checked_at": "2026-10-19"},
+    {"title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)", "checked_at": "2026-10-19"},
+    {"title": "[4] BMG – Zuschüsse zur Wohnungsanpassung", "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung", "checked_at": "2026-10-19"},
+    {"title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-10-19"}
   ],
   "image": {"src": "assets/images/bad-planung.svg", "alt": "Schematische Badplanung mit Dusche, Haltemöglichkeit, Waschbecken und Freiraumfläche ohne Normmaße", "caption": "Schematische KI-Illustration; keine technische Ausführungsplanung."},
   "status": "editorial-reviewed-preview"

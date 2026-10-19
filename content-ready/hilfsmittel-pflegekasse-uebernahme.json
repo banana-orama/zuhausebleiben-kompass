@@ -134,7 +134,7 @@
       "heading": "Transparenz und Grenzen",
       "paragraphs": [
         "Dieser Ratgeber wurde mit KI-Unterstützung aus öffentlich zugänglichen Quellen erarbeitet; Betreiber des Portals ist Tobias Batke. Wir sind keine Pflegekasse, keine Beratungsstelle und keine Kostenträger-Vertretung. Ob ein konkretes Hilfsmittel in Ihrem Fall notwendig und leistungspflichtig ist, entscheidet allein die Pflegekasse nach Prüfung des Einzelfalls; dieser Text gibt keine verbindliche Auskunft über Ihren Anspruch.",
-        "Alle Beträge, Fristen und Paragraphen entsprechen dem Abrufstand vom 16. Oktober 2026; Leistungsbeträge der Pflegeversicherung unterliegen der Dynamisierung und können sich ändern.[10] Dieser Text ist allgemeine Orientierung für ältere Menschen und Angehörige und ersetzt keine individuelle rechtliche, medizinische oder pflegerische Beratung. Quellenzahlen in eckigen Klammern verweisen auf die Quellenliste dieses Artikels."
+        "Alle Beträge, Fristen und Paragraphen entsprechen dem Abrufstand vom 19. Oktober 2026; Leistungsbeträge der Pflegeversicherung unterliegen der Dynamisierung und können sich ändern.[10] Dieser Text ist allgemeine Orientierung für ältere Menschen und Angehörige und ersetzt keine individuelle rechtliche, medizinische oder pflegerische Beratung. Quellenzahlen in eckigen Klammern verweisen auf die Quellenliste dieses Artikels."
       ]
     }
   ],
@@ -168,58 +168,58 @@
     {
       "title": "§ 33 SGB XI – Leistungsvoraussetzungen (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__33.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 84 SGG – Widerspruchsverfahren (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgg/__84.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 40 SGB XI – Pflegehilfsmittel und wohnumfeldverbessernde Maßnahmen (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "Bundesgesundheitsministerium: Pflegehilfsmittel (Online-Ratgeber Pflege)",
       "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/pflegehilfsmittel",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "Verbraucherzentrale: Pflegehilfsmittel – Wer bekommt sie, wer muss zahlen?",
       "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-im-heim/pflegehilfsmittel-wer-bekommt-sie-wer-muss-zahlen-62315",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "GKV-Spitzenverband: Pflegehilfsmittel (42-Euro-Grenze, Verträge zum Verbrauch)",
       "url": "https://www.gkv-spitzenverband.de/service/hmv/phm/p_himi.jsp",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "GKV-Spitzenverband: Hilfsmittelverzeichnis (Produktgruppen, Qualität)",
       "url": "https://www.gkv-spitzenverband.de/krankenversicherung/hilfsmittel/hilfsmittelverzeichnis/hilfsmittelverzeichnis.jsp",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt (27-Euro-Regel, Stand 29.07.2026)",
       "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 61 SGB V – Zuzahlungen der Krankenkasse (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_5/__61.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     },
     {
       "title": "§ 30 SGB XI – Dynamisierung der Leistungsbeträge (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__30.html",
-      "checked_at": "2026-10-16"
+      "checked_at": "2026-10-19"
     }
   ],
   "image": {
     "src": "assets/images/hilfsmittel-antrag-weg.svg",
     "alt": "Schematischer Antragsweg für Pflegehilfsmittel: Antrag bei der Pflegekasse, Entscheidung in drei oder fünf Wochen, Versorgung leihweise oder als Kauf über Vertragsanbieter, mit Eigenanteil 10 Prozent max 25 Euro beziehungsweise 42 Euro Verbrauchspauschale",
-    "caption": "Schematische KI-Illustration; Fristen und Beträge nach SGB XI, BMG und Verbraucherzentrale, Stand 16.10.2026."
+    "caption": "Schematische KI-Illustration; Fristen und Beträge nach SGB XI, BMG und Verbraucherzentrale, Stand 19.10.2026."
   },
   "status": "editorial-reviewed-preview"
 }
