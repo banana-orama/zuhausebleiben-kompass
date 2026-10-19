@@ -25,13 +25,37 @@
         "Die Varianten unterscheiden sich nicht nur optisch. Lassen Sie für Ihr Bad erklären, welche Lösung baulich möglich ist und welche Hürden verbleiben. Die Tabelle ist eine redaktionelle Gesprächshilfe; sie bestätigt keine technische Eignung oder Barrierefreiheit. Ein verbleibender Absatz sollte im Angebot klar benannt werden."
       ],
       "table": {
-        "headers": ["Variante", "Was Sie damit prüfen können", "Wichtige offene Frage"],
+        "headers": [
+          "Variante",
+          "Was Sie damit prüfen können",
+          "Wichtige offene Frage"
+        ],
         "rows": [
-          ["Bodengleicher Duschplatz", "Ob ein Einstieg ohne Höhenversatz erreichbar ist", "Wie werden Bodenaufbau, Ablauf und Abdichtung vor Ort gelöst?"],
-          ["Dusche mit niedrigem Einstieg", "Ob der hohe Wannenrand durch eine für Sie nutzbare Alternative ersetzt wird", "Können Sie den verbleibenden Absatz mit Ihrer Hilfe tatsächlich nutzen?"],
-          ["Wannentausch am bisherigen Platz", "Ob ein begrenzter Eingriff den Bedarf abdeckt", "Reicht der Raum für Sitz, Bedienung und Unterstützung?"],
-          ["Badplanung mit geänderter Aufteilung", "Ob Zugang und mehrere Nutzungsbereiche gemeinsam verbessert werden", "Welche zusätzlichen Arbeiten und Nutzungsunterbrechungen entstehen?"],
-          ["Vorläufig kein baulicher Umbau", "Ob eine fachlich abgeklärte Hilfsmittellösung zunächst passt", "Wer beurteilt Eignung und zuständigen Leistungsträger?"]
+          [
+            "Bodengleicher Duschplatz",
+            "Ob ein Einstieg ohne Höhenversatz erreichbar ist",
+            "Wie werden Bodenaufbau, Ablauf und Abdichtung vor Ort gelöst?"
+          ],
+          [
+            "Dusche mit niedrigem Einstieg",
+            "Ob der hohe Wannenrand durch eine für Sie nutzbare Alternative ersetzt wird",
+            "Können Sie den verbleibenden Absatz mit Ihrer Hilfe tatsächlich nutzen?"
+          ],
+          [
+            "Wannentausch am bisherigen Platz",
+            "Ob ein begrenzter Eingriff den Bedarf abdeckt",
+            "Reicht der Raum für Sitz, Bedienung und Unterstützung?"
+          ],
+          [
+            "Badplanung mit geänderter Aufteilung",
+            "Ob Zugang und mehrere Nutzungsbereiche gemeinsam verbessert werden",
+            "Welche zusätzlichen Arbeiten und Nutzungsunterbrechungen entstehen?"
+          ],
+          [
+            "Vorläufig kein baulicher Umbau",
+            "Ob eine fachlich abgeklärte Hilfsmittellösung zunächst passt",
+            "Wer beurteilt Eignung und zuständigen Leistungsträger?"
+          ]
         ]
       }
     },
@@ -50,16 +74,52 @@
         "Übertragen Sie für jedes Angebot den Betrag und die enthaltenen Leistungen in eine eigene Liste. Ein fehlender Punkt ist zunächst eine Rückfrage, nicht automatisch ein kostenloser Bestandteil. Auch ein Festpreis sollte erkennen lassen, welche Annahmen und Ausschlüsse gelten und wie Zusatzarbeiten vor ihrer Ausführung abgestimmt werden."
       ],
       "table": {
-        "headers": ["Leistungsblock", "Im Angebot nachsehen", "Ihre Vergleichsnotiz"],
+        "headers": [
+          "Leistungsblock",
+          "Im Angebot nachsehen",
+          "Ihre Vergleichsnotiz"
+        ],
         "rows": [
-          ["Alte Wanne", "Ausbau, Abtransport und Entsorgung", "Enthalten / ausgeschlossen / unklar"],
-          ["Anschlüsse", "Wasser, Abwasser und notwendige Änderungen", "Geprüft oder nur angenommen?"],
-          ["Duschbereich", "Benanntes System, Einstieg und Entwässerung", "Gleiche Ausführung in allen Angeboten?"],
-          ["Abdichtung und Übergänge", "Umfang und Verantwortlichkeit", "Wer übernimmt welche Schnittstelle?"],
-          ["Wand und Boden", "Verkleidung und Wiederherstellung betroffener Flächen", "Welche sichtbaren Übergänge bleiben?"],
-          ["Armatur, Sitz und Griffe", "Modelle, Montage und vorgesehene Befestigungen", "Notwendige Ausstattung oder Wahlleistung?"],
-          ["Organisation", "Schutz der Wohnung, Koordination und Einweisung", "Ein Ansprechpartner für den Gesamtauftrag?"],
-          ["Unvorhergesehenes", "Verfahren bei verdeckten Problemen und Mehrkosten", "Vorherige schriftliche Freigabe vereinbart?"]
+          [
+            "Alte Wanne",
+            "Ausbau, Abtransport und Entsorgung",
+            "Enthalten / ausgeschlossen / unklar"
+          ],
+          [
+            "Anschlüsse",
+            "Wasser, Abwasser und notwendige Änderungen",
+            "Geprüft oder nur angenommen?"
+          ],
+          [
+            "Duschbereich",
+            "Benanntes System, Einstieg und Entwässerung",
+            "Gleiche Ausführung in allen Angeboten?"
+          ],
+          [
+            "Abdichtung und Übergänge",
+            "Umfang und Verantwortlichkeit",
+            "Wer übernimmt welche Schnittstelle?"
+          ],
+          [
+            "Wand und Boden",
+            "Verkleidung und Wiederherstellung betroffener Flächen",
+            "Welche sichtbaren Übergänge bleiben?"
+          ],
+          [
+            "Armatur, Sitz und Griffe",
+            "Modelle, Montage und vorgesehene Befestigungen",
+            "Notwendige Ausstattung oder Wahlleistung?"
+          ],
+          [
+            "Organisation",
+            "Schutz der Wohnung, Koordination und Einweisung",
+            "Ein Ansprechpartner für den Gesamtauftrag?"
+          ],
+          [
+            "Unvorhergesehenes",
+            "Verfahren bei verdeckten Problemen und Mehrkosten",
+            "Vorherige schriftliche Freigabe vereinbart?"
+          ]
         ]
       }
     },
@@ -110,19 +170,58 @@
     }
   ],
   "faqs": [
-    {"question": "Lässt sich jede Badewanne durch eine bodengleiche Dusche ersetzen?", "answer": "Das lässt sich ohne Vor-Ort-Prüfung nicht seriös beantworten. Lassen Sie Bodenaufbau, Entwässerung und Anschlüsse beurteilen. Wenn nur ein niedriger Einstieg angeboten wird, sollte der verbleibende Absatz ausdrücklich beschrieben sein."},
-    {"question": "Ist der Umbau an einem Tag möglich?", "answer": "Wir geben keine allgemeine Dauerzusage. Fragen Sie getrennt nach Montagezeit und Zeitpunkt der tatsächlichen Nutzbarkeit. Rückbau, verdeckte Probleme, Materialverfügbarkeit und Wartezeiten müssen in den individuellen Bauplan eingehen."},
-    {"question": "Wie viel kostet der Wannentausch?", "answer": "Dieser Ratgeber nennt mangels belastbarer Marktpreisdaten keinen Durchschnitt. Lassen Sie einen vollständigen Preis einschließlich Umsatzsteuer für dieselbe Ausführung anbieten und prüfen Sie besonders Rückbau, Abdichtung, Oberflächen und Zusatzarbeiten."},
-    {"question": "Zahlt die Pflegekasse den gesamten Umbau?", "answer": "Eine vollständige Kostenübernahme ist nicht zugesichert. § 40 Absatz 4 SGB XI nennt höchstens 4.180 Euro je Maßnahme und verlangt einen individuellen pflegebezogenen Zweck.[1] Maßgeblich ist die Entscheidung über Ihr konkretes Vorhaben."},
-    {"question": "Soll ich mit dem Antrag bis nach dem Einbau warten?", "answer": "Unser vorsichtiger Rat ist, Pflegekasse und Finanzierungspartner vor dem Auftrag einzubeziehen. Bei KfW 159 beschreibt der reguläre Ablauf das Gespräch vor Vertragsabschluss und den Start nach Zusage.[3] Das Verfahren der Pflegekasse klären Sie dort gesondert; die KfW-Regel ist keine allgemeine Regel für alle Fördergeber."}
+    {
+      "question": "Lässt sich jede Badewanne durch eine bodengleiche Dusche ersetzen?",
+      "answer": "Das lässt sich ohne Vor-Ort-Prüfung nicht seriös beantworten. Lassen Sie Bodenaufbau, Entwässerung und Anschlüsse beurteilen. Wenn nur ein niedriger Einstieg angeboten wird, sollte der verbleibende Absatz ausdrücklich beschrieben sein."
+    },
+    {
+      "question": "Ist der Umbau an einem Tag möglich?",
+      "answer": "Wir geben keine allgemeine Dauerzusage. Fragen Sie getrennt nach Montagezeit und Zeitpunkt der tatsächlichen Nutzbarkeit. Rückbau, verdeckte Probleme, Materialverfügbarkeit und Wartezeiten müssen in den individuellen Bauplan eingehen."
+    },
+    {
+      "question": "Wie viel kostet der Wannentausch?",
+      "answer": "Dieser Ratgeber nennt mangels belastbarer Marktpreisdaten keinen Durchschnitt. Lassen Sie einen vollständigen Preis einschließlich Umsatzsteuer für dieselbe Ausführung anbieten und prüfen Sie besonders Rückbau, Abdichtung, Oberflächen und Zusatzarbeiten."
+    },
+    {
+      "question": "Zahlt die Pflegekasse den gesamten Umbau?",
+      "answer": "Eine vollständige Kostenübernahme ist nicht zugesichert. § 40 Absatz 4 SGB XI nennt höchstens 4.180 Euro je Maßnahme und verlangt einen individuellen pflegebezogenen Zweck.[1] Maßgeblich ist die Entscheidung über Ihr konkretes Vorhaben."
+    },
+    {
+      "question": "Soll ich mit dem Antrag bis nach dem Einbau warten?",
+      "answer": "Unser vorsichtiger Rat ist, Pflegekasse und Finanzierungspartner vor dem Auftrag einzubeziehen. Bei KfW 159 beschreibt der reguläre Ablauf das Gespräch vor Vertragsabschluss und den Start nach Zusage.[3] Das Verfahren der Pflegekasse klären Sie dort gesondert; die KfW-Regel ist keine allgemeine Regel für alle Fördergeber."
+    }
   ],
   "sources": [
-    {"title": "[1] § 40 SGB XI – insbesondere Absatz 4", "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "checked_at": "2026-10-19"},
-    {"title": "[2] KfW 455-B – aktueller Antragstatus", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)", "checked_at": "2026-10-19"},
-    {"title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)", "checked_at": "2026-10-19"},
-    {"title": "[4] BMG – Zuschüsse zur Wohnungsanpassung", "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung", "checked_at": "2026-10-19"},
-    {"title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-10-19"}
+    {
+      "title": "[1] § 40 SGB XI – insbesondere Absatz 4",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "KfW 455-B – aktueller Antragstatus (Barrierereduzierung)",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[4] BMG – Zuschüsse zur Wohnungsanpassung",
+      "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung",
+      "url": "https://www.gesetze-im-internet.de/bgb/__554.html",
+      "checked_at": "2026-10-19"
+    }
   ],
-  "image": {"src": "assets/images/bad-planung.svg", "alt": "Schematische Badplanung zur Prüfung des Wegs vom Eingang bis zur neuen Dusche, ohne technische Maße", "caption": "Schematische KI-Illustration; keine technische Ausführungsplanung."},
+  "image": {
+    "src": "assets/images/bad-planung.svg",
+    "alt": "Schematische Badplanung zur Prüfung des Wegs vom Eingang bis zur neuen Dusche, ohne technische Maße",
+    "caption": "Schematische KI-Illustration; keine technische Ausführungsplanung."
+  },
   "status": "editorial-reviewed-preview"
 }

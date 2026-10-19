@@ -25,13 +25,37 @@
         "Die folgende Matrix ist eine redaktionelle Gesprächshilfe, keine technische Einstufung Ihres Badezimmers. Wählen Sie nicht automatisch die größte Maßnahme. Lassen Sie prüfen, ob eine kleinere Anpassung das konkrete Problem löst oder nur an eine andere Stelle verschiebt."
       ],
       "table": {
-        "headers": ["Ihre Alltagshürde", "Sinnvoller Planungsansatz", "Vor dem Auftrag klären"],
+        "headers": [
+          "Ihre Alltagshürde",
+          "Sinnvoller Planungsansatz",
+          "Vor dem Auftrag klären"
+        ],
         "rows": [
-          ["Vor allem der Wannenrand ist schwierig", "Gezielten Wannentausch untersuchen", "Einstieg, Entwässerung und Platz für die tatsächlich benötigte Hilfe"],
-          ["Mehrere Bereiche sind schwer erreichbar", "Dusche, WC, Waschtisch und Wege gemeinsam planen", "Ob der vorhandene Grundriss die gewünschte Nutzung ermöglicht"],
-          ["Das Bad soll mit Rollstuhl genutzt werden", "Gesamte Nutzung einschließlich Zugang prüfen lassen", "Bewegung, Umsetzen und Bedienbarkeit mit dem konkreten Hilfsmittel"],
-          ["Die Ausstattung funktioniert, einzelne Handgriffe sind schwierig", "Gezielte Anpassungen und passende Hilfsmittel besprechen", "Eignung, Befestigung und zuständigen Leistungsträger"],
-          ["Leitungen oder Oberflächen sollen ohnehin erneuert werden", "Sanierung und Nutzungsverbesserung zusammen planen", "Welche Arbeiten notwendig und welche reine Wunschleistungen sind"]
+          [
+            "Vor allem der Wannenrand ist schwierig",
+            "Gezielten Wannentausch untersuchen",
+            "Einstieg, Entwässerung und Platz für die tatsächlich benötigte Hilfe"
+          ],
+          [
+            "Mehrere Bereiche sind schwer erreichbar",
+            "Dusche, WC, Waschtisch und Wege gemeinsam planen",
+            "Ob der vorhandene Grundriss die gewünschte Nutzung ermöglicht"
+          ],
+          [
+            "Das Bad soll mit Rollstuhl genutzt werden",
+            "Gesamte Nutzung einschließlich Zugang prüfen lassen",
+            "Bewegung, Umsetzen und Bedienbarkeit mit dem konkreten Hilfsmittel"
+          ],
+          [
+            "Die Ausstattung funktioniert, einzelne Handgriffe sind schwierig",
+            "Gezielte Anpassungen und passende Hilfsmittel besprechen",
+            "Eignung, Befestigung und zuständigen Leistungsträger"
+          ],
+          [
+            "Leitungen oder Oberflächen sollen ohnehin erneuert werden",
+            "Sanierung und Nutzungsverbesserung zusammen planen",
+            "Welche Arbeiten notwendig und welche reine Wunschleistungen sind"
+          ]
         ]
       }
     },
@@ -50,15 +74,47 @@
         "Bitten Sie um einen Gesamtbetrag einschließlich Umsatzsteuer und um getrennte Angaben für notwendige Arbeiten und Wahlleistungen. Ein niedriger Einstiegspreis ist kein günstiger Gesamtpreis, wenn Rückbau, Entsorgung oder Anschlussarbeiten fehlen. Die folgenden Punkte sind eine redaktionelle Vergleichscheckliste, keine Preis- oder Normvorgabe."
       ],
       "table": {
-        "headers": ["Angebotspunkt", "Was schriftlich erkennbar sein sollte", "Rückfrage bei einer Lücke"],
+        "headers": [
+          "Angebotspunkt",
+          "Was schriftlich erkennbar sein sollte",
+          "Rückfrage bei einer Lücke"
+        ],
         "rows": [
-          ["Aufmaß und Planung", "Geplanter Grundriss, Nutzung und dokumentierte Grenzen", "Was wird vor Ort geprüft und was nur angenommen?"],
-          ["Rückbau und Entsorgung", "Betroffene Objekte und Oberflächen", "Sind Abtransport und Entsorgung enthalten?"],
-          ["Leitungen, Boden und Abdichtung", "Vorgesehene Arbeiten und Schnittstellen", "Wer trägt die Verantwortung für die Anschlüsse?"],
-          ["Ausstattung", "Benannte Modelle und Montageumfang", "Sind Sitze, Griffe und geeignete Befestigungen enthalten?"],
-          ["Wand- und Bodenflächen", "Welche Bereiche erneuert oder wiederhergestellt werden", "Welche sichtbaren Übergänge bleiben?"],
-          ["Zusatzarbeiten", "Annahmen, ausgeschlossene Leistungen und Freigabeweg", "Wie wird ein Mehrpreis vor Ausführung abgestimmt?"],
-          ["Bauorganisation", "Ansprechpartner und voraussichtliche Nutzungsunterbrechung", "Wann können WC und Dusche wieder genutzt werden?"]
+          [
+            "Aufmaß und Planung",
+            "Geplanter Grundriss, Nutzung und dokumentierte Grenzen",
+            "Was wird vor Ort geprüft und was nur angenommen?"
+          ],
+          [
+            "Rückbau und Entsorgung",
+            "Betroffene Objekte und Oberflächen",
+            "Sind Abtransport und Entsorgung enthalten?"
+          ],
+          [
+            "Leitungen, Boden und Abdichtung",
+            "Vorgesehene Arbeiten und Schnittstellen",
+            "Wer trägt die Verantwortung für die Anschlüsse?"
+          ],
+          [
+            "Ausstattung",
+            "Benannte Modelle und Montageumfang",
+            "Sind Sitze, Griffe und geeignete Befestigungen enthalten?"
+          ],
+          [
+            "Wand- und Bodenflächen",
+            "Welche Bereiche erneuert oder wiederhergestellt werden",
+            "Welche sichtbaren Übergänge bleiben?"
+          ],
+          [
+            "Zusatzarbeiten",
+            "Annahmen, ausgeschlossene Leistungen und Freigabeweg",
+            "Wie wird ein Mehrpreis vor Ausführung abgestimmt?"
+          ],
+          [
+            "Bauorganisation",
+            "Ansprechpartner und voraussichtliche Nutzungsunterbrechung",
+            "Wann können WC und Dusche wieder genutzt werden?"
+          ]
         ]
       }
     },
@@ -102,19 +158,58 @@
     }
   ],
   "faqs": [
-    {"question": "Ist ein Bad mit bodengleicher Dusche automatisch barrierefrei?", "answer": "Nein, beurteilen Sie nicht nur den Einstieg. Zugang, Bewegungsmöglichkeiten und Bedienbarkeit müssen zur vorgesehenen Nutzung passen. Lassen Sie die vereinbarte Planungsgrundlage und verbleibende Einschränkungen schriftlich beschreiben; dieser Artikel bestätigt keine Normerfüllung."},
-    {"question": "Muss für einen Zuschuss das gesamte Bad erneuert werden?", "answer": "Das BMG nennt den pflegegerechten Badumbau als mögliches Beispiel.[4] Entscheidend ist der individuelle Zweck nach § 40 Absatz 4 SGB XI, nicht eine vollständige Modernisierung.[1] Lassen Sie den benötigten Umfang und die Förderfähigkeit mit der Pflegekasse klären."},
-    {"question": "Erhalte ich mit Pflegegrad sicher 4.180 Euro?", "answer": "Nein. 4.180 Euro sind die Obergrenze je Maßnahme, keine Pauschale. Die Pflegekasse prüft insbesondere, ob die Maßnahme häusliche Pflege ermöglicht oder erheblich erleichtert oder möglichst selbständige Lebensführung wiederherstellt.[1]"},
-    {"question": "Ist der KfW-Zuschuss 455-B derzeit offen?", "answer": "Beim direkten Abruf am 19. Oktober 2026 waren neue Anträge laut KfW wegen ausgeschöpfter Mittel nicht möglich. Bereits gestellte Anträge und Zusagen werden gesondert behandelt. Ein Neustart hängt von neuen Bundesmitteln ab.[2]"},
-    {"question": "Kann ich Badumbau und Treppenlift gemeinsam finanzieren lassen?", "answer": "KfW 159 nennt verschiedene Maßnahmen als mögliche Ausnahme vom Ausschluss pflegeversicherungsgeförderter Maßnahmen, zum Beispiel Badumbau über die Pflegeversicherung und Treppenlift über den Kredit.[3] Lassen Sie vorher sowohl die Maßnahmeabgrenzung bei der Pflegekasse als auch die Kostenzuordnung beim Finanzierungspartner prüfen; daraus folgt kein automatischer Gesamtanspruch."}
+    {
+      "question": "Ist ein Bad mit bodengleicher Dusche automatisch barrierefrei?",
+      "answer": "Nein, beurteilen Sie nicht nur den Einstieg. Zugang, Bewegungsmöglichkeiten und Bedienbarkeit müssen zur vorgesehenen Nutzung passen. Lassen Sie die vereinbarte Planungsgrundlage und verbleibende Einschränkungen schriftlich beschreiben; dieser Artikel bestätigt keine Normerfüllung."
+    },
+    {
+      "question": "Muss für einen Zuschuss das gesamte Bad erneuert werden?",
+      "answer": "Das BMG nennt den pflegegerechten Badumbau als mögliches Beispiel.[4] Entscheidend ist der individuelle Zweck nach § 40 Absatz 4 SGB XI, nicht eine vollständige Modernisierung.[1] Lassen Sie den benötigten Umfang und die Förderfähigkeit mit der Pflegekasse klären."
+    },
+    {
+      "question": "Erhalte ich mit Pflegegrad sicher 4.180 Euro?",
+      "answer": "Nein. 4.180 Euro sind die Obergrenze je Maßnahme, keine Pauschale. Die Pflegekasse prüft insbesondere, ob die Maßnahme häusliche Pflege ermöglicht oder erheblich erleichtert oder möglichst selbständige Lebensführung wiederherstellt.[1]"
+    },
+    {
+      "question": "Ist der KfW-Zuschuss 455-B derzeit offen?",
+      "answer": "Beim direkten Abruf am 19. Oktober 2026 waren neue Anträge laut KfW wegen ausgeschöpfter Mittel nicht möglich. Bereits gestellte Anträge und Zusagen werden gesondert behandelt. Ein Neustart hängt von neuen Bundesmitteln ab.[2]"
+    },
+    {
+      "question": "Kann ich Badumbau und Treppenlift gemeinsam finanzieren lassen?",
+      "answer": "KfW 159 nennt verschiedene Maßnahmen als mögliche Ausnahme vom Ausschluss pflegeversicherungsgeförderter Maßnahmen, zum Beispiel Badumbau über die Pflegeversicherung und Treppenlift über den Kredit.[3] Lassen Sie vorher sowohl die Maßnahmeabgrenzung bei der Pflegekasse als auch die Kostenzuordnung beim Finanzierungspartner prüfen; daraus folgt kein automatischer Gesamtanspruch."
+    }
   ],
   "sources": [
-    {"title": "[1] § 40 SGB XI – insbesondere Absatz 4", "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "checked_at": "2026-10-19"},
-    {"title": "[2] KfW 455-B – aktueller Antragstatus", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)", "checked_at": "2026-10-19"},
-    {"title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)", "checked_at": "2026-10-19"},
-    {"title": "[4] BMG – Zuschüsse zur Wohnungsanpassung", "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung", "checked_at": "2026-10-19"},
-    {"title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-10-19"}
+    {
+      "title": "[1] § 40 SGB XI – insbesondere Absatz 4",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[2] KfW 455-B – aktueller Antragstatus (Barrierereduzierung)",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[4] BMG – Zuschüsse zur Wohnungsanpassung",
+      "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung",
+      "url": "https://www.gesetze-im-internet.de/bgb/__554.html",
+      "checked_at": "2026-10-19"
+    }
   ],
-  "image": {"src": "assets/images/bad-planung.svg", "alt": "Schematische Badplanung mit Dusche, Haltemöglichkeit, Waschbecken und Freiraumfläche ohne Normmaße", "caption": "Schematische KI-Illustration; keine technische Ausführungsplanung."},
+  "image": {
+    "src": "assets/images/bad-planung.svg",
+    "alt": "Schematische Badplanung mit Dusche, Haltemöglichkeit, Waschbecken und Freiraumfläche ohne Normmaße",
+    "caption": "Schematische KI-Illustration; keine technische Ausführungsplanung."
+  },
   "status": "editorial-reviewed-preview"
 }
