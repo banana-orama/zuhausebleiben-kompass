@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "task": "Briefing 6: Bodengleiche Dusche im Altbau (Machbarkeits-Fahrplan ohne Fern-Diagnose)",
+  "checked": "2026-10-19",
+  "checked_by": "milo (Hermes Agent, Cron-Lauf)",
+  "method": "curl-Vollabrufe (rohe HTML/PDF in scratch/altbau-batch gesichert), Tag-Strip + Entity-Decode, Verbatim-Quotes aus den extrahierten Volltexten; Rechnungen mit python3 geprüft",
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "title": "§ 40 SGB XI – Pflegehilfsmittel und wohnumfeldverbessernde Maßnahmen",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Die Pflegekassen können subsidiär finanzielle Zuschüsse für Maßnahmen zur Verbesserung des individuellen Wohnumfeldes des Pflegebedürftigen gewähren, beispielsweise für technische Hilfen im Haushalt, wenn dadurch im Einzelfall die häusliche Pflege ermöglicht oder erheblich erleichtert oder eine möglichst selbständige Lebensführung des Pflegebedürftigen wiederhergestellt wird.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Der Gesamtbetrag je Maßnahme nach Satz 3 ist auf 16 720 Euro begrenzt und wird bei mehr als vier Anspruchsberechtigten anteilig auf die Versicherungsträger der Anspruchsberechtigten aufgeteilt.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung",
+      "title": "Bundesministerium für Gesundheit – Zuschüsse zur Wohnungsanpassung",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Die Pflegekasse kann für Pflegebedürftige der Pflegegrade 1 bis 5 auf Antrag bis zu 4.180 Euro als Zuschuss für Anpassungsmaßnahmen zahlen, die die häusliche Pflege in der Wohnung ermöglichen, erheblich erleichtern oder eine möglichst selbstständige Lebensführung der pflegebedürftigen Person wiederherstellen.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
+      "title": "KfW 455-B Barrierereduzierung – Investitionszuschuss (Antragstopp)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Wegen der hohen Nachfrage sind die Fördermittel für Maßnahmen zur Barrierereduzierung bereits ausgeschöpft. Ab sofort können Sie daher keine Anträge mehr im Produkt „Altersgerecht Umbauen – Barrierereduzierung“ (455-B) stellen.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Haben Sie Ihren Antrag schon gestellt? Dann werden wir diesen bearbeiten. Sofern Sie die Voraussetzungen für eine Förderung erfüllen, erhalten Sie in den nächsten Tagen eine Zusage – damit ist Ihr Zuschuss für Sie reserviert.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Alternativ können Sie für Maßnahmen zum Abbau von Barrieren in Wohngebäuden unseren zinsverbilligten Kredit „Altersgerecht Umbauen“ (159) beantragen.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-(159)",
+      "title": "KfW 159 Altersgerecht Umbauen – Kredit",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Kreditbetrag: bis zu 50.000 Euro je Wohneinheit",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die Förderung steht unter dem Vorbehalt verfügbarer Haushaltsmittel. Ein Rechtsanspruch hierauf besteht grundsätzlich nicht.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Wenn die Arbeiten abgeschlossen sind, lassen Sie sich am besten die fachgerechte Durchführung von Ihrem Fachunternehmen bestätigen.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Ich erhalte bereits einen Zuschuss der Pflegekasse für die Maßnahme. Kann ich trotzdem den Kredit dafür beantragen? Nein, eine Kombination der Förderungen für die gleiche Maßnahme ist nicht möglich.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Ausnahme: Wird eine Maßnahme (z. B. Badumbau) mit dem Zuschuss der Pflegeversicherung gefördert, können andere Maßnahmen (z. B. Treppenlift) mit dem Kredit der KfW gefördert werden.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://nullbarriere.de/din18040-2-bad.htm",
+      "title": "nullbarriere.de – DIN 18040-2 Bad/WC (Fachportal-Darstellung der Norm)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Duschplätze niveaugleicher Übergang zum angrenzenden Bodenbereich des Sanitärraumes. Ein Absenken in den Boden von höchstens 2 cm ist zulässig, wenn die entstehenden Übergänge abgeschrägt sind.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Zur Vermeidung von Pfützenbildung und dadurch verstärktes Eindringen von Duschwasser in den Untergrund sind Mindestgefälle von 0,5–1,5 % je nach verwendetem Material erforderlich.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Die niveaugleiche Dusche erfordert, insbesondere bei Umbauten im Bestand, Führungen der Entwässerungsleitungen unterhalb der Geschossdecke und den Einbau abgehängter Decken. Eine alternative Lösung bietet eine Membran-Duschwasserpumpe.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://barrierefreies-bad.de/bodengleiche-dusche",
+      "title": "barrierefreies-bad.de – Bodengleiche Dusche: Maße nach DIN 18040-2 (Fachportal-Darstellung, 24.08.2026)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Barrierefrei nach DIN 18040-2 verlangt zusätzlich eine Bewegungsfläche von mindestens 120 × 120 cm und eine Zugangsschwelle von höchstens 2 cm",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Rollstuhlgerecht sind mindestens 150 × 150 cm Bewegungsfläche.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Der Duschplatz ist niveaugleich auszuführen; ein Absenken von höchstens 2 cm ist zulässig, wenn die Übergänge abgeschrägt sind.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Gefälle der Duschfläche so gering wie möglich; ein Mindestgefälle ist materialabhängig nötig, 2 % sollten nicht wesentlich überschritten werden",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "ist kein Normbegriff und keine geschützte Bezeichnung. Es beschreibt ein Bad, das Sturzrisiken senkt und die Körperpflege erleichtert, ohne die Maße der DIN 18040-2 einzuhalten.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Altersgerecht: Restschwelle üblicherweise 7 bis 15 cm",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://www.zvshk.de/fileadmin/migratedNewsAssets/Files/Zusammenfassung_Studie_final.pdf",
+      "title": "ZVSHK – Zusammenfassung Machbarkeitsstudie Pflegebad (PDF)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Der erste Mustergrundriss ist ein Grundrisstyp, der in vielen Altbauten aus der Jahrhundertwende in Geschosswohnungen der 50er- und 60er-Jahre sowie in Plattenbauten zu finden ist, nämlich ein Schlauchbad mit einer Grundfläche von unter 5 qm.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Schwellenlos zugängliche Dusche",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Es wurde evaluiert, dass die Kosten des Badumbaus den Zuschuss der Pflegekassen von 4 Tsd. Euro weit übersteigen. Ein kompletter Badumbau in Schlauchform kostet ungefähr 25 Tsd. Euro und die Komplettsanierung eines Gästebades kostet rund 15 Tsd. E",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://www.haustec.de/sanitaer/entwaesserung/bodengleiche-duschen-im-altbau-so-fliesst-abwasser-bergauf",
+      "title": "haustec.de – Bodengleiche Duschen im Altbau: So fließt Abwasser bergauf (Fachportal, 24.06.2019)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Der einfache Austausch der alten, hohen Duschwanne gegen einen herkömmlichen flachen Duschablauf ist nicht immer möglich. Oft fehlt das Gefälle zum Ablauf des Duschwassers in die nächste Abwasserleitung und es wird dadurch Pumpenenergie notwendig.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Um das Duschabwasser im freien Gefälle zu entsorgen, wurde die Duschwanne damals ca. 20 cm über dem Boden befestigt. Der Ablauf einer neuen, bodengleichen Dusche würde allerdings mindestens 5 cm unter dem Bodenniveau liegen, sodass das Abwasser nach der Sanierung ca. 25 cm nach oben transportiert werden muss, um die Entwässerung zu garantieren.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Das Wasser lässt sich bis auf 1,3 m Höhe fördern.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://www.gesetze-im-internet.de/bgb/__554.html",
+      "title": "§ 554 BGB – Barrierereduzierung (Mieteranspruch)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Der Mieter kann verlangen, dass ihm der Vermieter bauliche Veränderungen der Mietsache erlaubt, die dem Gebrauch durch Menschen mit Behinderungen, dem Laden elektrisch betriebener Fahrzeuge, dem Einbruchsschutz oder der Stromerzeugung durch Steckersolargeräte dienen.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Der Anspruch besteht nicht, wenn die bauliche Veränderung dem Vermieter auch unter Würdigung der Interessen des Mieters nicht zugemutet werden kann.",
+          "added": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.fliesenwerker.de/faq/kann-ich-eine-bodengleiche-dusche-auch-im-altbau-einbauen",
+      "title": "Fliesenwerker (Fliesenlegermeister, Magdeburg) – FAQ: Bodengleiche Dusche im Altbau (Anbieterangabe)",
+      "accessed": "2026-10-19",
+      "quotes": [
+        {
+          "text": "Für begrenzte Platzverhältnisse gibt es besonders flache Duschsysteme mit Aufbauhöhen ab ungefähr 6,5 Zentimetern.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Bei Holzbalkendecken oder dünnen Estrichen können zusätzliche konstruktive Maßnahmen erforderlich sein. Tragende Bauteile dürfen nicht ohne vorherige fachliche Prüfung verändert werden.",
+          "added": "2026-10-19"
+        },
+        {
+          "text": "Ist eine vollständig bodengleiche Ausführung technisch nicht möglich, kann eine sehr flache, schwellenarme Dusche eine geeignete Alternative sein.",
+          "added": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="780" viewBox="0 0 1000 780" role="img" aria-labelledby="title desc">
+<title id="title">Bodengleiche Dusche im Altbau: Vier Prüfpunkte vor dem Angebot</title>
+<desc id="desc">Schematische Grafik mit vier Prüfpunkten: 1 Aufbauhöhe über der Rohdecke (Fachbetrieb misst vor Ort; extraflache Systeme ab ca. 6,5 cm Herstellerangabe; Ablauf, Gefälle und Abdichtung brauchen zusätzliche Höhe). 2 Weg zum Fallrohr (im Altbau liegt die Leitung oft hoch in der Wand; alte Wanne saß ca. 20 cm über dem Boden, ein ebener Ablauf liegt ca. 5 cm darunter; im Fachportal-Beispiel muss das Wasser ca. 25 cm nach oben, etwa per Pumpe). 3 Decke und Konstruktion (freies Gefälle braucht Leitungen unterhalb der Decke beziehungsweise abgehängte Decke; Alternative Duschwasserpumpe; Holzbalkendecke: Abdichtung und Lastverteilung besonders prüfen). 4 Norm als Zielgröße (Fachportaldarstellung DIN 18040-2: niveaugleicher Übergang, höchstens 2 cm Absenkung mit Abschrägung, Gefälle ca. 0,5 bis 2 Prozent; für den Bestand Zielgröße ohne Garantie). Hinweis: Erst wenn alle vier Punkte geklärt sind, folgen Angebot und Förderklärung. Alle Angaben sind allgemeine Orientierung, keine technische Diagnose aus der Ferne.</desc>
+<rect width="1000" height="780" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600" text-anchor="start">BAD · ALTBAU</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="40" text-anchor="start">Bodengleiche Dusche im Altbau: Was wird geprüft?</text>
+<text x="44" y="142" fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="18">Vier Prüfpunkte vor dem Angebot · Schematische Orientierung, keine Fern-Diagnose</text>
+
+<!-- Prüfpunkt 1 -->
+<rect x="44" y="176" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="88" cy="220" r="22" fill="#245b47"/>
+<text x="88" y="227" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">1</text>
+<text x="124" y="216" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Aufbauhöhe über der Rohdecke</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="124" y="244">Rohdecke + Bodenaufbau: kritische</tspan>
+  <tspan x="124" y="265">Höhe misst der Fachbetrieb vor Ort.</tspan>
+  <tspan x="124" y="286">Extraflache Systeme ab ca. 6,5 cm</tspan>
+  <tspan x="124" y="307">(Herstellerangabe) — zusätzlich</tspan>
+  <tspan x="124" y="328">brauchen Ablauf, Gefälle, Abdichtung Höhe.</tspan>
+</text>
+
+<!-- Prüfpunkt 2 -->
+<rect x="516" y="176" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="560" cy="220" r="22" fill="#245b47"/>
+<text x="560" y="227" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">2</text>
+<text x="596" y="216" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Weg zum Fallrohr</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="596" y="244">Altbau: Fallrohr oft hoch in der Wand;</tspan>
+  <tspan x="596" y="265">alte Wanne saß ca. 20 cm über dem</tspan>
+  <tspan x="596" y="286">Boden, ein ebener Ablauf liegt ca. 5 cm</tspan>
+  <tspan x="596" y="307">darunter — im Fachportal-Beispiel muss</tspan>
+  <tspan x="596" y="328">das Wasser ca. 25 cm nach oben.</tspan>
+</text>
+
+<!-- Prüfpunkt 3 -->
+<rect x="44" y="392" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="88" cy="436" r="22" fill="#245b47"/>
+<text x="88" y="443" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">3</text>
+<text x="124" y="432" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Decke und Konstruktion</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="124" y="460">Freies Gefälle braucht Leitungen</tspan>
+  <tspan x="124" y="481">unterhalb der Decke → abgehängte</tspan>
+  <tspan x="124" y="502">Decke; Alternative: Duschwasserpumpe.</tspan>
+  <tspan x="124" y="523">Holzbalkendecke: Abdichtung und</tspan>
+  <tspan x="124" y="544">Lastverteilung besonders prüfen.</tspan>
+</text>
+
+<!-- Prüfpunkt 4 -->
+<rect x="516" y="392" width="440" height="170" rx="14" fill="#ffffff" stroke="#d8d2c4" stroke-width="2"/>
+<circle cx="560" cy="436" r="22" fill="#245b47"/>
+<text x="560" y="443" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">4</text>
+<text x="596" y="432" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19" font-weight="600">Norm als Zielgröße</text>
+<text fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">
+  <tspan x="596" y="460">Fachportaldarstellung DIN 18040-2:</tspan>
+  <tspan x="596" y="481">niveaugleicher Übergang, höchstens</tspan>
+  <tspan x="596" y="502">2 cm Absenkung mit Abschrägung;</tspan>
+  <tspan x="596" y="523">Gefälle ca. 0,5–2 %. Für den Bestand</tspan>
+  <tspan x="596" y="544">Zielgröße — keine automatische Garantie.</tspan>
+</text>
+
+<!-- Hinweisleiste -->
+<rect x="44" y="596" width="912" height="76" rx="12" fill="#eef3ec" stroke="#245b47" stroke-width="1.5"/>
+<text x="68" y="626" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="17" font-weight="600">Erst wenn alle vier Punkte geklärt sind: Angebot und Förderung.</text>
+<text x="68" y="652" fill="#5a6b60" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="15">Nicht machbar? Flache Alternative mit erklärter Restschwelle. Förderung vor dem Auftrag klären (Pflegekasse, KfW 159).</text>
+
+<!-- Fußzeile -->
+<text x="44" y="712" fill="#8a938c" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="13">Schematische KI-Illustration. Keine reale Baustelle, keine technische Diagnose aus der Ferne; maßgeblich ist die Prüfung durch den ausführenden Fachbetrieb.</text>
+<text x="44" y="732" fill="#8a938c" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="13">Quellenstand 2026-10-19: DIN-18040-Fachportaldarstellungen, ZVSHK-Studie, haustec (Fachportal), § 40 SGB XI, KfW 455-B/159.</text>
+</svg>

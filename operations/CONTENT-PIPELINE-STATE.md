@@ -1,8 +1,13 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-16 (Batch 3). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-19 (Batch 4). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Batch 4 (2026-10-19, Cron-Lauf) — Briefing 6
+1. **Neu veröffentlicht:** bodengleiche-dusche-altbau.json — Machbarkeits-Fahrplan Altbau (vier Prüfentscheidungen: Aufbauhöhe, Weg zum Fallrohr, Decke/Konstruktion, Norm als Zielgröße), flache Alternative mit Restschwelle als ehrliche Option, 10-Punkte-Fragenliste für den Vor-Ort-Termin, Förderlogik § 40 Abs. 4 SGB XI (4.180/16.720 €, Ermessen), KfW 455-B Antragstopp (19.10. verifiziert) + 159 inkl. wörtlichem Kombinationsverbot/Ausnahme, § 554 BGB-Verweis mit Link auf Mietwohnung-Ratgeber. 8 Abschnitte, 6 FAQs, ~2.390 Wörter, 10 Quellen mit Verbatim-Evidenz (research/altbau-dusche-ledger.json, 29/29 Zitate maschinell verifiziert), Grafik assets/images/bodengleiche-dusche-altbau-pruefpunkte.svg (Chromium-Sichtkontrolle), Protokoll research/bodengleiche-dusche-altbau-batch.md + Acceptance research/evidence/bodengleiche-dusche-altbau-acceptance.md.
+2. **Renderer-Fix:** article-renderer.mjs isBad-Cluster erkennt jetzt auch „dusche“ im Slug (bodengleiche-dusche-altbau landete sonst im lift-Cluster mit falschen „Passend dazu“-Links). Early-CTA-Ziel für den neuen Artikel: treppenlift-mietwohnung („Mietwohnung: Zustimmungen klären“).
+3. **Testzähler:** test_articles.py 16→17 Artikel.
 
 ### Live-Kern (vor Batch 1/2, status editorial-reviewed-preview)
 - treppenlift-kosten

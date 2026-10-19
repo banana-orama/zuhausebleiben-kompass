@@ -187,6 +187,36 @@
         "recommended_min_width_px": 740,
         "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen (Artikeltext enthält alle Schritte); bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
       }
+    },
+    {
+      "src": "assets/images/bodengleiche-dusche-altbau-pruefpunkte.svg",
+      "alt": "Vier Prüfpunkte vor dem Angebot für eine bodengleiche Dusche im Altbau: Aufbauhöhe über der Rohdecke, Weg zum Fallrohr, Decke und Konstruktion, Norm als Zielgröße; plus Hinweis, erst danach Angebot und Förderung zu klären",
+      "caption": "KI-Illustration · schematisch. Vier Prüfentscheidungen vor dem Angebot; keine technische Ausführungsplanung und keine Fern-Diagnose.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / Z.ai (GLM)",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css; Zahlen aus den am 2026-10-19 geprüften Quellen (research/altbau-dusche-ledger.json: DIN-18040-Fachportaldarstellungen, ZVSHK-Studie, haustec, Fliesenwerker-Anbieterangabe).",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für den Ratgeber bodengleiche-dusche-altbau vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, reale Baustelle, Produktreferenz oder Fachplanung."
+      },
+      "limitations": [
+        "Keine Aufbauhöhen-, Gefälle- oder Abdichtungswerte für konkrete Bäder; die kritischen Höhen misst der Fachbetrieb vor Ort.",
+        "Produktbezogene Zahlen (ca. 6,5 cm Aufbauhöhe, Förderhöhe 1,3 m, ca. 25 cm Hub im Beispiel) sind gekennzeichnete Anbieter- bzw. Fachportalangaben, keine Normwerte.",
+        "Normwerte der Fachportaldarstellungen DIN 18040-2 sind Planungsziele, keine automatische Bestandspflicht."
+      ],
+      "dimensions": {
+        "width": 1000,
+        "height": 780,
+        "unit": "px",
+        "viewBox": "0 0 1000 780"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen (Artikeltext enthält alle Prüfpunkte); bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
     }
   ]
 }
