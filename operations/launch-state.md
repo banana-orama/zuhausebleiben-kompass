@@ -1,6 +1,6 @@
 # Launch-State: ZuhauseBleiben Kompass
 
-Aktualisiert: 2026-10-16 (Lauf 2: Related/CTA-Cluster-Fix + Footer-Wahrheit) · Verifizierte Tatsachen mit Datum; Offenes markiert.
+Aktualisiert: 2026-10-19 (Förder-/Rechtsquellen-Recheck: alle Zahlen bestätigt, Prüfdaten aktualisiert) · Verifizierte Tatsachen mit Datum; Offenes markiert.
 
 ## Phase-Übersicht
 
@@ -15,6 +15,7 @@ Aktualisiert: 2026-10-16 (Lauf 2: Related/CTA-Cluster-Fix + Footer-Wahrheit) · 
 
 ## Verifizierte Befunde (Abrufdaten)
 
+- 2026-10-19: Förder-/Rechtsquellen-Recheck komplett (Detail-Ledger: research/foerderstatus.md, Roh-Snapshots: research/evidence/foerder-191026-*): §40 SGB XI (Abs. 2: 42 €; Abs. 3: 10 %/max. 25 €; Abs. 4: 4 180/16 720 €; Abs. 7: 3/5 Wochen + Genehmigungsfiktion), §33/14/15/18/30/37/39/41 (721/1 357/1 685/2 085 €)/42a (3 539 €) SGB XI, §84/87 SGG, §554 BGB, §20 WEG, KfW 455-B (Antragstopp, curl UND Browser identisch), KfW 159 (50.000 €, Haushaltsmittelvorbehalt, Fachunternehmen, vor Vertragsabschluss), BMG ×4, VZ ×2 (42 €, 27-€-Hausnotruf seit 1.4.2026), GKV ×2. **Null Abweichungen im Live-Content.** checked_at/Prosa-Prüfdaten (14./15./16.10.) nur für heute tatsächlich neu abgerufene Quellen auf 19.10. gehoben (14 Artikel, 3.539-€-Artikel-Daten unverändert); Anbieter-/Herstellerseiten behalten letzte reale Prüfdaten. CI 39211905293 success; Live-Readback: alle 14 Artikel zeigen 2026-10-19 auf der öffentlichen URL, Homepage 200 index,follow. Commit 41fe1eb.
 - 2026-10-15: Projektmailbox anfragen@zuhausebleiben-kompass.de via Himalaya IMAP/SMTP verifiziert (Testmail round-trip; Passwort nur im macOS-Schlüsselbund, Konfiguration ~/.hermes/profiles/milo/himalaya/zuhausebleiben.toml).
 - 2026-10-15: Lifta-Erstmail versendet (SMTP-Beleg Gesendet id 36). Sendeadressvermögen damit belegt; keine Zusage, keine Konditionen bestätigt.
 - 2026-10-15: Launch-Build lokal geprüft: 25 HTML index,follow; Entwurf noindex; Sitemap 23 <loc> ohne Entwurf/Datenschutz; Consent 13/13 Playwright PASS.
