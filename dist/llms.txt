@@ -1,0 +1,43 @@
+# Zuhausebleiben-Kompass.de
+
+> Ratgeber für ältere Menschen und ihre Angehörigen zu Treppenlift, barrierefreiem Badumbau, Pflegegrad, Hilfsmittel und sicherem Wohnen zu Hause. Alle Artikel mit Quellenangaben (Gesetze, KfW, Verbraucherzentrale), Sie-Ansprache, ohne Produkttests und ohne individuelle Beratung.
+
+Der Überblick steht auch als [Sitemap](https://zuhausebleiben-kompass.de/sitemap.xml) und [RSS-Feed](https://zuhausebleiben-kompass.de/rss.xml) bereit.
+
+## Treppenlift
+
+- [Treppenlift-Kosten: Angebot, Folgekosten und Beispielrechnung](https://zuhausebleiben-kompass.de/treppenlift-kosten.html): Welche Kosten in ein Treppenlift-Angebot gehören, mit Modellrechnung, Folgekosten und Fragenliste für den Fachbetrieb-Termin.
+- [Treppenlift-Firmen vergleichen: Modelle, Service, Fragenliste](https://zuhausebleiben-kompass.de/treppenlift-firmen-vergleich.html): Treppenlift-Anbieter anhand von Modellwahl, Service und konkreten Vertragsfragen sachlich vergleichen, ohne Testsieger-Empfehlung.
+- [Treppenlift gebraucht oder neu: Schiene und Service prüfen](https://zuhausebleiben-kompass.de/treppenlift-gebraucht-oder-neu.html): Wann ein gebrauchter Treppenlift infrage kommt: Passform, Aufbereitung, Ersatzteile und Vertragsumfang prüfen.
+- [Treppenlift mieten: Kosten, Vertrag und wann es sich lohnt](https://zuhausebleiben-kompass.de/treppenlift-mieten.html): Einmal- und Monatskosten, Mindestmietdauer und Pflegekassen-Zuschuss beim Treppenlift-Mieten mit Beispielrechnung.
+- [Treppenlift in der Mietwohnung: Zustimmung, Rückbau, Kosten](https://zuhausebleiben-kompass.de/treppenlift-mietwohnung.html): Wer beim Treppenlift-Einbau in der Mietwohnung zustimmen muss (§ 554 BGB, § 20 WEG) und wie Rückbau und Kosten geregelt werden.
+- [Treppenlift-Zuschuss: Pflegekasse, KfW und Antrag vorbereiten](https://zuhausebleiben-kompass.de/treppenlift-zuschuss.html): Voraussetzungen und Unterlagen für Pflegekassen-Zuschuss und KfW-Programme inklusive aktuellem KfW-455-B-Antragstatus prüfen.
+
+## Bad barrierefrei umbauen
+
+- [Bad barrierefrei umbauen: Planung, Angebote und Förderung](https://zuhausebleiben-kompass.de/bad-umbau-barrierefrei.html): Badumbau nach tatsächlichem Bedarf planen: Entscheidungsmatrix, Angebotscheckliste und geprüfte Förderorientierung.
+- [Badumbau-Angebote vergleichen: Positionen prüfen statt Preise](https://zuhausebleiben-kompass.de/badumbau-angebote-vergleichen.html): Badumbau-Angebote anhand von Umfang, Abdichtung, Zusatzarbeiten und Zahlungsregeln Position für Position vergleichen.
+- [Bodengleiche Dusche im Altbau: Machbarkeit prüfen](https://zuhausebleiben-kompass.de/bodengleiche-dusche-altbau.html): Prüfpunkte, ob die bodengleiche Dusche im Altbau machbar ist: Aufbauhöhe, Fallrohrweg, Decke und Konstruktion.
+- [Wanne zur Dusche umbauen: Varianten, Angebote und Zuschuss](https://zuhausebleiben-kompass.de/wanne-zur-dusche.html): Varianten des Wannentauschs vergleichen, offene Baufragen klären und Angebote prüfen, inklusive Förderorientierung.
+
+## Pflegegrad, Hilfsmittel und Sicherheit
+
+- [Pflegegrad beantragen: Ablauf, Fristen und Rechte](https://zuhausebleiben-kompass.de/pflegegrad-antrag-ablauf-fristen.html): Pflegegrad beantragen: formloser Antrag, Begutachtung, Bescheidfrist 25 Arbeitstage, Widerspruch und Klage in Fristen.
+- [Pflegegrad: Wo Sie Unterstützung finden](https://zuhausebleiben-kompass.de/pflegegrad-beantragen.html): Anlaufstellen und erste Schritte bei Fragen zum Pflegegrad — die Pflegekasse ist die erste Kontaktstelle; dieses Portal bietet selbst keine Versicherungsberatung.
+- [Hilfsmittel: Was die Pflegekasse übernimmt](https://zuhausebleiben-kompass.de/hilfsmittel-pflegekasse-uebernahme.html): Pflegehilfsmittel über die Pflegekasse nach §§ 33/40 SGB XI: Hilfsmittelverzeichnis, Eigenanteil 10 % max. 25 €, 42-€-Pauschale.
+- [Dusch-WC: Was Krankenkasse und Pflegekasse übernehmen](https://zuhausebleiben-kompass.de/hilfsmittel-dusch-wc-uebernahme.html): Dusch-WC über die Kasse: gelistete Toilettenaufsätze mit Wascheinrichtung (Produktgruppe 33.40.05) mit enger Arm- und Hand-Indikation über die Krankenkasse, komplette Anlagen als Wohnumfeld-Einzelfall der Pflegekasse, plus Antrags-Checkliste.
+- [Rollator auswählen: Typen, Passform, Kosten](https://zuhausebleiben-kompass.de/rollator-auswahl-passform-kosten.html): Rollator-Typen für drinnen und draußen, Griffhöhe messen, Bremsen verstehen und Kostenübernahme der Kassen prüfen.
+- [Hausnotruf: Kosten, Anbieter und Vertragscheck](https://zuhausebleiben-kompass.de/hausnotruf-kosten-anbieter-vergleich.html): Hausnotruf-Kosten und Basistarif-Inhalte verstehen und mit Pflegekasse, Vertrag und Kündigung abgleichen.
+- [Hausnotruf mit Sturzerkennung oder Knopf?](https://zuhausebleiben-kompass.de/hausnotruf-sturzerkennung-oder-knopf.html): Wie automatische Sturzerkennung funktioniert, welche Grenzen und Fehlalarme bleiben und für wen sich der Aufpreis lohnt.
+
+## Wohnen im Alltag
+
+- [Türbreiten und Schwellen: schneller Wohn-Check](https://zuhausebleiben-kompass.de/tuerbreiten-schwellen-schnellcheck.html): Türbreite und Schwellenhöhe selbst messen und mit Rampe oder Umbau planen, inklusive Messprotokoll und Checkliste.
+- [Beleuchtung und Orientierung im Alter](https://zuhausebleiben-kompass.de/beleuchtung-orientierung-im-alter.html): Lichtplanung im Alter: Grundhelligkeit, Blendung vermeiden, Nachtlicht und Bewegungsmelder gezielt einsetzen.
+- [Verhinderungspflege und Tagespflege im Überblick](https://zuhausebleiben-kompass.de/verhinderungspflege-tagespflege-ueberblick.html): Verhinderungspflege (§ 39 SGB XI) und Tagespflege (§ 41): Ansprüche, Budgets und Entscheidungsmatrix.
+
+## Hinweise
+
+- Alle Inhalte sind allgemeine Orientierung, keine individuelle technische, medizinische oder Rechtsberatung.
+- Zahlen zu Leistungen und Förderung sind mit Abrufdatum belegt (siehe jeweiliger Artikel, Abschnitt Quellen).
+- Kontakt: anfragen@zuhausebleiben-kompass.de · Rechtliches: [Impressum](https://zuhausebleiben-kompass.de/impressum.html)

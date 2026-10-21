@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node generate.mjs",
-    "build:launch": "node generate.mjs --index",
+    "build": "node generate.mjs && node scripts/build-checklists.mjs",
+    "build:launch": "node generate.mjs --index && node scripts/build-checklists.mjs --index",
     "test:consent": "playwright test",
     "test:measurement": "node build-measurement.mjs && node --test tests/measurement-policy.test.mjs",
     "test": "npm run build && npm run build:launch && python3 test_site.py && python3 test_articles.py && npm run build && npm run test:measurement && npm run test:consent"
