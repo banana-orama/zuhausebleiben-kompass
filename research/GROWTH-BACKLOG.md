@@ -106,9 +106,9 @@ Anti-Pattern, das bleiben sollte: Footer/„Passend dazu“-Doppellinks auf bad-
 
 ## Gefundene Probleme (nur gemeldet, nicht geändert)
 
-1. `dist/rss.xml` Kanal-Beschreibung: „Ratgeberprojekt im Aufbau. Noch keine verifizierten Statusmeldungen.“ — seit Launch 15.10. mit 18 Artikeln sachlich falsch/unvorteil für Feed-Abonnenten. Fix im Generator (generate.mjs) vorschlagen.
+1. ~~`dist/rss.xml` Kanal-Beschreibung~~ **GEFIXT 21.10.** (Commit 370f848): Feed hat jetzt ehrliche Beschreibung + 19 Artikel-Items.
 2. GA4-Empfang gestört (bekannt, launch-state) — vor Pinterest-/Outreach-Traffic messbar machen, sonst wirkt Kanalvergleich blind.
-3. Ein RSS-Feed-Eintrag pro Artikel fehlt (Feed hat nur Channel-Kopf) — gleiche Ursache wie 1.
+3. ~~RSS-Feed-Eintrag pro Artikel fehlt~~ **GEFIXT 21.10.** (gleicher Commit).
 
 ## Operator-Entscheidungen nötig
 
