@@ -1,0 +1,99 @@
+{
+  "task": "Briefing 9: Dusch-WC — Was Krankenkasse und Pflegekasse übernehmen",
+  "created": "2026-10-21",
+  "evidence_dir": "research/evidence",
+  "sources": [
+    {
+      "id": 1,
+      "title": "§ 40 SGB XI – Pflegehilfsmittel und wohnumfeldverbessernde Maßnahmen (gesetze-im-internet.de)",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "checked_at": "2026-10-21",
+      "evidence": "dusch-wc-sgb11-40.txt",
+      "quotes": [
+        { "text": "Die Pflegekassen können subsidiär finanzielle Zuschüsse für Maßnahmen zur Verbesserung des individuellen Wohnumfeldes des Pflegebedürftigen gewähren, beispielsweise für technische Hilfen im Haushalt, wenn dadurch im Einzelfall die häusliche Pflege ermöglicht oder erheblich erleichtert oder eine möglichst selbständige Lebensführung des Pflegebedürftigen wiederhergestellt wird." },
+        { "text": "Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen." },
+        { "text": "Der Gesamtbetrag je Maßnahme nach Satz 3 ist auf 16 720 Euro begrenzt" },
+        { "text": "Für Hilfsmittel und Pflegehilfsmittel, die sowohl den in § 23 und § 33 des Fünften Buches als auch den in Absatz 1 genannten Zwecken dienen können, prüft der Leistungsträger, bei dem die Leistung beantragt wird, ob ein Anspruch gegenüber der Krankenkasse oder der Pflegekasse besteht und entscheidet über die Bewilligung der Hilfsmittel und Pflegehilfsmittel." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "§ 33 SGB V – Hilfsmittel (gesetze-im-internet.de)",
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__33.html",
+      "checked_at": "2026-10-21",
+      "evidence": "dusch-wc-sgb5-33.txt",
+      "quotes": [
+        { "text": "Versicherte haben Anspruch auf Versorgung mit Hörhilfen, Körperersatzstücken, orthopädischen und anderen Hilfsmitteln, die im Einzelfall erforderlich sind, um den Erfolg der Krankenbehandlung zu sichern, einer drohenden Behinderung vorzubeugen oder eine Behinderung auszugleichen, soweit die Hilfsmittel nicht als allgemeine Gebrauchsgegenstände des täglichen Lebens anzusehen oder nach § 34 Abs. 4 ausgeschlossen sind." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "§ 61 SGB V – Zuzahlungen (gesetze-im-internet.de)",
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__61.html",
+      "checked_at": "2026-10-21",
+      "evidence": "dusch-wc-sgb5-61.txt",
+      "quotes": [
+        { "text": "Zuzahlungen, die Versicherte zu leisten haben, betragen 10 vom Hundert des Abgabepreises, mindestens jedoch 5 Euro und höchstens 10 Euro; allerdings jeweils nicht mehr als die Kosten des Mittels" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "GKV-Spitzenverband: Fortschreibung der Produktgruppe 33 „Toilettenhilfen“ des Hilfsmittelverzeichnisses nach § 139 SGB V vom 11.12.2025 (PDF)",
+      "url": "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hilfsmittel/fortschreibungen_aktuell/12_2025/2025_12_11_Produktgruppe_33_Toilettenhilfen.pdf",
+      "checked_at": "2026-10-21",
+      "evidence": "dusch-wc-pg33-fortschreibung-2025-12-11.txt",
+      "quotes": [
+        { "text": "Toiletten-Aufsätze mit Wascheinrichtungen der Produktart lassen sich auf vorhandene WC-Becken montieren. Sie sind mit Duschdüsen ausgerüstet, die der Reinigung des Intim- und Analbereiches dienen. Die Duschdüse ist mit einer Selbstreinigungsfunktion ausgerüstet. Nach dem Duschvorgang wird warme Luft zum Trocknen zugeführt." },
+        { "text": "Zur selbständigen Reinigung des Intim- und Analbereiches nach dem Toilettengang durch die Versicherten aufgrund wesentlicher Einschränkungen bei der selbständigen Reinigung des Intim- und Analbereiches nach Ausscheidung aufgrund" },
+        { "text": "erheblicher funktioneller Schädigung der oberen Extremitäten, die funktionell einer Ohnhändigkeit gleichkommt" },
+        { "text": "einer wesentlichen oder aufgehobenen Halt- oder Greiffunktion der oberen Extremitäten bei neuromuskuloskeletaler Schädigung" },
+        { "text": "Die Leistungspflicht der gesetzlichen Krankenversicherung (GKV) erstreckt sich bei Toilettenhilfen auf den behinderungsbedingten Mehraufwand einschließlich der Montage." },
+        { "text": "Handelsübliche Toilettenbecken, auch wenn sie erhöht sind, und Toilettenbrillen sowie Kindertoilettentöpfe und Kindertoilettenbrillen fallen nicht in die Leistungspflicht der gesetzlichen Krankenversicherung, da es sich um Gebrauchsgegenstände des täglichen Lebens handelt." },
+        { "text": "Toiletten-Aufsätze mit Wascheinrichtung bestehen aus einem Toilettensitz mit Warmwasserdusche und Warmlufttrocknung. Sie werden auf einem vorhandenen Toilettenbecken installiert." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "REHADAT GKV-Hilfsmittelverzeichnis: Produkt 33.40.05.0006 Dusch-WC Aufsatz Bidet Jasmin (Verzeichnisstand: Bundesanzeiger 28.09.2026)",
+      "url": "https://www.rehadat-gkv.de/produkt/index.html?prod=bidet&s3f=s3f&reloaded&produktId=33.40.05.0006",
+      "checked_at": "2026-10-21",
+      "evidence": "dusch-wc-rehadat-snapshot.md",
+      "quotes": [
+        { "text": "Stand des Verzeichnisses: Bundesanzeiger 28.09.2026" },
+        { "text": "33.40.05.0006 Dusch-WC Aufsatz Bidet Jasmin, Art.-Nr. AB-311" },
+        { "text": "WC-Aufsatz mit Wascheinrichtung, zur nachträglichen Installation anstelle der vorhandenen Sitzbrille auf einem handelsüblichen Toilettenbecken." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Verbraucherzentrale: Zuzahlungen zu Medikamenten oder Hilfsmitteln",
+      "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/zuzahlungen-zu-medikamenten-oder-hilfsmitteln-11107",
+      "checked_at": "2026-10-21",
+      "evidence": "dusch-wc-vz-zuzahlung.txt",
+      "quotes": [
+        { "text": "Für alle anderen Hilfsmittel gilt die Zuzahlungsregel von 10 Prozent - mindestens jedoch 5 Euro und maximal 10 Euro. Diesen Betrag müssen Sie an den Hilfsmittelanbieter entrichten." }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bundesgesundheitsministerium: Zuschüsse zur Wohnungsanpassung (Online-Ratgeber Pflege)",
+      "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung",
+      "checked_at": "2026-10-21",
+      "evidence": "dusch-wc-bmg-wohnumfeld.txt",
+      "quotes": [
+        { "text": "Die Pflegekasse kann für Pflegebedürftige der Pflegegrade 1 bis 5 auf Antrag bis zu 4.180 Euro als Zuschuss für Anpassungsmaßnahmen zahlen, die die häusliche Pflege in der Wohnung ermöglichen, erheblich erleichtern oder eine möglichst selbstständige Lebensführung der pflegebedürftigen Person wiederherstellen." },
+        { "text": "zinsvergünstigte Kredite ab 2,19 Prozent (Stand: 10. Juli 2025) bis zu einer Höhe von 50.000 Euro beantragen" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "§ 84 SGG – Widerspruchsverfahren (gesetze-im-internet.de)",
+      "url": "https://www.gesetze-im-internet.de/sgg/__84.html",
+      "checked_at": "2026-10-21",
+      "evidence": "dusch-wc-sgg-84.txt",
+      "quotes": [
+        { "text": "Der Widerspruch ist binnen eines Monats, nachdem der Verwaltungsakt dem Beschwerten bekanntgegeben worden ist, schriftlich, in elektronischer Form nach § 36a Absatz 2 des Ersten Buches Sozialgesetzbuch, schriftformersetzend nach § 36a Absatz 2a des Ersten Buches Sozialgesetzbuch und § 9a Absatz 5 des Onlinezugangsgesetzes oder zur Niederschrift bei der Stelle einzureichen, die den Verwaltungsakt erlassen hat." }
+      ]
+    }
+  ]
+}

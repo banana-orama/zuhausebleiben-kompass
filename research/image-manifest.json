@@ -247,6 +247,39 @@
         "recommended_min_width_px": 740,
         "mobile": "Beschriftungen zusätzlich als HTML-Text verfügbar machen (Artikeltext enthält alle Vergleichsschritte); bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
       }
+    },
+    {
+      "id": "hilfsmittel-dusch-wc-wege",
+      "file": "assets/images/hilfsmittel-dusch-wc-wege.svg",
+      "article": "hilfsmittel-dusch-wc-uebernahme",
+      "title": "Dusch-WC: Drei Wege zur Kostenübernahme",
+      "alt": "Entscheidungsgrafik mit drei Wegen zur Kostenübernahme beim Dusch-WC: Weg 1 Krankenkasse nach § 33 SGB V für gelistete Toilettenaufsätze mit Wascheinrichtung (Produktgruppe 33.40.05, ärztliche Verordnung, Indikation erhebliche Schädigung der Arme oder Hände, Eigenanteil 10 Prozent mindestens 5 Euro höchstens 10 Euro); Weg 2 Pflegekasse nach § 40 Abs. 4 SGB XI für komplette Anlagen oder WC-Ersatz im Badumbau als Einzelfall-Entscheidung bei Pflegegrad 1 bis 5 mit höchstens 4.180 Euro je Maßnahme; Weg 3 Selbstkauf, wenn keine Voraussetzung greift, mit Hinweis auf Widerspruch bei Ablehnung innerhalb eines Monats",
+      "caption": "KI-Illustration · schematisch. Drei Wege zur Kostenübernahme; keine Rechtsberatung und keine Zusage im Einzelfall.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / Z.ai (GLM)",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage. Layout im Browser gerendert und auf Textüberlauf geprüft (Sichtkontrolle oben und unten, 21.10.2026).",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus den bestehenden Artikelgrafiken; Zahlen aus den am 2026-10-21 geprüften Quellen (research/dusch-wc-ledger.json: §§ 33/61 SGB V, § 40 SGB XI, GKV-SV-Fortschreibung Produktgruppe 33 vom 11.12.2025, REHADAT-Produkteintrag 33.40.05.0006, Verbraucherzentrale, BMG).",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Für den Ratgeber hilfsmittel-dusch-wc-uebernahme vorgesehen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, reale Installation, Produktreferenz oder Fachplanung."
+      },
+      "limitations": [
+        "Keine Preise für konkrete Produkte; die Grafik zeigt Leistungswege, keine Kalkulation.",
+        "Die Indikationsangabe ist eine vereinfachte Wiedergabe der Produktart 33.40.05.0; die konkrete Prüfung trifft die Krankenkasse.",
+        "Die 4.180-Euro-Grenze gilt je Maßnahme mit den Einschränkungen des § 40 Abs. 4 SGB XI; keine Bewilligungszusage."
+      ],
+      "dimensions": {
+        "width": 1000,
+        "height": 780,
+        "unit": "px",
+        "viewBox": "0 0 1000 780"
+      },
+      "display_guidance": {
+        "recommended_min_width_px": 740,
+        "mobile": "Alle drei Wege zusätzlich als HTML-Text im Artikel verfügbar (Abschnitte und Tabelle); bei kleinen Ansichten Vergrößerung anbieten. Keine sicherheitsrelevante Information ausschließlich im Bild vermitteln."
+      }
     }
   ]
 }

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="780" viewBox="0 0 1000 780" role="img" aria-labelledby="title desc">
+<title id="title">Dusch-WC: Drei Wege zur Kostenübernahme</title>
+<desc id="desc">Schematische Entscheidungsgrafik mit drei Wegen. Erst klären: Was genau soll gekauft werden? Weg 1 — Aufsatz mit Wascheinrichtung für das vorhandene WC: Das Produkt muss im GKV-Hilfsmittelverzeichnis gelistet sein (Produktgruppe 33, Produktart 33.40.05), die Krankenkasse braucht eine ärztliche Verordnung, und die amtliche Indikation verlangt eine erhebliche Schädigung der Arme oder Hände. Eigener Anteil: 10 Prozent, mindestens 5 Euro, höchstens 10 Euro. Weg 2 — komplette Anlage oder WC-Ersatz im Rahmen eines Badumbaus: Die Pflegekasse zahlt im Einzelfall einen Zuschuss für wohnumfeldverbessernde Maßnahmen (Paragraph 40 Absatz 4 SGB XI), bei Pflegegrad 1 bis 5, höchstens 4.180 Euro je Maßnahme; subsidiäre Kann-Leistung, erst klären, dann beauftragen. Weg 3 — Selbstkauf, wenn keine der Voraussetzungen greift; bei Ablehnung ist Widerspruch möglich. Fußnote: Schematische KI-Illustration, Grundlage: §§ 33 und 61 SGB V, § 40 SGB XI, Hilfsmittelverzeichnis Produktgruppe 33, Stand Bundesanzeiger 28.09.2026.</desc>
+<rect width="1000" height="780" fill="#f7f5ef"/>
+<rect x="0" y="0" width="1000" height="64" fill="#243b35"/>
+<text x="500" y="40" text-anchor="middle" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="25" font-weight="600" fill="#ffffff">Dusch-WC: Drei Wege zur Kostenübernahme</text>
+<!-- Start box -->
+<rect x="200" y="88" width="600" height="84" rx="10" fill="#ffffff" stroke="#245b47" stroke-width="2"/>
+<text x="500" y="120" text-anchor="middle" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="17" font-weight="600" fill="#243b35">Erst klären: Was genau soll gekauft werden?</text>
+<text x="500" y="142" text-anchor="middle" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#5a6b60">Aufsatz fürs vorhandene WC — oder komplette Anlage /</text>
+<text x="500" y="160" text-anchor="middle" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#5a6b60">Sanitäraustausch im Bad?</text>
+<!-- arrows from start -->
+<line x1="340" y1="172" x2="235" y2="216" stroke="#245b47" stroke-width="2"/>
+<polygon points="228,222 243,214 239,228" fill="#245b47"/>
+<line x1="660" y1="172" x2="765" y2="216" stroke="#245b47" stroke-width="2"/>
+<polygon points="772,222 761,228 757,214" fill="#245b47"/>
+<!-- Left: Krankenkasse -->
+<rect x="40" y="228" width="420" height="318" rx="12" fill="#eef3ec" stroke="#d8d2c4"/>
+<rect x="40" y="228" width="420" height="46" rx="12" fill="#245b47"/>
+<text x="60" y="258" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="17" font-weight="600" fill="#ffffff">Weg 1 · Krankenkasse (§ 33 SGB V)</text>
+<text x="60" y="298" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" fill="#243b35">Produkt: Aufsatz / Sitz mit Wascheinrichtung</text>
+<text x="60" y="318" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="13.5" fill="#5a6b60">aufs vorhandene WC montiert</text>
+<text x="60" y="350" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Produkt im Verzeichnis gelistet (PG 33.40.05)</text>
+<text x="60" y="376" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Ärztliche Verordnung (Hilfsmittelrezept)</text>
+<text x="60" y="402" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Indikation: erhebliche Schädigung der</text>
+<text x="74" y="422" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">Arme / Hände — nicht Alter oder Sturzrisiko</text>
+<text x="60" y="454" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Eigenanteil: 10 %, min. 5 €, max. 10 €</text>
+<text x="60" y="480" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="13" fill="#8a938c">Kostenvoranschlag vom Fachhandel beilegen</text>
+<text x="60" y="522" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#5a6b60">Passen Arm- und Handfunktion nicht zur</text>
+<text x="60" y="538" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#5a6b60">Indikation, ist Ablehnung wahrscheinlich.</text>
+<!-- Right: Pflegekasse -->
+<rect x="540" y="228" width="420" height="318" rx="12" fill="#eef3ec" stroke="#d8d2c4"/>
+<rect x="540" y="228" width="420" height="46" rx="12" fill="#245b47"/>
+<text x="560" y="258" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="17" font-weight="600" fill="#ffffff">Weg 2 · Pflegekasse (§ 40 Abs. 4 SGB XI)</text>
+<text x="560" y="298" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" fill="#243b35">Produkt: komplette Anlage / WC-Ersatz</text>
+<text x="560" y="318" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="13.5" fill="#5a6b60">im Rahmen eines Badumbaus</text>
+<text x="560" y="350" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Wohnumfeldzuschuss: Einzelfall-Entscheidung</text>
+<text x="560" y="376" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Pflegegrade 1–5; subsidiäre Kann-Leistung</text>
+<text x="560" y="402" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Max. 4.180 € je Maßnahme</text>
+<text x="560" y="428" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Zusage vor der Beauftragung einholen</text>
+<text x="560" y="454" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#243b35">• Kostenvoranschlag + Begründung beilegen</text>
+<text x="560" y="492" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#5a6b60">Ein Dusch-WC ist keine automatische</text>
+<text x="560" y="508" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#5a6b60">Kassenleistung — auch nicht bei Pflegegrad.</text>
+<text x="560" y="530" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#5a6b60">Komplette Anlagen sind nicht im Verzeichnis.</text>
+<!-- arrows down to bottom band -->
+<line x1="250" y1="546" x2="250" y2="586" stroke="#8a938c" stroke-width="2"/>
+<line x1="750" y1="546" x2="750" y2="586" stroke="#8a938c" stroke-width="2"/>
+<!-- Bottom: Selbstkauf / Widerspruch -->
+<rect x="40" y="590" width="920" height="118" rx="12" fill="#ffffff" stroke="#d8d2c4"/>
+<text x="60" y="622" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="16" font-weight="600" fill="#243b35">Weg 3 · Selbstkauf — wenn keine der Voraussetzungen greift</text>
+<text x="60" y="648" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#5a6b60">Passform aufs vorhandene WC, Wasser- und Stromanschluss, Selbstreinigung der Düse, Einweisung.</text>
+<text x="60" y="672" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" fill="#5a6b60">Angebote schriftlich vergleichen. Handelsübliche WC-Brillen und normale Toilettenbecken zahlt keine Kasse (Gebrauchsgegenstände).</text>
+<text x="60" y="696" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" fill="#245b47">Ablehnung erhalten? Widerspruch innerhalb eines Monats möglich — Begründung schriftlich anfordern.</text>
+<!-- footnote -->
+<text x="500" y="736" text-anchor="middle" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="12" fill="#8a938c">Schematische KI-Illustration · Grundlage: §§ 33, 61 SGB V; § 40 SGB XI; GKV-Hilfsmittelverzeichnis PG 33, Stand Bundesanzeiger 28.09.2026</text>
+</svg>

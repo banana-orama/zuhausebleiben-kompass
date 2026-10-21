@@ -69,3 +69,14 @@ Recherche-Dokumente:
 - Normangaben nur als gekennzeichnete Fachportaldarstellungen, nie als Normbestätigung für konkrete Objekte.
 - Keine Gesundheitsdatenabfragen, keine Formulare, keine Partnerzusage im Text.
 - Bilder: eigene schematische SVGs mit KI-Label, title/desc, Grenztext, viewBox für Renderer-Dimensionserkennung.
+
+## Batch: hilfsmittel-dusch-wc-uebernahme (Briefing 9, 2026-10-21)
+
+- Artikel live/indexierbar (Commit siehe git log): Dusch-WC — Krankenkassen-Route über gelistete
+  Toilettenaufsätze mit Wascheinrichtung (PG 33.40.05, enge Arm-/Hand-Indikation), Pflegekassen-
+  Wohnumfeldroute als Einzelfall, Selbstkauf-Kriterien, Antrags-Checkliste. 8 Quellen, 20/20 Zitate
+  verbatim (`research/dusch-wc-ledger.json`), Beweisdateien `research/evidence/dusch-wc-*`.
+- Renderer: specialMap-Eintrag (Early-CTA → hilfsmittel-pflegekasse-uebernahme); Care-Cluster trifft
+  via Slug-Präfix. test_articles-Zähler 18→19 im selben Commit.
+- Nicht Teil des Batches: In-Flight-Arbeiten anderer Läufe (RSS-Feed, Checklisten-Build, llms.txt,
+  Growth-Dokumente) bleiben unangetastet/uncommittet.
