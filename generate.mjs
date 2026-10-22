@@ -2,7 +2,7 @@ import {readFileSync,writeFileSync,mkdirSync,copyFileSync,cpSync} from 'node:fs'
 import {renderArticles} from './article-renderer.mjs';
 import {join,dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
-const ROOT=dirname(fileURLToPath(import.meta.url)), OUT=join(ROOT,'dist');
+const ROOT=dirname(fileURLToPath(import.meta.url)), OUT=join(ROOT,process.env.DIST_DIR||'dist');
 const C=JSON.parse(readFileSync(join(ROOT,'data/content.json'),'utf8')), B=C.brand;
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const url=(p='/')=>B.base_url.replace(/\/$/,'')+p;

@@ -2,6 +2,38 @@ import {readFileSync,readdirSync} from 'node:fs';
 import {join} from 'node:path';
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const safeJson=d=>JSON.stringify(d).replace(/</g,'\\u003c');
+function loadPartnerConfig(root){
+ const p=process.env.PARTNER_LINKS_CONFIG||join(root,'data/partner-links.json');
+ return JSON.parse(readFileSync(p,'utf8'));
+}
+// Partner-Link-Map: rendert NUR Platzierungen zugelassener Partner mit echter Tracker-URL.
+// active!=true, approved!=true oder fehlende URL => nichts im HTML (kein Platzhalter, kein erfundener Link).
+// Widersprüche (URL ohne Zusage, Zusage ohne URL, unbekannte Slugs) brechen den Build.
+function buildPartnerIndex(PC,slugs){
+ const bySlug=new Map();
+ if(!PC||PC.active!==true)return bySlug;
+ const seen=new Set();
+ for(const partner of (PC.partners||[])){
+  if(partner.approved===true&&!(partner.placements||[]).length)throw Error('Approved partner '+(partner.id||'?')+' has no placements');
+  for(const pl of (partner.placements||[])){
+   if(!/^[a-z0-9_]+$/.test(pl.placement_id||''))throw Error('Invalid placement_id '+(pl.placement_id||'(missing)'));
+   if(seen.has(pl.placement_id))throw Error('Duplicate placement_id '+pl.placement_id);
+   seen.add(pl.placement_id);
+   const list=pl.articles||[];
+   if(!list.length)throw Error('Placement without articles '+pl.placement_id);
+   for(const s of list)if(!slugs.has(s))throw Error('Placement '+pl.placement_id+' references unknown slug '+s);
+   if(pl.url){
+    if(partner.approved!==true)throw Error('Placement '+pl.placement_id+' has a URL but partner '+(partner.id||'?')+' is not approved');
+    if(!/^https:\/\//.test(pl.url))throw Error('Placement '+pl.placement_id+' URL must be https');
+    if(!pl.label||!pl.cta_text)throw Error('Placement '+pl.placement_id+' missing label/cta_text');
+    for(const s of list){if(!bySlug.has(s))bySlug.set(s,[]);bySlug.get(s).push({partner,pl});}
+   }else if(partner.approved===true){
+    throw Error('Approved partner '+(partner.id||'?')+' placement '+pl.placement_id+' has no URL yet');
+   }
+  }
+ }
+ return bySlug;
+}
 export function renderArticles(root,base,closing){
  const url=p=>base.replace(/\/$/,'')+p;
  const articles=readdirSync(join(root,'content-ready')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(readFileSync(join(root,'content-ready',f),'utf8'))).filter(a=>a.status==='editorial-reviewed-preview');
@@ -12,6 +44,8 @@ export function renderArticles(root,base,closing){
   if(!a.image?.src.startsWith('assets/images/'))throw Error('Invalid image '+a.slug);
   readFileSync(join(root,a.image.src));
  }
+ const PC=loadPartnerConfig(root);
+ const partnerBySlug=buildPartnerIndex(PC,slugs);
  return articles.map(a=>{
   const txt=s=>esc(s).replace(/\[(\d+)\]/g,(m,n)=>{
    if(!a.sources[Number(n)-1])throw Error('Missing citation '+a.slug+':'+n);
@@ -37,8 +71,9 @@ export function renderArticles(root,base,closing){
   const hit=specialMap.find(([s])=>a.slug===s);
   const cmp=hit?[hit[1],hit[2]]:cluster==='bad'?['/treppenlift-zuschuss.html','Förderung prüfen']:cluster==='care'?['/pflegegrad-antrag-ablauf-fristen.html','Pflegegrad-Antrag vorbereiten']:['/treppenlift-firmen-vergleich.html','Anbieter prüfen'];
   const earlyCTA=`<div class="reader-actions" aria-label="Nächste Schritte"><a class="button" href="${checklistTarget}" data-cta-id="checklist_top" data-content-id="${esc(a.slug)}">${checklistIndex>=0?'Zur Checkliste':'Entscheidungshilfe lesen'}</a><a class="text-link" href="${url(cmp[0])}" data-cta-id="compare_top" data-content-id="${esc(a.slug)}">${cmp[1]} →</a></div>`;
-  const endCTA=`<aside class="next-step" aria-label="Ihr nächster Schritt"><span class="eyebrow">Gut vorbereitet weitergehen</span><h2>Nutzen Sie die Checkliste für Ihr Gespräch.</h2><p>Halten Sie offene Fragen fest und vergleichen Sie den schriftlichen Leistungsumfang. Unser Portal vermittelt derzeit noch keine Angebote.</p><div class="reader-actions"><button class="button" type="button" onclick="window.print()" data-cta-id="print_bottom" data-content-id="${esc(a.slug)}">Checkliste mit Ratgeber drucken</button><a class="text-link" href="mailto:anfragen@zuhausebleiben-kompass.de?subject=${encodeURIComponent('Frage zum Ratgeber: '+a.h1)}" data-cta-id="editorial_contact" data-content-id="${esc(a.slug)}">Frage zum Ratgeber senden →</a></div><p class="fine">Redaktioneller Kontakt, keine Notfallhilfe oder persönliche Fachberatung. Bitte keine Gesundheitsdaten oder vertraulichen Unterlagen per E-Mail senden.</p></aside>`;
+  const endCTA=`<aside class="next-step" aria-label="Ihr nächster Schritt"><span class="eyebrow">Gut vorbereitet weitergehen</span><h2>Nutzen Sie die Checkliste für Ihr Gespräch.</h2><p>Halten Sie offene Fragen fest und vergleichen Sie den schriftlichen Leistungsumfang. Unser Portal vermittelt derzeit noch keine Angebote.</p><div class="reader-actions"><button class="button" type="button" onclick="window.print()" data-cta-id="print_bottom" data-content-id="${esc(a.slug)}">Checkliste mit Ratgeber drucken</button><a class="text-link" href="mailto:anfragen@zuhausebleiben-kompass.de?subject=${encodeURIComponent('Frage zum Ratgeber: '+a.h1)}" data-cta-id="editorial_contact" data-content-id="${esc(a.slug)}">Frage zum Ratgeber senden →</a></div><p class="fine">Redaktioneller Kontakt, keine Notfallhilfe oder persönliche Fachberatung. Bitte keine Gesundheitsdaten oder vertrauliche Unterlagen per E-Mail senden.</p></aside>`;
+  const partnerBlocks=(partnerBySlug.get(a.slug)||[]).map(({partner,pl})=>`<aside class="partner-cta" data-partner-placement="${esc(pl.placement_id)}"><span class="eyebrow">Anzeige · Kooperation mit ${esc(partner.name)}</span><h2>${esc(pl.label)}</h2>${pl.subline?`<p>${esc(pl.subline)}</p>`:''}<div class="reader-actions"><a class="button" href="${esc(pl.url)}" rel="sponsored noopener" target="_blank" data-cta-id="partner_${esc(partner.id)}" data-placement-id="${esc(pl.placement_id)}" data-content-id="${esc(a.slug)}">${esc(pl.cta_text)} →</a></div><p class="fine">Partnerlink (Anzeige): Beim Klick verlassen Sie unser Angebot und gelangen zum Anbieter. Wir können bei einer anschließenden Anfrage eine Vergütung erhalten. Die Entscheidung bleibt Ihre.</p></aside>`).join('');
   const schema={'@context':'https://schema.org','@graph':[{'@type':'Article','headline':a.h1,'description':a.description,'url':url('/'+a.slug+'.html'),'image':url('/'+a.image.src),'inLanguage':'de','publisher':{'@type':'Organization','name':'ZuhauseBleiben Kompass','url':url('/')}},{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Startseite','item':url('/')},{'@type':'ListItem','position':2,'name':a.h1,'item':url('/'+a.slug+'.html')}]}]};
-  return {path:a.slug+'.html',title:a.title+' — ZuhauseBleiben Kompass',desc:a.description,body:`<article><a class="fine" href="${url('/')}">Startseite / Ratgeber</a><h1>${esc(a.h1)}</h1><p class="article-meta">Herausgeber: <a href="${url('/impressum.html')}">Tobias Batke</a> · Mit KI-Unterstützung erstellt · Quellenstand: ${esc(a.sources[0].checked_at)}</p><p class="lead">${txt(a.intro)}</p><p class="fine">Allgemeine Orientierung, keine persönliche technische, medizinische oder rechtliche Beratung. Es werden derzeit keine Angebote vermittelt.</p>${earlyCTA}${toc}${figure}${content}${endCTA}<section class="faq"><h2>Häufige Fragen</h2>${a.faqs.map(f=>`<details><summary>${esc(f.question)}</summary><p>${txt(f.answer)}</p></details>`).join('')}</section><section class="sources"><h2>Quellen und Anbieterangaben</h2><p class="fine">Herstellerquellen beschreiben deren eigene Angebote; sie sind kein unabhängiger Produkttest.</p><ol>${a.sources.map((s,i)=>`<li id="source-${i+1}"><a href="${esc(s.url)}">${esc(s.title.replace(/^\[\d+\]\s*/,''))}</a><span class="fine"> — geprüft ${esc(s.checked_at)}</span></li>`).join('')}</ol></section><section class="related"><h2>Passend dazu</h2><ul>${related.map(r=>`<li><a href="${url('/'+r.slug+'.html')}">${esc(r.h1)}</a></li>`).join('')}</ul></section><button class="print-button" type="button" onclick="window.print()">Ratgeber &amp; Checklisten drucken</button></article>${closing}<script type="application/ld+json">${safeJson(schema)}</script>`};
+  return {path:a.slug+'.html',title:a.title+' — ZuhauseBleiben Kompass',desc:a.description,body:`<article><a class="fine" href="${url('/')}">Startseite / Ratgeber</a><h1>${esc(a.h1)}</h1><p class="article-meta">Herausgeber: <a href="${url('/impressum.html')}">Tobias Batke</a> · Mit KI-Unterstützung erstellt · Quellenstand: ${esc(a.sources[0].checked_at)}</p><p class="lead">${txt(a.intro)}</p><p class="fine">Allgemeine Orientierung, keine persönliche technische, medizinische oder rechtliche Beratung. Es werden derzeit keine Angebote vermittelt.</p>${earlyCTA}${toc}${figure}${content}${endCTA}${partnerBlocks}<section class="faq"><h2>Häufige Fragen</h2>${a.faqs.map(f=>`<details><summary>${esc(f.question)}</summary><p>${txt(f.answer)}</p></details>`).join('')}</section><section class="sources"><h2>Quellen und Anbieterangaben</h2><p class="fine">Herstellerquellen beschreiben deren eigene Angebote; sie sind kein unabhängiger Produkttest.</p><ol>${a.sources.map((s,i)=>`<li id="source-${i+1}"><a href="${esc(s.url)}">${esc(s.title.replace(/^\[\d+\]\s*/,''))}</a><span class="fine"> — geprüft ${esc(s.checked_at)}</span></li>`).join('')}</ol></section><section class="related"><h2>Passend dazu</h2><ul>${related.map(r=>`<li><a href="${url('/'+r.slug+'.html')}">${esc(r.h1)}</a></li>`).join('')}</ul></section><button class="print-button" type="button" onclick="window.print()">Ratgeber &amp; Checklisten drucken</button></article>${closing}<script type="application/ld+json">${safeJson(schema)}</script>`};
  });
 }
