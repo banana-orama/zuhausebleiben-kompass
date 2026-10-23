@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "scan": "partner-scan-badumbau-231026",
+  "purpose": "Erste Monetarisierungsroute für den Bad-Cluster (8 Ratgeber + 2 Checklisten, bislang ohne Partnerweg): Aroundhome DE (Awin 68536) als Umsatzbeteiligungs-Leadprogramm geprüft; Badumbauheld/Seniovo geprüft und verworfen (Fachbetriebs-Netzwerke, keine Publisher-Route). Alle Zitate maschinell gegen Extrakte in research/evidence/partner-scan-badumbau-231026/ prüfbar.",
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://ui.awin.com/merchant-profile/68536",
+      "title": "Awin: Aroundhome DE Partnerprogramm (öffentliches Profil, ohne Login lesbar)",
+      "accessed": "2026-10-23",
+      "quotes": [
+        { "text": "Aroundhome DE ID | 68536", "added": "2026-10-23" },
+        { "text": "Attributionszeitraum (Cookielaufzeit) 30 Tage", "added": "2026-10-23" },
+        { "text": "Faire Lead-Provisionen mit Umsatzbeteiligung Cookie-Laufzeit: 30 Tage", "added": "2026-10-23" },
+        { "text": "Sehr schnelle Validierung der Leads (durchschnittlich 8 Tage)", "added": "2026-10-23" },
+        { "text": "Vergütung auf Basis einer Umsatzbeteiligung : Generieren wir Umsatz mit Ihrem Lead, erhalten Sie einen festen Prozentsatz davon (im Regelfall 30%).", "added": "2026-10-23" },
+        { "text": "Nicht jeder eingegangene Lead generiert automatisch Umsatz!", "added": "2026-10-23" },
+        { "text": "echte Kontaktdaten, keine doppelten und nur exklusive Anfragen, keine Testanfragen, keine Auslandsanfragen", "added": "2026-10-23" },
+        { "text": "In unserem Partnerprogramm werden Ihre Leads in Echtzeit getrackt.", "added": "2026-10-23" },
+        { "text": "aroundhome-all-aff-de@artefact.com", "added": "2026-10-23" },
+        { "text": "affiliateprogramm@aroundhome.de", "added": "2026-10-23" },
+        { "text": "Bis zu 3 individuelle Angebote von lokalen Firmen", "added": "2026-10-23" },
+        { "text": "Heute erreichen das Unternehmen jeden Monat über 120.000 Kundenanfragen. Das Anbieternetzwerk umfasst über 16.000 Unternehmen in ganz Deutschland.", "added": "2026-10-23" }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.aroundhome.de/badezimmer/",
+      "title": "Aroundhome: Badezimmer-Landingpage (Kategorie-Beleg Badumbau aktiv)",
+      "accessed": "2026-10-23",
+      "quotes": [
+        { "text": "barrierefreien Badezimmerumbau? Schnell und unkompliziert zum passenden Fachbetrieb", "added": "2026-10-23" },
+        { "text": "Experten finden und Angebot einholen", "added": "2026-10-23" },
+        { "text": "Badewanne oder Dusche? Moderne Duschen sind oft ebenerdig und bieten barrierefreien Komfort", "added": "2026-10-23" },
+        { "text": "barrierefreies Badezimmer ermöglicht maximale Selbstständigkeit und Komfort – unabhängig von körperlichen Einschränkungen", "added": "2026-10-23" }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.aroundhome.de/",
+      "title": "Aroundhome: Startseite (erste Partei: Services inkl. Badezimmer und Treppenlift aktiv)",
+      "accessed": "2026-10-23",
+      "quotes": [
+        { "text": "Beliebte Services Badezimmer Fenster Garage Heizung Immobilienverkauf Küche Solaranlage Terrassenüberdachung Treppenlift", "added": "2026-10-23" }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://badumbauheld.de/partner-werden",
+      "title": "Badumbauheld: Partner werden (Verwerfung: Fachbetriebs-Anwerbung, keine Publisher-Route)",
+      "accessed": "2026-10-23",
+      "quotes": [
+        { "text": "Als Partnerbetrieb erhalten Sie qualifizierte Anfragen aus Ihrer Region, ohne Grundgebühr und ohne Klickkosten. Sie zahlen eine Provision nur, wenn aus der Anfrage ein Auftrag wird.", "added": "2026-10-23" },
+        { "text": "Badumbauheld ist ein Vermittlungsservice. Wir leiten Anfragen an geprüfte Fachbetriebe weiter.", "added": "2026-10-23" }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://seniovo.de/partner/",
+      "title": "Seniovo: Partnernetzwerk (Verwerfung: Fachpartner-Netzwerk; zugleich Beleg, dass Aroundhome Badumbau-Vermittlung aktiv betreibt)",
+      "accessed": "2026-10-23",
+      "quotes": [
+        { "text": "bereits über 500 vermittelte Kund:innen die große Kompetenz, Freundlichkeit & Kommunikation auf Augenhöhe des gesamten Seniovo-Teams", "added": "2026-10-23" }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://app.hienergy.ai/a/aroundhome-de-hienergy-awin",
+      "title": "Hi Energy AI: Aroundhome DE Listing (Entdeckungsquelle, Drittanbieter — CID durch Awin-Profil id=68536 selbst bestätigt)",
+      "accessed": "2026-10-23",
+      "quotes": [
+        { "text": "Aroundhome DE · Awin · CID 68536", "added": "2026-10-23" }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://aaa.aroundhome.de/privacy-optout.do",
+      "title": "Aroundhome Triple-A Affiliate-Tracking (Artefact/easy.affiliate) — Hinweis auf parallelen Eigen-Track, nicht genutzt",
+      "accessed": "2026-10-23",
+      "quotes": [
+        { "text": "Triple A from Artefact Germany GmbH is based on the easy.affiliate software from EASY Marketing GmbH", "added": "2026-10-23" }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://ewerle-gmbh.de/ratgeber/leadportale-handwerk-vergleich",
+      "title": "Ewerle GmbH Ratgeber: Leadportale Handwerk Vergleich (SEKUNDÄRQUELLE, Marktgrößenordnung Handwerker-Leadpreise — keine Vergütungszusage)",
+      "accessed": "2026-10-23",
+      "quotes": [
+        { "text": "Leadportale kosten Handwerksbetriebe je nach Gewerk und Auftragsgröße zwischen 8 und 120 € pro Kundenanfrage.", "added": "2026-10-23" },
+        { "text": "Aroundhome Festpreis je qualifizierter Anfrage Festpreis je Anfrage, produktabhängig, erst im Vertragsprozess einsehbar. Ausdrücklich keine Provision auf Ihren Projektumsatz max. 3 Fachpartner je Anfrage (Angabe des Anbieters) meist monatlich kündbar", "added": "2026-10-23" }
+      ]
+    }
+  ]
+}

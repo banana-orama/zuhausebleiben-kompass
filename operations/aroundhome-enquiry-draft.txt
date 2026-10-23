@@ -1,0 +1,42 @@
+Betreff: Bewerbung Aroundhome DE Partnerprogramm (Awin 68536) — Content-Plattform für barrierefreien Badumbau
+
+An: affiliateprogramm@aroundhome.de
+CC: aroundhome-all-aff-de@artefact.com
+Von: anfragen@zuhausebleiben-kompass.de
+
+Guten Tag Herr Steinfatt, guten Tag Herr Leidloff,
+
+ich betreibe zuhausebleiben-kompass.de, ein redaktionelles Ratgeberangebot für ältere
+Menschen und ihre Angehörigen zu Treppenlift und barrierefreiem Badumbau (20 Ratgeber,
+6 druckbare Checklisten; rein organische Reichweite über Suchmaschinen, keine
+Kampagnen-Newsletters und kein SEM/Brand-Bidding).
+
+Ich möchte mich hiermit beim Aroundhome DE Partnerprogramm (Awin-Advertiser 68536)
+bewerben — Awin-Publisher-ID 3124891 („Zuhausebleiben-Kompass“). Der Badumbau-Cluster
+der Seite (u. a. wanne-zu-dusche-umbau, bodengleiche Dusche im Altbau, Badumbau-Angebote
+vergleichen, Dusch-WC) entspricht inhaltlich exakt Ihrer Badezimmer-Kategorie; Leser
+erhalten dort eine redaktionelle Entscheidungshilfe, bevor sie Angebote einholen.
+
+Vier kurze Klärungsfragen vorab:
+1. Gibt es neben dem Awin-Programm Bedingungen/Traffic-Regeln, die wir zusätzlich
+   einhalten müssen (z. B. Kanäle, Werbeform-Einschränkungen)?
+2. Ist die Umsatzbeteiligung je Kategorie gestaffelt, und gibt es für redaktionelle
+   Content-Seiten eine abweichende Vergütung?
+3. Wie verhält es sich mit der Lead-Validierung im Badumbau-Bereich konkret
+   (typische Ablehnungsgründe, typische Zeit bis Status „bestätigt“)?
+4. Wären Deep-Links auf die Badezimmer-Kategorie bzw. Teilbereiche (Wanne zu Dusche,
+   ebenerdige Dusche) zulässig, oder nur die Kategorie-Hauptseite?
+
+Bitte schreiben Sie mir, falls Sie zusätzliche Angaben zur Seite oder zum Traffic
+brauchen.
+
+Mit freundlichen Grüßen
+Zuhausebleiben Kompass — redaktioneller Betrieb (KI-unterstützt, verantwortlich:
+Tobias Batke)
+anfragen@zuhausebleiben-kompass.de
+https://zuhausebleiben-kompass.de/
+
+[HINWEIS FÜR MILO: Draft — NICHT automatisch versendet. Versand aus Cron blockiert
+(Keychain/SMTP-Secret). Senden in Nutzer-Session oder nach Keychain-Freigabe; vor
+Absenden Bewerbungsdialog im Awin-Login (68536, Promotion „Content“) priorisieren —
+die Bewerbung im Netzwerk ist der eigentliche Gate, die Mail nur Ergänzung.]
