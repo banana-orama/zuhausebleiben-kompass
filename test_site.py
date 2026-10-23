@@ -20,9 +20,7 @@ for f in files:
     p=Page();p.feed(f.read_text())
     assert p.h1==1,(f,'heading count')
     assert p.forms==0,(f,'unsafe form')
-    if f.name == 'treppenlift-angebote-vergleichen.html':
-        assert p.noindex,(f,'draft pages stay noindex')
-    elif f.name == 'datenschutz.html':
+    if f.name == 'datenschutz.html':
         assert not p.noindex,(f,'privacy policy is indexable at launch')
     else:
         assert not p.noindex,(f,'launch build: indexable page without noindex')

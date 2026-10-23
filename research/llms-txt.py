@@ -31,6 +31,7 @@ BASE = "https://zuhausebleiben-kompass.de"
 # Kept here (not scraped from articles) so the file only states what we verified.
 SUMMARIES = {
     "treppenlift-kosten": "Welche Kosten in ein Treppenlift-Angebot gehören, mit Modellrechnung, Folgekosten und Fragenliste für den Fachbetrieb-Termin.",
+    "treppenlift-angebote-vergleichen": "Treppenlift-Angebote Position für Position vergleichbar machen: Pflichtangaben-Checkliste, Beispielrechnung mit erfundenen Werten, typische Kostenfallen und Widerrufsrecht vor der Unterschrift.",
     "treppenlift-firmen-vergleich": "Treppenlift-Anbieter anhand von Modellwahl, Service und konkreten Vertragsfragen sachlich vergleichen, ohne Testsieger-Empfehlung.",
     "treppenlift-gebraucht-oder-neu": "Wann ein gebrauchter Treppenlift infrage kommt: Passform, Aufbereitung, Ersatzteile und Vertragsumfang prüfen.",
     "treppenlift-mieten": "Einmal- und Monatskosten, Mindestmietdauer und Pflegekassen-Zuschuss beim Treppenlift-Mieten mit Beispielrechnung.",
@@ -61,7 +62,7 @@ LEGACY_PAGES = {
 }
 
 SECTION_MAP = [
-    ("Treppenlift", ["treppenlift-kosten", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
+    ("Treppenlift", ["treppenlift-kosten", "treppenlift-angebote-vergleichen", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
                      "treppenlift-mieten", "treppenlift-mietwohnung", "treppenlift-zuschuss"]),
     ("Bad barrierefrei umbauen", ["bad-umbau-barrierefrei", "badumbau-angebote-vergleichen",
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),

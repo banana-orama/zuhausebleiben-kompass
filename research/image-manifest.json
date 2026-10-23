@@ -12,6 +12,25 @@
   },
   "images": [
     {
+      "src": "assets/images/angebot-aufbau.svg",
+      "alt": "Schema-Grafik: Aufbau zweier beispielhafter Treppenlift-Angebote mit den Positionen Gerät, Schiene, Montage, Lieferung, Zwischensumme und jährlicher Wartung sowie Hinweisen zu Festpreis und Wartungskosten. Alle Beträge sind erfundene Beispielwerte.",
+      "caption": "Grafik: ZuhauseBleiben Kompass, eigene Darstellung. KI-unterstützt erstellte Schema-Grafik mit erfundenen Beispielwerten, keine Marktdaten.",
+      "provenance": {
+        "type": "original_ai_authored_svg",
+        "creator": "Hermes Agent / OpenAI",
+        "creation_method": "Eigene lokal erstellte SVG-Vektorzeichnung; keine Bildgenerierung aus einer externen Fotovorlage.",
+        "source_material": "Eigene Formen und Texte; Farb- und Schriftkonventionen aus der lokalen design.css. Beispielbeträge frei erfunden und in der Grafik als solche gelabelt.",
+        "external_resources": [],
+        "third_party_images_fonts_logos": false,
+        "rights_note": "Keine fremden Bildvorlagen oder eingebetteten Fremdressourcen. Projektintern erstelltes Asset; keine Behauptung exklusiver Urheberrechte oder einer pauschalen rechtlichen Freigabe rein KI-erzeugter Gestaltung.",
+        "usage": "Ratgeber treppenlift-angebote-vergleichen. Sichtbare KI-/Schema-Kennzeichnung beibehalten; keine Darstellung als Foto, reales Angebot, Kundenreferenz oder Preisangabe."
+      },
+      "limitations": [
+        "Kein echtes Angebot, keine reale Kalkulation, kein Marktpreis.",
+        "Alle Beträge sind erfundene Rechenwerte zur Struktur-Veranschaulichung."
+      ]
+    },
+    {
       "src": "assets/images/zuhause-orientierung.svg",
       "alt": "Wohnschema mit Sitzbereich, Durchgang und Treppe: Alltag verstehen, Wege ansehen und Umbaufragen vor Ort klären.",
       "caption": "KI-Illustration · schematisch. Ein Wohnschema zur ersten Orientierung: Alltagshürden, Wege und mögliche Umbaufragen sammeln.",

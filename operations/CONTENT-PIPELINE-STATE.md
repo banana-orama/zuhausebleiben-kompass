@@ -1,8 +1,19 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-19 (Batch 5). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-23 (Batch 6). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Batch 6 (2026-10-23, Cron-Lauf) — Briefing 1 promoviert
+1. **Neu veröffentlicht:** treppenlift-angebote-vergleichen.json — Promotion des vollständig gegateten
+   Drafts vom 14.10. nach heutiger Re-Verifikation aller Quellen (§ 40 SGB XI 4 180/16 720, 3/5 Wochen;
+   VZ Treppenlifte 13 Claims; VZ BGH I ZR 96/20; Details + Gate-Ergebnisse:
+   research/treppenlift-angebote-vergleichen-batch.md). 20. Ratgeber; Phase 1 damit vollständig live.
+2. **Renderer:** generate.mjs — Draft-Block + DRAFT_PAGES entfernt (URL jetzt in beiden Modi als
+   Artikel); article-renderer.mjs specialMap-Eintrag → treppenlift-zuschuss „Förderung prüfen".
+3. **Testzähler:** test_articles 19→20; test_site-Draft-Sonderfall entfernt; verify_checklists_build
+   (RSS 20 Items, Sitemap enthält Artikel, llms deckt ab); test_partner_links A2 ≥ 20; llms-txt.py
+   SUMMARIES + SECTION_MAP ergänzt.
 
 ### Batch 5 (2026-10-19, Cron-Lauf, Abend) — Briefing 7
 1. **Neu veröffentlicht:** badumbau-angebote-vergleichen.json — Vergleichsmechanik für Badumbau-Angebote (Vergleichsbasis: dieselbe Beschreibung für jeden Betrieb; Positionstabelle Rückbau→Logistik; Abdichtung nach DIN 18534 Neufassung 2025-10 mit W1-I/W2-I und fugenlos=Vereinbarungspflicht; Preisbindung KV vs. Festpreis mit 15–20-%-Hinweisschwelle; Zusatzarbeiten § 650b/650k BGB; Abschläge § 632a BGB; Verjährung § 634a BGB 2/5 Jahre ab Abnahme; 8-Punkte-Fragenliste pro Betrieb). 8 Abschnitte, 6 FAQs, 9 Quellen mit Verbatim-Evidenz (research/badumbau-angebote-ledger.json, 25/25 maschinell verifiziert), Grafik assets/images/badumbau-angebote-vergleich.svg (Chromium-Sichtkontrolle), Protokoll research/badumbau-angebote-vergleichen-batch.md. Keine Marktpreise erfunden; DIN-Angaben als Hersteller-/Fachdarstellung gekennzeichnet; Rechtszahlen nur mit BGB-Quellenbeleg.

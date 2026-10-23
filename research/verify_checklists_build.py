@@ -42,7 +42,7 @@ expected = {"/checklisten/index.html"} | {f"/checklisten/{s}.html" for s in [
     "tuerbreiten-schwellen-schnellcheck", "badumbau-angebote-vergleichen"]}
 have = {u.replace("https://zuhausebleiben-kompass.de", "") for u in check_urls}
 check("sitemap checklist set exact", have == expected, str(have ^ expected))
-check("draft not in sitemap", not any("treppenlift-angebote-vergleichen" in u for u in locs))
+check("promoted briefing-1 article in sitemap", any("treppenlift-angebote-vergleichen" in u for u in locs))
 
 # JSON-LD on the overview parses with schema.org context
 ld_text = re.search(r'<script type="application/ld\+json">(.*?)</script>',
@@ -58,18 +58,18 @@ rss = ET.parse(dist / "rss.xml")
 items = rss.findall(".//item")
 desc = rss.find(".//channel/description").text
 check("rss new description", "im Aufbau. Noch keine" not in desc, desc[:50])
-check("rss has 19 article items", len(items) == 19, str(len(items)))
-check("rss no draft", not any("treppenlift-angebote-vergleichen" in (i.find("link").text or "") for i in items))
+check("rss has 20 article items", len(items) == 20, str(len(items)))
+check("rss includes promoted briefing-1 article", any("treppenlift-angebote-vergleichen" in (i.find("link").text or "") for i in items))
 titles = [i.find("title").text for i in items]
 check("rss includes briefing 9", any("Dusch-WC" in t for t in titles), str(len(titles)))
 
-# llms.txt: all content-ready articles + legacy page, no draft
+# llms.txt: all content-ready articles (incl. promoted briefing 1) + legacy page
 llms = (dist / "llms.txt").read_text()
 ready = sorted(p.stem for p in (root / "content-ready").glob("*.json"))
 missing = [s for s in ready if f"/{s}.html" not in llms]
 check("llms covers all content-ready", not missing, str(missing))
 check("llms legacy page", "/pflegegrad-beantragen.html" in llms)
-check("llms no draft", "treppenlift-angebote-vergleichen" not in llms)
+check("llms includes promoted briefing-1 article", "/treppenlift-angebote-vergleichen.html" in llms)
 
 # Consent/no-loader contract on every checklist page
 for s in ["index", "pflegegrad-antrag-ablauf-fristen", "hilfsmittel-pflegekasse-uebernahme",
