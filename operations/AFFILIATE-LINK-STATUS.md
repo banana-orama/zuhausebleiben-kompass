@@ -1,15 +1,18 @@
 # Affiliate-Link-Status: Warum noch keine Partnerlinks live sind
 
-Stand: 17.10.2026 (nach Betreiber-Frage „können wir nicht schon rauslinken?")
+Stand: 23.10.2026 (Partner-Scan: Rückfalloption dokumentiert, Awin-Fensterdaten öffentlich re-verifiziert)
 
 ## Kurze Antwort
 Nein — **Awin-Erlaubnis ist pro Programm nötig**. Ein Publisher-Konto allein reicht nicht; jeder Advertiser muss die Bewerbung freigeben, erst dann erzeugt Awin Tracker/Links für uns. Vorzeitige Direktlinks ohne Freigabe würden weder tracken noch vergütet werden und verstoßen gegen Liftas Bedingungen (Historie: nur freigegebene Websites, SEM-Verbot; Verstoß = Ausschluss + Storno).
 
-# Programmstatus (17.10. gelesen)
-| Advertiser | Awin-ID | Konditionen (öffentliches Profil) | Unser Status | Nächster Schritt |
+# Programmstatus (23.10. öffentliche Profile re-verifiziert; Bewerbungsstand: Awin-Login 15./17.10.)
+| Advertiser | Netzwerk/ID | Konditionen (öffentlich, 23.10.) | Unser Status | Nächster Schritt |
 |---|---|---|---|---|
-| Lifta DE | 40988 | 50 €/validem Lead, 500 €/Auftrag, 30 d Cookie | **Bewerbung offen** (15.10.) | Zusage abwarten; Nachfassen 22.10. |
-| Malteser DE | 112616 | 10 € CPL Vor-Ort-Beratungstermin; **1 € CPL Infomaterial nur bis 31.10.2026**; 30 d Cookie | **Bewerbung offen** (17.10. abgesendet, Promotion=Content, 923-Zeichen-Nachricht, AGB bestätigt; Readback „Bewerbung offen") | Zusage abwarten; dann Infomaterial-/Beratungstermin-Links in die 2 Hausnotruf-Artikel |
+| Lifta DE | Awin 40988 | 50 €/validem Lead, 500 €/Auftrag, 30 d Cookie (23.10. öffentlich unverändert) | **Bewerbung offen** (15.10.) | Zusage abwarten; Follow-up sendefertig, keychain-blockiert |
+| Malteser DE | Awin 112616 | 10 € CPL Vor-Ort-Beratungstermin; **1 € CPL Infomaterial nur bis 31.10.2026** (23.10. öffentlich bestätigt); 30 d Cookie | **Bewerbung offen** (17.10.) | Zusage abwarten; dann Infomaterial-/Beratungstermin-Links in die 2 Hausnotruf-Artikel |
+| **Pflegehase Hausnotruf** (Backup, antragsfertig) | **ADCELL 10690** | 25,00 €/Lead (Lead = von der Pflegekasse genehmigter Antrag), 60 d Cookie, Freigabe 28/56 Tage | **Noch nicht beworben** — braucht einmalig ADCELL-Publisher-Registrierung (Joint-Controller-Checkbox = Betreiber-Akt) | Betreiber-GO → Registrierung → Bewerbung → Freigabe → partner-links.json + Gate erweitern |
+
+Details + Verwerfungen (Libify tot, Treppenlift-Angebotsvergleich ohne Programm, Treppenlift-ME-Modell passt nicht, lifeo Vor-Ort-Modell, Smartversorgt nur via drittem Netzwerk, Acorn DE als unabhängige Treppenlift-Option dokumentiert): `research/partner-scan-231026.md` (Ledger 43/43 verbatim verifiziert).
 
 ## Malteser-Fenster bewusst nutzen
 1-€-CPL (Informationsmaterial) läuft nur bis 31.10.2026 — jede Woche Zögerung kostet das billigste Einstiegsprodukt. Hausnotruf-Artikel (2× live, gut gerankt auf Long-Tail) passen 1:1 auf die Infomaterial-/Beratungstermin-URLs.
