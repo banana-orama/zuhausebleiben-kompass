@@ -1,0 +1,106 @@
+{
+  "task": "Briefing 11: Treppenlift fuer schmale Treppen (Mindestbreite, Restbreite, Aufmass)",
+  "created": "2026-10-26",
+  "evidence_dir": "research/evidence/schmale-treppe-261026",
+  "notes": [
+    "SERP 26.10.2026: 7+ Konkurrenten zum Topic, Mindestbreiten-Angaben widersprechen sich teils (61 cm vs 70 cm als 'Mindestbreite'); zwei Fachportale aufloesen die Verwirrung mit der Zwei-Fragen-Unterscheidung (Geraetemass vs verbleibende Laufbreite). Unsere Verbesserung: die Aufloesung mit Herstellerdiscrepanz (HIRO 70 cm vs Lifta/TK 80 cm) + Mess- und Fragen-Anker + VZ-Pruefpunkte.",
+    "Herstellerdiscrepanz dokumentiert: HIRO nennt fuer Wohngebaeude bis 2 WE 70 cm, Lifta/TK 80 cm (beides Herstellerangaben). Lifta formuliert 'gesetzlich vorgeschrieben' — wir uebernehmen diese Pauschalaussage NICHT als Fakt, sondern als Herstellerangabe neben der behutsameren Fachportal-Einordnung (MVV TB = Muster, Landesfassung verbindlich).",
+    "Rechts-/Normangaben (DIN 18065, MVV TB) nur als gekennzeichnete Fachportal-/Herstellerdarstellung, nie als Normbestaetigung fuer konkrete Objekte; verbindlich bleibt das Aufmass vor Ort bzw. die Bauordnung des Landes.",
+    "Foerderungen (4.180 Euro Pflegkasse, KfW-455-B-Stopp) werden hier NICHT neu behauptet, sondern nur als Verweis auf den eigenen Zuschuss-Ratgeber; Zahlen dort am 26.10.2026 live verifiziert (foerder-prueflauf)."
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "Verbraucherzentrale: Treppenlifte – das muessen Sie ueber Planung und Umsetzung wissen (abgerufen 26.10.2026)",
+      "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/treppenlifte-das-muessen-sie-ueber-planung-und-umsetzung-wissen-10711",
+      "checked_at": "2026-10-26",
+      "evidence": "schmale-treppe-261026/vz-planung.txt",
+      "quotes": [
+        { "text": "Planung und Umsetzung der teuren Treppenlift-Technik sind nicht zu unterschätzen. Vergleichen Sie Angebote und verschiedene technische Lösungen von Treppenliften miteinander. Pflegebedürftige können Zuschüsse zum Treppenlift erhalten." },
+        { "text": "Lifter lassen sich in fast jedem Treppenhaus installieren. Auch für enge Wendeltreppen gibt es Lösungen. Der Einbau ist jedoch kompliziert und erfordert sorgfältige Planung." },
+        { "text": "Bei Versprechen wie \"Maßanfertigung und Lieferung sofort\" sollten Sie skeptisch werden." },
+        { "text": "Der Treppenlift muss so installiert sein, dass Sie sicher ein- und aussteigen können und ein unbedenklicher Transport möglich ist." },
+        { "text": "Vor dem Einbau sollten Sie daher genau prüfen, ob die baulichen Voraussetzungen gegeben sind: Reicht der Platz zum Ein- und Aussteigen aus? Können Pflegekräfte und andere Hausbewohner:innen weiterhin sicher passieren, gegebenenfalls auch mit einem Rollator? Stimmt die Statik, also ist die Treppe tragfähig? Werden Brandschutzvorschriften eingehalten? Wie sieht es mit Fluchtwegen aus?" },
+        { "text": "Für Gehbehinderte ist ein Sitzlift die passende Lösung. Rollstuhlfahrer benötigen oftmals einen Plattform-Lift." },
+        { "text": "Wenn Sie in einem Mehrparteienhaus wohnen, kann es sein, dass Sie die Zustimmung der Miteigentümer:innen oder des Vermieters brauchen. Je nach Bundesland ist auch eine Baugenehmigung nötig." },
+        { "text": "Je nach Aufwand, etwa durch Treppenverlauf und -länge, kostet der Einbau eines Treppenlifts zwischen 3.500 und 15.000 Euro." },
+        { "text": "Tipp: Reichen Sie den Kostenvoranschlag vor der Umbaumaßnahme bei Ihrer Pflegekasse ein. Mit dem Umbau sollten Sie erst beginnen, nachdem der Antrag bewilligt wurde , sonst bleiben Sie eventuell auf den Kosten sitzen." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Treppenliftwissen: Treppenlift fuer schmale Treppen – Welche Breite reicht? (Fachportal-Erhebung, Erhebung 07.10.2026, Seite aktualisiert Oktober 2026; abgerufen 26.10.2026)",
+      "url": "https://www.treppenliftwissen.de/treppenlift/schmale-treppe/",
+      "checked_at": "2026-10-26",
+      "evidence": "schmale-treppe-261026/tlw-schmale-treppe.txt",
+      "quotes": [
+        { "text": "Weil viele Ratgeber beide Maße vermischen, kursieren im Netz Angaben zwischen 61 und 100 cm." },
+        { "text": "Gerätemaß: Hersteller nennen für einzelne Sitzlifte 61 bis 77 cm Mindestbreite (Stand: 07.10.2026); Lifta und HIRO veröffentlichen kein Gerätemaß." },
+        { "text": "HIRO nennt für Wohngebäude mit bis zu 2 Wohneinheiten 70 cm, Lifta und TK Home Solutions nennen für Ein- und Zweifamilienhäuser 80 cm; für Häuser mit mehr Wohneinheiten nennen alle 3 Hersteller 100 cm ." },
+        { "text": "Im Treppenhaus darf die Schiene 100 cm Laufbreite nur unwesentlich einengen, neben dem hochgeklappten Sitz müssen 60 cm frei bleiben (MVV TB, Muster)." },
+        { "text": "Bei Leerfahrten muss der Sitz hochgeklappt sein, daneben müssen 60 cm Restlaufbreite frei bleiben ." },
+        { "text": "Die MVV TB ist ein Muster, verbindlich ist die Fassung Ihres Bundeslandes; Einzelheiten können abweichen." },
+        { "text": "Verbindlich ist keine dieser Zahlen. Den Ausschlag gibt das Aufmaß an Ihrer Treppe, bei dem der Fachbetrieb die engste Stelle, die Kurven und den Platz am Start und am Ziel aufnimmt." },
+        { "text": "Messen Sie nicht in der Mitte des Laufs, sondern an der engsten Stelle. Das ist oft das Treppenauge in der Kurve, ein Handlauf, ein Heizkörper, eine Fensterbank oder eine Türzarge am Treppenkopf." },
+        { "text": "Gemessen wird von der Wand bis zur Innenkante des Handlaufs oder Geländers, also die Breite, die man tatsächlich begehen kann." },
+        { "text": "Access BDD gibt für den Flow X eine Treppenneigung bis 72° an, Lehner für den NEO eine Steigung bis 70°." },
+        { "text": "Bei sehr steilen Treppen wird oft der Ein- und Ausstieg oben zum Engpass, weniger die Fahrt selbst." },
+        { "text": "Ein Stehlift braucht weniger Tiefe, setzt aber voraus, dass die Person während der Fahrt sicher stehen kann." },
+        { "text": "Liegt unten am Treppenfuß eine Tür oder ein Flur, kann eine Klappschiene das Schienenende aus dem Weg nehmen ." },
+        { "text": "Für die Klappschiene haben wir keinen veröffentlichten Aufpreis gefunden; lassen Sie ihn im Angebot einzeln ausweisen." },
+        { "text": "hochgeklappt beansprucht ein Sitzlift laut Herstellerangaben rund 31 bis 34 cm ab Wand (Acorn 130 und 180)." },
+        { "text": "Lifta nennt für Plattformlifte 90 bis 110 cm Treppenbreite und 120 bis 140 cm freie Fläche vor der ersten Stufe." },
+        { "text": "Unter etwa 61 cm hat keiner der erfassten Hersteller einen Sitzlift-Wert veröffentlicht." },
+        { "text": "Die Preislisten der Hersteller unterscheiden nach Treppenform, Etagen und Einbauort, nicht nach Treppenbreite." },
+        { "text": "Dann bleiben Wege wie ein mobiler Treppensteiger , ein Lift an der Decke oder ein Homelift neben der Treppe." },
+        { "text": "Keinen der Lifte haben wir selbst eingebaut oder gefahren." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Altersgerecht Modernisieren: Treppenlift fuer schmale Treppen – Mindestbreite & Kosten (17.08.2026; abgerufen 26.10.2026)",
+      "url": "https://altersgerecht-modernisieren.de/treppenlift/schmale-treppen/",
+      "checked_at": "2026-10-26",
+      "evidence": "schmale-treppe-261026/am-schmale-treppen.txt",
+      "quotes": [
+        { "text": "Wer nach der Mindestbreite sucht, findet 61, 65, 70, 80 und 100 Zentimeter — je nach Seite. Diese Angaben widersprechen sich nicht. Sie beantworten zwei verschiedene Fragen, und wer sie durcheinanderbringt, hält seine Treppe für ungeeignet, obwohl sie es nicht ist." },
+        { "text": "Zwei Zahlen werden ständig verwechselt: die technische Mindestbreite, ab der ein Lift montierbar ist, und die Laufbreite, die daneben frei bleiben muss. Nur die zweite ist eine Rechtsfrage." },
+        { "text": "61 Zentimeter ist die schmalste Treppenbreite, für die ein Hersteller eine belegte Mindestangabe macht — der SANIMED 70 EXTRA." },
+        { "text": "Die maßgebliche Treppennorm DIN 18065 in der Ausgabe von August 2020 verlangt für notwendige Treppen eine nutzbare Laufbreite von mindestens 800 Millimetern in Wohngebäuden mit bis zu zwei Wohnungen und 1.000 Millimetern in Gebäuden allgemein" },
+        { "text": "Nicht am Antritt messen, sondern an der engsten Stelle des Laufs." },
+        { "text": "Bei gewendelten Treppen liegt die engste Stelle fast immer im Kurvenbereich, nicht auf der Geraden — dort also den Zollstock ansetzen." },
+        { "text": "Ein Wert, der zehn Zentimeter zu großzügig gemessen ist, kippt die ganze Planung." },
+        { "text": "Lifta veröffentlicht für den Esprit keine, nennt aber allgemein 80 Zentimeter für Sitzlifte an kurvigen Treppen — fast zwanzig Zentimeter mehr." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Lifta (Hersteller): Treppenlift fuer schmale Treppen – Einbau & Modelle (Herstellerangabe; abgerufen 26.10.2026)",
+      "url": "https://www.lifta.de/treppenlift/schmale-treppe",
+      "checked_at": "2026-10-26",
+      "evidence": "schmale-treppe-261026/lifta-schmale-treppe.txt",
+      "quotes": [
+        { "text": "Die gute Nachricht vorab: Ein Treppenlift lässt sich in den meisten Fällen auch auf schmalen Treppen problemlos installieren." },
+        { "text": "Je nach Gebäudetyp liegt die erforderliche Mindestbreite zwischen 80 cm (in Ein- und Zweifamilienhäusern) und 100 cm (in Mehrfamilienhäusern mit mehr als zwei Wohneinheiten) und ist aus brandschutztechnischen Gründen gesetzlich vorgeschrieben. So ist sichergestellt, dass die Treppe weiterhin als Fluchtweg genutzt werden kann." },
+        { "text": "Für den sicheren Ein- und Ausstieg sollte an beiden Endpunkten des Lifts ausreichend Bewegungsfläche vorhanden sein." },
+        { "text": "Je nach Nutzung müssen zwischen 90 und 110 cm Breite sowie ausreichend Platz vor der ersten Stufe vorhanden sein, damit Sie mit dem Rollstuhl bequem und sicher manövrieren können." },
+        { "text": "Gerade bei schmalen Treppen ist eine maßgeschneiderte Lösung entscheidend. Die Führungsschiene wird millimetergenau geplant, damit sie sich perfekt an die Treppe anpasst – auch bei Kurven oder Podesten." },
+        { "text": "Der Lift wird an eine haushaltsübliche Steckdose angeschlossen. Diese sollte möglichst in der Nähe vorhanden sein." },
+        { "text": "Reicht die vorhandene Breite der Treppe nicht für den sicheren Einbau eines Sitz- oder Rollstuhllifts aus, bietet ein Hauslift eine mögliche Alternative ." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "HIRO LIFT (Hersteller): Treppenlift-Preise – Welche Kosten auf Sie zukommen (Herstellerangabe; abgerufen 26.10.2026)",
+      "url": "https://hiro.de/preise/",
+      "checked_at": "2026-10-26",
+      "evidence": "schmale-treppe-261026/hiro-preise.txt",
+      "quotes": [
+        { "text": "Die Preise für einen Treppenlift hängen maßgeblich von der Treppenform, der Etagenanzahl und dem Einbauort ab." },
+        { "text": "Für eine einfache Anlage beginnen die Preise bei etwa 4.000 Euro. Wird die Strecke kurvig oder über mehrere Stockwerke geführt, steigen die Kosten entsprechend an." },
+        { "text": "Mit Kosten zwischen 11.000 und 38.000 Euro müssen Sie für Plattformlifte rechnen." },
+        { "text": "Die Preise für Treppenlifte starten je nach Liftart und Einbauvariante ab ca. 4.000 Euro. Sitzlifte sind kostengünstiger, da ihre Konstruktion weniger aufwendig ist als die von Plattform- oder Homeliften." }
+      ]
+    }
+  ]
+}

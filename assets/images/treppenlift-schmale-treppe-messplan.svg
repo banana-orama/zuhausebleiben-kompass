@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 680" width="980" height="680" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Messplan fuer eine schmale Treppe vor dem Treppenlift-Aufmass</title>
+  <desc id="gdesc">Schema in Draufsicht: Wand links, Handlauf rechts. Gemessen wird die lichte Weite von der Wand bis zur Innenkante des Handlaufs an der engsten Stelle, beim gewendelten Verlauf im Kurvenbereich. Der eingeklappte Sitzlift beansprucht laut Herstellerangaben rund 31 bis 34 Zentimeter ab Wand; daneben soll die Treppe begehbar bleiben. Weitere Pruefpunkte sind der Platz vor der untersten und hinter der obersten Stufe sowie der Abstand zur Steckdose. Alle Zahlen sind Hersteller- oder Fachportalangaben mit Stand 26.10.2026; das Aufmass vor Ort entscheidet.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .cardhead{font-size:16px;font-weight:700;fill:#194533}
+    .item{font-size:13.5px;fill:#243b35}
+    .dim{font-size:13px;font-weight:600;fill:#194533}
+    .fine{font-size:12.5px;fill:#53655e}
+    .warn{font-size:13px;font-weight:600;fill:#6b4d13}
+    .step{stroke:#c3cdc5;stroke-width:2}
+    .wall{fill:#cdd8cf}
+    .rail{stroke:#6f8a7c;stroke-width:6;fill:none;stroke-linecap:round}
+    .dimline{stroke:#194533;stroke-width:1.6}
+    .tick{stroke:#194533;stroke-width:1.6}
+    .leader{stroke:#8aa094;stroke-width:1.4;fill:none}
+    .lift{fill:#4d7d68}
+    .lifthead{font-size:11.5px;font-weight:700;fill:#ffffff}
+    .mark{fill:#b34a3a}
+  </style>
+
+  <rect width="980" height="680" fill="#ffffff"/>
+  <text class="h" x="60" y="52">Schmale Treppe: drei Messwerte vor dem Aufmass</text>
+  <text class="sub" x="60" y="78">Eigene Vormessung als Vorbereitung — das Aufmass des Fachbetriebs entscheidet.</text>
+
+  <!-- Plan view (Draufsicht) -->
+  <rect x="60" y="104" width="470" height="440" rx="10" fill="#f4f7f4" stroke="#d8dfd6"/>
+  <text class="fine" x="80" y="128">Schema: Draufsicht auf den Treppenlauf (Wand links, Handlauf rechts)</text>
+
+  <!-- wall -->
+  <rect class="wall" x="100" y="150" width="16" height="360"/>
+  <!-- steps -->
+  <line class="step" x1="116" y1="170" x2="452" y2="170"/>
+  <line class="step" x1="116" y1="206" x2="470" y2="206"/>
+  <line class="step" x1="116" y1="242" x2="484" y2="242"/>
+  <line class="step" x1="116" y1="278" x2="492" y2="278"/>
+  <line class="step" x1="116" y1="314" x2="494" y2="314"/>
+  <line class="step" x1="116" y1="350" x2="490" y2="350"/>
+  <line class="step" x1="116" y1="386" x2="480" y2="386"/>
+  <line class="step" x1="116" y1="422" x2="462" y2="422"/>
+  <!-- handrail curve (Treppenauge unten) -->
+  <path class="rail" d="M446 150 C 500 220, 502 300, 492 316 C 480 380, 420 452, 300 470"/>
+  <!-- engste Stelle marker -->
+  <circle class="mark" cx="492" cy="316" r="7"/>
+  <path class="leader" d="M492 316 C 430 336, 380 350, 330 350"/>
+  <text class="item" x="326" y="344" text-anchor="end" font-weight="600">Engste Stelle:</text>
+  <text class="item" x="326" y="360" text-anchor="end">Treppenauge im Kurvenbereich</text>
+
+  <!-- dimension 1: lichte Weite -->
+  <line class="dimline" x1="116" y1="192" x2="468" y2="192"/>
+  <line class="tick" x1="116" y1="184" x2="116" y2="200"/>
+  <line class="tick" x1="468" y1="184" x2="468" y2="200"/>
+  <text class="dim" x="292" y="186" text-anchor="middle">Lichte Weite: Wand bis Innenkante Handlauf</text>
+
+  <!-- folded lift -->
+  <rect class="lift" x="116" y="242" width="34" height="108"/>
+  <text class="lifthead" x="133" y="300" text-anchor="middle" transform="rotate(-90 133 300)">LIFT GEKLAPPT</text>
+
+  <!-- dimension 2: Klappmass -->
+  <path class="leader" d="M116 420 L 116 448 L 186 448"/>
+  <text class="item" x="192" y="440">Klappmass ab Wand:</text>
+  <text class="item" x="192" y="456" font-weight="600">rund 31–34 cm (Herstellerangabe)</text>
+
+  <!-- dimension 3: Restlaufbreite -->
+  <line class="dimline" x1="150" y1="508" x2="478" y2="508"/>
+  <line class="tick" x1="150" y1="500" x2="150" y2="516"/>
+  <line class="tick" x1="478" y1="500" x2="478" y2="516"/>
+  <text class="dim" x="314" y="530" text-anchor="middle">Restlaufbreite daneben: begehbar halten</text>
+
+  <!-- right cards -->
+  <rect x="556" y="104" width="364" height="130" rx="10" fill="#ffffff" stroke="#d8dfd6"/>
+  <text class="cardhead" x="576" y="134">1 · Engste Stelle messen</text>
+  <text class="item" x="576" y="158">Lichte Weite von der Wand bis zur</text>
+  <text class="item" x="576" y="176">Innenkante des Handlaufs; bei der</text>
+  <text class="item" x="576" y="194">Wendeltreppe im Kurvenbereich.</text>
+  <text class="fine" x="576" y="218">Nicht am Antritt und nicht in der Laufmitte messen.</text>
+
+  <rect x="556" y="252" width="364" height="130" rx="10" fill="#ffffff" stroke="#d8dfd6"/>
+  <text class="cardhead" x="576" y="282">2 · Klappmass und Restbreite</text>
+  <text class="item" x="576" y="306">Eingeklappt: laut Herstellerangaben rund</text>
+  <text class="item" x="576" y="324">31–34 cm ab Wand. Daneben genug Platz</text>
+  <text class="item" x="576" y="342">fuer alle, die die Treppe noch zu Fuss nutzen.</text>
+  <text class="fine" x="576" y="366">Mehrfamilienhaus: Restlaufbreite regelt das Landesrecht.</text>
+
+  <rect x="556" y="400" width="364" height="130" rx="10" fill="#ffffff" stroke="#d8dfd6"/>
+  <text class="cardhead" x="576" y="430">3 · Aufmass terminieren</text>
+  <text class="item" x="576" y="454">Platz vor der untersten und hinter der</text>
+  <text class="item" x="576" y="472">obersten Stufe, Tueren und Heizkoerper,</text>
+  <text class="item" x="576" y="490">Abstand zur naechsten Steckdose notieren.</text>
+  <text class="fine" x="576" y="514">Ihre Werte sind die Vorauswahl, nicht die Entscheidung.</text>
+
+  <rect x="556" y="548" width="364" height="86" rx="10" fill="#f7f3e6" stroke="#e3d9b8"/>
+  <text class="warn" x="576" y="576">Alle Zahlen: Hersteller- oder Fachportal-</text>
+  <text class="warn" x="576" y="594">angaben (Stand 26.10.2026). Verbindlich</text>
+  <text class="warn" x="576" y="612">ist nur das Aufmass an Ihrer Treppe.</text>
+
+  <text class="fine" x="60" y="664">Grafik: ZuhauseBleiben Kompass · schematisch, KI-unterstuetzt · keine technische Diagnose fuer ein konkretes Gebaeude</text>
+</svg>

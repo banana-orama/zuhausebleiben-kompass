@@ -1,8 +1,32 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-26 (Batch 7). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-26 (Batch 8). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Batch 8 (2026-10-26, Cron-Lauf, Abend) — Briefing 11: Schmale Treppe
+1. **Neu veröffentlicht:** treppenlift-schmale-treppe.json — Treppenlift auf schmaler Treppe:
+   Zwei-Fragen-Trennung (Gerätemindestbreite 61–77 cm laut Fachportal-Erhebung 07.10.2026 vs.
+   verbleibende Laufbreite), Herstellerdiskrepanz dokumentiert (HIRO 70 cm vs. Lifta/TK 80 cm,
+   ≤ 2 Wohneinheiten; alle 100 cm MFH), Restbreite 60 cm als MVV-TB-Musterangabe mit
+   Landesfassung-Vorbehalt, DIN 18065 (800/1.000 mm) als Fachportalangabe, Messregeln +
+   Aufmaß-Checkliste, Alternativen (Stehlift, Plattformlift 90–110 cm, Treppensteiger,
+   Deckenlift, Hauslift), Preisdifferenzierung nach Treppenform statt Breite. 10 Abschnitte,
+   6 FAQs, 5 Quellen (VZ, 2 Fachportale mit Methodik, Lifta + HIRO als Herstellerangaben),
+   53/53 Zitate verbatim (research/schmale-treppe-261026-ledger.json), Grafik
+   assets/images/treppenlift-schmale-treppe-messplan.svg (Sichtkontrolle: 0 viewBox-Overflows,
+   Vision-Probe sauber), Protokoll research/treppenlift-schmale-treppe-batch.md. 22. Ratgeber;
+   Förderbeträge bewusst nur als Verweis auf treppenlift-zuschuss.
+2. **Renderer:** article-renderer.mjs specialMap +1 (Early-CTA „Anbieter für Aufmaß vergleichen“
+   → treppenlift-firmen-vergleich). llms-txt.py SUMMARIES + SECTION_MAP erweitert.
+3. **Testzähler:** test_articles 21→22; verify_checklists_build RSS 21→22 Items;
+   test_partner_links A2 ≥ 22. Neu: research/verify_schmale_treppe_content_261026.py
+   (Content-Support-Gate, 88 Checks, tags/citation-normalisierte Fließtextvergleiche —
+   sup-Anker brechen naive Vergleiche) + research/verify_schmale_treppe_261026.py
+   (Ledger/Arithmetik 53/53).
+4. **Topic-Gates dokumentiert:** Wartung (post-purchase, 10+ Konkurrenten), Einbau-Ablauf
+   (dicht besetzt), Pflegegrad-Widerspruch (VZ-Dominanz) verworfen; schmale Treppe gewählt
+   (kaufnah, intent-distinct, SERP-Widersprüche als Verbesserungslücke).
 
 ### Batch 7 (2026-10-26, Cron-Lauf) — Briefing 10: Steuer-Route
 1. **Neu veröffentlicht:** treppenlift-steuerlich-absetzen.json — § 35a EStG (20 % der Arbeitskosten,

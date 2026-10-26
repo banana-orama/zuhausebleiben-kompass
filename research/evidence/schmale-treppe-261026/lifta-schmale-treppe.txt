@@ -1,0 +1,590 @@
+Treppenlift für schmale Treppen: Einbau & Modelle | Lifta
+{
+this.isMainNavigationOpen = !this.isMainNavigationOpen;
+}, delay);
+}
+if (navigationFlag === 'isContactNavigationOpen') {
+this.isMainNavigationOpen = false;
+this.isSearchNavigationOpen = false;
+setTimeout(() => {
+this.isContactNavigationOpen = !this.isContactNavigationOpen;
+}, delay);
+}
+if (navigationFlag === 'isSearchNavigationOpen') {
+this.isMainNavigationOpen = false;
+this.isContactNavigationOpen = false;
+setTimeout(() => {
+this.isSearchNavigationOpen = !this.isSearchNavigationOpen;
+}, delay);
+}
+setTimeout(() => {
+if (this.isMainNavigationOpen || this.isContactNavigationOpen || this.isSearchNavigationOpen) {
+window.documentScrollingStatus = true;
+this.$dispatch('toggle-document-scrolling');
+}
+if (!this.isMainNavigationOpen && !this.isContactNavigationOpen && !this.isSearchNavigationOpen) {
+window.documentScrollingStatus = false;
+this.$dispatch('toggle-document-scrolling');
+}
+}, delay + 50);
+}
+}"
+@resize.window="navigationsHeight = window.innerHeight - menuHeightPx; menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;"
+@close-main-navigation.window="closeNavigation();"
+x-init="
+menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;
+navigationsHeight = window.innerHeight - menuHeightPx;
+/**toggleNavigation('isMainNavigationOpen')**/;
+"
+>
+Treppenlifte
+Hauslifte
+Rollstuhllifte
+0800 20 33 150
+24/7 für Sie da
+Suche
+Menü
+0800 20 33 150
+Jetzt Kontakt aufnehmen
+(24 Std. täglich, kostenlos)
+{ if (value) { $el.style.height = navigationsHeight + 'px'; } else { $el.style.height = '0px'; } });
+$el.style.height = '0px';
+"
+@resize.window="if (isMainNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+Lifta in Ihrer Nähe
+Lifta Index-Studie 2026
+{ $refs.wrapper.scrollLeft = 840 }, 500);
+"
+class="bg-white min-h-full"
+>
+Schließen
+Treppenlifte
+Mehr
+Hauslifte
+Mehr
+Rollstuhllifte
+Mehr
+Liftarten Entscheidungshilfe
+Preise
+Mehr
+Zuschüsse
+Mehr
+Service
+Mehr
+Ratgeber
+Mehr
+Kontakt
+Mehr
+Lifta Index-Studie
+Lifta Magazin
+Zurück
+Schließen
+Alles rund um Treppenlifte
+Unsere Treppenlift-Modelle
+Lifta Avantgarde
+Lifta Luxor
+Lifta Esprit
+Lifta Klassik
+Lifta Außenlifte
+Treppenlifte nach Einbausituationen
+Treppenlifte für gerade Treppen
+Treppenlifte für kurvige Treppen
+Treppenlifte für Wendeltreppen
+Treppenlifte für Podesttreppen
+Treppenlifte für Mehrfamilienhäuser
+Treppenlifte für den Außenbereich
+Alle Hauslifte
+Lifta Midi
+Lifta Maxi
+Alle Rollstuhllifte
+Plattformlifte
+Hublifte
+Rollstuhllifte für öffentliche Gebäude
+Unsere Treppenlift-Preise
+Treppenlift-Preisrechner
+Treppenlift mieten
+Weitere Finanzierungsmöglichkeiten
+Mögliche Treppenlift-Zuschüsse
+KfW-Förderungen 2026
+Treppenlift & Krankenkasse
+Treppenlift von der Steuer absetzen
+Alle Lifta Serviceleistungen
+Unverbindliche Beratung
+Fachkundiger Einbau Ihres Lifts
+Regelmäßige Wartung
+Hilfe bei Fehlermeldungen
+Schneller Reparatur-Service
+Umzug Ihres Liftes
+Rückkauf und Rücknahme Ihres Lifts
+Alle Ratgeber-Themen
+So funktioniert ein Treppenlift
+Der Treppenlift-Kaufprozess erklärt
+Den richtigen Treppenlift-Anbieter finden
+Tipps zum Treppenlift-Vergleich
+Alternativen zum Treppenlift
+Treppenlift-Bilder und Einbaubeispiele
+Lifta in Ihrer Nähe
+Telefonische Beratung
+Termin vereinbaren
+Infopaket
+{ if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+$el.style.height = '0px';
+"
+@resize.window="if (isContactNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+Schließen
+Wir sind rund um die Uhr für Sie da!
+0800 20 33 150
+(24 Std. täglich, kostenlos)
+response.json())
+.then(data => {
+$refs.name.innerHTML = data.payload.name;
+$refs.contactimage.src = data.payload.image;
+$refs.contactimage.alt = data.payload.name;
+$refs.contactimage.title = data.payload.position;
+$dispatch('contact-loaded', data)
+});">
+Lifta Berater für Ihre Region
+Jetzt kostenlos beraten lassen
+In Ihrer Nähe
+Infopaket
+Termin vor Ort
+{ if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+$el.style.height = '0px';
+"
+@resize.window="if (isSearchNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+3) {
+window.dataLayer.push({
+'site_search_search_phrase': this.searchWord,
+'event': 'site_search_used'
+});
+}
+this.searchPages.search(this.searchWord, {
+limit: 3,
+matchingStrategy: 'last',
+}).then((response) => {
+this.searchResultsPages = response.hits;
+});
+if ('1' === '1') {
+this.searchPosts.search(this.searchWord, {limit: 3}).then((response) => {
+this.searchResultsPosts = response.hits;
+});
+}
+let possibleCities = this.searchWord.split(' ');
+for (let i = 0; i {
+if (response.hits.length === 1) {
+this.searchResultsConsultantsCity = response.hits[0].city;
+this.user_settings_city = response.hits[0].city;
+this.user_settings_postal_code = response.hits[0].zip;
+this.searchConsultant.search(
+'',
+{
+limit: 1,
+sort: [
+'_geoPoint(' + response.hits[0].lat + ',' + response.hits[0].lng + '):asc'
+]
+}
+).then(
+(consultantData) => {
+if (consultantData && consultantData.hits.length > 0) {
+this.searchResultsConsultants = consultantData.hits;
+}
+}
+)
+}
+}
+);
+}
+},
+trackResultClick(url) {
+if (window.dataLayer) {
+window.dataLayer.push({
+'site_search_search_phrase': this.searchWord,
+'site_search_clicked_url': url,
+'event': 'site_search_clicked'
+});
+}
+window.location.href = url;
+}
+}"
+>
+Schließen
+0"
+xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
+0 || searchResultsPosts.length > 0 || searchResultsConsultants.length > 0"
+x-transition.opacity
+>
+0">
+Berater
+Ihr Treppenlift Berater in Ortsname
+Lifta Berater:in für Ihre Region
+Zu
+Ihrem persönlichen Berater
+Zu
+Ihrem persönlichen Berater
+0">
+Seiten
+0">
+Magazin
+Leider kein Suchergebnis
+gefunden
+Hier finden Sie häufig
+gesuchte
+Begriffe:
+0) ? window.innerWidth : screen.width;
+isSliderActive = 768 > screenwidth;
+if (isSliderActive) {window.setInterval(() => { $dispatch('value-bars-slider-next', { nextimg: true })}, 3000);}"
+@value-bars-slider-next.window="activeImg = ((activeImg + 1) % countImgs);"
+>
+TÜV-geprüfte Kundenzufriedenheit
+Trusted Shops Bewertung: { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Focus Money Preis-Sieger
+Treppenlift für schmale Treppen
+Gerade in älteren Häusern oder engen Fluren stellt sich vielen die Frage: Ist ein Treppenlift bei wenig Platz überhaupt machbar? Die gute Nachricht: Auch für schmale Treppen gibt es passende Lösungen. Wir zeigen Ihnen Treppenlifte , die speziell für enge Treppenverläufe entwickelt wurden – und Alternativen, falls der Einbau doch nicht möglich ist. Erfahren Sie, worauf es bei der Planung ankommt und welche baulichen Vorgaben gelten.
+Kostenloses Infopaket bestellen
+Was macht einen Treppenlift für schmale Treppen aus?
+Schmale Treppen erfordern kompakte Lösungen, die den vorhandenen Platz optimal ausnutzen und dennoch komfortabel sind. Treppenlifte für schmale Treppen zeichnen sich durch eine besonders platzsparende Bauweise aus und werden passgenau an den Treppenverlauf angepasst – ob gerade, kurvig oder mit Zwischenpodest.
+Typische Merkmale für den Einsatz auf schmalen Treppen:
+Kompakte Schienenführung : Spezielle Modelle für enge Treppenhäuser verfügen über besonders schmale Schienen, die bei der Installation möglichst wenig Platz einnehmen.
+Klappbare Elemente : Sitzfläche, Armlehnen und Fußstütze lassen sich bei Nichtbenutzung hochklappen hochklappen – so bleibt die Treppe weiterhin begehbar.
+Individuelle Maßanfertigung : Die Schiene wird exakt an die Treppenform angepasst. Das gilt für gerade und kurvige Treppen sowie Treppen mit Podest.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Unsere Lifta Sitzlifte für schmale Treppen
+Unsere drei Sitzlift-Modelle bieten auch bei wenig Platz zuverlässige Mobilität. Dabei unterscheiden sich die Treppenlifte in Bauweise, Design sowie Ausstattung und lassen sich individuell an Ihre Treppensituation und Wünsche anpassen.
+Lifta Esprit
+Spezialist für schmale und kurvige Treppen
+Schlanke Einrohrschiene mit nur 6 cm Durchmesse
+Prämiertes Design und dezente Optik
+Zum Modell Esprit
+Lifta Avantgarde
+Kombiniert innovative Lifttechnik und Design
+Höchster Komfort durch intelligente Details
+Besonders hohe Sicherheit durch Gewichtssensor
+Zum Modell Avantgarde
+Lifta Klassik
+Sehr hohe Belastbarkeit des Lifts bis 160 kg
+Solide Konstruktion mit ausgereifter Technik
+Intuitive und robuste Bedienung
+Zum Modell Klassik
+Lifta Luxor
+Ruhige, harmonische Fahrt dank intelligenter Steuerung
+Premium-Optik mit zeitlosem Design
+Edle Materialien mit langlebiger Verarbeitung
+Zum Modell Luxor
+Alle Lifta-Modelle entdecken
+Rollstuhlfreundliche Alternative zum Sitzlift: Plattformlifte für schmale Treppen
+Nicht jeder Treppenlift ist für die Nutzung mit dem Rollstuhl geeignet. Wer dauerhaft auf einen Rollstuhl oder eine Gehhilfe angewiesen ist, benötigt eine barrierefreie Lösung ohne Umstieg. Plattformlifte bieten genau das – sie transportieren Rollstuhlfahrer samt Hilfsmittel sicher über die Etagen. Bei schmalen Treppen ist der Einbau zwar anspruchsvoller, aber unter bestimmten Voraussetzungen dennoch möglich.
+Zu den Lifta Plattformliften
+Deutschlands dichtestes Servicenetz
+Finden Sie Ihren Lifta Berater
+Jetzt Berater in der Nähe finden (PLZ)
+Berater in der Nähe (PLZ)
+Ihre Postleitzahl
+Leider keine Ergebnis gefunden. Bitte prüfen Sie Ihre Eingabe.
+0"
+class="p-15 absolute z-20 left-0 right-0 top-[50px] md:top-[58px] text-primary rounded bg-white shadow-small"
+>
+Lifta Berater:in für Ihre Region
+Zu
+Ihrem persönlichen Berater
+Beratungsleistungen des Beraters:
+Machbarkeit auf Ihrer Treppe
+Preise unserer Treppenlifte
+Zuschüsse für Ihre Region
+Technik & Service
+Persönlicher Service und bestmögliche Beratung liegen uns am Herzen. Auch für Ihre Region stehen kompetente Fachexperten von Lifta zur Verfügung.
+Einbau auf schmalen Treppen: Was gibt es zu beachten?
+Die gute Nachricht vorab: Ein Treppenlift lässt sich in den meisten Fällen auch auf schmalen Treppen problemlos installieren. Der Einbau erfordert jedoch besondere Sorgfalt, da der verfügbare Platz begrenzt ist. Außerdem gibt es gesetzliche Vorgaben, zum Beispiel eine vorgeschriebene Mindestbreite der Treppe.
+Treppenbreite : Die Mindestbreite entscheidet darüber, ob ein Sitzlift installiert werden kann. Je nach Gebäudetyp liegt die erforderliche Mindestbreite zwischen 80 cm (in Ein- und Zweifamilienhäusern) und 100 cm (in Mehrfamilienhäusern mit mehr als zwei Wohneinheiten) und ist aus brandschutztechnischen Gründen gesetzlich vorgeschrieben. So ist sichergestellt, dass die Treppe weiterhin als Fluchtweg genutzt werden kann.
+Montageseite : Normalerweise wird das Schienensystem direkt auf den Stufen auf der Innenseite der Treppe montiert. In Ausnahmefällen kann eine Wandmontage an der Außenseite in Betracht gezogen werden. Die Entscheidung hängt vom Treppenverlauf, vorhandenen Türöffnungen oder dem verfügbaren Platz ab.
+Platz am Treppenanfang und -ende : Für den sicheren Ein- und Ausstieg sollte an beiden Endpunkten des Lifts ausreichend Bewegungsfläche vorhanden sein.
+Stromanschluss : Der Lift wird an eine haushaltsübliche Steckdose angeschlossen. Diese sollte möglichst in der Nähe vorhanden sein.
+Maßanfertigung : Gerade bei schmalen Treppen ist eine maßgeschneiderte Lösung entscheidend. Die Führungsschiene wird millimetergenau geplant, damit sie sich perfekt an die Treppe anpasst – auch bei Kurven oder Podesten.
+Bauliche Voraussetzungen für den Einbau eines Rollstuhllifts
+Im Vergleich zu einem klassischen Sitzlift benötigt ein Rollstuhllift – dazu zählen Plattform- und Hublifte – etwas mehr Platz. Dennoch sind aufwändige Umbaumaßnahmen meist nicht erforderlich und die Lifte problemlos nachrüstbar . Wie bei Sitzliften, sind auch bei Plattformliften die Treppenform und -breite entscheidend: Je nach Nutzung müssen zwischen 90 und 110 cm Breite sowie ausreichend Platz vor der ersten Stufe vorhanden sein, damit Sie mit dem Rollstuhl bequem und sicher manövrieren können. Eine individuelle Prüfung vor Ort schafft Klarheit darüber, ob ein Rollstuhllift für Sie infrage kommt.
+Mehr zum Treppenlift-Einbau
+Wenn die Treppe zu schmal ist: Hauslift oder Hublift als Alternativen
+Reicht die vorhandene Breite der Treppe nicht für den sicheren Einbau eines Sitz- oder Rollstuhllifts aus, bietet ein Hauslift eine mögliche Alternative . Der Mini-Aufzug wird unabhängig von der Treppe installiert, überwindet ein bis zwei Etagen und eignet sich auch für Menschen im Rollstuhl – ideal für barrierefreies Wohnen, selbst bei sehr engen Platzverhältnissen.
+Falls nur geringe Höhen überwunden werden müssen, sind Sie mit einem Hublift gut bedient. Er wird meist neben den Stufen installiert und braucht nur eine Stellfläche von rund 2 m².
+Zu den Lifta Hausliften
+Zu den Lifta Hubliften
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Was kostet ein enger Treppenlift für schmale Treppen?
+Die Kosten für einen Treppenlift auf schmalen Treppen lassen sich nicht pauschal beziffern, da sie stark von den baulichen Gegebenheiten und der gewählten Ausstattung abhängen. Einfluss auf den Preis hat unter anderem die Treppenform, das Modell und der Aufwand bei Planung und Montage.
+Ein einfacher Sitzlift für eine gerade Treppe beginnt in der Regel bei rund 5.500 Euro. Kurvige Treppen oder besondere Einbausituationen können die Kosten allerdings erhöhen. Sie können jedoch in vielen Fällen von Zuschüssen profitieren, zum Beispiel durch die Pflegekasse (rund 4.180 Euro pro Person mit Pflegegrad) oder regionale Förderprogramme. Ein individuelles Angebot nach einer Vor-Ort-Beratung bringt Klarheit über die individuellen Kosten.
+Mehr zu den Treppenlift-Kosten
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Vor- und Nachteile eines Treppenlifts für schmale Treppen
+Ein Treppenlift bietet eine zuverlässige Möglichkeit, Barrieren im eigenen Zuhause zu überwinden – auch wenn der Platz begrenzt ist. Dennoch gibt es einige Punkte, die Sie bedenken sollten.
+Vorteile:
+Auch auf engen Treppen problemlos einsetzbar
+Klappbare Sitz- und Fußteile sparen bei Nichtgebrauch Platz
+Auch für kurvige oder verwinkelte Treppen mit geringer Breite geeignet
+Nachteile:
+Einbau bei sehr engen Treppen (unter 80 cm Breite) oft nicht möglich
+Verbleibender Durchgang kann eingeschränkt sein
+Sitzlifte eignen sich nicht für Rollstuhlfahrer – hier ist ein Plattformlift erforderlich
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Individuelle Lösungen für Ihre Bedürfnisse
+Unsere Lifta Plattformlifte
+Lifta Plateau Linea
+Speziell für gerade Treppen
+Auch für enge Treppenverläufe
+Innen und außen möglich
+Zum Plateau Linea
+Lifta Plateau Flexa
+Für Innen- und Außenbereich
+Gerade und kurvige Treppen
+Tragfähigkeit bis 300 kg
+Zum Plateau Flexa
+Lifta Plateau Optimo
+Für Innen- und Außenbereich
+Rutschfeste Plattform
+Auf allen Treppen möglich
+Zum Plateau Optimo
+Quick Check: Häufige Fragen zum Treppenlift für schmale Treppen
+Was ist ein Treppenlift für schmale Treppen?
+Ein Treppenlift für schmale Treppen ist ein Sitzlift, der auch bei engen Treppenverläufen sicher montiert und genutzt werden kann. Er zeichnet sich durch eine kompakte Bauweise, klappbare Elemente und individuell angepasste Schienensysteme aus. Auch Treppenlifte wie Plattformlifte sind auf schmalen Treppen möglich und richten sich speziell an Rollstuhlfahrer.
+Wie schmal darf meine Treppe für einen Sitzlift sein?
+In Einfamilienhäusern sollte die Treppenbreite mindestens 80 cm betragen, in größeren Wohngebäuden 100 cm – damit auch Fluchtwege frei bleiben. Ob die Voraussetzungen erfüllt sind, prüfen Fachberater bei der Vor-Ort-Beratung.
+Kann ein Treppenlift auch bei engen Kurven oder Podesten eingebaut werden?
+Ja, die Schiene wird individuell gefertigt und wird auch an kurvige oder verwinkelte Treppen angepasst.
+Bleibt die Treppe mit einem Sitzlift weiterhin begehbar?
+Die Lifte sind mit klappbaren Sitzen, Armlehnen und Fußstützen ausgestattet, sodass möglichst viel Platz bleibt. Der verbleibende Durchgang wird bei der Planung stets mitgedacht.
+Was ist, wenn meine Treppe für einen Treppenlift zu schmal ist?
+Was ist, wenn meine Treppe für einen Treppenlift zu schmal ist?
+Wenn die Treppe zu schmal ist, kann ein Hauslift eine gute Alternative sein. Der Aufzug wird ohne Schacht installiert und überwindet bis zu zwei Etagen mühelos.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Interesse geweckt? Wir senden Ihnen kostenlos unser Infopaket zu
+*= Pflichtfelder
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.name.value = data.payload.value;
+validateField('name');
+showAsLabel('name');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Vor- und Nachname*
+Bitte geben Sie Ihren Vor- und Nachname ein.
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.street_address.value = data.payload.value;
+validateField('street_address');
+showAsLabel('street_address');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Straße und Hausnummer*
+Bitte geben Sie Ihre Straße und Hausnummer ein.
+PLZ*
+Bitte Postleitzahl überprüfen.
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.city.value = data.payload.value;
+validateField('city');
+showAsLabel('city');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Ort*
+Bitte geben Sie Ihren Ort ein.
+Telefon*
+Bitte geben Sie Ihre Rufnummer ein.
+Wozu benötigen wir Ihre Telefonnummer?
+Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+Telefonnummer ausschließlich für Rückfragen zu dieser
+Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+Ja, ich erlaube, dass meine Rufnummer für eine telefonische Beratung zu Zuschüssen und regionalen Förderungen verwendet wird.
+Widerruf jederzeit per Email, Brief oder Telefon möglich.
+Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+lifta@lifta.de
+02234-504 400
+Jetzt kostenlos bestellen
+Anfrage wird gesendet
+Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+widerrufbar
+Widerruf jederzeit per Email, Brief oder Telefon möglich.
+Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+lifta@lifta.de
+02234-504 400
+)*.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Weitere Einbausituationen für Treppenlifte
+Treppenlift für gerade Treppen
+Es gibt eine große Auswahl an Treppenlift-Modellen, die sich auf geraden Treppen ohne größere Umbaumaßnahmen und auch bei begrenztem Platz mühelos nachrüsten lassen.
+Treppenlift für gerade Treppen
+Treppenlift für kurvige Treppen
+Für kurvige Treppen kommen Treppenlifte mit Kurve zum Einsatz. Im Unterschied zu geraden Liften, die auf einer linearen Schiene fahren, benötigen sie eine gebogene Schiene.
+Treppenlift für kurvige Treppen
+Treppenlift für Podesttreppen
+Mit einem passgenauen Treppenlift für Podesttreppen, also Treppen mit einem oder mehreren Zwischenpodesten, bleiben alle Etagen ganz ohne aufwendige Umbauten bequem erreichbar.
+Treppenlift für Podesttreppen
+Treppenlift für Mehrfamilienhäuser
+Mit der steigenden Nachfrage nach barrierefreien Wohnlösungen wird Barrierefreiheit auch in Mehrfamilienhäusern immer wichtiger. Moderne Treppenlifte schaffen hier schnell Abhilfe.
+Treppenlift für Mehrfamilienhäuser
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+response.json())
+.then(data => {
+$dispatch('contact-loaded', data)
+}
+);
+} ;
+"
+@contact-loaded.window="name = $event.detail.payload.name;
+image = $event.detail.payload.image;
+ort = $event.detail.payload.ort;"
+class="hidden md:flex justify-center w-full md:w-auto md:flex-col md:mr-50 lg:mr-100 items-center">
+Lifta Berater:in für Ihre Region
+Haben Sie noch Fragen?
+Wir sind rund um die Uhr für Sie da!
+0800 20 33 150
+(Kostenlose Service Hotline - 24 Std.
+täglich für Sie da)
+In Ihrer Nähe
+Infopaket
+Termin vor Ort
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+Marke des Jahrhunderts Deutsche Standards
+Mehr Infos
+Glossar
+Karriere
+Partner
+Presse
+Über Lifta
+Copyright Lifta 2026, Alle Rechte vorbehalten
+Barrierefreiheit
+Datenschutz
+Impressum
+Privatsphäre
+Einstellungen
+Glossar
+Karriere
+Über Lifta
+Partner
+Barrierefreiheit
+Datenschutz
+Impressum
+Privatsphäre
+Einstellungen
+Presse
+Copyright Lifta 2026, Alle Rechte vorbehalten
+TÜV-geprüfte Kundenzufriedenheit
+Freiwillige Befragung von 1.216 Kunden zur Kundenzufriedenheit im Service.
+TÜV Süd Verbraucherinfo
+TÜV-geprüfte Kundenzufriedenheit
+Prüfbericht (PDF)
+Trusted Shops Kundenbewertung
+In dem unabhängigen Bewertungsportal Trusted Shops schneidet Lifta bestens ab.
+{ rating = value; })" class="mt-15 text-15 leading-snug font-light">
+Kundenbewertung (5,0 / 5)
+Zu Trusted Shops
+Focus Money Preis-Sieger
+Lifta bietet aus Sicht der Verbraucher im Bereich Treppenlifte das beste Preis-Leistungs-Verhältnis und setzt damit den Maßstab in seiner Branche.
+Focus Money Preis-Sieger
+Zum Anbieterranking
+Zum Berichtsband
+Marke des Jahrhunderts
+Seit 2003 wird Lifta regelmäßig im Markenkompendium "Marken des Jahrhunderts" von Herausgeber und Verleger Dr. Florian Langenscheidt aufgeführt.
+Marke des Jahrhunderts Deutsche Standards
+Deutsche Standards
+b.toString(16).padStart(2, '0')).join('');
+}
+}"
+x-init="
+window.sha256_last_name = await sha256(user_data_name);
+window.sha256_phone_number = await sha256(user_data_phone_number);
+window.sha256_email_address = await sha256(user_data_email);
+"
+>
