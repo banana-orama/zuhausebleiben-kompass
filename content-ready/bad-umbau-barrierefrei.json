@@ -129,7 +129,7 @@
     {
       "heading": "KfW: Zuschussstatus und Kredit auseinanderhalten",
       "paragraphs": [
-        "Am 19. Oktober 2026 meldet die direkt geprüfte KfW-Produktseite zu 455-B: Neue Anträge sind wegen ausgeschöpfter Fördermittel nicht mehr möglich. Bereits gestellte Anträge werden weiter bearbeitet; erteilte Zusagen bleiben reserviert.[2] Ein möglicher Neustart 2027 steht unter der Voraussetzung neuer Bundesmittel und ist nicht zugesichert.[2] Prüfen Sie den Status vor Ihrer Entscheidung erneut.",
+        "Am 26. Oktober 2026 meldet die direkt geprüfte KfW-Produktseite zu 455-B: Neue Anträge sind wegen ausgeschöpfter Fördermittel nicht mehr möglich. Bereits gestellte Anträge werden weiter bearbeitet; erteilte Zusagen bleiben reserviert.[2] Ein möglicher Neustart 2027 steht unter der Voraussetzung neuer Bundesmittel und ist nicht zugesichert.[2] Prüfen Sie den Status vor Ihrer Entscheidung erneut.",
         "KfW 159 ist dagegen ein rückzahlbarer Kredit von bis zu 50.000 Euro je Wohneinheit. Den Antrag stellen Sie über einen Finanzierungspartner, nicht direkt bei der KfW; die Förderung steht unter Haushaltsmittelvorbehalt.[3] Für den regulären Ablauf sollen Sie vor Abschluss von Lieferungs- oder Leistungsverträgen mit dem Finanzierungspartner sprechen und erst nach Zusage Verträge schließen und starten.[3] Etwaige Sonderfälle müssen Sie dort vorab klären.",
         "KfW 159 schließt Maßnahmen aus, die über die soziale Pflegeversicherung oder private Pflege-Pflichtversicherung gefördert werden. Die KfW nennt als Ausnahme verschiedene Maßnahmen, etwa Badumbau über die Pflegeversicherung und Treppenlift über den Kredit.[3] Das ist keine Erlaubnis, dieselbe Badrechnung doppelt fördern zu lassen. Lassen Sie die Zuordnung vorab schriftlich prüfen."
       ]
@@ -172,7 +172,7 @@
     },
     {
       "question": "Ist der KfW-Zuschuss 455-B derzeit offen?",
-      "answer": "Beim direkten Abruf am 19. Oktober 2026 waren neue Anträge laut KfW wegen ausgeschöpfter Mittel nicht möglich. Bereits gestellte Anträge und Zusagen werden gesondert behandelt. Ein Neustart hängt von neuen Bundesmitteln ab.[2]"
+      "answer": "Beim direkten Abruf am 26. Oktober 2026 waren neue Anträge laut KfW wegen ausgeschöpfter Mittel nicht möglich. Bereits gestellte Anträge und Zusagen werden gesondert behandelt. Ein Neustart hängt von neuen Bundesmitteln ab.[2]"
     },
     {
       "question": "Kann ich Badumbau und Treppenlift gemeinsam finanzieren lassen?",
@@ -183,22 +183,22 @@
     {
       "title": "[1] § 40 SGB XI – insbesondere Absatz 4",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[2] KfW 455-B – aktueller Antragstatus (Barrierereduzierung)",
       "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit",
       "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[4] BMG – Zuschüsse zur Wohnungsanpassung",
       "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung",

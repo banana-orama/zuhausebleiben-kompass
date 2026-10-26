@@ -38,7 +38,7 @@
           [
             "Sie suchen einen neuen KfW-455-B-Zuschuss",
             "Aktuelle KfW-Produktseite",
-            "Am 19.10.2026 keine neuen Anträge wegen ausgeschöpfter Mittel; nicht als Einnahme einplanen.[2]"
+            "Am 26.10.2026 keine neuen Anträge wegen ausgeschöpfter Mittel; nicht als Einnahme einplanen.[2]"
           ],
           [
             "Sie haben bereits einen 455-B-Antrag oder eine Zusage",
@@ -69,7 +69,7 @@
     {
       "heading": "KfW 455-B: Neue Anträge derzeit nicht möglich",
       "paragraphs": [
-        "Die KfW-Produktseite wurde am 19. Oktober 2026 direkt im Browser geprüft. Sie meldet, dass die Fördermittel für Barrierereduzierung ausgeschöpft sind und keine neuen Anträge mehr gestellt werden können.[2] Wir übernehmen keinen unbelegten Stichtag für den Beginn des Stopps. Maßgeblich ist der beim Abruf sichtbare aktuelle Status, nicht eine ältere Suchbeschreibung.",
+        "Die KfW-Produktseite wurde am 26. Oktober 2026 direkt im Browser geprüft. Sie meldet, dass die Fördermittel für Barrierereduzierung ausgeschöpft sind und keine neuen Anträge mehr gestellt werden können.[2] Wir übernehmen keinen unbelegten Stichtag für den Beginn des Stopps. Maßgeblich ist der beim Abruf sichtbare aktuelle Status, nicht eine ältere Suchbeschreibung.",
         "Bereits eingereichte Anträge werden laut KfW weiter bearbeitet. Wer die Voraussetzungen erfüllt, erhält eine Zusage; mit einer erteilten Zusage ist der Zuschuss reserviert und wird nach Nachweis der Fördervoraussetzungen ausgezahlt.[2] Ein vorhandener Antrag ist deshalb anders zu behandeln als die Absicht, heute erstmals einen Antrag zu stellen.",
         "Eine neue Antragstellung wäre nach Aussage der KfW wieder möglich, falls 2027 erneut Bundesmittel bereitgestellt werden.[2] Das ist keine bestätigte Wiederöffnung. Warten Sie nicht auf Grundlage einer solchen Hoffnung mit einer notwendigen Lösung und planen Sie den unbewilligten Zuschuss nicht fest ein. Besprechen Sie tragbare Alternativen mit Ihren Ansprechpartnern und prüfen Sie den Status erneut, bevor Sie handeln."
       ]
@@ -172,7 +172,7 @@
     },
     {
       "question": "Kann ich 455-B jetzt neu beantragen?",
-      "answer": "Beim direkten Abruf am 19. Oktober 2026 lautete die KfW-Aussage: keine neuen Anträge wegen ausgeschöpfter Fördermittel. Laufende Anträge und erteilte Zusagen sind nicht vom Antragstopp betroffen; ein möglicher Neustart 2027 hängt von neuen Bundesmitteln ab.[2]"
+      "answer": "Beim direkten Abruf am 26. Oktober 2026 lautete die KfW-Aussage: keine neuen Anträge wegen ausgeschöpfter Fördermittel. Laufende Anträge und erteilte Zusagen sind nicht vom Antragstopp betroffen; ein möglicher Neustart 2027 hängt von neuen Bundesmitteln ab.[2]"
     },
     {
       "question": "Kann ich Pflegekassenzuschuss und KfW-159-Kredit für denselben Lift kombinieren?",
@@ -187,22 +187,22 @@
     {
       "title": "[1] § 40 SGB XI – insbesondere Absatz 4",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "KfW 455-B – aktueller Antragstatus (Barrierereduzierung)",
       "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit",
       "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[4] BMG – Zuschüsse zur Wohnungsanpassung",
       "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung",

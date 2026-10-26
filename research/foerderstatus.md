@@ -1,5 +1,28 @@
 # Förderstatus-Prüfung: Offizielle Quellen gegen Live-Content
 
+## Prüflauf 26.10.2026, 08:01–08:35 CET (cron, autonomous) — AKTUELL
+
+**Ergebnis in einem Satz:** Alle förderrelevanten Zahlen und Rechtsaussagen des Live-Contents stimmen zum Quellenstand vom 26.10.2026 — **null Abweichungen**, keine sachlichen Korrekturen nötig. Aktualisiert wurden nur Prüfdaten (`checked_at` → 2026-10-26) für die heute tatsächlich neu verifizierten Quellen sowie 8 sichtbare KfW-Prüfdatumsangaben („19. Oktober"→„26. Oktober") in 4 Artikeln.
+
+**Verifiziert am 26.10.2026 (Volltext-Assertionen, Belege `research/evidence/foerder-261026-*.html`):**
+- **§ 40 SGB XI** (gesetze-im-internet, ISO-8859-1): Abs. 2 „42 Euro"/Kostenerstattung ✓, Abs. 3 „zehn vom Hundert, höchstens jedoch 25 Euro je Pflegehilfsmittel" ✓, Abs. 4 „subsidiär" + Zweckformel + „4 180 Euro je Maßnahme" + „16 720 Euro" + „anteilig auf die Versicherungsträger" ✓, Abs. 7 „drei Wochen"/„fünf Wochen"/„als genehmigt" ✓, Fußnote Betragsstand „ab dem 1.1.2025" ✓
+- **KfW 455-B**: Antragstopp („können Sie nicht mehr beantragen", „ausgeschöpft") ✓, „Laufende Anträge nicht betroffen" ✓, Zusage = „reserviert" ✓, Wiederöffnung 2027 nur bei neuen Bundesmitteln ✓, „noch nicht mit Ihrem Vorhaben begonnen" ✓ — per curl **und** im echten Chromium (Playwright, gerenderter Text, `research/browser_check_foerder_2610.mjs`, alle 6 PASS)
+- **KfW 159**: „bis zu 50.000 Euro je Wohneinheit" ✓, „Vorbehalt verfügbarer Haushaltsmittel" + „Rechtsanspruch … grundsätzlich nicht" ✓, „Fachunternehmen … Eigenleistungen sind nicht förderfähig" ✓, „vor dem Abschluss von Lieferungs- oder Leistungsverträgen" ✓, FAQ „Kombination der Förderungen für die gleiche Maßnahme ist nicht möglich" (sichtbar + JSON-LD) ✓, Ausschluss „Nachfinanzierungen bereits begonnener oder abgeschlossener Vorhaben" ✓, Förderbereich 3 „Treppenlifte …" ✓; beide zitierten URL-Varianten (%C3%B6 und Umlaut) antworten HTTP 200 mit identischem Inhalt
+- **BMG Zuschüsse zur Wohnungsanpassung**: „bis zu 4.180 Euro", „Pflegegrade 1 bis 5", „viermal 4.180 … 16.720 Euro", Zweitzuschuss „zweites Mal", 2.090 €/Person Wohngemeinschaft ✓
+- **Link-Status aller 28 im Content zitierten offiziellen URLs** (gesetze-im-internet ×19, BMG ×5, KfW ×2+1 Variante): ausnahmslos HTTP 200
+
+**Beobachtung (kein Korrekturanlass):** Die KfW-159-Seite zeigt aktuell „Zinssatz: ab -,-- %" (kein konkreter Satz publiziert). Der Artikel `hilfsmittel-dusch-wc-uebernahme` zitiert „ab 2,19 Prozent (Stand: 10. Juli 2025)" korrekt **dem BMG** zu — BMG-Seite enthält die Aussage weiterhin (26.10. geprüft). Keine Änderung nötig; beim nächsten Lauf prüfen, ob BMG den Stand aktualisiert.
+
+**Lessons (Matching-Technik):** gesetze-im-internet **und** kfw.de rendrieren Soft-Hyphens (U+00AD) in Wörtern („subsid­är", „Haushalts­mittel") — ohne Strippen melden exakte Stringsuchen fälschlich „nicht gefunden" (das Skript `research/verify_foerder_2610.py` stript jetzt U+00AD; erst danach 36/36 Assertionen PASS). Zusätzlich gelernt: Wortlaut-Needles müssen Einschübe wie „des Pflegebedürftigen" berücksichtigen.
+
+**Geänderte Dateien:** 14 × `content-ready/*.json` (28 `checked_at`, 8 Fließtext-/FAQ-/Tabellendaten in bad-umbau-barrierefrei, bodengleiche-dusche-altbau, treppenlift-zuschuss, wanne-zur-dusche). Bewusst **nicht** auf 26.10. gesetzt: „Abrufstand 19.10."-Gesamtdisclaimer in hilfsmittel-pflegekasse, treppenlift-mietwohnung, pflegegrad-caption, verhinderungspflege-caption (deren Quellen sets heute nur per Link-Status, nicht inhaltlich neu geprüft wurden — kein Überclaiming). `data/content.json` unangetastet (Altentwürfe, werden vom Renderer überschrieben).
+
+**Build/Deploy:** build:launch + test_site.py + test_articles.py + test_partner_links.py PASS → Commit gepusht → CI success → Live-Readback öffentliche URL bestätigt (siehe Cron-Report).
+
+---
+
+## Vorheriger Prüflauf
+
 **Prüflauf:** 19.10.2026, 08:02–08:45 CEST (cron, autonomous)
 **Umfang:** Alle förder-/rechtsrelevanten Aussagen der 16 Live-Ratgeber (`content-ready/*.json`) gegen heute abgerufene Originale.
 **Betroffene Datei `data/content.json` ist bewusst NICHT bearbeitet:** Sie enthält Altentwürfe und wird im Renderer (`generate.mjs` + `article-renderer.mjs`) vollständig durch `content-ready/*.json` überschrieben — Änderungen nur dort wären nicht live.

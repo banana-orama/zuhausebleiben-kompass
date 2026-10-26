@@ -105,7 +105,7 @@
       ],
       "paragraphs_after": [
         "Zur Förderung durch die Pflegekasse: § 40 Absatz 4 SGB XI nennt subsidiäre Zuschüsse für Maßnahmen zur Verbesserung des individuellen Wohnumfeldes, wenn dadurch häusliche Pflege ermöglicht oder erheblich erleichtert wird oder eine möglichst selbständige Lebensführung wiederhergestellt wird — die Formulierung „können … gewähren“ macht es zur Ermessensleistung.[1] Der Zuschuss darf 4.180 Euro je Maßnahme nicht überschreiten; bei Maßnahmen für mehrere Pflegebedürftige in einer gemeinsamen Wohnung gilt der Betrag je Person bei einem Gesamtbetrag von bis zu 16.720 Euro je Maßnahme.[1] Das Bundesgesundheitsministerium beschreibt die Zuschüsse für Pflegegrade 1 bis 5.[2] Ein rein optischer Duschersatz ist damit nicht automatisch förderfähig — beschreiben Sie die konkrete Hürde, nicht das Wunschprodukt.",
-        "KfW 455-B (Investitionszuschuss Barrierereduzierung) ist nach direkter Prüfung der KfW-Seite am 19. Oktober 2026 wegen ausgeschöpfter Mittel gesperrt; neue Anträge sind nicht möglich, laufende Anträge und erteilte Zusagen bleiben unberührt reserviert.[3] Die KfW verweist für Barrierenabbau auf den zinsverbilligten Kredit 159: bis zu 50.000 Euro je Wohneinheit, unter Vorbehalt verfügbarer Haushaltsmittel, Ausführung durch ein Fachunternehmen mit Bestätigung der fachgerechten Durchführung.[3][4] Für dieselbe Maßnahme lassen sich Pflegekassen-Zuschuss und KfW-Kredit nicht kombinieren: „eine Kombination der Förderungen für die gleiche Maßnahme ist nicht möglich“; als Ausnahme nennt die KfW verschiedene Maßnahmen — gefördert der Badumbau durch die Pflegeversicherung, kann etwa ein Treppenlift zusätzlich über den KfW-Kredit laufen.[4] Lassen Sie Ihre konkrete Zuordnung vor der Antragstellung schriftlich bestätigen."
+        "KfW 455-B (Investitionszuschuss Barrierereduzierung) ist nach direkter Prüfung der KfW-Seite am 26. Oktober 2026 wegen ausgeschöpfter Mittel gesperrt; neue Anträge sind nicht möglich, laufende Anträge und erteilte Zusagen bleiben unberührt reserviert.[3] Die KfW verweist für Barrierenabbau auf den zinsverbilligten Kredit 159: bis zu 50.000 Euro je Wohneinheit, unter Vorbehalt verfügbarer Haushaltsmittel, Ausführung durch ein Fachunternehmen mit Bestätigung der fachgerechten Durchführung.[3][4] Für dieselbe Maßnahme lassen sich Pflegekassen-Zuschuss und KfW-Kredit nicht kombinieren: „eine Kombination der Förderungen für die gleiche Maßnahme ist nicht möglich“; als Ausnahme nennt die KfW verschiedene Maßnahmen — gefördert der Badumbau durch die Pflegeversicherung, kann etwa ein Treppenlift zusätzlich über den KfW-Kredit laufen.[4] Lassen Sie Ihre konkrete Zuordnung vor der Antragstellung schriftlich bestätigen."
       ]
     },
     {
@@ -145,7 +145,7 @@
     },
     {
       "question": "Ist der KfW-Zuschuss 455-B noch verfügbar?",
-      "answer": "Nein. Nach direkter Prüfung am 19. Oktober 2026 sind die Mittel ausgeschöpft; neue Anträge sind nicht mehr möglich. Laufende Anträge werden bearbeitet, erteilte Zusagen bleiben reserviert. Als Alternative nennt die KfW den Kredit 159 (bis zu 50.000 Euro je Wohneinheit, Fachunternehmen, Haushaltsmittelvorbehalt).[3][4]"
+      "answer": "Nein. Nach direkter Prüfung am 26. Oktober 2026 sind die Mittel ausgeschöpft; neue Anträge sind nicht mehr möglich. Laufende Anträge werden bearbeitet, erteilte Zusagen bleiben reserviert. Als Alternative nennt die KfW den Kredit 159 (bis zu 50.000 Euro je Wohneinheit, Fachunternehmen, Haushaltsmittelvorbehalt).[3][4]"
     },
     {
       "question": "Brauche ich als Mieter die Zustimmung des Vermieters?",
@@ -160,22 +160,22 @@
     {
       "title": "[1] § 40 SGB XI – Pflegehilfsmittel und wohnumfeldverbessernde Maßnahmen",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[2] BMG – Zuschüsse zur Wohnungsanpassung",
       "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[3] KfW 455-B Barrierereduzierung – Investitionszuschuss (Antragstopp)",
       "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[4] KfW 159 – Altersgerecht Umbauen, Kredit",
       "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-(159)",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-26"
     },
     {
       "title": "[5] nullbarriere.de – DIN 18040-2 Bad/WC (Fachportal-Darstellung der Norm)",
