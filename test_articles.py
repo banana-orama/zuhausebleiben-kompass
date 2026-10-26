@@ -18,7 +18,7 @@ class Doc(HTMLParser):
     def handle_endtag(self,t):
         if t=='script' and self.current is not None:self.scripts.append(json.loads(self.current));self.current=None
 articles=list((ROOT/'content-ready').glob('*.json'))
-assert len(articles)==20, f'expected 20 articles, got {len(articles)}'
+assert len(articles)==21, f'expected 21 articles, got {len(articles)}'
 for f in articles:
     a=json.loads(f.read_text());p=Doc();p.feed((ROOT/'dist'/f'{a["slug"]}.html').read_text())
     assert all(x in p.ids for x in p.refs),(f,'broken anchor')

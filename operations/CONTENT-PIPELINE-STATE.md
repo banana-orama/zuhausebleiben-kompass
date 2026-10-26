@@ -1,8 +1,24 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-23 (Batch 6). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-26 (Batch 7). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Batch 7 (2026-10-26, Cron-Lauf) — Briefing 10: Steuer-Route
+1. **Neu veröffentlicht:** treppenlift-steuerlich-absetzen.json — § 35a EStG (20 % der Arbeitskosten,
+   max. 1.200 €, nur Arbeitskosten, Rechnung + Konto-Zahlung, Förder-Ausnahme Abs. 3 Satz 2)
+   und § 33 EStG (zumutbare Belastung, Nachweise), Referentenentwurf 2027 (15 %/900 €, nicht
+   beschlossen) strikt getrennt. 10 Abschnitte, 6 FAQs, 4 Quellen, 41/41 Zitate verbatim
+   (research/steuer-261026-ledger.json), Grafik assets/images/treppenlift-steuer-weg.svg
+   (Sichtkontrolle mit 2 gefundenen und behobenen Layoutfehlern), Protokoll
+   research/treppenlift-steuerlich-absetzen-batch.md. 21. Ratgeber; Topic-Wahl SERP-basiert,
+   da GSC im Cron nicht abrufbar (keine Google-Sitzung, kein Vault-Login).
+2. **Renderer:** article-renderer.mjs specialMap +1 (Early-CTA „Förderung prüfen" →
+   treppenlift-zuschuss). llms-txt.py SUMMARIES + SECTION_MAP erweitert.
+3. **Testzähler:** test_articles 20→21; verify_checklists_build RSS 20→21 Items;
+   test_partner_links A2 ≥ 21. Neu: research/verify_steuer_content_261026.py (Content-Support-Gate
+   für den Artikel) + research/verify_steuer_261026.py (Ledger/Arithmetik).
+4. **Pflicht-Refresh:** nach Verabschiedung ESt-Reformgesetz 2027 § 35a-Zahlen neu prüfen (Ledger-Notiz).
 
 ### Batch 6 (2026-10-23, Cron-Lauf) — Briefing 1 promoviert
 1. **Neu veröffentlicht:** treppenlift-angebote-vergleichen.json — Promotion des vollständig gegateten

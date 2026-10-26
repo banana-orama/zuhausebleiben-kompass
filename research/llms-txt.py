@@ -37,6 +37,7 @@ SUMMARIES = {
     "treppenlift-mieten": "Einmal- und Monatskosten, Mindestmietdauer und Pflegekassen-Zuschuss beim Treppenlift-Mieten mit Beispielrechnung.",
     "treppenlift-mietwohnung": "Wer beim Treppenlift-Einbau in der Mietwohnung zustimmen muss (§ 554 BGB, § 20 WEG) und wie Rückbau und Kosten geregelt werden.",
     "treppenlift-zuschuss": "Voraussetzungen und Unterlagen für Pflegekassen-Zuschuss und KfW-Programme inklusive aktuellem KfW-455-B-Antragstatus prüfen.",
+    "treppenlift-steuerlich-absetzen": "Treppenlift und Badumbau steuerlich geltend machen: Handwerkerleistung (20 % der Arbeitskosten, max. 1.200 €) oder außergewöhnliche Belastung, Nachweise und Förderfalle § 35a Abs. 3.",
     "bad-umbau-barrierefrei": "Badumbau nach tatsächlichem Bedarf planen: Entscheidungsmatrix, Angebotscheckliste und geprüfte Förderorientierung.",
     "badumbau-angebote-vergleichen": "Badumbau-Angebote anhand von Umfang, Abdichtung, Zusatzarbeiten und Zahlungsregeln Position für Position vergleichen.",
     "bodengleiche-dusche-altbau": "Prüfpunkte, ob die bodengleiche Dusche im Altbau machbar ist: Aufbauhöhe, Fallrohrweg, Decke und Konstruktion.",
@@ -63,7 +64,7 @@ LEGACY_PAGES = {
 
 SECTION_MAP = [
     ("Treppenlift", ["treppenlift-kosten", "treppenlift-angebote-vergleichen", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
-                     "treppenlift-mieten", "treppenlift-mietwohnung", "treppenlift-zuschuss"]),
+                     "treppenlift-mieten", "treppenlift-mietwohnung", "treppenlift-zuschuss", "treppenlift-steuerlich-absetzen"]),
     ("Bad barrierefrei umbauen", ["bad-umbau-barrierefrei", "badumbau-angebote-vergleichen",
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),
     ("Pflegegrad, Hilfsmittel und Sicherheit", ["pflegegrad-antrag-ablauf-fristen", "pflegegrad-beantragen",

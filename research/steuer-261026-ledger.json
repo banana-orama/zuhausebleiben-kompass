@@ -1,0 +1,84 @@
+{
+  "task": "Briefing 10: Treppenlift/Badumbau steuerlich absetzen (§ 35a + § 33 EStG)",
+  "created": "2026-10-26",
+  "evidence_dir": "research/evidence/steuer-261026",
+  "notes": [
+    "Live-Rechtstext 26.10.2026: § 35a Abs. 3 lautet 'Renovierungs-, Erhaltungs- und Modernisierungsmaßnahmen' (alte Portal-Echo-Formulierung 'Instandhaltungs-/Instandsetzungsarbeiten' ist überholt) und enthält Satz 2 'Dies gilt nicht für öffentlich geförderte Maßnahmen ...' — Kerndifferenzierung des Artikels.",
+    "Referentenentwurf Einkommensteuerreformgesetz 2027 (18.08.2026): 15 %/max 900 € geplant, NICHT beschlossen (Finanztip-Darstellung). Artikel trennt strikt geltendes Recht (20 %/1.200 €) von Entwurf.",
+    "Pflicht-Refresh nach Verabschiedung des ESt-Reformgesetzes (erwartet Ende 2026): § 35a-Kennzahlen und Abs. 3 Wortlaut neu gegen gesetze-im-internet prüfen."
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "§ 35a EStG – Steuerermäßigung bei haushaltsnahen Dienstleistungen und Handwerkerleistungen (gesetze-im-internet.de)",
+      "url": "https://www.gesetze-im-internet.de/estg/__35a.html",
+      "checked_at": "2026-10-26",
+      "evidence": "steuer-261026/estg__35a.txt",
+      "quotes": [
+        { "text": "Für die Inanspruchnahme von Handwerkerleistungen für Renovierungs-, Erhaltungs- und Modernisierungsmaßnahmen ermäßigt sich die tarifliche Einkommensteuer, vermindert um die sonstigen Steuerermäßigungen, auf Antrag um 20 Prozent der Aufwendungen des Steuerpflichtigen, höchstens jedoch um 1 200 Euro." },
+        { "text": "Dies gilt nicht für öffentlich geförderte Maßnahmen, für die zinsverbilligte Darlehen oder steuerfreie Zuschüsse in Anspruch genommen werden." },
+        { "text": "Der Abzug von der tariflichen Einkommensteuer nach den Absätzen 2 und 3 gilt nur für Arbeitskosten." },
+        { "text": "Voraussetzung für die Inanspruchnahme der Steuerermäßigungen nach den Absätzen 2 und 3 ist, dass der Steuerpflichtige für die Aufwendungen eine Rechnung erhalten hat und die Zahlung auf das Konto des Erbringers der Leistung erfolgt ist." },
+        { "text": "soweit die Aufwendungen nicht Betriebsausgaben oder Werbungskosten darstellen und soweit sie nicht als Sonderausgaben oder außergewöhnliche Belastungen berücksichtigt worden sind" },
+        { "text": "Die Steuerermäßigung nach den Absätzen 1 bis 3 kann nur in Anspruch genommen werden, wenn das Beschäftigungsverhältnis, die Dienstleistung oder die Handwerkerleistung in einem in der Europäischen Union oder dem Europäischen Wirtschaftsraum liegenden Haushalt des Steuerpflichtigen oder – bei Pflege- und Betreuungsleistungen – der gepflegten oder betreuten Person ausgeübt oder erbracht wird." },
+        { "text": "auf Antrag um 20 Prozent, höchstens 4 000 Euro, der Aufwendungen des Steuerpflichtigen" },
+        { "text": "Leben zwei Alleinstehende in einem Haushalt zusammen, können sie die Höchstbeträge nach den Absätzen 1 bis 3 insgesamt jeweils nur einmal in Anspruch nehmen." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "§ 33 EStG – Außergewöhnliche Belastung (gesetze-im-internet.de)",
+      "url": "https://www.gesetze-im-internet.de/estg/__33.html",
+      "checked_at": "2026-10-26",
+      "evidence": "steuer-261026/estg__33.txt",
+      "quotes": [
+        { "text": "Aufwendungen erwachsen dem Steuerpflichtigen zwangsläufig, wenn er sich ihnen aus rechtlichen, tatsächlichen oder sittlichen Gründen nicht entziehen kann und soweit die Aufwendungen den Umständen nach notwendig sind und einen angemessenen Betrag nicht übersteigen." },
+        { "text": "dass der Teil der Aufwendungen, der die dem Steuerpflichtigen zumutbare Belastung (Absatz 3) übersteigt, vom Gesamtbetrag der Einkünfte abgezogen wird" },
+        { "text": "Die zumutbare Belastung beträgt bei einem Gesamtbetrag der Einkünfte bis 15 340 EUR" },
+        { "text": "Prozent des Gesamtbetrags der Einkünfte" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Finanztip: Handwerkerleistungen von der Steuer absetzen (Stand laut Seite: 07.07.2026; abgerufen 26.10.2026)",
+      "url": "https://www.finanztip.de/handwerkerkosten/",
+      "checked_at": "2026-10-26",
+      "evidence": "steuer-261026/finanztip-handwerkerkosten.txt",
+      "quotes": [
+        { "text": "Stand: 07. Juli 2026" },
+        { "text": "Mit Handwerkerleistungen kannst Du bis zu 1.200 Euro Steuern sparen - immer 20 Prozent der jeweiligen Arbeits- und Fahrtkosten." },
+        { "text": "Bis zu 6.000 Euro dieser Kosten kannst Du in der Steuererklärung geltend machen, davon bekommst Du aktuell 20 Prozent und damit maximal 1.200 Euro" },
+        { "text": "Damit Deine Ausgaben für Handwerkerleistungen vom Finanzamt anerkannt werden, musst Du vor allem auf einer Rechnung bestehen und die Rechnungssumme überweisen." },
+        { "text": "Das Finanzamt wird Deine Rechnung steuerlich nur dann als Handwerkerleistungen anerkennen, wenn Du nicht bar - sondern per Überweisung bezahlt hast." },
+        { "text": "Trage Deine Ausgaben für Handwerkerleistungen haushaltsnahe Dienstleistungen inklusive Mehrwertsteuer in Zeile 6 der Anlage Haushaltsnahe Aufwendungen der Steuererklärung 2025 ein." },
+        { "text": "Denn dieser jährliche Höchstbetrag ist haushaltsbezogen ." },
+        { "text": "Geht es nach den Plänen der Bundesregierung, sollen Handwerkerleistungen ab 2027 nur noch mit 15 statt bisher 20 Prozent steuerlich geltend gemacht werden können." },
+        { "text": "Das sieht der Referentenentwurf des Einkommensteuerreformgesetzes 2027 vom 18. August 2026 vor." },
+        { "text": "Damit wären von Kosten bis zu maximal 6.000 Euro nur noch 900 Euro abzugsfähig, bisher sind es bis zu 1.200 Euro." },
+        { "text": "mit einer Verabschiedung des Gesetzes ist erfahrungsgemäß erst Ende des Jahres zu rechnen" },
+        { "text": "Zu den steuerlich begünstigten Handwerkerleistungen zählen Renovierungs-, Erhaltungs- und Modernisierungsmaßnahmen in Deiner selbst genutzten Wohnung, Deinem Haus oder Deinem Grundstück." },
+        { "text": "Modernisierung der Einbauküche oder des Badezimmers" },
+        { "text": "Generell gilt, das Handwerkerleistungen nicht steuerlich begünstigt werden, wenn sie von der öffentlichen Hand steuerlich gefördert sind." },
+        { "text": "So lassen sich die Handwerkerkosten nicht geltend machen, wenn Du für die Renovierung Deines Eigenheims oder Deiner Wohnung öffentliche Förderprogramme wie ein KfW-Darlehen zur Einsparung von CO2 in Anspruch nimmst." },
+        { "text": "Der Handwerksbetrieb darf den Rechnungsbetrag auch prozentual in Arbeits- und Materialkosten aufteilen, solange er dabei realistisch bleibt." },
+        { "text": "Für den Arbeitskostenanteil, der auf die Reparatur in der Werkstatt entfällt, bekommst Du keine Steuerermäßigung (BFH, Urteil vom 13. Mai 2020, Az. VI R 4/18 )." },
+        { "text": "Bewohnst Du eine Eigentumswohnung in einem Mehrfamilienhaus, kannst Du die Steuervorteile für Handwerkerleistungen ebenfalls geltend machen – vorausgesetzt, die Kosten dafür sind in der Jahresabrechnung nicht nur einzeln aufgeführt, sondern auch klar nach Material- und Arbeitsaufwand getrennt." },
+        { "text": "Weniger Steuern zahlst Du, wenn in Deiner Nebenkostenabrechnung Posten wie Hausmeisterleistungen , Schornsteinfegerkosten , Hausreinigung , Gartenarbeiten und Kosten für die Fahrstuhlwartung enthalten sind." },
+        { "text": "Achte also unbedingt darauf, dass in der Rechnung die verschiedenen - absetzbaren und nicht absetzbaren - Posten genau aufgeschlüsselt sein müssen." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Finanztip: Außergewöhnliche Belastungen in der Steuererklärung (abgerufen 26.10.2026)",
+      "url": "https://www.finanztip.de/aussergewoehnliche-belastungen/",
+      "checked_at": "2026-10-26",
+      "evidence": "steuer-261026/finanztip-aussergewoehnliche-belastungen.txt",
+      "quotes": [
+        { "text": "Generell gilt bei den allgemeinen außergewöhnlichen Belastungen, dass nur diejenigen Kosten absetzbar sind, die Deine individuelle zumutbare Belastung überschreiten ." },
+        { "text": "Von den Arzt- und Therapiekosten werden nur diejenigen berücksichtigt, die Du nicht erstattet bekommst, zum Beispiel von Deiner Krankenkasse ." },
+        { "text": "Wann und wie Finanzämter einen Nachweis für bestimmte Krankheitskosten haben möchten, ist in Paragraf 64 der Einkommensteuer-Durchführungsverordnung aufgelistet." },
+        { "text": "Arznei-, Heil- und Hilfsmittel müssen medizinisch notwendig und durch einen Arzt oder eine Heilpraktikerin verordnet sein." }
+      ]
+    }
+  ]
+}
