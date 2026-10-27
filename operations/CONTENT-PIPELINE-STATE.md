@@ -1,8 +1,36 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-27 (Batch 9). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-27 (Batch 10). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Batch 10 (2026-10-27, Cron-Lauf) — Briefing 13: Außentreppe/Außenlift
+1. **Neu veröffentlicht:** treppenlift-aussentreppen-aussenlift.json — Treppenlift für die
+   Außentreppe: Wetterschutz-Bausteine (verzinkte/Alu-Schiene, abgedichtete Elektronik,
+   Abdeckhaube als Pflicht-Zubehör), Preisdivergenz dokumentiert (4 Fachportale: 3.500–6.500 /
+   4.000–10.000 / 5.000–10.000 / ab ca. 6.000 €; Lifta-Hersteller 6.500–8.500 € inkl. Einbau,
+   vollständig innerhalb der eigenen Innen-Spanne 5.500–9.900 € — Pauschal-Aufschlag widerlegbar),
+   IP-Divergenz (Fachportale 54/65/67 bzw. „65+“ vs. 0 IP-Angaben auf geprüften
+   Herstellerseiten HIRO/Lifta → Schutzart + Temperaturbereich aus dem Datenblatt fordern),
+   HIRO 160 AIR + Lifta Allwetter GTL 320 als gekennzeichnete Herstellerangaben,
+   Zusatzposten draußen (Fundament als eigene Zeile, 230-V-Außensteckdose mit FI,
+   EN 81-40 im Angebot), Winter-Praxis (−10/−15 °C, Akku −⅓, kein Streusalz),
+   Genehmigung/MFH-Verweis, Miete außen (~50 €/Monat gerade), Gebraucht-Divergenz
+   (40-%-Abschlag vs. Privatkauf-Warnung). 12 Abschnitte, 6 FAQs, 8 Quellen,
+   88/88 Ledger-Pässe (research/aussenlift-271026-ledger.json +
+   research/verify_aussenlift_271026.py: 78 verbatim + 3 IP-Absenz + 7 Arithmetik),
+   Grafik assets/images/treppenlift-aussentreppen-aussenlift-wetterschutz.svg
+   (Marker-/Legenden-Layout nach 1. Vision-Revision; getBBox 0 Overflows + Vision sauber),
+   Protokoll research/treppenlift-aussentreppen-aussenlift-batch.md. 24. Ratgeber;
+   Förderbeträge bewusst nur als Verweis auf treppenlift-zuschuss.
+2. **Renderer:** article-renderer.mjs specialMap +1 (Early-CTA „Anbieter für Außenlift
+   vergleichen“ → treppenlift-firmen-vergleich). llms-txt.py SUMMARIES + SECTION_MAP erweitert.
+3. **Testzähler:** test_articles 23→24; verify_checklists_build RSS 23→24 Items;
+   test_partner_links A2 ≥ 24. Neu: research/verify_aussen_content_271026.py
+   (Content-Support-Gate inkl. 8 Kernzahlen), research/verify_aussen_svg_271026.py,
+   research/verify_aussen_mobile_271026.py, research/fetch_aussenlift_271026.py.
+4. **Topic-Gates dokumentiert:** außenlift intent-distinct (0 Bestandsüberschneidung),
+   vorkaufsnah; Verbesserungslücke = Preisstreuung + IP-Nachweispflicht aus dem Datenblatt.
 
 ### Batch 9 (2026-10-27, Cron-Lauf) — Briefing 12: Maximalgewicht/Tragkraft
 1. **Neu veröffentlicht:** treppenlift-maximalgewicht.json — Treppenlift-Tragkraft: Grenze gilt für

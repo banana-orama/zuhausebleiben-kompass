@@ -40,6 +40,7 @@ SUMMARIES = {
     "treppenlift-steuerlich-absetzen": "Treppenlift und Badumbau steuerlich geltend machen: Handwerkerleistung (20 % der Arbeitskosten, max. 1.200 €) oder außergewöhnliche Belastung, Nachweise und Förderfalle § 35a Abs. 3.",
     "treppenlift-schmale-treppe": "Treppenlift auf schmaler Treppe: Gerätemindestbreiten ab 61 cm und Gebäudemaße 70–100 cm unterscheiden, richtig messen, Alternativen prüfen und das Aufmaß vorbereiten.",
     "treppenlift-maximalgewicht": "Tragkraft verstehen: die Grenze gilt für Person plus Zuladung, belegte Herstellerwerte von 125 bis 200 kg, Ausführung statt Modellpauschale fragen und das Angebot prüfen.",
+    "treppenlift-aussentreppen-aussenlift": "Treppenlift für die Außentreppe: was einen Außenlift wetterfest macht, Preisspannen von Herstellern und Fachportalen mit dokumentierter Streuung, Winter-Praxis und Angebots-Checkliste.",
     "bad-umbau-barrierefrei": "Badumbau nach tatsächlichem Bedarf planen: Entscheidungsmatrix, Angebotscheckliste und geprüfte Förderorientierung.",
     "badumbau-angebote-vergleichen": "Badumbau-Angebote anhand von Umfang, Abdichtung, Zusatzarbeiten und Zahlungsregeln Position für Position vergleichen.",
     "bodengleiche-dusche-altbau": "Prüfpunkte, ob die bodengleiche Dusche im Altbau machbar ist: Aufbauhöhe, Fallrohrweg, Decke und Konstruktion.",
@@ -67,7 +68,7 @@ LEGACY_PAGES = {
 SECTION_MAP = [
     ("Treppenlift", ["treppenlift-kosten", "treppenlift-angebote-vergleichen", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
                      "treppenlift-mieten", "treppenlift-mietwohnung", "treppenlift-zuschuss", "treppenlift-steuerlich-absetzen",
-                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht"]),
+                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift"]),
     ("Bad barrierefrei umbauen", ["bad-umbau-barrierefrei", "badumbau-angebote-vergleichen",
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),
     ("Pflegegrad, Hilfsmittel und Sicherheit", ["pflegegrad-antrag-ablauf-fristen", "pflegegrad-beantragen",

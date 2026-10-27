@@ -1,0 +1,590 @@
+Treppenlift FAQ – Häufige Fragen & Antworten | Lifta
+{
+this.isMainNavigationOpen = !this.isMainNavigationOpen;
+}, delay);
+}
+if (navigationFlag === 'isContactNavigationOpen') {
+this.isMainNavigationOpen = false;
+this.isSearchNavigationOpen = false;
+setTimeout(() => {
+this.isContactNavigationOpen = !this.isContactNavigationOpen;
+}, delay);
+}
+if (navigationFlag === 'isSearchNavigationOpen') {
+this.isMainNavigationOpen = false;
+this.isContactNavigationOpen = false;
+setTimeout(() => {
+this.isSearchNavigationOpen = !this.isSearchNavigationOpen;
+}, delay);
+}
+setTimeout(() => {
+if (this.isMainNavigationOpen || this.isContactNavigationOpen || this.isSearchNavigationOpen) {
+window.documentScrollingStatus = true;
+this.$dispatch('toggle-document-scrolling');
+}
+if (!this.isMainNavigationOpen && !this.isContactNavigationOpen && !this.isSearchNavigationOpen) {
+window.documentScrollingStatus = false;
+this.$dispatch('toggle-document-scrolling');
+}
+}, delay + 50);
+}
+}"
+@resize.window="navigationsHeight = window.innerHeight - menuHeightPx; menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;"
+@close-main-navigation.window="closeNavigation();"
+x-init="
+menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;
+navigationsHeight = window.innerHeight - menuHeightPx;
+/**toggleNavigation('isMainNavigationOpen')**/;
+"
+>
+Treppenlifte
+Hauslifte
+Rollstuhllifte
+0800 20 33 150
+24/7 für Sie da
+Suche
+Menü
+0800 20 33 150
+Jetzt Kontakt aufnehmen
+(24 Std. täglich, kostenlos)
+{ if (value) { $el.style.height = navigationsHeight + 'px'; } else { $el.style.height = '0px'; } });
+$el.style.height = '0px';
+"
+@resize.window="if (isMainNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+Lifta in Ihrer Nähe
+Lifta Index-Studie 2026
+{ $refs.wrapper.scrollLeft = 840 }, 500);
+"
+class="bg-white min-h-full"
+>
+Schließen
+Treppenlifte
+Mehr
+Hauslifte
+Mehr
+Rollstuhllifte
+Mehr
+Liftarten Entscheidungshilfe
+Preise
+Mehr
+Zuschüsse
+Mehr
+Service
+Mehr
+Ratgeber
+Mehr
+Kontakt
+Mehr
+Lifta Index-Studie
+Lifta Magazin
+Zurück
+Schließen
+Alles rund um Treppenlifte
+Unsere Treppenlift-Modelle
+Lifta Avantgarde
+Lifta Luxor
+Lifta Esprit
+Lifta Klassik
+Lifta Außenlifte
+Treppenlifte nach Einbausituationen
+Treppenlifte für gerade Treppen
+Treppenlifte für kurvige Treppen
+Treppenlifte für Wendeltreppen
+Treppenlifte für Podesttreppen
+Treppenlifte für Mehrfamilienhäuser
+Treppenlifte für den Außenbereich
+Alle Hauslifte
+Lifta Midi
+Lifta Maxi
+Alle Rollstuhllifte
+Plattformlifte
+Hublifte
+Rollstuhllifte für öffentliche Gebäude
+Unsere Treppenlift-Preise
+Treppenlift-Preisrechner
+Treppenlift mieten
+Weitere Finanzierungsmöglichkeiten
+Mögliche Treppenlift-Zuschüsse
+KfW-Förderungen 2026
+Treppenlift & Krankenkasse
+Treppenlift von der Steuer absetzen
+Alle Lifta Serviceleistungen
+Unverbindliche Beratung
+Fachkundiger Einbau Ihres Lifts
+Regelmäßige Wartung
+Hilfe bei Fehlermeldungen
+Schneller Reparatur-Service
+Umzug Ihres Liftes
+Rückkauf und Rücknahme Ihres Lifts
+Alle Ratgeber-Themen
+So funktioniert ein Treppenlift
+Der Treppenlift-Kaufprozess erklärt
+Den richtigen Treppenlift-Anbieter finden
+Tipps zum Treppenlift-Vergleich
+Alternativen zum Treppenlift
+Treppenlift-Bilder und Einbaubeispiele
+Lifta in Ihrer Nähe
+Telefonische Beratung
+Termin vereinbaren
+Infopaket
+{ if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+$el.style.height = '0px';
+"
+@resize.window="if (isContactNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+Schließen
+Wir sind rund um die Uhr für Sie da!
+0800 20 33 150
+(24 Std. täglich, kostenlos)
+response.json())
+.then(data => {
+$refs.name.innerHTML = data.payload.name;
+$refs.contactimage.src = data.payload.image;
+$refs.contactimage.alt = data.payload.name;
+$refs.contactimage.title = data.payload.position;
+$dispatch('contact-loaded', data)
+});">
+Lifta Berater für Ihre Region
+Jetzt kostenlos beraten lassen
+In Ihrer Nähe
+Infopaket
+Termin vor Ort
+{ if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+$el.style.height = '0px';
+"
+@resize.window="if (isSearchNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+3) {
+window.dataLayer.push({
+'site_search_search_phrase': this.searchWord,
+'event': 'site_search_used'
+});
+}
+this.searchPages.search(this.searchWord, {
+limit: 3,
+matchingStrategy: 'last',
+}).then((response) => {
+this.searchResultsPages = response.hits;
+});
+if ('1' === '1') {
+this.searchPosts.search(this.searchWord, {limit: 3}).then((response) => {
+this.searchResultsPosts = response.hits;
+});
+}
+let possibleCities = this.searchWord.split(' ');
+for (let i = 0; i {
+if (response.hits.length === 1) {
+this.searchResultsConsultantsCity = response.hits[0].city;
+this.user_settings_city = response.hits[0].city;
+this.user_settings_postal_code = response.hits[0].zip;
+this.searchConsultant.search(
+'',
+{
+limit: 1,
+sort: [
+'_geoPoint(' + response.hits[0].lat + ',' + response.hits[0].lng + '):asc'
+]
+}
+).then(
+(consultantData) => {
+if (consultantData && consultantData.hits.length > 0) {
+this.searchResultsConsultants = consultantData.hits;
+}
+}
+)
+}
+}
+);
+}
+},
+trackResultClick(url) {
+if (window.dataLayer) {
+window.dataLayer.push({
+'site_search_search_phrase': this.searchWord,
+'site_search_clicked_url': url,
+'event': 'site_search_clicked'
+});
+}
+window.location.href = url;
+}
+}"
+>
+Schließen
+0"
+xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
+0 || searchResultsPosts.length > 0 || searchResultsConsultants.length > 0"
+x-transition.opacity
+>
+0">
+Berater
+Ihr Treppenlift Berater in Ortsname
+Lifta Berater:in für Ihre Region
+Zu
+Ihrem persönlichen Berater
+Zu
+Ihrem persönlichen Berater
+0">
+Seiten
+0">
+Magazin
+Leider kein Suchergebnis
+gefunden
+Hier finden Sie häufig
+gesuchte
+Begriffe:
+0) ? window.innerWidth : screen.width;
+isSliderActive = 768 > screenwidth;
+if (isSliderActive) {window.setInterval(() => { $dispatch('value-bars-slider-next', { nextimg: true })}, 3000);}"
+@value-bars-slider-next.window="activeImg = ((activeImg + 1) % countImgs);"
+>
+TÜV-geprüfte Kundenzufriedenheit
+Trusted Shops Bewertung: { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Focus Money Preis-Sieger
+Lifta
+/
+Treppenlift FAQ – Häufige Fragen & Antworten
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+FAQ – Häufige Fragen zum Treppenlift
+Ein Treppenlift ist eine wichtige Entscheidung und dabei tauchen viele Fragen auf. Damit Sie sich von Anfang an gut informiert fühlen, haben wir die häufigsten Fragen unserer Kunden hier für Sie gesammelt. Von der ersten Planung bis zum täglichen Betrieb: Lifta begleitet Sie auf jedem Schritt.
+Gesamter Seiteninhalt auf einen Blick:
+Treppenlift Einbau
+Treppenlift Kosten & Finanzierung
+Zuschüsse & Förderung
+Treppenlift mieten
+Technische Fragen & Modelle
+Treppenlift Sicherheit
+Treppenlift kaufen
+Service & Wartung
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Treppenlift Einbau
+Wie lange dauert der Einbau eines Treppenlifts?
+Der Einbau eines Treppenlifts dauert in der Regel nur wenige Stunden. Bei geraden Treppen ist die Montage meist innerhalb eines halben Tages abgeschlossen. Bei kurvigen oder individuell angepassten Schienen kann der Einbau etwas mehr Zeit in Anspruch nehmen. Unsere erfahrenen Monteure arbeiten sauber und zügig – damit Sie Ihren neuen Treppenlift so schnell wie möglich nutzen können.
+Wird beim Einbau die Treppe oder Wand beschädigt?
+Nein. Der Treppenlift wird ausschließlich an den Treppenstufen befestigt – nicht an der Wand. Wände, Geländer und der Bodenbelag bleiben vollständig erhalten. Nach einem späteren Ausbau sind keinerlei Spuren sichtbar.
+Kann ein Treppenlift an jeder Treppe eingebaut werden?
+Treppenlifte lassen sich an nahezu jeder Treppenform montieren – ob gerade, kurvige, gewendelte oder Podesttreppen. Lifta bietet für jede Einbausituation passende Modelle und individuelle Schienenlösungen. Im Rahmen einer kostenlosen Beratung prüfen wir gemeinsam mit Ihnen, welche Lösung für Ihre Treppe am besten geeignet ist.
+Bleibt die Treppe nach dem Einbau für andere Personen nutzbar?
+Ja. Der Treppenlift wird so montiert, dass die Treppe weiterhin problemlos zu Fuß genutzt werden kann. Im eingeklappten Zustand nimmt der Sitz nur minimalen Platz in Anspruch. Auch für Personen mit Kinderwagen oder Rollator bleibt ausreichend Platz.
+Ist für den Einbau eine Baugenehmigung notwendig?
+In der Regel ist keine Baugenehmigung erforderlich. Treppenlifte gelten als mobile Hilfsmittel und sind nicht genehmigungspflichtig. Bei Einbau in einem Mehrfamilienhaus empfehlen wir jedoch, die Hausverwaltung oder Eigentümergemeinschaft vorab zu informieren. Unser Beratungsteam unterstützt Sie dabei gerne.
+Was passiert, wenn der Strom ausfällt?
+Lifta-Treppenlifte sind mit einem integrierten Akku ausgestattet. Auch bei einem Stromausfall können Sie den Lift sicher weiterbenutzen – Sie kommen zuverlässig nach oben und unten, bis der Strom wieder verfügbar ist.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Treppenlift Kosten & Finanzierung
+Was kostet ein Treppenlift?
+Die Kosten für einen Treppenlift hängen vor allem von der Treppenform und dem Einsatzort ab. Hier eine Übersicht der typischen Preisspannen:
+Gerade Treppe, Treppenlift innen:
+5.500 – 9.900 €
+Gerade Treppe, Treppenlift außen:
+6.500 – 8.500 €
+Kurvige Treppe, Treppenlift innen:
+10.000 – 17.000 €
+Gerade Treppenlifte sind günstiger, da die Schienen standardisiert gefertigt werden. Bei kurvigen Treppen wird die Schiene individuell nach Maß produziert – das macht die Lösung aufwendiger, aber auch präzise auf Ihre Treppe abgestimmt. Alle Preise verstehen sich inklusive Einbau und Inbetriebnahme durch unsere Monteure.
+Für eine genaue Kalkulation empfehlen wir unseren kostenlosen Preisrechner oder ein unverbindliches Beratungsgespräch.
+Gibt es monatliche Kosten nach dem Kauf?
+Nach dem Kauf entstehen lediglich geringe Betriebskosten – der Stromverbrauch eines Treppenlifts ist vergleichbar mit dem einer Energiesparlampe. Optional können Sie einen Wartungsvertrag abschließen, der regelmäßige Inspektionen und einen Reparaturservice umfasst.
+Kann ich einen Treppenlift mieten statt kaufen?
+Ja. Lifta bietet Treppenlifte auch zur Miete an – ideal, wenn der Bedarf zeitlich begrenzt ist, zum Beispiel nach einer Operation oder Verletzung. Die Mietlösung ist kurzfristig verfügbar und flexibel kündbar.
+Welche Finanzierungsmöglichkeiten gibt es?
+Neben dem Direktkauf bietet Lifta flexible Ratenzahlungen an. So lassen sich die Kosten bequem auf monatliche Beträge aufteilen. Zusätzlich können Zuschüsse von Krankenkasse, KfW oder dem Finanzamt die tatsächliche finanzielle Belastung deutlich reduzieren.
+Lohnt sich Kaufen oder Mieten mehr?
+Das hängt von Ihrer persönlichen Situation ab. Wer den Treppenlift dauerhaft benötigt, fährt mit dem Kauf langfristig günstiger. Für einen vorübergehenden Bedarf ist die Miete die flexiblere und oft kostengünstigere Wahl. Unser Beratungsteam hilft Ihnen, die richtige Entscheidung für Ihre Situation zu treffen.
+Deutschlands dichtestes Servicenetz
+Finden Sie Ihren Treppenlift-Berater
+Jetzt Berater in der Nähe finden (PLZ)
+Berater in der Nähe (PLZ)
+Ihre Postleitzahl
+Leider keine Ergebnis gefunden. Bitte prüfen Sie Ihre Eingabe.
+0"
+class="p-15 absolute z-20 left-0 right-0 top-[50px] md:top-[58px] text-primary rounded bg-white shadow-small"
+>
+Lifta Berater:in für Ihre Region
+Zu
+Ihrem persönlichen Berater
+Beratungsleistungen des Beraters:
+Machbarkeit auf Ihrer Treppe
+Preise unserer Treppenlifte
+Zuschüsse für Ihre Region
+Technik & Service
+Persönlicher Service und bestmögliche Beratung liegen uns am Herzen. Auch für Ihre Region stehen kompetente Fachexperten von Lifta zur Verfügung.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Zuschüsse & Förderung
+Übernimmt die Krankenkasse die Kosten für einen Treppenlift?
+Gesetzliche Krankenkassen können unter bestimmten Voraussetzungen einen Zuschuss zum Treppenlift gewähren. Voraussetzung ist in der Regel ein ärztliches Attest, das die medizinische Notwendigkeit belegt. Der Zuschuss beträgt aktuell bis zu 4.180 Euro pro Person – bei zwei Personen im Haushalt entsprechend bis zu 8.360 Euro. Ein Antrag sollte unbedingt vor dem Kauf gestellt werden, da rückwirkende Förderungen in der Regel nicht möglich sind.
+Treppenlift & Krankenkasse
+Gibt es KfW-Förderung für Treppenlifte?
+Ja. Die KfW-Bank fördert Maßnahmen zur Barrierereduzierung im Wohnbereich – dazu zählt auch der Einbau eines Treppenlifts. Über das Programm „Altersgerecht Umbauen" (KfW 159) sind zinsgünstige Kredite möglich. Alternativ gibt es den Investitionszuschuss (KfW 455-B) für Maßnahmen, die bestimmte Mindestanforderungen erfüllen. Auch hier gilt: Den Antrag vor Beginn der Maßnahme stellen.
+KfW-Förderung für Treppenlifte
+Kann ich den Treppenlift von der Steuer absetzen?
+Ja, unter bestimmten Voraussetzungen ist das möglich. Wird der Treppenlift aus medizinischen Gründen eingebaut und die Notwendigkeit durch ein amtsärztliches Attest oder einen Bescheid des Versorgungsamts nachgewiesen, können die Kosten als außergewöhnliche Belastung in der Einkommensteuererklärung geltend gemacht werden. Wir empfehlen, hierzu einen Steuerberater hinzuzuziehen.
+Gibt es weitere Fördermöglichkeiten?
+Ja. Neben Krankenkasse, KfW und Steuer kommen je nach persönlicher Situation weitere Stellen infrage – zum Beispiel die Pflegekasse bei anerkanntem Pflegegrad, das Versorgungsamt bei Schwerbehinderung oder regionale Förderprogramme einzelner Bundesländer und Kommunen. Lifta berät Sie kostenlos, welche Zuschüsse in Ihrer Situation möglich sind.
+Weitere Finanzierungsmöglichkeiten
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Treppenlift mieten
+Kann ich einen Treppenlift auch mieten?
+Ja. Lifta bietet Treppenlifte auch zur Miete an – eine flexible Alternative zum Kauf, die sich besonders dann eignet, wenn der Bedarf zeitlich begrenzt ist. Der Mietlift wird genauso professionell eingebaut und in Betrieb genommen wie ein gekauftes Gerät.
+Treppenlift mieten
+Für wen ist die Mietoption sinnvoll?
+Die Mietoption eignet sich besonders für Menschen, die einen Treppenlift nur vorübergehend benötigen – zum Beispiel nach einer Operation, einem Unfall oder während einer Reha-Phase. Aber auch wer sich zunächst nicht sicher ist, ob ein Kauf die richtige Entscheidung ist, kann mit der Miete eine gute Zwischenlösung finden.
+Wie kurzfristig ist ein Miet-Treppenlift verfügbar?
+Lifta bemüht sich, Miet-Treppenlifte schnellstmöglich bereitzustellen. In vielen Fällen ist eine Lieferung und Montage innerhalb weniger Tage möglich. Sprechen Sie uns einfach an – wir finden gemeinsam eine schnelle Lösung für Ihre Situation.
+Wie läuft die Rückgabe eines Miet-Treppenlifts ab?
+Die Rückgabe ist unkompliziert. Nach Ablauf der Mietzeit oder bei Kündigung des Mietvertrags kommt ein Lifta-Monteur zu Ihnen nach Hause und baut den Lift fachgerecht aus. Die Treppe bleibt dabei vollständig unbeschädigt. Für Terminabsprache und Abwicklung stehen wir Ihnen jederzeit zur Verfügung.
+Was kostet die Miete eines Treppenlifts?
+Die monatlichen Mietkosten hängen vom Modell und der Mietdauer ab. Generell gilt: Je länger die Mietdauer, desto günstiger der monatliche Beitrag. Für ein konkretes Angebot beraten wir Sie gerne individuell und kostenlos.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Technische Fragen & Modelle
+Welche Treppenlift-Modelle bietet Lifta an?
+Lifta bietet eine Auswahl an hochwertigen Treppenlift-Modellen für unterschiedliche Bedürfnisse und Einbausituationen. Zur Auswahl stehen der Lifta Avantgarde, der Lifta Luxor, der Lifta Esprit und der Lifta Klassik. Alle Modelle sind in Deutschland gefertigt und lassen sich individuell konfigurieren – von der Polsterfarbe bis zur Armlehnenform.
+Lifta Treppenlifte
+Wie viel Platz benötigt ein Treppenlift?
+Der Platzbedarf hängt vom Modell und der Treppenbreite ab. Als Faustregel gilt: Die Treppe sollte mindestens 60–70 cm breit sein. Im eingeklappten Zustand nimmt der Sitz sehr wenig Raum ein, sodass die Treppe für andere Personen weiterhin gut nutzbar bleibt. Im Rahmen der kostenlosen Beratung messen wir Ihre Treppe exakt aus.
+Wie hoch ist die maximale Traglast eines Treppenlifts?
+Die meisten Lifta-Modelle tragen problemlos bis zu 160 kg. Für Personen mit höherem Körpergewicht bieten wir auf Anfrage auch Modelle mit erhöhter Traglast an. Sprechen Sie uns gerne an – wir finden die passende Lösung für Sie.
+Was passiert bei einem Stromausfall?
+Alle Lifta-Treppenlifte sind mit einem integrierten Akku ausgestattet. Bei einem Stromausfall können Sie den Lift weiterhin sicher benutzen und zuverlässig alle Etagen erreichen. Sobald der Strom wieder verfügbar ist, lädt der Akku automatisch nach.
+Kann der Treppenlift auch im Außenbereich eingesetzt werden?
+Ja. Lifta bietet spezielle Außenlifte an, die für den Einsatz im Freien konzipiert sind. Sie sind wetterfest, rostbeständig und für Temperaturschwankungen ausgelegt – ideal für Eingangstreppen, Terrassen oder Gartenanlagen.
+Ist der Treppenlift auch für Rollstuhlfahrer geeignet?
+Für Rollstuhlfahrer empfiehlt Lifta speziell entwickelte Plattformlifte oder Rollstuhllifte, die den Rollstuhl inklusive Nutzer befördern. Diese sind eine sichere und komfortable Alternative zum klassischen Sitzlift und für verschiedene Einbausituationen erhältlich.
+Rollstuhllifte
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Treppenlift Sicherheit
+Welche Sicherheitsfunktionen hat ein Treppenlift?
+Lifta-Treppenlifte sind mit mehreren Sicherheitsfunktionen ausgestattet. Dazu gehören ein Hindernis-Sensor, der den Lift automatisch stoppt, wenn sich etwas auf der Treppe befindet, ein Sicherheitsgurt für den Nutzer sowie ein Totmannschalter, der die Fahrt sofort unterbricht, sobald der Bedienhebel losgelassen wird. Zusätzlich verfügen alle Modelle über einen Akku als Notstromversorgung.
+Ist die Bedienung auch für ältere oder eingeschränkte Personen einfach?
+Ja. Die Bedienung ist bewusst einfach und intuitiv gestaltet. Der Lift wird über einen gut erreichbaren Joystick oder Hebel am Armlehnende gesteuert. Zusätzlich sind Fernbedienungen für die obere und untere Etage im Lieferumfang enthalten, sodass der Lift auch von einer anderen Person gerufen werden kann.
+Was passiert, wenn der Lift während der Fahrt stoppt?
+Im unwahrscheinlichen Fall einer Störung bleibt der Lift sicher an seiner Position stehen – ein unkontrolliertes Abrutschen ist technisch ausgeschlossen. Über unsere kostenlose Notfallnummer sind wir rund um die Uhr erreichbar und helfen schnell weiter.
+Wie sicher ist ein Treppenlift bei kurvigen Treppen?
+Auch bei kurvigen oder gewendelten Treppen bieten Lifta-Lifte volle Sicherheit. Die Schiene wird individuell nach Maß gefertigt und exakt an den Treppenverlauf angepasst. So fährt der Lift stets ruhig, gleichmäßig und sicher – auch um enge Kurven.
+Lifta ist rund um die Uhr persönlich für Sie da
+response.json())
+.then(data => {
+$dispatch('contact-loaded', data)
+}
+);
+} ;
+"
+@contact-loaded.window="name = $event.detail.payload.name;
+image = $event.detail.payload.image;
+ort = $event.detail.payload.ort;"
+class="flex-1 w-full px-40 md:px-0 pb-30 md:pb-0">
+Lifta Berater:in für
+0800 20 33 150
+(24 Std. täglich - kostenfrei und unverbindlich)
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Treppenlift kaufen
+Wie läuft die Beratung bei Lifta ab?
+Der erste Schritt ist ein kostenloser und unverbindlicher Beratungstermin – telefonisch oder direkt bei Ihnen zu Hause. Ein Lifta-Berater aus Ihrer Region kommt vorbei, schaut sich Ihre Treppe an, nimmt alle relevanten Maße und bespricht mit Ihnen, welches Modell am besten zu Ihrer Situation passt. Sie erhalten anschließend ein transparentes Angebot ohne versteckte Kosten.
+Berater in Ihrer Nähe finden
+Wie schnell kann ein Treppenlift geliefert und eingebaut werden?
+Nach Auftragserteilung und Fertigung der individuellen Schiene erfolgt der Einbau in der Regel innerhalb weniger Wochen. Bei geraden Treppen mit Standardschiene kann es noch schneller gehen. Wir stimmen den Termin gemeinsam mit Ihnen ab – damit der Einbau zu Ihrem Alltag passt.
+Kann ich den Treppenlift vor dem Kauf testen?
+Ja. Im Rahmen des Beratungstermins vor Ort haben Sie die Möglichkeit, verschiedene Modelle kennenzulernen und sich ein konkretes Bild zu machen. Sprechen Sie unseren Berater einfach darauf an – wir möchten, dass Sie sich vor dem Kauf vollständig sicher fühlen.
+Gibt es eine Garantie auf den Treppenlift?
+Ja. Lifta-Treppenlifte werden mit Garantie geliefert. Die genauen Garantiebedingungen besprechen wir gerne im Beratungsgespräch mit Ihnen. Zusätzlich bieten wir Wartungsverträge an, die eine regelmäßige Inspektion und schnelle Hilfe im Servicefall beinhalten.
+Kann ich meinen Treppenlift später wieder verkaufen?
+Ja. Lifta bietet einen Rückkaufservice für gebrauchte Treppenlifte an. Sollten Sie den Lift irgendwann nicht mehr benötigen, nehmen wir ihn gerne zurück. Die Konditionen besprechen wir individuell mit Ihnen.
+Treppenlift Rückkauf
+Was passiert nach dem Kauf – gibt es einen Ansprechpartner?
+Ja. Mit Lifta haben Sie auch nach dem Kauf einen verlässlichen Partner an Ihrer Seite. Unser Kundenservice ist rund um die Uhr erreichbar – telefonisch unter der kostenlosen Nummer 0800 20 33 150. Bei technischen Fragen, Wartungsbedarf oder Störungen sind wir schnell für Sie da.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Service & Wartung
+Wie oft muss ein Treppenlift gewartet werden?
+Wir empfehlen eine jährliche Wartung durch einen zertifizierten Lifta-Techniker. Bei der Inspektion werden alle sicherheitsrelevanten Bauteile geprüft, gereinigt und bei Bedarf justiert. Eine regelmäßige Wartung verlängert die Lebensdauer des Lifts und stellt sicher, dass er jederzeit zuverlässig funktioniert.
+Was ist im Wartungsvertrag enthalten?
+Ein Lifta-Wartungsvertrag umfasst die jährliche Inspektion, die Überprüfung aller Sicherheitsfunktionen sowie die Reinigung und Schmierung aller beweglichen Teile. Je nach Vertragsmodell sind auch Ersatzteile und Reparaturen inbegriffen. So haben Sie volle Kostentransparenz und müssen sich um nichts kümmern.
+Was mache ich, wenn mein Treppenlift eine Störung hat?
+Bei einer Störung erreichen Sie unseren Kundenservice jederzeit – rund um die Uhr, 365 Tage im Jahr – unter der kostenlosen Rufnummer 0800 20 33 150. Ein Techniker aus Ihrer Region meldet sich schnellstmöglich und behebt das Problem vor Ort.
+Kann ich kleinere Wartungsarbeiten selbst durchführen?
+Einfache Pflegearbeiten wie das Abwischen des Sitzes oder das Freihalten der Schiene von Staub und Fremdkörpern können Sie selbst übernehmen. Alle technischen Arbeiten – insbesondere an Antrieb, Elektronik und Schiene – sollten ausschließlich von einem geschulten Lifta-Techniker durchgeführt werden.
+Wie lange hält ein Treppenlift?
+Bei regelmäßiger Wartung sind Lifta-Treppenlifte auf eine Lebensdauer von vielen Jahren ausgelegt. Die genaue Nutzungsdauer hängt von der Nutzungsintensität und der Pflege des Geräts ab. Mit einem Wartungsvertrag stellen Sie sicher, dass Ihr Lift dauerhaft in einwandfreiem Zustand bleibt.
+Was passiert, wenn ich meinen Treppenlift nicht mehr benötige?
+Sollten Sie den Treppenlift irgendwann nicht mehr benötigen, kümmert sich Lifta um den fachgerechten Ausbau. Zusätzlich bieten wir einen Rückkaufservice an. Ein Lifta-Techniker baut den Lift sauber aus – die Treppe bleibt dabei vollständig unbeschädigt.
+Treppenlifte
+Treppenlifte
+Maßgefertigt
+Platzsparend
+Schnell montiert
+Mehr erfahren
+Hauslifte
+Hauslifte
+Mehrere Etagen verbinden
+Ohne klassischen Aufzugsschacht
+Zukunftssicher wohnen
+Mehr erfahren
+Rollstuhllifte
+Rollstuhllifte
+Barrierefrei nachrüsten
+Stabile Plattform
+Für Innen und Außen
+Mehr erfahren
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+response.json())
+.then(data => {
+$dispatch('contact-loaded', data)
+}
+);
+} ;
+"
+@contact-loaded.window="name = $event.detail.payload.name;
+image = $event.detail.payload.image;
+ort = $event.detail.payload.ort;"
+class="hidden md:flex justify-center w-full md:w-auto md:flex-col md:mr-50 lg:mr-100 items-center">
+Lifta Berater:in für Ihre Region
+Haben Sie noch Fragen?
+Wir sind rund um die Uhr für Sie da!
+0800 20 33 150
+(Kostenlose Service Hotline - 24 Std.
+täglich für Sie da)
+In Ihrer Nähe
+Infopaket
+Termin vor Ort
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+Marke des Jahrhunderts Deutsche Standards
+Mehr Infos
+Glossar
+Karriere
+Partner
+Presse
+Über Lifta
+Copyright Lifta 2026, Alle Rechte vorbehalten
+Barrierefreiheit
+Datenschutz
+Impressum
+Privatsphäre
+Einstellungen
+Glossar
+Karriere
+Über Lifta
+Partner
+Barrierefreiheit
+Datenschutz
+Impressum
+Privatsphäre
+Einstellungen
+Presse
+Copyright Lifta 2026, Alle Rechte vorbehalten
+TÜV-geprüfte Kundenzufriedenheit
+Freiwillige Befragung von 1.216 Kunden zur Kundenzufriedenheit im Service.
+TÜV Süd Verbraucherinfo
+TÜV-geprüfte Kundenzufriedenheit
+Prüfbericht (PDF)
+Trusted Shops Kundenbewertung
+In dem unabhängigen Bewertungsportal Trusted Shops schneidet Lifta bestens ab.
+{ rating = value; })" class="mt-15 text-15 leading-snug font-light">
+Kundenbewertung (5,0 / 5)
+Zu Trusted Shops
+Focus Money Preis-Sieger
+Lifta bietet aus Sicht der Verbraucher im Bereich Treppenlifte das beste Preis-Leistungs-Verhältnis und setzt damit den Maßstab in seiner Branche.
+Focus Money Preis-Sieger
+Zum Anbieterranking
+Zum Berichtsband
+Marke des Jahrhunderts
+Seit 2003 wird Lifta regelmäßig im Markenkompendium "Marken des Jahrhunderts" von Herausgeber und Verleger Dr. Florian Langenscheidt aufgeführt.
+Marke des Jahrhunderts Deutsche Standards
+Deutsche Standards
+b.toString(16).padStart(2, '0')).join('');
+}
+}"
+x-init="
+window.sha256_last_name = await sha256(user_data_name);
+window.sha256_phone_number = await sha256(user_data_phone_number);
+window.sha256_email_address = await sha256(user_data_email);
+"
+>

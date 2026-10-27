@@ -1,0 +1,663 @@
+Außenlift: Der Treppenlift für mehr Mobilität im Freien | Lifta
+{
+this.isMainNavigationOpen = !this.isMainNavigationOpen;
+}, delay);
+}
+if (navigationFlag === 'isContactNavigationOpen') {
+this.isMainNavigationOpen = false;
+this.isSearchNavigationOpen = false;
+setTimeout(() => {
+this.isContactNavigationOpen = !this.isContactNavigationOpen;
+}, delay);
+}
+if (navigationFlag === 'isSearchNavigationOpen') {
+this.isMainNavigationOpen = false;
+this.isContactNavigationOpen = false;
+setTimeout(() => {
+this.isSearchNavigationOpen = !this.isSearchNavigationOpen;
+}, delay);
+}
+setTimeout(() => {
+if (this.isMainNavigationOpen || this.isContactNavigationOpen || this.isSearchNavigationOpen) {
+window.documentScrollingStatus = true;
+this.$dispatch('toggle-document-scrolling');
+}
+if (!this.isMainNavigationOpen && !this.isContactNavigationOpen && !this.isSearchNavigationOpen) {
+window.documentScrollingStatus = false;
+this.$dispatch('toggle-document-scrolling');
+}
+}, delay + 50);
+}
+}"
+@resize.window="navigationsHeight = window.innerHeight - menuHeightPx; menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;"
+@close-main-navigation.window="closeNavigation();"
+x-init="
+menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;
+navigationsHeight = window.innerHeight - menuHeightPx;
+/**toggleNavigation('isMainNavigationOpen')**/;
+"
+>
+Treppenlifte
+Hauslifte
+Rollstuhllifte
+0800 20 33 150
+24/7 für Sie da
+Suche
+Menü
+0800 20 33 150
+Jetzt Kontakt aufnehmen
+(24 Std. täglich, kostenlos)
+{ if (value) { $el.style.height = navigationsHeight + 'px'; } else { $el.style.height = '0px'; } });
+$el.style.height = '0px';
+"
+@resize.window="if (isMainNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+Lifta in Ihrer Nähe
+Lifta Index-Studie 2026
+{ $refs.wrapper.scrollLeft = 840 }, 500);
+"
+class="bg-white min-h-full"
+>
+Schließen
+Treppenlifte
+Mehr
+Hauslifte
+Mehr
+Rollstuhllifte
+Mehr
+Liftarten Entscheidungshilfe
+Preise
+Mehr
+Zuschüsse
+Mehr
+Service
+Mehr
+Ratgeber
+Mehr
+Kontakt
+Mehr
+Lifta Index-Studie
+Lifta Magazin
+Zurück
+Schließen
+Alles rund um Treppenlifte
+Unsere Treppenlift-Modelle
+Lifta Avantgarde
+Lifta Luxor
+Lifta Esprit
+Lifta Klassik
+Lifta Außenlifte
+Treppenlifte nach Einbausituationen
+Treppenlifte für gerade Treppen
+Treppenlifte für kurvige Treppen
+Treppenlifte für Wendeltreppen
+Treppenlifte für Podesttreppen
+Treppenlifte für Mehrfamilienhäuser
+Treppenlifte für den Außenbereich
+Alle Hauslifte
+Lifta Midi
+Lifta Maxi
+Alle Rollstuhllifte
+Plattformlifte
+Hublifte
+Rollstuhllifte für öffentliche Gebäude
+Unsere Treppenlift-Preise
+Treppenlift-Preisrechner
+Treppenlift mieten
+Weitere Finanzierungsmöglichkeiten
+Mögliche Treppenlift-Zuschüsse
+KfW-Förderungen 2026
+Treppenlift & Krankenkasse
+Treppenlift von der Steuer absetzen
+Alle Lifta Serviceleistungen
+Unverbindliche Beratung
+Fachkundiger Einbau Ihres Lifts
+Regelmäßige Wartung
+Hilfe bei Fehlermeldungen
+Schneller Reparatur-Service
+Umzug Ihres Liftes
+Rückkauf und Rücknahme Ihres Lifts
+Alle Ratgeber-Themen
+So funktioniert ein Treppenlift
+Der Treppenlift-Kaufprozess erklärt
+Den richtigen Treppenlift-Anbieter finden
+Tipps zum Treppenlift-Vergleich
+Alternativen zum Treppenlift
+Treppenlift-Bilder und Einbaubeispiele
+Lifta in Ihrer Nähe
+Telefonische Beratung
+Termin vereinbaren
+Infopaket
+{ if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+$el.style.height = '0px';
+"
+@resize.window="if (isContactNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+Schließen
+Wir sind rund um die Uhr für Sie da!
+0800 20 33 150
+(24 Std. täglich, kostenlos)
+response.json())
+.then(data => {
+$refs.name.innerHTML = data.payload.name;
+$refs.contactimage.src = data.payload.image;
+$refs.contactimage.alt = data.payload.name;
+$refs.contactimage.title = data.payload.position;
+$dispatch('contact-loaded', data)
+});">
+Lifta Berater für Ihre Region
+Jetzt kostenlos beraten lassen
+In Ihrer Nähe
+Infopaket
+Termin vor Ort
+{ if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+$el.style.height = '0px';
+"
+@resize.window="if (isSearchNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+3) {
+window.dataLayer.push({
+'site_search_search_phrase': this.searchWord,
+'event': 'site_search_used'
+});
+}
+this.searchPages.search(this.searchWord, {
+limit: 3,
+matchingStrategy: 'last',
+}).then((response) => {
+this.searchResultsPages = response.hits;
+});
+if ('1' === '1') {
+this.searchPosts.search(this.searchWord, {limit: 3}).then((response) => {
+this.searchResultsPosts = response.hits;
+});
+}
+let possibleCities = this.searchWord.split(' ');
+for (let i = 0; i {
+if (response.hits.length === 1) {
+this.searchResultsConsultantsCity = response.hits[0].city;
+this.user_settings_city = response.hits[0].city;
+this.user_settings_postal_code = response.hits[0].zip;
+this.searchConsultant.search(
+'',
+{
+limit: 1,
+sort: [
+'_geoPoint(' + response.hits[0].lat + ',' + response.hits[0].lng + '):asc'
+]
+}
+).then(
+(consultantData) => {
+if (consultantData && consultantData.hits.length > 0) {
+this.searchResultsConsultants = consultantData.hits;
+}
+}
+)
+}
+}
+);
+}
+},
+trackResultClick(url) {
+if (window.dataLayer) {
+window.dataLayer.push({
+'site_search_search_phrase': this.searchWord,
+'site_search_clicked_url': url,
+'event': 'site_search_clicked'
+});
+}
+window.location.href = url;
+}
+}"
+>
+Schließen
+0"
+xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
+0 || searchResultsPosts.length > 0 || searchResultsConsultants.length > 0"
+x-transition.opacity
+>
+0">
+Berater
+Ihr Treppenlift Berater in Ortsname
+Lifta Berater:in für Ihre Region
+Zu
+Ihrem persönlichen Berater
+Zu
+Ihrem persönlichen Berater
+0">
+Seiten
+0">
+Magazin
+Leider kein Suchergebnis
+gefunden
+Hier finden Sie häufig
+gesuchte
+Begriffe:
+0) ? window.innerWidth : screen.width;
+isSliderActive = 768 > screenwidth;
+if (isSliderActive) {window.setInterval(() => { $dispatch('value-bars-slider-next', { nextimg: true })}, 3000);}"
+@value-bars-slider-next.window="activeImg = ((activeImg + 1) % countImgs);"
+>
+TÜV-geprüfte Kundenzufriedenheit
+Trusted Shops Bewertung: { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Focus Money Preis-Sieger
+Der Lifta Außenlift für mehr Mobilität im Freien
+Mit unserem allwettertauglichen Treppenlift für außen schaffen Sie Barrierefreiheit rund um Ihr Haus. Dank hochwertigem Korrosionsschutz und versiegelter Antriebselektronik ist ein Außenlift besonders langlebig und zuverlässig.
+Beratungstermin vereinbaren
+Lifta
+/
+Treppenlifte
+/
+Außenlifte
+Der Lifta Außenlift für mehr Mobilität im Freien
+Der Treppenlift für mehr Mobilität im Freien
+Mit unserem Allwetter Lifta GTL 320 erlangen Sie deutlich mehr Mobilität im Freien und überwinden mühelos Treppenstufen vor Ihrem Haus, in den Garten oder zur Terrasse. So gelangen Sie komfortabel und ganz ohne Sturzrisiko nach oben und unten. Wie bei unseren übrigen Treppenlift-Modellen , wird der Sitzlift von unseren Experten zuverlässig und schnell an der entsprechenden Treppe installiert. Dabei werden die Schienen speziell an Ihre persönlichen Anforderungen angepasst und entsprechend der baulichen Voraussetzungen maßangefertigt. So ist der Allwetter Lifta GTL 320 auf nahezu jeder geraden Treppe im Außenbereich anzubringen.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Robust, zuverlässig und langlebig
+Der Treppenlift für Ihren Außenbereich
+65 ? 1 : 0;activeTab = (Math.floor($refs.sliderWrapper.scrollLeft / 165) + ( addIndex)) + 1;">
+Abschließbar
+Abziehbarer Schlüssel
+Wetterfest
+Ganzjährig benutzbar
+Bequem
+Fernbedienung
+Benutzerfreundlich
+Intuitiver Bedienhebel
+Sicher
+Drehbarer Sitz
+Flexibel
+Verstellbares Fußbrett
+Platzsparend
+Zusammenklappbar
+Schutzhaube
+Jederzeit trocken
+Abschließbar
+Der Allwetter Lifta ist vor unbefugtem Gebrauch bestens geschützt. Er lässt sich mit einem abziehbaren Schlüssel sicher verschließen.
+Wetterfest
+Durch die robuste und witterungsbeständige Verarbeitung kann der Treppenlift problemlos das ganze Jahr hindurch genutzt werden. Gerade bei Schnee und Glätte können so Stürze auf der vereisten Treppe vermieden werden.
+Bequem
+Sie möchten aufsteigen, der Außenlift ist aber am anderen Ende der Treppe? Kein Problem, über eine Fernsteuerung kann er ganz bequem an den oberen oder unteren Treppenabsatz gefahren werden.
+Benutzerfreundlich
+Über einen Bedienhebel in der Armlehne lässt sich der Allwetter Lifta einfach und bequem steuern. Es ist kein Kraftaufwand notwendig.
+Sicher
+Damit Sie ganz einfach ein- und aussteigen können, lässt sich der Treppenlift drehen. So ist er schnell in der richtigen Position, um komfortabel Platz zu nehmen.
+Flexibel
+Auf dem klappbaren Fußbrett stellen Sie Ihre Füße ganz bequem ab. Für eine angenehme Sitzposition während der Fahrt.
+Platzsparend
+Der Allwetter Lifta lässt sich schnell zusammenklappen. So nimmt er in der Parkposition wenig Platz weg, wenn er nicht in Gebrauch ist.
+Schutzhaube
+Zu jedem Lifta Außenlift erhalten Sie eine praktische Schutzhaube. Sie ersparen sich das lästige Abtrocknen der Sitzfläche und können direkt auf dem Treppenlift Platz nehmen.
+Was ist ein Außenlift?
+Wie der Name verrät, eignet sich ein Außenlift speziell für die Nutzung im Freien , sodass die Barrierefreiheit auch außerhalb des Hauses gegeben ist. Das ist insbesondere für ältere Menschen, Rollstuhlfahrer oder andere Personen mit eingeschränkter Mobilität eine große Hilfe, die sicher aus dem Haus, in ihren Garten oder auf die Terrasse gelangen möchten. Oft ist der Zugang zum restlichen Grundstück nur über Treppenstufen möglich, die für einige Menschen ein unüberwindbares Hindernis darstellen. Noch dazu können Nässe oder Glätte auf den Stufen für ein zusätzliches Risiko sorgen. Hier schafft ein Außenlift zum Beispiel als Seniorenlift oder Behindertenlift zuverlässig Abhilfe und gewährleistet einen sicheren Zugang zum Rest des Grundstücks .
+Darüber hinaus punktet der Treppenlift für außen mit einem robusten und wetterfesten Design und Korrosionsschutz . Die gesamte Elektronik ist so versiegelt, dass Wind und Wetter dem Außenlift nichts anhaben können und Sie von einer langlebigen Mobilitätslösung profitieren.
+Treppenlift für außen
+Das sind die Vorteile
+Barrierefreiheit im Außenbereich
+Einfahrt, Garten und Terrasse sicher erreichbar
+Robuste und witterungsbeständige Verarbeitung
+Langlebigkeit trotz Feuchtigkeit, Kälte und Hitze
+UV-beständiges Oberflächenmaterial
+Gekapselte Schalter und Bedienelemente
+Versiegelte Antriebselektronik
+Schmale, gerade Alu-Schiene mit Zweischichtlackierung
+Abdeckung als Wetterschutz
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Maßgeschneiderte Liftlösungen für mehr Lebensqualität
+Für jeden Bedarf der passende Außenlift
+Die Bedarfe und Anforderungen von Menschen mit körperlichen Einschränkungen sind ganz individuell – deswegen gibt es Treppenlifte für den Außenbereich in verschiedenen Ausführungen . Während ein klassischer Treppenlift Sie sitzend befördert, empfehlen sich Hublifte und Plattformlifte insbesondere für Personen mit Rollstuhl oder Gehhilfen. Eins haben alle Modelle gemeinsam: Wo die Treppen nach draußen die Barrierefreiheit einschränken, kaufen Sie mit einem Außenlift eine gleichermaßen sichere und praktische Lösung für mehr Mobilität im Freien.
+Ein Sitzlift für den Außenbereich funktioniert genauso zuverlässig wie ein Treppenlift für den Innenbereich, zeichnet sich aber darüber hinaus durch seine robuste und allwettertaugliche Fertigung aus . Der Außenlift hält nicht nur Nässe problemlos stand, sondern trotzt mit seinem Oberflächenmaterial auch extremen Wetterbedingungen wie Kälte und Hitze. Auch der Sitz selbst ist wasserabweisend und leicht zu reinigen, wenn sich doch mal etwas Schmutz ansammelt.
+Da Treppen im Außenbereich in der Regel gerade verlaufen, ist der Einbau von Außenliften vergleichsweise einfach . Die Schiene für den Sitzlift kann je nach Gegebenheiten flexibel an beiden Seiten angebracht werden. Dabei wird sie einmal am oberen und einmal unteren Ende der Treppe auf festem Boden befestigt und gleichzeitig auf den Stufen fixiert. Um einem Diebstahl oder Missbrauch vorzubeugen, sind die meisten Treppenlifte für außen mit einem Schloss ausgestattet . Zusätzlicher Schutz ist durch eine praktische Hülle zur Abdeckung gegeben.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Barrierefreiheit im Freien
+Rollstuhllifte für außen: Hub- und Plattformlifte
+Auch unsere Rollstuhllifte sind im Außenbereich machbar . Wenn Sie Höhenunterschiede im Rollstuhl überwinden möchten, sind Hublifte und Plattformlifte die richtige Wahl. Hublifte sind keine Treppenlifte im klassischen Sinne: Sie bewegen sich nicht entlang der Treppe, sondern vertikal – wie ein Aufzug. Wenn genügend Platz vorhanden ist, kann ein Hublift beispielsweise neben der Treppe nach draußen installiert werden. Plattformlifte hingegen werden, wie Sitzlifte , mit einem Schienensystem entlang der Treppe montiert. Beide Varianten ermöglichen Rollstuhlfahrern oder Menschen mit Rollator einen schnellen und sicheren Zugang zum Außenbereich .
+Zu unseren Rollstuhlliften
+Eine Investition in Ihre Mobilität
+Kosten für einen Außenlift
+Bei Lifta wissen Sie von Anfang an, mit welchem Preis Sie rechnen müssen. Wir erstellen Ihnen ein individuelles Angebot für Ihren Außenlift – ohne versteckte Zusatzkosten. Ein Treppenlift für außen ist ein für Sie maßgefertigtes Produkt – dementsprechend ist auch der Anschaffungspreis variabel. Die Höhe der Kosten richtet sich vor allem nach den Gegebenheiten bei Ihnen vor Ort.
+Jetzt Preis berechnen
+Finanzielle Entlastung
+Zuschüsse für Außenlifte
+Bei einem Außenlift stehen Ihnen die gleichen Finanzierungsmöglichkeiten offen wie bei einem Treppenlift im Gebäude. Wir beraten Sie gerne zu den verschiedenen Zuschussmöglichkeiten sowie zu unseren attraktiven Finanzierungsangeboten.
+Mehr zur Finanzierung
+Häufige Fragen zu Außenliften
+Wann ist ein Außenlift sinnvoll?
+Ein Treppenlift im Außenbereich eignet sich insbesondere für Senioren, Rollstuhlfahrer oder andere Personen, für die Treppen nach draußen oder in den Garten ein Hindernis darstellen. Hinzu kommt ein erhöhtes Sturzrisiko durch Nässe oder Glätte auf den Treppenstufen. Hier schafft ein Außenlift Abhilfe und sorgt für ein Mehr an Mobilität auf dem eigenen Grundstück.
+Welche Arten von Außenliften gibt es?
+Es gibt verschiedene Treppenlifte für außen, sodass sich für jede individuelle Situation ein passendes Modell findet. Während ein Sitzlift Sie entlang der Treppe im Sitzen befördert, sind Hub- und Plattformlifte für Rollstuhlfahrer oder Personen mit Rollator sinnvoll, weil Sie auf einer geraden Plattform transportiert werden.
+Was kostet ein Außenlift?
+Die Kosten für einen Außenlift können ganz unterschiedlich ausfallen und lassen sich nicht pauschal benennen. Hier kommt es vor allem auf Ihr gewünschtes Treppenlift-Modell und die baulichen Gegebenheiten bei Ihnen zuhause an. Am besten berechnen Sie den möglichen Preis mit unserem praktischen Preisrechner . Darüber hinaus gibt es auch bei Außenliften vielfältige Möglichkeiten zur Finanzierung – etwa durch Zuschüsse oder Förderungen.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Größte Modellauswahl in Deutschland
+Entdecken Sie weitere Lifta Treppenlift-Modelle
+Lifta Avantgarde
+Unser beliebtestes Modell
+Kombiniert innovative Technik und Design
+Höchster Komfort durch intelligente Details
+Zum Treppenlift Avantgarde
+Lifta Esprit
+Spezialist für schmale und kurvige Treppen
+Schmalste Einrohrschiene der Welt
+Prämiertes Design und dezente Optik
+Zum Treppenlift Esprit
+Lifta Klassik
+Höchste Belastbarkeit bis 160 kg
+Solide Konstruktion mit ausgereifter Technik
+Gewichtssensor verhindert versehentliches Losfahren
+Zum Treppenlift Klassik
+Alle Treppenlift-Modelle
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Kostenlos & unverbindlich
+Vereinbaren Sie jetzt einen Beratungstermin
+Beratung vereinbaren
+Rückruf vereinbaren
+Infopaket bestellen
+Infopaket bestellen
+Kostenlos & unverbindlich
+Vereinbaren Sie einfach einen Termin
+*= Pflichtfelder
+Ihr Wunschdatum
+11) {year++; month=0}; getNoOfDays()">
+09:00 - 10:00
+10:00 - 11:00
+11:00 - 12:00
+12:00 - 13:00
+13:00 - 14:00
+14:00 - 15:00
+15:00 - 16:00
+16:00 - 17:00
+17:00 - 18:00
+18:00 - 19:00
+Uhrzeit
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.name.value = data.payload.value;
+validateField('name');
+showAsLabel('name');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Vor- und Nachname*
+Bitte geben Sie Ihren Vor- und Nachname ein.
+Telefon für Rückfragen*
+Bitte geben Sie Ihre Rufnummer ein.
+Wozu benötigen wir Ihre Telefonnummer?
+Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+Telefonnummer ausschließlich für Rückfragen zu dieser
+Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+Jetzt Termin vereinbaren
+Anfrage wird gesendet
+Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+widerrufbar
+Widerruf jederzeit per Email, Brief oder Telefon möglich.
+Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+lifta@lifta.de
+02234-504 400
+)*.
+Rückruf vereinbaren
+Lassen Sie sich bequem am Wunschdatum zurückrufen
+*= Pflichtfelder
+Ihr Wunschdatum
+11) {year++; month=0}; getNoOfDays()">
+09:00 - 10:00
+10:00 - 11:00
+11:00 - 12:00
+12:00 - 13:00
+13:00 - 14:00
+14:00 - 15:00
+15:00 - 16:00
+16:00 - 17:00
+17:00 - 18:00
+18:00 - 19:00
+Uhrzeit
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.name.value = data.payload.value;
+validateField('name');
+showAsLabel('name');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Vor- und Nachname*
+Bitte geben Sie Ihren Vor- und Nachname ein.
+Telefon*
+Bitte geben Sie Ihre Rufnummer ein.
+Wozu benötigen wir Ihre Telefonnummer?
+Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+Telefonnummer ausschließlich für Rückfragen zu dieser
+Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+Jetzt Rückruf bestellen
+Anfrage wird gesendet
+Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+widerrufbar
+Widerruf jederzeit per Email, Brief oder Telefon möglich.
+Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+lifta@lifta.de
+02234-504 400
+)*.
+Interesse geweckt?
+Wir senden Ihnen kostenlos unser Infopaket
+*= Pflichtfelder
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.name.value = data.payload.value;
+validateField('name');
+showAsLabel('name');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Vor- und Nachname*
+Bitte geben Sie Ihren Vor- und Nachname ein.
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.street_address.value = data.payload.value;
+validateField('street_address');
+showAsLabel('street_address');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Straße und Hausnummer*
+Bitte geben Sie Ihre Straße und Hausnummer ein.
+PLZ*
+Bitte Postleitzahl überprüfen.
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.city.value = data.payload.value;
+validateField('city');
+showAsLabel('city');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Ort*
+Bitte geben Sie Ihren Ort ein.
+Telefon*
+Bitte geben Sie Ihre Rufnummer ein.
+Wozu benötigen wir Ihre Telefonnummer?
+Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+Telefonnummer ausschließlich für Rückfragen zu dieser
+Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+Ja, ich erlaube, dass meine Rufnummer für eine telefonische Beratung zu Zuschüssen und regionalen Förderungen verwendet wird.
+Widerruf jederzeit per Email, Brief oder Telefon möglich.
+Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+lifta@lifta.de
+02234-504 400
+Jetzt kostenlos bestellen
+Anfrage wird gesendet
+Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+widerrufbar
+Widerruf jederzeit per Email, Brief oder Telefon möglich.
+Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+lifta@lifta.de
+02234-504 400
+)*.
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+response.json())
+.then(data => {
+$dispatch('contact-loaded', data)
+}
+);
+} ;
+"
+@contact-loaded.window="name = $event.detail.payload.name;
+image = $event.detail.payload.image;
+ort = $event.detail.payload.ort;"
+class="hidden md:flex justify-center w-full md:w-auto md:flex-col md:mr-50 lg:mr-100 items-center">
+Lifta Berater:in für Ihre Region
+Haben Sie noch Fragen?
+Wir sind rund um die Uhr für Sie da!
+0800 20 33 150
+(Kostenlose Service Hotline - 24 Std.
+täglich für Sie da)
+In Ihrer Nähe
+Infopaket
+Termin vor Ort
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+Marke des Jahrhunderts Deutsche Standards
+Mehr Infos
+Glossar
+Karriere
+Partner
+Presse
+Über Lifta
+Copyright Lifta 2026, Alle Rechte vorbehalten
+Barrierefreiheit
+Datenschutz
+Impressum
+Privatsphäre
+Einstellungen
+Glossar
+Karriere
+Über Lifta
+Partner
+Barrierefreiheit
+Datenschutz
+Impressum
+Privatsphäre
+Einstellungen
+Presse
+Copyright Lifta 2026, Alle Rechte vorbehalten
+TÜV-geprüfte Kundenzufriedenheit
+Freiwillige Befragung von 1.216 Kunden zur Kundenzufriedenheit im Service.
+TÜV Süd Verbraucherinfo
+TÜV-geprüfte Kundenzufriedenheit
+Prüfbericht (PDF)
+Trusted Shops Kundenbewertung
+In dem unabhängigen Bewertungsportal Trusted Shops schneidet Lifta bestens ab.
+{ rating = value; })" class="mt-15 text-15 leading-snug font-light">
+Kundenbewertung (5,0 / 5)
+Zu Trusted Shops
+Focus Money Preis-Sieger
+Lifta bietet aus Sicht der Verbraucher im Bereich Treppenlifte das beste Preis-Leistungs-Verhältnis und setzt damit den Maßstab in seiner Branche.
+Focus Money Preis-Sieger
+Zum Anbieterranking
+Zum Berichtsband
+Marke des Jahrhunderts
+Seit 2003 wird Lifta regelmäßig im Markenkompendium "Marken des Jahrhunderts" von Herausgeber und Verleger Dr. Florian Langenscheidt aufgeführt.
+Marke des Jahrhunderts Deutsche Standards
+Deutsche Standards
+b.toString(16).padStart(2, '0')).join('');
+}
+}"
+x-init="
+window.sha256_last_name = await sha256(user_data_name);
+window.sha256_phone_number = await sha256(user_data_phone_number);
+window.sha256_email_address = await sha256(user_data_email);
+"
+>

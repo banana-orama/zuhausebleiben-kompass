@@ -1,0 +1,165 @@
+{
+  "task": "Briefing 13: Treppenlift fuer Aussentreppen (Aussenlift) — Wetterschutz, Kosten-Divergenz, Winter-Praxis, Angebotspflichten",
+  "created": "2026-10-27",
+  "evidence_dir": "research/evidence/aussenlift-271026",
+  "notes": [
+    "SERP 27.10.2026: 10+ Konkurrenten, aber die Preis-Untergrenze fuer den Sitzlift im Aussenbereich streut massiv (seniorenrat 3.500, treppenlifte-preise 4.000, treppenliftwissen 5.000, personenaufzuege ca. 6.000, Lifta-Hersteller 6.500). Diese dokumentierte Streuung ist die Verbesserungsluecke, nicht eine neue Zahl.",
+    "IP-Divergenz belegt: Fachportale nennen IP54-Minimum/IP65-empfohlen/IP67-exponiert (treppenliftwissen) bzw. 'IP-Schutzklasse 65+' (seniorenrat) — die Herstellerseiten HIRO (hiro.de/treppenlifte-aussen) und Lifta (aussenlifte, treppenlift) enthalten auf den am 27.10.2026 abgerufenen Seiten 0 IP-Treffer (skriptgeprueft in verify_aussenlift_271026.py). Artikel gibt IP-Zahlen daher als Fachportal-Orientierung und verlangt die Schutzart aus dem Datenblatt.",
+    "Pauschal-Aufpreis-Behauptung ('Der Aussenbereich kostet ... einen Aufschlag', personenaufzuege) wird NICHT als Fakt uebernommen: Liftas eigene Preistabelle ueberlappt innen (5.500–9.900) und aussen (6.500–8.500) vollstaendig; treppenlifte-preise sagt fuer Plattform-/Hublift explizit 'drinnen wie draussen dasselbe'. Artikel dokumentiert beide Lesarten mit Beleg.",
+    "Foerderbetrage (4.180/16.720 Euro) bewusst NICHT wiederholt — nur Verweis auf treppenlift-zuschuss (dort 26.10.2026 live verifiziert, foerder-prueflauf).",
+    "Handicare 2000 Outdoor existiert nur auf US/CA-Haendlerseiten, keine deutsche Herstellerseite gefunden (Probe handicare.com/de liefert JS-Shell) — nicht als DE-Angebot behauptet.",
+    "Gebraucht-Aussenlift: treppenlifte-preise nennt 40-Prozent-Abschlag als ueblich, treppenliftwissen warnt vor privat gekauften Geraeten ('Poroesen Dichtungen ... sieht man nicht an') — beide Lesarten dokumentiert."
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "Treppenliftwissen: Aussenlift — Kosten, Wetterschutz, Winter-Praxis (Fachportal; Seite Stand Oktober 2026, Quellenpruefung Stand Juli 2026; abgerufen 27.10.2026)",
+      "url": "https://www.treppenliftwissen.de/treppenlift/aussenlift/",
+      "checked_at": "2026-10-27",
+      "evidence": "aussenlift-271026/tlw-aussenlift.txt",
+      "quotes": [
+        { "text": "Wetterfest heißt: verzinkte oder Aluminium-Schienen, abgedichtete Elektronik (IP54 als Minimum, besser IP65) und eine Abdeckhaube als Pflicht-Zubehör" },
+        { "text": "als Orientierung gilt Schutzklasse IP54 als Minimum, IP65 als empfehlenswert und IP67 für exponierte Lagen ohne jede Überdachung" },
+        { "text": "Betreiben lassen sich gängige Außenmodelle laut Herstellerangaben bis etwa −10 bis −15 °C." },
+        { "text": "Montieren Sie nie ein Innen-Modell draußen , auch nicht unter einem Vordach." },
+        { "text": "Gerade Läufe ab etwa 5.000 €, je nach Länge und Ausstattung bis 10.000 €; kurvige Außenanlagen mit Maßschiene können bis etwa 18.000 € erreichen (Richtwerte inkl. Einbau, Stand: Oktober 2026)." },
+        { "text": "Gegenüber dem vergleichbaren Innen-Modell kostet die Außenausführung etwa 1.000 bis 4.000 € Aufpreis für Material und Abdichtung." },
+        { "text": "Servicetechniker berichten in Praxisleitfäden, dass Kälte die nutzbare Akku-Kapazität um bis zu ein Drittel und mehr reduziert" },
+        { "text": "Tiefentladene Akkus sind der häufigste vermeidbare Winterschaden (Austausch etwa 150–300 €)." },
+        { "text": "Verzichten Sie auf Streusalz und chemische Enteiser an der Schiene: Beides greift Metall und Beschichtung an und kann die Garantie kosten." },
+        { "text": "Bei der Wartung ist draußen mehr Disziplin gefragt als innen: Die jährliche Inspektion (etwa 150–300 €) ist Pflichtprogramm, bei exponierten Lagen empfehlen Fachbetriebe 2 Termine pro Jahr." },
+        { "text": "Realistisch hält ein gepflegter Außenlift etwa 8 bis 12 Jahre, etwas weniger als das Innen-Pendant." },
+        { "text": "Je nach Bundesland und Lage kann eine Genehmigung nötig sein, teils auch wegen Denkmalschutz, vor allem für Plattform- und Hublifte mit Fundament." },
+        { "text": "Seriöse Anbieter klären das im Zuge der Vor-Ort-Beratung; im Mehrfamilienhaus kommt die Zustimmung von Vermieter oder Eigentümergemeinschaft hinzu." },
+        { "text": "Poröse Dichtungen und innen korrodierte Antriebe sieht man dem Gerät nicht an." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Personenaufzuege.com: Treppenlift außen — Kosten 2026, Wetterschutz & Modelle (Fachportal; Stand 17.09.2026, Marktrichtwerte; abgerufen 27.10.2026)",
+      "url": "https://www.personenaufzuege.com/treppenlift/aussen/",
+      "checked_at": "2026-10-27",
+      "evidence": "aussenlift-271026/personenaufzuege-aussen.txt",
+      "quotes": [
+        { "text": "Der Außenbereich kostet gegenüber dem Innenbereich einen Aufschlag – für wetterfeste Beschichtung, gedichtete Elektrik und die Abdeckhaube." },
+        { "text": "Sitz-Treppenlifte für außen liegen insgesamt bei 6.000 bis 15.000 €. Zum Vergleich: Im Haus kostet ein Sitzlift an einer geraden Treppe 3.500 bis 9.000 €." },
+        { "text": "Abdeckhaube: Eine wasserdichte Haube schützt Sitz, Bedienelemente und Technik, wenn der Lift nicht fährt." },
+        { "text": "Korrosionsschutz: Schiene aus eloxiertem Aluminium, verzinkte oder rostfreie Bauteile. Wo im Winter gestreut wird, ist das besonders wichtig." },
+        { "text": "Gedichtete Elektrik: Motor, Steuerung und Akkus sitzen in einem wasserfesten Gehäuse. Die Schutzart gegen Spritz- und Regenwasser steht im Datenblatt." },
+        { "text": "Frost: Lassen Sie sich den zulässigen Temperaturbereich nennen. Schiene und Stufen müssen im Winter von Schnee und Eis freigehalten werden." },
+        { "text": "Schutz vor fremder Nutzung: Schlüsselschalter oder abziehbare Bedienung, damit Unbefugte den Lift nicht benutzen." },
+        { "text": "mindestens zweimal im Jahr kontrolliert werden, weil Dichtungen und Korrosionsschutz stärker beansprucht sind." },
+        { "text": "Für draußen braucht es ein Außenmodell mit Abdeckhaube, gedichteter Elektrik und Korrosionsschutz." },
+        { "text": "Treppenlifte für den Innenbereich sind nicht für Nässe und Frost ausgelegt. Im Freien drohen Korrosion und Ausfälle der Elektrik" },
+        { "text": "die Garantie des Herstellers deckt einen solchen Einsatz in der Regel nicht ab." },
+        { "text": "Für gerade Treppen ja, teils ab rund 50 € im Monat. Bei Kurventreppen ist Miete kaum möglich, weil die Schiene für jede Treppe einzeln gefertigt wird." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Treppenlifte-preise.de (Magazin): Treppenlift außen — Kosten, Wetterschutz & Modelle (Fachportal; abgerufen 27.10.2026)",
+      "url": "https://treppenlifte-preise.de/magazin/treppenlift-aussen/",
+      "checked_at": "2026-10-27",
+      "evidence": "aussenlift-271026/trep-preise-aussen.txt",
+      "quotes": [
+        { "text": "Ein Sitzlift im Freien liegt etwas über derselben Bauart im Haus, weil die wetterfeste Ausführung eingerechnet ist; Plattformlift und Hublift kosten drinnen wie draußen dasselbe." },
+        { "text": "dazu kommen zwei Posten, die es nur draußen gibt: Untergrund und Stromzuführung." },
+        { "text": "4.000–10.000 € Sitzlift, gerade Treppe außen — inkl. Montage" },
+        { "text": "Wartung jährlich, laufende Kosten 100–250 €" },
+        { "text": "Ein nach draußen gestellter Innenlift hält keine zwei Winter durch." },
+        { "text": "Schiene: Edelstahl, feuerverzinkter und pulverbeschichteter Stahl oder eloxiertes Aluminium — salzbeständig, nicht nur lackiert." },
+        { "text": "Abdeckhaube und Schlüsselschalter: bei seriösen Outdoor-Modellen im Lieferumfang — die Haube gegen Nässe, der Schalter gegen Fremdnutzung." },
+        { "text": "Normen: Lifte an Treppen werden nach EN 81-40 gebaut, senkrecht hebende Anlagen nach EN 81-41 — die Nummern gehören in jedes Angebot." },
+        { "text": "Fundament und Elektroanschluss fehlen im Preis, wenn sie im Angebot fehlen." },
+        { "text": "Alte Natursteinstufen, gesetzte Platten oder ein frei stehender Hublift im Garten verlangen Punktfundamente oder eine Betonplatte." },
+        { "text": "Für den Betrieb genügt ein 230-Volt-Anschluss als wettergeschützte Außensteckdose oder Festanschluss mit FI-Schutzschalter." },
+        { "text": "Die meisten Anlagen fahren im Akkubetrieb, bleiben bei Stromausfall also nutzbar." },
+        { "text": "Die Montage dauert bei gerader Schiene meist einen Tag; auf eine Maßschiene warten Sie Wochen." },
+        { "text": "Hält ein Außenlift Frost und Dauerregen aus? Ja, sofern es ein für den Außenbereich gebautes Modell mit gekapselter Elektronik und salzbeständiger Schiene ist." },
+        { "text": "Vereiste Schienen gehören vor der Fahrt freigelegt." },
+        { "text": "Die jährliche Wartung ist draußen kein Luxus, sondern der Grund, warum eine Anlage lange läuft." },
+        { "text": "Gibt es Außentreppenlifte auch gebraucht? Ja, üblich ist ein Abschlag von 40 Prozent auf den Neupreis; die Spannen stehen in der Beschaffungstabelle." },
+        { "text": "Sinnvoll ist der Gebrauchtkauf fast nur bei gerader Schiene, weil eine Maßschiene selten an eine zweite Treppe passt." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Seniorenrat.de: Treppenlift Außen — Kosten, Wetterschutz, Modelle (Ratgeber-Portal, Artikel vom 02.06.2026; abgerufen 27.10.2026)",
+      "url": "https://www.seniorenrat.de/ratgeber/treppenlift-aussen/",
+      "checked_at": "2026-10-27",
+      "evidence": "aussenlift-271026/seniorenrat-aussen.txt",
+      "quotes": [
+        { "text": "Ein Außen-Treppenlift hat wetterfeste Bauteile (Edelstahl, IP-Schutzklasse 65+) und ist für Regen, Schnee und Frost ausgelegt." },
+        { "text": "Witterungsschutz: IP-Schutzklasse 65+ (staub- und strahlwasserfest)" },
+        { "text": "Sitz-Außenlift, gerade 3.500–6.500 €" },
+        { "text": "Sitz-Außenlift, kurvig 6.500–10.500 €" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "HIRO LIFT (Herstellerangabe): Individueller Treppenlift für Außen — hiro.de (abgerufen 27.10.2026)",
+      "url": "https://hiro.de/treppenlifte-aussen/",
+      "checked_at": "2026-10-27",
+      "evidence": "aussenlift-271026/hiro-aussen.txt",
+      "quotes": [
+        { "text": "Der 160 AIR von HIRO liebt die frische Luft." },
+        { "text": "Wir haben unsere smarte Technik unter einem wasserdichten Gehäuse verbaut, sodass wir den uneingeschränkten Einsatz bei jeder Wetterlage garantieren können." },
+        { "text": "Jede Kontaktfläche mit Ihrem Körper ist wasser- und schmutzabweisend" },
+        { "text": "wasserfeste Sitzpolster und eine hochwertige Abdeckplane" },
+        { "text": "Sicherheitsvorkehrungen, wie Sicherheitsgurt, Hindernissensoren oder Verschlüsselung gegen unbefugte Benutzung" },
+        { "text": "vollkommen wartungsfreier Hochleistungs-Akku und automatischer Ladevorgang" },
+        { "text": "Garantie mit 2 Jahren auf den gesamten Treppenlift und 5 Jahren auf Antriebsrollen und Fahrbahn" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Lifta (Herstellerangabe): Außenlift — Der Treppenlift für mehr Mobilität im Freien (lifta.de/treppenlift/aussenlifte, abgerufen 27.10.2026)",
+      "url": "https://www.lifta.de/treppenlift/aussenlifte",
+      "checked_at": "2026-10-27",
+      "evidence": "aussenlift-271026/lifta-aussenlifte.txt",
+      "quotes": [
+        { "text": "Mit unserem Allwetter Lifta GTL 320 erlangen Sie deutlich mehr Mobilität im Freien" },
+        { "text": "Der Allwetter Lifta ist vor unbefugtem Gebrauch bestens geschützt. Er lässt sich mit einem abziehbaren Schlüssel sicher verschließen." },
+        { "text": "Durch die robuste und witterungsbeständige Verarbeitung kann der Treppenlift problemlos das ganze Jahr hindurch genutzt werden." },
+        { "text": "Gerade bei Schnee und Glätte können so Stürze auf der vereisten Treppe vermieden werden." },
+        { "text": "Langlebigkeit trotz Feuchtigkeit, Kälte und Hitze" },
+        { "text": "UV-beständiges Oberflächenmaterial" },
+        { "text": "Gekapselte Schalter und Bedienelemente" },
+        { "text": "Versiegelte Antriebselektronik" },
+        { "text": "Schmale, gerade Alu-Schiene mit Zweischichtlackierung" },
+        { "text": "Zu jedem Lifta Außenlift erhalten Sie eine praktische Schutzhaube. Sie ersparen sich das lästige Abtrocknen der Sitzfläche und können direkt auf dem Treppenlift Platz nehmen." },
+        { "text": "sind die meisten Treppenlifte für außen mit einem Schloss ausgestattet" },
+        { "text": "Zusätzlicher Schutz ist durch eine praktische Hülle zur Abdeckung gegeben." },
+        { "text": "Dank hochwertigem Korrosionsschutz und versiegelter Antriebselektronik ist ein Außenlift besonders langlebig und zuverlässig." }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Lifta (Herstellerangabe): Treppenlift FAQ — Preisspannen inkl. Außen (lifta.de/faq, abgerufen 27.10.2026)",
+      "url": "https://www.lifta.de/faq",
+      "checked_at": "2026-10-27",
+      "evidence": "aussenlift-271026/lifta-faq.txt",
+      "quotes": [
+        { "text": "Gerade Treppe, Treppenlift innen: 5.500 – 9.900 €" },
+        { "text": "Gerade Treppe, Treppenlift außen: 6.500 – 8.500 €" },
+        { "text": "Kurvige Treppe, Treppenlift innen: 10.000 – 17.000 €" },
+        { "text": "Alle Preise verstehen sich inklusive Einbau und Inbetriebnahme durch unsere Monteure." }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Verbraucherzentrale: Treppenlifte — das müssen Sie über Planung und Umsetzung wissen (abgerufen 27.10.2026)",
+      "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/treppenlifte-das-muessen-sie-ueber-planung-und-umsetzung-wissen-10711",
+      "checked_at": "2026-10-27",
+      "evidence": "aussenlift-271026/vz-planung.txt",
+      "quotes": [
+        { "text": "Je nach Aufwand, etwa durch Treppenverlauf und -länge, kostet der Einbau eines Treppenlifts zwischen 3.500 und 15.000 Euro." },
+        { "text": "Hinzu kommen jährliche Wartungs- und Servicekosten von 200 bis 300 Euro." },
+        { "text": "Achten Sie bei Wartungsverträgen auf klare Regelungen zu Häufigkeit und Kosten der Inspektionen." },
+        { "text": "Um Kosten zu sparen, lohnt der Besuch einer Hilfsmittel-Börse" },
+        { "text": "Planung und Umsetzung der teuren Treppenlift-Technik sind nicht zu unterschätzen. Vergleichen Sie Angebote und verschiedene technische Lösungen von Treppenliften miteinander." },
+        { "text": "Reichen Sie den Kostenvoranschlag vor der Umbaumaßnahme bei Ihrer Pflegekasse ein." }
+      ]
+    }
+  ]
+}

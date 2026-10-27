@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 680" width="980" height="680" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Aussenlift: Wetterschutz-Bausteine und Angebotspositionen</title>
+  <desc id="gdesc">Schema-Grafik in zwei Teilen. Links: eine Aussentreppe in Seitenansicht mit einem Treppenlift, dessen Sitz unter einer Abdeckhaube steht; sechs nummerierte Marker benennen Abdeckhaube, salzbeständige Schiene, Schlüsselschalter, Ladestation, Fundament am Verankerungspunkt und wettergeschützte Aussensteckdose mit FI-Schutzschalter, die Legende darunter erklärt jede Position. Rechts: eine Angebots-Checkliste mit fünf Positionen, die in ein Aussenlift-Angebot gehören, und einem Warnhinweis, dass ein Innenmodell niemals draussen montiert werden darf, weil die Garantie dann in der Regel nicht greift. Alle Angaben sind Hersteller- oder Fachportalangaben, Stand 27.10.2026.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .item{font-size:13.5px;fill:#243b35}
+    .fine{font-size:12.5px;fill:#53655e}
+    .boxhead{font-size:14px;font-weight:700;fill:#194533}
+    .step{stroke:#9db3a6;stroke-width:3;fill:none}
+    .lift{fill:#4d7d68}
+    .rail{stroke:#4d7d68;stroke-width:5}
+    .cover{fill:#7fa896;opacity:.85}
+    .ground{stroke:#c3cdc5;stroke-width:2}
+    .num{fill:#b34a3a}
+    .numtext{font-size:11px;font-weight:700;fill:#ffffff;text-anchor:middle}
+    .warn{fill:#fdf6f3;stroke:#d8a394}
+    .note{fill:#f4f7f4;stroke:#d8dfd6}
+  </style>
+
+  <rect width="980" height="680" fill="#ffffff"/>
+  <text class="h" x="60" y="52">Außenlift: was Wetterschutz im Angebot ausmacht</text>
+  <text class="sub" x="60" y="78">Hersteller- und Fachportalangaben (Abruf 27.10.2026) — Schutzart und Temperaturbereich stehen im Datenblatt.</text>
+
+  <!-- Left card: outdoor stairs with lift -->
+  <rect x="60" y="104" width="470" height="476" rx="10" class="note"/>
+  <text class="fine" x="80" y="128">Schema: Treppenlift an der Außentreppe (Seitenansicht)</text>
+
+  <!-- ground line -->
+  <line class="ground" x1="90" y1="400" x2="500" y2="400"/>
+  <text class="fine" x="90" y="418">Gelände / Hauseingang</text>
+
+  <!-- outdoor stairs ascending to the right -->
+  <polyline class="step" points="110,400 170,400 170,370 230,370 230,340 290,340 290,310 350,310 350,280 410,280 410,250 470,250"/>
+
+  <!-- rail above the stairs -->
+  <line class="rail" x1="120" y1="352" x2="480" y2="204"/>
+
+  <!-- lift on mid-stair, seat under cover dome -->
+  <line x1="272" y1="346" x2="272" y2="270" class="rail" stroke-width="4"/>
+  <rect class="lift" x="238" y="332" width="84" height="12" rx="4"/>
+  <rect class="lift" x="306" y="266" width="10" height="70" rx="4"/>
+  <path class="cover" d="M220 332 q60 -58 120 0 Z"/>
+  <line x1="220" y1="332" x2="340" y2="332" stroke="#53655e" stroke-width="2"/>
+  <circle cx="326" cy="296" r="6" fill="#194533"/>
+
+  <!-- charging station at bottom left -->
+  <rect class="lift" x="120" y="376" width="32" height="22" rx="4" opacity="0.75"/>
+
+  <!-- foundation wedge at rail anchor -->
+  <polygon points="164,400 176,400 170,388" fill="#b34a3a"/>
+
+  <!-- weather-protected outdoor socket -->
+  <rect x="452" y="374" width="28" height="24" rx="4" fill="#fdf6f3" stroke="#b34a3a" stroke-width="2"/>
+
+  <!-- numbered markers on the drawing -->
+  <circle class="num" cx="274" cy="294" r="10"/>
+  <text class="numtext" x="274" y="298">1</text>
+  <circle class="num" cx="136" cy="330" r="10"/>
+  <text class="numtext" x="136" y="334">2</text>
+  <circle class="num" cx="344" cy="286" r="10"/>
+  <text class="numtext" x="344" y="290">3</text>
+  <circle class="num" cx="136" cy="356" r="10"/>
+  <text class="numtext" x="136" y="360">4</text>
+  <circle class="num" cx="170" cy="372" r="10"/>
+  <text class="numtext" x="170" y="376">5</text>
+  <circle class="num" cx="466" cy="356" r="10"/>
+  <text class="numtext" x="466" y="360">6</text>
+
+  <!-- legend -->
+  <text class="item" x="80" y="448"><tspan font-weight="700">1</tspan>  Abdeckhaube — schützt Sitz, Kontakte und Bedienelemente in der Parkzeit</text>
+  <text class="item" x="80" y="470"><tspan font-weight="700">2</tspan>  Schiene salzbeständig: Alu eloxiert / verzinkt / Edelstahl</text>
+  <text class="item" x="80" y="492"><tspan font-weight="700">3</tspan>  Schlüsselschalter gegen unbefugtes Benutzen</text>
+  <text class="item" x="80" y="514"><tspan font-weight="700">4</tspan>  Ladestation: Lift nach jeder Fahrt parken (Erhaltungsladung)</text>
+  <text class="item" x="80" y="536"><tspan font-weight="700">5</tspan>  Fundament am Verankerungspunkt — eigene Angebotszeile (Tiefbau)</text>
+  <text class="item" x="80" y="558"><tspan font-weight="700">6</tspan>  230-V-Außensteckdose mit FI — Akkubetrieb, nutzbar bei Stromausfall</text>
+
+  <!-- Right card: offer checklist -->
+  <rect x="560" y="104" width="360" height="300" rx="10" class="note"/>
+  <text class="boxhead" x="580" y="132">Fünf Punkte, die ins Angebot gehören</text>
+  <text class="item" x="580" y="158">1. Abdeckhaube / Abdeckplane im Lieferumfang</text>
+  <text class="item" x="580" y="182">2. Korrosionsschutz der Schiene benannt</text>
+  <text class="item" x="580" y="206">3. Schutzart (IP) + Temperaturbereich: Datenblatt</text>
+  <text class="item" x="580" y="230">4. Schlüsselschalter / abziehbare Bedienung</text>
+  <text class="item" x="580" y="254">5. Fundament, Erdarbeiten, Steckdose (FI):</text>
+  <text class="item" x="600" y="274">eigene Angebotszeilen — sonst nicht vergleichbar</text>
+  <text class="fine" x="580" y="306">Normangabe im Angebot: Lifte an Treppen nach</text>
+  <text class="fine" x="580" y="324">EN 81-40. Wartung draußen: jährlich, exponiert 2×.</text>
+  <text class="fine" x="580" y="342">Verbindlich bleibt das Angebot nach dem Aufmaß.</text>
+  <text class="fine" x="580" y="386">Quellen: Hersteller HIRO/Lifta; Fachportale</text>
+  <text class="fine" x="580" y="404">treppenliftwissen, personenaufzuege,</text>
+  <text class="fine" x="580" y="422">treppenlifte-preise — Stand 27.10.2026.</text>
+
+  <!-- warning box -->
+  <rect x="560" y="440" width="360" height="104" rx="10" class="warn"/>
+  <text class="boxhead" x="580" y="468" fill="#8a3a2c">Niemals ein Innenmodell draußen</text>
+  <text class="item" x="580" y="492">Innenlifte sind nicht für Nässe und Frost</text>
+  <text class="item" x="580" y="512">ausgelegt; die Garantie deckt einen solchen</text>
+  <text class="item" x="580" y="532">Einsatz in der Regel nicht ab — auch unter Vordach.</text>
+</svg>
