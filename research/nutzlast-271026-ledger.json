@@ -1,0 +1,126 @@
+{
+  "task": "Briefing 12: Treppenlift Maximalgewicht/Tragkraft (Nutzlast, XXL-Modelle, Aufmass)",
+  "created": "2026-10-27",
+  "evidence_dir": "research/evidence/nutzlast-271026",
+  "notes": [
+    "SERP 27.10.2026: Händler-FAQs (TS, MC Seniorenprodukte, Fital) + 2 Fachportale (altersgerecht-modernisieren 17.08.2026, treppenliftwissen Juli 2026) + Infoportal treppenlifter.me. Pauschalangaben divergieren (Standard 'bis 120' vs '125-160 kg'), weil die Zahl je Modell/Ausführung variiert — keine Seite dokumentiert die Herstellerwerte direkt nebeneinander. Unsere Verbesserung: Hersteller-Datenblatt-Belege verbatim (HIRO 135/150/175, Lifta Esprit 4500 125 kg Kurvenlift, Handicare-Leiter 115-200) + Lifta-Klassik-Diskrepanz (gerade 160 vs kurvig 135, Modellseite bewirbt pauschal 160) + Zuladungs-/Überlastschutz-Fakten + Aufmass-Checkliste.",
+    "Herstellerangaben sind datiert und modellbezogen: Lifta-Esprit-PDF Stand 01/2020 (Kurvenlift), altersgerecht zitiert Lifta-Datenblaetter Stand 05/23 (Klassik 2000 gerade) und 06/2018 (Klassik 5000 kurvig). Wir geben Werte nur als gekennzeichnete Hersteller-/Fachportalangaben je Modell weiter, nie als allgemeine Kaufempfehlung.",
+    "Kosten: keine Marktpreise erfunden. Nur Fachportal-Schaetzung 15-25 % Aufschlag ggueber Standardmodell als groben Anhaltspunkt [7]; Treppenform dominiert den Preis. Verweis auf treppenlift-kosten bzw. treppenlift-zuschuss fuer Details/Foerderung.",
+    "Warranty-Formulierung 'kein Garantiefall' nur als gekennzeichnete Fachportal-Angabe [6], nicht als Rechtsaussage.",
+    "Nutzlast-Thema ist im bestehenden Cluster 0-mal abgedeckt (grep 27.10.: keine Treppenlift-Tragkraft-Inhalte) — keine Kannibalisierung; Sitzbreite an schmaler Treppe bleibt eigenes Topic (treppenlift-schmale-treppe)."
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "HIRO LIFT (Hersteller): Treppenlift – Unterstützung für zu Hause (Herstellerangabe; abgerufen 27.10.2026)",
+      "url": "https://hiro.de/treppenlift/",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/hiro-treppenlift.txt",
+      "quotes": [
+        { "text": "Fährt zwischen zwei Etagen, innen, gerade wie kurvig, mit dem original HIRO Traktionsantrieb. Trägt 135 kg." },
+        { "text": "Tragfähigkeit bis max. 135 kg" },
+        { "text": "Tragfähigkeit Optional bis 150 Kilogramm, auf Anfrage bis 175 Kilogramm, dank eigener Konstruktion." },
+        { "text": "Erhöhung Tragfähigkeit 150 kg nicht möglich optional optional optional Erhöhung Tragfähigkeit 175 kg (auf Anfrage)" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "HIRO LIFT (Hersteller): HIRO 160 NEO – technische Details (Herstellerangabe; abgerufen 27.10.2026)",
+      "url": "https://hiro.de/modell/neo/",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/hiro-neo.txt",
+      "quotes": [
+        { "text": "Tragfähigkeit bis 135 kg Standard, bis 150 kg Optional, höhere Belastungen bis 175 kg auf Anfrage" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lifta (Hersteller): Technisches Datenblatt Kurventreppenlift Esprit 4500 (PDF, Stand 01/2020; abgerufen 27.10.2026)",
+      "url": "https://www.lifta.de/assets/img/pdf/lifta-datenblatt-esprit-4500.pdf",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/lifta-esprit-4500.txt",
+      "quotes": [
+        { "text": "TECHNISCHES DATENBLATT KURVENTREPPENLIFT LIFTA ESPRIT MODELL 4500" },
+        { "text": "Tragkraft bis ca. 125 kg" },
+        { "text": "Die Maße können aus Konstruktionsgründen, welche sich aus örtlichen Einbausituationen ergeben, abweichen. Stand 01/2020" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Lifta (Hersteller): Treppenlift-Übersicht, Modell Lifta Klassik (Herstellerangabe; abgerufen 27.10.2026)",
+      "url": "https://www.lifta.de/treppenlift/",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/lifta-main.txt",
+      "quotes": [
+        { "text": "Lifta Klassik Der robuste und belastbare Begleiter für jeden Tag Höchste Belastbarkeit bis 160 kg" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Handicare GmbH (Herstellerangabe, Deutschland-Website): Handicare 1000XXL – gerader Sitzlift (abgerufen 27.10.2026)",
+      "url": "https://handicare-treppenlifte.de/modelle/gerade-treppenlifte/handicare_1000xxl/",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/handicare-xxl.txt",
+      "quotes": [
+        { "text": "Der 1000XXL wurde speziell für eine Traglast bis zu 200 kg entwickelt." },
+        { "text": "Unsere Sitzlifte sind für eine maximale Tragkraft von 125 kg ( Handicare Freecurve ), 115 / 137 kg ( Handicare 4000 ) konzipiert." },
+        { "text": "Der gerade Sitzlift Handicare 1000 schafft beispielsweise bis zu 160 kg ." },
+        { "text": "Den 1000XXL liefern wir außerdem standardmäßig mit: automatischer Drehfunktion längerer Sitzfläche längerem Sicherheitsgurt Standardmäßig werden beim 1000XXL die Armlehnen weiter auseinander montiert." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Altersgerecht Modernisieren: Wie schwer darf man für einen Treppenlift sein? Tragkraft (Fachportal, 17.08.2026; abgerufen 27.10.2026)",
+      "url": "https://altersgerecht-modernisieren.de/treppenlift/hohe-belastbarkeit/",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/altersgerecht.txt",
+      "quotes": [
+        { "text": "Lifttyp Zulässige Tragkraft Wofür geeignet Sitzlift Standard 125 bis 160 kg je Modell Der Normalfall auf geraden und kurvigen Treppen Sitzlift verstärkt (XXL) bis 200 kg Höheres Körpergewicht, breiterer Sitz Plattformlift bis 300 kg Rollstuhl bleibt besetzt, Person fährt sitzen Hublift 225 kg Kleine Höhenunterschiede bis etwa einen Meter" },
+        { "text": "Der Klassik 2000 für gerade Treppen trägt „bis ca. 160 kg“ (Datenblatt, Stand 05/23), der Klassik 5000 für kurvige Treppen „bis ca. 135 kg“ (Datenblatt, Stand 06/2018). Auf der Modellseite wirbt Lifta dagegen mit „Höchste Belastbarkeit bis 160 kg“ — ohne den Unterschied zu erwähnen." },
+        { "text": "Fragen Sie deshalb nicht nach der Tragkraft „des Modells“, sondern nach der Tragkraft der Ausführung, die bei Ihnen eingebaut wird — und lassen Sie sich das Datenblatt zeigen." },
+        { "text": "Der Avantgarde ist in beiden Ausführungen mit „bis ca. 135 kg“ angegeben, der Esprit 4500 mit „bis ca. 125 kg“." },
+        { "text": "Und die Grenze gilt nicht nur für Sie. Mitgerechnet wird alles, was mitfährt: die Handtasche, der Einkauf, der kleine Hund auf dem Schoß." },
+        { "text": "Die Grenze gilt für Person plus Zuladung — Tasche, Einkauf, kleiner Hund zählen mit. Wird sie überschritten, greift der Überlastschutz und die Fahrt startet nicht ." },
+        { "text": "Verschleißen Bauteile dadurch früher, ist das kein Garantiefall — der Hersteller haftet nicht für Schäden aus einer Nutzung außerhalb der Spezifikation." },
+        { "text": "Wenn Ihr Gewicht nahe an der Grenze eines Modells liegt, ist das kein Ausschlusskriterium. Es ist ein Grund, das nächstgrößere Modell anzufragen." },
+        { "text": "Quellen, abgerufen am 17. August 2026: Sitzlifte aus den technischen Datenblättern von Lifta und der Herstellerangabe zum Handicare 1000XXL" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Treppenliftwissen: Treppenlift mit hoher Traglast (XXL) – Lösungen für mehr Gewicht (Fachportal, aktualisiert Juli 2026; abgerufen 27.10.2026)",
+      "url": "https://www.treppenliftwissen.de/ratgeber/treppenlift-hohe-traglast/",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/treppenliftwissen.txt",
+      "quotes": [
+        { "text": "Ein Standard-Treppenlift ist auf ein Personengewicht von etwa 120 bis 160 kg ausgelegt." },
+        { "text": "Wir behandeln das Gewicht als das, was es ist: eine technische Anforderung an den Lift, nicht ein Merkmal der Person." },
+        { "text": "Beispiel belegt: Handicare bietet mit dem 1000XXL einen geraden Sitzlift bis 200 kg an, mit längerer Sitzfläche, längerem Gurt und weiter montierten Armlehnen" },
+        { "text": "Alternative Plattformlift: Plattformlifte tragen etwa bei HIRO 250 bis 300 kg, höhere Lasten auf Anfrage" },
+        { "text": "Ein Lift für höheres Gewicht ist an mehreren Stellen verstärkt: ein stabileres, oft zweirohriges Schienensystem , ein stärkerer Motor mit kräftigerem Getriebe, eine breitere Sitzfläche (etwa 55 bis 60 cm und mehr), verstärkte Armlehnen und ein längerer Gurt." },
+        { "text": "Pflicht: Ein Vor-Ort-Aufmaß mit Probesitzen und Statikprüfung; verbindlich ist erst das Angebot" },
+        { "text": "Beim Preis ist mit einem moderaten Aufschlag gegenüber dem Standardmodell zu rechnen; eine Ratgeber-Schätzung nennt in der Größenordnung 15 bis 25 %. Das ist ein grober Anhaltspunkt und noch kein Festpreis: Wie immer bestimmt die Treppenform den Preis stärker als die Traglast und verbindlich wird er erst nach dem Aufmaß." }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Treppenlifter.me: Treppenlift für Übergewichtige (Infoportal, Händler-ähnliche Übersicht; abgerufen 27.10.2026)",
+      "url": "https://www.treppenlifter.me/treppenlift-fuer-uebergewichtige.html",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/treppenlifterme.txt",
+      "quotes": [
+        { "text": "Die meisten Treppenlifte verfügen über eine Tragfähigkeit von bis zu 120 kg in der Standardausführung. Spezielle Versionen können bis 160 kg Traglast bewältigen." }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "HIRO LIFT (Herstellerangabe): Treppenlift-Preise — Plattformlift-Kosten (abgerufen 27.10.2026)",
+      "url": "https://hiro.de/preise/",
+      "checked_at": "2026-10-27",
+      "evidence": "nutzlast-271026/hiro-preise.txt",
+      "quotes": [
+        { "text": "Mit Kosten zwischen 11.000 und 38.000 Euro müssen Sie für Plattformlifte rechnen." }
+      ]
+    }
+  ]
+}

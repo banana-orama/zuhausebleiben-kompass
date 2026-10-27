@@ -1,8 +1,33 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-26 (Batch 8). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-27 (Batch 9). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Batch 9 (2026-10-27, Cron-Lauf) — Briefing 12: Maximalgewicht/Tragkraft
+1. **Neu veröffentlicht:** treppenlift-maximalgewicht.json — Treppenlift-Tragkraft: Grenze gilt für
+   Person plus Zuladung (Überlastschutz startet die Fahrt nicht), belegte Herstellerwerte als
+   Tabelle (HIRO 135/150/175 gerade+kurvig; Lifta Esprit 4500 Kurvenlift „bis ca. 125 kg"
+   Datenblatt 01/2020; Lifta Klassik gerade 160/kurvig 135 laut Fachportal aus Datenblättern
+   05/23+06/2018 bei Modellseiten-Werbung „bis 160 kg"; Handicare 115–137/160/200),
+   XXL-Technik (zweirohrige Schiene, Motor, Sitzbreite 55–60 cm+), Plattformlift 250–300 kg als
+   Alternative, 8-Punkte-Aufmaß-Checkliste, Preis nur als Fachportal-Schätzung 15–25 % +
+   HIRO-Plattformlift-Herstellerangabe. 10 Abschnitte, 6 FAQs, 9 Quellen, 40/40 Zitate verbatim
+   (research/nutzlast-271026-ledger.json), Grafik assets/images/treppenlift-maximalgewicht-
+   tragkraft.svg (getBBox-Check 0 Overflows + Vision-Probe, 3 Layoutfehler gefunden und
+   behoben), Protokoll research/treppenlift-maximalgewicht-batch.md. 23. Ratgeber;
+   Topic SERP-basiert (GSC blockiert), Pauschalangaben-Divergenz (120 vs 125–160 kg) als
+   Verbesserungslücke; keine Kannibalisierung (grep: 0 Tragkraft-Inhalte im Bestand).
+2. **Renderer:** article-renderer.mjs specialMap +1 (Early-CTA „Angebote vergleichen" →
+   treppenlift-angebote-vergleichen). llms-txt.py SUMMARIES + SECTION_MAP erweitert.
+3. **Testzähler:** test_articles 22→23; verify_checklists_build RSS 22→23 Items;
+   test_partner_links A2 ≥ 23. Neu: research/verify_nutzlast_271026.py (Ledger/Arithmetik
+   40/40), research/verify_nutzlast_content_271026.py (Content-Support-Gate, 128 Checks,
+   Includes Tabelle/Bullets/Kernzahlen), research/verify_nutzlast_svg_271026.py
+   (getBBox-Overflow + Screenshot), research/verify_nutzlast_mobile_271026.py (390 px),
+   research/verify_live_readback_nutzlast_271026.py (Live-Readback).
+4. **Topic-Gates dokumentiert:** Akku/Stromausfall verworfen (commodity, kaum originär
+   Belegbares); Kurventreppe verworfen (Kannibalisierungsrisiko mit treppenlift-kosten).
 
 ### Batch 8 (2026-10-26, Cron-Lauf, Abend) — Briefing 11: Schmale Treppe
 1. **Neu veröffentlicht:** treppenlift-schmale-treppe.json — Treppenlift auf schmaler Treppe:
