@@ -1,8 +1,28 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-28 (Batch 11). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-28 (Abend, Renderer-Iteration: Related-Cross-Links). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Renderer-Iteration (2026-10-28, Abend, Cron-Lauf) — Related-Cross-Links aus der Magnet-Analyse
+1. **Umgesetzt:** die 6 offenen internen Link-Empfehlungen aus `research/GROWTH-BACKLOG.md`
+   (Link-Magnet-Analyse, Deliverable 5) als `data/cross-links.json` + Renderer-Pfad in
+   article-renderer.mjs: pflegegrad-antrag→verhinderungspflege-ueberblick+tuerbreiten-schnellcheck,
+   treppenlift-mietwohnung→tuerbreiten (Cross-Cluster-Whitelist), hausnotruf×2→treppenlift-zuschuss
+   (Cross-Cluster-Whitelist), beleuchtung→hilfsmittel-pflegekasse-uebernahme,
+   wanne-zur-dusche→badumbau-angebote-vergleichen. Rollator→Hilfsmittel war bereits über die
+   specialMap (Early-CTA „Kostenübernahme prüfen") erfüllt und ist nicht doppelt geführt.
+2. **Mechanik:** Cross-Ziele stehen VOR der alphabetischen Cluster-Pool-Auswahl; Related-Liste bleibt
+   exakt 3 Einträge (bestehende Per-Artikel-Gates mit len==3 bleiben grün). Unbekannte/self-Ziele im
+   Config brechen den Build.
+3. **Neues Gate:** `test_cross_links.py` (25 Artikel: je genau 3 Related-Links, Cross-Ziele vorne in
+   Reihenfolge, kein nicht-whitelisted Cluster-Verstoß, Config-Integrität) in `npm test` eingehängt
+   (Position: nach test_articles, gegen den LAUNCH-Dist). Lektion beim Gate-Bau: Cluster-Regel exakt
+   replizieren (Bad-Pool schließt treppenlift-zuschuss bewusst ein) und das Related-Segment bis
+   `</section>` begrenzen — ein Zeichen-Fenster griff sonst in den Footer und zählte falsche Links.
+4. **Teststand:** npm test komplett grün (test_site 49 Seiten beide Modi, test_articles 25,
+   test_cross_links 25/25, test_partner_links ALL PASS, Playwright consent+measurement+checklists,
+   measurement-policy). Deploy+Live-Readback: siehe launch-state 28.10. (Abend).
 
 ### Batch 11 (2026-10-28, Cron-Lauf) — Briefing 14: Plattformlift/Rollstuhllift
 1. **Neu veröffentlicht:** treppenlift-plattformlift-rollstuhllift.json — Plattformlift für

@@ -6,6 +6,12 @@ function loadPartnerConfig(root){
  const p=process.env.PARTNER_LINKS_CONFIG||join(root,'data/partner-links.json');
  return JSON.parse(readFileSync(p,'utf8'));
 }
+// Redaktionelle Related-Link-Whitelist (data/cross-links.json): Ziele werden VOR dem Cluster-Pool
+// gerendert; Gesamtliste bleibt 3. Unbekannte/self-Ziele brechen den Build (keine toten Links).
+function loadCrossLinks(root){
+ const p=process.env.CROSS_LINKS_CONFIG||join(root,'data/cross-links.json');
+ return JSON.parse(readFileSync(p,'utf8'));
+}
 // Partner-Link-Map: rendert NUR Platzierungen zugelassener Partner mit echter Tracker-URL.
 // active!=true, approved!=true oder fehlende URL => nichts im HTML (kein Platzhalter, kein erfundener Link).
 // Widersprüche (URL ohne Zusage, Zusage ohne URL, unbekannte Slugs) brechen den Build.
@@ -46,6 +52,11 @@ export function renderArticles(root,base,closing){
  }
  const PC=loadPartnerConfig(root);
  const partnerBySlug=buildPartnerIndex(PC,slugs);
+ const CL=loadCrossLinks(root);
+ for(const [src,targets] of Object.entries(CL.links||{})){
+  if(!slugs.has(src))throw Error('Cross-links config references unknown source slug '+src);
+  for(const t of targets)if(t===src||!slugs.has(t))throw Error('Cross-links config invalid target '+src+' -> '+t);
+ }
  return articles.map(a=>{
   const txt=s=>esc(s).replace(/\[(\d+)\]/g,(m,n)=>{
    if(!a.sources[Number(n)-1])throw Error('Missing citation '+a.slug+':'+n);
@@ -64,7 +75,10 @@ export function renderArticles(root,base,closing){
   const inCluster=x=>cluster==='bad'?(isBad(x.slug)||x.slug.includes('zuschuss')):cluster==='care'?isCare(x.slug):isLift(x.slug);
   const relatedPool=articles.filter(x=>x.slug!==a.slug).filter(inCluster);
   if(cluster==='care'&&relatedPool.length<3)for(const s of ['treppenlift-zuschuss','treppenlift-kosten']){const y=articles.find(x=>x.slug===s);if(y&&!relatedPool.includes(y))relatedPool.push(y);}
-  const related=relatedPool.slice(0,3);
+  const crossSlugs=(CL.links[a.slug]||[]).filter(s=>s!==a.slug);
+  const ordered=[];const seenR=new Set([a.slug]);
+  for(const s of [...crossSlugs,...relatedPool.map(x=>x.slug)]){if(!seenR.has(s)){seenR.add(s);ordered.push(s);}if(ordered.length===3)break;}
+  const related=ordered.map(s=>articles.find(x=>x.slug===s));
   const checklistIndex=a.sections.findIndex(s=>/checkliste|fragenliste|angebotscheck|unterlagencheck|angebote vergleich|kostenaufstellung/i.test(s.heading));
   const checklistTarget='#abschnitt-'+(checklistIndex>=0?checklistIndex+1:1);
   const specialMap=[['bad-umbau-barrierefrei','/wanne-zur-dusche.html','Wannentausch planen'],['wanne-zur-dusche','/bad-umbau-barrierefrei.html','Badumbau planen'],['badumbau-angebote-vergleichen','/bad-umbau-barrierefrei.html','Badumbau planen'],['bodengleiche-dusche-altbau','/treppenlift-mietwohnung.html','Mietwohnung: Zustimmungen klären'],['treppenlift-firmen-vergleich','/treppenlift-kosten.html','Kosten vergleichen'],['treppenlift-angebote-vergleichen','/treppenlift-zuschuss.html','Förderung prüfen'],['treppenlift-steuerlich-absetzen','/treppenlift-zuschuss.html','Förderung prüfen'],['treppenlift-schmale-treppe','/treppenlift-firmen-vergleich.html','Anbieter für Aufmaß vergleichen'],['treppenlift-maximalgewicht','/treppenlift-angebote-vergleichen.html','Angebote vergleichen'],['treppenlift-aussentreppen-aussenlift','/treppenlift-firmen-vergleich.html','Anbieter für Außenlift vergleichen'],['treppenlift-plattformlift-rollstuhllift','/treppenlift-firmen-vergleich.html','Anbieter für Rollstuhllifte vergleichen'],['pflegegrad-antrag-ablauf-fristen','/hilfsmittel-pflegekasse-uebernahme.html','Hilfsmittel-Kostenübernahme prüfen'],['rollator-auswahl-passform-kosten','/hilfsmittel-pflegekasse-uebernahme.html','Kostenübernahme prüfen'],['hilfsmittel-dusch-wc-uebernahme','/hilfsmittel-pflegekasse-uebernahme.html','Hilfsmittel-Grundlagen nachlesen']];

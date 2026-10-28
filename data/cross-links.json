@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "purpose": "Redaktionelle Related-Link-Empfehlungen aus der Magnet-Analyse (GROWTH-BACKLOG.md, 19.10.2026). Der Renderer setzt diese Ziele VOR die Cluster-Pool-Auswahl; die Related-Liste bleibt genau 3 Einträge. Rollator → Hilfsmittel-Kostenübernahme ist als Early-CTA über die specialMap bereits umgesetzt und daher hier NICHT doppelt geführt. Gate: test_cross_links.py liest dieselbe Datei (eine Quelle der Wahrheit).",
+  "links": {
+    "pflegegrad-antrag-ablauf-fristen": ["verhinderungspflege-tagespflege-ueberblick", "tuerbreiten-schwellen-schnellcheck"],
+    "treppenlift-mietwohnung": ["tuerbreiten-schwellen-schnellcheck"],
+    "hausnotruf-kosten-anbieter-vergleich": ["treppenlift-zuschuss"],
+    "hausnotruf-sturzerkennung-oder-knopf": ["treppenlift-zuschuss"],
+    "beleuchtung-orientierung-im-alter": ["hilfsmittel-pflegekasse-uebernahme"],
+    "wanne-zur-dusche": ["badumbau-angebote-vergleichen"]
+  },
+  "rationale": {
+    "pflegegrad-antrag-ablauf-fristen": "Entlastungs-Pfad nach Bescheid (verhinderungspflege-ueberblick) + Wohnraumanpassung nach Pflegegrad (tuerbreiten): natürliche Anschlussfragen",
+    "treppenlift-mietwohnung": "Zustimmungs- plus Mess-Thema, § 554 BGB Kontext; Cross-Cluster care↔lift bewusst whitelistet",
+    "hausnotruf-kosten-anbieter-vergleich": "Sturzprävention + Wohnung: Förderpfad als redaktioneller Anschluss, kein Werbecharakter; Cross-Cluster bewusst whitelistet",
+    "hausnotruf-sturzerkennung-oder-knopf": "Sturzprävention + Wohnung: Förderpfad als redaktioneller Anschluss, kein Werbecharakter; Cross-Cluster bewusst whitelistet",
+    "beleuchtung-orientierung-im-alter": "Bewegungsmelder/Nachtlicht teils Hilfsmittelkontext — Brücke zum Link-Magnet hilfsmittel-pflegekasse-uebernahme",
+    "wanne-zur-dusche": "Angebotsvergleich als nächster Schritt nach der Variantenwahl (Cluster-intern)"
+  }
+}
