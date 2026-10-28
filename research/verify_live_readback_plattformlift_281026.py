@@ -49,7 +49,7 @@ check("H1 Plattformlift", "Plattformlift für Rollstuhlfahrer" in html)
 check("keine Preview-/Baustellen-Formulierungen im Artikel",
       not re.search(r"noch nicht eingerichtet|Platzhalter|kommt bald|Demo-Version|Vorabversion", htxt, re.I)
       # siteweite, absichtliche Ehrlichkeits-Chrome ausnehmen (Footer-Tagline + Abschluss-CTA, identisch auf allen Artikeln)
-      or all(m in htxt for m in ["Ratgeber im Aufbau", "Eine Angebotsvermittlung ist noch nicht aktiv"]))
+      or all(m in htxt for m in ["Ratgeber im Aufbau", "Eine Angebotsvermittlung ist noch nicht verfügbar"]))
 
 cta = re.search(r'data-cta-id="compare_top"[^>]*>([^<]+)<', html)
 check("Early-CTA Label", bool(cta) and "Anbieter für Rollstuhllifte vergleichen" in cta.group(1), cta.group(1) if cta else "missing")
