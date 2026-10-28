@@ -1,8 +1,38 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-27 (Batch 10). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-28 (Batch 11). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Batch 11 (2026-10-28, Cron-Lauf) — Briefing 14: Plattformlift/Rollstuhllift
+1. **Neu veröffentlicht:** treppenlift-plattformlift-rollstuhllift.json — Plattformlift für
+   Rollstuhlfahrer: Vier-Bauarten-Trennung vor Preisvergleich (Hublift / gerade / kurvig /
+   Homelift; lehner belegt Begriffsvermischung), Portal-Spannen-Tabelle mit Stand-Spalte
+   (Unter-Grenzen gerade innen 7.000/7.500/8.000/9.000/10.000 €) neben Herstellertabelle
+   (HIRO-Preisseite 11.000–38.000 € inkl. Etagenstaffel, kurvig außen „Auf Anfrage“; Lifta
+   ab 11.000 gerade / ab 19.000 kurvig, beide live 28.10.2026), Tragkraft-Widersprüche
+   dokumentiert (225–300 vs. 250 vs. 300–320 vs. 200-kg-Grenze vs. 250–400 „inkl.
+   Begleitperson“; HIRO 350 = 300 kg, 320 K = 250 kg live), Begleitperson-Widerspruch
+   (treppenlifto vs. kostenwelt) und Tempo-Divergenz (0,1 vs. 0,15 m/s) als
+   Angebots-Klärpunkte, Treppenbreiten-Widerspruch (Lifta 90–110 cm vs. „1 m“),
+   Gebraucht-Divergenz (40 % vs. „unter 6.000“), Miete kaum üblich. 11 Abschnitte, 6 FAQs,
+   11 Quellen, 185/185 Ledger-Pässe (research/plattformlift-281026-ledger.json +
+   research/verify_plattformlift_281026.py: 103 verbatim + 20 Tabellen-Kontext + 12
+   Arithmetik/Divergenz), Grafik assets/images/treppenlift-plattformlift-rollstuhllift-weg.svg
+   (Zeilen-Layout, getBBox + Box-Kontext 0 Verstöße + Vision sauber), Protokoll
+   research/treppenlift-plattformlift-rollstuhllift-batch.md. 25. Ratgeber; Förderbeträge
+   bewusst nur als Verweis auf treppenlift-zuschuss; KfW-Stale-Echo (kostenwelt) im Ledger notiert.
+2. **Renderer:** article-renderer.mjs specialMap +1 (Early-CTA „Anbieter für Rollstuhllifte
+   vergleichen“ → treppenlift-firmen-vergleich). llms-txt.py SUMMARIES + SECTION_MAP erweitert.
+3. **Testzähler:** test_articles 24→25; verify_checklists_build RSS 24→25 Items;
+   test_partner_links A2 ≥ 25. Neu: research/verify_plattformlift_content_281026.py
+   (Content-Support-Gate inkl. 22 Kernzahlen, robots-Normalisierung),
+   research/verify_plattformlift_svg_281026.py (getBBox + Box-Kontext-Check + Screenshot),
+   research/verify_plattformlift_mobile_281026.py (390 px),
+   research/fetch_plattformlift_281026.py / fetch_plattformlift_mfr_281026.py.
+4. **Topic-Gates dokumentiert:** Haltegriff-Bad verworfen (100–800-€-Produkt ohne bestätigten
+   Partner, große Distanz zur Monetarisierung), Treppensteiger kein eigener Artikel (dünner
+   Seitenklang); plattformlift intent-distinct (nur Alternativen-Erwähnungen in 6 Artikeln).
 
 ### Batch 10 (2026-10-27, Cron-Lauf) — Briefing 13: Außentreppe/Außenlift
 1. **Neu veröffentlicht:** treppenlift-aussentreppen-aussenlift.json — Treppenlift für die

@@ -94,8 +94,8 @@ def main():
             for page in (ROOT / 'dist-pl-inactive').rglob('*.html'):
                 total += marker_count(page.read_text(encoding='utf-8'))
             check('A1 zero partner markers in default build', total == 0, f'found {total}')
-            check('A2 article count still >= 24',
-                  len(list((ROOT / 'dist-pl-inactive').glob('*.html'))) >= 24)
+            check('A2 article count still >= 25',
+                  len(list((ROOT / 'dist-pl-inactive').glob('*.html'))) >= 25)
 
         # --- Szenario B: aktive Fixture rendert nur adressierte Artikel ---
         cfg_b = tmp / 'cfg-active.json'
