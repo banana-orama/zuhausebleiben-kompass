@@ -58,3 +58,16 @@ Browser geprüft; Wayback-/CDX-Kreuzcheck für Sperrverdacht. Rohdaten:
 - `content-ready/treppenlift-mietwohnung.json` — WOeiGG §20 checked_at → 2026-10-29
 - `content-ready/hilfsmittel-dusch-wc-uebernahme.json` — REHADAT checked_at → 2026-10-29
 - Rebuild + Gates + Live-Readback: siehe Commit (dieser Audit wird mit den JSON-Änderungen committet).
+
+## Update 29.10., Nachmittag (zweiter Lauf)
+
+- Der auf diesem Audit aufbauende SEO-Audit-Fix-Commit **b120a2e** (Audit-Fixes 1+8+6a aus
+  seo-audit-zbk, Evidenz-Snapshot 19.10.) lag 3 h unpushed lokal und wurde vom Nachmittagslauf
+  adoptiert: npm test grün, Schema-Gate ALL PASS, CI success, **Live-Readback 26/26 PASS**.
+  Protokoll: `research/evidence/schema-push-291026/READBACK-LOG.md`.
+- Staleness-Abgleich gegen den Live-Stand: die Audit-Findings **#2 (llms.txt 404) und
+  #3 (Checklisten orphaned)** sind veraltet (llms.txt seit 21.10. live 200; Checklisten-Hub
+  vom Home via absoluter href verlinkt und in der Sitemap — der Audit-Grep erfasste nur
+  relative hrefs). **#4 (datenschutz.html fehlt in der Sitemap) ist weiterhin wahr.**
+- pflege.net (Punkt 4 oben) unverändert: 403 = DC-WAF, Residential-Check offen,
+  Ersatz-Recherche (Sturzerkennung/Mietdauer/Rückbau) bleibt bedingt zurückgestellt.

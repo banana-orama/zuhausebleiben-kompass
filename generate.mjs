@@ -45,7 +45,7 @@ home.body=home.body.replace('<section class="section faq">',`<section class="sec
 home.body+=ORG_GRAPH;
 // In preview mode no unfinished pages are advertised through the sitemap.
 const sitemap=pages.find(p=>p.path==='sitemap.xml');
-sitemap.raw='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+(NOINDEX_MODE?'':pages.filter(p=>p.path.endsWith('.html')&&p.path!=='datenschutz.html').map(p=>`<url><loc>${url('/'+p.path.replace('index.html',''))}</loc></url>`).join(''))+'</urlset>';
+sitemap.raw='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+(NOINDEX_MODE?'':pages.filter(p=>p.path.endsWith('.html')).map(p=>`<url><loc>${url('/'+p.path.replace('index.html',''))}</loc></url>`).join(''))+'</urlset>';
 mkdirSync(OUT,{recursive:true});cpSync(join(ROOT,'assets/images'),join(OUT,'assets/images'),{recursive:true});writeFileSync(join(OUT,'.nojekyll'),'');
 writeFileSync(join(OUT,'CNAME'),new URL(B.base_url).hostname+'\n');
 mkdirSync(join(OUT,'assets/vendor'),{recursive:true});

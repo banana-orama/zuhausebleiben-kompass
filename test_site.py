@@ -32,5 +32,9 @@ for f in files:
             if target.is_dir():target=target/'index.html'
             assert target.exists(),(f,href)
 for name in ('sitemap.xml','rss.xml'):ET.parse(root/name)
+sm=(root/'sitemap.xml').read_text()
+locs=[u.split('<loc>')[1].split('</loc>')[0] for u in sm.split('<url>')[1:]]
+assert any(u.endswith('/datenschutz.html') for u in locs),('datenschutz.html missing from sitemap',len(locs))
+assert len(locs)==len(set(locs)),('duplicate sitemap URLs',)
 mode='PREVIEW (noindex)' if not __import__('os').environ.get('INDEX') else 'LAUNCH (index)'
-print(f'PASS: {len(files)} HTML pages, internal links, single H1, no forms, {mode}, XML valid.')
+print(f'PASS: {len(files)} HTML pages, internal links, single H1, no forms, datenschutz in sitemap ({len(locs)} locs), {mode}, XML valid.')
