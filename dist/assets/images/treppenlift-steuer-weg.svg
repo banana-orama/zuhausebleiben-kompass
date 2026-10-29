@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 740" width="980" height="740" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Zwei steuerliche Wege fuer Treppenlift und Badumbau: Handwerkerleistung und aussergewoehnliche Belastung</title>
+  <desc id="gdesc">Entscheidungsschema: Weg 1 ist die Handwerkerleistung nach Paragraph 35a EStG mit 20 Prozent der Arbeits- und Fahrtkosten, hoechstens 1.200 Euro pro Haushalt und Jahr; Material zaehlt nicht; Rechnung und unbare Zahlung sind noetig. Weg 2 ist die aussergewoehnliche Belastung nach Paragraph 33 EStG mit belegter medizinischer Notwendigkeit und Abzug nur oberhalb der zumutbaren Belastung. Hinweis: Oeffentlich gefoerderte Massnahmen sind von Weg 1 ausgeschlossen. Stand 26.10.2026.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .boxhead{font-size:18px;font-weight:700;fill:#194533}
+    .item{font-size:14.5px;fill:#243b35}
+    .q{font-size:16px;font-weight:600;fill:#243b35}
+    .warn{font-size:14.5px;font-weight:600;fill:#6b4d13}
+    .fine{font-size:12.5px;fill:#53655e}
+    .badge{font-size:12px;font-weight:700;fill:#194533}
+    .line{stroke:#8aa094;stroke-width:2;fill:none}
+    .arrow{fill:#8aa094}
+  </style>
+
+  <rect width="980" height="740" fill="#ffffff"/>
+  <text class="h" x="60" y="58">Steuerlich absetzen: zwei Wege fuer Treppenlift und Badumbau</text>
+  <text class="sub" x="60" y="84">Gesetzliche Grundlagen fuer das Steuerjahr 2026 (§ 35a und § 33 EStG). Allgemeine Orientierung, keine Steuerberatung.</text>
+
+  <rect x="300" y="112" width="380" height="54" rx="10" fill="#eef3ee" stroke="#d8dfd6"/>
+  <text class="q" x="490" y="145" text-anchor="middle">Rechnung der Wohnraumanpassung liegt vor</text>
+
+  <path class="line" d="M420 166 C 360 200, 260 210, 246 236"/>
+  <path class="arrow" d="M246 244 l-7 -14 14 0 z"/>
+  <path class="line" d="M560 166 C 620 200, 720 210, 734 236"/>
+  <path class="arrow" d="M734 244 l-7 -14 14 0 z"/>
+  <text class="fine" x="330" y="212" text-anchor="middle">Arbeitsanteil beauftragen und</text>
+  <text class="fine" x="330" y="228" text-anchor="middle">aufschluesseln lassen</text>
+  <text class="fine" x="652" y="212" text-anchor="middle">medizinische Notwendigkeit</text>
+  <text class="fine" x="652" y="228" text-anchor="middle">belegen koennen</text>
+
+  <rect x="60" y="252" width="420" height="270" rx="10" fill="#ffffff" stroke="#d8dfd6"/>
+  <rect x="60" y="252" width="420" height="46" rx="10" fill="#194533"/>
+  <rect x="60" y="278" width="420" height="20" fill="#194533"/>
+  <text x="80" y="276" style="font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:700;fill:#ffffff">Weg 1: Handwerkerleistung</text>
+  <text x="80" y="292" style="font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;font-size:12.5px;fill:#cfe0d6">§ 35a EStG — gueltig fuer das Steuerjahr 2026</text>
+
+  <text class="item" x="84" y="330">• 20 % der Arbeits- und Fahrtkosten von der Steuer</text>
+  <text class="item" x="98" y="350" font-weight="700" fill="#194533">hoechstens 1.200 Euro je Haushalt und Jahr</text>
+  <text class="item" x="84" y="382">• Gilt fuer Renovierungs-, Erhaltungs- und</text>
+  <text class="item" x="98" y="402">Modernisierungsmassnahmen</text>
+  <text class="item" x="84" y="434">• Nur Arbeitskosten zaehlen — Material (Geraet, Schiene,</text>
+  <text class="item" x="98" y="454">Fliesen) bleibt aussen vor; Rechnung getrennt ausweisen</text>
+  <text class="item" x="84" y="486">• Rechnung + Zahlung auf Konto des Betriebs</text>
+
+  <rect x="500" y="252" width="420" height="270" rx="10" fill="#ffffff" stroke="#d8dfd6"/>
+  <rect x="500" y="252" width="420" height="46" rx="10" fill="#40634f"/>
+  <rect x="500" y="278" width="420" height="20" fill="#40634f"/>
+  <text x="520" y="276" style="font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:700;fill:#ffffff">Weg 2: Aussergewoehnliche Belastung</text>
+  <text x="520" y="292" style="font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;font-size:12.5px;fill:#d7e4dc">§ 33 EStG — zumutbare Belastung zuerst</text>
+
+  <text class="item" x="524" y="330">• Nur bei zwangslaeufigen Aufwendungen:</text>
+  <text class="item" x="538" y="350">Krankheit/Behinderung macht die Massnahme noetig</text>
+  <text class="item" x="524" y="382">• Nachweis: aerztliche Verordnung, Attest;</text>
+  <text class="item" x="538" y="402">bei Hilfsmitteln teils Bescheinigung des MD</text>
+  <text class="item" x="524" y="434">• Abzug nur oberhalb der zumutbaren Belastung</text>
+  <text class="item" x="538" y="454">(je nach Einkommen/Kinder 1–7 % der Einkuenfte)</text>
+  <text class="item" x="524" y="486">• Erstattungen (z. B. Pflegekasse) mindern die Kosten</text>
+
+  <rect x="60" y="548" width="860" height="92" rx="10" fill="#f8f2e4" stroke="#d9c491"/>
+  <text class="warn" x="84" y="582">Foerderfalle (§ 35a Abs. 3 Satz 2):</text>
+  <text class="item" x="84" y="608">Oeffentlich gefoerderte Massnahmen mit zinsverbilligtem Darlehen oder steuerfreiem Zuschuss sind von Weg 1</text>
+  <text class="item" x="84" y="628">ausgeschlossen. Vor der Steuererklaerung mit dem Finanzamt klaeren (z. B. Zuschuss der Pflegekasse).</text>
+
+  <text class="fine" x="60" y="678">Quellen: gesetze-im-internet.de (§ 35a/§ 33 EStG, Abruf 26.10.2026); Finanztip. Referentenentwurf 2027: 15 % / max. 900 Euro — nicht beschlossen.</text>
+  <text class="fine" x="60" y="700">Grafik: ZuhauseBleiben Kompass, eigene Darstellung (KI-unterstuetzt). Keine individuelle Steuerberatung; Betraege gemaess Gesetzestext.</text>
+</svg>

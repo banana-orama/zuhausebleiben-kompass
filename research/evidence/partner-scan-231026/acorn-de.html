@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Affiliate</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Affiliate" />
+        <meta name="Keywords" content="Affiliate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="/assets/css/style_v2.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://code.jquery.com/jquery-3.6.1.js"
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="icon" type="image/x-icon" href="/assets/images/Acorn_Affiliates_Logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $(window).on("scroll", function() {
+                if ($(window).scrollTop() > 50) {
+                    $("#registration-btn").addClass("active-btn");
+                } else {
+                    $("#registration-btn").removeClass("active-btn");
+                }
+            });
+            $(document.body).on('shown.bs.offcanvas,show.bs.offcanvas', function() {
+                $('body').css('padding-right', '0');
+            });
+        });
+        </script>
+        <script src='https://www.google.com/recaptcha/api.js?render='></script>
+    </head>
+
+    <body id='ox-hidden'>
+        <header class="sticky-top blur">
+            <div class='container' style='overflow-x: hidden;'>
+                <nav class='navbar navbar-expand-lg' id='myDIV'>
+                    <a href='/home' id='logo'>
+                        <img src='./assets/images/acorn-affiliate-red.png' alt='logo' class='nav-logo' />
+                    </a>
+                    <button class='btn off-ham' type='button' data-bs-toggle='offcanvas'
+                        style='border: none; height: 60px;' data-bs-target='#offcanvasRight'
+                        aria-controls='offcanvasRight'>
+                        <i class="fa-solid fa-bars fa-xl d-lg-none d-block" style="color: #df2160;"></i>
+                    </button>
+                    <div class='navbar-collapse offcanvas-collapse'>
+                        <ul class='navbar-nav ms-auto mb-2 mb-lg-0'>
+                            <div class="offcanvas-collapse-left">
+                                <li class='nav-item  nav-item2 '>
+                                    <a class='nav-link text-center ms-3' aria-current='page' href='/home' id='homeLink'>
+                                        Startseite<span
+                                            class=' '></span>
+                                    </a>
+                                </li>
+                            </div>
+                            <li class='nav-item  nav-item2 '>
+                                <a class='tabborderboxreverse nav-link' id='loginLink' href='/login'>
+                                    Anmelden<span
+                                        class=' '></span>
+                                </a>
+                            </li>
+                            <li class=' nav-item  nav-item2 '>
+                                <a class='tabborderboxreverse nav-link text-center' id='registration-btn'
+                                    href='/register'>Registrieren</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class='container mt-3'>
+            <div class='offcanvas offcanvas-end' tabindex='-1' id='offcanvasRight'
+                aria-labelledby='offcanvasRightLabel'>
+                <div class='offcanvas-header'>
+                    <button type='button' class='btn-close text-reset' data-bs-dismiss='offcanvas'
+                        aria-label='Close'></button>
+                </div>
+                <div class='offcanvas-body'>
+                    <ul class='navbar-nav ms-auto mb-2 mb-lg-0 text-center'>
+                        <li class='nav-item canvas-link'>
+                            <a class='nav-link' aria-current='page' href='/home' style="color:black!important;">
+                                Startseite <span
+                                    class=' '></span>
+                            </a>
+                        </li>
+                        <li class='nav-item canvas-link'>
+                            <a class='nav-link' id='loginLink' href='/login' style="color:black!important;">
+                                Anmelden<span
+                                    class=' '></span>
+                            </a>
+                        </li>
+                        <li class='nav-item '>
+                            <a class='nav-link text-center' id='registration-btn'
+                                href='/register'>Registrieren</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><section class='home-hero'><div class='container'><div class='d-flex justify-content-center align-items-center flex-column'><h1 class='hero-title text-center'>Steigern Sie Ihren Gewinn<br>mit dem Acorn Affiliate-Programm</h1><h2 class='hero-subtitle text-center'>Acorn ist weltweit Marktführer im Bereich Treppenlifte.<br>Wir setzen Maßstäbe bei Technologie, Design, Sicherheit und Komfort.</h2></div><div class='container row row-cols-lg-2 justify-content-center align-items-center gx-lg-5 flex-lg-row gy-4 ms-0'><div class='col d-flex justify-content-lg-end align-items-lg-end justify-content-center align-items-center'><a href='/login' class='tabborderboxacornred noLink sign-up-btn'>Anmelden</a></div><div class='col d-flex justify-content-lg-start align-items-lg-start justify-content-center align-items-center'><a href='/register' class='tabborderboxacornred noLink register-btn'>Registrieren</a></div></div><div class='d-flex justify-content-center align-items-center text-center pt-4 pb-5'><a href='mailto:support@acornstairlifts.com' class='contact-support' target='_blank'>Haben Sie Fragen? Kontakt zum Support</a></div></div></section><section class='container pt-5 mt-3'><div class='row row-cols-lg-2 justify-content-center align-items-center flex-lg-row flex-column'><div class='col-lg-6 d-flex justify-content-center align-items-center'><div class='section-block'><h2 class='section-title'>Steigern Sie Ihren Gewinn – starten Sie noch heute!</h2><p class='section-content pt-4 pb-4'>Registrieren Sie sich mit einem Klick auf die Schaltfläche und füllen Sie das Formular aus. Sie erhalten anschließend eine E-Mail mit Ihrem Benutzernamen und Passwort für die Anmeldung..</p></div></div><div class='col-lg-6 d-flex justify-content-center'><img src='/assets/images/euro-de_1.png' alt='Mobile Version der Gesamtergebnisseite mit einem roten Balkendiagramm der Ergebnisse von Juli bis Dezember und den besten Gesamtergebnissen, die oberhalb des Diagramms in Grün aufgelistet sind, sowie einem Fortschrittsrad, das 68 % des Weges zur Silbermedaille B anzeigt' class='img-fluid'></div></div></section><article class='section-space'></article><section class='container pt-5 mt-5'><div class='row row-cols-lg-2 justify-content-center align-items-center flex-lg-row'><div class='col-lg-6 order-lg-1 d-flex justify-content-center align-items-center'><div class='section-block'><h2 class='section-title'>Verdienen Sie Geld mit jedem verkauften Treppenlift</h2><p class='section-content pt-4 pb-4'>Mit jedem verkauften Treppenlift erhalten Sie Einnahmen für Ihr Unternehmen. Je höher Ihre Vergütungsstufe, desto attraktiver wird Ihre Provision.</p></div></div><div class='col-lg-6 order-lg-0 d-flex justify-content-center'><img src='/assets/images/euro-de_2.png' alt='Die nächste Seite öffnet den Abschnitt über das Stufensystem mit einer Bronzemedaille der Stufe C und einem Fortschrittsrad, das 68 % des Weges zu einer Silbermedaille der Stufe B anzeigt.' class='img-fluid'></div></div></section><article class='section-space'></article><section class='container pt-5 mt-5'><div class='row row-cols-lg-2 justify-content-center align-items-center flex-lg-row'><div class='col-lg-6 order-lg-0 d-flex justify-content-center align-items-center'><div class='section-block'><h2 class='section-title'>Alle Marketingmittel werden von uns bereitgestellt.</h2><p class='section-content pt-4 pb-4'>So übernehmen wir den schwierigen Teil für Sie. Wir liefern Ihnen Online-Banner, Fotos und weitere Materialien, die Sie ganz einfach auf Ihrer Website nutzen können..</p></div></div><div class='col-lg-6 order-lg-1 d-flex justify-content-center'><img src='/assets/images/euro-de_3.png' alt='Mobile Version der Seite „Assets Provided“ mit zwei Bildern des Acorn 130 Straight Treppenlifts und einem iPhone in der Hand einer Person mit geöffneter mobiler Mitgliedschaftsseite' class='img-fluid'></div></div></section><article class='section-space'></article><section class='container pt-5 mt-5'><div class='row row-cols-lg-2 justify-content-center align-items-center flex-lg-row'><div class='col-lg-6 order-lg-1 d-flex justify-content-center align-items-center'><div class='section-block'><h2 class='section-title'>Dashboard mit Echtzeitdaten</h2><p class='section-content pt-4 pb-4'>Ein Dashboard mit Echtzeitdaten steht Ihnen jederzeit zur Verfügung. So behalten Sie jederzeit den Überblick über Ihre Einnahmen, Anfragen und mehr!</p></div></div><div class='col-lg-6 order-lg-0 d-flex justify-content-center'><img src='/assets/images/euro-de_4.png' alt='Mobile Version der Seite mit den Gesamteinnahmen mit einem roten Balkendiagramm der Einnahmen von Juli bis Dezember und den besten Gesamteinnahmen in grüner Farbe über dem Diagramm.' class='img-fluid'></div></div></section><article class='section-space'></article><section class='section-bg pt-5 mt-5'><div class='container'><div class='d-flex justify-content-center align-items-center flex-lg-column'><h1 class='hero-title text-center'>Starten Sie eine wertvolle Partnerschaft<br>mit dem Acorn Affiliate-Programm</h1></div><div class='container row row-cols-lg-3 row-cols-1 justify-content-evenly pb-5'><div class='col d-flex flex-row justify-content-lg-end justify-content-center align-items-center'><i class='fa-solid fa-check fa-lg'></i><p class='list-check-text'>Kostenlos testen</p></div><div class='col d-flex flex-row justify-content-lg-center justify-content-center align-items-center'><i class='fa-solid fa-check fa-lg'></i><p class='list-check-text'>Alle Marketingmittel inklusive</p></div><div class='col d-flex flex-row justify-content-lg-start justify-content-center align-items-center'><i class='fa-solid fa-check fa-lg'></i><p class='list-check-text'>Dashboard in Echtzeit</p></div></div><div class='container row row-cols-lg-2 justify-content-center align-items-center gx-5 flex-lg-row gy-4 ms-0'><div class='col d-flex justify-content-lg-end align-items-lg-end justify-content-center align-items-center'><a href='/login' class='tabborderboxacornred noLink register-btn'>Anmelden</a></div><div class='col d-flex justify-content-lg-start align-items-lg-start justify-content-center align-items-center'><a href='/register' class='tabborderboxacornred noLink sign-up-btn'>Registrieren</a></div></div><div class='d-flex justify-content-center align-items-center text-center pt-4 pb-5'><a href='mailto:support@acornstairlifts.com' class='contact-support' target='_blank'>Haben Sie Fragen? Kontakt zum Support</a></div></div></section>
+<style>
+.active-btn {
+    color: white !important;
+    background-color: #DF2160 !important;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.home-hero {
+    background-image: linear-gradient(transparent, rgba(236, 207, 207, .29));
+}
+
+.section-bg {
+    background-image: linear-gradient(rgba(207, 209, 236, .26), rgba(236, 207, 207, .29));
+}
+
+.hero-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3e3e42;
+    padding-bottom: 40px;
+}
+
+.noLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.noLink:hover {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.85;
+}
+
+.sign-up-btn,
+.register-btn {
+    background-color: #831A3D;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 20px 24px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 230px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.sign-up-btn:hover,
+.register-btn:hover {
+    color: white;
+    opacity: 0.85;
+}
+
+.contact-support {
+    font-size: 14px;
+    color: #3e3e42;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.contact-support:hover {
+    color: #831A3D;
+}
+
+.w-300px {
+    max-width: 300px;
+}
+
+.w-400px {
+    max-width: 400px;
+}
+
+.section-title {
+    color: #2e2e33;
+    letter-spacing: -.02em;
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.section-content {
+    font-size: 20px;
+    line-height: 30px;
+    color: #3e3e42;
+}
+
+.section-block {
+    max-width: 400px;
+}
+
+.section-space {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.list-check-text {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-left: 8px;
+}
+
+li.footer-link {
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+li a.footer-link {
+    color: #6b6b6f;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14286rem;
+    padding-bottom: 10px;
+}
+
+li.footer-text {
+    color: #6b6b6f;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14286rem;
+    padding-bottom: 10px;
+}
+
+hr.light-gray {
+    color: #6b6b6f;
+}
+
+.footer-copyright {
+    color: #6b6b6f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 0;
+}
+
+.nav-item a {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.nav-item a.nav-link:hover {
+    opacity: 0.85;
+}
+
+#registration-btn {
+    background: transparent;
+    font-family: 'DM Sans', sans-serif;
+    border: 1px solid #DF2160;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 12px 52px;
+    transition: 250ms;
+}
+
+#registration-btn:hover {
+    background: #DF2160 !important;
+    color: white !important;
+}
+
+.dot-active2 {
+    background-color: white !important;
+}
+
+.offcanvas-collapse-left {
+    position: absolute;
+    left: 13%;
+    display: inline-flex;
+}
+
+#offcanvasRight {
+    padding-right: 0 !important;
+}
+
+
+@media screen and (max-width: 395px) {
+    ul.navbar-nav {
+        height: 90vh !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul.navbar-nav {
+        background: white;
+        height: 100vh;
+        width: var(--bs-offcanvas-width);
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        left: 0;
+        padding-right: 40px !important;
+    }
+}
+</style>
+<script>
+window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var header = document.querySelector('header');
+    var backgroundColor = 'rgba(236, 207, 207, 0.8)';
+
+    if (scrollPosition > 100) {
+        header.style.backgroundColor = backgroundColor;
+    } else {
+        header.style.backgroundColor = 'transparent';
+    }
+});
+</script><footer class='pt-5'><div class='container'><div class='row row-cols-lg-3 justify-content-center align-items-start'><div class='col'><ul class='ps-0'><li class='footer-link'>Acorn</li><li class='pb-4'><a href='https://www.acornstairlifts.co.uk/' class='footer-link noLink'>Über uns</a></li><li class='pb-4'><a href='/login' class='footer-link noLink'>Anmelden</a></li></ul></div><div class='col'><ul class='ps-0'><li class='footer-link'>Support</li><li class='pb-4'><a href='mailto:support@acornstairlifts.com' class='footer-link noLink'>Hilfe-Center</a></li><li class='pb-4'><a href='/privacy' class='footer-link noLink'>Datenschutzbestimmungen</a></li><li class='pb-4'><a href='/cookies' class='footer-link noLink'>Cookies</a></li><li class='pb-4'><a target='_blank' href='/assets/pdf/AcornAffiliate[DE].pdf' class='footer-link noLink'>Bedingungen und Konditionen</a></li></ul></div><div class='col'><ul class='ps-0'><li class='footer-link'>Kontaktieren Sie uns</li><li class='footer-text'>Acorn Treppenlifte GmbH<br>Auf den Schwanenhöfen<br>Erkrather Straße 234b<br>40233<br>Düsseldorf</li><li class='footer-text pt-4'>support@acornstairlifts.com</li></ul></div></div><hr class='light-gray pb-5'><div class='row row-cols-lg-2 justify-content-space-between align-items-center flex-row mb-4 pb-4'><div class='col'><p class='footer-copyright'>© 2026 Acorn Stairlifts. All rights reserved.</p></div><div class='col d-flex justify-content-end align-items-end flex-row gap-4'><a href='https://twitter.com/AcornStairlifts' class='noLink'><i class='fa-brands fa-twitter'></i></a><a href='https://www.linkedin.com/company/acorn-stairlifts-limited/' class='noLink'><i class='fa-brands fa-linkedin'></i></a><a href='https://www.facebook.com/acornstairliftsuk/' class='noLink'><i class='fa-brands fa-facebook-f'></i></a></div></div></div></footer><script src="//code.jquery.com/jquery-3.2.0.min.js"></script><script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><script src="/assets/js/script.js?<?php print time();?>"></script></body></html>

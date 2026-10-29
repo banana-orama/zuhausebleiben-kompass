@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 680" width="980" height="680" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Welcher Rollstuhllift passt? Vier Bauarten mit Preis-Richtwerten</title>
+  <desc id="gdesc">Entscheidungsschema in vier Zeilen. Zeile 1: Wenige Stufen am Eingang, zur Terrasse oder zum Hochparterre fuehren zum senkrechten Hublift, Stellflaeche rund 2 Quadratmeter, Preis ab 13.500 Euro laut Lifta. Zeile 2: Eine ganze gerade Treppe im Haus oder draussen fuehrt zum geraden Plattformlift, Preis ab 11.000 Euro laut Lifta, HIRO 11.000 bis 15.000 Euro innen. Zeile 3: Kurvige Treppe, Wendeltreppe oder Podest fuehrt zum kurvigen Plattformlift mit Massschiene, ab 19.000 Euro laut Lifta, HIRO je nach Etagenzahl bis 38.000 Euro. Zeile 4: Treppe zu schmal oder mehrere Etagen ohne Treppe fuehrt zum senkrechten Homelift, ab rund 30.000 Euro laut HIRO. Fusszeile: Alle Preise sind gekennzeichnete Hersteller- und Portal-Richtwerte, Stand Oktober 2026; verbindlich ist nur das schriftliche Angebot nach dem Aufmass; Plattformmasse und Tragkraft aus dem Datenblatt gegen das eigene Geraet pruefen.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .colhead{font-size:13px;font-weight:700;fill:#53655e}
+    .sit{font-size:14.5px;fill:#243b35}
+    .form{font-size:15px;font-weight:700;fill:#194533}
+    .formsub{font-size:12.5px;fill:#53655e}
+    .price{font-size:14.5px;font-weight:700;fill:#194533}
+    .pricesub{font-size:12px;fill:#53655e}
+    .fine{font-size:12.5px;fill:#53655e}
+    .sitfill{fill:#f4f7f4;stroke:#d8dfd6}
+    .formfill{fill:#eef3ee;stroke:#c3cdc5}
+    .pricefill{fill:#ffffff;stroke:#b34a3a}
+    .arrow{stroke:#b34a3a;stroke-width:2.2;fill:none}
+    .head{fill:#4d7d68}
+  </style>
+
+  <rect width="980" height="680" fill="#ffffff"/>
+  <text class="h" x="60" y="50">Welcher Rollstuhllift passt? Vier Bauarten</text>
+  <text class="sub" x="60" y="76">Preis-Richtwerte laut Hersteller HIRO und Lifta (Abruf 28.10.2026) — Situationszuordnung als Orientierung, Aufmaß vor Ort entscheidet.</text>
+
+  <text class="colhead" x="76" y="102">IHRE SITUATION</text>
+  <text class="colhead" x="452" y="102">BAUART</text>
+  <text class="colhead" x="716" y="102">PREIS-RICHTWERT</text>
+
+  <!-- Row 1: Hublift -->
+  <rect x="60" y="112" width="360" height="94" rx="10" class="sitfill"/>
+  <text class="sit" x="78" y="146">Wenige Stufen am Eingang, zur</text>
+  <text class="sit" x="78" y="168">Terrasse oder zum Hochparterre</text>
+  <path class="arrow" d="M428 159 L462 159 M454 151 L462 159 L454 167"/>
+  <rect x="470" y="112" width="230" height="94" rx="10" class="formfill"/>
+  <text class="form" x="488" y="146">Hublift (senkrecht)</text>
+  <text class="formsub" x="488" y="168">Stellfläche ca. 2 m² (Lifta)</text>
+  <path class="arrow" d="M708 159 L742 159 M734 151 L742 159 L734 167"/>
+  <rect x="750" y="112" width="170" height="94" rx="10" class="pricefill"/>
+  <text class="price" x="766" y="146">ab 13.500 €</text>
+  <text class="pricesub" x="766" y="168">Lifta, unter 1 m;</text>
+  <text class="pricesub" x="766" y="184">HIRO 10.000–15.000 €</text>
+
+  <!-- Row 2: gerader Plattformlift -->
+  <rect x="60" y="222" width="360" height="94" rx="10" class="sitfill"/>
+  <text class="sit" x="78" y="256">Eine ganze, gerade Treppe</text>
+  <text class="sit" x="78" y="278">im Haus oder draußen</text>
+  <path class="arrow" d="M428 269 L462 269 M454 261 L462 269 L454 277"/>
+  <rect x="470" y="222" width="230" height="94" rx="10" class="formfill"/>
+  <text class="form" x="488" y="256">Plattformlift, gerade</text>
+  <text class="formsub" x="488" y="278">Plattform 80×100 bis</text>
+  <text class="formsub" x="488" y="294">90×125 cm (HIRO 350)</text>
+  <path class="arrow" d="M708 269 L742 269 M734 261 L742 269 L734 277"/>
+  <rect x="750" y="222" width="170" height="94" rx="10" class="pricefill"/>
+  <text class="price" x="766" y="256">ab 11.000 €</text>
+  <text class="pricesub" x="766" y="278">Lifta, innen/außen;</text>
+  <text class="pricesub" x="766" y="294">HIRO 11.000–15.000 € innen</text>
+
+  <!-- Row 3: kurviger Plattformlift -->
+  <rect x="60" y="332" width="360" height="94" rx="10" class="sitfill"/>
+  <text class="sit" x="78" y="366">Kurvige Treppe, Wendeltreppe</text>
+  <text class="sit" x="78" y="388">oder Treppe mit Podest</text>
+  <path class="arrow" d="M428 379 L462 379 M454 371 L462 379 L454 387"/>
+  <rect x="470" y="332" width="230" height="94" rx="10" class="formfill"/>
+  <text class="form" x="488" y="366">Plattformlift, kurvig</text>
+  <text class="formsub" x="488" y="388">Maßschiene, maßgefertigt;</text>
+  <text class="formsub" x="488" y="404">außen: nur Anfrage (HIRO)</text>
+  <path class="arrow" d="M708 379 L742 379 M734 371 L742 379 L734 387"/>
+  <rect x="750" y="332" width="170" height="94" rx="10" class="pricefill"/>
+  <text class="price" x="766" y="366">ab 19.000 €</text>
+  <text class="pricesub" x="766" y="388">Lifta, innen; HIRO</text>
+  <text class="pricesub" x="766" y="404">bis 38.000 € (4 Etagen)</text>
+
+  <!-- Row 4: Homelift -->
+  <rect x="60" y="442" width="360" height="94" rx="10" class="sitfill"/>
+  <text class="sit" x="78" y="476">Treppe zu schmal oder mehrere</text>
+  <text class="sit" x="78" y="498">Etagen ohne Treppenzwang</text>
+  <path class="arrow" d="M428 489 L462 489 M454 481 L462 489 L454 497"/>
+  <rect x="470" y="442" width="230" height="94" rx="10" class="formfill"/>
+  <text class="form" x="488" y="476">Homelift (senkrecht</text>
+  <text class="formsub" x="488" y="498">im Raum, je nach Modell</text>
+  <text class="formsub" x="488" y="514">mit Schacht)</text>
+  <path class="arrow" d="M708 489 L742 489 M734 481 L742 489 L734 497"/>
+  <rect x="750" y="442" width="170" height="94" rx="10" class="pricefill"/>
+  <text class="price" x="766" y="486">ab ca. 30.000 €</text>
+  <text class="pricesub" x="766" y="508">HIRO</text>
+
+  <!-- Footer note -->
+  <rect x="60" y="556" width="860" height="100" rx="10" class="sitfill"/>
+  <rect x="60" y="556" width="8" height="100" rx="4" class="head"/>
+  <text class="fine" x="86" y="582">Alle Preise: gekennzeichnete Hersteller-/Portal-Richtwerte (Abruf 28.10.2026; Herstellerpreise laut treppenliftwissen, Stand 07.10.2026).</text>
+  <text class="fine" x="86" y="604">Verbindlich ist nur das schriftliche Angebot nach dem Aufmaß. Plattformmaße und Tragfähigkeit aus dem Datenblatt gegen das eigene Gerät prüfen —</text>
+  <text class="fine" x="86" y="626">Portal-Untergrenzen (6.000–10.000 €) beginnen unter den Hersteller-ab-Preisen (11.000 €). Keine Bewilligungs- oder Einbauzusage.</text>
+</svg>

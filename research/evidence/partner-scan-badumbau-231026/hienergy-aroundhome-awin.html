@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="GpII-4bCDFjEKopnfdSr7oqzp9As6RlgdnXQ6MUZckFd_Yf5z6hA6qjZrZYgZiTDkN-X_-Zobf87ql2a-43c1g" />
+  
+  <meta name="action-cable-url" content="/cable" />
+  <style>
+  @font-face {
+    font-display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/montserrat-latin-400-normal-69451d451b272e92ffd7d1fd0aab0b1473827d9988208057c4b64d59c6f5fd06.woff2) format("woff2");
+  }
+  @font-face {
+    font-display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/assets/montserrat-latin-500-normal-af3ba3908d0c0b75e144ec675e6a1f7eee7642d8295174121fd3c01496b04bc9.woff2) format("woff2");
+  }
+  @font-face {
+    font-display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    src: url(/assets/montserrat-latin-600-normal-7e875a0f9a88383bdf5aadc192430d9150ef86e1e0e6a85bb7559b32eccda198.woff2) format("woff2");
+  }
+  @font-face {
+    font-display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/assets/montserrat-latin-700-normal-802cca5fd1e5b1fdbd7ecd34dbefbcfba8ebf8b8a956a4e0b4322b8d4a05c5a0.woff2) format("woff2");
+  }
+  @font-face {
+    font-display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    src: url(/assets/montserrat-latin-800-normal-76d7a29186d0f17dbb5ed86d79cbb892a8b57a99d0af26d2c52b3d9564922488.woff2) format("woff2");
+  }
+  @font-face {
+    font-display: block;
+    font-family: "bootstrap-icons";
+    src: url(/assets/bootstrap-icons-d58dbdc0232480708b000373bb9f5be99101ea5a95df6a9ef080912f10588790.woff2) format("woff2");
+  }
+</style>
+
+<link rel="preload" href="/assets/bootstrap-icons-3caa7300f87b446dcfef24276bb3f2e38a2972f7db11565feed4f1c842940629.css" as="style" type="text/css">
+<link rel="preload" href="/assets/bootstrap-icons-d58dbdc0232480708b000373bb9f5be99101ea5a95df6a9ef080912f10588790.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/bootstrap-icons-3caa7300f87b446dcfef24276bb3f2e38a2972f7db11565feed4f1c842940629.css" />
+
+
+<link rel="preload" href="/assets/application-a4107cdacc543019cf16c92869eabafba4a2d776c6c75d1f86f7f398641b853c.css" as="style" type="text/css">
+<link rel="preload" href="/assets/montserrat-latin-400-normal-69451d451b272e92ffd7d1fd0aab0b1473827d9988208057c4b64d59c6f5fd06.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/assets/montserrat-latin-500-normal-af3ba3908d0c0b75e144ec675e6a1f7eee7642d8295174121fd3c01496b04bc9.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/assets/montserrat-latin-600-normal-7e875a0f9a88383bdf5aadc192430d9150ef86e1e0e6a85bb7559b32eccda198.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/assets/montserrat-latin-700-normal-802cca5fd1e5b1fdbd7ecd34dbefbcfba8ebf8b8a956a4e0b4322b8d4a05c5a0.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/assets/montserrat-latin-800-normal-76d7a29186d0f17dbb5ed86d79cbb892a8b57a99d0af26d2c52b3d9564922488.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/application-a4107cdacc543019cf16c92869eabafba4a2d776c6c75d1f86f7f398641b853c.css" data-turbo-track="reload" />
+
+<style>
+  html.fonts-loading body { visibility: hidden; }
+</style>
+<script>
+  (() => {
+    const root = document.documentElement;
+
+    if (!("fonts" in document)) return;
+
+    root.classList.add("fonts-loading");
+
+    Promise.all([
+      document.fonts.load("400 1em Montserrat"),
+      document.fonts.load("500 1em Montserrat"),
+      document.fonts.load("600 1em Montserrat"),
+      document.fonts.load("700 1em Montserrat"),
+      document.fonts.load("800 1em Montserrat")
+    ]).finally(() => {
+      root.classList.remove("fonts-loading");
+    });
+  })();
+</script>
+
+<script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-f70ceb3dace9b02277da9c9cc0a3462ff5fa8e28cb8b6ac0f20d1fc7c61a3a25.js",
+    "@hotwired/turbo-rails": "/assets/turbo.min-d0ca7a65726abc2594ef1c7400e31cc1c252a0e31b960ecc030aa84059cba9bc.js",
+    "@hotwired/stimulus": "/assets/stimulus.min-7cbdde6dfbf19ca1272dbf1a96138e1739f4141b642f21747345f444853b0bb2.js",
+    "@hotwired/stimulus-loading": "/assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js",
+    "bootstrap": "/assets/bootstrap-8262dfcf8572fa786df01c8ee58dfc68ad4d40f0184b82ea564eac050a7e1f08.js",
+    "@popperjs/core": "/assets/popper-83a87f30a482e4d1932c7d12a5fbed1baac7aa2db98d3f4e2fe3dbee081abb2e.js",
+    "d3": "/assets/d3-d3bd5904fefb6d829d7a90b4a1c6d5d06261e3084518e89a5a39cbfda59e7d61.js",
+    "d3-array": "/assets/d3-array-63a5a42ad587f642c7398b4e5a038fb09a4ffbacd732cec8846415fa93558eba.js",
+    "d3-geo": "/assets/d3-geo-55bb920a5b1ffa65973e191e5b797c99063d2834531b4f85e04dc08f0d758c54.js",
+    "d3-fetch": "/assets/d3-fetch-a59221084e211cc287b89f0ad8733e647b6745690ef65ec5907fcf0b797da683.js",
+    "topojson-client": "/assets/topojson-client-aed87542fdb527909de3a396af3c1669075701bb72980e83b7b7982de1848f25.js",
+    "d3-axis": "/assets/d3-axis-eb0f99823e8191ead59ff8b2ed5b46e92b9bb8ee3db4437ffe5c198705b6a4e3.js",
+    "d3-brush": "/assets/d3-brush-96e92af52f59397acba7c6dda04afaf4e8c8b4ca205e6cba33e5185f0412bd45.js",
+    "d3-chord": "/assets/d3-chord-5d164078acb15da9996fcebb603226b8a9bee6f4e1a9cf6d1d0d461bd3165a2d.js",
+    "d3-color": "/assets/d3-color-d40b0a64c88297a18c54110e7a4a64c6e9f8afa560e40af2ba35f42d155e4e36.js",
+    "d3-contour": "/assets/d3-contour-f345fdcef13a2da35346965a397b9f69d9ac53541c12de1da159eb70ca1914d7.js",
+    "d3-delaunay": "/assets/d3-delaunay-530337666b915843570d5a97b8673ce1c111ad3d7bf4704a19798e3282810ebe.js",
+    "d3-dispatch": "/assets/d3-dispatch-c2b1e8792533c2ba33f45401d9e713cab4e28510f30cee4e000244101a9c3f22.js",
+    "d3-drag": "/assets/d3-drag-8c5b16cfccf49d6a8413254dad956c2f15338883e7d4760d33fce34e6d9ad4b2.js",
+    "d3-dsv": "/assets/d3-dsv-c2eb94452568055cfc44c4533130880eb3dc0f0de93dd46ae59086db7fe9bc73.js",
+    "d3-ease": "/assets/d3-ease-aef21f953064a9884d18fd0b21e0197b2ac21526592031fb15718049437b2473.js",
+    "d3-force": "/assets/d3-force-5aa87b3e72372d237ca6b6659148a99285252fd745840bdbc1005f48b2a6fec4.js",
+    "d3-format": "/assets/d3-format-211ec8aa8af662f6f6e14057b96467fd60d8eb42d5a9cacd698d91c89dc569ac.js",
+    "d3-hierarchy": "/assets/d3-hierarchy-278099ca4448925824465e7cb70afdfad352aac707889a4fd130bf6c5038a9ad.js",
+    "d3-interpolate": "/assets/d3-interpolate-530755752e84533951e9b09ca45abfe8575dc367144527657abf508050f6e5e6.js",
+    "d3-path": "/assets/d3-path-2fc15ad0d172e45239c7472d2a178b519cc5db854c32c1d8b8aeffd6bd13d966.js",
+    "d3-polygon": "/assets/d3-polygon-5903ab9f3b4417573e04e9c596c3a5b57e2cea0ce7b80da618ab982b5932d855.js",
+    "d3-quadtree": "/assets/d3-quadtree-afcd3d63bb896fe5debd2c7a0c3f2de451f469624fd2f09c2852cb2b804a349e.js",
+    "d3-random": "/assets/d3-random-a5135c63c07d497c6fb3851160f31f30dd4f38fc38cecd4e49c1d27937a96a66.js",
+    "d3-scale": "/assets/d3-scale-ac6a4a02a219b3a1255e3a62946a29d986d874b55e40861e50daa3b262489065.js",
+    "d3-scale-chromatic": "/assets/d3-scale-chromatic-7b789e135d81389a4fc0fea59f6f8c1e212b75a703cafb0c8befe7f75887d00d.js",
+    "d3-selection": "/assets/d3-selection-19219280ccbe216e28c84ee63fb86ad133cd85132dc8c044d8770181af063571.js",
+    "d3-shape": "/assets/d3-shape-0f523058a08ef2d41633204f8aa57f8faa449b943815ac7c43480c5432c4f88c.js",
+    "d3-time": "/assets/d3-time-7cd62e935b61fc29b1b92997ba66fc9206027724f0798fc79816b3de015706b0.js",
+    "d3-time-format": "/assets/d3-time-format-738e4a24c4064592d14484b3cf71860c3ff11c3226f8a220a69f9c666b3bf44d.js",
+    "d3-timer": "/assets/d3-timer-0536ff799c7e8bf887e4bd03c89a376c1bc19d2eb68136d6be3f25f32a715caa.js",
+    "d3-transition": "/assets/d3-transition-a2ffc99137575b666a0e0948d5d6c61ac333e2601179186ba10ca1dd38774a44.js",
+    "d3-zoom": "/assets/d3-zoom-208d8251bb566d0aa4b8296c27af4e838650cb7846b3467bf4f1d820388b2447.js",
+    "delaunator": "/assets/delaunator-04a47c296d94cdf6c3ad767e2ea5db73617463ccec20232cf04f632502a58e94.js",
+    "internmap": "/assets/internmap-3caed1335dc96a9fe78311c9cc1fa60a1b30fdc655b27f266a10dee20495ca4d.js",
+    "robust-predicates": "/assets/robust-predicates-062971a7eccec1670941e47fc1657c9f8318ebeb1857b063556b07617e34da46.js",
+    "posthog-js": "/assets/posthog-js-75e22cb35d485d2b4a5b9d2d3c22e49ddbbf61863a24ff7208ecc22110e41d64.js",
+    "@rails/actioncable": "/assets/@rails--actioncable-c3cc1cf3cca693fae077e3e4824ec5e6d441acbf87dfdcd8aa7439f8af19deb1.js",
+    "controllers/admin_form_controller": "/assets/controllers/admin_form_controller-1fd6305ce989121448c958bd84a6a7075ef296c24f29fa90afc72c2dec5429f3.js",
+    "controllers/admin_publisher_daily_transaction_chart_controller": "/assets/controllers/admin_publisher_daily_transaction_chart_controller-c1ce6e1a54ca16b1d49d08f57c357dcbfe6dc4b41e1f27c0ef9848da3a96e14c.js",
+    "controllers/advertiser_autocomplete_controller": "/assets/controllers/advertiser_autocomplete_controller-facfd96299866ec521716e27962d5c26df261f53fcff5e2a9da56bd3a8bb6410.js",
+    "controllers/advertiser_status_mapping_controller": "/assets/controllers/advertiser_status_mapping_controller-2cbd2f7d340cd3562e773b0078cdbc36b770053d84d6471521270b991b94dada.js",
+    "controllers/advertiser_tabs_controller": "/assets/controllers/advertiser_tabs_controller-68e2021c2f0667cb1b273b075efcbb2c8e3fdd91844a3419c5814e5a10bd8ac0.js",
+    "controllers/advertiser_view_mode_controller": "/assets/controllers/advertiser_view_mode_controller-65c11c476e57bc107910518063af9f7b9d0e5decffce966cea65c072d929564c.js",
+    "controllers/agency_managed_accounts_controller": "/assets/controllers/agency_managed_accounts_controller-b78543d69be410449fcce4f426d5faa0b544d76c1bffd9493c08cd14e5616968.js",
+    "controllers/analytics_cards_controller": "/assets/controllers/analytics_cards_controller-0e13cb42c1a567089c3b599a0afdefd7f81060fd50c3c5c417b02c5f62f4b8f1.js",
+    "controllers/api_call_usage_chart_controller": "/assets/controllers/api_call_usage_chart_controller-013224781f0e3b74737671d02ec4eb626860999ee69e45fb19d996f87fb6d204.js",
+    "controllers/api_docs_nav_controller": "/assets/controllers/api_docs_nav_controller-3ad2752dc2ddcda8b2d5998653be79776ecb038a491cd5de38884937aabada07.js",
+    "controllers/api_endpoint_probe_controller": "/assets/controllers/api_endpoint_probe_controller-0bdbefedd84fdbf0aada98a5639bde752ecde7306fac4790ec843a8156f28ce1.js",
+    "controllers/api_endpoint_probe_queue_controller": "/assets/controllers/api_endpoint_probe_queue_controller-8e3629380680596561efd5e31115ff0fa1e24ca0cbc71e55fed7590abc76f3e6.js",
+    "controllers/api_tester_controller": "/assets/controllers/api_tester_controller-939776af030d45640660eed7424255608f49ebc8d619da9d430c406ff4cfe8f2.js",
+    "controllers/application": "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js",
+    "controllers/async_export_redirect_controller": "/assets/controllers/async_export_redirect_controller-7de75ed36786036cd48742033816eeb4f9bb6af1e0986afddc83fac6cb37ea6a.js",
+    "controllers/auto_submit_controller": "/assets/controllers/auto_submit_controller-5d92ea614b031e342bd2edd2af0b804841063edba1211569065238bc0258d09a.js",
+    "controllers/bootstrap_controller": "/assets/controllers/bootstrap_controller-970eecb997ca3d42341e997026ca10b0791e37339c7a9c5d66689cda4aa0ec2c.js",
+    "controllers/bubble_chart_controller": "/assets/controllers/bubble_chart_controller-9b67c498f71d42aedab049ab8fb61febd22eb7531b27bccb3c741365e18e551f.js",
+    "controllers/charts_carousel_controller": "/assets/controllers/charts_carousel_controller-24f6cafa2698713bcc3176352abbc0ebbe1e2a4c105d0f697b8056a2152bc76c.js",
+    "controllers/clickable_row_controller": "/assets/controllers/clickable_row_controller-cae46cfcc1d929b00333d05e47cd8803775325728ab4582cac8dad24ed86f855.js",
+    "controllers/clickable_table_controller": "/assets/controllers/clickable_table_controller-d17994b1b522d4a02814dc356578ef139cb4ec44d36802143271425b9cae6f24.js",
+    "controllers/clicks_bar_chart_controller": "/assets/controllers/clicks_bar_chart_controller-29a60ac1adacda576670a45c86fd4c42cf114bab24debf7adbd99c9a3931a0ef.js",
+    "controllers/clipboard_controller": "/assets/controllers/clipboard_controller-871325bdd42516990a3959337a7f063aaa9315ebed9e807f076227018c85268f.js",
+    "controllers/commission_chart_controller": "/assets/controllers/commission_chart_controller-fc80e9e2bd26ad40de7f36f0e34f6bd0dcad2322e981bad52158a58a3cd054aa.js",
+    "controllers/commission_rates_controller": "/assets/controllers/commission_rates_controller-d92aca5ca163b20ef138f0c60b17e070fbc93e691a4cf59a7d841b0e3b19c835.js",
+    "controllers/contact_row_controller": "/assets/controllers/contact_row_controller-8d0158230b69a4468b7781c9439c35c1d484ab707ffe94dcb5e7e9d375a1a624.js",
+    "controllers/contacts_dex_ai_import_controller": "/assets/controllers/contacts_dex_ai_import_controller-43e81f283ac5c07ef38554e6e09e19be6010ad1ffe5824b47bace8475f2db23b.js",
+    "controllers/contacts_graphql_list_controller": "/assets/controllers/contacts_graphql_list_controller-a10d4c605ab61c7766fc33fe316581dfe7155b525da12458a2f16603fcad4461.js",
+    "controllers/contacts_source_status_chart_controller": "/assets/controllers/contacts_source_status_chart_controller-44ad49fc9110aeaf1554c05270401bd3cce0680bae0f5aa97716fcd79584dab5.js",
+    "controllers/country_tags_modal_controller": "/assets/controllers/country_tags_modal_controller-b51dec0fc0040e06f8a79b7df6603143ad614d5c9eb720bbe9c7252513639e98.js",
+    "controllers/credential_toggle_controller": "/assets/controllers/credential_toggle_controller-de7ac5b19baf85aca50b3e06af2e089f78955562920441e8e6a7d95673b775bd.js",
+    "controllers/credential_validation_queue_controller": "/assets/controllers/credential_validation_queue_controller-a2e87b50e5ed6739261cbb7ada54b5b7486321807846772c4e79fb2705793802.js",
+    "controllers/credential_validator_controller": "/assets/controllers/credential_validator_controller-13079ac840f32667ca96897c3a6d02319cc8e743079543c603b64bb1295e0d7b.js",
+    "controllers/custom_logo_url_controller": "/assets/controllers/custom_logo_url_controller-d244c19efe2f39391a4c0305ab402f3ad1be3fad799052d235b61063f4a07cdd.js",
+    "controllers/customer_io_controller": "/assets/controllers/customer_io_controller-e4bc61ca540b0cb771b273c59ec78b283260f9333d035b3718c4310eae8a8539.js",
+    "controllers/date_range_picker_controller": "/assets/controllers/date_range_picker_controller-e711e999ccb2fda9337bebd98a642c5555f87cb1b35fa083c2ff816f0f2e6d3d.js",
+    "controllers/deal_description_blank_controller": "/assets/controllers/deal_description_blank_controller-8d20033ce4fe7a3b2c07d6ebfd9e5b222bca3fdb3fe8c527654b115ea3e49173.js",
+    "controllers/deal_help_modal_controller": "/assets/controllers/deal_help_modal_controller-0766ad963453470ab18303a1f21269eff35d747f74531b9ef9fdc158510bfbeb.js",
+    "controllers/deal_language_tags_modal_controller": "/assets/controllers/deal_language_tags_modal_controller-4a6b3a39de13e4e69af64d77529d66aa5fa8b271c1287f9c413a30b53b2ef721.js",
+    "controllers/deal_translation_chain_controller": "/assets/controllers/deal_translation_chain_controller-4d3727fe658dc1c251b8aebbfa1e05237f17eb877cb792b3db6a8d45e1a92bb7.js",
+    "controllers/deals_graphql_list_controller": "/assets/controllers/deals_graphql_list_controller-6a5bd03abe0e739cabba1e0b8bb46a91813b87732ca99553b0cc7d9bfb4fa285.js",
+    "controllers/deals_results_controller": "/assets/controllers/deals_results_controller-7871da335736f7f2aea17fc9a140c61fada53bafd5b5a61ee1f02abc4481685a.js",
+    "controllers/debounced_submit_controller": "/assets/controllers/debounced_submit_controller-b8d1f75f85c7903d4f4eb6089b0fd340467f990f6e6732ce52a9a667ce3ba50e.js",
+    "controllers/deeplink_generator_controller": "/assets/controllers/deeplink_generator_controller-84bec0292010d56763c99700c6a7e61772c8043ec4a86688974d9c7ef43a74a1.js",
+    "controllers/deferred_frame_controller": "/assets/controllers/deferred_frame_controller-e03f143434a255b6b002c3d0dc0eca7ac24f2a368d69731c15450ab1c572f775.js",
+    "controllers/download_handler_controller": "/assets/controllers/download_handler_controller-5c84044ea5a6013b9582da532423f821b30df6a87252b8867527d5f0e211e923.js",
+    "controllers/dropdown_layer_controller": "/assets/controllers/dropdown_layer_controller-24e1236be406cd8b3e50a8a7b7664a62dbc7641f48096f7486b2e11ae7ffac8e.js",
+    "controllers/exclusive_fields_controller": "/assets/controllers/exclusive_fields_controller-79ca199613628e80faa5f718209cc6c986b0bfbc48929ecc1b97f4118a3c0945.js",
+    "controllers/form_controller": "/assets/controllers/form_controller-a8c6638368e5c08f662bdd1b0603e42ffc79b8cc5559f1e0d10901a318f63c35.js",
+    "controllers/frame_search_controller": "/assets/controllers/frame_search_controller-171bc4264b7da56e852587a509c581ac0bd508506611c90b98053117736dbd00.js",
+    "controllers/google_places_autocomplete_controller": "/assets/controllers/google_places_autocomplete_controller-0ba527ccb96d60813bf6242c7ae03062580c17d0f56303894add19e256f35ff6.js",
+    "controllers/graphql_playground_controller": "/assets/controllers/graphql_playground_controller-b20548b7608245a50bf94f389702db5a1a6c99ef8214bbc349361bbaf8de52da.js",
+    "controllers/hello_controller": "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js",
+    "controllers": "/assets/controllers/index-55c2e95e30fbff347c144bec5a58d830fdea7d19c11dce5b2e4063ad87f12bc2.js",
+    "controllers/infinite_scroll_controller": "/assets/controllers/infinite_scroll_controller-7e05de26bda8575693d95e9badaaac9a9545db5457809a4cb13f91f440ba3c2d.js",
+    "controllers/kpi_line_chart_controller": "/assets/controllers/kpi_line_chart_controller-d04e5e4526be9ce4148f3adc4f41f047b3124f9c139f4021872c1cd5c9143a30.js",
+    "controllers/lazy_image_controller": "/assets/controllers/lazy_image_controller-0d0a5dfd19413c0e93629d4d8f94baa8f124f690ccfc94c4f78acd2c4005cdea.js",
+    "controllers/lazy_load_controller": "/assets/controllers/lazy_load_controller-8424702fe9ea7260af4ac8c2bf1e5c3d6638c982ea71cc2b0f3aa610db71c4ff.js",
+    "controllers/lazy_loading_controller": "/assets/controllers/lazy_loading_controller-20da8f9388b02b52a15ee308ebcedb5265d2ff6e653a563b9476fd1c09ebb59b.js",
+    "controllers/lazy_modal_loader_controller": "/assets/controllers/lazy_modal_loader_controller-b8017c0d49599a48fc083edd3cf0a01e164678178736cc71b585b060df345fd7.js",
+    "controllers/link_builder_playground_controller": "/assets/controllers/link_builder_playground_controller-cf1d479eb4539be082b8bd0decded12dbccb9a2849a063ebc44976e3911b9967.js",
+    "controllers/managing_agencies_selector_controller": "/assets/controllers/managing_agencies_selector_controller-2aa0ce68c49641377aa40fcfa734c3ff96980fcd917159b2cb9446db6b1e8f34.js",
+    "controllers/mcp_chat_controller": "/assets/controllers/mcp_chat_controller-a8c9d39b0e8c6bfad747906f3595f898866412518fbdcc2b0f47487a8aef7a73.js",
+    "controllers/native_form_submit_controller": "/assets/controllers/native_form_submit_controller-06b4b6a1ed2532db74cf240281166150788911454102c7926f2b6efe34b73999.js",
+    "controllers/navbar_mega_menu_search_controller": "/assets/controllers/navbar_mega_menu_search_controller-6bf0aecd710afae5a42ad013787318bcf077dbfd886f9775c599fd212aa7c72e.js",
+    "controllers/network_status_picker_controller": "/assets/controllers/network_status_picker_controller-50d297275aa2273b12b7cc4344c04827ff14461c8f346dfa7dfbf0818d08e694.js",
+    "controllers/network_transaction_chart_controller": "/assets/controllers/network_transaction_chart_controller-151ecbf048e2e47af9fb2b4fbf5578aad4c155fa8a20afb3d12b332e274296bf.js",
+    "controllers/network_wizard_advertiser_sync_controller": "/assets/controllers/network_wizard_advertiser_sync_controller-fe5091631a72dd367ae80b39da29d54996acf667a6eadb181b6b89eec1ac8e77.js",
+    "controllers/onboarding_advertiser_autocomplete_controller": "/assets/controllers/onboarding_advertiser_autocomplete_controller-26dd589b1f19f70c30b3b27ea2d04a0011abcd300d98549c92c787f617b2acf9.js",
+    "controllers/onboarding_agency_controller": "/assets/controllers/onboarding_agency_controller-242088bd55a359225a9359273eb0a00ab6d8e34794e0f1e65719744493930272.js",
+    "controllers/onboarding_choice_select_controller": "/assets/controllers/onboarding_choice_select_controller-53d9da50cb798856276fcddcf68999a91931495a34f4c4a3788c8c7762c491f2.js",
+    "controllers/onboarding_company_controller": "/assets/controllers/onboarding_company_controller-767df0fb043c19945c6f3038055ef1b8c58537d00621da0642bebe90575be69e.js",
+    "controllers/onboarding_role_controller": "/assets/controllers/onboarding_role_controller-ae3694501e7c0123a46ee05307feabf881154c65c2dd300d40d3a9ddb4cf9147.js",
+    "controllers/onboarding_validity_controller": "/assets/controllers/onboarding_validity_controller-7d5252b84e47703a088cb860d6495ecb52375d572e304e63d9f5a3ad265812e1.js",
+    "controllers/performance_summary_tabs_controller": "/assets/controllers/performance_summary_tabs_controller-9b89332d16d85671fdbe22e2b0cea5b8eaedcf9065f67d915aaad824911e7832.js",
+    "controllers/pie_chart_controller": "/assets/controllers/pie_chart_controller-1044ebeb92d29edba59435ca7e56b0d56c65ac3709f7a5cc861617f174fc816c.js",
+    "controllers/publisher_network_transaction_chart_controller": "/assets/controllers/publisher_network_transaction_chart_controller-70e0ae49d94d68155fc9a935f6784fcaef36ed4f3f2eeed73daf9d204d25a915.js",
+    "controllers/publisher_network_transaction_treemap_controller": "/assets/controllers/publisher_network_transaction_treemap_controller-8f4665227be68fc24c69dbe9bff9bef68e01b2882ae6233c0aa0eeeec09b9ab9.js",
+    "controllers/publisher_network_yearly_stacked_histogram_controller": "/assets/controllers/publisher_network_yearly_stacked_histogram_controller-31f1e0630c3fda296df11593a2dd959e29c31f8aa0eb139619a99812037ef281.js",
+    "controllers/refresh_all_step_wizard_controller": "/assets/controllers/refresh_all_step_wizard_controller-b7b5d0bba8ff78ce7359211d579b74edd272e1ffce56c780cc0f759f7dab7662.js",
+    "controllers/reply_form_controller": "/assets/controllers/reply_form_controller-48a52f3eff3e15c96f965fca91939757cbc0e7448e26d17a46d6181771e33b7e.js",
+    "controllers/search_button_controller": "/assets/controllers/search_button_controller-5e2e930bf5de5ac181fb97d3e760edff249dbd1a775da8ee6addb75d8a50977a.js",
+    "controllers/search_controller": "/assets/controllers/search_controller-47a01bfcddafc90619d4ae6c32a1a7f7aceeb94a14b95c6d1f4b874ecd65fcb6.js",
+    "controllers/searchable_select_controller": "/assets/controllers/searchable_select_controller-ab41f191ccb10d75bbe604009d608f4b64386d1c4a909c4534c7cb4cb7ef01fa.js",
+    "controllers/section_nav_controller": "/assets/controllers/section_nav_controller-cb8c7dc4d113e6585d8c245705f9c160fd6011be9c20278114e48ec928bd59a4.js",
+    "controllers/sheets_export_stream_controller": "/assets/controllers/sheets_export_stream_controller-34b760945729d1fe118b3175205e4f3952b582bcbfd776015cc563a1b098eff6.js",
+    "controllers/show_more_controller": "/assets/controllers/show_more_controller-3c2118d00df1e65c90162dc116f0b04e33aede7d2a0bd545dde09912e7d1bbed.js",
+    "controllers/slack_channel_autosubmit_controller": "/assets/controllers/slack_channel_autosubmit_controller-843606a793702abf5048729c69090a697776bfa9a9f477f9aa422c92738ae5d9.js",
+    "controllers/slack_channel_wizard_controller": "/assets/controllers/slack_channel_wizard_controller-b506e34b9563d62de87d88a5159c012ad70053e55cd12a96d94e0db43084cee6.js",
+    "controllers/smooth_scroll_controller": "/assets/controllers/smooth_scroll_controller-e9dfbd875e745e03e253cbdee5e29faa04e3abe8930a5e1aca8ef0df649ceeeb.js",
+    "controllers/sortable_table_controller": "/assets/controllers/sortable_table_controller-b14f14c0f4a2f1c9a7c2b202b984e38690c251a0b5ec26c9eb96ed4b3c3a2218.js",
+    "controllers/status_changes_yearly_stacked_histogram_controller": "/assets/controllers/status_changes_yearly_stacked_histogram_controller-d59177c203ae2623227aee813a664e9cdf3c2442c5154833e4576649427fc2fd.js",
+    "controllers/tab_url_controller": "/assets/controllers/tab_url_controller-a37984a9ebc6c6ba46258b1c6b1fb694748cbc1e884a30f792e846e4d50db292.js",
+    "controllers/table_filter_controller": "/assets/controllers/table_filter_controller-b88da67400c66f14a79d18bfa49af5ec2128d219ce7f4441d00de89be93a594e.js",
+    "controllers/tabs_controller": "/assets/controllers/tabs_controller-34ae45c42f043e07931814d42de1d2cc947ba923d7dc232d1c3e1c09d69a74e4.js",
+    "controllers/tag_autocomplete_controller": "/assets/controllers/tag_autocomplete_controller-c0e219f151cd6b2bfc2fd199fca24c9ac096d3e1970751762321ce79c9ca1430.js",
+    "controllers/terms_graphql_list_controller": "/assets/controllers/terms_graphql_list_controller-e7d2821a4ce504ebbc4fa40f6701e4892c75232e4cbdaa2544fc82796ed06909.js",
+    "controllers/tooltip_controller": "/assets/controllers/tooltip_controller-8f3ad2a375c0e6c1d08d7955d5159382076aebee3deb794cfd61609811a0bf08.js",
+    "controllers/transaction_collapse_controller": "/assets/controllers/transaction_collapse_controller-17278e0f1132aeca021251b6b8a92b5d523e8ee9e71270b0cef99b0aa4dbc21e.js",
+    "controllers/transaction_details_controller": "/assets/controllers/transaction_details_controller-183dd1c7dd0a9d4d5f5618a788670c20a7d66545ac3f545e5ffaea79127e536e.js",
+    "controllers/transaction_line_chart_combined_controller": "/assets/controllers/transaction_line_chart_combined_controller-32fd09c60eff9cf3f1f1464acb7c68d51d8435d4787e896a16d5cd8a6abaaf09.js",
+    "controllers/transaction_line_chart_controller": "/assets/controllers/transaction_line_chart_controller-04a0b0f40fe211ad558d4f8ec3909fe90354db31fdf92f5adf86cfc9eb1933d4.js",
+    "controllers/transaction_status_aging_chart_controller": "/assets/controllers/transaction_status_aging_chart_controller-23bf09b7bee728daf23494affa5fd8525cb01e481d2045d008cb2043ba351fcd.js",
+    "controllers/transaction_status_daily_chart_controller": "/assets/controllers/transaction_status_daily_chart_controller-5de54ec738600b7764f835e491499da162ae597208d3ac945b193dfe230359f2.js",
+    "controllers/transaction_status_exposure_chart_controller": "/assets/controllers/transaction_status_exposure_chart_controller-e1a17758ba3e12332b784589d7c5a3582c49a5f720c1c9889b165270407e57c1.js",
+    "controllers/transaction_status_mapping_controller": "/assets/controllers/transaction_status_mapping_controller-2cbd2f7d340cd3562e773b0078cdbc36b770053d84d6471521270b991b94dada.js",
+    "controllers/transaction_status_network_aging_chart_controller": "/assets/controllers/transaction_status_network_aging_chart_controller-9f39f90280faaed52733d8e7c8ae5ec260b5f7911f03cec07a7ee33e5b29e8fe.js",
+    "controllers/transaction_status_network_pie_chart_controller": "/assets/controllers/transaction_status_network_pie_chart_controller-1beee2ee1f203a20fd80705156858be16cd30bd9fda4536dbda8393b59108c45.js",
+    "controllers/transaction_totals_chart_controller": "/assets/controllers/transaction_totals_chart_controller-5ca575de85687b3c6cc4798c48bfe0974be96fe674e1953985324ed27467ccf6.js",
+    "controllers/transactions_batched_chart_controller": "/assets/controllers/transactions_batched_chart_controller-fb393e58aaa386f33e09497f0795da8d5729702a23ba3c3d872368c6f4b31f47.js",
+    "controllers/transactions_charts_controller": "/assets/controllers/transactions_charts_controller-7bae528efd8f6f5ac81b29dbe4ed62d213e583a6e5499b7a43674b27d1355d8c.js",
+    "controllers/transactions_graphql_list_controller": "/assets/controllers/transactions_graphql_list_controller-db90df3a08d76ca2bd5d219b3e96a4e6d6e56ac36470d66dfd4789fc74a3d38a.js",
+    "controllers/transactions_histogram_chart_controller": "/assets/controllers/transactions_histogram_chart_controller-3d4fe15e5dc7e10ca6816f75fd6433c32562fd1926d73ead6aeadee2c1be5654.js",
+    "controllers/treemap_controller": "/assets/controllers/treemap_controller-df8cefaf701e7bb086a29e6e013699cc94aa7062a1721f29936f2a5bd7dd70de.js",
+    "controllers/turbo_frame_controller": "/assets/controllers/turbo_frame_controller-4051bbb34a8cfed660a649816ada7f93b39f40f8c7431a290e4f6f2f22afd506.js",
+    "controllers/vanta_net_controller": "/assets/controllers/vanta_net_controller-c5e1bb7b9630ce4790fdd2d64425e9a9577f2be0fb94e08af5a8482bbad12e28.js",
+    "controllers/world_map_controller": "/assets/controllers/world_map_controller-82bed63328b844c4d57717ce31b6f2bbaad39af7d13cf46f2302d9012d0c3366.js",
+    "lib/async_stylesheets": "/assets/lib/async_stylesheets-d27b89b097f871553a7f6b824d999182892179cddf9fc08393a09c9ee8f75dcb.js",
+    "lib/batched_dom": "/assets/lib/batched_dom-241003b5fb3be3eff5e3562f9b636d6b78a7961f1133fb65b3037c0689de98a0.js",
+    "lib/chart_axis": "/assets/lib/chart_axis-af1616c46252d6286710bcc3b1130821f5624783afb31e7081295a0a937c5044.js",
+    "lib/chart_design_tokens": "/assets/lib/chart_design_tokens-b6ede5fdf2f7e6dc4fb4da90a38a86ec91bb6f15190e16d2b5ef3b50d6c296ca.js",
+    "lib/chart_lifecycle": "/assets/lib/chart_lifecycle-501f40a3183e0762765d8d670d99817a26098347ac8d7eb433ca4d42c19e26d4.js",
+    "lib/chart_stagger": "/assets/lib/chart_stagger-41697b303d361048b1788e6f0adbfa060a7fb82cab5a9f1bf7ccb90771cd4a9b.js",
+    "lib/chart_visibility": "/assets/lib/chart_visibility-4947929976c21f6e4325a6d5344d4d77a6327b88945ee1244886ad3503c4943e.js",
+    "lib/d3_motion": "/assets/lib/d3_motion-f6b17c21ccf457384207cc04b5f26434db08d27a693860407544a5477fce7458.js",
+    "lib/d3_tooltip": "/assets/lib/d3_tooltip-86b8f974bf7fbe867688111947b5f3ce8e3ac8f17638fa5afd36ef7d5d18f7bf.js",
+    "lib/google_one_tap": "/assets/lib/google_one_tap-9a4d1cc95511d426d3d442b417a9c7cff1c3ed95f99ed98a8a257b06d14df5de.js",
+    "lib/posthog": "/assets/lib/posthog-9850123e6ffa55ce7da4e0f75b624e43b0620d971e116d052b8e0630c1869e60.js",
+    "lib/turbo_frame_retry": "/assets/lib/turbo_frame_retry-d0784a3c52c335bf83a2ebc71b150ea0a1a2d5f5b35ca740202d4d4646158c47.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-f70ceb3dace9b02277da9c9cc0a3462ff5fa8e28cb8b6ac0f20d1fc7c61a3a25.js">
+<link rel="modulepreload" href="/assets/turbo.min-d0ca7a65726abc2594ef1c7400e31cc1c252a0e31b960ecc030aa84059cba9bc.js">
+<link rel="modulepreload" href="/assets/stimulus.min-7cbdde6dfbf19ca1272dbf1a96138e1739f4141b642f21747345f444853b0bb2.js">
+<link rel="modulepreload" href="/assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js">
+<link rel="modulepreload" href="/assets/bootstrap-8262dfcf8572fa786df01c8ee58dfc68ad4d40f0184b82ea564eac050a7e1f08.js">
+<link rel="modulepreload" href="/assets/popper-83a87f30a482e4d1932c7d12a5fbed1baac7aa2db98d3f4e2fe3dbee081abb2e.js">
+<link rel="modulepreload" href="/assets/d3-d3bd5904fefb6d829d7a90b4a1c6d5d06261e3084518e89a5a39cbfda59e7d61.js">
+<link rel="modulepreload" href="/assets/d3-array-63a5a42ad587f642c7398b4e5a038fb09a4ffbacd732cec8846415fa93558eba.js">
+<link rel="modulepreload" href="/assets/d3-geo-55bb920a5b1ffa65973e191e5b797c99063d2834531b4f85e04dc08f0d758c54.js">
+<link rel="modulepreload" href="/assets/d3-fetch-a59221084e211cc287b89f0ad8733e647b6745690ef65ec5907fcf0b797da683.js">
+<link rel="modulepreload" href="/assets/topojson-client-aed87542fdb527909de3a396af3c1669075701bb72980e83b7b7982de1848f25.js">
+<link rel="modulepreload" href="/assets/d3-axis-eb0f99823e8191ead59ff8b2ed5b46e92b9bb8ee3db4437ffe5c198705b6a4e3.js">
+<link rel="modulepreload" href="/assets/d3-brush-96e92af52f59397acba7c6dda04afaf4e8c8b4ca205e6cba33e5185f0412bd45.js">
+<link rel="modulepreload" href="/assets/d3-chord-5d164078acb15da9996fcebb603226b8a9bee6f4e1a9cf6d1d0d461bd3165a2d.js">
+<link rel="modulepreload" href="/assets/d3-color-d40b0a64c88297a18c54110e7a4a64c6e9f8afa560e40af2ba35f42d155e4e36.js">
+<link rel="modulepreload" href="/assets/d3-contour-f345fdcef13a2da35346965a397b9f69d9ac53541c12de1da159eb70ca1914d7.js">
+<link rel="modulepreload" href="/assets/d3-delaunay-530337666b915843570d5a97b8673ce1c111ad3d7bf4704a19798e3282810ebe.js">
+<link rel="modulepreload" href="/assets/d3-dispatch-c2b1e8792533c2ba33f45401d9e713cab4e28510f30cee4e000244101a9c3f22.js">
+<link rel="modulepreload" href="/assets/d3-drag-8c5b16cfccf49d6a8413254dad956c2f15338883e7d4760d33fce34e6d9ad4b2.js">
+<link rel="modulepreload" href="/assets/d3-dsv-c2eb94452568055cfc44c4533130880eb3dc0f0de93dd46ae59086db7fe9bc73.js">
+<link rel="modulepreload" href="/assets/d3-ease-aef21f953064a9884d18fd0b21e0197b2ac21526592031fb15718049437b2473.js">
+<link rel="modulepreload" href="/assets/d3-force-5aa87b3e72372d237ca6b6659148a99285252fd745840bdbc1005f48b2a6fec4.js">
+<link rel="modulepreload" href="/assets/d3-format-211ec8aa8af662f6f6e14057b96467fd60d8eb42d5a9cacd698d91c89dc569ac.js">
+<link rel="modulepreload" href="/assets/d3-hierarchy-278099ca4448925824465e7cb70afdfad352aac707889a4fd130bf6c5038a9ad.js">
+<link rel="modulepreload" href="/assets/d3-interpolate-530755752e84533951e9b09ca45abfe8575dc367144527657abf508050f6e5e6.js">
+<link rel="modulepreload" href="/assets/d3-path-2fc15ad0d172e45239c7472d2a178b519cc5db854c32c1d8b8aeffd6bd13d966.js">
+<link rel="modulepreload" href="/assets/d3-polygon-5903ab9f3b4417573e04e9c596c3a5b57e2cea0ce7b80da618ab982b5932d855.js">
+<link rel="modulepreload" href="/assets/d3-quadtree-afcd3d63bb896fe5debd2c7a0c3f2de451f469624fd2f09c2852cb2b804a349e.js">
+<link rel="modulepreload" href="/assets/d3-random-a5135c63c07d497c6fb3851160f31f30dd4f38fc38cecd4e49c1d27937a96a66.js">
+<link rel="modulepreload" href="/assets/d3-scale-ac6a4a02a219b3a1255e3a62946a29d986d874b55e40861e50daa3b262489065.js">
+<link rel="modulepreload" href="/assets/d3-scale-chromatic-7b789e135d81389a4fc0fea59f6f8c1e212b75a703cafb0c8befe7f75887d00d.js">
+<link rel="modulepreload" href="/assets/d3-selection-19219280ccbe216e28c84ee63fb86ad133cd85132dc8c044d8770181af063571.js">
+<link rel="modulepreload" href="/assets/d3-shape-0f523058a08ef2d41633204f8aa57f8faa449b943815ac7c43480c5432c4f88c.js">
+<link rel="modulepreload" href="/assets/d3-time-7cd62e935b61fc29b1b92997ba66fc9206027724f0798fc79816b3de015706b0.js">
+<link rel="modulepreload" href="/assets/d3-time-format-738e4a24c4064592d14484b3cf71860c3ff11c3226f8a220a69f9c666b3bf44d.js">
+<link rel="modulepreload" href="/assets/d3-timer-0536ff799c7e8bf887e4bd03c89a376c1bc19d2eb68136d6be3f25f32a715caa.js">
+<link rel="modulepreload" href="/assets/d3-transition-a2ffc99137575b666a0e0948d5d6c61ac333e2601179186ba10ca1dd38774a44.js">
+<link rel="modulepreload" href="/assets/d3-zoom-208d8251bb566d0aa4b8296c27af4e838650cb7846b3467bf4f1d820388b2447.js">
+<link rel="modulepreload" href="/assets/delaunator-04a47c296d94cdf6c3ad767e2ea5db73617463ccec20232cf04f632502a58e94.js">
+<link rel="modulepreload" href="/assets/internmap-3caed1335dc96a9fe78311c9cc1fa60a1b30fdc655b27f266a10dee20495ca4d.js">
+<link rel="modulepreload" href="/assets/robust-predicates-062971a7eccec1670941e47fc1657c9f8318ebeb1857b063556b07617e34da46.js">
+<link rel="modulepreload" href="/assets/posthog-js-75e22cb35d485d2b4a5b9d2d3c22e49ddbbf61863a24ff7208ecc22110e41d64.js">
+<link rel="modulepreload" href="/assets/@rails--actioncable-c3cc1cf3cca693fae077e3e4824ec5e6d441acbf87dfdcd8aa7439f8af19deb1.js">
+<script type="module">import "application"</script>
+
+    <link rel="icon" type="image/x-icon" href="/branding/favicon.ico" />
+  <title itemprop="name">Aroundhome DE Affiliate Program | Awin | Commission | Hi Energy AI</title><meta name="description" content="Aroundhome is a leading German online platform that connects homeowners with verified local service professionals for home improvement and maintenance projects."><meta name="keywords" content="aroundhome de affiliate program, aroundhome de commission, awin affiliate, home &amp; garden affiliate programs, solar energy affiliate programs, home affiliate programs, beauty &amp; wellness affiliate programs, affiliate marketing, commission rates, affiliate"><link rel="canonical" href="https://app.hienergy.ai/a/aroundhome-de-hienergy-awin"><meta property="og:site_name" content="Hi Energy AI"><meta property="og:type" content="website"><meta property="og:title" content="Aroundhome DE Affiliate Program | Awin | Commission Rates &amp; Details"><meta property="og:description" content="Aroundhome is a leading German online platform that connects homeowners with verified local service professionals for home improvement and maintenance projects. The platform offers a comprehensive marketplace for services including roofing, heating, solar installation, windows, doors, flooring, bathrooms, kitchens, and garden landscaping. Users can request free, non-binding quotes from pre-vetted professionals in their area, compare offers, and read authentic customer reviews. Aroundhome handles the entire process from initial inquiry to project completion, ensuring quality and reliability. The platform serves as a trusted intermediary that simplifies finding qualified tradespeople while providing professionals with qualified leads. With a focus on transparency and customer satisfaction, Aroundhome has become one of Germany&#39;s most popular home service marketplaces.. Join Aroundhome DE&#39;s affiliate program through Awin. Commission rates, program details, and application process."><meta property="og:url" content="https://app.hienergy.ai/a/aroundhome-de-hienergy-awin"><meta property="og:image" content="https://app.hienergy.ai/branding/hienergy-logo-black.svg"><meta property="og:locale" content="en_US"><meta property="og:updated_time" content="2025-09-04T17:36:42Z"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@HiEnergyAI"><meta name="twitter:title" content="Aroundhome DE Affiliate Program | Awin | Commission Rates &amp; Details"><meta name="twitter:description" content="Aroundhome is a leading German online platform that connects homeowners with verified local service professionals for home improvement and maintenance projects. The platform offers a comprehensive marketplace for services including roofing, heating, solar installation, windows, doors, flooring, bathrooms, kitchens, and garden landscaping. Users can request free, non-binding quotes from pre-vetted professionals in their area, compare offers, and read authentic customer reviews. Aroundhome handles the entire process from initial inquiry to project completion, ensuring quality and reliability. The platform serves as a trusted intermediary that simplifies finding qualified tradespeople while providing professionals with qualified leads. With a focus on transparency and customer satisfaction, Aroundhome has become one of Germany&#39;s most popular home service marketplaces.. Join Aroundhome DE&#39;s affiliate program through Awin. Commission rates, program details, and application process."><meta name="twitter:image" content="https://app.hienergy.ai/branding/hienergy-logo-black.svg"><meta name="twitter:url" content="https://app.hienergy.ai/a/aroundhome-de-hienergy-awin"><meta name="twitter:domain" content="app.hienergy.ai"><meta name="title_limit" content="70"><meta name="description_limit" content="160"><meta name="keywords_limit" content="255"><meta name="robots" content="index, follow"><meta name="image" content="https://app.hienergy.ai/branding/hienergy-logo-black.svg">
+   
+    <meta name="posthog-api-key" content="phc_wBDrn8MMfXbK2gCnn4XGM9ivhL11gd4m7k1QQqDQBS1">
+    <meta name="posthog-api-host" content="https://us.i.posthog.com">
+    <meta name="posthog-person-profiles" content="always">
+
+  
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SCNP690GWB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SCNP690GWB');
+</script>
+
+    <!-- Enhanced structured data for better SEO/AEO -->
+  
+
+
+  
+  
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Hi Energy AI","url":"https://app.hienergy.ai","logo":"https://app.hienergy.ai/branding/hienergy-logo-black.svg","sameAs":["https://x.com/HiEnergyAI"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Hi Energy AI","url":"https://app.hienergy.ai","description":"Hi Energy AI specializes in helping publishers drive more revenue in affiliate marketing","potentialAction":{"@type":"SearchAction","target":"https://app.hienergy.ai/advertisers?search={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://app.hienergy.ai/a/aroundhome-de-hienergy-awin#organization","name":"Aroundhome DE","url":"https://aroundhome.de","description":"Aroundhome is a leading German online platform that connects homeowners with verified local service professionals for home improvement and maintenance projects. The platform offers a comprehensive marketplace for services including roofing, heating, solar installation, windows, doors, flooring, bathrooms, kitchens, and garden landscaping. Users can request free, non-binding quotes from pre-vetted professionals in their area, compare offers, and read authentic customer reviews. Aroundhome handles the entire process from initial inquiry to project completion, ensuring quality and reliability. The platform serves as a trusted intermediary that simplifies finding qualified tradespeople while providing professionals with qualified leads. With a focus on transparency and customer satisfaction, Aroundhome has become one of Germany's most popular home service marketplaces.","logo":"https://img.logo.dev/aroundhome.de?token=pk_QnDX9l38SVWActiZH_IoWQ","mainEntityOfPage":{"@type":"WebPage","@id":"https://app.hienergy.ai/a/aroundhome-de-hienergy-awin"},"sameAs":["https://aroundhome.de"],"areaServed":[{"@type":"Country","name":"DE"}],"knowsAbout":["home \u0026 garden","solar energy","home","beauty \u0026 wellness"],"dateModified":"2025-09-04T17:36:42Z","address":{"@type":"PostalAddress","addressLocality":"Berlin"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Aroundhome DE Affiliate Program","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Affiliate Marketing Services","description":"Join Aroundhome DE's affiliate program and earn commissions","provider":{"@type":"Organization","name":"Awin","identifier":"68536"}},"availability":"https://schema.org/InStock","validFrom":"2024-08-06T12:55:43Z","category":["home \u0026 garden","solar energy","home","beauty \u0026 wellness"]}]}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I join the Aroundhome DE affiliate program?","acceptedAnswer":{"@type":"Answer","text":"You can join the Aroundhome DE affiliate program through Awin. Click the 'Apply Now' button to start your application process."}},{"@type":"Question","name":"What countries does Aroundhome DE serve?","acceptedAnswer":{"@type":"Answer","text":"Aroundhome DE serves Germany and other countries through their affiliate program."}},{"@type":"Question","name":"What categories does Aroundhome DE operate in?","acceptedAnswer":{"@type":"Answer","text":"Aroundhome DE operates in the following categories: home \u0026 garden, solar energy, home, beauty \u0026 wellness."}},{"@type":"Question","name":"What is Aroundhome DE?","acceptedAnswer":{"@type":"Answer","text":"Aroundhome is a leading German online platform that connects homeowners with verified local service professionals for home improvement and maintenance projects. The platform offers a comprehensive marketplace for services including roofing, heating, solar installation, windows, doors, flooring, bathrooms, kitchens, and garden landscaping. Users can request free, non-binding quotes from pre-vetted professionals in their area, compare offers, and read authentic customer reviews. Aroundhome handles the entire process from initial inquiry to project completion, ensuring quality and reliability. The platform serves as a trusted intermediary that simplifies finding qualified tradespeople while providing professionals with qualified leads. With a focus on transparency and customer satisfaction, Aroundhome has become one of Germany's most popular home service marketplaces. Aroundhome DE offers affiliate marketing opportunities through Awin."}},{"@type":"Question","name":"Where is Aroundhome DE headquartered?","acceptedAnswer":{"@type":"Answer","text":"Aroundhome DE is headquartered in Berlin."}},{"@type":"Question","name":"What are the program details for Aroundhome DE?","acceptedAnswer":{"@type":"Answer","text":"Aroundhome's affiliate program on Awin offers commissions for referring customers who request quotes for home services. Affiliates earn revenue when users complete quote requests through their referral links."}},{"@type":"Question","name":"What is the company history of Aroundhome DE?","acceptedAnswer":{"@type":"Answer","text":"Founded in 2008 as MyHammer, the platform rebranded to Aroundhome in 2021 to reflect its expanded focus beyond just craftsmen services to comprehensive home solutions. The company has grown to become one of Germany's largest online home service marketplaces, connecting millions of homeowners with qualified professionals across various home improvement categories."}},{"@type":"Question","name":"What is the brand vibe of Aroundhome DE?","acceptedAnswer":{"@type":"Answer","text":"Aroundhome DE has a home-focused, service-oriented, trustworthy, home-centric, professional, convenience, efficient, innovative, customer-focused, home improvement expertise, trusted local connections, home improvement marketplace, trusted service connections, local professional network brand vibe."}},{"@type":"Question","name":"What demographics does Aroundhome DE target?","acceptedAnswer":{"@type":"Answer","text":"Aroundhome DE targets the following demographics: homeowners, middle to upper-middle class, urban and suburban families, diy enthusiasts, property managers, property investors, families, middle-aged adults."}},{"@type":"Question","name":"What seasons are important for Aroundhome DE?","acceptedAnswer":{"@type":"Answer","text":"Important seasons for Aroundhome DE include: spring renovation, home improvement season, winter maintenance, winter heating maintenance, spring home renovation, summer garden, winter, winter heating, summer solar installations, summer garden projects, fall home maintenance, winter heating system upgrades, spring home improvement, summer landscaping, fall renovation, winter heating services."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Advertisers","item":"https://app.hienergy.ai/a/search"},{"@type":"ListItem","position":2,"name":"Aroundhome DE","item":"https://app.hienergy.ai/a/aroundhome-de-hienergy-awin"}]}</script>
+
+</head>
+<body data-controller="bootstrap" class="d-flex flex-column min-vh-100"><a href="https://app.hienergy.ai/cdn-cgi/content?id=_hrHOl.yXo3sROFzU.jX0HxrYJRvBLvpNo6w07yaFlc-1792767957.491035-1.2.1.1-1VkE6VdCyyONBNmnOyC95bbkHYr4dDVIuggbILWwIYVCZITmikW.cN0cvONyPHCs" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 py-lg-3 fixed-top shadow"
+     role="navigation"
+     aria-label="Main navigation">
+  <div class="container-fluid px-2 px-lg-4">
+    <a class="navbar-brand p-0 d-flex align-items-center" href="/" aria-label="Hi Energy - Home">
+      <img height="44" width="86" class="d-inline-block" alt="Hi Energy Logo" loading="eager" fetchpriority="high" decoding="async" src="/branding/hienergy-logo-black.svg" />
+    </a>
+
+    <div class="ms-auto unauth-auth-actions">
+        <a class="btn btn-google-outline btn-auth-pill" data-turbo="false" role="button" aria-label="Sign in to Hi Energy" href="/sign_in">Sign In</a>
+    </div>
+  </div>
+</nav>
+
+  </header>
+  <main class="flex-grow-1">
+    <div class="container-xxl px-3 px-lg-4 layout-main-container">
+      <div id="flash" class="flash-container layout-flash-container">
+        
+      </div>
+
+      
+
+
+<div class="advertiser-show-header mb-4 rounded-4 bg-white shadow-sm p-3 p-md-4">
+  <nav aria-label="breadcrumb" class="mb-3 py-2">
+    <ol class="breadcrumb mb-0 text-sm-75 text-body-secondary">
+
+        <li class="breadcrumb-item " >
+            <a class="link-secondary text-decoration-none d-inline-flex align-items-center gap-1" href="/">
+                <i class="bi bi-house" aria-hidden="true"></i>
+                <span class="visually-hidden">Home</span>
+</a>        </li>
+
+        <li class="breadcrumb-item " >
+            <a class="link-secondary text-decoration-none d-inline-flex align-items-center gap-1" href="/a/search">
+                <span class="d-none d-sm-inline">Advertisers</span>
+                <span class="d-inline d-sm-none">Advertisers</span>
+</a>        </li>
+
+        <li class="breadcrumb-item active" aria-current="page">
+            <span class="text-body-secondary d-inline-flex align-items-center gap-1">
+                <span class="d-none d-sm-inline">Aroundhome</span>
+                <span class="d-inline d-sm-none">Aroundhome</span>
+            </span>
+        </li>
+    </ol>
+  </nav>
+  <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3">
+    <div class="d-flex align-items-stretch gap-3 flex-grow-1 min-w-0 page-header__identity">
+        <div class="page-header__avatar bg-white shadow-sm rounded-4 d-flex align-items-center justify-content-center flex-shrink-0 overflow-hidden">
+            <img alt="Aroundhome DE logo" loading="eager" fetchpriority="high" decoding="async" src="https://img.logo.dev/aroundhome.de?token=pk_QnDX9l38SVWActiZH_IoWQ&amp;size=300&amp;format=png&amp;retina=true" />
+        </div>
+
+      <div class="flex-grow-1 min-w-0 page-header__copy">
+        <h1 class="page-header__title mb-1 text-break lh-sm" id="page-title">Aroundhome</h1>
+
+
+          <div class="small text-body-secondary text-break">
+                          <span class="d-none d-sm-inline">Aroundhome DE · Awin · CID 68536</span>
+            <span class="d-inline d-sm-none">Aroundhome DE · Awin · CID 68536</span>
+
+          </div>
+
+
+          <div class="d-flex flex-wrap gap-2 mt-2">
+
+                <span class="small text-body-secondary d-inline-flex align-items-center gap-1">
+                    <i class="bi bi-tag me-1" aria-hidden="true"></i>
+                  home &amp; garden
+                </span>
+
+                <span class="small text-body-secondary d-inline-flex align-items-center gap-1">
+                    <i class="bi bi-geo-alt me-1" aria-hidden="true"></i>
+                  Berlin
+                </span>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<article class="advertiser-profile pb-4 pb-md-5" itemscope itemtype="https://schema.org/Organization">
+
+  <section class="advertiser-keyfacts mb-4" aria-label="Key facts">
+    <div class="row g-3">
+
+      <div class="col-6 col-lg-3">
+        <div class="keyfact-tile h-100 rounded-4 p-3 p-md-4">
+          <div class="keyfact-label text-body-secondary text-uppercase fw-semibold small">Network</div>
+          <div class="keyfact-value fw-bold lh-1 mt-1 text-truncate">Awin</div>
+          <div class="small text-body-secondary mt-1">CID 68536</div>
+        </div>
+      </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="keyfact-tile h-100 rounded-4 p-3 p-md-4">
+            <div class="keyfact-label text-body-secondary text-uppercase fw-semibold small">Countries</div>
+            <div class="keyfact-value fw-bold lh-1 mt-1">1</div>
+            <div class="small text-body-secondary mt-1 text-truncate">
+              Germany
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+
+  <div class="row g-4">
+    <div class="col-12 col-lg-7">
+      <div class="advertiser-card rounded-4 bg-white border p-3 p-md-4 h-100">
+          <section class="advertiser-section mb-4" aria-labelledby="section-about">
+            <h2 id="section-about" class="advertiser-section-title h5 fw-semibold mb-2">About Aroundhome DE</h2>
+            <p class="mb-0 text-body lh-base" itemprop="description">Aroundhome is a leading German online platform that connects homeowners with verified local service professionals for home improvement and maintenance projects. The platform offers a comprehensive marketplace for services including roofing, heating, solar installation, windows, doors, flooring, bathrooms, kitchens, and garden landscaping. Users can request free, non-binding quotes from pre-vetted professionals in their area, compare offers, and read authentic customer reviews. Aroundhome handles the entire process from initial inquiry to project completion, ensuring quality and reliability. The platform serves as a trusted intermediary that simplifies finding qualified tradespeople while providing professionals with qualified leads. With a focus on transparency and customer satisfaction, Aroundhome has become one of Germany&#39;s most popular home service marketplaces.</p>
+          </section>
+
+          <section class="advertiser-section mb-4" aria-labelledby="section-program">
+            <h2 id="section-program" class="advertiser-section-title h5 fw-semibold mb-2">Program details</h2>
+            <p class="mb-0 text-body lh-base">Aroundhome&#39;s affiliate program on Awin offers commissions for referring customers who request quotes for home services. Affiliates earn revenue when users complete quote requests through their referral links.</p>
+          </section>
+
+          <section class="advertiser-section mb-4" aria-labelledby="section-history">
+            <h2 id="section-history" class="advertiser-section-title h5 fw-semibold mb-2">Company history</h2>
+            <p class="mb-0 text-body lh-base">Founded in 2008 as MyHammer, the platform rebranded to Aroundhome in 2021 to reflect its expanded focus beyond just craftsmen services to comprehensive home solutions. The company has grown to become one of Germany&#39;s largest online home service marketplaces, connecting millions of homeowners with qualified professionals across various home improvement categories.</p>
+          </section>
+
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-5">
+      <div class="advertiser-card rounded-4 bg-white border p-3 p-md-4 h-100">
+          <section class="advertiser-section mb-4" aria-labelledby="section-countries">
+            <h2 id="section-countries" class="advertiser-section-title h5 fw-semibold mb-2">Available in</h2>
+            <div class="ratio ratio-16x9 mb-2 bg-body-tertiary rounded-3 overflow-hidden">
+              <div data-controller="world-map" data-world-map-colored-countries-value="[276]" style="width: 100%; height: 100%;">
+  <svg
+    data-world-map-target="svg"
+    width="100%"
+    height="100%"
+    viewBox="0 0 1000 500"
+    preserveAspectRatio="xMidYMid meet">
+  </svg>
+</div>
+
+            </div>
+            <p class="text-body-secondary small mb-0">
+              Germany
+            </p>
+          </section>
+
+          <section class="advertiser-section mb-4" aria-labelledby="section-verticals">
+            <h2 id="section-verticals" class="advertiser-section-title h5 fw-semibold mb-2">Industry categories</h2>
+            <div class="d-flex flex-wrap gap-2" itemprop="knowsAbout">
+                <a class="advertiser-tag-pill" rel="tag" aria-label="View home &amp; garden affiliate programs" href="/tags/1808939">home &amp; garden</a>
+                <a class="advertiser-tag-pill" rel="tag" aria-label="View solar energy affiliate programs" href="/tags/2854">solar energy</a>
+                <a class="advertiser-tag-pill" rel="tag" aria-label="View home affiliate programs" href="/tags/682">home</a>
+                <a class="advertiser-tag-pill" rel="tag" aria-label="View beauty &amp; wellness affiliate programs" href="/tags/1808790">beauty &amp; wellness</a>
+            </div>
+          </section>
+
+          <section class="advertiser-section mb-4" aria-labelledby="section-vibes">
+            <h2 id="section-vibes" class="advertiser-section-title h5 fw-semibold mb-2">Vibes</h2>
+            <div class="d-flex flex-wrap gap-2">
+                <a class="advertiser-tag-pill" href="/tags/1786508">home-focused</a>
+                <a class="advertiser-tag-pill" href="/tags/1786509">service-oriented</a>
+                <a class="advertiser-tag-pill" href="/tags/1722401">trustworthy</a>
+                <a class="advertiser-tag-pill" href="/tags/1742549">home-centric</a>
+                <a class="advertiser-tag-pill" href="/tags/101115">professional</a>
+                <a class="advertiser-tag-pill" href="/tags/6739">convenience</a>
+                <a class="advertiser-tag-pill" href="/tags/1810351">efficient</a>
+                <a class="advertiser-tag-pill" href="/tags/1722422">innovative</a>
+                <a class="advertiser-tag-pill" href="/tags/1810260">customer-focused</a>
+                <a class="advertiser-tag-pill" href="/tags/1893033">home improvement expertise</a>
+                <a class="advertiser-tag-pill" href="/tags/1896715">trusted local connections</a>
+                <a class="advertiser-tag-pill" href="/tags/1964892">home improvement marketplace</a>
+                <a class="advertiser-tag-pill" href="/tags/1940881">trusted service connections</a>
+                <a class="advertiser-tag-pill" href="/tags/1964893">local professional network</a>
+            </div>
+          </section>
+
+          <section class="advertiser-section mb-4" aria-labelledby="section-demographics">
+            <h2 id="section-demographics" class="advertiser-section-title h5 fw-semibold mb-2">Demographics</h2>
+            <div class="d-flex flex-wrap gap-2">
+                <a class="advertiser-tag-pill" href="/tags/1826768">homeowners</a>
+                <a class="advertiser-tag-pill" href="/tags/1743175">middle to upper-middle class</a>
+                <a class="advertiser-tag-pill" href="/tags/1759951">urban and suburban families</a>
+                <a class="advertiser-tag-pill" href="/tags/1741505">diy enthusiasts</a>
+                <a class="advertiser-tag-pill" href="/tags/1742507">property managers</a>
+                <a class="advertiser-tag-pill" href="/tags/1746735">property investors</a>
+                <a class="advertiser-tag-pill" href="/tags/1741550">families</a>
+                <a class="advertiser-tag-pill" href="/tags/1742462">middle-aged adults</a>
+            </div>
+          </section>
+
+          <section class="advertiser-section mb-4" aria-labelledby="section-seasons">
+            <h2 id="section-seasons" class="advertiser-section-title h5 fw-semibold mb-2">Seasons</h2>
+            <div class="d-flex flex-wrap gap-2">
+                <a class="advertiser-tag-pill" href="/tags/1810241">spring renovation</a>
+                <a class="advertiser-tag-pill" href="/tags/1743661">home improvement season</a>
+                <a class="advertiser-tag-pill" href="/tags/1744326">winter maintenance</a>
+                <a class="advertiser-tag-pill" href="/tags/1808897">winter heating maintenance</a>
+                <a class="advertiser-tag-pill" href="/tags/1779050">spring home renovation</a>
+                <a class="advertiser-tag-pill" href="/tags/1746980">summer garden</a>
+                <a class="advertiser-tag-pill" href="/tags/1741489">winter</a>
+                <a class="advertiser-tag-pill" href="/tags/1743829">winter heating</a>
+                <a class="advertiser-tag-pill" href="/tags/1889196">summer solar installations</a>
+                <a class="advertiser-tag-pill" href="/tags/1830736">summer garden projects</a>
+                <a class="advertiser-tag-pill" href="/tags/1792454">fall home maintenance</a>
+                <a class="advertiser-tag-pill" href="/tags/1921277">winter heating system upgrades</a>
+                <a class="advertiser-tag-pill" href="/tags/1753454">spring home improvement</a>
+                <a class="advertiser-tag-pill" href="/tags/1811192">summer landscaping</a>
+                <a class="advertiser-tag-pill" href="/tags/1911794">fall renovation</a>
+                <a class="advertiser-tag-pill" href="/tags/1885890">winter heating services</a>
+            </div>
+          </section>
+
+      </div>
+    </div>
+  </div>
+
+
+    <section class="advertiser-faq mt-5" aria-labelledby="faq-heading">
+      <div class="d-flex align-items-baseline justify-content-between flex-wrap gap-2 mb-3">
+        <h2 id="faq-heading" class="h4 fw-semibold mb-0">Frequently asked questions</h2>
+        <span class="small text-body-secondary">Quick answers about the Aroundhome DE affiliate program.</span>
+      </div>
+      <div class="accordion accordion-flush rounded-4 border bg-white overflow-hidden" id="advertiserFAQ">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    How do I join the Aroundhome DE affiliate program?
+                  </button>
+                </h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    You can join the Aroundhome DE affiliate program through Awin. Click the "Apply Now" button above to start your application process.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    What countries does Aroundhome DE serve?
+                  </button>
+                </h3>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Aroundhome DE serves Germany and other countries through their affiliate program.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    What categories does Aroundhome DE operate in?
+                  </button>
+                </h3>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Aroundhome DE operates in the following categories: home &amp; garden, solar energy, home, beauty &amp; wellness.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                    What is Aroundhome DE?
+                  </button>
+                </h3>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Aroundhome is a leading German online platform that connects homeowners with verified local service professionals for home improvement and maintenance projects. The platform offers a comprehensive marketplace for services including roofing, heating, solar installation, windows, doors, flooring, bathrooms, kitchens, and garden landscaping. Users can request free, non-binding quotes from pre-vetted professionals in their area, compare offers, and read authentic customer reviews. Aroundhome handles the entire process from initial inquiry to project completion, ensuring quality and reliability. The platform serves as a trusted intermediary that simplifies finding qualified tradespeople while providing professionals with qualified leads. With a focus on transparency and customer satisfaction, Aroundhome has become one of Germany&#39;s most popular home service marketplaces. Aroundhome DE offers affiliate marketing opportunities through Awin.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                    Where is Aroundhome DE headquartered?
+                  </button>
+                </h3>
+                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Aroundhome DE is headquartered in <strong>Berlin</strong>.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                    What are the program details for Aroundhome DE?
+                  </button>
+                </h3>
+                <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Aroundhome&#39;s affiliate program on Awin offers commissions for referring customers who request quotes for home services. Affiliates earn revenue when users complete quote requests through their referral links.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                    What is the company history of Aroundhome DE?
+                  </button>
+                </h3>
+                <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Founded in 2008 as MyHammer, the platform rebranded to Aroundhome in 2021 to reflect its expanded focus beyond just craftsmen services to comprehensive home solutions. The company has grown to become one of Germany&#39;s largest online home service marketplaces, connecting millions of homeowners with qualified professionals across various home improvement categories.
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10">
+                    What is the brand vibe of Aroundhome DE?
+                  </button>
+                </h3>
+                <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Aroundhome DE has a <strong>home-focused, service-oriented, trustworthy, home-centric, professional, convenience, efficient, innovative, customer-focused, home improvement expertise, trusted local connections, home improvement marketplace, trusted service connections, local professional network</strong> brand vibe.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq11">
+                    What demographics does Aroundhome DE target?
+                  </button>
+                </h3>
+                <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Aroundhome DE targets the following demographics: <strong>homeowners, middle to upper-middle class, urban and suburban families, diy enthusiasts, property managers, property investors, families, middle-aged adults</strong>.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq12">
+                    What seasons are important for Aroundhome DE?
+                  </button>
+                </h3>
+                <div id="faq12" class="accordion-collapse collapse" data-bs-parent="#advertiserFAQ">
+                  <div class="accordion-body">
+                    Important seasons for Aroundhome DE include: <strong>spring renovation, home improvement season, winter maintenance, winter heating maintenance, spring home renovation, summer garden, winter, winter heating, summer solar installations, summer garden projects, fall home maintenance, winter heating system upgrades, spring home improvement, summer landscaping, fall renovation, winter heating services</strong>.
+                  </div>
+                </div>
+              </div>
+
+
+
+      </div>
+    </section>
+
+  <section class="advertiser-related mt-5" aria-label="Related and similar advertisers">
+    <div class="advertiser-relationship-sections d-flex flex-column gap-4">
+    <turbo-frame loading="lazy" id="advertiser_relationship_related_355635" src="/a/aroundhome-de-hienergy-awin/related_advertisers?section=related">
+      
+<div class="loading-state loading-state--block d-flex flex-column align-items-center justify-content-center text-body-tertiary py-5 px-3" role="status" aria-live="polite">
+  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+    <span class="loading-state-label small">Loading related advertisers…</span>
+</div>
+
+</turbo-frame>    <turbo-frame loading="lazy" id="advertiser_relationship_verticals_355635" src="/a/aroundhome-de-hienergy-awin/related_advertisers?section=verticals">
+      
+<div class="loading-state loading-state--block d-flex flex-column align-items-center justify-content-center text-body-tertiary py-5 px-3" role="status" aria-live="polite">
+  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+    <span class="loading-state-label small">Loading similar verticals…</span>
+</div>
+
+</turbo-frame>    <turbo-frame loading="lazy" id="advertiser_relationship_vibes_355635" src="/a/aroundhome-de-hienergy-awin/related_advertisers?section=vibes">
+      
+<div class="loading-state loading-state--block d-flex flex-column align-items-center justify-content-center text-body-tertiary py-5 px-3" role="status" aria-live="polite">
+  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+    <span class="loading-state-label small">Loading similar vibes…</span>
+</div>
+
+</turbo-frame>    <turbo-frame loading="lazy" id="advertiser_relationship_demographics_355635" src="/a/aroundhome-de-hienergy-awin/related_advertisers?section=demographics">
+      
+<div class="loading-state loading-state--block d-flex flex-column align-items-center justify-content-center text-body-tertiary py-5 px-3" role="status" aria-live="polite">
+  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+    <span class="loading-state-label small">Loading similar demographics…</span>
+</div>
+
+</turbo-frame>    <turbo-frame loading="lazy" id="advertiser_relationship_countries_355635" src="/a/aroundhome-de-hienergy-awin/related_advertisers?section=countries">
+      
+<div class="loading-state loading-state--block d-flex flex-column align-items-center justify-content-center text-body-tertiary py-5 px-3" role="status" aria-live="polite">
+  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+    <span class="loading-state-label small">Loading similar countries…</span>
+</div>
+
+</turbo-frame></div>
+
+  </section>
+
+</article>
+
+    </div>
+  </main>
+
+  
+
+
+    <footer class="footer-gradient text-white py-2 py-md-3 footer-condensed">
+  <div class="container px-3 px-sm-4 px-lg-3">
+    <div class="row row-cols-1 row-cols-lg-2 row-cols-xxl-3 g-2 g-lg-3 mb-2 align-items-stretch footer-promo-grid">
+      <div class="col d-flex min-w-0">
+        <div class="card extension-promo-card h-100" aria-label="Claude connector promotion">
+  <div class="card-body p-3 p-lg-4 text-start d-flex flex-column">
+    <div class="d-inline-flex align-items-center gap-2 mb-3 flex-wrap">
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-primary">
+            <i class="bi bi-robot me-1" aria-hidden="true"></i>
+          Claude connector
+        </span>
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-ghost">
+          One-click setup
+        </span>
+    </div>
+
+    <div class="row g-3 align-items-stretch flex-grow-1">
+      <div class="col-12 d-flex flex-column">
+        <h3 class="card-title mb-3 fw-bold footer-promo-title">Add the Hi Energy Claude connector</h3>
+        <p class="card-text mb-3 footer-promo-copy">Ask Claude about advertisers, deals, contacts, and reports — install from the Claude directory with Auth0 sign-in.</p>
+      </div>
+
+      <div class="col-12 d-flex">
+        <div class="extension-promo-features text-start footer-promo-features w-100">
+            <div class="extension-promo-feature">
+              <i class="bi bi-chat-dots" aria-hidden="true"></i>
+              <span>Ask Claude about your affiliate data</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+              <span>Install from the Claude directory</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-shield-lock" aria-hidden="true"></i>
+              <span>Auth0 sign-in with account-scoped access</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-grid gap-2 footer-promo-actions mt-auto pt-3">
+      <a class="btn btn-primary px-4 py-3 fw-semibold extension-promo-cta d-inline-flex align-items-center justify-content-center gap-2" target="_blank" rel="noopener noreferrer" data-testid="claude-promo-connector" href="https://claude.ai/directory/connectors/hi-energy">Add Claude connector</a>
+
+      <a class="btn btn-outline-secondary px-4 py-3 fw-medium d-inline-flex align-items-center justify-content-center gap-2" href="https://app.hienergy.ai/api_documentation/mcp">MCP setup guide</a>
+
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      <div class="col d-flex min-w-0">
+        <div class="card extension-promo-card h-100" aria-label="MCP Server promotion">
+  <div class="card-body p-3 p-lg-4 text-start d-flex flex-column">
+    <div class="d-inline-flex align-items-center gap-2 mb-3 flex-wrap">
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-primary">
+            <i class="bi bi-hdd-network me-1" aria-hidden="true"></i>
+          MCP Server
+        </span>
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-ghost">
+          Agent ready
+        </span>
+    </div>
+
+    <div class="row g-3 align-items-stretch flex-grow-1">
+      <div class="col-12 d-flex flex-column">
+        <h3 class="card-title mb-3 fw-bold footer-promo-title">Connect agents to the MCP server</h3>
+        <p class="card-text mb-3 footer-promo-copy">Let MCP clients search advertisers, inspect deals, pull reports, and use the same tool catalog with account-scoped auth.</p>
+      </div>
+
+      <div class="col-12 d-flex">
+        <div class="extension-promo-features text-start footer-promo-features w-100">
+            <div class="extension-promo-feature">
+              <i class="bi bi-tools" aria-hidden="true"></i>
+              <span>Named MCP tools instead of raw API stitching</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-bar-chart-line" aria-hidden="true"></i>
+              <span>Report catalog metadata for agents</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-shield-check" aria-hidden="true"></i>
+              <span>Same account-scoped API access</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-grid gap-2 footer-promo-actions mt-auto pt-3">
+      <a class="btn btn-primary px-4 py-3 fw-semibold extension-promo-cta d-inline-flex align-items-center justify-content-center gap-2" data-testid="mcp-promo-docs" href="https://app.hienergy.ai/api_documentation/mcp">Explore MCP Server</a>
+
+      <a class="btn btn-outline-secondary px-4 py-3 fw-medium d-inline-flex align-items-center justify-content-center gap-2" href="https://app.hienergy.ai/api_documentation/api_key">Get API key</a>
+
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      <div class="col d-flex min-w-0">
+        <div class="card extension-promo-card h-100" aria-label="API promotion">
+  <div class="card-body p-3 p-lg-4 text-start d-flex flex-column">
+    <div class="d-inline-flex align-items-center gap-2 mb-3 flex-wrap">
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-primary">
+            <i class="bi bi-code-slash me-1" aria-hidden="true"></i>
+          API access
+        </span>
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-ghost">
+          Developer ready
+        </span>
+    </div>
+
+    <div class="row g-3 align-items-stretch flex-grow-1">
+      <div class="col-12 d-flex flex-column">
+        <h3 class="card-title mb-3 fw-bold footer-promo-title">Build with the Hi Energy API</h3>
+        <p class="card-text mb-3 footer-promo-copy">Query advertisers, opportunities, contacts, and deals with clean endpoints for apps, agents, and automations.</p>
+      </div>
+
+      <div class="col-12 d-flex">
+        <div class="extension-promo-features text-start footer-promo-features w-100">
+            <div class="extension-promo-feature">
+              <i class="bi bi-search" aria-hidden="true"></i>
+              <span>Search advertisers and opportunities fast</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-diagram-3" aria-hidden="true"></i>
+              <span>Find similar and related advertisers</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-tools" aria-hidden="true"></i>
+              <span>Power your own tools and workflows</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-grid gap-2 footer-promo-actions mt-auto pt-3">
+      <a class="btn btn-primary px-4 py-3 fw-semibold extension-promo-cta d-inline-flex align-items-center justify-content-center gap-2" data-testid="api-promo-docs" href="https://app.hienergy.ai/api_documentation">View API docs</a>
+
+      <a class="btn btn-outline-secondary px-4 py-3 fw-medium d-inline-flex align-items-center justify-content-center gap-2" href="https://app.hienergy.ai/api_documentation/api_key">Get API key</a>
+
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      <div class="col d-flex min-w-0">
+        <div class="card extension-promo-card h-100" aria-label="OpenClaw skill promotion">
+  <div class="card-body p-3 p-lg-4 text-start d-flex flex-column">
+    <div class="d-inline-flex align-items-center gap-2 mb-3 flex-wrap">
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-primary">
+          OpenClaw Skill
+        </span>
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-ghost">
+          Instant insights
+        </span>
+    </div>
+
+    <div class="row g-3 align-items-stretch flex-grow-1">
+      <div class="col-12 d-flex flex-column">
+        <h3 class="card-title mb-3 fw-bold footer-promo-title">Add the Hi Energy OpenClaw Skill</h3>
+        <p class="card-text mb-3 footer-promo-copy">Ask natural-language questions and get advertiser intelligence, deals, and contacts from live API data.</p>
+      </div>
+
+      <div class="col-12 d-flex">
+        <div class="extension-promo-features text-start footer-promo-features w-100">
+            <div class="extension-promo-feature">
+              <i class="bi bi-graph-up-arrow" aria-hidden="true"></i>
+              <span>Compare advertiser opportunities instantly</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-tags" aria-hidden="true"></i>
+              <span>Find similar and related advertisers fast</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-person-lines-fill" aria-hidden="true"></i>
+              <span>Surface deals and contacts while you research</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-grid gap-2 footer-promo-actions mt-auto pt-3">
+      <a class="btn btn-primary px-4 py-3 fw-semibold extension-promo-cta d-inline-flex align-items-center justify-content-center gap-2" href="https://app.hienergy.ai/api_documentation/openclaw">Explore OpenClaw Skill</a>
+
+      <a class="btn btn-outline-secondary px-4 py-3 fw-medium d-inline-flex align-items-center justify-content-center gap-2" href="https://app.hienergy.ai/api_documentation/api_key">API key setup</a>
+
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      <div class="col d-flex min-w-0">
+        <div class="card extension-promo-card h-100" aria-label="Chrome extension promotion">
+  <div class="card-body p-3 p-lg-4 text-start d-flex flex-column">
+    <div class="d-inline-flex align-items-center gap-2 mb-3 flex-wrap">
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-primary">
+            <i class="bi bi-browser-chrome me-1" aria-hidden="true"></i>
+          Free extension
+        </span>
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-ghost">
+            <i class="bi bi-lightning-charge-fill me-1" aria-hidden="true"></i>
+          Instant insights
+        </span>
+    </div>
+
+    <div class="row g-3 align-items-stretch flex-grow-1">
+      <div class="col-12 d-flex flex-column">
+        <h3 class="card-title mb-3 fw-bold footer-promo-title">Get our free Chrome extension</h3>
+        <p class="card-text mb-3 footer-promo-copy">Detect affiliate programs as you browse — commission rates, program status, and opportunities on any site.</p>
+      </div>
+
+      <div class="col-12 d-flex">
+        <div class="extension-promo-features text-start footer-promo-features w-100">
+            <div class="extension-promo-feature">
+              <i class="bi bi-graph-up-arrow" aria-hidden="true"></i>
+              <span>See commission rates instantly</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-shield-check" aria-hidden="true"></i>
+              <span>Know program status at a glance</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-stars" aria-hidden="true"></i>
+              <span>Discover affiliate opportunities</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-grid gap-2 footer-promo-actions mt-auto pt-3">
+      <a class="btn btn-primary px-4 py-3 fw-semibold extension-promo-cta d-inline-flex align-items-center justify-content-center gap-2" target="_blank" rel="noopener noreferrer" href="https://chromewebstore.google.com/detail/ckilomnbielchallccjmgomchhkjccdf?utm_source=item-share-cb">Download now</a>
+
+      <a class="btn btn-outline-secondary px-4 py-3 fw-medium d-inline-flex align-items-center justify-content-center gap-2" target="_blank" rel="noopener noreferrer" href="https://chromewebstore.google.com/detail/ckilomnbielchallccjmgomchhkjccdf?utm_source=item-share-cb">Chrome Web Store</a>
+
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      <div class="col d-flex min-w-0">
+        <div class="card extension-promo-card h-100" aria-label="Pulse placements promotion">
+  <div class="card-body p-3 p-lg-4 text-start d-flex flex-column">
+    <div class="d-inline-flex align-items-center gap-2 mb-3 flex-wrap">
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-primary">
+            <i class="bi bi-broadcast me-1" aria-hidden="true"></i>
+          Pulse
+        </span>
+        <span class="badge rounded-pill promo-card-badge promo-card-badge-ghost">
+          Live inventory
+        </span>
+    </div>
+
+    <div class="row g-3 align-items-stretch flex-grow-1">
+      <div class="col-12 d-flex flex-column">
+        <h3 class="card-title mb-3 fw-bold footer-promo-title">Browse live placements in Pulse</h3>
+        <p class="card-text mb-3 footer-promo-copy">Explore media inventory with pricing built in — find placements you can act on without waiting on a deck.</p>
+      </div>
+
+      <div class="col-12 d-flex">
+        <div class="extension-promo-features text-start footer-promo-features w-100">
+            <div class="extension-promo-feature">
+              <i class="bi bi-currency-dollar" aria-hidden="true"></i>
+              <span>See pricing on live placements</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-lightning-charge" aria-hidden="true"></i>
+              <span>Move from shortlist to outreach fast</span>
+            </div>
+            <div class="extension-promo-feature">
+              <i class="bi bi-people" aria-hidden="true"></i>
+              <span>Match inventory to publisher fit</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-grid gap-2 footer-promo-actions mt-auto pt-3">
+      <a class="btn btn-primary px-4 py-3 fw-semibold extension-promo-cta d-inline-flex align-items-center justify-content-center gap-2" target="_blank" rel="noopener noreferrer" data-testid="pulse-promo-browse" href="https://www.hienergy.ai/placement-pulse">Browse Pulse</a>
+
+      <a class="btn btn-outline-secondary px-4 py-3 fw-medium d-inline-flex align-items-center justify-content-center gap-2" target="_blank" rel="noopener noreferrer" href="https://www.hienergy.ai/book-demo">Book a demo</a>
+
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+
+    <section class="footer-section footer-articles-section" aria-labelledby="recent-articles-heading">
+      <h2 id="recent-articles-heading" class="footer-column-heading mb-3">Recent articles</h2>
+      <turbo-frame loading="lazy" id="footer_recent_articles" src="/articles/recent" target="_top">
+        
+<div class="loading-state loading-state--block d-flex flex-column align-items-center justify-content-center text-body-tertiary py-5 px-3" role="status" aria-live="polite">
+  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+    <span class="loading-state-label small">Loading articles…</span>
+</div>
+
+</turbo-frame>    </section>
+
+
+
+    <section class="footer-section footer-legal-shell" aria-label="About and resources">
+    <div class="row g-3 g-md-4 footer-legal-panel footer-legal-cols">
+      <!-- About Section -->
+      <div class="col-sm-6 col-lg-3">
+        <h6 class="footer-column-heading">About Us</h6>
+        <p class="text-white-50 mb-0 lh-base footer-about-text">
+           Hi Energy specializes in helping publishers drive more revenue in affiliate marketing. Our proprietary platform, paired with 30+ years of experience, connects you with top advertisers in the affiliate industry.
+        </p>
+      </div>
+
+      <!-- Resources Section -->
+      <div class="col-sm-6 col-lg-3">
+        <h6 class="footer-column-heading">Resources</h6>
+        <ul class="list-unstyled mb-0 footer-resources-list">
+            <li>
+              <a class="text-white-50 text-decoration-none d-block footer-link" href="https://app.hienergy.ai/pricing">Hi Energy Pro Subscription</a>
+            </li>
+          <li>
+            <a class="text-white-50 text-decoration-none d-block footer-link" href="https://app.hienergy.ai/api_documentation">API Documentation</a>
+          </li>
+          <li>
+            <a class="text-white-50 text-decoration-none d-block footer-link" href="https://app.hienergy.ai/articles">Articles</a>
+          </li>
+          <li>
+            <a class="text-white-50 text-decoration-none d-block footer-link" href="https://app.hienergy.ai/release_notes">Release notes</a>
+          </li>
+          <li>
+            <a class="text-white-50 text-decoration-none d-block footer-link" href="https://app.hienergy.ai/network_coverage">Network coverage</a>
+          </li>
+          <li>
+            <a href="https://www.hienergyagency.com" class="text-white-50 text-decoration-none d-block footer-link" target="_blank" rel="noopener noreferrer">
+              Agency Website
+            </a>
+          </li>
+          <li>
+            <a href="https://hienergyrocket.frontkb.com/en" class="text-white-50 text-decoration-none d-block footer-link" target="_blank" rel="noopener noreferrer">
+              Help Center
+            </a>
+          </li>
+          <li>
+            <a class="text-white-50 text-decoration-none d-block footer-link" href="https://app.hienergy.ai/terms_of_service">Terms of Service</a>
+          </li>
+          <li>
+            <a class="text-white-50 text-decoration-none d-block footer-link" href="https://app.hienergy.ai/privacy_policy">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="https://chromewebstore.google.com/detail/ckilomnbielchallccjmgomchhkjccdf?utm_source=item-share-cb"
+               class="text-white-50 text-decoration-none d-block footer-link"
+               target="_blank"
+               rel="noopener noreferrer">
+              Download Extension
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7405350297914552320"
+               class="text-white-50 text-decoration-none d-block footer-link"
+               target="_blank"
+               rel="noopener noreferrer">
+              LinkedIn Newsletter
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/hienergy-rocket-engineering"
+               class="text-white-50 text-decoration-none d-block footer-link"
+               target="_blank"
+               rel="noopener noreferrer">
+              Medium Blog
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="col-sm-6 col-lg-3">
+        <h6 class="footer-column-heading">Contact</h6>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a target="_blank" class="text-white-50 text-decoration-none d-flex align-items-start align-items-sm-center footer-link w-100" rel="noopener noreferrer" href="https://calendly.com/dexter-gpta/30min">
+              <i class="bi bi-calendar-plus me-2 flex-shrink-0 mt-1 mt-sm-0" aria-hidden="true"></i>
+              <span class="min-w-0">Schedule with Dexter</span>
+</a>          </li>
+          <li>
+            <a class="text-white-50 text-decoration-none d-flex align-items-start align-items-sm-center footer-link w-100" data-intercom-trigger="true" href="#">
+              <i class="bi bi-chat-left-text me-2 flex-shrink-0 mt-1 mt-sm-0" aria-hidden="true"></i>
+              <span class="min-w-0">Provide Feedback</span>
+</a>          </li>
+        </ul>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="col-sm-6 col-lg-3">
+        <h6 class="footer-column-heading">Connect</h6>
+        <div class="d-flex flex-wrap gap-2 justify-content-sm-start">
+          <a href="https://calendly.com/dexter-gpta/30min" class="text-white-50 text-decoration-none d-flex align-items-center justify-content-center footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Schedule a Meeting">
+            <i class="bi bi-calendar-plus fs-6" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/hi-energy-agency" class="text-white-50 text-decoration-none d-flex align-items-center justify-content-center footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn">
+            <i class="bi bi-linkedin fs-6" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/flyptkarsh" class="text-white-50 text-decoration-none d-flex align-items-center justify-content-center footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Visit our GitHub">
+            <i class="bi bi-github fs-6" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <div class="footer-bottom-bar">
+      <div class="d-flex flex-column align-items-center gap-3">
+          <a target="_blank" rel="noopener noreferrer" class="text-white-50 text-decoration-none small footer-link d-inline-flex align-items-center gap-1" href="https://app.hienergy.ai/slack/install">
+            <i class="bi bi-slack" aria-hidden="true"></i>
+            <span>Add Hi Energy to Slack</span>
+</a>        <img alt="Hi Energy logo" class="footer-brand-mark footer-brand-mark-compact img-fluid" width="160" height="48" loading="lazy" decoding="async" src="/branding/hienergy-logo-white.svg" />
+        <div class="footer-copyright-row text-center">
+          <a class="text-white-50 text-decoration-none footer-link" href="https://app.hienergy.ai/">
+            © 2026 Hi Energy
+</a>        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script>
+    // GIS reads `data-moment_callback` by name and expects a global function.
+    // Ensure it exists even if the module bundle hasn't executed yet.
+    window.googleOneTapMoment ||= function() {};
+  </script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <div id="g_id_onload"
+       data-client_id="339521991189-m3dbog6l5299d9uk19u40fklohaurnpf.apps.googleusercontent.com"
+       data-login_uri="https://app.hienergy.ai/auth/google_one_tap"
+       data-auto_prompt="true"
+       data-auto_select="false"
+       data-cancel_on_tap_outside="false"
+       data-moment_callback="googleOneTapMoment"
+       data-itp_support="true"
+       data-use_fedcm_for_prompt="false">
+  </div>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4f1a4964d5589d4',t:'MTc5Mjc2Nzk1Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

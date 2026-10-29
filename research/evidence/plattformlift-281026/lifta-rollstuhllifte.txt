@@ -1,0 +1,693 @@
+{
+this.isMainNavigationOpen = !this.isMainNavigationOpen;
+}, delay);
+}
+if (navigationFlag === 'isContactNavigationOpen') {
+this.isMainNavigationOpen = false;
+this.isSearchNavigationOpen = false;
+setTimeout(() => {
+this.isContactNavigationOpen = !this.isContactNavigationOpen;
+}, delay);
+}
+if (navigationFlag === 'isSearchNavigationOpen') {
+this.isMainNavigationOpen = false;
+this.isContactNavigationOpen = false;
+setTimeout(() => {
+this.isSearchNavigationOpen = !this.isSearchNavigationOpen;
+}, delay);
+}
+setTimeout(() => {
+if (this.isMainNavigationOpen || this.isContactNavigationOpen || this.isSearchNavigationOpen) {
+window.documentScrollingStatus = true;
+this.$dispatch('toggle-document-scrolling');
+}
+if (!this.isMainNavigationOpen && !this.isContactNavigationOpen && !this.isSearchNavigationOpen) {
+window.documentScrollingStatus = false;
+this.$dispatch('toggle-document-scrolling');
+}
+}, delay + 50);
+}
+}"
+@resize.window="navigationsHeight = window.innerHeight - menuHeightPx; menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;"
+@close-main-navigation.window="closeNavigation();"
+x-init="
+menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;
+navigationsHeight = window.innerHeight - menuHeightPx;
+/**toggleNavigation('isMainNavigationOpen')**/;
+"
+>
+Treppenlifte
+Hauslifte
+Rollstuhllifte
+0800 20 33 150
+24/7 für Sie da
+Suche
+Menü
+0800 20 33 150
+Jetzt Kontakt aufnehmen
+(24 Std. täglich, kostenlos)
+{ if (value) { $el.style.height = navigationsHeight + 'px'; } else { $el.style.height = '0px'; } });
+$el.style.height = '0px';
+"
+@resize.window="if (isMainNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+Lifta in Ihrer Nähe
+Lifta Index-Studie 2026
+{ $refs.wrapper.scrollLeft = 840 }, 500);
+"
+class="bg-white min-h-full"
+>
+Schließen
+Treppenlifte
+Mehr
+Hauslifte
+Mehr
+Rollstuhllifte
+Mehr
+Liftarten Entscheidungshilfe
+Preise
+Mehr
+Zuschüsse
+Mehr
+Service
+Mehr
+Ratgeber
+Mehr
+Kontakt
+Mehr
+Lifta Index-Studie
+Lifta Magazin
+Zurück
+Schließen
+Alles rund um Treppenlifte
+Unsere Treppenlift-Modelle
+Lifta Avantgarde
+Lifta Luxor
+Lifta Esprit
+Lifta Klassik
+Lifta Außenlifte
+Treppenlifte nach Einbausituationen
+Treppenlifte für gerade Treppen
+Treppenlifte für kurvige Treppen
+Treppenlifte für Wendeltreppen
+Treppenlifte für Podesttreppen
+Treppenlifte für Mehrfamilienhäuser
+Treppenlifte für den Außenbereich
+Alle Hauslifte
+Lifta Midi
+Lifta Maxi
+Alle Rollstuhllifte
+Plattformlifte
+Hublifte
+Rollstuhllifte für öffentliche Gebäude
+Unsere Treppenlift-Preise
+Treppenlift-Preisrechner
+Treppenlift mieten
+Weitere Finanzierungsmöglichkeiten
+Mögliche Treppenlift-Zuschüsse
+KfW-Förderungen 2026
+Treppenlift & Krankenkasse
+Treppenlift von der Steuer absetzen
+Alle Lifta Serviceleistungen
+Unverbindliche Beratung
+Fachkundiger Einbau Ihres Lifts
+Regelmäßige Wartung
+Hilfe bei Fehlermeldungen
+Schneller Reparatur-Service
+Umzug Ihres Liftes
+Rückkauf und Rücknahme Ihres Lifts
+Alle Ratgeber-Themen
+So funktioniert ein Treppenlift
+Der Treppenlift-Kaufprozess erklärt
+Den richtigen Treppenlift-Anbieter finden
+Tipps zum Treppenlift-Vergleich
+Alternativen zum Treppenlift
+Treppenlift-Bilder und Einbaubeispiele
+Lifta in Ihrer Nähe
+Telefonische Beratung
+Termin vereinbaren
+Infopaket
+{ if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+$el.style.height = '0px';
+"
+@resize.window="if (isContactNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+Schließen
+Wir sind rund um die Uhr für Sie da!
+0800 20 33 150
+(24 Std. täglich, kostenlos)
+response.json())
+.then(data => {
+$refs.name.innerHTML = data.payload.name;
+$refs.contactimage.src = data.payload.image;
+$refs.contactimage.alt = data.payload.name;
+$refs.contactimage.title = data.payload.position;
+$dispatch('contact-loaded', data)
+});">
+Lifta Berater für Ihre Region
+Jetzt kostenlos beraten lassen
+In Ihrer Nähe
+Infopaket
+Termin vor Ort
+{ if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+$el.style.height = '0px';
+"
+@resize.window="if (isSearchNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+>
+3) {
+window.dataLayer.push({
+'site_search_search_phrase': this.searchWord,
+'event': 'site_search_used'
+});
+}
+this.searchPages.search(this.searchWord, {
+limit: 3,
+matchingStrategy: 'last',
+}).then((response) => {
+this.searchResultsPages = response.hits;
+});
+if ('1' === '1') {
+this.searchPosts.search(this.searchWord, {limit: 3}).then((response) => {
+this.searchResultsPosts = response.hits;
+});
+}
+let possibleCities = this.searchWord.split(' ');
+for (let i = 0; i
+{
+if (response.hits.length === 1) {
+this.searchResultsConsultantsCity = response.hits[0].city;
+this.user_settings_city = response.hits[0].city;
+this.user_settings_postal_code = response.hits[0].zip;
+this.searchConsultant.search(
+'',
+{
+limit: 1,
+sort: [
+'_geoPoint(' + response.hits[0].lat + ',' + response.hits[0].lng + '):asc'
+]
+}
+).then(
+(consultantData) => {
+if (consultantData && consultantData.hits.length > 0) {
+this.searchResultsConsultants = consultantData.hits;
+}
+}
+)
+}
+}
+);
+}
+},
+trackResultClick(url) {
+if (window.dataLayer) {
+window.dataLayer.push({
+'site_search_search_phrase': this.searchWord,
+'site_search_clicked_url': url,
+'event': 'site_search_clicked'
+});
+}
+window.location.href = url;
+}
+}"
+>
+Schließen
+0"
+xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
+0 || searchResultsPosts.length > 0 || searchResultsConsultants.length > 0"
+x-transition.opacity
+>
+0">
+Berater
+Ihr Treppenlift Berater in
+Ortsname
+Lifta Berater:in für Ihre Region
+Zu
+Ihrem persönlichen Berater
+Zu
+Ihrem persönlichen Berater
+0">
+Seiten
+0">
+Magazin
+Leider kein Suchergebnis
+gefunden
+Hier finden Sie häufig
+gesuchte
+Begriffe:
+0) ? window.innerWidth : screen.width;
+isSliderActive = 768 > screenwidth;
+if (isSliderActive) {window.setInterval(() => { $dispatch('value-bars-slider-next', { nextimg: true })}, 3000);}"
+@value-bars-slider-next.window="activeImg = ((activeImg + 1) % countImgs);"
+>
+TÜV-geprüfte Kundenzufriedenheit
+Trusted Shops Bewertung:
+{ rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Focus Money Preis-Sieger
+Lifta Rollstuhllifte: Mobilitätslösung für Rollstuhlfahrer
+Mit unseren Rollstuhlliften bieten wir maßgeschneiderte Liftlösungen für Rollstuhlfahrer sowohl im Innen- als auch im Außenbereich. So überwinden Sie Treppen und kleinere Höhenunterschiede sicher und selbstständig – für mehr Sorglosigkeit und Unabhängigkeit in Ihrem Alltag.
+Kostenloses Infopaket bestellen
+Lifta
+/
+Rollstuhllifte
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Gestalten Sie Ihr Leben nach Ihren Vorstellungen
+Rollstuhllifte: Barrieren im Alltag überwinden
+Rollstuhllifte richten sich in erster Linie an Rollstuhlfahrer, für die Treppen im oder außerhalb des Hauses ein Hindernis darstellen. Doch auch Personen mit Gehhilfe oder Rollator profitieren von einem Rollstuhllift als Mobilitätshilfe. Der Lift
+transportiert Sie mitsamt Rollstuhl
+auf einer ebenen Plattform oder Hebebühne – bequem und sicher. Damit ist der Rollstuhllift zugleich eine praktische
+Alternative zum klassischen
+Treppenlift
+, bei dem die Person üblicherweise im Sitzen befördert wird. Der Umstieg aus dem Rollstuhl in einen Sitzlift ist für Rollstuhlfahrer jedoch mitunter belastend oder gar nicht erst möglich.
+Ein Rollstuhllift ermöglicht Menschen mit eingeschränkter Mobilität, Treppen und andere Höhenunterschiede bequem mit dem Rollstuhl zu überwinden. Je nach Wohnsituation und baulichen Gegebenheiten stehen unterschiedliche Lösungen für den Innen- und Außenbereich zur Verfügung.
+Bei QVC erfahren Sie mehr über die Funktionsweise und Einsatzmöglichkeiten von Rollstuhlliften sowie über wichtige Voraussetzungen für den Einbau. Darüber hinaus stellt Lifta weitere Lösungen für ein barrierearmes Zuhause vor, darunter Hauslifte und Treppenlifte. Auch mögliche Förderungen und Zuschüsse werden thematisiert.
+Seien Sie am
+10. Oktober 2026 um 18 Uhr bei QVC
+dabei und erfahren Sie mehr über die Liftlösungen von Lifta.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Mit einem Klick zu den wichtigsten Informationen
+Gesamter Seiteninhalt auf einen Blick:
+Unsere Rollstuhllifte
+Rollstuhllift-Kosten
+Funktionsweise
+Einbau
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Vielfältige Lösungen für jede Wohnsituation
+Unsere Lifta Rollstuhllifte
+Bei Lifta finden Sie zwei verschiedene Arten von Rollstuhlliften: Plattformlifte und Hublifte.
+Plattformlifte
+Plattformlifte
+gehören zu den Treppenliften
+, weil sie sich wie ein Sitzlift entlang einer Schiene bewegen, die dem Treppenverlauf folgt. Über eine kleine Auffahrrampe fahren Sie mit Ihrem Rollstuhl auf die Plattform und werden sicher nach oben und unten transportiert. So meistern Sie problemlos
+ganze Etagen
+. Unsere Plattformlifte können
+sowohl im Innenbereich als auch im Außenbereich
+installiert werden und sind gleichermaßen auf geraden, kurvigen oder sehr schmalen Treppen machbar.
+Im Ruhezustand lässt sich Ihr Plattformlift einklappen, sodass er kaum Platz einnimmt. Zudem erfüllt er höchste Sicherheitsstandards durch ausgereifte Techniken wie ausklappbare Sicherheitsbügel, Notstoppschalter, Aktivsteuerung, Notruffunktion und Sicherheitsakkus.
+Mehr zu Plattformliften
+Hublifte
+Hublifte sind auf die Überwindung
+weniger Stufen und geringer Höhenunterschiede
+ausgerichtet. Dabei werden Sie auf einer Plattform vertikal in die Höhe transportiert. Da Hublifte nicht an einen Treppenverlauf gebunden sind, eignen sie sich als Alternative, wenn für einen Treppenlift nicht genügend Platz vorhanden ist.
+Häufig sind Hublifte
+im Außenbereich privater und öffentlicher Gebäude
+neben den Eingangsstufen zu finden, damit auch Rollstuhlfahrer selbstständig nach drinnen und draußen gelangen können. Für die Installation einer
+Rollstuhl-Hebebühne
+sind in der Regel nur wenige Baumaßnahmen und eine kleine Stellfläche notwendig. Auch schwere Elektrorollstühle befördert dieser Lifttyp ohne Probleme.
+Mehr zu Hubliften
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Mobil und selbstständig bleiben
+Ihre Vorteile mit einem Lifta Rollstuhllift
+Speziell für Rollstuhlfahrer
+Unsere Lifte sind passgenau auf die Bedürfnisse von Rollstuhlfahrern zugeschnitten.
+Alternative zum Sitzlift
+Die Liftlösungen transportieren Sie bequem im Rollstuhl sitzend.
+Flexibler Einsatzort
+Die Installation ist sowohl im Innenbereich als auch im Außenbereich möglich.
+Für jede Treppenform
+Plattformlifte im Speziellen sind auf geraden und kurvigen Treppen machbar.
+Maximale Sicherheit
+Vertrauen Sie auf Sicherheitsfunktionen wie Notruf, Notstopp und Sicherheitsakku.
+Einfache Bedienung
+Unsere Lifte lassen sich ganz intuitiv per Hand- oder Funkfernbedienung steuern.
+Deutschlands dichtestes Servicenetz
+Finden Sie Ihren Rollstuhllift-Berater
+Jetzt Berater in der Nähe finden (PLZ)
+Berater in der Nähe (PLZ)
+Ihre Postleitzahl
+Leider keine Ergebnis gefunden. Bitte prüfen Sie Ihre Eingabe.
+0"
+class="p-15 absolute z-20 left-0 right-0 top-[50px] md:top-[58px] text-primary rounded bg-white shadow-small"
+>
+Lifta Berater:in für Ihre Region
+Zu
+Ihrem persönlichen Berater
+Beratungsleistungen des Beraters:
+Machbarkeit auf Ihrer Treppe
+Preise unserer Treppenlifte
+Zuschüsse für Ihre Region
+Technik & Service
+Persönlicher Service und bestmögliche Beratung liegen uns am Herzen. Auch für Ihre Region stehen kompetente Fachexperten von Lifta zur Verfügung.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Transparente Preise
+Wie viel kostet ein Rollstuhllift?
+Wie bei klassischen Treppenliften, variieren die Kosten auch bei Rollstuhlliften. Ausschlaggebend sind zum Beispiel Ihr gewähltes Modell, spezielle Ausstattungsmerkmale, die Tragfähigkeit, die Hubhöhe und der Verlauf Ihrer Treppe.
+Hier ein paar konkrete Preisangaben für unsere Lifta Hub- und Plattformlifte:
+Liftart
+Hublift
+Hubhöhe
+unter 1 m
+Preis
+ab 13.500 €
+Liftart
+Hublift
+Hubhöhe
+ab 1 m
+Preis
+ab 17.500 €
+Liftart
+Hubhöhe
+Preis
+Hublift
+unter 1 m
+ab 13.500 €
+Hublift
+ab 1 m
+ab 17.500 €
+Mehr zu den Hublift-Kosten
+Liftart
+Plattformlift
+Treppenform
+gerade
+Standort
+innen/außen
+Preis
+ab 11.000 €
+Liftart
+Plattformlift
+Treppenform
+kurvig
+Standort
+innen
+Preis
+ab 19.000 €
+Liftart
+Treppenform
+Standort
+Preis
+Plattformlift
+gerade
+innen/außen
+ab 11.000 €
+Plattformlift
+kurvig
+innen
+ab 19.000 €
+Mehr zu den Plattformlift-Kosten
+Finanzielle Entlastung
+Zuschüsse für Rollstuhllifte
+Mithilfe von
+Zuschüssen und Förderungen
+lässt sich Ihr eigener Anteil an den Rollstuhllift-Kosten effektiv reduzieren. Es gibt diverse regionale und staatliche Träger, die Sie beim Kauf eines Rollstuhl-Treppenlifts unterstützen. Eine zentrale Anlaufstelle ist Ihre Pflegekasse: Diese gewährt bei Vorliegen eines Pflegegrads einen
+Pflegekostenzuschuss von 4.180 Euro pro Person
+. Die Kreditanstalt für Wiederaufbau (KfW) bietet zudem zinsgünstige Kredite bis 50.000 Euro für den barrierefreien Umbau.
+Zum Krankenkassen-Zuschuss
+Zum KfW-Zuschuss
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Einfach und ohne fremde Hilfe bedienbar
+Wie funktioniert ein Rollstuhllift?
+Hub- und Plattformlifte unterscheiden sich zwar in ihrer Fahrtrichtung und -höhe, funktionieren aber grundsätzlich ähnlich: Das zentrale Element ist bei beiden Liftsystemen eine
+rutschfeste Plattform
+, die genügend Platz für kleinere und größere Rollstühle bietet.
+Über eine kleine Rampe fahren Sie mit Ihrem Rollstuhl bequem auf die Plattform auf. Die Auffahrrampe klappt sich vor der Fahrt wieder hoch, damit Sie mit dem Rollstuhl nicht wegrutschen können. Die Steuerung erfolgt
+per Hand- oder Funkfernbedienung
+. Befindet sich die Hebebühne noch nicht auf der richtigen Etage, rufen Sie den Lift via Bedienelement einfach zu sich.
+Außerdem bieten beide Lifte Sicherheitsbügel und Haltestangen, an denen Sie sich während der Fahrt festhalten können. Für zusätzliche Sicherheit sorgen Mechanismen wie eine Notruffunktion und ein Notstopp.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Voraussetzungen und Montage
+So läuft der Einbau Ihres Rollstuhllifts ab
+Für den Einbau eines Rollstuhllifts müssen in der Regel nur wenige Voraussetzungen erfüllt sein:
+Bei einem
+Hublift
+wird eine
+Stellfläche von ca. 2 m²
+benötigt. Außerdem brauchen Sie in der Nähe einen herkömmlichen Stromanschluss. Beim Einbau eines
+Plattformlifts
+sind insbesondere die Treppenform und -breite entscheidend. Je nachdem, ob der Lift privat oder öffentlich gebraucht wird und ob es sich um eine gerade bzw. kurvige Treppe handelt, liegt die gesetzlich vorgeschriebene
+Mindesttreppenbreite zwischen 90 und 110 cm
+. Außerdem müssen vor der ersten Stufe zwischen 120 und 140 cm Platz vorhanden sein.
+Unsere Liftlösungen erfordern
+keine komplexen Umbaumaßnahmen
+und sind damit auch nachträglich problemlos einbaubar. Vor der Installation
+prüft einer unserer Berater die baulichen Gegebenheiten bei Ihnen vor Ort
+, um die notwendigen Anpassungen zu planen. Am vereinbarten Montagetermin erledigen unsere erfahrenen Servicetechniker den Einbau schnell, sauber, leise und mit höchster Präzision. Nach einer umfassenden Einweisung steht Ihnen Ihr neues Hilfsmittel bereits
+nach wenigen Stunden
+zur Verfügung.
+Rollstuhllifte für innen und außen
+Unsere Rollstuhllifte sind sowohl innen als auch außen machbar – so gibt es für jedes Szenario eine passende Mobilitätslösung.
+Im Innenbereich
+kommen Lifte für Rollstuhlfahrer oftmals im Treppenhaus oder an kleineren Stufen in öffentlichen Gebäuden zum Einsatz. Dank individueller Gestaltungsmöglichkeiten können Sie das Design Ihres Lifts an Ihre Vorstellungen anpassen, damit er sich ästhetisch in Ihre Wohnumgebung einfügt.
+Im Außenbereich
+stellen Rollstuhllifte zum Beispiel die Verbindung zur Einfahrt, zum Garten oder zur Terrasse dar. Speziell für die Nutzung im Freien punkten die Liftanlagen mit robusten, wetterbeständigen Materialien und korrosionsbeständigen Beschichtungen, die extremer Kälte und Hitze standhalten.
+Barrierefreiheit in allen Bereichen
+Rollstuhllifte in öffentlichen Gebäuden
+Öffentliche Gebäude wie Rathäuser, Hotels, Einkaufszentren, Bahnhöfe oder Schulen müssen nach DIN 18040-1 im Sinne der Barrierefreiheit auch für Rollstuhlfahrer eigenständig nutzbar sein. Hublifte und Plattformlifte stellen hierbei eine Möglichkeit zur barrierefreien Bewältigung von Treppen dar. Gerne
+beraten wir Sie
+auch zur Verwendung unserer
+Rollstuhllifte in öffentlichen Gebäuden
+.
+Individuelle Beratung zu Ihrem Rollstuhllift
+Unsere Experten helfen Ihnen dabei, den passenden Lift für Ihre Bedürfnisse zu finden. Wir stehen Ihnen mit kompetenter und
+persönlicher Beratung
+zur Seite und beantworten alle Fragen rund um Einbau, Finanzierung und mehr.
+Kostenloses Infopaket bestellen
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Mini-Aufzug für Rollstuhlfahrer
+Lifta Hauslift als Alternative zum Rollstuhllift
+Senkrechtlifte wie unser Hauslift eignen sich ebenfalls gut für Rollstuhlfahrer. Sie
+funktionieren wie ein
+kleiner Aufzug
+und bringen Sie in einer Aufzugskabine senkrecht von einer Etage in die nächste. Anders als Rollstuhl- bzw. Plattformlifte können Hauslifte ganz unabhängig von einer Treppe in Ihrem Wohnraum platziert werden. Dabei kommt die innovative, selbsttragende Konstruktion ohne Aufzugschacht aus und ist ohne großen Aufwand einbaubar. Für Rollstuhlfahrer ist
+unser Modell
+Lifta Maxi
+mit seiner großzügigen Kabine die ideale Wahl.
+Mehr zu unseren Hausliften
+Kompakt für Sie beantwortet
+Häufige Fragen zu Rollstuhlliften
+Was zeichnet Rollstuhllifte aus?
+Rollstuhllifte sind speziell auf die Bedürfnisse von Rollstuhlfahrern ausgelegt. Anders als Sitzlifte, ermöglichen Sie die Beförderung mitsamt Rollstuhl oder Gehhilfe – so entfällt der Umstieg auf einen Sitz. Sie fahren direkt im Rollstuhl auf eine Plattform oder Hebebühne auf, die sich je nach Modell entweder vertikal oder schräg entlang der Treppe bewegt.
+Welche Arten von Rollstuhlliften gibt es?
+Zu den Rollstuhlliften zählen sowohl Hub- als auch Plattformlifte. Während sich ein Hublift wie ein kleiner Aufzug vertikal bewegt und üblicherweise neben einer Treppe installiert ist, transportiert Sie ein Plattformlift entlang des Treppenverlaufs.
+Ein weiterer Unterschied liegt in der Förderhöhe: Hublifte funktionieren wie eine Hebebühne und sind für geringe Förderhöhen bis 1,79 m die richtige Wahl. Dahingegen eignen sich Plattformlifte auch für größere Höhenunterschiede und können mühelos ganze Etagen bewältigen.
+Können Rollstuhllifte innen und außen installiert werden?
+Unsere Hublifte und Plattformlifte eignen sich gleichermaßen für den Innen- und Außenbereich. Dabei kommen Hublifte häufig als Außenlift für Rollstuhlfahrer zum Einsatz und befinden sich zum Beispiel vor der Eingangstür von privaten oder öffentlichen Gebäuden. Die Lifte überzeugen mit smarter Technik sowie robusten und wetterfesten Materialien, damit Sie Ihnen lange und zuverlässig als Hilfsmittel zur Verfügung stehen.
+Was kostet ein Lift für einen Rollstuhl?
+Der genaue Preis für einen Lifta Rollstuhllift ist abhängig von Modell, Einbausituation und Ausstattung.
+Für einen Plattformlift auf einer geraden Treppe im Innenbereich beginnen die Kosten bei 11.000 Euro und bei einer kurvigen Treppe bei 19.000 Euro. Ein Hublift für Rollstuhlfahrer startet bei Lifta ab 13.500 Euro und variiert je nach Förderhöhe.
+response.json())
+.then(data => {
+$refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+}
+);
+}
+"
+>
+Regelmäßige Updates und in wenigen Minuten zum Infopaket:
+Jetzt Infopaket sichern &
+persönlich beraten lassen!
+*= Pflichtfelder
+response.json())
+.then(data => {
+if (data.payload.value) {
+$el.value = data.payload.value;
+fieldStatus.name.value = data.payload.value;
+validateField('name');
+showAsLabel('name');
+}
+}
+);
+"
+class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+/>
+Vor- und Nachname*
+Bitte geben Sie Ihren Vor- und Nachname ein.
+Ihre E-Mail Adresse*
+Bitte geben Sie Ihre E-Mail Adresse ein.
+Wozu benötigen wir Ihre E-Mail-Adresse?
+Wir nutzen die E-Mail-Adresse ausschließlich für Rückfragen zu dieser Anfrage.
+Telefon*
+Bitte geben Sie Ihre Rufnummer ein.
+Wozu benötigen wir Ihre Telefonnummer?
+Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+Telefonnummer ausschließlich für Rückfragen zu dieser
+Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+Ja, ich erlaube, dass meine Rufnummer für eine telefonische Beratung zu Zuschüssen und regionalen Förderungen verwendet wird.
+Widerruf jederzeit per Email, Brief oder Telefon möglich.
+Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+lifta@lifta.de
+02234-504 400
+Jetzt kostenlos bestellen
+Anfrage wird gesendet
+Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur
+Datenschutzerklärung
+(Ihre Zustimmung ist jederzeit
+widerrufbar
+Widerruf jederzeit per Email, Brief oder Telefon möglich.
+Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+lifta@lifta.de
+02234-504 400
+)*.
+Schon gewusst?
+Treppenlift-Preise
+Erhalten Sie einen transparenten Überblick über die Kosten eines Lifta Treppenlifts.
+Mehr erfahren
+Finanzierung
+Lifta bietet Ihnen individuelle Finanzierungsmöglichkeiten – wir beraten Sie gerne.
+Mehr erfahren
+Lifta Hauslifte
+Mit einem Lifta Hauslift bewegen Sie sich bequem, sicher und barrierefrei in Ihrem Zuhause.
+Mehr erfahren
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit
+{ rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+response.json())
+.then(data => {
+$dispatch('contact-loaded', data)
+}
+);
+} ;
+"
+@contact-loaded.window="name = $event.detail.payload.name;
+image = $event.detail.payload.image;
+ort = $event.detail.payload.ort;"
+class="hidden md:flex justify-center w-full md:w-auto md:flex-col md:mr-50 lg:mr-100 items-center">
+Lifta Berater:in für Ihre Region
+Haben Sie noch Fragen?
+Wir sind rund um die Uhr für Sie da!
+0800 20 33 150
+(Kostenlose Service Hotline - 24 Std.
+täglich für Sie da)
+In Ihrer Nähe
+Infopaket
+Termin vor Ort
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+TÜV-geprüfte Kundenzufriedenheit
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit
+{ rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Kunden bewerten Lifta durchschnittlich mit
+{ rating = value; }) "
+x-text="formattedRating()"
+>
+von 5 Sternen
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+Focus Money Preis-Sieger
+Mehr Infos
+Marke des Jahrhunderts Deutsche Standards
+Mehr Infos
+Glossar
+Karriere
+Partner
+Presse
+Über Lifta
+Copyright Lifta 2026, Alle Rechte vorbehalten
+Barrierefreiheit
+Datenschutz
+Impressum
+Privatsphäre
+Einstellungen
+Glossar
+Karriere
+Über Lifta
+Partner
+Barrierefreiheit
+Datenschutz
+Impressum
+Privatsphäre
+Einstellungen
+Presse
+Copyright Lifta 2026, Alle Rechte vorbehalten
+TÜV-geprüfte Kundenzufriedenheit
+Freiwillige Befragung von 1.216 Kunden zur Kundenzufriedenheit im Service.
+TÜV Süd Verbraucherinfo
+TÜV-geprüfte Kundenzufriedenheit
+Prüfbericht (PDF)
+Trusted Shops Kundenbewertung
+In dem unabhängigen Bewertungsportal Trusted Shops schneidet Lifta bestens ab.
+{ rating = value; })" class="mt-15 text-15 leading-snug font-light">
+Kundenbewertung (5,0 / 5)
+Zu Trusted Shops
+Focus Money Preis-Sieger
+Lifta bietet aus Sicht der Verbraucher im Bereich Treppenlifte das beste Preis-Leistungs-Verhältnis und setzt damit den Maßstab in seiner Branche.
+Focus Money Preis-Sieger
+Zum Anbieterranking
+Zum Berichtsband
+Marke des Jahrhunderts
+Seit 2003 wird Lifta regelmäßig im Markenkompendium "Marken des Jahrhunderts" von Herausgeber und Verleger Dr. Florian Langenscheidt aufgeführt.
+Marke des Jahrhunderts Deutsche Standards
+Deutsche Standards
+b.toString(16).padStart(2, '0')).join('');
+}
+}"
+x-init="
+window.sha256_last_name = await sha256(user_data_name);
+window.sha256_phone_number = await sha256(user_data_phone_number);
+window.sha256_email_address = await sha256(user_data_email);
+"
+>

@@ -1,0 +1,28 @@
+    Ask its owner to relaunch `hermes serve` / `hermes dashboard` (reconnect Desktop for an SSH backend).
+{
+  "url": "https://zuhausebleiben-kompass.de/treppenlift-kosten.html",
+  "status_code": 200,
+  "render_error": null,
+  "html_findings": {
+    "real_buttons": 7,
+    "real_anchors": 47,
+    "div_onclick_widgets": 0,
+    "semantic_landmarks": 20,
+    "inputs_without_aria": 0,
+    "inputs_without_label": 0
+  },
+  "a11y_findings": {
+    "tree_present": true,
+    "total_nodes": 788,
+    "interactive_nodes": 51,
+    "role_button": 7,
+    "role_link": 44,
+    "role_generic": 18,
+    "unnamed_interactive": 0
+  },
+  "score": 100,
+  "score_status": "complete",
+  "partial": false,
+  "partial_reasons": [],
+  "issues": []
+}

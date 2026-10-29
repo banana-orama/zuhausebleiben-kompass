@@ -1,0 +1,230 @@
+{
+ "summary": {
+  "health_score": 70,
+  "business_type": "national informational lead portal (pre-launch), static GitHub Pages",
+  "top_findings": [
+   "FAQPage schema missing despite 101 implemented article FAQs (104 details elements sitewide)",
+   "/llms.txt returns HTTP 404 — integration not live despite dist file",
+   "6 checklisten pages are complete orphans: no internal links, not in sitemap",
+   "datenschutz.html footer-linked from all 34 pages but absent from sitemap and crawl",
+   "12 region pages + regional hub + 1 stub are indexable thin content (152-281 words)",
+   "17/18 titles >65 chars (SERP truncation); 4 meta descriptions over-length",
+   "Article JSON-LD lacks datePublished/dateModified/author; image is SVG",
+   "Lab performance strong (LCP ~1.0-1.1s, CLS 0) but TBT 380-580ms and no field data (PSI run failed)"
+  ],
+  "quick_wins": [
+   "Publish llms.txt (currently 404)",
+   "Generate FAQPage JSON-LD from existing details/summary pairs",
+   "Add datenschutz.html + checklisten pages to sitemap and link checklists from article CTAs",
+   "Trim titles to <=65 chars; rewrite 4 meta descriptions",
+   "Add og:image + twitter card"
+  ]
+ },
+ "categories": [
+  {
+   "name": "Technical SEO",
+   "score": 78,
+   "what_works": [
+    "valid robots.txt with Sitemap directive",
+    "self-canonicals on all 34 pages",
+    "real 404s",
+    "consent-gated analytics (no pre-consent tags)",
+    "server-rendered HTML"
+   ],
+   "findings": [
+    {
+     "title": "datenschutz.html missing from sitemap and crawl",
+     "severity": "High",
+     "description": "Footer-linked on every page; not in sitemap.xml, not captured.",
+     "recommendation": "Publish/verify and add to sitemap."
+    },
+    {
+     "title": "No HSTS/security headers",
+     "severity": "Medium",
+     "description": "GitHub Pages serves no custom headers.",
+     "recommendation": "Cloudflare front or referrer meta."
+    }
+   ]
+  },
+  {
+   "name": "Content Quality",
+   "score": 71,
+   "what_works": [
+    "18 articles 1.7-2.9k words with dated sources",
+    "AI-disclosure + Impressum entity",
+    "Sie-form, senior-readable"
+   ],
+   "findings": [
+    {
+     "title": "Thin cluster: 14 pages at 120-281 words incl. 12 region placeholders",
+     "severity": "High",
+     "description": "Indexable 152-word template pages on a new domain.",
+     "recommendation": "Expand with real regional content or noindex until ready."
+    },
+    {
+     "title": "No author byline / visible dates / methodology page",
+     "severity": "Medium",
+     "description": "E-E-A-T rests on transparency statements only.",
+     "recommendation": "Byline, Stand date, Ueber-uns page."
+    }
+   ]
+  },
+  {
+   "name": "On-Page / SXO",
+   "score": 66,
+   "what_works": [
+    "page types match organic SERP",
+    "keyword-first titles",
+    "single H1, clean hierarchy"
+   ],
+   "findings": [
+    {
+     "title": "17/18 titles >65 chars",
+     "severity": "Medium",
+     "description": "Truncation where competitors run hooks.",
+     "recommendation": "Trim to <=65 chars."
+    },
+    {
+     "title": "Funnel ends without destination: checklisten unlinked",
+     "severity": "High",
+     "description": "CTAs promise checklists; pages unreachable.",
+     "recommendation": "Wire CTAs + sitemap."
+    }
+   ]
+  },
+  {
+   "name": "Schema",
+   "score": 42,
+   "what_works": [
+    "parse-valid Article+BreadcrumbList on 18 articles"
+   ],
+   "findings": [
+    {
+     "title": "FAQPage missing on 104 details-based FAQs",
+     "severity": "High",
+     "description": "Content is FAQ-ready; schema layer absent.",
+     "recommendation": "Build-time FAQPage generation."
+    },
+    {
+     "title": "Article nodes minimal, SVG image",
+     "severity": "Medium",
+     "description": "No dates/author; SVG not thumbnail-eligible.",
+     "recommendation": "Enrich + PNG/WebP."
+    },
+    {
+     "title": "No Organization/WebSite graph on home",
+     "severity": "Medium",
+     "description": "Index has zero JSON-LD.",
+     "recommendation": "Sitewide graph."
+    }
+   ]
+  },
+  {
+   "name": "Performance",
+   "score": 80,
+   "what_works": [
+    "LCP 1.0-1.1s, CLS 0, 38-40KiB, a11y 1.0"
+   ],
+   "findings": [
+    {
+     "title": "TBT 380-580ms; SI 3.9-4.4s; no field data (PSI failed)",
+     "severity": "Medium",
+     "description": "Consent script blocking; CrUX empty (new domain).",
+     "recommendation": "Defer consent; re-run PSI per template."
+    }
+   ]
+  },
+  {
+   "name": "AI Search Readiness",
+   "score": 66,
+   "what_works": [
+    "AI-crawler-open robots",
+    "citation-ready dated sources + question FAQs",
+    "agent UX 100/100 on probe page"
+   ],
+   "findings": [
+    {
+     "title": "/llms.txt 404",
+     "severity": "High",
+     "description": "Deployed dist file not live; Lighthouse agentic credit lost.",
+     "recommendation": "Publish to root, verify 200."
+    },
+    {
+     "title": "No markdown delivery / Content-Signal",
+     "severity": "Medium",
+     "description": "Optional multipliers once llms.txt lands.",
+     "recommendation": "Alternates links or .md siblings."
+    }
+   ]
+  },
+  {
+   "name": "Images/Visual",
+   "score": 84,
+   "what_works": [
+    "mobile-first clean render",
+    "senior-readable typography",
+    "alt pass, a11y 1.0"
+   ],
+   "findings": [
+    {
+     "title": "No og:image/twitter cards",
+     "severity": "Low",
+     "description": "Bare text previews in messengers.",
+     "recommendation": "Shared 1200x630 asset."
+    },
+    {
+     "title": "Consent dialog owns first mobile screen",
+     "severity": "Medium",
+     "description": "GDPR-correct but content-invisible pre-consent.",
+     "recommendation": "Compact first screen."
+    }
+   ]
+  }
+ ],
+ "action_plan": {
+  "phases": [
+   {
+    "name": "Phase 1: Critical fixes",
+    "timeframe": "Week 1",
+    "items": [
+     "Publish llms.txt",
+     "Sitemap: datenschutz + checklisten + lastmod",
+     "Link checklisten from article CTAs",
+     "Title/meta trims",
+     "Organization/WebSite graph"
+    ]
+   },
+   {
+    "name": "Phase 2: High-impact improvements",
+    "timeframe": "Weeks 2-3",
+    "items": [
+     "FAQPage JSON-LD generator",
+     "Article enrichment + og:image",
+     "Region pages: expand or noindex",
+     "pflegegrad-beantragen stub",
+     "Consent script deferral"
+    ]
+   },
+   {
+    "name": "Phase 3: Content & authority",
+    "timeframe": "Month 2",
+    "items": [
+     "Author/methodology page",
+     "Cluster cross-linking",
+     "Real regional content",
+     "WebMCP when lead form ships"
+    ]
+   },
+   {
+    "name": "Phase 4: Monitoring & iteration",
+    "timeframe": "Ongoing",
+    "items": [
+     "PSI per template + CrUX readout",
+     "GSC coverage",
+     "Agentic probe re-run",
+     "AI-citation spot checks"
+    ]
+   }
+  ]
+ }
+}

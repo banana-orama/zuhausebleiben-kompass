@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zuhausebleiben-kompass.de/sitemap.xml

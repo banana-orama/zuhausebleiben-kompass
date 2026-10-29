@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 680" width="980" height="680" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Treppenlift-Tragkraft: Grenze fuer Person plus Zuladung mit belegten Herstellerwerten</title>
+  <desc id="gdesc">Schema-Grafik in zwei Teilen. Links: ein Sitzlift auf einer Treppe, auf dem eine Person sitzt; ein Pfeil zeigt, dass Person plus Zuladung zusammen gegen die zulässige Tragkraft des Modells gerechnet werden. Rechts: eine Balkenliste belegter Herstellerwerte vom 27.10.2026 — Lifta Esprit 4500 Kurvenlift bis ca. 125 kg, HIRO 160 Standard 135 kg (gerade und kurvig), HIRO optional 150 kg, Lifta Klassik gerade 160 kg, HIRO auf Anfrage 175 kg, Handicare 1000XXL 200 kg; darunter der Hinweis, dass Plattformlifte laut Herstellerangaben 250 bis 300 kg tragen. Alle Werte sind Hersteller- oder Fachportalangaben; verbindlich sind Datenblatt der eingebauten Ausfuehrung und das Aufmass vor Ort.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .cardhead{font-size:16px;font-weight:700;fill:#194533}
+    .item{font-size:13.5px;fill:#243b35}
+    .kg{font-size:13.5px;font-weight:700;fill:#194533}
+    .fine{font-size:12.5px;fill:#53655e}
+    .boxhead{font-size:14px;font-weight:700;fill:#194533}
+    .step{stroke:#c3cdc5;stroke-width:2}
+    .lift{fill:#4d7d68}
+    .person{fill:#194533}
+    .kgfill{fill:#4d7d68}
+    .kggrid{stroke:#e3e9e3;stroke-width:1}
+    .arrow{stroke:#b34a3a;stroke-width:2;fill:none}
+    .note{fill:#f4f7f4;stroke:#d8dfd6}
+  </style>
+
+  <rect width="980" height="680" fill="#ffffff"/>
+  <text class="h" x="60" y="52">Tragkraft: die Grenze trägt Person plus Zuladung</text>
+  <text class="sub" x="60" y="78">Belegte Herstellerwerte (Abruf 27.10.2026) — verbindlich bleibt das Datenblatt der eingebauten Ausführung.</text>
+
+  <!-- Left card: person + load vs. limit -->
+  <rect x="60" y="104" width="470" height="440" rx="10" class="note"/>
+  <text class="fine" x="80" y="128">Schema: Sitzlift auf dem Treppenlauf (Seitenansicht)</text>
+
+  <!-- stairs ascending to the right -->
+  <polyline points="90,520 150,520 150,490 210,490 210,460 270,460 270,430 330,430 330,400 390,400 390,370 450,370 450,340 490,340" fill="none" stroke="#9db3a6" stroke-width="3"/>
+
+  <!-- lift seat on mid-stair with person -->
+  <line x1="255" y1="460" x2="255" y2="352" stroke="#4d7d68" stroke-width="5"/>
+  <rect class="lift" x="213" y="440" width="84" height="12" rx="4"/>
+  <rect class="lift" x="288" y="352" width="12" height="100" rx="4"/>
+  <rect class="lift" x="205" y="428" width="46" height="10" rx="4"/>
+  <rect class="lift" x="283" y="418" width="10" height="34" rx="4"/>
+  <!-- person: head + torso -->
+  <circle class="person" cx="240" cy="352" r="16"/>
+  <path class="person" d="M226 372 q14 -8 28 0 l6 52 q-20 8 -40 0 Z"/>
+  <!-- lap bag -->
+  <rect x="206" y="392" width="30" height="24" rx="4" fill="#b34a3a"/>
+  <line x1="196" y1="404" x2="170" y2="404" stroke="#8aa094" stroke-width="1.4"/>
+  <text class="item" x="166" y="408" text-anchor="end" font-weight="600">Zuladung</text>
+
+  <!-- equation band -->
+  <rect x="90" y="540" width="410" height="0" fill="none"/>
+  <text class="boxhead" x="80" y="504" text-anchor="start">Person</text>
+  <text class="boxhead" x="176" y="504" text-anchor="start">+</text>
+  <text class="boxhead" x="210" y="504" text-anchor="start">Zuladung</text>
+  <text class="boxhead" x="330" y="504" text-anchor="start">≤ Tragkraft</text>
+  <path class="arrow" d="M92 496 C 92 380, 130 300, 168 268"/>
+  <polygon points="168,268 158,276 166,286" fill="#b34a3a"/>
+  <text class="item" x="86" y="252">Tragkraft</text>
+  <text class="item" x="86" y="268">steht im</text>
+  <text class="item" x="86" y="284">Datenblatt</text>
+  <text class="fine" x="80" y="536">Die Grenze gilt für alles, was mitfährt — Tasche, Einkauf, Hund.</text>
+
+  <!-- Right card: documented ladder -->
+  <rect x="556" y="104" width="364" height="440" rx="10" class="note"/>
+  <text class="cardhead" x="576" y="134">Belegte Werte (Herstellerangaben)</text>
+  <text class="fine" x="576" y="154">Abruf 27.10.2026 · je Modell/Ausführung</text>
+
+  <!-- bar scale: 1 kg = 1.3 px, bars start x=576 -->
+  <line class="kggrid" x1="576" y1="168" x2="576" y2="470"/>
+  <g class="kgfill">
+    <rect x="576" y="176" width="162" height="22" rx="4" fill="#8fae9e"/>
+    <rect x="576" y="214" width="176" height="22" rx="4"/>
+    <rect x="576" y="252" width="195" height="22" rx="4"/>
+    <rect x="576" y="290" width="208" height="22" rx="4"/>
+    <rect x="576" y="328" width="228" height="22" rx="4"/>
+    <rect x="576" y="366" width="260" height="22" rx="4"/>
+  </g>
+  <text class="item" x="584" y="192">Lifta Esprit 4500 (kurvig)</text>
+  <text class="kg" x="750" y="192">125 kg</text>
+  <text class="item" x="584" y="230">HIRO 160 Standard</text>
+  <text class="kg" x="764" y="230">135 kg</text>
+  <text class="item" x="584" y="268">HIRO 160 optional</text>
+  <text class="kg" x="783" y="268">150 kg</text>
+  <text class="item" x="584" y="306">Lifta Klassik (gerade)</text>
+  <text class="kg" x="796" y="306">160 kg</text>
+  <text class="item" x="584" y="344">HIRO 160 auf Anfrage</text>
+  <text class="kg" x="816" y="344">175 kg</text>
+  <text class="item" x="584" y="382">Handicare 1000XXL</text>
+  <text class="kg" x="848" y="382">200 kg</text>
+
+  <text class="fine" x="576" y="416">Kurvenausführung kann niedriger liegen als gerade</text>
+  <text class="fine" x="576" y="432">(Beispiel Lifta Klassik: gerade 160 / kurvig 135 kg).</text>
+  <rect x="576" y="448" width="324" height="56" rx="8" fill="#ffffff" stroke="#d8dfd6"/>
+  <text class="item" x="592" y="470" font-weight="600">Darüber hinaus: Plattformlift</text>
+  <text class="fine" x="592" y="490">Herstellerangaben ca. 250–300 kg, höher auf Anfrage</text>
+
+  <!-- Bottom band -->
+  <rect x="60" y="560" width="424" height="76" rx="10" class="note"/>
+  <text class="boxhead" x="80" y="586">Im Beratungsgespräch klären</text>
+  <text class="item" x="80" y="608">Datenblatt der Ausführung zeigen lassen, nicht</text>
+  <text class="item" x="80" y="626">die Modellseite — gerade/kurvig getrennt nennen.</text>
+  <rect x="500" y="560" width="420" height="76" rx="10" class="note"/>
+  <text class="boxhead" x="520" y="586">Überschritten? Überlastschutz greift</text>
+  <text class="item" x="520" y="608">Die Fahrt startet nicht; dauerhafte Überlast kann den</text>
+  <text class="item" x="520" y="626">Garantieanschluss kosten (Fachportalangabe).</text>
+
+  <text class="fine" x="60" y="662">Alle Zahlen sind gekennzeichnete Hersteller- oder Fachportalangaben (Stand 27.10.2026), keine Empfehlung und keine Prüfung; das Aufmaß vor Ort entscheidet.</text>
+</svg>

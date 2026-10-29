@@ -1,0 +1,1394 @@
+
+<!DOCTYPE html>
+<html lang="de-DE" class="no-js">
+
+<head><meta charset="utf-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <style id="theme-colors" type="text/css">
+        :root {
+            --theme-primary-color: #d80000;--theme-secondary-color: #212529;--theme-headings-color: #212529;--theme-text-color: #212529;--theme-border-color: #dcdcdc;--theme-bp-positive-color: #1abf3d;--theme-bp-negative-color: #fe4747;--theme-rating-color: #fe4747;--theme-numbering-color: #dcdcdc;--theme-white-color: #ffffff;--theme-black-color: #000000        }
+    </style>
+
+    <link rel="preload" href="https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/GothamExtraNarrowBold/font.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/GothamExtraNarrowBook/font.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/GothamExtraNarrowLight/font.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="preload" href="https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/LucidaGrandeRegular/font.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/LucidaGrandeBold/font.woff2" as="font" type="font/woff2" crossorigin>
+
+    <style id="bild-fonts" type="text/css">
+        /**
+        * @license
+        * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+        *
+        * The fonts listed in this notice are subject to the End User License
+        * Agreement(s) entered into by the website owner. All other parties are
+        * explicitly restricted from using the Licensed Webfonts(s).
+        *
+        * You may obtain a valid license at the URLs below.
+        *
+        * Webfont: Gotham Extra Narrow Light by Hoefler &amp; Co.
+        * URL: https://www.myfonts.com/collections/hoefler-and-co-foundry
+
+        * Webfont: Gotham Extra Narrow Book by Hoefler &amp; Co.
+        * URL: https://www.myfonts.com/collections/hoefler-and-co-foundry
+
+        * Webfont: Gotham Extra Narrow Bold by Hoefler &amp; Co.
+        * URL: https://www.myfonts.com/collections/hoefler-and-co-foundry
+
+        * © 2026 MyFonts Inc.
+
+        * Webfont: Lucida Grande Regular by Monotype
+        * URL: https://www.myfonts.com/collections/monotype-imaging-foundry
+        * Copyright: Copyright © 2025 Monotype Imaging Inc. All rights reserved.
+        *
+        * Webfont: Lucida Grande Bold by Monotype
+        * URL: https://www.myfonts.com/collections/monotype-imaging-foundry
+        * Copyright: Copyright © 2025 Monotype Imaging Inc. All rights reserved.
+
+        * © 2025 MyFonts Inc. */
+        @font-face {
+            font-family: 'Gotham Extra Narrow';
+            src: url('https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/GothamExtraNarrowBold/font.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Gotham Extra Narrow';
+            src: url('https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/GothamExtraNarrowBook/font.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Gotham Extra Narrow';
+            src: url('https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/GothamExtraNarrowLight/font.woff2') format('woff2');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Lucida Grande';
+            src: url('https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/LucidaGrandeRegular/font.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Lucida Grande';
+            src: url('https://www.bild.de/leben-im-alter/wp-content/themes/seniors-module/fonts/webFonts/LucidaGrandeBold/font.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v28.7 (Yoast SEO v28.7) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Plattformlift 2026: Kosten, Maße und Zuschüsse | BILD.de</title>
+<link data-rocket-prefetch href="https://delivery.consentmanager.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cdn.consentmanager.net" rel="dns-prefetch"><link rel="preload" data-rocket-preload as="image" href="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39.webp" imagesrcset="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39.webp 992w, https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39-300x169.webp 300w, https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39-768x432.webp 768w" imagesizes="(max-width: 992px) 100vw, 992px" fetchpriority="high">
+	<meta name="description" content="SWas kostet ein Plattformlift? Preise ab 10.300 Euro, Zuschuss der Pflegekasse bis 4.180 Euro, Mindesttreppenbreite und Anbieter im Überblick." />
+	<link rel="canonical" href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/plattformlift" />
+	<meta property="og:locale" content="de_DE" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Plattformlift 2026: Kosten, Modelle und Anbieter für Rollstuhl und Rollator" />
+	<meta property="og:description" content="SWas kostet ein Plattformlift? Preise ab 10.300 Euro, Zuschuss der Pflegekasse bis 4.180 Euro, Mindesttreppenbreite und Anbieter im Überblick." />
+	<meta property="og:url" content="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/plattformlift" />
+	<meta property="og:site_name" content="Bild" />
+	<meta property="og:image" content="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39.webp" />
+	<meta property="og:image:width" content="992" />
+	<meta property="og:image:height" content="558" />
+	<meta property="og:image:type" content="image/webp" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Geschätzte Lesezeit" />
+	<meta name="twitter:data1" content="7 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.bild.de\/leben-im-alter\/barrierefreies-wohnen\/plattformlift","url":"https:\/\/www.bild.de\/leben-im-alter\/barrierefreies-wohnen\/plattformlift","name":"Plattformlift 2026: Kosten, Maße und Zuschüsse | BILD.de","isPartOf":{"@id":"https:\/\/www.bild.de\/leben-im-alter\/#website"}},{"@type":"ImageObject","inLanguage":"de-DE","@id":"https:\/\/www.bild.de\/leben-im-alter\/barrierefreies-wohnen\/plattformlift#primaryimage","url":"https:\/\/www.bild.de\/leben-im-alter\/wp-content\/uploads\/Featured-image-PC-39.webp","contentUrl":"https:\/\/www.bild.de\/leben-im-alter\/wp-content\/uploads\/Featured-image-PC-39.webp","width":992,"height":558,"caption":"Der Rollstuhl bleibt stehen, die Plattform fährt an der Schiene die Treppe hinauf. Umsteigen muss niemand – das ist der Unterschied zum Sitzlift."},{"@type":"BreadcrumbList","@id":"https:\/\/www.bild.de\/leben-im-alter\/barrierefreies-wohnen\/plattformlift#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"BILD","item":"https:\/\/www.bild.de\/"},{"@type":"ListItem","position":2,"name":"Leben im Alter","item":"https:\/\/www.bild.de\/leben-im-alter\/"},{"@type":"ListItem","position":3,"name":"Barrierefreies Wohnen","item":"https:\/\/www.bild.de\/leben-im-alter\/barrierefreies-wohnen"},{"@type":"ListItem","position":4,"name":"Plattformlift"}]},{"@type":"WebSite","@id":"https:\/\/www.bild.de\/leben-im-alter\/#website","url":"https:\/\/www.bild.de\/leben-im-alter\/","name":"Bild Leben im Alter","inLanguage":"de-DE"},{"@type":"Organization","@id":"https:\/\/www.bild.de\/leben-im-alter\/#organization","name":"Bild","url":"https:\/\/www.bild.de\/leben-im-alter\/","logo":{"@type":"ImageObject","inLanguage":"de-DE","@id":"https:\/\/www.bild.de\/leben-im-alter\/#\/schema\/logo\/image\/","url":"https:\/\/www.bild.de\/leben-im-alter\/wp-content\/uploads\/2024\/08\/bild-logo-1.png","contentUrl":"https:\/\/www.bild.de\/leben-im-alter\/wp-content\/uploads\/2024\/08\/bild-logo-1.png","width":148,"height":148,"caption":"Bild"},"image":{"@id":"https:\/\/www.bild.de\/leben-im-alter\/#\/schema\/logo\/image\/"}}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.bild.de' />
+
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.bild.de/leben-im-alter/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bild.de%2Fleben-im-alter%2Fbarrierefreies-wohnen%2Fplattformlift" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.bild.de/leben-im-alter/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bild.de%2Fleben-im-alter%2Fbarrierefreies-wohnen%2Fplattformlift&#038;format=xml" />
+<link href="https://bild-scrty.com" rel="preconnect">
+
+<script nowprocket>
+  Object.defineProperty(window, 'cmp_loadconsole', {
+    value: () => console.warn("CMP debug console blocked."),
+    writable: false,
+    configurable: false
+  });
+</script><script nowprocket>window.s974_cookies = ["matomo_sessid","mtm_consent_removed","mtm_cookie_consent","MatomoAbTesting","_pk_id","_pk_ref","_pk_ses","_pk_cvar","_pk_testcookie","_pk_hsr","_pk_uid"];</script><!-- Matomo Tag Manager -->
+<script class="matomo-lazyload" type="text/plain" data-lazyload-vendor-id="s974">
+  var _mtm = window._mtm = window._mtm || [];
+  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+  (function() {
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='https://www.bild.de/leben-im-alter/js/container_cyliVfBk.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Tag Manager --><script type="text/plain" class="heyflow-lazyload" nowprocket data-src="https://assets.prd.heyflow.com/builder/widget/latest/webview.js" data-lazyload-vendor-id="c69822"></script><style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://www.bild.de/leben-im-alter/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://www.bild.de/leben-im-alter/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://www.bild.de/leben-im-alter/wp-includes/blocks/list/style.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link data-minify="1" rel='stylesheet' id='energy-module-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/css/app.css?ver=1793022309' media='all' />
+<link data-minify="1" rel='stylesheet' id='seniors-module-author-info-block-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/author-info/style.css?ver=1793022309' media='all' />
+<link data-minify="1" rel='stylesheet' id='energy-module-b2b-form-block-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/b2b-form/style.css?ver=1793022309' media='all' />
+<link data-minify="1" rel='stylesheet' id='energy-module-information-table-block-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/information-table/style.css?ver=1793022309' media='all' />
+<link data-minify="1" rel='stylesheet' id='energy-module-inline-form-block-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/inline-form/style.css?ver=1793022309' media='all' />
+<link data-minify="1" rel='stylesheet' id='energy-module-key-facts-block-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/key-facts/style.css?ver=1793022309' media='all' />
+<link data-minify="1" rel='stylesheet' id='energy-module-our-tip-block-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/our-tip/style.css?ver=1793022309' media='all' />
+<link data-minify="1" rel='stylesheet' id='energy-module-radio-form-block-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/radio-form/style.css?ver=1793022309' media='all' />
+<link data-minify="1" rel='stylesheet' id='energy-module-references-block-style-css' href='https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/references/style.css?ver=1793022309' media='all' />
+<script>window.gdprAppliesGlobally=true;if(!("cmp_id" in window)||window.cmp_id<1){window.cmp_id=0}if(!("cmp_cdid" in window)){window.cmp_cdid="082e0c6bb29e8"}if(!("cmp_params" in window)){window.cmp_params=""}if(!("cmp_host" in window)){window.cmp_host="delivery.consentmanager.net"}if(!("cmp_cdn" in window)){window.cmp_cdn="cdn.consentmanager.net"}if(!("cmp_proto" in window)){window.cmp_proto="https:"}if(!("cmp_codesrc" in window)){window.cmp_codesrc="10"}window.cmp_getsupportedLangs=function(){var b=["DE","EN","FR","IT","NO","DA","FI","ES","PT","RO","BG","ET","EL","GA","HR","LV","LT","MT","NL","PL","SV","SK","SL","CS","HU","RU","SR","ZH","TR","UK","AR","BS"];if("cmp_customlanguages" in window){for(var a=0;a<window.cmp_customlanguages.length;a++){b.push(window.cmp_customlanguages[a].l.toUpperCase())}}return b};window.cmp_getRTLLangs=function(){var a=["AR"];if("cmp_customlanguages" in window){for(var b=0;b<window.cmp_customlanguages.length;b++){if("r" in window.cmp_customlanguages[b]&&window.cmp_customlanguages[b].r){a.push(window.cmp_customlanguages[b].l)}}}return a};window.cmp_getlang=function(j){if(typeof(j)!="boolean"){j=true}if(j&&typeof(cmp_getlang.usedlang)=="string"&&cmp_getlang.usedlang!==""){return cmp_getlang.usedlang}var g=window.cmp_getsupportedLangs();var c=[];var f=location.hash;var e=location.search;var a="languages" in navigator?navigator.languages:[];if(f.indexOf("cmplang=")!=-1){c.push(f.substr(f.indexOf("cmplang=")+8,2).toUpperCase())}else{if(e.indexOf("cmplang=")!=-1){c.push(e.substr(e.indexOf("cmplang=")+8,2).toUpperCase())}else{if("cmp_setlang" in window&&window.cmp_setlang!=""){c.push(window.cmp_setlang.toUpperCase())}else{if(a.length>0){for(var d=0;d<a.length;d++){c.push(a[d])}}}}}if("language" in navigator){c.push(navigator.language)}if("userLanguage" in navigator){c.push(navigator.userLanguage)}var h="";for(var d=0;d<c.length;d++){var b=c[d].toUpperCase();if(g.indexOf(b)!=-1){h=b;break}if(b.indexOf("-")!=-1){b=b.substr(0,2)}if(g.indexOf(b)!=-1){h=b;break}}if(h==""&&typeof(cmp_getlang.defaultlang)=="string"&&cmp_getlang.defaultlang!==""){return cmp_getlang.defaultlang}else{if(h==""){h="EN"}}h=h.toUpperCase();return h};(function(){var n=document;var p=n.getElementsByTagName;var q=window;var f="";var b="_en";if("cmp_getlang" in q){f=q.cmp_getlang().toLowerCase();if("cmp_customlanguages" in q){for(var h=0;h<q.cmp_customlanguages.length;h++){if(q.cmp_customlanguages[h].l.toUpperCase()==f.toUpperCase()){f="en";break}}}b="_"+f}function g(i,e){var t="";i+="=";var s=i.length;var d=location;if(d.hash.indexOf(i)!=-1){t=d.hash.substr(d.hash.indexOf(i)+s,9999)}else{if(d.search.indexOf(i)!=-1){t=d.search.substr(d.search.indexOf(i)+s,9999)}else{return e}}if(t.indexOf("&")!=-1){t=t.substr(0,t.indexOf("&"))}return t}var j=("cmp_proto" in q)?q.cmp_proto:"https:";if(j!="http:"&&j!="https:"){j="https:"}var k=("cmp_ref" in q)?q.cmp_ref:location.href;var r=n.createElement("script");r.setAttribute("data-cmp-ab","1");var c=g("cmpdesign","cmp_design" in q?q.cmp_design:"");var a=g("cmpregulationkey","cmp_regulationkey" in q?q.cmp_regulationkey:"");var o=g("cmpatt","cmp_att" in q?q.cmp_att:"");r.src=j+"//"+q.cmp_host+"/delivery/cmp.php?"+("cmp_id" in q&&q.cmp_id>0?"id="+q.cmp_id:"")+("cmp_cdid" in q?"&cdid="+q.cmp_cdid:"")+"&h="+encodeURIComponent(k)+(c!=""?"&cmpdesign="+encodeURIComponent(c):"")+(a!=""?"&cmpregulationkey="+encodeURIComponent(a):"")+(o!=""?"&cmpatt="+encodeURIComponent(o):"")+("cmp_params" in q?"&"+q.cmp_params:"")+(n.cookie.length>0?"&__cmpfcc=1":"")+"&l="+f.toLowerCase()+"&o="+(new Date()).getTime();r.type="text/javascript";r.async=true;if(n.currentScript&&n.currentScript.parentElement){n.currentScript.parentElement.appendChild(r)}else{if(n.body){n.body.appendChild(r)}else{var m=p("body");if(m.length==0){m=p("div")}if(m.length==0){m=p("span")}if(m.length==0){m=p("ins")}if(m.length==0){m=p("script")}if(m.length==0){m=p("head")}if(m.length>0){m[0].appendChild(r)}}}var r=n.createElement("script");r.src=j+"//"+q.cmp_cdn+"/delivery/js/cmp"+b+".min.js";r.type="text/javascript";r.setAttribute("data-cmp-ab","1");r.async=true;if(n.currentScript&&n.currentScript.parentElement){n.currentScript.parentElement.appendChild(r)}else{if(n.body){n.body.appendChild(r)}else{var m=p("body");if(m.length==0){m=p("div")}if(m.length==0){m=p("span")}if(m.length==0){m=p("ins")}if(m.length==0){m=p("script")}if(m.length==0){m=p("head")}if(m.length>0){m[0].appendChild(r)}}}})();window.cmp_addFrame=function(b){if(!window.frames[b]){if(document.body){var a=document.createElement("iframe");a.style.cssText="display:none";if("cmp_cdn" in window&&"cmp_ultrablocking" in window&&window.cmp_ultrablocking>0){a.src="//"+window.cmp_cdn+"/delivery/empty.html"}a.name=b;document.body.appendChild(a)}else{window.setTimeout(window.cmp_addFrame,10,b)}}};window.cmp_rc=function(h){var b=document.cookie;var f="";var d=0;while(b!=""&&d<100){d++;while(b.substr(0,1)==" "){b=b.substr(1,b.length)}var g=b.substring(0,b.indexOf("="));if(b.indexOf(";")!=-1){var c=b.substring(b.indexOf("=")+1,b.indexOf(";"))}else{var c=b.substr(b.indexOf("=")+1,b.length)}if(h==g){f=c}var e=b.indexOf(";")+1;if(e==0){e=b.length}b=b.substring(e,b.length)}return(f)};window.cmp_stub=function(){var a=arguments;__cmp.a=__cmp.a||[];if(!a.length){return __cmp.a}else{if(a[0]==="ping"){if(a[1]===2){a[2]({gdprApplies:gdprAppliesGlobally,cmpLoaded:false,cmpStatus:"stub",displayStatus:"hidden",apiVersion:"2.0",cmpId:31},true)}else{a[2](false,true)}}else{if(a[0]==="getUSPData"){a[2]({version:1,uspString:window.cmp_rc("")},true)}else{if(a[0]==="getTCData"){__cmp.a.push([].slice.apply(a))}else{if(a[0]==="addEventListener"||a[0]==="removeEventListener"){__cmp.a.push([].slice.apply(a))}else{if(a.length==4&&a[3]===false){a[2]({},false)}else{__cmp.a.push([].slice.apply(a))}}}}}}};window.cmp_gppstub=function(){var a=arguments;__gpp.q=__gpp.q||[];if(!a.length){return __gpp.q}var g=a[0];var f=a.length>1?a[1]:null;var e=a.length>2?a[2]:null;if(g==="ping"){return{gppVersion:"1.0",cmpStatus:"stub",cmpDisplayStatus:"hidden",apiSupport:["tcfeuv2","tcfva","usnat"],currentAPI:"",cmpId:31}}else{if(g==="addEventListener"){__gpp.e=__gpp.e||[];if(!("lastId" in __gpp)){__gpp.lastId=0}__gpp.lastId++;var c=__gpp.lastId;__gpp.e.push({id:c,callback:f});return{eventName:"listenerRegistered",listenerId:c,data:true,pingData:{gppVersion:"1.0",cmpStatus:"stub",cmpDisplayStatus:"hidden",apiSupport:[],currentAPI:"",cmpId:31}}}else{if(g==="removeEventListener"){var h=false;__gpp.e=__gpp.e||[];for(var d=0;d<__gpp.e.length;d++){if(__gpp.e[d].id==e){__gpp.e[d].splice(d,1);h=true;break}}return{eventName:"listenerRemoved",listenerId:e,data:h}}else{if(g==="hasSection"||g==="getSection"||g==="getField"||g==="getGPPString"){return null}else{__gpp.q.push([].slice.apply(a))}}}}};window.cmp_msghandler=function(d){var a=typeof d.data==="string";try{var c=a?JSON.parse(d.data):d.data}catch(f){var c=null}if(typeof(c)==="object"&&c!==null&&"__cmpCall" in c){var b=c.__cmpCall;window.__cmp(b.command,b.parameter,function(h,g){var e={__cmpReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")})}if(typeof(c)==="object"&&c!==null&&"__uspapiCall" in c){var b=c.__uspapiCall;window.__uspapi(b.command,b.version,function(h,g){var e={__uspapiReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")})}if(typeof(c)==="object"&&c!==null&&"__tcfapiCall" in c){var b=c.__tcfapiCall;window.__tcfapi(b.command,b.version,function(h,g){var e={__tcfapiReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")},b.parameter)}if(typeof(c)==="object"&&c!==null&&"__gppCall" in c){var b=c.__gppCall;window.__gpp(b.command,function(h,g){var e={__gppReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")},b.parameter,"version" in b?b.version:1)}};window.cmp_setStub=function(a){if(!(a in window)||(typeof(window[a])!=="function"&&typeof(window[a])!=="object"&&(typeof(window[a])==="undefined"||window[a]!==null))){window[a]=window.cmp_stub;window[a].msgHandler=window.cmp_msghandler;window.addEventListener("message",window.cmp_msghandler,false)}};window.cmp_setGppStub=function(a){if(!(a in window)||(typeof(window[a])!=="function"&&typeof(window[a])!=="object"&&(typeof(window[a])==="undefined"||window[a]!==null))){window[a]=window.cmp_gppstub;window[a].msgHandler=window.cmp_msghandler;window.addEventListener("message",window.cmp_msghandler,false)}};window.cmp_addFrame("__cmpLocator");if(!("cmp_disableusp" in window)||!window.cmp_disableusp){window.cmp_addFrame("__uspapiLocator")}if(!("cmp_disabletcf" in window)||!window.cmp_disabletcf){window.cmp_addFrame("__tcfapiLocator")}if(!("cmp_disablegpp" in window)||!window.cmp_disablegpp){window.cmp_addFrame("__gppLocator")}window.cmp_setStub("__cmp");if(!("cmp_disabletcf" in window)||!window.cmp_disabletcf){window.cmp_setStub("__tcfapi")}if(!("cmp_disableusp" in window)||!window.cmp_disableusp){window.cmp_setStub("__uspapi")}if(!("cmp_disablegpp" in window)||!window.cmp_disablegpp){window.cmp_setGppStub("__gpp")};</script><script id="jquery-core-js" src="https://www.bild.de/leben-im-alter/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script type="text/rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://www.bild.de/leben-im-alter/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery.resize.min-js" data-rocket-src="https://www.bild.de/leben-im-alter/wp-content/plugins/wlg-google-clickid/js/jquery.resize.min.js?ver=7.1.3" data-rocket-defer defer></script>
+<script id="wlg-google-clickid-js-extra">
+var wlggc = {"site_url":"www.bild.de/leben-im-alter","original_link":"{original_link}","clickid":"{clickId}","http_referer":"","source_to_upload":"","templates":"[{\"id\":\"2\",\"name\":\"bild-scrty.com\",\"search_term\":\"bild-scrty.com\",\"template\":\"{original_link}&s2={clickId}\"}]","pageShortcut":"off","designShortcut":"off","designShortcutMapped":{"hp":"","cp":"","lp":"","mp":"","fr":""},"ajax_url":"https://www.bild.de/leben-im-alter/wp-admin/admin-ajax.php"};
+//# sourceURL=wlg-google-clickid-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="wlg-google-clickid-js" data-rocket-src="https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/plugins/wlg-google-clickid/js/wlg-google-clickid.js?ver=1793022309" data-rocket-defer defer></script>
+<script id="energy-module-script-js-extra">
+var themeSettings = {"ajaxurl":"https://www.bild.de/leben-im-alter/wp-admin/admin-ajax.php","enable_map":"1"};
+//# sourceURL=energy-module-script-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="energy-module-script-js" data-rocket-src="https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/js/app.js?ver=1793022309" data-rocket-defer defer></script>
+<script data-minify="1" id="custom-cmp-js" src="https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/js/custom-cmp.js?ver=1793022309"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="energy-module-b2b-form-block-view-js" data-rocket-src="https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/b2b-form/view.js?ver=1793022309" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="energy-module-inline-form-block-view-js" data-rocket-src="https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/inline-form/view.js?ver=1793022309" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="energy-module-radio-form-block-view-js" data-rocket-src="https://www.bild.de/leben-im-alter/wp-content/cache/min/1/leben-im-alter/wp-content/themes/seniors-module/dist/blocks/radio-form/view.js?ver=1793022309" data-rocket-defer defer></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bild.de/leben-im-alter/xmlrpc.php?rsd" />
+        <style>
+            .icon-star-filled {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M16.62 18.54l-.93-5.68.67-.69 3.28-3.34a1.31 1.31 0 0 0 .36-1A1.23 1.23 0 0 0 19 6.7l-5.47-.83h0L11.07.7a1.1 1.1 0 0 0-.2-.31 1.17 1.17 0 0 0-1.74 0 1.1 1.1 0 0 0-.2.31L6.49 5.87h0L1 6.7A1.23 1.23 0 0 0 0 7.88a1.31 1.31 0 0 0 .36 1l3.28 3.34.67.69-.93 5.68A1.24 1.24 0 0 0 4.56 20a1 1 0 0 0 .28 0 1 1 0 0 0 .27-.11L10 17.17h0l4.89 2.68a1 1 0 0 0 .27.11 1 1 0 0 0 .28 0A1.24 1.24 0 0 0 16.62 18.54Z' style='fill:%23FEC70A'/%3E%3C/svg%3E");
+            }
+            .icon-star-outline {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M16.62 18.54l-.93-5.68.67-.69 3.28-3.34a1.31 1.31 0 0 0 .36-1A1.23 1.23 0 0 0 19 6.7l-5.47-.83h0L11.07.7a1.1 1.1 0 0 0-.2-.31 1.17 1.17 0 0 0-1.74 0 1.1 1.1 0 0 0-.2.31L6.49 5.87h0L1 6.7A1.23 1.23 0 0 0 0 7.88a1.31 1.31 0 0 0 .36 1l3.28 3.34.67.69-.93 5.68A1.24 1.24 0 0 0 4.56 20a1 1 0 0 0 .28 0 1 1 0 0 0 .27-.11L10 17.17h0l4.89 2.68a1 1 0 0 0 .27.11 1 1 0 0 0 .28 0A1.24 1.24 0 0 0 16.62 18.54ZM10 2.66l1.9 4 .42.88.93.14 4.27.65-3.09 3.14-.67.69.16 1 .73 4.43-3.82-2.09L10 15.05l-.83.46L5.35 17.6l.73-4.43.16-1-.67-.69L2.48 8.37l4.27-.65.93-.14L8.1 6.7l1.9-4' style='fill:%23FEC70A'/%3E%3C/svg%3E");
+            }
+            .icon-star-empty {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M16.62 18.54l-.93-5.68.67-.69 3.28-3.34a1.31 1.31 0 0 0 .36-1A1.23 1.23 0 0 0 19 6.7l-5.47-.83h0L11.07.7a1.1 1.1 0 0 0-.2-.31 1.17 1.17 0 0 0-1.74 0 1.1 1.1 0 0 0-.2.31L6.49 5.87h0L1 6.7A1.23 1.23 0 0 0 0 7.88a1.31 1.31 0 0 0 .36 1l3.28 3.34.67.69-.93 5.68A1.24 1.24 0 0 0 4.56 20a1 1 0 0 0 .28 0 1 1 0 0 0 .27-.11L10 17.17h0l4.89 2.68a1 1 0 0 0 .27.11 1 1 0 0 0 .28 0A1.24 1.24 0 0 0 16.62 18.54Z' style='fill:%23FEC70A'/%3E%3C/svg%3E");
+            }
+        </style>
+        <script type="text/rocketlazyloadscript" data-rocket-type="text/javascript" id="heyflow-localization-script">/* <![CDATA[ */var theme = {"ajaxurl":"https:\/\/www.bild.de\/leben-im-alter\/wp-admin\/admin-ajax.php","error_message_send_otp_personal_info_failed":"Fehler beim Senden des Einmalpassworts von pers\u00f6nlichen Informationen. Bitte versuchen Sie es erneut.","error_message_send_otp_update_phone_failed":"","error_message_resend_code_failed":"Fehler beim erneuten Senden des Codes. Bitte versuchen Sie es erneut.","resend_code_text":"Sie haben den Code nicht erhalten?","resend_code_button_text":"PIN erneut senden","countdown_text":"PIN erneut senden: ","resend_code_voice_button_text":"PIN-Code per Anruf erhalten?"};/* ]]> */</script>        <script nowprocket id="init-matomo-for-heyflow" type="text/javascript">
+        (function() {
+            // Init script for Matomo with custom CMP handling
+            if (typeof _paq === 'undefined') {
+                var _paq = (window._paq = window._paq || []);
+            }
+            _paq.push(['setRequestMethod', 'POST']);
+            _paq.push(['HeatmapSessionRecording::disableAutoDetectNewPageView']);
+
+            // Prevent double-patching if script is somehow loaded twice
+            if (window.wlxHeyflowFetchPatched) return;
+            window.wlxHeyflowFetchPatched = true;
+
+            const originalFetch = window.fetch;
+
+            window.siteUrl = 'https://www.bild.de/leben-im-alter';
+            window.hideMetaCAPIEndpoint = window.siteUrl + '/wp-json/healthcheck/v1/ping';
+
+            window.fetch = async function(...args) {
+
+                let [resource, config = {}] = args;
+
+                // Normalize URL (string or Request object)
+                const url = typeof resource === 'string' ? resource : resource.url;
+
+                const response = await originalFetch(...args);
+
+                // Check if the request URL is the one fetching the HTML content
+                if (url.includes('mini-serve.prd.heyflow.com')) {
+                    let text = await response.text(); // Read response as text
+
+                    // Parse and modify elements directly if needed
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(text, 'text/html');
+
+                    // Remove script tags containing "trackPageView"
+                    const scriptTags = doc.querySelectorAll('script');
+                    scriptTags.forEach((script) => {
+
+                        // Intercept Matomo tracking scripts
+                        if (script.textContent.includes('trackPageView')) {
+                            script.setAttribute('type', 'text/plain');
+                            script.classList.add('matomo-lazyload');
+                            script.setAttribute('data-heyflow-matomo', 'true');
+
+                            // Resolve tracker URL and site ID; prefer explicit globals,
+                            // fall back to the already-initialised Matomo tracker instance.
+                            let resolvedTrackerUrl = (typeof window.MatomoUrl !== 'undefined') ? window.MatomoUrl : null;
+                            let resolvedSiteId    = (typeof window.MatomoSiteId !== 'undefined') ? window.MatomoSiteId : null;
+
+                            if (!resolvedTrackerUrl || !resolvedSiteId) {
+                                try {
+                                    const tracker = window.Matomo && window.Matomo.getAsyncTracker();
+                                    if (tracker) {
+                                        if (!resolvedTrackerUrl) resolvedTrackerUrl = tracker.getTrackerUrl();
+                                        if (!resolvedSiteId)    resolvedSiteId    = String(tracker.getSiteId());
+                                    }
+                                } catch (e) {}
+                            }
+
+                            // Guard: if we still cannot resolve valid values, discard Heyflow's
+                            // tracker script entirely — do NOT inject an empty tracker config.
+                            if (!resolvedTrackerUrl || !resolvedSiteId) {
+                                script.remove();
+                                return;
+                            }
+
+                            // Replace var u="..." with the resolved tracker URL
+                            script.textContent = script.textContent.replace(
+                                /var\s+u\s*=\s*['"]?[^'"]*['"]?;/,
+                                'var u=' + JSON.stringify(resolvedTrackerUrl) + ';'
+                            );
+
+                            // Replace setSiteId value with the resolved site ID
+                            script.textContent = script.textContent.replace(
+                                /_paq\.push\(\['setSiteId',\s*['"]?[^'"]*['"]?\]\);/,
+                                "_paq.push(['setSiteId', " + JSON.stringify(resolvedSiteId) + "]);"
+                            );
+
+                            // Modify the initialization of _paq to safely check for its existence
+                            script.textContent = script.textContent.replace(
+                                /var\s+_paq\s*=\s*window\._paq\s*=\s*window\._paq\s*\|\|\s*\[\];/,
+                                '(function() { if( window.heyflowMatomoInjected ) return; if( typeof _paq === \'undefined\' ) var _paq = ( window._paq = window._paq || [] ); window.heyflowMatomoInjected = true;'
+                            );
+
+                            // Because we add (function() { ... }, we need to close it at the end
+                            script.textContent += '\n})();';
+
+                            // Clone the script element to append it later
+                            const scriptClone = script.cloneNode(true);
+
+                            // Append scriptClone to doc
+                            doc.documentElement.appendChild(scriptClone);
+
+                            script.remove();
+                        }
+
+                        // Intercept Meta CAPI endpoint
+                        if (script.textContent.includes('"https://functions.prd.heyflow.com/metacapi"')) {
+                            script.textContent = script.textContent.replace(
+                                /https:\/\/functions\.prd\.heyflow\.com\/metacapi/g,
+                                window.hideMetaCAPIEndpoint
+                            );
+                        }
+                    });
+
+                    // Set a flag to indicate Matomo is ready
+                    window.heyflowMatomoReady = true;
+
+                    // Convert back to string and return new response
+                    return new Response(doc.documentElement.outerHTML, {
+                        status: response.status,
+                        headers: response.headers,
+                    });
+
+                }
+
+                return response; // If not the target URL, return as is
+            };
+        })();
+        </script>
+<link rel="icon" href="https://www.bild.de/leben-im-alter/wp-content/uploads/2024/08/cropped-bild-logo-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.bild.de/leben-im-alter/wp-content/uploads/2024/08/cropped-bild-logo-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.bild.de/leben-im-alter/wp-content/uploads/2024/08/cropped-bild-logo-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.bild.de/leben-im-alter/wp-content/uploads/2024/08/cropped-bild-logo-1-270x270.png" />
+<style id="wp-custom-css">
+.page-adv-disclosure {
+	font-size: 12px;
+}
+
+.page-footer__menu li {
+	font-weight: 400;
+}
+
+.page-footer__menu li::after {
+	content: none;
+}
+
+.page-header--v4 .page-container.page-header__content-wrapper {
+	box-shadow: none !important;
+}
+</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+    <style>
+        ul[style*="list-style-type: square;"] li,
+        ol[style*="list-style-type: square;"] li {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        ul[style*="list-style-type: square;"] li,
+        ol[style*="list-style-type: square;"] li {
+            padding-left: 28px;
+        }
+
+        ul[style*="list-style-type: square;"] li::before,
+        ol[style*="list-style-type: square;"] li::before {
+            width: 22px;
+            height: 22px;
+            background-size: 22px;
+        }
+    </style>
+
+<style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.23.3.3" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_images wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_minify_css wpr_cdn wpr_desktop" /></head>
+
+
+<body class="wp-singular page-template-default page page-id-11197 page-child parent-pageid-8702 wp-theme-seniors-module" >
+
+    <input id="subid" type="hidden" value="bild_seniors">    <header  class="page-header page-header--v4">
+        <div  class="page-container page-header__content-wrapper">
+            <div  class="page-header__logo">
+                                    <a href="https://www.bild.de/" role="button" aria-pressed="false" aria-label="Bild Logo">
+                        <img class="no-lazy" src="https://www.bild.de/leben-im-alter/wp-content/uploads/2024/08/bild-logo-1.png" alt="" width="148" height="148" aspect-ratio="1" />
+                    </a>
+                            </div>
+
+            <div  class="page-header__right">
+                                    <div class="page-header__partner-service-hint">
+                        Ein Service von WLX                    </div>
+                
+                <button class="page-header__content__menu-btn" role="button" aria-label="Open" aria-labelledby="menu" aria-pressed="false" rel="dofollow">
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
+                        <path d="M14 29V27H32V29H14ZM14 24V22H32V24H14ZM14 19V17H32V19H14Z" fill="currentColor" />
+                    </svg>
+                </button>
+
+                                    <nav class="page-header__nav" aria-label="Hauptnavigation">
+                        <ul id="menu-bild-secondary-header-menu" class="nav-list nav-list--main nav-list--main--desktop navi__links__main page-header__secondary_menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://www.bild.de/leben-im-alter/hilfsmittel">Hilfsmittel</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/seniorennotruf">Notruf &#038; Sicherheit</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/notfallarmband-senioren">Notfallarmband für Senioren</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/hausnotruf">Hausnotruf-Anbieter</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/hausnotruf-kosten">Hausnotruf-Kosten</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/rollator">Rollator</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/e-rollstuhl">E-Rollstuhl</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen">Barrierefreies Wohnen</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/badezimmer">Badezimmer</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/badumbau">Badumbau</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/badewanne-raus-dusche-rein">Badewanne raus, Dusche rein</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift">Treppenlift</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift-fuer-schmale-treppen">Treppenlift für schmale Treppen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/homelift">Homelift</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://www.bild.de/leben-im-alter/pflege">Pflege</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/pflegegeld">Pflegegeld</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/haushaltshilfe">Haushaltshilfe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/rentenpunkte-fuer-pflege">Rentenpunkte für Pflege</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/24-stunden-pflege">24-Stunden-Pflege</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/polnische-pflegekraefte">Polnische Pflegekräfte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/verhinderungspflege">Verhinderungspflege</a></li>
+</ul>
+</li>
+</ul>                    </nav>
+                
+                                    <div class="page-header__content__sidebar-menu">
+                        <button class="page-header__content__menu-btn-close" role="button" aria-label="Close" aria-labelledby="menu" aria-pressed="false" rel="dofollow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                            </svg>
+                        </button>
+                        <ul id="menu-bild-mobile-menu" class="page-header__bild_mobile_menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://www.bild.de/leben-im-alter/hilfsmittel">Hilfsmittel</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/seniorennotruf">Notruf &amp; Sicherheit</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/hausnotruf">Hausnotruf-Anbieter</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/hausnotruf-kosten">Hausnotruf-Kosten</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/rollator">Rollator</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/hilfsmittel/e-rollstuhl">E-Rollstuhl</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen">Barrierefreies Wohnen</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/badezimmer">Badezimmer</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/badumbau">Badumbau</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/badewanne-raus-dusche-rein">Badewanne raus, Dusche rein</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift">Treppenlift</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift-fuer-schmale-treppen">Treppenlift für schmale Treppen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/homelift">Homelift</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://www.bild.de/leben-im-alter/pflege">Pflege</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/pflegegeld">Pflegegeld</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/haushaltshilfe">Haushaltshilfe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/rentenpunkte-fuer-pflege">Rentenpunkte für Pflege</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/24-stunden-pflege">24-Stunden-Pflege</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/polnische-pflegekraefte">Polnische Pflegekräfte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.bild.de/leben-im-alter/pflege/verhinderungspflege">Verhinderungspflege</a></li>
+</ul>
+</li>
+</ul>                    </div>
+                    <div class="page-header__content__sidebar-menu-ovl"></div>
+                            </div>
+        </div>
+    </header>
+
+    <div  class="content-wrapper" style="min-height: 900px;">
+                                    <div  class="subnav-bar page-container page-breadcrumbs">
+                    <nav id="breadcrumbs" class="subnav breadcrumb">	<a href="https://www.bild.de/">BILD</a>
+<span><span><a href="https://www.bild.de/leben-im-alter/">Leben im Alter</a></span>  <span><a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen">Barrierefreies Wohnen</a></span>  <span class="breadcrumb_last" aria-current="page">Plattformlift</span></span></nav>                </div>
+            
+            <div  class="page-container page-info">
+                                    <p class="eyebrow">Preise und Zuschüsse</p>
+                                                    <h1 id="plattformlift-2026-kosten-modelle-und-anbieter-fuer-rollstuhl-und-rollator">Plattformlift 2026: Kosten, Modelle und Anbieter für Rollstuhl und Rollator</h1>
+                                
+                                    <div  class="page-info__toc-mobile">
+                            <div class="table-of-contents theme-shortcode">
+        <div class="table-of-contents__title h4" role="button" aria-pressed="false">
+            <strong>Inhalt</strong>
+        </div>
+
+        <div class="table-of-contents__list-wrap">
+            <ul class="table-of-contents__list"></ul>
+
+                            <button class="table-of-contents__see-more" role="button" aria-pressed="false">
+                    Mehr anzeigen                </button>
+            
+                            <button class="table-of-contents__see-less" role="button" aria-pressed="false">
+                    Weniger anzeigen                </button>
+            
+        </div>
+    </div>
+                    </div>
+
+                                            <figure class="page-info__feature-image">
+                            <img fetchpriority="high" width="992" height="558" src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39.webp" class="attachment-full size-full" alt="Mann im Rollstuhl nutzt Plattformlift" decoding="async" srcset="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39.webp 992w, https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39-300x169.webp 300w, https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-39-768x432.webp 768w" sizes="(max-width: 992px) 100vw, 992px" />                                                            <figcaption>Der Rollstuhl bleibt stehen, die Plattform fährt an der Schiene die Treppe hinauf. Umsteigen muss niemand – das ist der Unterschied zum Sitzlift.</figcaption>
+                                                    </figure>
+                                                </div>
+                <!--  Show Content Body -->
+
+
+
+<main  class="main-content">
+    <div  class="page-container page-content page-content-default-template">
+        <div class="main-content-area">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><head>    </head><body><div class="page-author-info-block theme-block wp-block-module-blocks-author-info">
+            <a href="https://www.bild.de/leben-im-alter/autorenseite/carolin-makus" class="page-author-info-block__author">
+                    <div class="page-author-info-block__avatar">
+                <img decoding="async" width="48" height="48" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2048%2048'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail" alt="Carolin Makus Profilbild" data-lazy-src="https://www.bild.de/leben-im-alter/wp-content/uploads/author-1-avatar.png"><noscript><img decoding="async" width="48" height="48" src="https://www.bild.de/leben-im-alter/wp-content/uploads/author-1-avatar.png" class="attachment-thumbnail size-thumbnail" alt="Carolin Makus Profilbild"></noscript>            </div>
+                <div class="page-author-info-block__name">
+            Carolin                            <br>Makus                    </div>
+    </a>
+                            <div class="page-author-info-block__last-modified">
+                Letzte Aktualisierung: 05.10.2026            </div>
+            </div>
+
+
+
+<p class="wp-block-paragraph">Ein Sitzlift setzt voraus, dass die Person aufsteht, sich umsetzt und während der Fahrt sitzen bleibt. Für viele Rollstuhlfahrende scheitert die übliche Lösung genau daran. Ein Plattformlift, also ein Treppenlift mit Plattform, löst das anders: Er fährt auf einer maßgefertigten Schiene entlang der Treppe, der Rollstuhl bleibt besetzt auf der Plattform stehen. In Suchmaschinen und Prospekten heißt diese Bauart meist Rollstuhllift, gemeint ist dasselbe Produkt.</p>
+
+
+
+<p class="wp-block-paragraph">Dafür braucht ein Plattformlift mehr Platz als ein Sitzlift, und er kostet deutlich mehr. Im Gegenzug bringt er Mobilität in den Alltag zurück: Treppen sind keine Hindernisse mehr, die sich nur mit fremder Hilfe überwinden lassen. Was die Anlage kostet, wie breit die Treppe sein muss und was die Pflegekasse zahlt: die wichtigsten Antworten im Überblick.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+	<div class="page-key-facts-block theme-block wp-block-module-blocks-key-facts">
+		<div class="page-key-facts-block__inner">
+							<h2 class="page-key-facts-block__heading" id="das-wichtigste-in-kuerze">Das Wichtigste in Kürze</h2>
+			
+			
+							<ul class="page-key-facts-block__list">
+											<li class="page-key-facts-block__item">
+							<span class="page-key-facts-block__icon" aria-hidden="true"></span>
+							<div class="page-key-facts-block__body">
+																	<div class="page-key-facts-block__text">Anbieter mit veröffentlichten Richtpreisen nennen für Plattformlifte ab 10.300 € an geraden und ab 16.500 € an kurvigen Treppen, nach oben reicht die Spanne bis 38.000 €.</div>
+																							</div>
+						</li>
+											<li class="page-key-facts-block__item">
+							<span class="page-key-facts-block__icon" aria-hidden="true"></span>
+							<div class="page-key-facts-block__body">
+																	<div class="page-key-facts-block__text">Die Pflegekasse bezuschusst den Einbau mit bis zu 4.180 € je Maßnahme, bereits ab Pflegegrad 1.<br></div>
+																							</div>
+						</li>
+											<li class="page-key-facts-block__item">
+							<span class="page-key-facts-block__icon" aria-hidden="true"></span>
+							<div class="page-key-facts-block__body">
+																	<div class="page-key-facts-block__text">Die KfW fördert Plattformlifte im Programm 455-B mit 10 %, höchstens 2.500 €, für dieselbe Maßnahme nicht kombinierbar mit dem Pflegekassenzuschuss.</div>
+																							</div>
+						</li>
+											<li class="page-key-facts-block__item">
+							<span class="page-key-facts-block__icon" aria-hidden="true"></span>
+							<div class="page-key-facts-block__body">
+																	<div class="page-key-facts-block__text">Im privaten Bereich nennt Lifta 90 cm Mindesttreppenbreite bei geraden und 100 cm bei kurvigen Treppen.</div>
+																							</div>
+						</li>
+											<li class="page-key-facts-block__item">
+							<span class="page-key-facts-block__icon" aria-hidden="true"></span>
+							<div class="page-key-facts-block__body">
+																	<div class="page-key-facts-block__text">Gängige Plattformen tragen bis zu 300 kg und messen im Standard 70 x 75 cm bis 80 x 100 cm.</div>
+																							</div>
+						</li>
+									</ul>
+					</div>
+	</div>
+	
+
+    <div class="page-inline-form-block theme-block wp-block-module-blocks-inline-form" id="treppenlift-angebote" data-html-code="&lt;heyflow-wrapper flow-id=&quot;ItqRAsrXKmuAm9tjnp6I&quot; style-config='{&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;600px&quot;}'&gt;&lt;/heyflow-wrapper&gt;" data-first-step-screen-name="lift-type" data-reqid-input-screen-name="email">
+                    <h2 class="page-inline-form-block__heading page-inline-form-block__heading--decorative">
+                Unsicher, welcher Lift auf Ihre Treppe passt? Vergleichen Sie unverbindlich Anbieter für <br><span class="page-inline-form-block__heading-accent">Plattformlifte</span>            </h2>
+        
+        <div class="page-inline-form-block__content">
+
+                            <a rel="nofollow" data-tracking-action="c2a-url" data-post="0" data-title="Plattformlift 2026: Kosten, Modelle und Anbieter für Rollstuhl und Rollator" target="_blank" href="https://www.bild.de/leben-im-alter/go/treppenlift-form" class="page-inline-form-block__tracking-link"></a>
+            
+            <div class="page-inline-form-block__dropdown page-inline-form-block__html-code" style="border-radius: 16px; overflow: hidden;">
+                <heyflow-wrapper flow-id="ItqRAsrXKmuAm9tjnp6I" style-config='{"width":"100%","height":"600px"}'></heyflow-wrapper>            </div>
+        </div>
+    </div>
+
+
+<div class="page-adv-disclosure"><div>ⓘ <strong>Transparenzhinweis:</strong></div><div>Wenn Sie unser Formular ausfüllen, leiten wir Ihre Anfrage an bis zu drei passende Anbieter weiter. Für Sie entstehen dabei <strong>keine zusätzlichen Kosten</strong>. Details finden Sie in unserer <a href="https://www.bild.de/leben-im-alter/datenschutz">Datenschutzerklärung</a>.</div></div>
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<h2 id="plattformlift-kosten-2026-preise-nach-einsatzsituation" class="wp-block-heading">Plattformlift-Kosten 2026: Preise nach Einsatzsituation</h2>
+
+
+
+<p class="wp-block-paragraph">Plattformlift-Preise beginnen bei 10.300 €. Der Eigenanteil ergibt sich aus dem Einstiegspreis abzüglich des vollen Pflegekassenzuschusses.</p>
+
+
+    <div class="page-information-table-block theme-block wp-block-module-blocks-information-table">
+        <div class="page-information-table-block__content">
+            <div class="page-information-table-block__table page-information-table-block__table--many-columns">
+                                    <table>
+                        <thead>
+                            <tr>
+                                                                                                            <th>Einsatzsituation</th>
+                                                                            <th><strong>Geeignet für</strong></th>
+                                                                            <th><strong>Typische Kosten ab</strong></th>
+                                                                            <th>Zuschuss Pflegekasse</th>
+                                                                            <th>Eigenanteil ab</th>
+                                                                                                </tr>
+                        </thead>
+                        <tbody>
+                                                            <tr>
+                                                                                                                        <td>Gerade Treppe, innen</td>
+                                                                                    <td>Rollstuhl, Rollator</td>
+                                                                                    <td>10.300 € bis 11.990 €</td>
+                                                                                    <td>bis 4.180 €</td>
+                                                                                    <td>6.120 €</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Kurvige Treppe, innen</td>
+                                                                                    <td>Rollstuhl, Rollator</td>
+                                                                                    <td>16.500 € bis 19.000 €</td>
+                                                                                    <td>bis 4.180 €</td>
+                                                                                    <td>12.320 €</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Gerade Treppe, außen</td>
+                                                                                    <td>Hauseingang, Terrasse</td>
+                                                                                    <td>11.000 €</td>
+                                                                                    <td>bis 4.180 €</td>
+                                                                                    <td>6.820 €</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Kurvige Treppe, außen</td>
+                                                                                    <td>Hauseingang mit Podest</td>
+                                                                                    <td>21.000 €</td>
+                                                                                    <td>bis 4.180 €</td>
+                                                                                    <td>16.820 €</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Schmale Treppe (unter 90 cm)</td>
+                                                                                    <td>eingeschränkte Laufbreite</td>
+                                                                                    <td>Plattformlift in der Regel nicht möglich</td>
+                                                                                    <td>entfällt</td>
+                                                                                    <td>entfällt</td>
+                                                                                                            </tr>
+                                                    </tbody>
+                    </table>
+                            </div>
+                    </div>
+    </div>
+
+
+
+<p class="wp-block-paragraph"><em>Preise geprüft am 09.09.2026, inklusive Montage. Die Tabelle zeigt Einstiegspreise; lange, kurvige Anlagen über mehrere Etagen reichen bis 38.000 €. Verbindlich wird der Preis erst nach dem Aufmaß.</em></p>
+
+
+
+<p class="wp-block-paragraph">Der Preis eines Plattform-Treppenlifts hängt vor allem von Länge und Verlauf der Schiene ab: Jede Kurve, jedes Zwischenpodest und jede weitere Etage bedeutet mehr Maßarbeit. Hinzu kommen Einsatzort, Plattformgröße, Tragkraft und beim Außenlift auch die wetterfeste Bauweise.</p>
+
+
+
+<h2 id="was-kostet-ein-plattformlift-von-lifta-hiro-oder-garaventa" class="wp-block-heading">Was kostet ein Plattformlift von Lifta, HIRO oder Garaventa?</h2>
+
+
+
+<p class="wp-block-paragraph">Rollstuhllift-Preise nennen nicht alle Hersteller. Die Tabelle zeigt nur Angaben, die auf den Anbieterseiten tatsächlich stehen.</p>
+
+
+    <div class="page-information-table-block theme-block wp-block-module-blocks-information-table">
+        <div class="page-information-table-block__content">
+            <div class="page-information-table-block__table page-information-table-block__table--few-columns page-information-table-block__table--three-four-columns">
+                                    <table>
+                        <thead>
+                            <tr>
+                                                                                                            <th>Anbieter</th>
+                                                                            <th><strong>Preisangabe Plattformlift</strong></th>
+                                                                            <th>Stand und Quelle</th>
+                                                                                                </tr>
+                        </thead>
+                        <tbody>
+                                                            <tr>
+                                                                                                                        <td>Lifta (Modelle Plateau Linea für gerade, Plateau Flexa für kurvige Treppen)</td>
+                                                                                    <td>gerade innen und außen ab 11.000 €, kurvig innen ab 19.000 €, kurvig außen ab 21.000 €</td>
+                                                                                    <td>09.09.2026, lifta.de</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>HIRO Lift</td>
+                                                                                    <td>11.000 € bis 38.000 €</td>
+                                                                                    <td>09.09.2026, hiro.de</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Garaventa Lift</td>
+                                                                                    <td>gerade ab 10.300 €, kurvig ab 16.500 €, inklusive Montage und 19 % Mehrwertsteuer</td>
+                                                                                    <td>09.09.2026, garaventalift.de</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Perfekta Lift</td>
+                                                                                    <td>gerade Treppe ab rund 15.000 €</td>
+                                                                                    <td>09.09.2026, perfekta-lift.de</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Sani-trans</td>
+                                                                                    <td>gerade Treppe 11.990 € bis 18.000 €, kurvige Treppe 15.990 € bis 28.000 €</td>
+                                                                                    <td>09.09.2026, sani-trans.de</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Cibes Lift</td>
+                                                                                    <td>keine Angabe zu treppengebundenen Liften; senkrechter Lift über zwei Etagen 30.000 € bis 40.000 € brutto</td>
+                                                                                    <td>09.09.2026, cibeslift.com</td>
+                                                                                                            </tr>
+                                                    </tbody>
+                    </table>
+                            </div>
+                    </div>
+    </div>
+
+
+
+<p class="wp-block-paragraph">Überregionale Anbieter sind damit Lifta, HIRO Lift, Garaventa Lift, Perfekta Lift und sani-trans, dazu kommen regionale Fachbetriebe. Cibes Lift meint mit „Plattformlift“ senkrecht fahrende Anlagen mit Schacht, also eher einen kleinen Aufzug. Festpreise nennt kaum ein Hersteller, weil jede Treppe vermessen wird. Es lohnt sich, zwei bis drei Angebote zu vergleichen.</p>
+
+
+
+<h2 id="plattformlift-kaufen-mieten-oder-gebraucht" class="wp-block-heading">Plattformlift kaufen, mieten oder gebraucht?</h2>
+
+
+
+<p class="wp-block-paragraph"><strong>Kauf:</strong> Der übliche Weg, teuer, aber dauerhaft.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Miete:</strong> Sinnvoll bei absehbar begrenztem Bedarf, zum Beispiel nach einer Operation. Lifta nennt für Treppenlifte Monatsraten ab 98 € bei 36 Monaten Mindestlaufzeit plus Anzahlung. Eigene Mietpreise für Plattformlifte veröffentlicht der Anbieter nicht.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Gebraucht:</strong> Einen Plattformlift gebraucht zu kaufen klingt verlockend, hat aber eine harte Grenze. Die Schiene wird für eine bestimmte Treppe gefertigt und macht einen großen Teil des Preises aus. Eine gebrauchte Anlage passt deshalb fast nie ohne Neuanfertigung.</p>
+
+
+    <div style="--our-tip-background-color: #F7F7F7;--our-tip-border-radius: 8px;--our-tip-border-width: 1px;--our-tip-border-color: #DCDCDC;--our-tip-heading-color: #212529;--our-tip-text-color: #212529" class="page-our-tip-block theme-block wp-block-module-blocks-our-tip">
+        <div class="page-our-tip-block__content">
+            <div class="page-our-tip-block__icon"></div>
+            <div class="page-our-tip-block__heading">Gut zu wissen</div>
+            <div class="page-our-tip-block__text">
+                <p>Wartung: sani-trans empfiehlt sie alle ein bis zwei Jahre, Perfekta Lift jährlich und nennt für den Wartungsvertrag rund 300 € pro Jahr. Auf die Antriebseinheit gibt sani-trans zehn Jahre Garantie.<span id="docs-internal-guid-71dbd3c6-7fff-bacc-9d67-5098c34c0a9a"><div><span style="font-size: 11pt;font-family: Calibri, sans-serif;background-color: transparent;font-variant: normal;vertical-align: baseline"></span></div></span></p>            </div>
+        </div>
+    </div>
+
+
+
+<h2 id="zuschuss-der-pflegekasse-was-bleibt-als-eigenanteil" class="wp-block-heading">Zuschuss der Pflegekasse: Was bleibt als Eigenanteil?</h2>
+
+
+
+<p class="wp-block-paragraph">Rechtsgrundlage ist § 40 Abs. 4 SGB XI, die Regelung zu <a href="https://www.bild.de/leben-im-alter/pflege/wohnumfeldverbessernde-massnahmen">wohnumfeldverbessernden Maßnahmen</a>. Die Pflegekasse zahlt bis zu 4.180 € je Maßnahme. Leben mehrere pflegebedürftige Personen in einer Wohnung, steht der Betrag jeder Person zu, gedeckelt auf 16.720 € je Maßnahme. Zu den Voraussetzungen gehört ein anerkannter Pflegegrad, bereits Pflegegrad 1 genügt.</p>
+
+
+
+<p class="wp-block-paragraph">Der Zuschuss gilt je Maßnahme, nicht je Person und Jahr. Ein späterer Umbau ist ein neuer Antrag.</p>
+
+
+
+<h3 id="so-lauft-der-antrag-bei-der-pflegekasse" class="wp-block-heading">So läuft der Antrag bei der Pflegekasse</h3>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Kostenvoranschlag einholen</strong> beim Fachbetrieb.</li>
+
+
+
+<li><strong>Antrag stellen</strong>, bevor Sie den Auftrag vergeben. Ein formloses Schreiben genügt meist.</li>
+
+
+
+<li><strong>Bedarf begründen</strong>: Der Lift muss die häusliche Pflege ermöglichen, erleichtern oder die Selbstständigkeit fördern.</li>
+
+
+
+<li><strong>Entscheidung abwarten</strong>. Die Pflegekasse entscheidet innerhalb von drei Wochen, mit Medizinischem Dienst innerhalb von fünf Wochen.</li>
+
+
+
+<li><strong>Auftrag vergeben</strong> und die Rechnung danach einreichen.</li>
+</ol>
+
+
+
+<h3 id="kfw-forderung-2026-zuschuss-455-b-und-kredit-159" class="wp-block-heading">KfW-Förderung 2026: Zuschuss 455-B und Kredit 159</h3>
+
+
+
+<p class="wp-block-paragraph">Im Programm 455-B sind Anträge wieder möglich: 10 % der förderfähigen Kosten bis höchstens 2.500 €, beim Standard Altersgerechtes Haus 12,5 % bis 6.250 €. Der Antrag muss vor dem Abschluss von Liefer- und Leistungsverträgen im KfW-Zuschussportal gestellt werden. Ohne Pflegegrad bleibt der zinsverbilligte KfW-Kredit 159.</p>
+
+
+    <div style="--our-tip-background-color: #F7F7F7;--our-tip-border-radius: 8px;--our-tip-border-width: 1px;--our-tip-border-color: #DCDCDC;--our-tip-heading-color: #212529;--our-tip-text-color: #212529" class="page-our-tip-block theme-block wp-block-module-blocks-our-tip">
+        <div class="page-our-tip-block__content">
+            <div class="page-our-tip-block__icon"></div>
+            <div class="page-our-tip-block__heading">Pflegekasse oder KfW? Der Unterschied</div>
+            <div class="page-our-tip-block__text">
+                <p>Beide Töpfe für dieselbe Maßnahme sind ausgeschlossen, die Aufteilung nicht: Badumbau über die Pflegekasse, Lift über die KfW. Zuständig für § 40 SGB XI ist die Pflegekasse, nicht die Krankenkasse.</p>            </div>
+        </div>
+    </div>
+
+
+    <div style="--our-tip-background-color: #F7F7F7;--our-tip-border-radius: 8px;--our-tip-border-width: 1px;--our-tip-border-color: #DCDCDC;--our-tip-heading-color: #212529;--our-tip-text-color: #212529" class="page-our-tip-block theme-block wp-block-module-blocks-our-tip">
+        <div class="page-our-tip-block__content">
+            <div class="page-our-tip-block__icon"></div>
+            <div class="page-our-tip-block__heading">Ein Rechenbeispiel</div>
+            <div class="page-our-tip-block__text">
+                <p>Angebot für eine kurvige Treppe innen: 16.500 €. Abzüglich 4.180 € von der Pflegekasse bleiben 12.320 € Eigenanteil. Ohne Pflegegrad brächte der KfW-Zuschuss 1.650 €, der Eigenanteil läge bei 14.850 €.</p>            </div>
+        </div>
+    </div>
+
+
+
+<h2 id="plattformlift-innen-oder-aussen-was-ist-der-unterschied" class="wp-block-heading">Plattformlift innen oder außen: Was ist der Unterschied?</h2>
+
+
+
+<p class="wp-block-paragraph">Was kostet ein Plattformlift außen? Bei geraden Treppen nicht mehr als innen: Lifta nennt innen wie außen ab 11.000 €. Bei kurvigen Anlagen steigt der Außenpreis von 19.000 € auf 21.000 €, die Wetterbeständigkeit schlägt also weniger durch als vermutet.</p>
+
+
+
+<p class="wp-block-paragraph">Im Außenbereich steht der Lift dauerhaft im Wetter. Die Schiene kommt deshalb verzinkt und pulverbeschichtet oder in Edelstahl, dazu Schutzhaube, rutschhemmender Belag und optional eine Abdeckhaube für die geparkte Anlage. Entwässerung und Frostsicherheit der Standfläche gehören zum Aufmaß.</p>
+
+
+
+<p class="wp-block-paragraph">Draußen geht es meist um wenige Stufen zum Hauseingang oder zur Terrasse, also um den barrierefreien Zugang zum Haus, dort lohnt der Vergleich mit einem Hublift. Ob Rollstuhllift innen oder außen, die Technik ist überall einsetzbar: Ein Rollstuhllift außen braucht Witterungsschutz, im Innenbereich zählt der Platz. Die Plattform klappt platzsparend an die Wand, bedient wird per Funkfernbedienung, Handbedienteil oder Joystick.</p>
+
+
+
+<h2 id="plattformlift-fur-rollstuhlfahrer-worauf-es-beim-rollstuhllift-ankommt" class="wp-block-heading">Plattformlift für Rollstuhlfahrer: Worauf es beim Rollstuhllift ankommt</h2>
+
+
+
+<p class="wp-block-paragraph">Speziell für Rollstühle geeignet sind zwei Bauarten von Rollstuhlliften: der Rollstuhl-Plattformlift entlang der Treppe und der Hublift, auch Rollstuhl-Hebebühne genannt, für geringe Höhen. Wer einen Rollstuhllift für die Treppe sucht, meint deshalb meist den Plattformlift.</p>
+
+
+
+<p class="wp-block-paragraph">Auch Menschen mit <a href="https://www.bild.de/leben-im-alter/hilfsmittel/rollator">Rollatoren</a> oder <a href="https://www.bild.de/leben-im-alter/hilfsmittel/gehhilfe">Gehhilfen</a> nutzen die Plattform, weil sie ihr Hilfsmittel mitnehmen können, optional mit Klappsitz. Bei Rollstuhlfahrern entfällt das Umsetzen, das bringt Selbstständigkeit und Lebensqualität zurück. Auf dem Plateau sorgen mehrere Bauteile für Sicherheit:</p>
+
+
+
+<p class="wp-block-paragraph">➤ Auffahrrampen klappen zum Auffahren herunter und während der Fahrt hoch.</p>
+
+
+
+<p class="wp-block-paragraph">➤ Sicherheitsbügel an den Seiten dienen zugleich als Haltegriffe.</p>
+
+
+
+<p class="wp-block-paragraph">➤ Der Belag ist rutschhemmend ausgeführt.</p>
+
+
+
+<p class="wp-block-paragraph">➤ Notstopp und Notruf gehören zur Grundausstattung.</p>
+
+
+
+<p class="wp-block-paragraph">➤ Ein Akku hält den Lift bei Stromausfall betriebsbereit.</p>
+
+
+
+<p class="wp-block-paragraph">Gängige Plattformen tragen bis zu 300 kg, also auch schwere Elektrorollstühle und Lasten wie Gepäck. Gefahren wird langsam: Der Plateau Flexa fährt mit 0,06 bis 0,1 m/s, die Maschinenrichtlinie 2006/42/EG erlaubt für diese Bauart weniger als 0,15 m/s. Für eine Etage sind das rund ein bis anderthalb Minuten.</p>
+
+
+    <div style="--our-tip-background-color: #F7F7F7;--our-tip-border-radius: 8px;--our-tip-border-width: 1px;--our-tip-border-color: #DCDCDC;--our-tip-heading-color: #212529;--our-tip-text-color: #212529" class="page-our-tip-block theme-block wp-block-module-blocks-our-tip">
+        <div class="page-our-tip-block__content">
+            <div class="page-our-tip-block__icon"></div>
+            <div class="page-our-tip-block__heading">Hinweis</div>
+            <div class="page-our-tip-block__text">
+                <p>Der wohl teuerste Fehler beim Plattformlift ist die bloße Abschätzung der Rollstuhlmaße. Messen Sie daher Breite, Länge und Gewicht Ihres Rollstuhls vorab ganz genau, bevor Sie Angebote einholen.</p>            </div>
+        </div>
+    </div>
+
+
+
+<h2 id="wie-breit-muss-die-treppe-fur-einen-plattformlift-sein" class="wp-block-heading"><strong>Wie breit muss die Treppe für einen </strong>Plattformlift <strong>sein?</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Im privaten Wohnhaus nennt Lifta 90 cm Treppenbreite für gerade und 100 cm für kurvige Treppen, im öffentlichen Bereich 110 cm beziehungsweise 100 cm. Perfekta Lift rechnet je nach Plattformbreite mit 95 bis 113 cm für gerade und 106 bis 125 cm für kurvige Anlagen. Vor der ersten Stufe sollten 120 cm bis 140 cm frei bleiben, weil die Plattform dort angefahren wird.</p>
+
+
+
+<p class="wp-block-paragraph">Die Treppenform entscheidet mit: Eine gerade Treppe braucht am wenigsten Platz, bei Kurven, Wendelungen und Zwischenpodesten schwenkt die Plattform aus. Ein Plattformlift für schmale Treppen ist deshalb vor allem an geraden Läufen machbar, die Schiene sitzt dann auf Stützen oder an den Wänden. Wird es zu eng, bleiben ein <a href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift-fuer-schmale-treppen">Sitzlift für schmale Treppen</a>, sofern das Umsetzen möglich ist, oder ein Hublift neben der Treppe.</p>
+
+
+    <div style="--our-tip-background-color: #F7F7F7;--our-tip-border-radius: 8px;--our-tip-border-width: 1px;--our-tip-border-color: #DCDCDC;--our-tip-heading-color: #212529;--our-tip-text-color: #212529" class="page-our-tip-block theme-block wp-block-module-blocks-our-tip">
+        <div class="page-our-tip-block__content">
+            <div class="page-our-tip-block__icon"></div>
+            <div class="page-our-tip-block__heading">Hinweis</div>
+            <div class="page-our-tip-block__text">
+                <p>Hinter den Mindestbreiten steht die Restlaufbreite: Auch mit eingeklapptem Lift (40 bis 50 cm laut Perfekta Lift) muss die Treppe begehbar bleiben und als Flucht- und Rettungsweg funktionieren. Das Maß regelt die Landesbauordnung, ein zu schmaler Rettungsweg liegt deshalb nicht im Ermessen des Vermieters.</p>            </div>
+        </div>
+    </div>
+
+
+
+<h2 id="welche-masse-hat-ein-plattformlift" class="wp-block-heading">Welche Maße hat ein Plattformlift?</h2>
+
+
+
+<p class="wp-block-paragraph">Hier geht es um das Gerät selbst, die Maße des Rollstuhllifts. Weil die Werte je nach Anbieter abweichen, nennt die Übersicht Spannen.</p>
+
+
+    <div class="page-information-table-block theme-block wp-block-module-blocks-information-table">
+        <div class="page-information-table-block__content">
+            <div class="page-information-table-block__table page-information-table-block__table--few-columns page-information-table-block__table--three-four-columns">
+                                    <table>
+                        <thead>
+                            <tr>
+                                                                                                            <th>Maß</th>
+                                                                            <th><strong>Wert</strong></th>
+                                                                            <th>Warum es zählt</th>
+                                                                                                </tr>
+                        </thead>
+                        <tbody>
+                                                            <tr>
+                                                                                                                        <td>Mindesttreppenbreite</td>
+                                                                                    <td>90 bis 113 cm gerade, 100 bis 125 cm kurvig</td>
+                                                                                    <td>Darunter kein Plattformlift</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Platzbedarf vor der ersten Stufe</td>
+                                                                                    <td>120 cm bis 140 cm</td>
+                                                                                    <td>Park- und Anfahrfläche der Plattform</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Platzbedarf eingeklappt</td>
+                                                                                    <td>40 bis 50 cm</td>
+                                                                                    <td>Bestimmt die Restlaufbreite</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Plattformmaße kompakt</td>
+                                                                                    <td>68 x 84 cm bis 70 x 75 cm</td>
+                                                                                    <td>Für enge Treppenhäuser</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Plattformmaße Standard</td>
+                                                                                    <td>bis 80 x 100 cm</td>
+                                                                                    <td>Muss zum Rollstuhl passen, nicht umgekehrt</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Plattformmaße Sonderanfertigung</td>
+                                                                                    <td>bis 90 x 130 cm</td>
+                                                                                    <td>Für lange oder breite Elektrorollstühle</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Tragkraft</td>
+                                                                                    <td>bis 300 kg</td>
+                                                                                    <td>Rollstuhl plus Person plus Zuladung</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Bewegungsfläche (Wendekreis) am Podest</td>
+                                                                                    <td>150 x 150 cm</td>
+                                                                                    <td>Auffahren und Wenden brauchen mehr Platz als die Plattform</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Fahrgeschwindigkeit</td>
+                                                                                    <td>0,06 bis 0,15 m/s, je nach Modell und Treppenform</td>
+                                                                                    <td>Bestimmt die Fahrzeit je Etage</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Steigungswinkel</td>
+                                                                                    <td>0° bis 60°, je nach Modell und Treppenform</td>
+                                                                                    <td>Grenze für steile Treppen</td>
+                                                                                                            </tr>
+                                                    </tbody>
+                    </table>
+                            </div>
+                    </div>
+    </div>
+
+
+
+<p class="wp-block-paragraph">Die DIN 18040-2 rechnet mit einem Standardrollstuhl von höchstens 70 cm Breite und 120 cm Länge. Größere Elektrorollstühle brauchen die Sonderplattform.</p>
+
+
+
+<h2 id="einbau-genehmigung-und-wartung" class="wp-block-heading">Einbau, Genehmigung und Wartung</h2>
+
+
+
+<p class="wp-block-paragraph">Der Ablauf: Beratung, Aufmaß, Fertigung der Schiene, Montage, Einweisung. Die Installation selbst gibt Lifta mit wenigen Stunden an, Perfekta Lift mit einem Tag, bei kurvigen Treppen oder mehreren Etagen mit zwei bis drei Tagen mehr.</p>
+
+
+
+<p class="wp-block-paragraph">In Einfamilienhäusern entscheiden Eigentümer allein. Im gemeinsamen Treppenhaus können Mieterinnen und Mieter nach § 554 BGB verlangen, dass der Vermieter bauliche Veränderungen für den Gebrauch durch Menschen mit Behinderungen erlaubt, Wohnungseigentümer haben diesen Anspruch auf Barrierefreiheit nach § 20 Abs. 2 WEG. Beide Ansprüche zielen auf die Erlaubnis, nicht auf die Finanzierung: Kosten, Wartung und Rückbau bleiben bei der antragstellenden Person.</p>
+
+
+
+<p class="wp-block-paragraph">Brandschutz und Fluchtweg entscheiden mit: Der Lift darf den Rettungsweg nicht dauerhaft verengen. Klären Sie das früh mit dem Fachbetrieb.</p>
+
+
+
+<h2 id="was-sind-die-nachteile-eines-plattformlifts" class="wp-block-heading">Was sind die Nachteile eines Plattformlifts?</h2>
+
+
+
+<p class="wp-block-paragraph">➤ Der Preis: Garaventa Lift nennt für den Sitzlift an gerader Treppe ab 4.500 €, für den Plattformlift ab 10.300 €.</p>
+
+
+
+<p class="wp-block-paragraph">➤ Die Anlage verengt das Treppenhaus auch im eingeklappten Zustand.</p>
+
+
+
+<p class="wp-block-paragraph">➤ Die Optik ist technisch, die Schiene bleibt sichtbar.</p>
+
+
+
+<p class="wp-block-paragraph">➤ Nicht jede Treppe ist geeignet. Zu schmal, zu steil oder ein zu enger Rettungsweg schließen den Einbau aus.</p>
+
+
+
+<h2 id="plattformlift-sitzlift-oder-hublift-welche-losung-passt" class="wp-block-heading">Plattformlift, Sitzlift oder Hublift: Welche Lösung passt?</h2>
+
+
+    <div class="page-information-table-block theme-block wp-block-module-blocks-information-table">
+        <div class="page-information-table-block__content">
+            <div class="page-information-table-block__table page-information-table-block__table--few-columns page-information-table-block__table--three-four-columns">
+                                    <table>
+                        <thead>
+                            <tr>
+                                                                                                            <th>Lösung</th>
+                                                                            <th><strong>Fährt</strong></th>
+                                                                            <th>Passend, wenn</th>
+                                                                            <th>Preis ab</th>
+                                                                                                </tr>
+                        </thead>
+                        <tbody>
+                                                            <tr>
+                                                                                                                        <td>Sitzlift</td>
+                                                                                    <td>entlang der Treppe</td>
+                                                                                    <td>die Person aufstehen und sich umsetzen kann</td>
+                                                                                    <td>ab 4.500 €</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Plattformlift</td>
+                                                                                    <td>entlang der Treppe</td>
+                                                                                    <td>der Rollstuhl besetzt bleiben soll und eine ganze Etage überwunden wird</td>
+                                                                                    <td>ab 10.300 €</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Hublift</td>
+                                                                                    <td>senkrecht neben der Treppe</td>
+                                                                                    <td>nur wenige Stufen oder ein Podest überwunden werden; Förderhöhe je nach Modell bis 1,79 m, einzelne Modelle bis 3 m</td>
+                                                                                    <td>ab 10.000 €</td>
+                                                                                                            </tr>
+                                                            <tr>
+                                                                                                                        <td>Homelift</td>
+                                                                                    <td>senkrecht mit Kabine</td>
+                                                                                    <td>mehrere Etagen unabhängig von der Treppe verbunden werden sollen</td>
+                                                                                    <td>ab 26.000 €</td>
+                                                                                                            </tr>
+                                                    </tbody>
+                    </table>
+                            </div>
+                    </div>
+    </div>
+
+
+
+<p class="wp-block-paragraph">Preise geprüft am 09.09.2026. Hublifte von Lifta und sani-trans reichen bis 1,79 m, der HIRO 460 bis 3 m; darüber bleibt die Lösung entlang der Treppe oder ein Homelift.</p>
+
+
+    <div class="page-inline-form-block theme-block wp-block-module-blocks-inline-form" data-html-code="" data-reqid-input-screen-name="email">
+                    <h2 class="page-inline-form-block__heading page-inline-form-block__heading--decorative">
+                Unsicher, welcher Lift auf Ihre Treppe passt? Vergleichen Sie unverbindlich Anbieter für <br><span class="page-inline-form-block__heading-accent">Plattformlifte</span>            </h2>
+        
+        <div class="page-inline-form-block__content">
+
+            
+            <div class="page-inline-form-block__dropdown page-inline-form-block__html-code" style="border-radius: 16px; overflow: hidden;">
+                            </div>
+        </div>
+    </div>
+
+
+<div class="page-adv-disclosure"><div>ⓘ <strong>Transparenzhinweis:</strong></div><div>Wenn Sie unser Formular ausfüllen, leiten wir Ihre Anfrage an bis zu drei passende Anbieter weiter. Für Sie entstehen dabei <strong>keine zusätzlichen Kosten</strong>. Details finden Sie in unserer <a href="https://www.bild.de/leben-im-alter/datenschutz">Datenschutzerklärung</a>.</div></div>
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">    <div class="panel-group faq theme-shortcode theme-block" id="faqAccordion_11165" itemscope itemtype="https://schema.org/FAQPage">
+        <h2 itemprop="name" class="faqAccordion__title faq__title">Häufige Fragen zum Plattformlift</h2>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-1" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Was kostet ein Plattformlift?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>Ab 10.300 € für gerade und ab 16.500 € für kurvige Treppen, nach oben bis 38.000 €. Verbindlich wird der Preis erst nach dem Aufmaß.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-2" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Was kostet ein Plattformlift von Lifta?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>Ab 11.000 € für gerade Treppen innen und außen, ab 19.000 € für kurvige Treppen innen, ab 21.000 € kurvig außen.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-3" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Kann ich einen Plattformlift mieten?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>Ja. Lifta nennt für Treppenlifte Raten ab 98 € im Monat bei 36 Monaten Mindestlaufzeit, eigene Mietpreise für Plattformlifte nennt der Anbieter nicht.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-4" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Zahlt die Pflegekasse einen Plattformlift?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>Bis zu 4.180 € je Maßnahme, ab Pflegegrad 1. Der Antrag muss vor der Auftragsvergabe gestellt werden.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-5" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Wie breit muss die Treppe für einen Plattformlift sein?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>Lifta nennt privat 90 cm für gerade und 100 cm für kurvige Treppen, vor der ersten Stufe 120 cm bis 140 cm.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-6" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Welche Maße hat ein Plattformlift?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>68 x 84 cm bis 80 x 100 cm im Standard, Sonderanfertigungen bis 90 x 130 cm, eingeklappt 40 bis 50 cm.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-7" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Wie viel Gewicht trägt ein Plattformlift?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>Gängige Modelle tragen bis zu 300 kg, auch schwere Elektrorollstühle.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-8" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Brauche ich für einen Plattformlift eine Genehmigung?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>Im eigenen Einfamilienhaus in der Regel nicht. Im gemeinsamen Treppenhaus braucht es die Zustimmung des Vermieters oder der Eigentümergemeinschaft.</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="faqAccordion__group faq__item" itemscope itemid="https://www.bild.de/leben-im-alter#/schema/Question/11165-9" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <span class="faqAccordion faq__item__question" itemprop="name">
+                    Was ist der Unterschied zwischen Plattformlift und Hublift?                </span>
+                <div class="panel faq__item__answer" style="display: none;" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div class="answer-text faq__item__answer-text" itemprop="text">
+                        <p>Der Plattformlift fährt entlang der Treppe und überwindet ganze Etagen. Der Hublift fährt senkrecht neben der Treppe, je nach Modell bis 1,79 m oder bis 3 m.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+</p>
+
+
+	<div class="page-references-block theme-block wp-block-module-blocks-references">
+					<p class="page-references-block__heading">Quellen und Transparenzhinweis</p>
+							<p class="page-references-block__paragraph">Für diesen Artikel wurden öffentlich zugängliche Informationen von Ministerien, gesetzlichen Quellen, Förderstellen und Anbietern ausgewertet. Ergänzend floss fachliche Expertise aus dem Bereich Gerontologie in die Erstellung und Einordnung der Inhalte ein. Stand der Recherche: September 2026.</p>
+							<ol class="page-references-block__list">
+									<li class="page-references-block__item">Bundesministerium der Justiz. § 40 SGB 11. Abgerufen am: 09.09.2026 über: <a href="https://www.gesetze-im-internet.de/sgb_11/BJNR101500994.html" target="_blank" rel="noreferrer noopener nofollow">https://www.gesetze-im-internet.de/sgb_11/BJNR101500994.html</a></li>
+									<li class="page-references-block__item">Bundesministerium der Justiz. § 554 BGB. Abgerufen am: 09.09.2026 über: <a href="https://www.gesetze-im-internet.de/bgb/__554.html" target="_blank" rel="noreferrer noopener nofollow">https://www.gesetze-im-internet.de/bgb/__554.html</a></li>
+									<li class="page-references-block__item">Bundesministerium der Justiz. Wohnungseigentumsgesetz, § 20. Abgerufen am: 09.09.2026 über: <a href="https://www.gesetze-im-internet.de/woeigg/index.html" target="_blank" rel="noreferrer noopener nofollow">https://www.gesetze-im-internet.de/woeigg/index.html</a></li>
+									<li class="page-references-block__item">KfW. Barrierereduzierung, Investitionszuschuss (455-B). Abgerufen am: 09.09.2026 über: <a href="https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/" target="_blank" rel="noreferrer noopener nofollow">https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/Förderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/</a></li>
+									<li class="page-references-block__item">Bundesfachstelle Barrierefreiheit. Wohnungen, Anforderungen der DIN 18040-2. Abgerufen am: 09.09.2026 über: <a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Fachwissen/Wohnungen/wohnungen_node.html" target="_blank" rel="noreferrer noopener nofollow">https://www.bundesfachstelle-barrierefreiheit.de/DE/Fachwissen/Wohnungen/wohnungen_node.html</a></li>
+									<li class="page-references-block__item">nullbarriere.de. DIN 18040-2, Flächen und Platzbedarf. Abgerufen am: 09.09.2026 über: <a href="https://nullbarriere.de/din18040-2-flaechen.htm" target="_blank" rel="noreferrer noopener nofollow">https://nullbarriere.de/din18040-2-flaechen.htm</a></li>
+									<li class="page-references-block__item">Lifta. Plattformlifte, Kosten und Mindesttreppenbreiten. Abgerufen am: 09.09.2026 über: <a href="https://www.lifta.de/rollstuhllifte/plattformlifte" target="_blank" rel="noreferrer noopener nofollow">https://www.lifta.de/rollstuhllifte/plattformlifte</a></li>
+									<li class="page-references-block__item">Lifta. Plateau Linea. Abgerufen am: 09.09.2026 über: <a href="https://www.lifta.de/rollstuhllifte/plattformlifte/plateau-linea" target="_blank" rel="noreferrer noopener nofollow">https://www.lifta.de/rollstuhllifte/plattformlifte/plateau-linea</a></li>
+									<li class="page-references-block__item">Lifta. Treppenlift mieten. Abgerufen am: 09.09.2026 über: <a href="https://www.lifta.de/treppenlift-preise/mieten" target="_blank" rel="noreferrer noopener nofollow">https://www.lifta.de/treppenlift-preise/mieten</a></li>
+									<li class="page-references-block__item">HIRO Lift. Treppenlift-Kosten. Abgerufen am: 09.09.2026 über: <a href="https://hiro.de/preise/" target="_blank" rel="noreferrer noopener nofollow">https://hiro.de/preise/</a></li>
+									<li class="page-references-block__item">Garaventa Lift. Was kostet ein Treppenlift? Abgerufen am: 09.09.2026 über: <a href="https://www.garaventalift.de/ueber-uns/blog/kosten-treppenlift-deutschland" target="_blank" rel="noreferrer noopener nofollow">https://www.garaventalift.de/ueber-uns/blog/kosten-treppenlift-deutschland</a></li>
+									<li class="page-references-block__item">Perfekta Lift. Plattformlifte: Technik, Voraussetzungen, Montage, Wartung, Kosten. Abgerufen am: 09.09.2026 über: <a href="https://www.perfekta-lift.de/plattformlifte/" target="_blank" rel="noreferrer noopener nofollow">https://www.perfekta-lift.de/plattformlifte/</a></li>
+									<li class="page-references-block__item">Cibes Lift. Plattformlifte. Abgerufen am: 09.09.2026 über: <a href="https://cibeslift.com/de-de/lifte/plattformlifte" target="_blank" rel="noreferrer noopener nofollow">https://cibeslift.com/de-de/lifte/plattformlifte</a></li>
+									<li class="page-references-block__item">sani-trans. Rollstuhllift-Kosten. Abgerufen am: 09.09.2026 über: <a href="https://www.sani-trans.de/kosten/" target="_blank" rel="noreferrer noopener nofollow">https://www.sani-trans.de/kosten/</a></li>
+									<li class="page-references-block__item">sani-trans. Plattformlift Plateau Flexa, technische Daten. Abgerufen am: 09.09.2026 über: <a href="https://www.sani-trans.de/lifte/plattformlift/plateau-flexa/" target="_blank" rel="noreferrer noopener nofollow">https://www.sani-trans.de/lifte/plattformlift/plateau-flexa/</a></li>
+							</ol>
+			</div>
+	
+
+        <div class="page-author-info-block page-author-info-block--full theme-block wp-block-module-blocks-author-info">
+            <div class="page-author-info-block__title">
+                Über die Autorinnen            </div>
+            <div class="page-author-info-block__cards">
+                    <div class="page-author-info-block__card page-author-info-block__card--author">
+        <span class="page-author-info-block__badge page-author-info-block__badge--author">
+            Verfasst von        </span>
+        <div class="page-author-info-block__author-row">
+                            <div class="page-author-info-block__avatar">
+                    <img decoding="async" width="48" height="48" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2048%2048'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail" alt="Carolin Makus Profilbild" data-lazy-src="https://www.bild.de/leben-im-alter/wp-content/uploads/author-1-avatar.png"><noscript><img decoding="async" width="48" height="48" src="https://www.bild.de/leben-im-alter/wp-content/uploads/author-1-avatar.png" class="attachment-thumbnail size-thumbnail" alt="Carolin Makus Profilbild"></noscript>                </div>
+                        <div class="page-author-info-block__info">
+                <div class="page-author-info-block__name-group">
+                    <p class="page-author-info-block__name">Carolin Makus</p>
+                                            <p class="page-author-info-block__job-title">Autorin bei BILD Leben im Alter</p>
+                                    </div>
+                                    <p class="page-author-info-block__description">Carolin Makus ist freischaffende Gerontologin (B. A.) und Content Creatorin mit Schwerpunkt Gesundheit, Pflege, eHealth und gesellschaftliche Teilhabe im Alter. Seit 2015 erstellt sie Inhalte für den europäischen Gesundheits- und Pflegemarkt und arbeitet dabei mit unterschiedlichen Medienformaten, Plattformen und Publishern. In ihrer Arbeit beschäftigt sie sich besonders mit der Frage, wie Menschen möglichst lange gesund, selbstbestimmt und sozial eingebunden leben können.</p>
+                                                    <a class="page-author-info-block__link" href="https://www.bild.de/leben-im-alter/autorenseite/carolin-makus">
+                        <span aria-hidden="true"></span> Autorenprofil                    </a>
+                            </div>
+        </div>
+    </div>
+                            </div>
+        </div>
+    
+
+
+<p class="wp-block-paragraph"><strong>Dieser Artikel dient der allgemeinen Information und ersetzt keine individuelle ärztliche oder fachliche Beratung. Sie haben einen Fehler im Artikel gefunden oder schlechte Erfahrungen gemacht? Dann schreiben Sie uns eine E-Mail an <a href="mailto:feedback@bild-leben-im-alter.de">feedback@bild-leben-im-alter.de</a></strong></p>
+
+
+
+<p class="wp-block-paragraph">    <div class="read-more-articles theme-shortcode" id="read-more-articles_11254">
+        <h2 id="das-koennte-sie-auch-interessieren" class="read-more-articles__title">Das könnte Sie auch interessieren</h2>
+                    <div class="read-more-articles__group-item">
+                <div class="read-more-articles__group-right">
+                    <div class="read-more-articles__item-image">
+                        <figure>
+                            <picture>
+                                                                    <source media="(min-width: 1024px)" data-lazy-srcset="https://www.bild.de/leben-im-alter/wp-content/uploads/inline-content-image-Mobile-7.webp">
+                                                                <img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20350'%3E%3C/svg%3E" alt="" width="700" height="350" data-lazy-src="https://www.bild.de/leben-im-alter/wp-content/uploads/inline-content-image-PC-7.webp"><noscript><img decoding="async" loading="lazy" src="https://www.bild.de/leben-im-alter/wp-content/uploads/inline-content-image-PC-7.webp" alt="" width="700" height="350"></noscript>
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+                <div class="read-more-articles__group-left">
+                                            <div class="read-more-articles__item-eyebrow">Preise und Zuschüsse</div>
+                                        <div class="read-more-articles__item-title">Hublift 2026: Kosten, Hubhöhen und Anbieter im Vergleich</div>
+                    <div class="read-more-articles__item-content">Was kostet ein Hublift? Preise ab 10.000 Euro nach Hubhöhe, Zuschuss der Pflegekasse bis 4.180 Euro, Maße, Genehmigung und Anbieter im Überblick.</div>
+                </div>
+                <a class="read-more-articles__anchor" href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/hublift" aria-label="Hublift 2026: Kosten, Hubhöhen und Anbieter im Vergleich" rel="dofollow"></a>
+            </div>
+                    <div class="read-more-articles__group-item">
+                <div class="read-more-articles__group-right">
+                    <div class="read-more-articles__item-image">
+                        <figure>
+                            <picture>
+                                                                <img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20992%20558'%3E%3C/svg%3E" alt="Homelift im eigenen Haus" width="992" height="558" data-lazy-src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-29.webp"><noscript><img decoding="async" loading="lazy" src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-29.webp" alt="Homelift im eigenen Haus" width="992" height="558"></noscript>
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+                <div class="read-more-articles__group-left">
+                                            <div class="read-more-articles__item-eyebrow">Homelift statt Treppe</div>
+                                        <div class="read-more-articles__item-title">So viel kostet ein Homelift</div>
+                    <div class="read-more-articles__item-content">6 Homelift-Anbieter mit Modellen, Preisen & Gesamtkosten im Vergleich: Gibt es einen Homelift-Test? Welche Erfahrungen liegen vor?</div>
+                </div>
+                <a class="read-more-articles__anchor" href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/homelift" aria-label="So viel kostet ein Homelift" rel="dofollow"></a>
+            </div>
+                    <div class="read-more-articles__group-item">
+                <div class="read-more-articles__group-right">
+                    <div class="read-more-articles__item-image">
+                        <figure>
+                            <picture>
+                                                                <img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20992%20558'%3E%3C/svg%3E" alt="Treppenlift für eine schmale Treppe" width="992" height="558" data-lazy-src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-11.webp"><noscript><img decoding="async" loading="lazy" src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-11.webp" alt="Treppenlift für eine schmale Treppe" width="992" height="558"></noscript>
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+                <div class="read-more-articles__group-left">
+                                            <div class="read-more-articles__item-eyebrow">Treppenlift bei wenig Platz</div>
+                                        <div class="read-more-articles__item-title">Treppenlift für schmale und enge Treppen</div>
+                    <div class="read-more-articles__item-content">Treppenlift trotz wenig Platz? Welche Modelle für schmale und enge Treppen geeignet sind, wie viel Treppenbreite nötig ist und was sie kosten.</div>
+                </div>
+                <a class="read-more-articles__anchor" href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift-fuer-schmale-treppen" aria-label="Treppenlift für schmale und enge Treppen" rel="dofollow"></a>
+            </div>
+                    <div class="read-more-articles__group-item">
+                <div class="read-more-articles__group-right">
+                    <div class="read-more-articles__item-image">
+                        <figure>
+                            <picture>
+                                                                <img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20992%20558'%3E%3C/svg%3E" alt="Dame fährt im Treppenlift die Treppe in ihrem Haus hinauf" width="992" height="558" data-lazy-src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-5.webp"><noscript><img decoding="async" loading="lazy" src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-5.webp" alt="Dame fährt im Treppenlift die Treppe in ihrem Haus hinauf" width="992" height="558"></noscript>
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+                <div class="read-more-articles__group-left">
+                                            <div class="read-more-articles__item-eyebrow">Treppenlift kaufen</div>
+                                        <div class="read-more-articles__item-title">Treppenlift: Kosten & Anbieter</div>
+                    <div class="read-more-articles__item-content">Treppenlift-Kosten ab 3.500 €, bis zu 4.180 € Zuschuss. Preise von Lifta, HIRO und Garaventa im Vergleich – plus Alternativen ab wenigen Hundert Euro.</div>
+                </div>
+                <a class="read-more-articles__anchor" href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift" aria-label="Treppenlift: Kosten & Anbieter" rel="dofollow"></a>
+            </div>
+                    <div class="read-more-articles__group-item">
+                <div class="read-more-articles__group-right">
+                    <div class="read-more-articles__item-image">
+                        <figure>
+                            <picture>
+                                                                <img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20992%20558'%3E%3C/svg%3E" alt="Treppenlift außen an einem steilen Hauszugang" width="992" height="558" data-lazy-src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-40.webp"><noscript><img decoding="async" loading="lazy" src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-40.webp" alt="Treppenlift außen an einem steilen Hauszugang" width="992" height="558"></noscript>
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+                <div class="read-more-articles__group-left">
+                                            <div class="read-more-articles__item-eyebrow">Treppenlift im Außenbereich</div>
+                                        <div class="read-more-articles__item-title">Das kostet ein Außen-Treppenlift</div>
+                    <div class="read-more-articles__item-content">Welche Treppenlift-Modelle passen für Außentreppen, Rollstuhl und Hauseingang? Kosten, Voraussetzungen, Zuschüsse und Beratung.</div>
+                </div>
+                <a class="read-more-articles__anchor" href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift-aussen" aria-label="Das kostet ein Außen-Treppenlift" rel="dofollow"></a>
+            </div>
+                    <div class="read-more-articles__group-item">
+                <div class="read-more-articles__group-right">
+                    <div class="read-more-articles__item-image">
+                        <figure>
+                            <picture>
+                                                                <img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20992%20558'%3E%3C/svg%3E" alt="Pfleger hilft Mann mit einem mobilen Treppenlift die Treppe hoch" width="992" height="558" data-lazy-src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-24.webp"><noscript><img decoding="async" loading="lazy" src="https://www.bild.de/leben-im-alter/wp-content/uploads/Featured-image-PC-24.webp" alt="Pfleger hilft Mann mit einem mobilen Treppenlift die Treppe hoch" width="992" height="558"></noscript>
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+                <div class="read-more-articles__group-left">
+                                            <div class="read-more-articles__item-eyebrow">Mobile Liftarten im Überblick</div>
+                                        <div class="read-more-articles__item-title">Mobile Treppenlifte</div>
+                    <div class="read-more-articles__item-content">Mobiler Treppenlift ohne Installation: Welche Lösungen gibt es, für wen sind sie geeignet und was kosten sie – alle Infos im Überblick.</div>
+                </div>
+                <a class="read-more-articles__anchor" href="https://www.bild.de/leben-im-alter/barrierefreies-wohnen/treppenlift-ohne-installation" aria-label="Mobile Treppenlifte" rel="dofollow"></a>
+            </div>
+            </div>
+</p>
+</body></html>
+        </div>
+        <div class="sidebar-area">
+                <div class="table-of-contents theme-shortcode">
+        <div class="table-of-contents__title h4" role="button" aria-pressed="false">
+            <strong>Inhalt</strong>
+        </div>
+
+        <div class="table-of-contents__list-wrap">
+            <ul class="table-of-contents__list"></ul>
+
+                            <button class="table-of-contents__see-more" role="button" aria-pressed="false">
+                    Mehr anzeigen                </button>
+            
+                            <button class="table-of-contents__see-less" role="button" aria-pressed="false">
+                    Weniger anzeigen                </button>
+            
+        </div>
+    </div>
+        </div>
+    </div>
+</main>
+
+</div> <!-- /container -->
+
+<footer data-wpr-lazyrender="1" class="page-footer">
+    <div  class="page-container">
+                    <ul id="menu-bild-secondary-footer-menu" class="page-footer__menu page-footer__menu--secondary"><li id="menu-item-9592" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9592"><a href="https://www.bild.de/leben-im-alter/datenschutz">Datenschutz</a></li>
+<li id="menu-item-9591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9591"><a href="https://www.bild.de/leben-im-alter/impressum">Impressum bei Leben im Alter</a></li>
+<li id="menu-item-9593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9593"><a href="https://www.bild.de/leben-im-alter/allgemeine-geschaeftsbedingungen">Allgemeine Geschäftsbedingungen</a></li>
+<li id="menu-item-1080" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1080"><a href="https://www.bild.de/leben-im-alter/?cmpscreencustom">Privatsphäre</a></li>
+</ul>        
+                    <ul id="menu-bild-primary-footer-menu" class="page-footer__menu"><li id="menu-item-601" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-601"><a href="https://www.bild.de/corporate/site/bild-de/impressum-81395212.bild.html">Impressum</a></li>
+<li id="menu-item-602" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-602"><a href="https://www.bild.de/corporate-site/ueber-bild-de/bild-de/artikel-ueber-bild-de-17520982.bild.html">Über BILD.de</a></li>
+<li id="menu-item-611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-611"><a href="https://www.bild.de/corporate-site/agb/bild-de/artikel-agb-2952414.bild.html">Allg. Nutzungsbedingungen</a></li>
+<li id="menu-item-613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-613"><a href="https://www.bild.de/corporate/site/datenschutz/artikel-datenschutz-54485502.bild.html">Datenschutz</a></li>
+<li id="menu-item-6864" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6864"><a href="https://www.bild.de/sonstiges/corporate-site/bild-erklaerung-zur-barrierefreiheit-684bf64cc500125714a3aed7">Barrierefreiheit</a></li>
+</ul>            </div>
+</footer>
+
+    <button class="back-to-top">
+        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 16.9384L25.15 23.0884L27.2884 21L19 12.7116L10.7116 21L12.85 23.0884L19 16.9384ZM19.0033 37.9999C16.3754 37.9999 13.9054 37.5012 11.5931 36.5039C9.2808 35.5066 7.26943 34.1531 5.559 32.4434C3.84853 30.7337 2.49442 28.7232 1.49665 26.412C0.498884 24.1007 0 21.6312 0 19.0033C0 16.3754 0.498667 13.9054 1.496 11.5931C2.49333 9.2808 3.84683 7.26944 5.5565 5.559C7.2662 3.84854 9.27668 2.49442 11.588 1.49665C13.8992 0.498886 16.3687 0 18.9966 0C21.6245 0 24.0945 0.498669 26.4068 1.496C28.7191 2.49334 30.7305 3.84683 32.4409 5.5565C34.1514 7.2662 35.5055 9.27669 36.5033 11.588C37.501 13.8992 37.9999 16.3687 37.9999 18.9966C37.9999 21.6245 37.5012 24.0945 36.5039 26.4068C35.5066 28.7191 34.1531 30.7305 32.4434 32.4409C30.7337 34.1514 28.7232 35.5055 26.412 36.5033C24.1007 37.501 21.6312 37.9999 19.0033 37.9999Z" fill="#212529" />
+        </svg>
+    </button>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/leben-im-alter/*"},{"not":{"href_matches":["/leben-im-alter/wp-*.php","/leben-im-alter/wp-admin/*","/leben-im-alter/wp-content/uploads/*","/leben-im-alter/wp-content/*","/leben-im-alter/wp-content/plugins/*","/leben-im-alter/wp-content/themes/seniors-module/*","/leben-im-alter/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="ta_main_js-js-extra">
+var thirsty_global_vars = {"home_url":"//www.bild.de/leben-im-alter","ajax_url":"https://www.bild.de/leben-im-alter/wp-admin/admin-ajax.php","link_fixer_enabled":"yes","link_prefix":"go","link_prefixes":{"0":"recommends","4":"go"},"post_id":"11197","enable_record_stats":"","enable_js_redirect":"yes","disable_thirstylink_class":"yes"};
+//# sourceURL=ta_main_js-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="ta_main_js-js" data-rocket-src="https://www.bild.de/leben-im-alter/wp-content/plugins/thirstyaffiliates/js/app/ta.min.js?ver=3.12.1" data-rocket-defer defer></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.bild.de/leben-im-alter/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+</body>
+
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1793113120 -->
