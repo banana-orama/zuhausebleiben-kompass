@@ -1,8 +1,26 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-10-28 (Abend, Renderer-Iteration: Related-Cross-Links). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-10-30 (Abend, Renderer-Iteration: Region-noindex-Gate). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
 
 ## Bestand
+
+### Index-Hygiene-Unit (2026-10-30, Abend, Cron-Lauf) — Audit-Fix #5: Region-Platzhalter noindex
+1. **Live-Re-Derivation:** 13/49 Sitemap-URLs (Hub + 12 Bundesländer) waren „in Vorbereitung“-Stubs
+   mit robots index,follow; Hub hatte 0 interne Inlinks. 27 % der Sitemap = Placeholder → Thin-Content-
+   und Doorway-Risiko in der frühen Indexierungsphase.
+2. **Umsetzung (keine Content-Löschung, nur Sichtbarkeit):** `robotsOverride:'noindex,follow'` auf
+   regional.html + alle region/*.html in generate.mjs; Sitemap-Filter jetzt strukturell
+   (`robotsOverride!=='noindex,follow'` — noindex kommt nie in die Sitemap, beide Erzeugungspfade).
+   Stub-Copy unverändert ehrlich gelassen („Wir versprechen deshalb keine verfügbaren Fachbetriebe.“).
+3. **Gates:** test_site.py — Region-Seiten MÜSSEN noindex sein (LAUNCH), 0 Region-URLs in der Sitemap,
+   datenschutz bleibt indexierbar, alles andere indexierbar. Damit ist expand-or-noindex (#5) als
+   Dauer-Gate geschlossen; Re-Indexierung pro Seite = robotsOverride entfernen, Gates erzwingen
+   Sitemap-Konsistenz automatisch.
+4. **Teststand:** npm test Exit 0 (test_site 49 Seiten/36 locs, test_articles 25, test_cross_links 25,
+   test_titles_meta ALL PASS, Playwright 20, Partner-Gates ALL PASS). Deploy+Live-Readback: siehe
+   launch-state 30.10. (Abend).
+5. **Nicht Teil dieser Unit:** Region-Ausbau mit Landesförderprogrammen je Bundesland (recherchierter
+   Batch mit Primärquellen, kein Massen-Template) — erst nach #6b/#9/#10 dran.
 
 ### Copy-Unit (2026-10-30, Cron-Lauf) — SEO-Audit Fix #7: Titel ≤65 / Meta-Descs ≤160
 1. **Re-Derivation vor Umsetzung:** Befund X3/X4 (Snapshot 19.10., 18 Artikel) gegen die LIVE-Site

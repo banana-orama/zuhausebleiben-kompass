@@ -22,6 +22,10 @@ for f in files:
     assert p.forms==0,(f,'unsafe form')
     if f.name == 'datenschutz.html':
         assert not p.noindex,(f,'privacy policy is indexable at launch')
+    elif f.parent.name == 'region' or f.name == 'regional.html':
+        # Fix #5 (2026-10-30): Region-Platzhalter bleiben noindex, bis sie mit
+        # verifiziertem Landesprogramm-Inhalt erweitert sind (expand-or-noindex-Gate).
+        assert p.noindex,(f,'region placeholder must stay noindex until expanded')
     else:
         assert not p.noindex,(f,'launch build: indexable page without noindex')
     for href in p.links:
@@ -35,6 +39,7 @@ for name in ('sitemap.xml','rss.xml'):ET.parse(root/name)
 sm=(root/'sitemap.xml').read_text()
 locs=[u.split('<loc>')[1].split('</loc>')[0] for u in sm.split('<url>')[1:]]
 assert any(u.endswith('/datenschutz.html') for u in locs),('datenschutz.html missing from sitemap',len(locs))
+assert not any('/region/' in u or u.endswith('/regional.html') for u in locs),('region placeholders must stay out of the sitemap (fix #5)',)
 assert len(locs)==len(set(locs)),('duplicate sitemap URLs',)
 mode='PREVIEW (noindex)' if not __import__('os').environ.get('INDEX') else 'LAUNCH (index)'
 print(f'PASS: {len(files)} HTML pages, internal links, single H1, no forms, datenschutz in sitemap ({len(locs)} locs), {mode}, XML valid.')
