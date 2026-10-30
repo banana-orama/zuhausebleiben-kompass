@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.awin.com/de/datenschutzerklarung",
+      "title": "Awin Datenschutzerklärung",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "Die wichtigsten Technologien, die für das Tracking von Awin verwendet werden, sind Tracking-Domain-Cookies, Journey-Tags und Geräte-Fingerprinting.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Hierbei handelt es sich um Cookies, die von Awins eigener Domain verwendet werden, wenn ein Nutzer auf eine vom Publisher angezeigte Werbung klickt. Wir verwenden diese Informationen, um nachzuvollziehen, welcher Nutzer von welchem Publisher an welchen Advertiser weitergeleitet wurde.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Grundsätzlich werden über die Awin-Technologie erhobene Tracking-Daten bis zu drei (3) Jahre gespeichert und anschließend gelöscht oder anonymisiert. In begrenzten Fällen kann Awin bestimmte Tracking-Daten in pseudonymisierter Form für bis zu fünf (5) Jahre aufbewahren, sofern dies für interne Analysezwecke erforderlich ist. Für diese Verarbeitungen handelt Awin als eigenständiger Verantwortlicher auf Grundlage seiner berechtigten Interessen, die gegen die Rechte und Erwartungen der Nutzer abgewogen wurden.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Awin nimmt am IAB Europe Transparency & Consent Framework teil und hält dessen Spezifikationen und Richtlinien ein. Die Identifikationsnummer von Awin im Rahmen lautet: 907.",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.adcell.de/datenverarbeitung",
+      "title": "ADCELL Vereinbarung zur gemeinsamen Verantwortung (Joint Controller)",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "Beide Vertragspartner, das Netzwerk und seine Partner, gelten als gemeinsame Verantwortliche in Bezug auf die Verarbeitung und Speicherung von personenbezogenen Daten, die im Zuge der Zusammenarbeit im Rahmen des Hauptvertrages erhoben werden.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Der Hinweis auf das eingebundene Tracking von ADCELL ist sowohl für Publisher als auch Partnerprogrammbetreiber (Advertiser und Agenturen) eine Pflichtangabe im Sinne der DSGVO.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Daten die vom Netzwerk ADCELL erhoben werden sind in den Allgemeinen Geschäftsbedingungen unter VI. Datenschutzerklärung aufgeführt",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Es wird empfohlen, dass der Gebrauch von Tracking-Technologien erst nach vorheriger Zustimmung (Opt-in), bspw. durch die Abfrage beim Nutzer über einen Consent-Layer (IAB Consent Framework konform) erfolgt.",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.adcell.de/agb",
+      "title": "ADCELL AGB — VI. Datenschutzerklärung (Firstlead GmbH)",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "Cookies, die für das ADCELL-Tracking verwendet werden: ADCELLpidX Dieser Cookie wird gesetzt nach dem Klick auf ein ADCELL Werbemittel und enthält Informationen über Publisher, Werbemittel, SubID, Referrer und Zeitstempel.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Bei der von uns verwendeten Online-Kennungen der Nutzer, handelt es sich um pseudonyme Werte. D.h. die Online-Kennungen enthalten selbst keine personenbezogenen Daten wie Namen oder E-Mailadressen.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Hierzu werden die Publisher-Links und unsere Angebote um bestimmte Werte ergänzt, die ein Bestandteil des Links oder anderweitig, z.B. in einem Cookie, gesetzt werden können.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Die Gültigkeitsdauer des Cookies ist abhängig vom entsprechenden Programm.",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.adcell.de/datenschutz",
+      "title": "ADCELL Datenschutzeinstellungen/Opt-out",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "Die Daten ermöglichen es weder für ADCELL noch für die Anbieter der Website einen unmittelbaren Personenbezug herzuleiten.",
+          "added": "2026-10-30"
+        },
+        {
+          "text": "Hiermit widersprechen Sie der Analyse von themenbasierten nicht personenbezogenen Daten Ihres Surfverhaltens. Dieser Widerspruch wird über Cookies in Ihrem Browser gespeichert.",
+          "added": "2026-10-30"
+        }
+      ]
+    }
+  ]
+}
