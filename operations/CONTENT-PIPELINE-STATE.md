@@ -4,6 +4,29 @@ Letzte Aktualisierung: 2026-10-28 (Abend, Renderer-Iteration: Related-Cross-Link
 
 ## Bestand
 
+### Copy-Unit (2026-10-30, Cron-Lauf) — SEO-Audit Fix #7: Titel ≤65 / Meta-Descs ≤160
+1. **Re-Derivation vor Umsetzung:** Befund X3/X4 (Snapshot 19.10., 18 Artikel) gegen die LIVE-Site
+   neu erhoben (30.10., 31 URLs): 24 Ratgeber-Titel >65 (Renderer-Suffix „ — ZuhauseBleiben
+   Kompass" = 25 Zeichen auf jedem `<title>`), 12 Descriptions >160 inkl. Checklisten-Hub (185)
+   und pflegegrad-beantragen (242, Disclaimer-als-Snippet). Kein Snapshot-Recycling.
+2. **Umsetzung (reine Copy-Edits, H1/Inhalte/Quellen unangetastet):**
+   `research/apply_titles_meta_301026.py` kürzt 24 JSON-`title` auf Keyword-Kopf ≤40 (Live-Tag ≤65)
+   und 10 `description` auf ≤155, chirurgisch per Top-Level-Zeilen-Regex. Lektion: der erste
+   Versuch mit `json.dumps`-Roundtrip formatierte die kompakt geschriebenen Arrays der Batches
+   6–14 um (428 Diff-Zeilen); Rollback + Zeilen-Regex → 34/34 Zeilen.
+3. **Renderer:** generate.mjs Editorial-Loop respektiert jetzt `e.desc`-Override — X4 gelöst:
+   pflegegrad-beantragen bekommt benefit-first desc (128), Disclaimer bleibt im Seitenkörper.
+   build-checklists.mjs: neue optionale `pageTitle`/`pageDesc` je Checkliste (H1 = checklistTitle
+   bleibt lang), Hub-Titel 82→51, Hub-Desc 185→140.
+4. **Neues Gate:** `test_titles_meta.py` in npm test (nach test_cross_links, gegen LAUNCH-Dist):
+   jede gebaute HTML-Seite ≤65 Title/≤160 Desc (Entity-unescaped), sitewide keine doppelten
+   Titles, keine doppelten Descs (region/* bewusst ausgenommen — deren expand-or-noindex ist
+   Fix #5), og:title spiegelt `<title>`. Testzähler unverändert (kein Seitenzuwachs).
+5. **Teststand:** npm test komplett grün (inkl. test_titles_meta 49 Seiten 0 Verletzungen,
+   Playwright-Consent, Partner-Gates A2 ≥ 25). RSS/llms.txt ziehen die kurzen Titel automatisch
+   (llms-txt.py nutzt JSON-title, LEGACY_PAGES-Titel unangetastet). Deploy+Live-Readback: siehe
+   launch-state 30.10.
+
 ### Renderer-Iteration (2026-10-28, Abend, Cron-Lauf) — Related-Cross-Links aus der Magnet-Analyse
 1. **Umgesetzt:** die 6 offenen internen Link-Empfehlungen aus `research/GROWTH-BACKLOG.md`
    (Link-Magnet-Analyse, Deliverable 5) als `data/cross-links.json` + Renderer-Pfad in

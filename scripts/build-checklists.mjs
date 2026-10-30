@@ -22,6 +22,8 @@ const CONSENT_DEFAULT = readFileSync(join(ROOT, 'consent-default.js'), 'utf8');
 const CHECKLISTS = [
   {
     slug: 'pflegegrad-antrag-ablauf-fristen',
+    pageTitle: 'Checkliste: Pflegegrad-Antrag',
+    pageDesc: 'Alle Schritte und Fristen des Pflegegrad-Antrags auf einem Blatt: beantragen, Begutachtung vorbereiten, Fristen der Pflegekasse im Blick.',
     kind: 'Pflegegrad beantragen',
     checklistTitle: 'Checkliste: Pflegegrad-Antrag von Anfang bis Bescheid',
     intro: 'Alle Schritte und Fristen des Pflegegrad-Antrags auf einem Blatt: formlos beantragen, Datum sichern, Begutachtung vorbereiten und die Fristen der Pflegekasse im Blick behalten.',
@@ -34,6 +36,8 @@ const CHECKLISTS = [
   },
   {
     slug: 'hilfsmittel-pflegekasse-uebernahme',
+    pageTitle: 'Checkliste: Hilfsmittel-Kostenübernahme',
+    pageDesc: 'Für das Antragsgespräch mit der Pflegekasse: Voraussetzungen prüfen, Produkt benennen, Eigenanteil-Regeln kennen.',
     kind: 'Hilfsmittel',
     checklistTitle: 'Checkliste: Hilfsmittel-Kostenübernahme bei der Pflegekasse',
     intro: 'Das Wichtigste für das Antragsgespräch mit der Pflegekasse: Voraussetzungen prüfen, das richtige Produkt benennen und die Eigenanteil-Regeln kennen, bevor Sie unterschreiben.',
@@ -46,6 +50,8 @@ const CHECKLISTS = [
   },
   {
     slug: 'hausnotruf-kosten-anbieter-vergleich',
+    pageTitle: 'Checkliste: Hausnotruf vergleichen',
+    pageDesc: 'Monatliche Gebühr, Basistarif, Zusatzleistungen und Vertrag: Hausnotruf-Anbieter nebeneinanderstellen und sehen, was enthalten ist.',
     kind: 'Hausnotruf',
     checklistTitle: 'Checkliste: Hausnotruf-Anbieter vergleichen',
     intro: 'Monatliche Gebühr, Basistarif, Zusatzleistungen und Vertrag: Mit dieser Vergleichscheckliste stellen Sie Hausnotruf-Anbieter Nebeneinander und erkennen, was wirklich enthalten ist.',
@@ -57,6 +63,8 @@ const CHECKLISTS = [
   },
   {
     slug: 'treppenlift-firmen-vergleich',
+    pageTitle: 'Checkliste: Treppenlift-Anbieter',
+    pageDesc: 'Drei Betriebe, dieselben Prüfpunkte: Matrix für Aufmaß, Endpreis und Servicekette plus acht Fragen fürs Beratungsgespräch.',
     kind: 'Treppenlift',
     checklistTitle: 'Checkliste: Treppenlift-Anbieter vergleichen (Entscheidungsmatrix + 8 Fragen)',
     intro: 'Drei Betriebe, dieselben Prüfpunkte: Diese Matrix hält Vertragspartner, Aufmaß, Endpreis und Servicekette nebeneinander. Die acht Fragen ergänzen das Beratungsgespräch.',
@@ -69,6 +77,8 @@ const CHECKLISTS = [
   },
   {
     slug: 'tuerbreiten-schwellen-schnellcheck',
+    pageTitle: 'Checkliste: Türbreiten & Schwellen',
+    pageDesc: 'Messbogen für den Wohnungsrundgang: lichte Breiten, Schwellenhöhen und Bewegungsflächen in einem Durchgang erfassen.',
     kind: 'Türen & Schwellen',
     checklistTitle: 'Checkliste: Türbreiten und Schwellen schnell prüfen (Messbogen)',
     intro: 'Der Messbogen für den Rundgang durch die Wohnung: lichte Breiten, Schwellenhöhen und Bewegungsflächen in einem Durchgang erfassen – als Grundlage für Vermieter, Fachbetrieb und Pflegekassen-Antrag.',
@@ -81,6 +91,8 @@ const CHECKLISTS = [
   },
   {
     slug: 'badumbau-angebote-vergleichen',
+    pageTitle: 'Checkliste: Badumbau-Angebote',
+    pageDesc: 'Kostenaufstellungen Position für Position abgleichen und Fragen pro Betrieb — für vergleichbare Badumbau-Angebote.',
     kind: 'Badumbau',
     checklistTitle: 'Checkliste: Badumbau-Angebote vergleichen (Positionen + Fragen)',
     intro: 'Angebote für denselben Umbau können tausende Euro auseinanderliegen. Diese Checkliste gleicht Kostenaufstellungen Position für Position ab und liefert die Fragen pro Betrieb.',
@@ -211,7 +223,7 @@ ${blocks}
 ${backLink}
 <p class="fine no-print">Bullets in eckigen Klammern verweisen auf die Quellenliste im zugehörigen Ratgeber. Allgemeine Orientierung für ältere Menschen und Angehörige, keine individuelle rechtliche, medizinische oder pflegerische Beratung.</p>
 ${checkFooter(a)}`;
-  pages.push({file: join(OUT, cfg.slug + '.html'), html: shell({title: cfg.checklistTitle + ' — ZuhauseBleiben Kompass', desc: cfg.intro, path: '/checklisten/' + cfg.slug + '.html', body}), a, cfg});
+  pages.push({file: join(OUT, cfg.slug + '.html'), html: shell({title: (cfg.pageTitle || cfg.checklistTitle) + ' — ZuhauseBleiben Kompass', desc: cfg.pageDesc || cfg.intro, path: '/checklisten/' + cfg.slug + '.html', body}), a, cfg});
 }
 
 // --- Overview page -------------------------------------------------------------------
@@ -229,7 +241,7 @@ ${CHECKLISTS.map(cfg => {
 <div class="check-block no-print"><h2>Warum es diese Checklisten gibt</h2><p>Gute Entscheidungen brauchen Vorbereitung — und Vorbereitung braucht etwas zum Anfassen. Jede Checkliste stammt aus einem ausführlichen Ratgeber auf dieser Website und bündelt dessen prüfenden Fragen, Fristen und Vergleichspunkte. Alle Inhalte sind allgemeine Orientierung; maßgeblich bleiben die Auskünfte der zuständigen Stellen und Betriebe.</p><p>Sie möchten die Zusammenhänge verstehen, bevor Sie abhaken? Jede Checkliste verlinkt auf den vollständigen Ratgeber mit Quellen und Erläuterungen.</p></div>
 ${checkFooter({slug: '', h1: 'Checklisten-Übersicht', sources: [{checked_at: today()}]})}
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"Checklisten zum Ausdrucken","description":"Sechs druckbare Checklisten zu Pflegegrad-Antrag, Hilfsmittel, Hausnotruf, Treppenlift, Türen und Badumbau.","url":"${url('/checklisten/index.html')}","inLanguage":"de","isPartOf":{"@type":"WebSite","name":"ZuhauseBleiben Kompass","url":"${url('/')}"}},{"@type":"ItemList","itemListElement":[${CHECKLISTS.map((cfg, i) => `{"@type":"ListItem","position":${i + 1},"name":"${esc(cfg.checklistTitle.replace(/^Checkliste: /, ''))}","url":"${url('/checklisten/' + cfg.slug + '.html')}"}`).join(',')}]}]}</script>`;
-  pages.push({file: join(OUT, 'index.html'), html: shell({title: 'Checklisten zum Ausdrucken: Pflege, Treppenlift, Badumbau — ZuhauseBleiben Kompass', desc: 'Sechs kostenlose druckbare Checklisten: Pflegegrad-Antrag, Hilfsmittel-Kostenübernahme, Hausnotruf-Vergleich, Treppenlift-Entscheidungsmatrix, Tür-Messbogen, Badumbau-Angebotsvergleich.', path: '/checklisten/index.html', body})});
+  pages.push({file: join(OUT, 'index.html'), html: shell({title: 'Checklisten zum Ausdrucken — ZuhauseBleiben Kompass', desc: 'Sechs kostenlose druckbare Checklisten: Pflegegrad-Antrag, Hilfsmittel, Hausnotruf, Treppenlift, Tür-Messbogen und Badumbau — ohne Anmeldung.', path: '/checklisten/index.html', body})});
 }
 
 mkdirSync(OUT, {recursive: true});
