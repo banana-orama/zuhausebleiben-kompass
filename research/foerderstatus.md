@@ -1,6 +1,24 @@
 # Förderstatus-Prüfung: Offizielle Quellen gegen Live-Content
 
-## Prüflauf 26.10.2026, 08:01–08:35 CET (cron, autonomous) — AKTUELL
+## Prüflauf 01.11.2026, 21:16–21:30 CET (cron, autonomous) — AKTUELL
+
+**Ergebnis in einem Satz:** Alle förderrelevanten Zahlen und Rechtsaussagen des Live-Contents stimmen zum Quellenstand vom 01.11.2026 — **null Abweichungen** (47 Content-Assertionen PASS). Der offene Beobachtungspunkt vom 26.10. ist **geschlossen**: BMG nennt weiterhin „ab 2,19 Prozent (Stand: 10. Juli 2025)" unverändert; das Artikelzitat bleibt exakt korrekt. KfW 159 zeigt weiter keinen eigenen Satz („ab -,-- %").
+
+**Verifiziert am 01.11.2026 (Volltext-Assertionen, Belege `research/evidence/foerder-011126-*.html`, Skript `research/verify_foerder_011126.py`):**
+- **§ 40 SGB XI** (gesetze-im-internet, ISO-8859-1): 14/14 PASS — Abs. 2 „42 Euro" ✓, Abs. 3 „zehn vom Hundert, höchstens jedoch 25 Euro je Pflegehilfsmittel" ✓, Abs. 4 „subsidiär"/Zweckformel/„4 180 Euro je Maßnahme"/„16 720 Euro"/anteilige Aufteilung ✓, Abs. 7 „drei Wochen"/„fünf Wochen"/„als genehmigt" ✓, Fußnote Betragsstand „ab dem 1.1.2025" ✓ — alles unverändert zu 26.10.
+- **KfW 455-B**: 6/6 PASS — Antragstopp („können Sie nicht mehr beantragen", „ausgeschöpft"), „Laufende Anträge nicht betroffen", Zusage „reserviert", 2027 nur bei neuen Bundesmitteln, „noch nicht mit Ihrem Vorhaben begonnen" — unverändert.
+- **KfW 159**: 9/9 PASS **auf beiden URL-Varianten** (encodiert + Umlaut) — „bis zu 50.000 Euro je Wohneinheit", Haushaltsmittelvorbehalt/kein Rechtsanspruch, „Fachunternehmen", „vor dem Abschluss", „Treppenlifte", FAQ „Kombination der Förderungen für die gleiche Maßnahme ist nicht möglich", „Nachfinanzierung" — unverändert. KfW zeigt weiter „ab -,-- %" (kein eigener Zinssatz publiziert).
+- **BMG Zuschüsse zur Wohnungsanpassung**: 4/4 PASS („bis zu 4.180 Euro", „Pflegegrade 1 bis 5", „16.720 Euro", Zweitzuschuss „zweites Mal") + 2.090 €/Person Wohngemeinschaft ✓ + **Zinspassage unverändert**: „…zinsvergünstigte Kredite ab 2,19 Prozent (Stand: 10. Juli 2025) bis zu einer Höhe von 50.000 Euro…" → Artikel `hilfsmittel-dusch-wc-uebernahme` zitiert das korrekt dem BMG zu (Quelle [7]); keine Änderung nötig.
+
+**Link-Status:** 29/30 distinct offizielle URLs HTTP 200 (`research/check_foerder_links_011126.py`). Der eine „FAIL" war ein Artefakt des Prüfskripts (urllib verweigert Umlaut-Pfade ohne Prozentkodierung; via curl bestätigt: beide 159-Varianten antworten nach Redirect-Kette mit identischem Inhalt — beide Varianten bestehen denselben 9er-Assertionssatz). Skript gepatcht (`urllib.parse.quote`).
+
+**Neue Beobachtung (kein Korrekturanlass):** KfW-159 antwortet jetzt mit **301** auf die zitierten URLs (Ziel: trailing-slash-Variante `…Altersgerecht-Umbauen-(159)/`). Für Browser-Besucher folgen die zitierten Links korrekt auf; Belegdateien mit `curl -L` gezogen. Beim nächsten Lauf prüfen, ob KfW die trailing-slash-Form als Kanonikalusgabe macht (dann ggf. zitierte URLs auf die Endform stellen — rein kosmetisch, kein Inhaltsfehler).
+
+**Geänderte Dateien:** 14 × `content-ready/*.json` (28 `checked_at` → 2026-11-01, Skript `research/bump_checked_at_011126.py`, Zeilen-Zustandsautomat statt JSON-Roundtrip; Diff-Sanity: nur Datumszeilen) + 3 sichtbare KfW-Prüfdatumsangaben „26. Oktober" → „1. November 2026" (bad-umbau-FAQ, treppenlift-zuschuss-FAQ, bodengleiche-Fließtext). Bewusst **nicht** hochgesetzt: Gesamtdisclaimer „Abrufstand vom 19.10./16.10." (hilfsmittel-pflegekasse, rollator, pflegegrad, verhinderungspflege — deren Quellensets heute nur per Link-Status, nicht inhaltlich neu geprüft) und historische Datumsaussagen (TK-Preise 14.10., VZ-Verbandsklage 8.10., Editorial-Check 23.10., DIN 18534 Okt. 2025). `data/content.json` unangetastet (Altentwürfe, werden vom Renderer überschrieben).
+
+---
+
+## Prüflauf 26.10.2026, 08:01–08:35 CET (cron, autonomous)
 
 **Ergebnis in einem Satz:** Alle förderrelevanten Zahlen und Rechtsaussagen des Live-Contents stimmen zum Quellenstand vom 26.10.2026 — **null Abweichungen**, keine sachlichen Korrekturen nötig. Aktualisiert wurden nur Prüfdaten (`checked_at` → 2026-10-26) für die heute tatsächlich neu verifizierten Quellen sowie 8 sichtbare KfW-Prüfdatumsangaben („19. Oktober"→„26. Oktober") in 4 Artikeln.
 
