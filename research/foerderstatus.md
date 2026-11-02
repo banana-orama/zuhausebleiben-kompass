@@ -1,6 +1,26 @@
 # Förderstatus-Prüfung: Offizielle Quellen gegen Live-Content
 
-## Prüflauf 01.11.2026, 21:16–21:30 CET (cron, autonomous) — AKTUELL
+## Prüflauf 02.11.2026, 08:12–08:45 CET (cron, autonomous) — AKTUELL
+
+**Ergebnis in einem Satz:** Alle förderrelevanten Zahlen und Rechtsaussagen des Live-Contents stimmen zum Quellenstand vom 02.11.2026 — **null Abweichungen** (42 Volltext-Assertionen PASS per curl). Der offene Beobachtungspunkt vom 01.11. ist **geschlossen und umgesetzt**: KfW kanonikalisiert 159 auf Umlaut + trailing slash; die zitierten KfW-URLs wurden darauf normalisiert (kosmetischer Zitier-Fix, kein Inhaltsfehler — beide Formen inhaltlich identisch). BMG nennt weiterhin „ab 2,19 Prozent (Stand: 10. Juli 2025)“ (Artikel-Attribution korrekt); KfW 159 zeigt weiter keinen eigenen Satz („ab -,-- %“).
+
+**Kanonikalbefund (offener Punkt 01.11.):** KfW 159 antwortet auf **beide** bisher zitierten Formen (encodiert + Umlaut, ohne Slash) mit **301** → Umleitung über einen **http-Zwischenschritt** auf die trailing-slash-Form (2 Hops). `<link rel="canonical">` + `og:url` der Zielseite: `…/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)/` (Umlaut + Slash). 455-B: die zitierte encodiert-Form antwortet direkt 200 (kein Redirect), canonical ist ebenfalls die Umlaut+Slash-Form. → **Fix:** 8 Zitier-URLs in 4 Artikeln auf die Kanonikalform normalisiert (455-B `%C3%B6`→`ö` 4×; 159 → Umlaut+Slash 4×, davon 1× encodiert). Identischer Assertionssatz 9/9 auf alter und neuer Form (`curl -L`); Leser sparen künftig die Redirect-Kette. Keine sonstigen Referenzen auf die Altformen in tests/data/scripts.
+
+**Verifiziert am 02.11.2026 (Volltext-Assertionen, Belege `research/evidence/foerder-021126-*.html`, Skript `research/verify_foerder_021126.py`, Log `verify_foerder_021126.log`):**
+- **§ 40 SGB XI** (gesetze-im-internet, ISO-8859-1): 14/14 PASS — Abs. 2 „42 Euro“ ✓, Abs. 3 „zehn vom Hundert, höchstens jedoch 25 Euro je Pflegehilfsmittel“ ✓, Abs. 4 „subsidiär“/Zweckformel/„4 180 Euro je Maßnahme“/„16 720 Euro“/anteilige Aufteilung ✓, Abs. 7 „drei Wochen“/„fünf Wochen“/„als genehmigt“ ✓, Fußnote „ab dem 1.1.2025“ ✓ — unverändert zu 01.11.
+- **KfW 455-B**: 6/6 PASS — Antragstopp („können Sie nicht mehr beantragen“, „ausgeschöpft“), „Laufende Anträge nicht betroffen“, Zusage „reserviert“, 2027 nur bei neuen Bundesmitteln, „noch nicht mit Ihrem Vorhaben begonnen“ — unverändert.
+- **KfW 159**: 9/9 PASS auf **beiden** URL-Varianten (vor der Normalisierung gezogen) — 50.000 €/WE, Haushaltsmittelvorbehalt, kein Rechtsanspruch, Fachunternehmen, vor Vertragsabschluss, Treppenlifte (FB 3), Kombinationsausschluss, Nachfinanzierungs-Ausschluss — unverändert.
+- **BMG Zuschüsse zur Wohnungsanpassung**: 4/4 PASS (4.180/16.720 €, PG 1–5, Zweitzuschuss) + 2.090 €/Person Wohngemeinschaft ✓ + **Zinspassage unverändert**: „…zinsvergünstigte Kredite ab 2,19 Prozent (Stand: 10. Juli 2025) bis zu einer Höhe von 50.000 Euro…“ → Artikel `hilfsmittel-dusch-wc-uebernahme` zitiert das korrekt dem BMG zu; keine Änderung nötig.
+
+**Browser-Check (Chromium, `research/browser_check_foerder_021126.mjs`, Log `browser_check_foerder_021126.log`):** 455-B **6/6 sichtbar**; 159 auf der **neuen Kanonikalform** 5/5 — davon 2 sichtbar, 3 FAQ-Needles **nur im DOM** (eingeklappte Akkordeons). **Lesson:** `document.body.innerText` enthält eingeklappte Akkordeon-Inhalte nicht — Browser-Checks für FAQ-/Förderbereich-Needles brauchen einen `textContent`-Fallback (Skript hat beides, Layer wird je Needle ausgegeben).
+
+**Geänderte Dateien:** 14 × `content-ready/*.json` (28 `checked_at` → 2026-11-02, Skript `research/bump_checked_at_021126.py`) + 8 KfW-Zitier-URLs → Kanonikalform (4 Artikel) + **7 sichtbare KfW-Prüfdatumsangaben** „1. November“ → „2. November 2026“ (bad-umbau ×2, bodengleiche ×2, treppenlift-zuschuss ×2 — inkl. „direkt im Browser geprüft“ —, wanne ×1; gedeckt durch den heutigen Browser-Check 11/11). Diff-Sanity: 43/43 geänderte Zeilen ausschließlich `checked_at`/kfw.de/„November 2026“, 0 Fremdzeilen. Bewusst **nicht** hochgesetzt: Gesamtdisclaimer „Abrufstand 19.10./16.10.“ (hilfsmittel-pflegekasse, rollator, pflegegrad, verhinderungspflege — deren übrige Quellen heute nicht inhaltlich neu geprüft) und historische Datumsaussagen. `data/content.json` unangetastet (Altentwürfe, Renderer überschreibt).
+
+**Build/Deploy:** build:launch (45 Seiten, Mode: LAUNCH index) + test_site.py + test_articles.py + test_partner_links.py PASS. Hinweis: die Mode-Angabe in der Summary-Zeile von test_site.py hängt am `INDEX`-Env-Var-Default (druckt „PREVIEW“, auch wenn LAUNCH gebaut wurde) — die verbindlichen Robots-Assertions pro Datei sind es, die greifen.
+
+---
+
+## Prüflauf 01.11.2026, 21:16–21:30 CET (cron, autonomous)
 
 **Ergebnis in einem Satz:** Alle förderrelevanten Zahlen und Rechtsaussagen des Live-Contents stimmen zum Quellenstand vom 01.11.2026 — **null Abweichungen** (47 Content-Assertionen PASS). Der offene Beobachtungspunkt vom 26.10. ist **geschlossen**: BMG nennt weiterhin „ab 2,19 Prozent (Stand: 10. Juli 2025)" unverändert; das Artikelzitat bleibt exakt korrekt. KfW 159 zeigt weiter keinen eigenen Satz („ab -,-- %").
 
