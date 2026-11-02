@@ -9,6 +9,10 @@ Verifiziert:
   C  URL ohne approval=true  -> Build bricht ab (Kontradiktion).
   D  approved=true ohne URL -> Build bricht ab (halb aktiver Zustand).
   E  placement_id eindeutig und formatstabil (regex), Slugs existieren.
+  F  datenschutz.html spiegelt den Aktivierungsstand: Partnerprogramm-Abschnitt
+     genau dann, wenn mind. ein Partner freigegeben ist; Netzwerk + Anbietername
+     genannt; im Inaktiv-Zustand ehrlich "keine Empfehlungslinks geschaltet".
+     (Aktivierung ohne Datenschutzabschnitt bricht das Gate — Same-Commit-Regel.)
 """
 import json
 import os
@@ -116,6 +120,20 @@ def main():
                   (total > 0) == bool(active_partners), f'found {total}')
             check('A3 article count still >= 26',
                   len(list((ROOT / 'dist-pl-inactive').glob('*.html'))) >= 26)
+
+            # --- Szenario F: Datenschutz spiegelt den Aktivierungsstand ---
+            ds = read_html('dist-pl-inactive', 'datenschutz.html')
+            has_section = 'Partnerprogramme (ausgehende Links)' in ds
+            check('F1 dse partner section iff partner live', has_section == bool(active_partners),
+                  f'section={has_section} live={bool(active_partners)}')
+            if active_partners:
+                check('F2 dse discloses awin network',
+                      'Awin' in ds and 'awin.com/de/datenschutzerklarung' in ds)
+                for part in active_partners:
+                    check(f'F3 dse names approved partner {part["id"]}', part['name'] in ds)
+            else:
+                check('F4 dse honest when inactive',
+                      'Derzeit sind keine gekennzeichneten Empfehlungslinks' in ds)
 
         # --- Szenario B: aktive Fixture rendert nur adressierte Artikel ---
         cfg_b = tmp / 'cfg-active.json'
