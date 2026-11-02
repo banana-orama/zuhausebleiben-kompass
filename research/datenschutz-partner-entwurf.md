@@ -1,6 +1,6 @@
 # Datenschutz-Amendment-Entwurf: Partnerprogramme / ausgehende Empfehlungslinks
 
-Status: **ENTWURF — nicht in die Live-Seite gemischt, keine Rechtsfreigabe, keine anwaltliche Prüfung.**
+Status: **Teilweise umgesetzt (02.11.2026): Amendment A + B-Awin/Malteser live (Commit bc9e599, CI 41454350783, Live-Readback ALL PASS); ADCELL-Absatz weiterhin zurückgestellt (kein geschalteter ADCELL-Link), Amendment C entfällt (Messungs-Whitelist unverändert). Keine Rechtsfreigabe, keine anwaltliche Prüfung.**
 Erstellt: 2026-10-30 (Cron-Lauf 4). Zitations-Ledger: `research/datenschutz-partner-301026-ledger.json`
 (14/14 Zitate maschinell verbatim verifiziert gegen Evidenz in `research/evidence/datenschutz-partner-301026/`).
 Zweck: Die in `operations/AFFILIATE-LINK-STATUS.md` angekündigte Präzisierung des Abschnitts
