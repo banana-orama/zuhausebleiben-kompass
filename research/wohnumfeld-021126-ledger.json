@@ -1,0 +1,147 @@
+{
+  "task": "Briefing 15: Wohnumfeld-Zuschuss beantragen (Pflegekasse § 40 Abs. 4 SGB XI — Antrag, Fristen, Unterlagen, Ablehnungsgründe)",
+  "created": "2026-11-02",
+  "evidence_dir": "research/evidence/wohnumfeld-021126",
+  "notes": [
+    "Alle 10 Quellen am 02.11.2026 frisch abgerufen (fetch_wohnumfeld_021126.sh, HTTP 200; REHADAT erst beim Retry 200).",
+    "Kernbefund 1: § 40 Abs. 7 SGB XI nennt die Genehmigungs-Frist/Fiktion ausdrücklich FUER 'Zuschüsse zu wohnumfeldverbessernden Maßnahmen' (3 Wochen; 5 Wochen bei Beteiligung von Pflegefachperson/MD nach Abs. 1 Satz 2) — Wettbewerber-Texte schreiben die Fiktion meist nur Hilfsmitteln zu oder schweigen dazu.",
+    "Kernbefund 2: § 40 Abs. 4 ist eine Ermessensleistung ('können subsidiär') mit Zweckformel — kein fester Anspruch auf 4.180 Euro. Viele Portal-Texte formulieren das als automatischen Betrag.",
+    "Kernbefund 3: 'Eine Maßnahme oder mehrere?' beantwortet ein echtes Kassenformular (mkk, Stand 03|26): parallel genehmigte Maßnahmen gelten als EINE Maßnahme — die 4.180-Euro-Grenze je Maßnahme ist damit nicht pro Handwerkerposition.",
+    "MKK-Formular nennt Umzug-Sonderfall (Mietvertrag + Vermieter-Bestätigung Barrierefreiheit) und die Unfallversicherung-Trägerfrage (Beleg für 'subsidiär').",
+    "VZ-Musterbrief (Stand September 2021, bewusst datiert zitiert) zeigt: formloser Antrag per Brief reicht; Begründungsformulierungen greifen die gesetzliche Zweckformel wörtlich auf.",
+    "Eigenleistung (nur Material, kein Arbeitsaufwand) ist Kassen-/Verbraucherpraxis (pflege.de), NICHT Gesetzestext — so gekennzeichnet.",
+    "Abgrenzung Hilfsmittel: gelistete Position 33.40.05.0 (Toilettenaufsätze mit Wascheinrichtung, GKV-SV-Fortschreibung 11.12.2025 + REHADAT-Produkt) läuft über den Hilfsmittel-Antrag § 33 mit eigener Eigenanteil-Logik; komplette Umbauten über § 40 Abs. 4. Verweise im Text namentlich (keine Inline-Links im Renderer)."
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "§ 40 SGB XI – Ansprüche auf Hilfsmittel, wohnumfeldverbessernde Maßnahmen (gesetze-im-internet.de)",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/sgb40.html",
+      "quotes": [
+        "(4) Die Pflegekassen können subsidiär finanzielle Zuschüsse für Maßnahmen zur Verbesserung des individuellen Wohnumfeldes des Pflegebedürftigen gewähren",
+        "wenn dadurch im Einzelfall die häusliche Pflege ermöglicht oder erheblich erleichtert oder eine möglichst selbständige Lebensführung des Pflegebedürftigen wiederhergestellt wird",
+        "Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen.",
+        "Der Gesamtbetrag je Maßnahme nach Satz 3 ist auf 16 720 Euro begrenzt und wird bei mehr als vier Anspruchsberechtigten anteilig auf die Versicherungsträger der Anspruchsberechtigten aufgeteilt.",
+        "(7) Die Pflegekasse hat über einen Antrag auf Pflegehilfsmittel oder Zuschüsse zu wohnumfeldverbessernden Maßnahmen zügig, spätestens bis zum Ablauf von drei Wochen nach Antragseingang",
+        "oder in Fällen, in denen eine Pflegefachperson oder der Medizinische Dienst nach Absatz 1 Satz 2 beteiligt wird, innerhalb von fünf Wochen nach Antragseingang zu entscheiden.",
+        "Erfolgt keine Mitteilung eines hinreichenden Grundes, gilt die Leistung nach Ablauf der Frist als genehmigt.",
+        "Die Pflegekasse kann in geeigneten Fällen die Notwendigkeit der Versorgung mit den beantragten Pflegehilfsmitteln unter Beteiligung einer Pflegefachperson oder des Medizinischen Dienstes überprüfen lassen."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bundesministerium für Gesundheit – Zuschüsse zur Wohnungsanpassung",
+      "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/bmg-wohnung.html",
+      "quotes": [
+        "Die Pflegekasse kann für Pflegebedürftige der Pflegegrade 1 bis 5 auf Antrag bis zu 4.180 Euro als Zuschuss für Anpassungsmaßnahmen zahlen",
+        "kann der Zuschuss bis zu viermal 4.180 Euro, also bis zu 16.720 Euro, betragen",
+        "Ein Zuschuss zur Wohnungsanpassung kann auch ein zweites Mal gewährt werden, wenn die Pflegesituation sich so verändert hat, dass erneute Maßnahmen nötig werden."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Verbraucherzentrale – Musterbrief: Antrag auf Zuschuss für Maßnahmen der Wohnumfeldverbesserung (PDF, Stand September 2021)",
+      "url": "https://www.verbraucherzentrale.de/sites/default/files/2021-09/wohnumfeldverbessernde_massnahmen_bevollmaechtigter.pdf",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/vz-musterbrief.txt",
+      "quotes": [
+        "Geben Sie bitte Beschreibungen der baulichen Maßnahmen an; z. B. Einbau eines Treppenlifts, Verbreiterung von Türen.",
+        "Geben Sie bitte Begründungen an, z.B. weil dadurch die häusliche Pflege erst möglich oder die Abhängigkeit von Pflegepersonen verringert wird oder weil ohne Durchführung der Maßnahme eine vollstationäre Versorgung erforderlich ist.",
+        "Die Kosten betragen gemäß dem beiliegenden Kostenvoranschlag voraussichtlich",
+        "Neben dem pflegebedürftigen Menschen leben keine weiteren pflegebedürftigen Menschen in der Wohnung.",
+        "Bitte lassen Sie mir alle notwendigen Formulare zukommen.",
+        "Stand: September 2021"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "mkk – meine krankenkasse: Antrag auf Verbesserung des Wohnumfeldes (Kassenformular, PDF, Formularstand 03|26)",
+      "url": "https://www.meine-pflegekasse.de/fileadmin/Dokumente/Formulare/Pflege/antrag-pflege-wohnumfeldmassnahme-mkk.pdf",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/mkk-formular.txt",
+      "quotes": [
+        "Zuschüsse für Maßnahmen der Wohnumfeldverbesserung sollten vor Beginn mit einem Kostenvoranschlag (gegebenenfalls auch Angebote, Skizzen, Fotos etc.) bei der Pflegekasse beantragt werden.",
+        "Wichtig: Besprechen Sie Ihr Vorhaben unbedingt vorher mit Ihrer Vermieterin oder Ihrem Vermieter.",
+        "Bitte legen Sie einen Kostenvoranschlag, Fotos und eventuell Skizzen bei.",
+        "Bitte erläutern Sie, wie durch die geplante Maßnahme Ihre Pflege erst ermöglicht oder deutlich erleichtert wird oder wie Sie dadurch selbstständiger werden.",
+        "Im Falle eines Umzugs legen Sie bitte eine Kopie des neuen Mietvertrags",
+        "Alle Maßnahmen zur Wohnumfeldverbesserung sind als eine Maßnahme zu werten, wenn diese bei der Genehmigung des Zuschusses und damit auf der Grundlage des zu diesem Zeitpunkt bestehenden Hilfebedarfs erforderlich sind.",
+        "Der Zuschuss beträgt je Maßnahme bis zu 4.000 Euro (2024) bzw. 4.180 Euro (ab 2025). Er ist auf die tatsächlichen Kosten der Maßnahme begrenzt.",
+        "Überschreiten die Kosten die Höhe des Zuschusses, ist die Differenz selbst zu tragen."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "GKV-Spitzenverband: Fortschreibung der Produktgruppe 33 „Toilettenhilfen“ des Hilfsmittelverzeichnisses nach § 139 SGB V vom 11.12.2025 (PDF)",
+      "url": "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hilfsmittel/fortschreibungen_aktuell/12_2025/2025_12_11_Produktgruppe_33_Toilettenhilfen.pdf",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/gkv-pg33.txt",
+      "quotes": [
+        "Fortschreibung der Produktgruppe 33 \"Toilettenhilfen\" des Hilfsmittelverzeichnisses nach § 139 SGB V vom 11.12.2025",
+        "Produktart 33.40.05.0 Toilettenaufsätze mit Wascheinrichtung",
+        "Toiletten-Aufsätze mit Wascheinrichtung bestehen aus einem Toilettensitz mit Warmwasserdusche und Warmlufttrocknung. Sie werden auf einem vorhandenen Toilettenbecken installiert."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "REHADAT GKV-Hilfsmittelverzeichnis: Produkt 33.40.05.0006 Dusch-WC Aufsatz Bidet Jasmin (Verzeichnisstand: Bundesanzeiger 28.09.2026)",
+      "url": "https://www.rehadat-gkv.de/produkt/index.html?prod=bidet&s3f=s3f&reloaded&produktId=33.40.05.0006",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/rehadat-334005.html",
+      "quotes": [
+        "Produktinformation zu 33.40.05.0006 Dusch-WC Aufsatz Bidet Jasmin, Art.-Nr. AB-311 anzeigen",
+        "Stand: des Verzeichnisses: Bundesanzeiger 28.09.2026"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "pflege.de – Wohnumfeldverbessernde Maßnahmen: Antrag • Zuschuss",
+      "url": "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/wohnraumanpassung/",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/pflegede.html",
+      "quotes": [
+        "Den Antrag auf den Zuschuss für wohnumfeldverbessernde Maßnahmen stellen Sie unbedingt vor den Umbaumaßnahmen",
+        "Online-Formulare für den Antrag, Sie können aber immer auch ein einfaches formloses Schreiben als Antrag abschicken.",
+        "Anders als bei einem Firmenauftrag werden bei der Eigenleistung die Arbeitsaufwände nicht bezuschusst.",
+        "Dafür antworten Sie innerhalb eines Monats auf den Ablehnungsbescheid."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "DAK-Gesundheit – Wohnraumanpassung: Wie stelle ich einen Antrag? (Seitenstand 01.10.2026)",
+      "url": "https://www.dak.de/dak/ihr-anliegen/pflege/wohnraumanpassung/wie-stelle-ich-einen-antrag-auf-wohnraumanpassung_21390",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/dak.html",
+      "quotes": [
+        "den Zuschuss zur Wohnraumanpassung - auch wohnumfeldverbessernde Maßnahmen genannt - vor der Umsetzung genehmigen müssen",
+        "Aktualisiert am: 01.10.2026"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "AOK – Wohnraumanpassungen und Barrierefreiheit",
+      "url": "https://www.aok.de/pk/pflegeleistungen/wohnraumanpassungen-und-barrierefreiheit/",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/aok.html",
+      "quotes": [
+        "Den Zuschuss für wohnumfeldverbessernde Maßnahmen beantragen Sie vor dem Umbau bei Ihrer AOK-Pflegekasse.",
+        "Zusätzlich zum Antrag reichen Sie einen Kostenvorschlag für die Maßnahmen ein."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bundesportal verwaltung.bund.de – Zuschuss für wohnumfeldverbessernde Maßnahmen in der Pflegeversicherung beantragen",
+      "url": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99106013080001",
+      "checked_at": "2026-11-02",
+      "evidence": "wohnumfeld-021126/bundportal.html",
+      "quotes": [
+        "Zuschuss für wohnumfeldverbessernde Maßnahmen in der Pflegeversicherung beantragen",
+        "Kostenvoranschlag des Handwerksbetriebs, der den Umbau durchführen soll"
+      ]
+    }
+  ]
+}

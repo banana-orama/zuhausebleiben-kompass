@@ -4,6 +4,33 @@ Letzte Aktualisierung: 2026-10-30 (Abend, Renderer-Iteration: Region-noindex-Gat
 
 ## Bestand
 
+### Batch 12 (2026-11-02, Cron-Lauf) — Briefing 15: Wohnumfeld-Zuschuss beantragen
+1. **Neu veröffentlicht:** wohnumfeldverbesserung-beantragen.json — Pflegekassen-Antragsstrecke nach
+   § 40 Abs. 4 SGB XI: Ermessensleistung („können subsidiär“) mit Zweckformel, 4.180 € je Maßnahme /
+   16.720 € WG-Deckel, Pflegegrade 1–5 (BMG), Antrag VOR dem Umbau (AOK/DAK/mkk/pflege.de wörtlich),
+   gesetzliche 3/5-Wochen-Frist mit Genehmigungsfiktion laut Abs. 7 — ausdrücklich auch für
+   wohnumfeldverbessernde Maßnahmen (Hauptdifferenzierung; Wettbewerber schreiben die Fiktion meist
+   nur Hilfsmitteln zu) —, Unterlagen-Checkliste, Mietwohnung (Vermieter, Umzug-Sonderfall),
+   Ablehnungsgründe + Widerspruch 1 Monat, fiktives Rechenbeispiel (9.400 → 4.180 → 5.220) +
+   WG-Durchrechnung (8 × 2.090 €), Abgrenzung Hilfsmittel 33.40.05 (Aufsatz) vs. kompletter Umbau.
+   10 Abschnitte, 6 FAQs, 10 Quellen, 46/46 Ledger-Pässe (research/wohnumfeld-021126-ledger.json),
+   Grafik assets/images/wohnumfeld-antrag-wegweiser.svg (getBBox 0 Overflows + Badge-im-Rect +
+   Vision sauber), Protokoll research/wohnumfeldverbesserung-beantragen-batch.md. 26. Ratgeber;
+   Topic SERP-basiert (GSC blockiert), intent-distinct gegen zuschuss/hilfsmittel/pflegegrad
+   (grep-Befund: 0 Antragsstrecken-Content im Bestand).
+2. **Renderer:** article-renderer.mjs isCare-Regex + „wohnumfeld“, specialMap +1 (Early-CTA
+   „Förderlandschaft im Überblick“ → treppenlift-zuschuss). test_cross_links.py Regex synchron.
+   llms-txt.py SUMMARIES + SECTION_MAP erweitert.
+3. **Testzähler:** test_articles 25→26; verify_checklists_build RSS 25→26 Items;
+   test_partner_links A2 ≥ 26. data/cross-links.json: wohnumfeld → [hilfsmittel-pflegekasse,
+   pflegegrad-antrag] (care-intern). Neu: verify_wohnumfeld_{021126,content,svg,mobile}_021126.py
+   + fetch_wohnumfeld_021126.sh (Content-Gate-Lesson: sup.cite-<a>-Markup strippen, &-escapete
+   URLs doppelt prüfen).
+4. **Teststand:** npm test komplett grün (test_site 50 Seiten/37 locs, test_articles 26,
+   cross_links 26/7, titles 0 Verletzungen, measurement, Playwright 20/20 nach Flaky-Re-Run,
+   Partner ALL PASS), Content-Gate ALL PASS, Mobile 390 px 0 px Overflow. Deploy+Readback:
+   launch-state 02.11.
+
 ### Index-Hygiene-Unit (2026-10-30, Abend, Cron-Lauf) — Audit-Fix #5: Region-Platzhalter noindex
 1. **Live-Re-Derivation:** 13/49 Sitemap-URLs (Hub + 12 Bundesländer) waren „in Vorbereitung“-Stubs
    mit robots index,follow; Hub hatte 0 interne Inlinks. 27 % der Sitemap = Placeholder → Thin-Content-

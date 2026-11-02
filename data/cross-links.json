@@ -7,6 +7,7 @@
     "hausnotruf-kosten-anbieter-vergleich": ["treppenlift-zuschuss"],
     "hausnotruf-sturzerkennung-oder-knopf": ["treppenlift-zuschuss"],
     "beleuchtung-orientierung-im-alter": ["hilfsmittel-pflegekasse-uebernahme"],
+    "wohnumfeldverbesserung-beantragen": ["hilfsmittel-pflegekasse-uebernahme", "pflegegrad-antrag-ablauf-fristen"],
     "wanne-zur-dusche": ["badumbau-angebote-vergleichen"]
   },
   "rationale": {
@@ -15,6 +16,7 @@
     "hausnotruf-kosten-anbieter-vergleich": "Sturzprävention + Wohnung: Förderpfad als redaktioneller Anschluss, kein Werbecharakter; Cross-Cluster bewusst whitelistet",
     "hausnotruf-sturzerkennung-oder-knopf": "Sturzprävention + Wohnung: Förderpfad als redaktioneller Anschluss, kein Werbecharakter; Cross-Cluster bewusst whitelistet",
     "beleuchtung-orientierung-im-alter": "Bewegungsmelder/Nachtlicht teils Hilfsmittelkontext — Brücke zum Link-Magnet hilfsmittel-pflegekasse-uebernahme",
-    "wanne-zur-dusche": "Angebotsvergleich als nächster Schritt nach der Variantenwahl (Cluster-intern)"
+    "wanne-zur-dusche": "Angebotsvergleich als nächster Schritt nach der Variantenwahl (Cluster-intern)",
+    "wohnumfeldverbesserung-beantragen": "Abgrenzung zum Hilfsmittel-Antrag (Aufsatz vs. kompletter Umbau) + Widerspruchs-Weg nach einer Ablehnung (Cluster-intern care)"
   }
 }

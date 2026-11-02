@@ -55,6 +55,7 @@ SUMMARIES = {
     "tuerbreiten-schwellen-schnellcheck": "Türbreite und Schwellenhöhe selbst messen und mit Rampe oder Umbau planen, inklusive Messprotokoll und Checkliste.",
     "beleuchtung-orientierung-im-alter": "Lichtplanung im Alter: Grundhelligkeit, Blendung vermeiden, Nachtlicht und Bewegungsmelder gezielt einsetzen.",
     "verhinderungspflege-tagespflege-ueberblick": "Verhinderungspflege (§ 39 SGB XI) und Tagespflege (§ 41): Ansprüche, Budgets und Entscheidungsmatrix.",
+    "wohnumfeldverbesserung-beantragen": "Wohnumfeld-Zuschuss der Pflegekasse (§ 40 Abs. 4 SGB XI): bis 4.180 Euro je Maßnahme, Antrag vor dem Umbau, 3/5-Wochen-Frist mit Genehmigungsfiktion, Unterlagen-Checkliste und typische Ablehnungsgründe.",
 }
 
 # Legacy-data entry page (not in content-ready/, built from data/content.json).
@@ -74,6 +75,7 @@ SECTION_MAP = [
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),
     ("Pflegegrad, Hilfsmittel und Sicherheit", ["pflegegrad-antrag-ablauf-fristen", "pflegegrad-beantragen",
                                                 "hilfsmittel-pflegekasse-uebernahme", "hilfsmittel-dusch-wc-uebernahme",
+                                                "wohnumfeldverbesserung-beantragen",
                                                 "rollator-auswahl-passform-kosten",
                                                 "hausnotruf-kosten-anbieter-vergleich", "hausnotruf-sturzerkennung-oder-knopf"]),
     ("Wohnen im Alltag", ["tuerbreiten-schwellen-schnellcheck", "beleuchtung-orientierung-im-alter",
