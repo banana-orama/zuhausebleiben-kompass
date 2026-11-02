@@ -82,19 +82,39 @@ def main():
     try:
         # --- Szenario E: eingebaute Konfigurationsdatei ist formatstabil ---
         cfg_raw = json.loads((ROOT / 'data/partner-links.json').read_text(encoding='utf-8'))
-        check('E1 repo-config active=false', cfg_raw.get('active') is False)
+        active_partners = [p for p in cfg_raw['partners'] if p.get('approved')]
+        check('E1 repo-config active mirrors approvals',
+              cfg_raw.get('active') is bool(active_partners) or (cfg_raw.get('active') is False and not active_partners))
+        for part in active_partners:
+            check(f'E1b approved partner {part["id"]} carries approval_readback',
+                  bool(part.get('approval_readback')))
+            check(f'E1c approved partner {part["id"]} has https tracker urls',
+                  all(str(pl.get('url', '')).startswith('https://') for pl in part['placements']))
+            check(f'E1d approved partner {part["id"]} uses real awin tracker',
+                  all('awin1.com' in str(pl.get('url', '')) for pl in part['placements']))
         ids = [p['placement_id'] for part in cfg_raw['partners'] for p in part['placements']]
         check('E2 no duplicate placement_id', len(ids) == len(set(ids)))
 
-        # --- Szenario A: inaktive Repo-Konfiguration rendert nichts ---
+        # --- Szenario A: produktives Build rendert nur die freigegebenen CTAs ---
         r = run_generate('dist-pl-inactive')
-        check('A0 inactive build exits 0', r.returncode == 0)
+        check('A0 default build exits 0', r.returncode == 0)
         if r.returncode == 0:
+            partner_pages = set()
+            for part in active_partners:
+                for pl in part['placements']:
+                    partner_pages.update(pl['articles'])
+            allowed = {s + '.html' for s in partner_pages}
+            leaks = []
             total = 0
             for page in (ROOT / 'dist-pl-inactive').rglob('*.html'):
-                total += marker_count(page.read_text(encoding='utf-8'))
-            check('A1 zero partner markers in default build', total == 0, f'found {total}')
-            check('A2 article count still >= 26',
+                n = marker_count(page.read_text(encoding='utf-8'))
+                total += n
+                if n and page.name not in allowed:
+                    leaks.append(page.name)
+            check('A1 partner markers only on addressed pages', not leaks, str(leaks[:5]))
+            check('A2 partner markers present when active',
+                  (total > 0) == bool(active_partners), f'found {total}')
+            check('A3 article count still >= 26',
                   len(list((ROOT / 'dist-pl-inactive').glob('*.html'))) >= 26)
 
         # --- Szenario B: aktive Fixture rendert nur adressierte Artikel ---

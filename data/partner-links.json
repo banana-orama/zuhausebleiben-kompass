@@ -1,11 +1,11 @@
 {
-  "active": false,
+  "active": true,
   "_doc": {
     "purpose": "Zentrale Partner-Link-Map. Der Renderer rendert Partner-CTAs ausschliesslich, wenn active=true UND der Partner approved=true UND die Platzierung eine echte Tracker-URL aus dem zugelassenen Awin-Programm traegt. In jedem anderen Zustand rendert er nichts: kein sichtbarer Platzhalter, kein erfundener Link (Awin-Gate: vor Programmzusage wuerden Links weder tracken noch verguetet werden und verletzen die Programmbedingungen).",
     "activation": "Nur nach dokumentierter Programmzusage: Status-Readback im Awin-Login (Bewerbung offen -> zugelassen) in approval_readback ablegen, echte Tracker-URL aus dem Programm-Inventory eintragen, approved und active auf true setzen, npm run test:partner + npm test laufen lassen, dann Deploy. Eine Platzierung mit URL aber approved=false ist eine Konfigurations-Kontradiktion und bricht den Build (Absicht).",
     "test_override": "Tests ueberschreiben diese Datei ueber die Umgebungsvariable PARTNER_LINKS_CONFIG und das Ausgabeverzeichnis ueber DIST_DIR; der Produktionspfad bleibt data/partner-links.json.",
     "disclosure": "Jede Platzierung rendert mit rel=\"sponsored\", Anzeige-Kennzeichnung und Verguetungshinweis. placement_id ist die stabile, nicht-personale Messkennung; Klick-Messung bleibt consent-gated wie alle Events.",
-    "known_windows": "Malteser 112616: 1-€-CPL Informationsmaterial nur bis 31.10.2026. Lifta 40988: 50 EUR/validem Lead bzw. 500 EUR/Auftrag (Profil 15.10. gelesen). Aroundhome 68536: Umsatzbeteiligung Regelfall 30% (Profil 23.10. gelesen, research/partner-scan-badumbau-231026.md)."
+    "known_windows": "Malteser 112616: 1-€-CPL Informationsmaterial nur bis 31.10.2026 (Fenster abgelaufen — CTA führt zum laufenden 10-€-Beratungstermin-Modell). Lifta 40988: 50 EUR/validem Lead bzw. 500 EUR/Auftrag (Profil 15.10. gelesen, Bewerbung offen). Aroundhome 68536: Umsatzbeteiligung Regelfall 30% (Profil 23.10. gelesen, research/partner-scan-badumbau-231026.md)."
   },
   "partners": [
     {
@@ -20,9 +20,35 @@
       "id": "malteser",
       "name": "Malteser",
       "awin_advertiser_id": 112616,
-      "approved": false,
-      "approval_readback": null,
-      "placements": []
+      "approved": true,
+      "approval_readback": {
+        "date": "2026-11-02",
+        "evidence": "Awin-Login Readback (Desktop-Preview, Publisher 3124891): Malteser-DE-Profil 112616 zeigt 'Leave Programme' + 'My Creative' freigeschaltet = Programmmitgliedschaft aktiv. Tracker-Verifikation: cread.php?awinmid=112616&awinaffid=3124891 → HTTP 302 auf Malteser-Zielseite mit awc=112616_..._... (Tracking-Kette vollständig, curl-Test 02.11.)."
+      },
+      "placements": [
+        {
+          "placement_id": "malteser_beratungstermin",
+          "articles": [
+            "hausnotruf-kosten-anbieter-vergleich",
+            "hausnotruf-sturzerkennung-oder-knopf"
+          ],
+          "url": "https://www.awin1.com/cread.php?awinmid=112616&awinaffid=3124891&ued=https%3A%2F%2Fwww.malteser.de%2Fhausnotruf%2Fberatungstermin-buchen.html",
+          "label": "Malteser Hausnotruf: Persönliche Beratung vereinbaren",
+          "cta_text": "Kostenlosen Beratungstermin anfragen",
+          "subline": "Rund um die Uhr besetzte Notrufzentrale · Beratung vor Ort oder telefonisch · monatlich kündbar"
+        },
+        {
+          "placement_id": "malteser_info_material",
+          "articles": [
+            "hausnotruf-kosten-anbieter-vergleich",
+            "hausnotruf-sturzerkennung-oder-knopf"
+          ],
+          "url": "https://www.awin1.com/cread.php?awinmid=112616&awinaffid=3124891&ued=https%3A%2F%2Fwww.malteser.de%2Fhausnotruf%2Finformationen-anfordern.html",
+          "label": "Malteser Hausnotruf: Infomaterial anfordern",
+          "cta_text": "Infos per Post anfordern",
+          "subline": "Alle Tarifdetails und Leistungen zum Nachlesen — unverbindlich"
+        }
+      ]
     },
     {
       "id": "aroundhome",
