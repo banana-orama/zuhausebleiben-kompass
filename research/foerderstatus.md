@@ -16,7 +16,9 @@
 
 **Geänderte Dateien:** 14 × `content-ready/*.json` (28 `checked_at` → 2026-11-02, Skript `research/bump_checked_at_021126.py`) + 8 KfW-Zitier-URLs → Kanonikalform (4 Artikel) + **7 sichtbare KfW-Prüfdatumsangaben** „1. November“ → „2. November 2026“ (bad-umbau ×2, bodengleiche ×2, treppenlift-zuschuss ×2 — inkl. „direkt im Browser geprüft“ —, wanne ×1; gedeckt durch den heutigen Browser-Check 11/11). Diff-Sanity: 43/43 geänderte Zeilen ausschließlich `checked_at`/kfw.de/„November 2026“, 0 Fremdzeilen. Bewusst **nicht** hochgesetzt: Gesamtdisclaimer „Abrufstand 19.10./16.10.“ (hilfsmittel-pflegekasse, rollator, pflegegrad, verhinderungspflege — deren übrige Quellen heute nicht inhaltlich neu geprüft) und historische Datumsaussagen. `data/content.json` unangetastet (Altentwürfe, Renderer überschreibt).
 
-**Build/Deploy:** build:launch (45 Seiten, Mode: LAUNCH index) + test_site.py + test_articles.py + test_partner_links.py PASS. Hinweis: die Mode-Angabe in der Summary-Zeile von test_site.py hängt am `INDEX`-Env-Var-Default (druckt „PREVIEW“, auch wenn LAUNCH gebaut wurde) — die verbindlichen Robots-Assertions pro Datei sind es, die greifen.
+**Build/Deploy:** build:launch (45 Seiten, Mode: LAUNCH index) + test_site.py + test_articles.py + test_partner_links.py PASS. Commit `c916862` gepusht (nur eigene Dateien, Parallel-Run-dist-Churn unberührt), CI-Run 41404999468 **success**. Hinweis: die Mode-Angabe in der Summary-Zeile von test_site.py hängt am `INDEX`-Env-Var-Default (druckt „PREVIEW“, auch wenn LAUNCH gebaut wurde) — die verbindlichen Robots-Assertions pro Datei sind es, die greifen.
+
+**Live-Readback (02.11., öffentliche URL):** `treppenlift-zuschuss` zeigt „2. November 2026 direkt im Browser geprüft“ + beide KfW-Links in Kanonikalform (159 Umlaut+Slash als href, 455-B Umlaut), **0** verbleibende encodiert-Formen, robots `index,follow`; bad-umbau / bodengleiche / wanne je HTTP 200 mit 2.-November-Datum, Kanonikal-URLs und 0 encodiert-Resten; Homepage `index,follow`.
 
 ---
 
