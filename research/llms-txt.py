@@ -9,8 +9,7 @@ Usage:
 Output follows the llmstxt.org spec: H1 title, blockquote summary, sections as
 H2 with markdown links "title: 1-sentence summary". Plain static file, no SPOF
 (the site works unchanged when the file is absent), honest content only — every
-line derives from content-ready/*.json or a title verified against the built
-dist HTML. Nothing invented.
+line derives from content-ready/*.json. Nothing invented.
 
 Integration: wired into the build — generate.mjs calls write_llms_txt(dist_dir) after its
 page writes; the file is regenerated on every `npm run build` / `build:launch`. Idempotent.
@@ -58,14 +57,9 @@ SUMMARIES = {
     "wohnumfeldverbesserung-beantragen": "Wohnumfeld-Zuschuss der Pflegekasse (§ 40 Abs. 4 SGB XI): bis 4.180 Euro je Maßnahme, Antrag vor dem Umbau, 3/5-Wochen-Frist mit Genehmigungsfiktion, Unterlagen-Checkliste und typische Ablehnungsgründe.",
 }
 
-# Legacy-data entry page (not in content-ready/, built from data/content.json).
-# Title is verified against the built dist HTML at generation time.
-LEGACY_PAGES = {
-    "pflegegrad-beantragen": {
-        "title": "Pflegegrad: Wo Sie Unterstützung finden",
-        "summary": "Anlaufstellen und erste Schritte bei Fragen zum Pflegegrad — die Pflegekasse ist die erste Kontaktstelle; dieses Portal bietet selbst keine Versicherungsberatung.",
-    },
-}
+# NOTE (2026-11-03, audit #9): the legacy entry page pflegegrad-beantragen was folded
+# into the Antrag guide (pflegegrad-antrag-ablauf-fristen) — it is a noindex redirect
+# page now and must NOT appear in llms.txt.
 
 SECTION_MAP = [
     ("Treppenlift", ["treppenlift-kosten", "treppenlift-angebote-vergleichen", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
@@ -73,7 +67,9 @@ SECTION_MAP = [
                      "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift"]),
     ("Bad barrierefrei umbauen", ["bad-umbau-barrierefrei", "badumbau-angebote-vergleichen",
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),
-    ("Pflegegrad, Hilfsmittel und Sicherheit", ["pflegegrad-antrag-ablauf-fristen", "pflegegrad-beantragen",
+    # pflegegrad-beantragen is NOT listed: the thin legacy stub was folded into the
+    # Antrag guide on 2026-11-03 (audit #9) — it is a noindex redirect page now.
+    ("Pflegegrad, Hilfsmittel und Sicherheit", ["pflegegrad-antrag-ablauf-fristen",
                                                 "hilfsmittel-pflegekasse-uebernahme", "hilfsmittel-dusch-wc-uebernahme",
                                                 "wohnumfeldverbesserung-beantragen",
                                                 "rollator-auswahl-passform-kosten",
@@ -106,24 +102,9 @@ def load_articles(content_ready: Path) -> list:
     return arts
 
 
-def load_legacy(dist_dir: Path) -> dict:
-    """Verify the legacy entry page against the built HTML before listing it."""
-    page = LEGACY_PAGES["pflegegrad-beantragen"]
-    html_path = dist_dir / "pflegegrad-beantragen.html"
-    if not html_path.exists():
-        raise SystemExit("ERROR: dist/pflegegrad-beantragen.html missing — remove it from LEGACY_PAGES")
-    m = re.search(r"<title>(.*?)</title>", html_path.read_text(encoding="utf-8", errors="ignore"))
-    live = clean(m.group(1)) if m else ""
-    live = re.sub(r"\s*[—–-]\s*ZuhauseBleiben Kompass\s*$", "", live)
-    if live != page["title"]:
-        raise SystemExit(f"ERROR: title of pflegegrad-beantragen changed on page ('{live}') — update LEGACY_PAGES")
-    return {"slug": "pflegegrad-beantragen", **page}
-
-
 def build_llms_txt(dist_dir: Path) -> str:
     arts = load_articles(REPO / "content-ready")
     indexed = {a["slug"]: a for a in arts if a["status"] != "draft"}
-    indexed["pflegegrad-beantragen"] = load_legacy(dist_dir)
 
     lines = [
         "# Zuhausebleiben-Kompass.de",

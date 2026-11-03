@@ -63,12 +63,14 @@ check("rss includes promoted briefing-1 article", any("treppenlift-angebote-verg
 titles = [i.find("title").text for i in items]
 check("rss includes briefing 9", any("Dusch-WC" in t for t in titles), str(len(titles)))
 
-# llms.txt: all content-ready articles (incl. promoted briefing 1) + legacy page
+# llms.txt: all content-ready articles (incl. promoted briefing 1) — the legacy stub
+# pflegegrad-beantragen is folded into the Antrag guide (audit #9, 2026-11-03) and must
+# NOT be listed as content.
 llms = (dist / "llms.txt").read_text()
 ready = sorted(p.stem for p in (root / "content-ready").glob("*.json"))
 missing = [s for s in ready if f"/{s}.html" not in llms]
 check("llms covers all content-ready", not missing, str(missing))
-check("llms legacy page", "/pflegegrad-beantragen.html" in llms)
+check("llms without redirect stub", "/pflegegrad-beantragen.html" not in llms)
 check("llms includes promoted briefing-1 article", "/treppenlift-angebote-vergleichen.html" in llms)
 
 # Consent/no-loader contract on every checklist page

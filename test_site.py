@@ -26,6 +26,10 @@ for f in files:
         # Fix #5 (2026-10-30): Region-Platzhalter bleiben noindex, bis sie mit
         # verifiziertem Landesprogramm-Inhalt erweitert sind (expand-or-noindex-Gate).
         assert p.noindex,(f,'region placeholder must stay noindex until expanded')
+    elif f.name == 'pflegegrad-beantragen.html':
+        # Audit #9 (2026-11-03): dünner Legacy-Stub in den Antrag-Ratgeber gefaltet —
+        # die Weiterleitungsseite bleibt dauerhaft noindex und außerhalb der Sitemap.
+        assert p.noindex,(f,'redirect stub must stay noindex (audit #9 fold)')
     else:
         assert not p.noindex,(f,'launch build: indexable page without noindex')
     for href in p.links:
@@ -40,6 +44,14 @@ sm=(root/'sitemap.xml').read_text()
 locs=[u.split('<loc>')[1].split('</loc>')[0] for u in sm.split('<url>')[1:]]
 assert any(u.endswith('/datenschutz.html') for u in locs),('datenschutz.html missing from sitemap',len(locs))
 assert not any('/region/' in u or u.endswith('/regional.html') for u in locs),('region placeholders must stay out of the sitemap (fix #5)',)
+assert not any(u.endswith('/pflegegrad-beantragen.html') for u in locs),('redirect stub must stay out of the sitemap (audit #9)',)
 assert len(locs)==len(set(locs)),('duplicate sitemap URLs',)
+# Audit #9: Weiterleitungsseite muss auf den Antrag-Ratgeber zeigen (Meta-Refresh + Canonical),
+# und die vor-Launch-Prosa „Entwurf zur ersten Orientierung" darf nirgends mehr im Launch-Build stehen.
+stub=(root/'pflegegrad-beantragen.html').read_text()
+guide_url=json.loads((root.parent/'data/content.json').read_text())['brand']['base_url'].rstrip('/')+'/pflegegrad-antrag-ablauf-fristen.html'
+assert 'http-equiv="refresh"' in stub and 'pflegegrad-antrag-ablauf-fristen.html' in stub,('stub must meta-refresh to the guide',)
+assert ('rel="canonical" href="'+guide_url+'"') in stub,('stub canonical must point to the guide',guide_url)
+assert not any('Entwurf zur ersten Orientierung' in f.read_text() for f in files),('pre-launch draft prose must be gone from the launch build (audit #9)',)
 mode='PREVIEW (noindex)' if not __import__('os').environ.get('INDEX') else 'LAUNCH (index)'
 print(f'PASS: {len(files)} HTML pages, internal links, single H1, no forms, datenschutz in sitemap ({len(locs)} locs), {mode}, XML valid.')
