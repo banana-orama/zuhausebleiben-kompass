@@ -53,5 +53,25 @@ guide_url=json.loads((root.parent/'data/content.json').read_text())['brand']['ba
 assert 'http-equiv="refresh"' in stub and 'pflegegrad-antrag-ablauf-fristen.html' in stub,('stub must meta-refresh to the guide',)
 assert ('rel="canonical" href="'+guide_url+'"') in stub,('stub canonical must point to the guide',guide_url)
 assert not any('Entwurf zur ersten Orientierung' in f.read_text() for f in files),('pre-launch draft prose must be gone from the launch build (audit #9)',)
+# Audit #6b/#10 (2026-11-03): og:image >=1200px (PNG, nicht nur SVG), twitter card und
+# explizite Referrer-Policy auf JEDER Seite; og:image-Maße/alt gesetzt; og:url = canonical.
+import struct
+OG_PNG=root/'assets'/'images'/'og-zuhausebleiben-kompass.png'
+assert OG_PNG.exists(),('og PNG missing from build',)
+_b=OG_PNG.read_bytes()
+assert _b[:8]==b'\x89PNG\r\n\x1a\n',('og asset is not a PNG',)
+_w,_h=struct.unpack('>II',_b[16:24]);assert _w>=1200 and _h>=630,('og PNG too small',_w,_h)
+_base=json.loads((root.parent/'data/content.json').read_text())['brand']['base_url'].rstrip('/')
+OG_URL=_base+'/assets/images/og-zuhausebleiben-kompass.png'
+for f in files:
+    h=f.read_text()
+    assert ('property="og:image" content="'+OG_URL+'"') in h,(f,'og:image missing/wrong')
+    assert 'property="og:image:width" content="1200"' in h,(f,'og:image:width missing')
+    assert 'property="og:image:height" content="630"' in h,(f,'og:image:height missing')
+    assert 'property="og:image:alt" content="' in h and 'content="ZuhauseBleiben Kompass — Ratgeber' in h,(f,'og:image:alt missing')
+    assert '<meta name="twitter:card" content="summary_large_image">' in h,(f,'twitter card missing')
+    assert '<meta name="referrer" content="strict-origin-when-cross-origin">' in h,(f,'referrer policy missing')
+    _can=(h.split('rel="canonical" href="')[1].split('"')[0]) if 'rel="canonical" href="' in h else ''
+    assert _can and ('property="og:url" content="'+_can+'"') in h,(f,'og:url must mirror canonical')
 mode='PREVIEW (noindex)' if not __import__('os').environ.get('INDEX') else 'LAUNCH (index)'
 print(f'PASS: {len(files)} HTML pages, internal links, single H1, no forms, datenschutz in sitemap ({len(locs)} locs), {mode}, XML valid.')

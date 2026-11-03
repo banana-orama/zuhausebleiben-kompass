@@ -28,5 +28,10 @@ for f in articles:
         assert (ROOT/'dist'/urlsplit(image['src']).path.lstrip('/')).exists()
     assert len(p.scripts)==1
     assert p.scripts[0]['@graph'][0]['@type']=='Article'
+    art=schemas=[s for s in p.scripts if any(n.get('@type')=='Article' for n in s.get('@graph',[]))][0]['@graph'][0]
+    imgs=art['image']
+    assert isinstance(imgs,list) and len(imgs)==2,(f,'Article.image must list og PNG + SVG')
+    assert imgs[0].startswith('https://') and imgs[0].endswith('/assets/images/og-zuhausebleiben-kompass.png'),(f,'Article.image[0] must be the >=1200px PNG')
+    assert imgs[1].endswith('.svg'),(f,'Article.image[1] should keep the article SVG')
 for f in (ROOT/'dist/assets/images').glob('*.svg'):ET.parse(f)
 print(f'PASS: {len(articles)} article renders, image assets and dimensions, citation/TOC anchors, Article/Breadcrumb JSON-LD, SVG XML.')
