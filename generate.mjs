@@ -66,6 +66,7 @@ home.body+=ORG_GRAPH;
 const sitemap=pages.find(p=>p.path==='sitemap.xml');
 sitemap.raw='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+(NOINDEX_MODE?'':pages.filter(p=>p.path.endsWith('.html')&&p.robotsOverride!=='noindex,follow').map(p=>`<url><loc>${url('/'+p.path.replace('index.html',''))}</loc></url>`).join(''))+'</urlset>';
 mkdirSync(OUT,{recursive:true});cpSync(join(ROOT,'assets/images'),join(OUT,'assets/images'),{recursive:true});writeFileSync(join(OUT,'.nojekyll'),'');
+try{writeFileSync(join(OUT,'indexnow-key.txt'),readFileSync(join(ROOT,'indexnow-key.txt')));}catch(e){console.warn('indexnow key skipped:',e.message);}
 writeFileSync(join(OUT,'CNAME'),new URL(B.base_url).hostname+'\n');
 mkdirSync(join(OUT,'assets/vendor'),{recursive:true});
 for(const name of ['cookieconsent.esm.js','cookieconsent.css'])copyFileSync(join(ROOT,'node_modules/vanilla-cookieconsent/dist',name),join(OUT,'assets/vendor',name));

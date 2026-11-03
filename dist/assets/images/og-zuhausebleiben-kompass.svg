@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="ZuhauseBleiben Kompass — Ratgeber für Treppenlift, Bad-Umbau und Förderung: stilisierte Treppe mit Treppenlift-Sitz auf einer Schiene">
+  <rect width="1200" height="630" fill="#f7f5ef"/>
+  <!-- Brandzeile -->
+  <g transform="translate(64,58)" stroke="#245b47" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 23 24 8l17 15M12 20v21h24V20M20 41V28h8v13"/>
+  </g>
+  <text x="116" y="88" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="30" font-weight="650" fill="#243b35" letter-spacing="-0.5">ZuhauseBleiben</text>
+  <text x="118" y="114" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#53655e" letter-spacing="2.5">DER UMBAU-KOMPASS</text>
+  <!-- Augenbraue -->
+  <text x="64" y="212" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#245b47" letter-spacing="2">RATGEBER FÜR ÄLTERE MENSCHEN UND IHRE ANGEHÖRIGEN</text>
+  <!-- Headline (Serif wie die Seiten-H1) -->
+  <text x="64" y="276" font-family="Georgia, Times New Roman, serif" font-size="54" fill="#243b35">Vertrautes Zuhause.</text>
+  <text x="64" y="340" font-family="Georgia, Times New Roman, serif" font-size="54" fill="#243b35">Neue Möglichkeiten.</text>
+  <text x="64" y="392" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="22" fill="#53655e">Treppenlift, Bad-Umbau und Förderung in Ruhe verstehen.</text>
+  <!-- Themen-Chips -->
+  <g font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#243b35">
+    <rect x="64" y="428" width="132" height="44" rx="5" fill="#eae4d5"/>
+    <text x="80" y="456">Treppenlift</text>
+    <rect x="212" y="428" width="124" height="44" rx="5" fill="#eae4d5"/>
+    <text x="228" y="456">Bad-Umbau</text>
+    <rect x="352" y="428" width="120" height="44" rx="5" fill="#eae4d5"/>
+    <text x="368" y="456">Förderung</text>
+  </g>
+  <!-- Illustration: Treppe mit Treppenlift-Sitz (schematisch, KI-gezeichnet) -->
+  <rect x="720" y="120" width="416" height="400" rx="6" fill="#ffffff" stroke="#d8dfd6" stroke-width="2"/>
+  <g stroke="#245b47" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Treppe -->
+    <path d="M770 470h38v-30h38v-30h38v-30h38v-30h38v-30h38v-30h38v-30"/>
+    <!-- Schiene über der Treppe -->
+    <path d="M762 408 1124 176" stroke-width="4"/>
+    <path d="M1110 168l14 8-8 13" stroke-width="4"/>
+    <!-- Treppenlift-Sitz auf der Schiene (Mitte x≈943, y≈296) -->
+    <circle cx="930" cy="293" r="6"/>
+    <circle cx="960" cy="284" r="6"/>
+    <rect x="918" y="252" width="58" height="26" rx="6" fill="#eae4d5" stroke-width="3"/>
+    <path d="M918 252l-14-20"/>
+    <path d="M976 258h16v-26"/>
+    <!-- Bodenlinie -->
+    <path d="M756 470h380" stroke-width="2.5" opacity="0.55"/>
+  </g>
+  <!-- Fußzeile -->
+  <rect x="64" y="530" width="46" height="3" fill="#245b47"/>
+  <text x="64" y="572" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="18" fill="#53655e">zuhausebleiben-kompass.de</text>
+</svg>

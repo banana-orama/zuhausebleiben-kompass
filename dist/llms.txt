@@ -29,7 +29,6 @@ Der Überblick steht auch als [Sitemap](https://zuhausebleiben-kompass.de/sitema
 ## Pflegegrad, Hilfsmittel und Sicherheit
 
 - [Pflegegrad beantragen: Ablauf & Fristen](https://zuhausebleiben-kompass.de/pflegegrad-antrag-ablauf-fristen.html): Pflegegrad beantragen: formloser Antrag, Begutachtung, Bescheidfrist 25 Arbeitstage, Widerspruch und Klage in Fristen.
-- [Pflegegrad: Wo Sie Unterstützung finden](https://zuhausebleiben-kompass.de/pflegegrad-beantragen.html): Anlaufstellen und erste Schritte bei Fragen zum Pflegegrad — die Pflegekasse ist die erste Kontaktstelle; dieses Portal bietet selbst keine Versicherungsberatung.
 - [Hilfsmittel: Was die Pflegekasse zahlt](https://zuhausebleiben-kompass.de/hilfsmittel-pflegekasse-uebernahme.html): Pflegehilfsmittel über die Pflegekasse nach §§ 33/40 SGB XI: Hilfsmittelverzeichnis, Eigenanteil 10 % max. 25 €, 42-€-Pauschale.
 - [Dusch-WC: Was Krankenkassen übernehmen](https://zuhausebleiben-kompass.de/hilfsmittel-dusch-wc-uebernahme.html): Dusch-WC über die Kasse: gelistete Toilettenaufsätze mit Wascheinrichtung (Produktgruppe 33.40.05) mit enger Arm- und Hand-Indikation über die Krankenkasse, komplette Anlagen als Wohnumfeld-Einzelfall der Pflegekasse, plus Antrags-Checkliste.
 - [Wohnumfeld-Zuschuss beantragen](https://zuhausebleiben-kompass.de/wohnumfeldverbesserung-beantragen.html): Wohnumfeld-Zuschuss der Pflegekasse (§ 40 Abs. 4 SGB XI): bis 4.180 Euro je Maßnahme, Antrag vor dem Umbau, 3/5-Wochen-Frist mit Genehmigungsfiktion, Unterlagen-Checkliste und typische Ablehnungsgründe.

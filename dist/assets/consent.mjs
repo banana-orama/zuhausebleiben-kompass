@@ -4,6 +4,26 @@ import {installMeasurement} from './measurement.mjs';
 // revision 2: invalidates all revision-1 selections (vanilla-cookieconsent re-shows the banner
 // and stores the new revision). The consent-gated Web-GTM container accepts consent_version 2 only.
 const sync = () => window.zbkConsent.update(CookieConsent.acceptedCategory('analytics'));
+
+// Audit #10 (2026-11-03): the CMP UI initialises in the first idle window instead of during page
+// load, so parsing/rendering the dialog stops competing with first paint. Consent semantics are
+// unchanged: the synchronous denied bootstrap (consent-default.js, inline in <head>) runs before
+// any loader regardless of this delay, and measurement is still installed exclusively from
+// onConsent/onChange below — no optional request can start without an explicit choice.
+// Clicks on the footer controls before the CMP is ready are buffered and replayed afterwards.
+const idleReady = new Promise(resolve => {
+  if (window.requestIdleCallback) window.requestIdleCallback(() => resolve(), {timeout: 1500});
+  else setTimeout(resolve, 250);
+});
+const earlyClicks = [];
+const captureEarlyClick = e => {
+  const el = e.target && e.target.closest && e.target.closest('[data-consent-settings],[data-consent-withdraw]');
+  if (el) earlyClicks.push(el.hasAttribute('data-consent-settings') ? 'settings' : 'withdraw');
+};
+document.addEventListener('click', captureEarlyClick, true);
+await idleReady;
+document.removeEventListener('click', captureEarlyClick, true);
+
 await CookieConsent.run({
   mode: 'opt-in', revision: 2, hideFromBots: false,
   disablePageInteraction: false, manageScriptTags: false,
@@ -36,10 +56,12 @@ await CookieConsent.run({
     }
   }}}
 });
-document.querySelector('[data-consent-settings]').addEventListener('click', () => CookieConsent.showPreferences());
-document.querySelector('[data-consent-withdraw]').addEventListener('click', () => {
+const withdrawConsent = () => {
   CookieConsent.acceptCategory([]);
   CookieConsent.hide();
   CookieConsent.hidePreferences();
   document.querySelector('[data-consent-status]').textContent = 'Optionale Einwilligung widerrufen. Es bleiben nur notwendige Speicherungen.';
-});
+};
+document.querySelector('[data-consent-settings]').addEventListener('click', () => CookieConsent.showPreferences());
+document.querySelector('[data-consent-withdraw]').addEventListener('click', withdrawConsent);
+for (const intent of earlyClicks) intent === 'settings' ? CookieConsent.showPreferences() : withdrawConsent();
