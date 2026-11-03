@@ -1,6 +1,6 @@
 # Audit #6b + #10 (Rest) — og:image PNG ≥1200 px, twitter cards, referrer meta, Consent-Idle-Deferral
 
-Datum: 2026-11-03 · Umsetzung: dieser Commit · Live-Readback: siehe launch-state (nach Deploy)
+Datum: 2026-11-03 · Umsetzung: Commit 3bf52d1 · CI: 41646794446 (completed/success) · **Live-Readback: 20/20 ALL PASS (`research/verify_og_live_031126.py`)**
 
 ## Scope (aus seo-audit-zbk/SUMMARY.md, Top-10-Liste)
 - **#6b (SC2-Rest):** PNG/WebP ≥1200 px als Google-taugliches Article-/OG-Bild (vorher nur SVG — nicht thumbnail-tauglich).
@@ -22,6 +22,9 @@ Datum: 2026-11-03 · Umsetzung: dieser Commit · Live-Readback: siehe launch-sta
 - **Long-Task-Sonde** (`research/perf_probe_031126.mjs`, 4× CPU-Drossel, Mobil-Viewport): longtask ≥50 ms **0 vor und 0 nach** — keine Regression; der Audit-TBT (380–580 ms, Lighthouse-Simulation) ist lokal ohne Lighthouse-CLI nicht reproduzierbar. Die rAF-Gap-Messung ist headless unzuverlässig (Compositor-träge) und wird bewusst nicht als Delta behauptet.
 
 ## Bewusst offen (nicht als erledigt melden)
-- **Lighthouse-Lab-Bestätigung der TBT-/SI-Verbesserung:** PSI-API weiter 429 (ohne Key, wie im Audit 19.10.); nach Deploy idealerweise 1 PSI-Lauf auf Home + 1 Artikel (oder Lighthouse in CI). CrUX bleibt bei junger Domain leer (P3-Hinweis des Audits gilt weiter).
+- **Lighthouse-Lab-Bestätigung der TBT-/SI-Verbesserung:** PSI-API weiter 429 (anonyme Tagesquota erschöpft, Evidenz `psi-after-home.json`); nach Deploy idealerweise 1 PSI-Lauf auf Home + 1 Artikel (oder Lighthouse in CI). CrUX bleibt bei junger Domain leer (P3-Hinweis des Audits gilt weiter).
 - **HSTS/x-content-type-options:** nur via Cloudflare-Front (oder eigenem Header-fähigen Host) machbar → Betreiber-Entscheidung, unverändert.
 - **Speed-Index-/V1-Thema „Consent besetzt Erstbildschirm“:** Deferral entschärft die Hauptthread-Konkurrenz, aber das modale Erstbild bleibt (UX-Entscheid, Consent-Rate vorher/nachher messen).
+
+## Live-Readback (03.11., nach CI 41646794446 success)
+`research/verify_og_live_031126.py` gegen die öffentliche URL: og.png 200 + image/png + **byte-identisch zum Repo** (sha256 4702eb28b891…, 63 680 B) + IHDR ≥1200×630; Home/Artikel/Checklisten tragen og:image (absolut), og:image:width/height/alt, twitter:card, referrer; og:url = canonical; Article-JSON-LD image[0]=PNG; `assets/consent.mjs` live enthält die Deferral-Logik (requestIdleCallback/earlyClicks) bei unverändertem Revision-2-Bootstrap; Sitemap unverändert 36 locs inkl. datenschutz. **20/20 PASS.**
