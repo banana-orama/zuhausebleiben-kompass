@@ -28,14 +28,15 @@ sm = re.search(r'<script type="application/ld\+json">([\s\S]*?)</script>', html_
 check("SchemaFAQ 30-80", bool(sm) and "30 bis 80 Euro" in sm.group(1))
 n_cta = html_text.count("malteser_beratungstermin") + html_text.count("malteser_info_material")
 check("beide Placement-IDs", n_cta >= 2)
-check('rel="sponsored"', 'rel="sponsored' in html_text)
+has_sponsored = 'rel="sponsored' in html_text
+check('rel="sponsored"', has_sponsored)
 check("Beratungstermin-Tracker", "awinmid=112616" in html_text and "beratungstermin-buchen.html" in html_text)
 check("Info-Material-Tracker", "informationen-anfordern.html" in html_text)
 check("Basistarif unverändert", "27 bis 40 Euro" in html_text)
 check("Pflegekasse unverändert", "bis zu 27 Euro" in html_text)
 
 print(f"HTTP {status}, {len(html_text)}B")
-print(f"Placement-Marker: {n_cta}, sponsored: {'rel=\"sponsored' in html_text}")
+print(f"Placement-Marker: {n_cta}, sponsored: {has_sponsored}")
 if fails:
     print("FAILS:", fails)
     sys.exit(1)
