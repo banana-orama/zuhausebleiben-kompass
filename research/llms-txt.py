@@ -55,6 +55,7 @@ SUMMARIES = {
     "beleuchtung-orientierung-im-alter": "Lichtplanung im Alter: Grundhelligkeit, Blendung vermeiden, Nachtlicht und Bewegungsmelder gezielt einsetzen.",
     "verhinderungspflege-tagespflege-ueberblick": "Verhinderungspflege (§ 39 SGB XI) und Tagespflege (§ 41): Ansprüche, Budgets und Entscheidungsmatrix.",
     "wohnumfeldverbesserung-beantragen": "Wohnumfeld-Zuschuss der Pflegekasse (§ 40 Abs. 4 SGB XI): bis 4.180 Euro je Maßnahme, Antrag vor dem Umbau, 3/5-Wochen-Frist mit Genehmigungsfiktion, Unterlagen-Checkliste und typische Ablehnungsgründe.",
+    "hausnotruf-mobil-gps-unterwegs": "Mobiler Hausnotruf mit GPS für unterwegs und ohne Festnetz: Funktionsweise, dokumentierte Kosten-Spannen, Pflegekasse (Basistarif vs. GPS-Aufpreis vs. Hilfsmittel-Weg 52.40.01), Laden-Routine und Zustimmungspflicht bei Ortung.",
 }
 
 # NOTE (2026-11-03, audit #9): the legacy entry page pflegegrad-beantragen was folded
@@ -73,7 +74,8 @@ SECTION_MAP = [
                                                 "hilfsmittel-pflegekasse-uebernahme", "hilfsmittel-dusch-wc-uebernahme",
                                                 "wohnumfeldverbesserung-beantragen",
                                                 "rollator-auswahl-passform-kosten",
-                                                "hausnotruf-kosten-anbieter-vergleich", "hausnotruf-sturzerkennung-oder-knopf"]),
+                                                "hausnotruf-kosten-anbieter-vergleich", "hausnotruf-sturzerkennung-oder-knopf",
+                                                "hausnotruf-mobil-gps-unterwegs"]),
     ("Wohnen im Alltag", ["tuerbreiten-schwellen-schnellcheck", "beleuchtung-orientierung-im-alter",
                           "verhinderungspflege-tagespflege-ueberblick"]),
 ]

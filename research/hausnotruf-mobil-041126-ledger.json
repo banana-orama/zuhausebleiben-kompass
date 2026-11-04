@@ -1,0 +1,203 @@
+{
+  "task": "Briefing 16: Mobiler Hausnotruf mit GPS (unterwegs, ohne Festnetz, Pflegekasse, Akku, Ortung-Zustimmung)",
+  "created": "2026-11-04",
+  "evidence_dir": "research/evidence/hausnotruf-mobil-041126",
+  "notes": [
+    "Alle 12 Quellen am 04.11.2026 frisch abgerufen (fetch_hausnotruf_mobil_041126.sh; pflege.net 403 = Bot-Wall, im Artikel bewusst nicht verwendet; rehadat erst beim Retry 200; zqp-Pfad 404 = verworfen).",
+    "Kernbefund 1 (Widerspruch zwischen Portalen): Pflegekasse und mobiles Gerät — pflege-panorama schreibt 'den mobilen Notruf zahlen Sie in der Regel privat' und kompass 'Den GPS-Aufpreis tragen Sie selbst'; sanivia und hausnotruf-kosten.de dagegen 'übernimmt die Pflegekasse ... 0 € im Monat, genau wie das stationäre Gerät'. Auflösung im Artikel: VZ-Praxisrahmen (Basistarif bis 27 €/Monat seit 01.04.2026, Anbieter muss Vertragspartner der Kasse sein, MD-Prüfung) + § 40 SGB XI Einzelfall-Logik (Leihe, 10 %/max. 25 € Zuzahlung, Mehrkosten-Satz) + Hilfsmittelverzeichnis: Rehadat listet unter 52.40.01 auch mobilfunkbasierte Geräte (NEO GSM, TA74 4G, derButler). Die Portale reden über verschiedene Dinge: Basistarif-Erstattung vs. GPS-Aufpreis vs. Einzelgerät-Bewilligung.",
+    "Kernbefund 2 (Reichweite stationär): pflege-panorama 'rund 30 bis 50 Meter', kompass 'nur 50 bis 100 Meter', beWo 'bis 150 m' — drei Portale, drei Spannen, keine Beleglage. Im Artikel als Divergenz dokumentiert mit Mess-Tipp statt erfundener Einzahl.",
+    "Kernbefund 3 (Akku mobiler Knopf): pflege-panorama 'rund 1 bis 7 Tage', kompass 'täglich bis wöchentlich', beWo 'Bis zu 50 Std. (Laden nötig)' plus 'alle 2–3 Tage'. Allen gemeinsam: geladen werden muss, während der stationäre Sender jahrelang mit Batterie/Knopfzelle läuft (beWo). Lade-Routine-Checkliste als praktischer Nutzen.",
+    "Kernbefund 4 (Kosten): GPS-Aufpreis 10–25 €/Monat (kompass) vs. VZ 'mobile Notrufsysteme ... 30 bis 80 Euro' Zusatzkosten; Gesamt 30–50 €/Monat (panorama) vs. 35–70 €/Monat (kompass). Sturzerkennung unterwegs 'rund 5 bis 10 Euro' Aufpreis (panorama). Einrichtungsgebühr ~49,90 € nur bei hausnotruf-kosten.de (Affiliate-Framing 'Testsieger') — als einzelne Fachportalangabe gekennzeichnet, nicht als Marktmittelwert.",
+    "Kernbefund 5 (Recht/Grenzen der Ortung): pflege-durch-angehoerige: Ortung ohne Wissen/zustimmung ist verboten (Persönlichkeitsrecht), Vorsorgevollmacht-Einverständnis früh festhalten. kompass: Geofencing nicht bei allen Anbietern, gezielt anfragen; mit 24/7-Zentrale sicherer als reine Ortungs-App. panorama: Ortung meist erst im ausgelösten Notfall aktiv. sanivia: bei Demenz keine Pauschalempfehlung, Einzelfall (ob der Knopf zuverlässig gedrückt werden kann).",
+    "Partner-Integration bewusst OHNE Malteser-Placement auf diesem Artikel: Malteser bietet (Stand 04.11.2026, Produktseite + FAQ gelesen) nur das stationäre System an — Basisgerät mit Mobilfunk-Anbindung, Funkknopf als Armband/Kette, kein GPS-Produkt. Ein 'mobiles Gerät'-Placement wäre ein falsches CTA-Versprechen. Malteser dient stattdessen als Herstellerangabe im 'ohne Festnetz'-Abschnitt (funktioniert ohne Telefonanschluss über Mobilfunk, Akku bis 72 h bei Stromausfall, Statusanzeige/Testruf). Early-CTA führt auf hausnotruf-kosten-anbieter-vergleich, wo die zugelassenen Malteser-Placements leben.",
+    "§ 39 SGB XI wurde geprüft und bewusst NICHT als Hausnotruf-Beleg verwendet: § 39 ist Verhinderungspflege. Hausnotruf/Nachrüst-Kontext läuft über § 40 (Pflegehilfsmittel) und die VZ-Praxisdarstellung.",
+    "VZ aktualisierte ihre Zusatzkosten-Spanne: '30 bis 80 Euro' (04.11.2026 gelesen) — der bestehende Artikel hausnotruf-kosten-anbieter-vergleich sagt 'rund 30 bis 50 Euro oder mehr' (VZ-Stand 29.07.2026). Kein Widerspruch ('oder mehr'), aber Refresh-Kandidat für einen künftigen Kernartikel-Lauf: dort VZ-Zahl + checked_at auf heute heben."
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "Pflege-Panorama: Mobiler Hausnotruf 2026 – GPS-Notruf für unterwegs (Fachportal)",
+      "url": "https://www.pflege-panorama.de/ratgeber/mobiler-hausnotruf/",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/panorama-mobil.html",
+      "quotes": [
+        "Anders als das klassische Gerät mit fester Basisstation begleitet ein mobiler Hausnotruf Sie überallhin: beim Spaziergang, im Garten, beim Einkaufen oder im Urlaub.",
+        "Per integrierter SIM-Karte und GPS-Ortung kann die Notrufzentrale Sie im Ernstfall auch dann finden, wenn Sie nicht mehr sprechen können.",
+        "Die Kosten liegen je nach Anbieter bei rund 30 bis 50 Euro pro Monat.",
+        "Die Pauschale der Pflegekasse deckt nur den stationären Basis-Hausnotruf, den mobilen Notruf zahlen Sie in der Regel privat.",
+        "Der bekannte Hausnotruf besteht aus einer Basisstation und einem Funksender und funktioniert nur in Reichweite der Station, also rund 30 bis 50 Meter um die Wohnung.",
+        "Aus Datenschutzgründen wird die Ortung bei den meisten Anbietern erst im ausgelösten Notfall aktiviert, nicht dauerhaft.",
+        "Ein eingebauter Sensor erkennt einen harten Aufprall und anschließende Bewegungslosigkeit und löst selbstständig einen Notruf aus, auch wenn Sie den Knopf nicht mehr drücken können.",
+        "Sturzerkennung: löst automatisch aus, oft gegen Aufpreis von rund 5 bis 10 Euro",
+        "Ladekontrolle: Akku hält je nach Modell rund 1 bis 7 Tage",
+        "Ein mobiler Hausnotruf funktioniert grundsätzlich ohne Festnetzanschluss. Die nötige SIM-Karte ist bereits im Gerät verbaut, eine eigene Telefonleitung oder ein Internetanschluss zu Hause sind nicht erforderlich.",
+        "Die Mobilfunkkosten sind in der monatlichen Grundgebühr des Anbieters enthalten, Sie schließen also keinen eigenen Handyvertrag ab.",
+        "Achten Sie vor allem auf eine gute Netzabdeckung an Ihren üblichen Aufenthaltsorten."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pflegekompass: Mobiler Hausnotruf mit GPS 2026 – Notruf auch unterwegs (Fachportal)",
+      "url": "https://pflegekompass.de/magazin/ratgeber/hausnotruf-mobil-gps",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/kompass-mobil.html",
+      "quotes": [
+        "Die Pflegekasse erstattet trotzdem nur 27 € im Monat, das gilt für den klassischen Hausnotruf-Anteil. Den GPS-Aufpreis tragen Sie selbst.",
+        "Die Pflegekasse erstattet in beiden Fällen 27 € im Monat, GPS bleibt Eigenanteil.",
+        "Pflegekasse zahlt: 27 € im Monat (Standardgerät), GPS-Aufpreis nicht abgedeckt",
+        "GPS-Aufpreis: 10 bis 25 € im Monat Eigenanteil",
+        "Gesamtkosten mobiler Notruf: 35 bis 70 € im Monat",
+        "Reichweite: deutschlandweit, manche Geräte EU-weit",
+        "Die Funkreichweite beträgt je nach Bauart und Wänden nur 50 bis 100 Meter.",
+        "Nicht alle Anbieter bieten Geofencing (Alarm bei Verlassen eines definierten Bereichs). Diese Funktion gezielt anfragen.",
+        "Kombiniert mit einem 24/7-Notrufzentrum deutlich sicherer als reine Ortungs-Apps ohne Leitstelle.",
+        "Wichtig vor Reise prüfen: Funktioniert das Gerät im Ausland und ist das 24/7-Notrufzentrum erreichbar?",
+        "Wer den Großteil der Zeit in der Wohnung verbringt, zahlt für mobilen GPS-Notruf 10 bis 25 € im Monat mehr, ohne echten Mehrwert."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt – Funktionen, Vorteile, Kosten",
+      "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/vz-hausnotruf.html",
+      "quotes": [
+        "Die Kosten liegen im Basistarif meist zwischen 27 und 40 Euro monatlich – je nach Leistung.",
+        "Mit Pflegegrad übernimmt die Pflegekasse bis zu 27 Euro monatlich. Dazu müssen noch weitere Voraussetzungen erfüllt sein.",
+        "Der Hausnotrufanbieter muss Vertragspartner der Pflegekasse sein.",
+        "Zusatzleistungen wie Schlüsselhinterlegung oder mobile Notrufsysteme können die Kosten um weitere 30 bis 80 Euro erhöhen.",
+        "Auch mobile Notrufsysteme für unterwegs sind erhältlich. Diese Zusatzleistungen sind kostenpflichtig und müssen privat finanziert werden.",
+        "Wenn das Internet oder Telefon ausfällt, kann ein Gerät mit SIM-Karte sinnvoll sein.",
+        "Der Medizinische Dienst prüft für die Pflegekasse, ob die Voraussetzungen erfüllt sind.",
+        "Hierzu gehört zum Beispiel eine Smartwatch mit GPS und Sturzprophylaxe, die unter bestimmten Voraussetzungen von der Pflegekasse finanziert werden.",
+        "Wenn Sie das System im Garten nutzen möchten, prüfen Sie außerdem die Reichweite des Funkknopfs."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "§ 40 SGB XI – Pflegehilfsmittel und wohnumfeldverbessernde Maßnahmen (gesetze-im-internet.de)",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/sgb40.html",
+      "quotes": [
+        "(1) Pflegebedürftige haben Anspruch auf Versorgung mit Pflegehilfsmitteln, die zur Erleichterung der Pflege oder zur Linderung der Beschwerden des Pflegebedürftigen beitragen oder ihm eine selbständigere Lebensführung ermöglichen",
+        "Die Pflegekasse kann in geeigneten Fällen die Notwendigkeit der Versorgung mit den beantragten Pflegehilfsmitteln unter Beteiligung einer Pflegefachperson oder des Medizinischen Dienstes überprüfen lassen.",
+        "Entscheiden sich Versicherte für eine Ausstattung des Pflegehilfsmittels, die über das Maß des Notwendigen hinausgeht, haben sie die Mehrkosten und die dadurch bedingten Folgekosten selbst zu tragen.",
+        "Die Pflegekassen sollen technische Pflegehilfsmittel in allen geeigneten Fällen vorrangig leihweise überlassen.",
+        "Versicherte, die das 18. Lebensjahr vollendet haben, haben zu den Kosten der Pflegehilfsmittel mit Ausnahme der Pflegehilfsmittel nach Absatz 2 eine Zuzahlung von zehn vom Hundert, höchstens jedoch 25 Euro je Pflegehilfsmittel an die abgebende Stelle zu leisten.",
+        "Die Aufwendungen der Pflegekassen für zum Verbrauch bestimmte Pflegehilfsmittel dürfen monatlich den Betrag von 42 Euro nicht übersteigen.",
+        "(7) Die Pflegekasse hat über einen Antrag auf Pflegehilfsmittel oder Zuschüsse zu wohnumfeldverbessernden Maßnahmen zügig, spätestens bis zum Ablauf von drei Wochen nach Antragseingang",
+        "Erfolgt keine Mitteilung eines hinreichenden Grundes, gilt die Leistung nach Ablauf der Frist als genehmigt."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Rehadat-GKV Hilfsmittelverzeichnis: Produktsuche 'notruf' (Produktgruppe 52.40.01)",
+      "url": "https://www.rehadat-gkv.de/produkt/index.html?prod=notruf&s3f=s3f&reloaded",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/rehadat-notruf.html",
+      "quotes": [
+        "Aktuelle Auswahl: → Produktanzeige (52.40.01.0001)",
+        "1 bis 14 von 14",
+        "Mobiles Notrufgerät \"derButler®\" mit Funkfinger",
+        "Notrufgerät NEO GSM",
+        "Haus-Notruf-Teilnehmer-Station TA74 4G"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Sanivia: Notrufsysteme für Senioren – 4 Systeme im Vergleich (Anbieter/Fachportal)",
+      "url": "https://sanivia.de/ratgeber/notrufsysteme-fuer-senioren/",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/sanivia-systeme.html",
+      "quotes": [
+        "Der mobile Notruf ist ein kleines, leichtes Gerät (an einem Umhängeband als Halskette getragen), das überall funktioniert — nicht nur zuhause.",
+        "Es hat eine eigene SIM-Karte und verbindet Sie unterwegs genauso mit der 24/7-Notrufzentrale wie der stationäre Hausnotruf zuhause.",
+        "Der entscheidende Unterschied: die GPS-Ortung .",
+        "Smartwatches müssen in der Regel täglich geladen werden — eine leere Uhr schützt nicht.",
+        "Wer gestürzt ist, erreicht das Handy auf dem Küchentisch nicht mehr.",
+        "Eine 24/7-Notrufzentrale ist üblicherweise nicht angebunden, und in Dusche oder Badewanne ist ein Handy in der Regel nicht dabei.",
+        "Hier hängt die passende Lösung stark vom Einzelfall ab — etwa davon, ob der Notrufknopf im Ernstfall zuverlässig gedrückt werden kann.",
+        "die verlässliche Basis ist ein Notrufsystem mit professioneller 24/7-Zentrale, das die Pflegekasse anerkennt und bezahlt."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "hausnotruf-kosten.de: Hausnotruf ohne Festnetz – über Mobilfunk & ohne WLAN (Fachportal/Affiliate)",
+      "url": "https://www.hausnotruf-kosten.de/hausnotruf-ohne-festnetz/",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/hnrkosten-festnetz.html",
+      "quotes": [
+        "Moderne Geräte funken über Mobilfunk (4G) mit eigener SIM-Karte – ganz ohne Telefonbuchse und ohne WLAN",
+        "Moderne Hausnotruf-Geräte haben eine eingebaute SIM-Karte und verbinden sich über das Mobilfunknetz (2G/3G/4G) – genau wie ein Handy.",
+        "Manche Anbieter setzen noch auf ältere Geräte, die einen Festnetzanschluss voraussetzen – oder bieten ein mobilfunkfähiges Gerät nur gegen Aufpreis an.",
+        "Ja. Moderne Hausnotruf-Geräte funken über das Mobilfunknetz (4G) mit einer eingebauten SIM-Karte. Ein Festnetzanschluss ist nicht nötig – das Gerät wird einfach an den Strom angeschlossen und ist sofort verbunden."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "hausnotruf-kosten.de: Mobiler Hausnotruf mit GPS – Kosten & Vergleich (Fachportal/Affiliate)",
+      "url": "https://www.hausnotruf-kosten.de/mobiler-hausnotruf/",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/hnrkosten-mobil.html",
+      "quotes": [
+        "Mit Pflegegrad übernimmt die Pflegekasse es monatlich vollständig – 0 € im Monat , genau wie das stationäre Gerät.",
+        "Lediglich die einmalige Einrichtung des Mobilgeräts (rund 49,90 €) kann privat anfallen.",
+        "Geofencing (optional): Verlässt die Person einen festgelegten Bereich, werden Angehörige informiert – sinnvoll bei beginnender Demenz.",
+        "Für aktive Senioren, die viel unterwegs sind – beim Spaziergang, Einkaufen oder im Garten.",
+        "Wer überwiegend zu Hause ist, fährt mit dem stationären Gerät meist günstiger und einfacher."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "BeWo TeleHealthcare: HausNotruf Basis vs. Mobiler Notruf (Anbieterangaben)",
+      "url": "https://www.bewo-telehealthcare.com/ratgeber/hausnotruf-basis-vs-mobiler-notruf",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/bewo-basis-vs-mobil.html",
+      "quotes": [
+        "Akku-Laufzeit Sender Mehrere Jahre (Knopfzelle) Bis zu 50 Std. (Laden nötig)",
+        "Der mobile Sender muss regelmäßig aufgeladen werden (je nach Modell alle 2–3 Tage).",
+        "Reichweite bis 150 m – deckt jedes Haus mit Garten ab",
+        "Kein Festnetz nötig – BeWo SIM-Karte inklusive"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Malteser: Hausnotruf – Der Notfallknopf für Ihr Zuhause (Partner, Anbieterangaben)",
+      "url": "https://www.malteser.de/hausnotruf.html",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/malteser-hausnotruf.html",
+      "quotes": [
+        "In der Wohnung wird unser Hausnotrufgerät mit integriertem Lautsprecher an Strom- und Telefonsteckdose angeschlossen.",
+        "Sie haben keinen Telefonanschluss in der Wohnung? Kein Problem, der Malteser Hausnotruf funktioniert auch über Mobilfunk.",
+        "Der Notrufknopf ist handlich und kann als Armband am Handgelenk oder als Kette um den Hals getragen werden."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Malteser: Hausnotruf FAQ (Partner, Anbieterangaben)",
+      "url": "https://www.malteser.de/hausnotruf/faq.html",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/malteser-faq.html",
+      "quotes": [
+        "Für den Anschluss eines Malteser Hausnotrufgeräts ist lediglich eine freie Steckdose für die Stromversorgung des Geräts erforderlich.",
+        "Ist die Mobilfunkverbindung für den Einsatz des Hausnotrufgeräts nicht ausreichend genug, wird ein Telefonschluss, vorzugsweise ein Router für den Betrieb des Hausnotrufgeräts benötigt.",
+        "Die Funktionsfähigkeit Ihres Hausnotrufgeräts auf GSM-Basis ist nur bei einer ausreichenden Mobilfunkverbindung gegeben.",
+        "Das Hausnotrufgerät der Malteser verfügt über Akkus, die die Verwendung bei voller Ladung auch während eines Stromausfalls für bis zu 72 Stunden garantieren."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "pflege-durch-angehoerige.de: GPS-Tracker – Ortungssysteme für Senioren (Fachportal)",
+      "url": "https://www.pflege-durch-angehoerige.de/hilfsmittel-beratung/notrufsysteme/mobiler-notruf/gps-tracker/",
+      "checked_at": "2026-11-04",
+      "evidence": "hausnotruf-mobil-041126/pda-gps.html",
+      "quotes": [
+        "Einen Menschen gegen seinen Willen oder ohne sein Wissen mit einem Ortungsgerät zu versehen, ist verboten.",
+        "Ihr Familienmitglied muss der Ortung mit einem GPS-Tracker also zustimmen.",
+        "Am besten klären Sie schon in einem frühen Stadium den technischen Einsatz ab: Legen Sie Ihrem Angehörigen die Vorteile nahe und halten Sie das Einverständnis in einer Vorsorgevollmacht fest.",
+        "Menschen mit einer Weglauftendenz, beispielsweise ausgelöst durch eine Demenz."
+      ]
+    }
+  ]
+}

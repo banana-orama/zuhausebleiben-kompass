@@ -4,6 +4,45 @@ Letzte Aktualisierung: 2026-10-30 (Abend, Renderer-Iteration: Region-noindex-Gat
 
 ## Bestand
 
+### Batch 13 (2026-11-04, Cron-Lauf) — Briefing 16: Mobiler Hausnotruf mit GPS
+1. **Neu veröffentlicht:** hausnotruf-mobil-gps-unterwegs.json — mobiler Notruf für unterwegs und
+   „ohne Festnetz" (auch stationär via Mobilfunk/SIM): Funktionsweise + Ortung nur im Notfall,
+   Stationär-vs.-Mobil-Vergleichstabelle mit Reichweiten-Divergenz (30–50 m / 50–100 m / bis 150 m
+   — dokumentiert statt Einzahl), drei Nutzerprofile (zuhause/unterwegs/Demenz) mit Uhr/Handy-
+   Grenzen, Kosten-Bausteine mit Spannen-Dokumentation (GPS-Aufpreis 10–25 € kompass vs. 30–80 €
+   VZ; Gesamt 30–50 vs. 35–70 €/Monat; Sturzerkennung ~5–10 €; Einrichtung ~49,90 € als einzelne
+   Fachportalangabe), Pflegekasse als Drei-Ebenen-Auflösung des PORTAL-WIDERSPRUCHS (panorama/
+   kompass „privat/Eigenanteil" vs. sanivia/hnrkosten „0 €/Monat": VZ-Basistarif bis 27 €/Monat
+   seit 01.04.2026 + Vertragspartner-Bedingung + MD-Prüfung; Hilfsmittel-Weg mit Rehadat-GKV
+   Position 52.40.01 inkl. ausdrücklich MOBILER Geräte NEO GSM/TA74 4G/derButler; § 40 Abs. 1/3/7
+   Leihe + 10 %/max. 25 € + Mehrkosten-Satz + 3/5-Wochen-Fiktion), Ortung/Demenz (Zustimmungs-
+   pflicht, Persönlichkeitsrecht, Vorsorgevollmacht, Geofencing-Frage, keine Pauschalempfehlung),
+   Lade-Routine (Akku-Divergenz 1–7 Tage / 50 Std / täglich-bis-wöchentlich), 10-Fragen-Checkliste.
+   11 Abschnitte, 6 FAQs, 12 Quellen, 85/85 Ledger-Pässe inkl. 8 Arithmetik-Checks
+   (research/hausnotruf-mobil-041126-ledger.json + verify_hausnotruf_mobil_041126.py), Grafik
+   assets/images/hausnotruf-mobil-entscheidung.svg (Marker/Band-Layout, getBBox 0 Overflows +
+   Vision sauber), Protokoll research/hausnotruf-mobil-gps-unterwegs-batch.md. 27. Ratgeber;
+   Topic SERP-basiert (GSC im Cron weiter ohne Google-Sitzung), intent-distinct (Bestand deckte
+   den Mobil-Intent nur mit einem Zusatzkosten-Satz im Kosten-Artikel).
+2. **Bewusst KEIN Malteser-Placement auf diesem Artikel:** Malteser hat (Produktseite+FAQ
+   04.11.) nur das stationäre System — ein mobiler CTA wäre ein falsches Versprechen. Malteser
+   nur als gekennzeichnete Herstellerangabe (Quellen 10/11: Mobilfunk ohne Telefonanschluss,
+   72-h-Akku, GSM-Testruf); CTA-Route über Early-CTA auf hausnotruf-kosten-anbieter-vergleich
+   (dort leben die aktiven Placements). Content-Gate assertet 0 Partner-Marker auf dem Artikel.
+3. **Renderer:** article-renderer.mjs specialMap +1 (Early-CTA „Kosten & Anbieter vergleichen" →
+   hausnotruf-kosten-anbieter-vergleich). data/cross-links.json +1 (3 Cluster-interne Cross-Ziele:
+   sturzerkennung, kosten-vergleich, hilfsmittel-pflegekasse + rationale). llms-txt.py SUMMARIES +
+   SECTION_MAP erweitert. isCare-Regex trifft über hausnotruf-Präfix (keine Regex-Änderung nötig).
+4. **Testzähler:** test_articles 26→27; verify_checklists_build RSS 26→27 Items; test_partner_links
+   A3 ≥ 27. Neu: research/verify_hausnotruf_mobil_{041126,svg,content,mobile}_041126.py +
+   fetch_hausnotruf_mobil_041126.sh + strip_hausnotruf_mobil_041126.py.
+5. **Teststand:** npm test komplett grün (beide Builds, test_site, test_articles 27, cross_links,
+   titles_meta, measurement, Playwright-Consent, Partner-Gates A–F ALL PASS), Content-Support-Gate
+   ALL PASS, Mobile 390 px 0 px Overflow. Live-Readback: siehe launch-state 04.11.
+6. **Refresh-Kandidat notiert:** VZ hat Zusatzkosten-Spanne auf „30 bis 80 Euro" aktualisiert
+   (heute gelesen); hausnotruf-kosten-anbieter-vergleich sagt noch „rund 30 bis 50 Euro oder mehr"
+   (VZ-Stand 29.07.) — Zahl+checked_at in einer eigenen Kernartikel-Unit heben.
+
 ### Batch 12 (2026-11-02, Cron-Lauf) — Briefing 15: Wohnumfeld-Zuschuss beantragen
 1. **Neu veröffentlicht:** wohnumfeldverbesserung-beantragen.json — Pflegekassen-Antragsstrecke nach
    § 40 Abs. 4 SGB XI: Ermessensleistung („können subsidiär“) mit Zweckformel, 4.180 € je Maßnahme /

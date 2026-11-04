@@ -1,0 +1,30 @@
+# Batch 13 (Cron-Lauf 04.11.2026) — Briefing 16: Mobiler Hausnotruf mit GPS
+
+**Artikel:** `content-ready/hausnotruf-mobil-gps-unterwegs.json` · 27. Ratgeber · Care-Cluster (Hausnotruf-Gruppe)
+**Grafik:** `assets/images/hausnotruf-mobil-entscheidung.svg` (6-Schritte-Entscheidungsweg, Marker+Band-Layout)
+**Ledger:** `research/hausnotruf-mobil-041126-ledger.json` — **85/85 verbatim PASS** (12 Quellen, alle am 04.11.2026 frisch abgerufen: `research/fetch_hausnotruf_mobil_041126.sh`, Strip: `research/strip_hausnotruf_mobil_041126.py`, Check: `research/verify_hausnotruf_mobil_041126.py` inkl. 8 Arithmetik/Konsistenz-Checks)
+
+## Topic-Wahl (SERP-basiert, GSC im Cron weiterhin ohne Google-Sitzung)
+SERP „Hausnotruf mobil GPS / ohne Festnetz": 8+ eigenständige Konkurrenzseiten (pflege-panorama, pflegeweide, hausnotruf-kosten.de ×2, pflegekompass, pflege.net ×2, sanivia, beWo, sieversgruppe, senionex, pflege-durch-angehoerige). Eigener Bestand deckte den Intent nur mit EINEM Satz (Zusatzkosten-Verweis) im Kosten-Artikel — intent-distinct. **Kommerzielle Hypothese:** Care-Cluster ist der einzige Cluster mit zugelassenem, LIVE platziertem Partner (Malteser 112616, 10-€-CPL Beratungstermin) — Cluster-Tiefe dort stärkt die einzige funktionierende Monetarisierungsroute; der neue Artikel führt über Early-CTA (`compare_top` → hausnotruf-kosten-anbieter-vergleich) direkt auf die Seite mit den aktiven Placements.
+
+## Kernbefunde (Ledger-Notes)
+1. **Portal-Widerspruch Pflegekasse:** panorama („mobilen Notruf zahlen Sie in der Regel privat") + kompass („Den GPS-Aufpreis tragen Sie selbst") vs. sanivia + hausnotruf-kosten.de („übernimmt die Pflegekasse … 0 € im Monat, genau wie das stationäre Gerät"). Auflösung im Artikel über drei Ebenen: VZ-Praxisrahmen (Basistarif bis 27 €/Monat seit 01.04.2026, Anbieter muss Vertragspartner der Kasse sein, MD-Prüfung) / GPS-Aufpreis als Eigenanteil / Hilfsmittel-Weg: Rehadat-GKV listet Position **52.40.01** mit ausdrücklich MOBILFUNKBASIERTEN Geräten („Notrufgerät NEO GSM", „TA74 4G", „derButler mit Funkfinger") → Einzelfall-Bewilligung nach § 40 SGB XI (Leihe vorrangig, Zuzahlung 10 % max. 25 €, Mehrkosten-Satz, 3/5-Wochen-Frist mit Genehmigungsfiktion Abs. 7).
+2. **Reichweite stationär divergent:** 30–50 m (panorama) vs. 50–100 m (kompass) vs. bis 150 m (beWo) — dokumentiert statt erfundener Einzahl; VZ-Empfehlung (Reichweite des Funkknopfs prüfen) als praktischer Rat.
+3. **Akku mobiler Knopf:** 1–7 Tage (panorama) / „bis zu 50 Std." + „alle 2–3 Tage" (beWo) / „täglich bis wöchentlich" (kompass); stationärer Sender läuft dagegen jahrelang mit Batterie. Lade-Routine-Checkliste als praktischer Abschnitt.
+4. **Kosten-Spannen:** GPS-Aufpreis 10–25 €/Monat (kompass) vs. „30 bis 80 Euro" Zusatz (VZ, heute gelesen — aktualisiert gegenüber dem 30–50-€-Echo); Gesamt 30–50 € (panorama) vs. 35–70 € (kompass); Sturzerkennung ~5–10 €/Monat (panorama); Einrichtung ~49,90 € nur hausnotruf-kosten.de (eine Fachportalangabe, kein Marktwert).
+5. **Ortung/Demenz:** pda-GPS: Ortung ohne Wissen/Zustimmung verboten (Persönlichkeitsrecht), Einverständnis in Vorsorgevollmacht festhalten; kompass: Geofencing nicht überall, „gezielt anfragen", 24/7-Zentrale sicherer als reine Ortungs-App; panorama: Ortung meist erst im Notfall aktiv; sanivia: Demenz = Einzelfall (knopfzuverlässigkeit), keine Pauschalempfehlung. Redaktionelle Grenze: keine Rechts-/Betreuungsberatung im Einzelfall.
+6. **§ 39 SGB XI bewusst NICHT verwendet** (ist Verhinderungspflege) — Hausnotruf-Kontext läuft über § 40 + VZ-Praxisdarstellung.
+
+## Partner-Integration — bewusst KEIN Malteser-Placement
+Malteser bietet (Produktseite + FAQ, 04.11. gelesen) nur das stationäre System (Basisgerät mit Mobilfunk-Anbindung, Funkknopf Armband/Kette, Akku bis 72 h bei Stromausfall, GSM-Statusanzeige/Testruf) — **kein GPS-Produkt**. Ein „mobiler"-CTA wäre ein falsches Versprechen an die Ziele Seite. Malteser erscheint daher nur als klar gekennzeichnete **Herstellerangabe** im „ohne Festnetz"-Abschnitt (Quellen [10][11]); die CTA-Route läuft auf hausnotruf-kosten-anbieter-vergleich, wo die aktiven Malteser-Placements leben. Content-Gate assertet: 0 Partner-Marker auf dem neuen Artikel (PASS).
+
+## Gates
+- **Ledger 85/85 verbatim + Arithmetik** (research/verify_hausnotruf_mobil_041126.py) — z. B. 10-%-Kap-Logik (250 € × 10 % = 25 €), 50 Std ≈ 2,1 Tage ⊂ 1–7 Tage, kompass-Interne 27+10=37 ≥ 35, 27+25=52 ≤ 70, Spannen-Überlappung 35–50.
+- **SVG:** getBBox 0 Overflows, Band-Kontext + Marker-Abstände (research/verify_hausnotruf_mobil_svg_041126.py) + Vision-Inspektion sauber (6 Schritte lesbar, kein Overlap) — Screenshot in research/evidence/hausnotruf-mobil-041126/svg-screenshot.png.
+- **Content-Support-Gate ALL PASS** (research/verify_hausnotruf_mobil_content_041126.py): JEDEGER JSON-Key (11 Abschnitte inkl. 2 Tabellen + Bullets + paragraphs_after, 6 FAQs, 12 Quellen-URLs inkl. &amp;-Variante, geprüft-Daten) im LAUNCH-Dist; title ≤65; Kernzahlen in Prosa-Schreibweise (inkl. Absenz-Needle 12.40.01); JSON-LD Article+FAQPage; Related exakt die 3 Cross-Ziele; kein noindex; Sitemap/RSS/llms/Home.
+- **Mobile 390 px:** 0 px Overflow, SVG 346 px, CTAs 56–93 px (research/verify_hausnotruf_mobil_mobile_041126.py, Screenshot mobile-390.png).
+- **npm test komplett** (beide Builds, test_site, test_articles 27, cross_links, titles_meta, measurement, Playwright-Consent, Partner-Gates A–F ALL PASS inkl. B4 „zero partner markers on all other pages"), verify_checklists_build ALL PASS (RSS 27, Sitemap inkl. Artikel).
+- Testzähler gehoben: test_articles 26→27, verify_checklists_build RSS 26→27, test_partner_links A3 ≥ 27; Renderer specialMap +1; data/cross-links.json +1 (links + rationale); llms-txt.py SUMMARIES + SECTION_MAP.
+
+## Quellen-Frische
+VZ-Artikel heute neu gelesen: Zusatzkosten-Spanne jetzt „30 bis 80 Euro" (vorher zitiert: „30 bis 50 oder mehr") — **Refresh-Kandidat** für hausnotruf-kosten-anbieter-vergleich (Zahl + checked_at heben), im Ledger-Note dokumentiert, NICHT in diesem Batch gefasst (separate Kernartikel-Unit).
