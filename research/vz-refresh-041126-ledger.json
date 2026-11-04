@@ -1,0 +1,68 @@
+{
+  "task": "Refresh hausnotruf-kosten-anbieter-vergleich (monetisierte Seite, 2 Malteser-Placements live): VZ-Zusatzspanne 30-50 -> 30-80 Euro, alle 4 Quellen re-verifiziert, Platzierungs-Ziele + Awin-Profil gelesen. Ausloeser: Ledger-Note briefing 16 (hausnotruf-mobil-041126).",
+  "created": "2026-11-04",
+  "evidence_dir": "research/evidence/vz-refresh-041126/",
+  "notes": [
+    "VZ Zusatzspanne AKTUELL: 'Zusatzleistungen wie Schlüsselhinterlegung oder mobile Notrufsysteme können die Kosten um weitere 30 bis 80 Euro erhöhen.' — die alte Formulierung ('um weitere 30 bis 50 Euro') ist auf der Live-Seite NICHT mehr enthalten (Absenz geprüft). Artikel-Prosa wurde von 'rund 30 bis 50 Euro oder mehr' auf '30 bis 80 Euro' gehoben, Hedge 'möglichen Aufwand' getroffen weil VZ 'können ... erhöhen' schreibt.",
+    "VZ Basistarif unverändert: 'zwischen 27 und 40 Euro monatlich' — Artikel unverändert korrekt.",
+    "VZ Pflegekasse unverändert: 'bis zu 27 Euro monatlich' + Vertragspartner-Bedingung + MD-Prüfung — Artikel unverändert korrekt.",
+    "BMG nennt das Beispiel generisch 'einem Notrufsystem' (nicht 'Hausnotruf'); Artikel-Paraphrase bleibt korrekt, Quote wörtlich gesichert.",
+    "Malteser-Anbieterangaben 04.11. wörtlich verifiziert: monatlicher Fixpreis ohne versteckte Kosten, Installation und Wartung inklusive, Kündigung 'mit einer Frist von einem Monat zum Monatsende', drei Ausbaustufen Grundsicherheit/Komplettsicherheit/Komplettsicherheit Plus. Prosa-Bezugsdatum auf 04.11.2026 gehoben.",
+    "Platzierungs-Ziele live (HTTP 200, Titel geprüft): malteser.de/hausnotruf/beratungstermin-buchen.html + informationen-anfordern.html.",
+    "Awin-Profil 112616 öffentlich gelesen 04.11.: '10€ CPL für wahrgenommenen Vor-Ort-Beratungstermin' weiterhin gelistet; der abgelaufene 1-€-CPL-Text ('nur noch bis einschließlich 31.10.2026') steht im Profil UNAKTUALISIERT weiter drin. Offener Posten (Awin-Login): ob für Informationsmaterial nach Ablauf des 1-€-Fensters eine Vergütung existiert — öffentlich nicht dokumentiert. Placement bleibt geschaltet (keine Negativwirkung, redaktionell legitim), Frage für den nächsten Login-Readback notiert.",
+    "checked_at aller 4 Quellen auf 2026-11-04 gehoben (jede Quelle heute tatsächlich abgerufen und verbatim geprüft); Renderer leitet Artikel-Quellenstand aus sources[0].checked_at ab, Schema-dateModified aus max(checked_at)."
+  ],
+  "sources": [
+    {
+      "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
+      "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt",
+      "evidence_file": "vz-hausnotruf-041126.html",
+      "quotes": [
+        "Die Kosten liegen im Basistarif meist zwischen 27 und 40 Euro monatlich",
+        "Zusatzleistungen wie Schlüsselhinterlegung oder mobile Notrufsysteme können die Kosten um weitere 30 bis 80 Euro erhöhen.",
+        "Mit Pflegegrad übernimmt die Pflegekasse bis zu 27 Euro monatlich",
+        "Der Hausnotrufanbieter muss Vertragspartner der Pflegekasse sein",
+        "Der Medizinische Dienst prüft für die Pflegekasse, ob die Voraussetzungen erfüllt sind",
+        "Diese Zusatzleistungen sind kostenpflichtig und müssen privat finanziert werden"
+      ],
+      "absences": ["um weitere 30 bis 50 Euro"]
+    },
+    {
+      "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/pflegehilfsmittel",
+      "title": "Bundesgesundheitsministerium: Pflegehilfsmittel",
+      "evidence_file": "bmg-pflegehilfsmittel-041126.html",
+      "quotes": [
+        "Die Pflegeversicherung unterscheidet zwischen technischen Pflegehilfsmitteln, wie beispielsweise einem Pflegebett, Lagerungshilfen oder einem Notrufsystem, sowie Verbrauchsprodukten, wie zum Beispiel Einmalhandschuhen oder Bettschutzeinlagen."
+      ]
+    },
+    {
+      "url": "https://www.malteser.de/hausnotruf.html",
+      "title": "Malteser: Hausnotruf – Anbieterangaben zu Tarifstruktur und Kündigung",
+      "evidence_file": "malteser-hausnotruf-041126.html",
+      "quotes": [
+        "Monatlicher Fixpreis ohne versteckte Kosten",
+        "Installation und Wartung inklusive",
+        "Sie haben jederzeit die Möglichkeit, den Hausnotruf mit einer Frist von einem Monat zum Monatsende zu kündigen.",
+        "Entscheiden Sie zwischen Grundsicherheit , Komplettsicherheit oder Komplettsicherheit Plus für ein sicheres Gefühl in Ihren eigenen vier Wänden."
+      ]
+    },
+    {
+      "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/vertraege-wirksam-widerrufen-per-email-sms-oder-fax-das-muessen-sie-beachten-22947",
+      "title": "Verbraucherzentrale: Verträge wirksam widerrufen – Form, Frist, Zugang",
+      "evidence_file": "vz-widerruf-041126.html",
+      "quotes": [
+        "Bei bestimmten Verträgen haben Sie als Verbraucher:in ein gesetzliches Widerrufsrecht.",
+        "Grundsätzlich beträgt die Widerrufsfrist 14 Tage und beginnt bei Warenbestellung mit vollständigem Erhalt der Ware."
+      ]
+    },
+    {
+      "url": "https://ui.awin.com/merchant-profile/112616",
+      "title": "Awin-Merchant-Profil Malteser DE 112616 (öffentlich, ohne Login)",
+      "evidence_file": "awin-profile-112616-041126.html",
+      "quotes": [
+        "10€ CPL für wahrgenommenen Vor-Ort-Beratungstermin",
+        "nur noch bis einschließlich 31.10.2026: 1€ CPL für angefordertes Informationsmaterial"
+      ]
+    }
+  ]
+}

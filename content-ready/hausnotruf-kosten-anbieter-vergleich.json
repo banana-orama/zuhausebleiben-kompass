@@ -16,13 +16,13 @@
       "heading": "Anbieterlandschaft: Wohlfahrtsverbände, private Firmen und regionale Träger",
       "paragraphs": [
         "Am Markt stehen große Hilfsorganisationen, private Unternehmen und örtliche Träger nebeneinander. Sie unterscheiden sich in Tarifstruktur, Dienstleistungstiefe und Regionsabdeckung. Ein Vergleich pauschaler Preistabellen ersetzt das noch nicht: Entscheidend ist, welcher Betrieb in Ihrer Gemeinde tatsächlich installiert, wartet und im Notfall Personal stellt.",
-        "Als ein konkretes, am 15. Oktober 2026 direkt abgerufenes Beispiel bewirbt der Malteser Hausnotruf mit monatlichem Fixpreis, Installation und Wartung inklusive und Kündigung mit einer Frist von einem Monat zum Monatsende; angegeben werden drei Ausbaustufen von der Grundsicherheit bis zur Komplettsicherheit Plus.[3] Das ist eine Anbieterangabe, kein Preisvergleich und keine Empfehlung. Vergleichen Sie solche Angaben immer mit regionalen Trägern wie DRK, Johanniter, ASB oder kommunalen Pflegediensten."
+        "Als ein konkretes, am 4. November 2026 direkt abgerufenes Beispiel bewirbt der Malteser Hausnotruf mit monatlichem Fixpreis, Installation und Wartung inklusive und Kündigung mit einer Frist von einem Monat zum Monatsende; angegeben werden drei Ausbaustufen von der Grundsicherheit bis zur Komplettsicherheit Plus.[3] Das ist eine Anbieterangabe, kein Preisvergleich und keine Empfehlung. Vergleichen Sie solche Angaben immer mit regionalen Trägern wie DRK, Johanniter, ASB oder kommunalen Pflegediensten."
       ]
     },
     {
       "heading": "Zusatzleistungen sauber vom Basistarif trennen",
       "paragraphs": [
-        "Die Verbraucherzentrale listet typische Komfortleistungen auf: Schlüsselhinterlegung, regelmäßige Kontrollanrufe, Falldetektoren und mobile Notrufsysteme für unterwegs.[1] Diese Zusatzleistungen kosten extra; die Verbraucherzentrale beziffert den Aufwand auf rund 30 bis 50 Euro oder mehr zusätzlich im Monat und rät, nur die Leistungen zu buchen, die Sie wirklich brauchen.[1]",
+        "Die Verbraucherzentrale listet typische Komfortleistungen auf: Schlüsselhinterlegung, regelmäßige Kontrollanrufe, Falldetektoren und mobile Notrufsysteme für unterwegs.[1] Diese Zusatzleistungen kosten extra; die Verbraucherzentrale beziffert den möglichen Aufwand auf 30 bis 80 Euro zusätzlich im Monat und rät, nur die Leistungen zu buchen, die Sie wirklich brauchen.[1]",
         "Buchen Sie nicht pauschal das größte Paket. Prüfen Sie stattdessen, welche Alltagssituation Sie absichern wollen: Wer hat einen Schlüssel? Wer schaut nach Ihnen, wenn Sie den Knopf nicht erreichen? Fahren Sie regelmäßig allein unterwegs? Jede Frage kann eine Zusatzleistung nötig machen – oder überflüssig."
       ],
       "table": {
@@ -119,7 +119,7 @@
   "faqs": [
     {
       "question": "Was kostet ein Hausnotruf pro Monat?",
-      "answer": "Die Verbraucherzentrale nennt für den Basistarif meist 27 bis 40 Euro monatlich, abhängig von Leistung und Region.[1] Zusatzleistungen können laut Verbraucherzentrale rund 30 bis 50 Euro oder mehr dazukosten.[1] Vergleichen Sie den Gesamtumfang, nicht nur die Grundgebühr."
+      "answer": "Die Verbraucherzentrale nennt für den Basistarif meist 27 bis 40 Euro monatlich, abhängig von Leistung und Region.[1] Zusatzleistungen können laut Verbraucherzentrale 30 bis 80 Euro monatlich dazukosten.[1] Vergleichen Sie den Gesamtumfang, nicht nur die Grundgebühr."
     },
     {
       "question": "Übernimmt die Pflegekasse die Kosten?",
@@ -146,22 +146,22 @@
     {
       "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt – Funktionen, Vorteile, Kosten",
       "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-11-04"
     },
     {
       "title": "Bundesgesundheitsministerium: Pflegehilfsmittel",
       "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/pflegehilfsmittel",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-11-04"
     },
     {
       "title": "Malteser: Hausnotruf – Anbieterangaben zu Tarifstruktur und Kündigung",
       "url": "https://www.malteser.de/hausnotruf.html",
-      "checked_at": "2026-10-15"
+      "checked_at": "2026-11-04"
     },
     {
       "title": "Verbraucherzentrale: Verträge wirksam widerrufen – Form, Frist, Zugang",
       "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/vertraege-wirksam-widerrufen-per-email-sms-oder-fax-das-muessen-sie-beachten-22947",
-      "checked_at": "2026-10-29"
+      "checked_at": "2026-11-04"
     }
   ],
   "image": {
