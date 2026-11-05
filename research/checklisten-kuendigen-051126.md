@@ -17,9 +17,10 @@ Nächster Produktionsschritt laut Stand (memory + launch-state): druckbare Check
 - Visuell (Playwright-Chromium gegen lokalen Dist, Screenshots in cache/scratch, nicht committed): h1 korrekt, 3 Blöcke, 14 Abhak-Punkte, **Overflow 0 px** Desktop (1280) und Mobile (390); Vision-Kontrolle: Tabelle 2-spaltig vollständig, Kästchen sauber, keine Überlappungen, Consent-Banner mit gleichwertigen Buttons (Standard-Overlay über Hero, kein Defekt).
 
 ## Deploy + Live
-- Commit gepusht; CI-Run: siehe launch-state-Eintrag (head_sha-Check über api.github.com).
-- Live-Readback `research/verify_checklisten_kuendigen_live_051126.py`: robots index,follow, Canonical, 3 Blöcke, Quellen-Rücklink, Stand 2026-11-05, Hub 7 Karten + ItemList 7 Items, Sitemap 8 Checklist-URLs, RSS 28 unverändert, kein Tracking-Loader.
-- IndexNow: 2 URLs (neue Checkliste + Hub) über api.indexnow.org, HTTP 200, Key-Datei live.
+- Commit `87eb16f` gepusht; CI-Run **42036799133 success** (build + deploy completed), Full-SHA `87eb16fbea7d6d6d4d93d6af225d873be8ecdc67`.
+- Live-Readback `research/verify_checklisten_kuendigen_live_051126.py`: **21/21 ALL PASS** auf der öffentlichen URL — robots index,follow, Canonical, 3 Blöcke, Quellen-Rücklink, Print-Button, Stand 2026-11-05, Hub 7 Karten + ItemList 7 Items inkl. neuem Slug, Sitemap 8 Checklist-URLs, RSS 28 unverändert, kein Tracking-Loader, Home-Nav intakt.
+- IndexNow: 2 URLs (neue Checkliste + Hub) über api.indexnow.org eingereicht, **HTTP 200**, Key-Datei live (200).
+- Folgeskripte im Repo: `research/ci_check.py` (CI-Warteschleife, head_sha-basiert) + `research/indexnow_submit_checklisten_051126.py` (Submission-Protokoll).
 
 ## Abgrenzung
 - Keine neuen Zahlen, keine neuen Quellen — extrahiert ausschließlich aus dem freigegebenen 28. Ratgeber (Ledger 24/24 verbatim, Briefing 17). Zitations-Marker [1]–[9] fließen als Superscripts mit (verweisen auf die Quellenliste des Ratgebers).
