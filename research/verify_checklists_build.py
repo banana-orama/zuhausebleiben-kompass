@@ -29,17 +29,18 @@ check("homepage robots index", robots("index.html") == "index,follow")
 check("no Vorschau prose on homepage", "als Vorschau" not in (dist / "index.html").read_text())
 check("nav has Checklisten", "/checklisten/index.html" in (dist / "index.html").read_text())
 
-# Sitemap: valid XML, includes all 7 checklist URLs exactly once
+# Sitemap: valid XML, includes all 8 checklist URLs exactly once
 sm = (dist / "sitemap.xml").read_text()
 ET.fromstring(sm)
 locs = re.findall(r"<loc>([^<]+)</loc>", sm)
 check_urls = [u for u in locs if "/checklisten/" in u]
-check("sitemap has 7 checklist URLs", len(check_urls) == 7, str(len(check_urls)))
+check("sitemap has 8 checklist URLs", len(check_urls) == 8, str(len(check_urls)))
 check("sitemap checklist URLs unique", len(set(check_urls)) == len(check_urls))
 expected = {"/checklisten/index.html"} | {f"/checklisten/{s}.html" for s in [
     "pflegegrad-antrag-ablauf-fristen", "hilfsmittel-pflegekasse-uebernahme",
     "hausnotruf-kosten-anbieter-vergleich", "treppenlift-firmen-vergleich",
-    "tuerbreiten-schwellen-schnellcheck", "badumbau-angebote-vergleichen"]}
+    "tuerbreiten-schwellen-schnellcheck", "badumbau-angebote-vergleichen",
+    "hausnotruf-kuendigen"]}
 have = {u.replace("https://zuhausebleiben-kompass.de", "") for u in check_urls}
 check("sitemap checklist set exact", have == expected, str(have ^ expected))
 check("promoted briefing-1 article in sitemap", any("treppenlift-angebote-vergleichen" in u for u in locs))
@@ -51,7 +52,7 @@ ld = json.loads(ld_text)
 check("JSON-LD context", ld.get("@context") == "https://schema.org", str(ld.get("@context")))
 graph = ld.get("@graph", [])
 check("JSON-LD CollectionPage+ItemList", [n.get("@type") for n in graph] == ["CollectionPage", "ItemList"])
-check("JSON-LD 6 items", len(graph[1].get("itemListElement", [])) == 6)
+check("JSON-LD 7 items", len(graph[1].get("itemListElement", [])) == 7)
 
 # RSS: valid, new description, per-article items, no draft
 rss = ET.parse(dist / "rss.xml")
@@ -76,7 +77,8 @@ check("llms includes promoted briefing-1 article", "/treppenlift-angebote-vergle
 # Consent/no-loader contract on every checklist page
 for s in ["index", "pflegegrad-antrag-ablauf-fristen", "hilfsmittel-pflegekasse-uebernahme",
           "hausnotruf-kosten-anbieter-vergleich", "treppenlift-firmen-vergleich",
-          "tuerbreiten-schwellen-schnellcheck", "badumbau-angebote-vergleichen"]:
+          "tuerbreiten-schwellen-schnellcheck", "badumbau-angebote-vergleichen",
+          "hausnotruf-kuendigen"]:
     html = (dist / "checklisten" / f"{s}.html").read_text()
     ok = ("window.gtag('consent', 'default'" in html
           and 'src="/assets/consent.mjs"' in html
@@ -94,6 +96,7 @@ blocks_cfg = {
     "treppenlift-firmen-vergleich": [["table", 6], ["ol", 7], ["ul", 4]],
     "tuerbreiten-schwellen-schnellcheck": [["ul", 0], ["table", 2], ["ul", 6]],
     "badumbau-angebote-vergleichen": [["table", 2], ["ol", 7], ["ul", 0]],
+    "hausnotruf-kuendigen": [["table", 1], ["ul", 4], ["ul", 7]],
 }
 
 

@@ -17,6 +17,7 @@ const CHECKLISTS = {
   'treppenlift-firmen-vergleich': [['table', 6], ['ol', 7], ['ul', 4]],
   'tuerbreiten-schwellen-schnellcheck': [['ul', 0], ['table', 2], ['ul', 6]],
   'badumbau-angebote-vergleichen': [['table', 2], ['ol', 7], ['ul', 0]],
+  'hausnotruf-kuendigen': [['table', 1], ['ul', 4], ['ul', 7]],
 };
 const SLUGS = Object.keys(CHECKLISTS);
 
