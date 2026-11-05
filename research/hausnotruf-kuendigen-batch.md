@@ -58,7 +58,14 @@ Nicht-fundierte Normen bewusst gemieden: § 309a BGB existiert nicht mehr (404 b
 - Counter-Bumps: test_articles.py 27→28; verify_checklists_build.py „rss has 27"→28.
 - Neues Content-Support-Gate: research/verify_kuendigen_content_051126.py (alle JSON-Keys gegen built HTML, Zitate lösen auf, Related im Care-Cluster, CTA-Ziel Vergleichsseite); Live-Gate: research/verify_kuendigen_live_051126.py.
 
-## 6. Fortsetzungspfad (nächster Lauf)
+## 7. Ergebnis (05.11.2026)
+
+- Commit `a5d0375` gepusht; CI **success** (Run 41997867640); Live-Readback **20/20 PASS** (research/verify_kuendigen_live_051126.py: robots index,follow, Canonical, alle Kernzahlen, SVG 200 inkl. Startband-Kontrastfix, Sitemap/RSS/llms live).
+- Content-Gate ALL PASS, SVG-Geometrie 0 Issues (inkl. Pairwise-Text-Overlap), Mobile 390px 0px Overflow, npm test ALL PASS (inkl. Consent/Measurement/Partner), verify_checklists_build ALL PASS (RSS 28, Sitemap 45, llms 28 Artikel).
+- IndexNow: 3 URLs (Artikel, Vergleichsseite, Homepage) über api.indexnow.org eingereicht, HTTP 200, Key-Datei live (200).
+- Visuelle Korrektur im Lauf: Startband-Kontrast (weiß auf hellgrün → dunkelgrün) per Screenshot gefunden und verifiziert.
+
+## 8. Fortsetzungspfad (nächster Lauf)
 
 1. Druckbare Checklisten-Seite „Hausnotruf kündigen & wechseln" (build-checklists.mjs Entry, Sitemap-Zähler 7→8, JSON-LD 6→7 gemeinsam bumpen).
 2. GSC-Queries, sobald Google-Sitzung verfügbar (Zugangslücke dokumentiert in operations/ACCESS-STATE.md).
