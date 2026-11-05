@@ -1,0 +1,111 @@
+{
+ "task": "hausnotruf-kuendigen",
+ "checked_at": "2026-11-05",
+ "sources": [
+  {
+   "n": 1,
+   "key": "vz_hausnotruf",
+   "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
+   "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt – Funktionen, Vorteile, Kosten (Stand 29.07.2026)",
+   "quotes": [
+    "Gut zu wissen: Der Hausnotrufanbieter muss Vertragspartner der Pflegekasse sein.",
+    "Mit Pflegegrad übernimmt die Pflegekasse bis zu 27 Euro monatlich.",
+    "Für die Kostenübernahme können Sie bei der Pflegekasse einen Antrag stellen. Das geht auch formlos.",
+    "Die Kosten liegen meist je nach Leistung zwischen 27 und 40 Euro monatlich im Basistarif.",
+    "Bereitstellung des Geräts"
+   ],
+   "count": 5
+  },
+  {
+   "n": 2,
+   "key": "bgb_309",
+   "url": "https://www.gesetze-im-internet.de/bgb/__309.html",
+   "title": "§ 309 BGB – Klauselverbote ohne Wertungsmöglichkeit (Nr. 9, 13) (gesetze-im-internet.de)",
+   "quotes": [
+    "eine den anderen Vertragsteil länger als zwei Jahre bindende Laufzeit des Vertrags",
+    "das Vertragsverhältnis wird nur auf unbestimmte Zeit verlängert und dem anderen Vertragsteil wird das Recht eingeräumt, das verlängerte Vertragsverhältnis jederzeit mit einer Frist von höchstens einem Monat zu kündigen",
+    "eine zu Lasten des anderen Vertragsteils längere Kündigungsfrist als einen Monat vor Ablauf der zunächst vorgesehenen Vertragsdauer",
+    "an eine strengere Form als die Textform in anderen als den in Buchstabe a genannten Verträgen"
+   ],
+   "count": 4
+  },
+  {
+   "n": 3,
+   "key": "bgb_312k",
+   "url": "https://www.gesetze-im-internet.de/bgb/__312k.html",
+   "title": "§ 312k BGB – Kündigung von Verbraucherverträgen im elektronischen Geschäftsverkehr (gesetze-im-internet.de)",
+   "quotes": [
+    "gut lesbar mit nichts anderem als den Wörtern „Verträge hier kündigen“",
+    "Der Unternehmer hat dem Verbraucher den Inhalt sowie Datum und Uhrzeit des Zugangs der Kündigungserklärung sowie den Zeitpunkt, zu dem das Vertragsverhältnis durch die Kündigung beendet werden soll, sofort auf elektronischem Wege in Textform zu bestätigen.",
+    "Wenn der Verbraucher bei der Abgabe der Kündigungserklärung keinen Zeitpunkt angibt, zu dem die Kündigung das Vertragsverhältnis beenden soll, wirkt die Kündigung im Zweifel zum frühestmöglichen Zeitpunkt.",
+    "kann ein Verbraucher einen Vertrag, für dessen Kündigung die Schaltflächen und die Bestätigungsseite zur Verfügung zu stellen sind, jederzeit und ohne Einhaltung einer Kündigungsfrist kündigen."
+   ],
+   "count": 4
+  },
+  {
+   "n": 4,
+   "key": "bgb_355",
+   "url": "https://www.gesetze-im-internet.de/bgb/__355.html",
+   "title": "§ 355 BGB – Widerrufsrecht bei Verbraucherverträgen (gesetze-im-internet.de)",
+   "quotes": [
+    "Der Widerruf muss keine Begründung enthalten. Zur Fristwahrung genügt die rechtzeitige Absendung des Widerrufs.",
+    "Die Widerrufsfrist beträgt 14 Tage."
+   ],
+   "count": 2
+  },
+  {
+   "n": 5,
+   "key": "bgb_356",
+   "url": "https://www.gesetze-im-internet.de/bgb/__356.html",
+   "title": "§ 356 BGB – Widerrufsrecht bei außerhalb von Geschäftsräumen geschlossenen Verträgen und Fernabsatzverträgen (gesetze-im-internet.de)",
+   "quotes": [
+    "Das Widerrufsrecht erlischt spätestens zwölf Monate und 14 Tage nach dem in Absatz 2 oder § 355 Absatz 2 Satz 2 genannten Zeitpunkt.",
+    "mit der vollständigen Erbringung der Dienstleistung, wenn der Verbraucher vor Beginn der Erbringung a) ausdrücklich zugestimmt hat, dass der Unternehmer mit der Erbringung der Dienstleistung vor Ablauf der Widerrufsfrist beginnt"
+   ],
+   "count": 2
+  },
+  {
+   "n": 6,
+   "key": "bgb_1922",
+   "url": "https://www.gesetze-im-internet.de/bgb/__1922.html",
+   "title": "§ 1922 BGB – Gesamtrechtsnachfolge (gesetze-im-internet.de)",
+   "quotes": [
+    "Mit dem Tode einer Person (Erbfall) geht deren Vermögen (Erbschaft) als Ganzes auf eine oder mehrere andere Personen (Erben) über."
+   ],
+   "count": 1
+  },
+  {
+   "n": 7,
+   "key": "vz_widerruf",
+   "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/vertraege-wirksam-widerrufen-per-email-sms-oder-fax-das-muessen-sie-beachten-22947",
+   "title": "Verbraucherzentrale: Verträge wirksam widerrufen per E-Mail, SMS oder Fax (Stand 28.07.2026)",
+   "quotes": [
+    "Grundsätzlich beträgt die Widerrufsfrist 14 Tage und beginnt bei Warenbestellung mit vollständigem Erhalt der Ware.",
+    "Wurden Sie nicht oder nicht ordnungsgemäß über Ihr Widerrufsrecht informiert, beträgt die Widerrufsfrist 12 Monate und 14 Tage.",
+    "Geben Sie alle notwendigen Daten zum Vertrag an und halten Sie die Widerrufsfrist ein.",
+    "Heben Sie Beweise für den Widerruf gut auf und fordern Sie eine Bestätigung vom Vertragspartner."
+   ],
+   "count": 4
+  },
+  {
+   "n": 8,
+   "key": "malteser",
+   "url": "https://www.malteser.de/hausnotruf.html",
+   "title": "Malteser: Hausnotruf – Anbieterangaben zu Tarifstruktur und Kündigung (gelisteter Partner)",
+   "quotes": [
+    "Sie haben jederzeit die Möglichkeit, den Hausnotruf mit einer Frist von einem Monat zum Monatsende zu kündigen."
+   ],
+   "count": 1
+  },
+  {
+   "n": 9,
+   "key": "malteser_faq",
+   "url": "https://www.malteser.de/hausnotruf/faq.html",
+   "title": "Malteser: Häufige Fragen zum Hausnotruf – Anbieterangaben zur Kündigung in Textform (gelisteter Partner)",
+   "quotes": [
+    "Der Vertrag kann jederzeit in Textform, also per Brief, E-Mail, Fax oder über das Online-Formular, mit einer Frist von 1 Monat zum Monatsende gekündigt werden."
+   ],
+   "count": 1
+  }
+ ]
+}

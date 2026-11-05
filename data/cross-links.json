@@ -9,6 +9,7 @@
     "beleuchtung-orientierung-im-alter": ["hilfsmittel-pflegekasse-uebernahme"],
     "wohnumfeldverbesserung-beantragen": ["hilfsmittel-pflegekasse-uebernahme", "pflegegrad-antrag-ablauf-fristen"],
     "hausnotruf-mobil-gps-unterwegs": ["hausnotruf-sturzerkennung-oder-knopf", "hausnotruf-kosten-anbieter-vergleich", "hilfsmittel-pflegekasse-uebernahme"],
+    "hausnotruf-kuendigen": ["hausnotruf-kosten-anbieter-vergleich", "hilfsmittel-pflegekasse-uebernahme"],
     "wanne-zur-dusche": ["badumbau-angebote-vergleichen"]
   },
   "rationale": {
@@ -19,6 +20,7 @@
     "beleuchtung-orientierung-im-alter": "Bewegungsmelder/Nachtlicht teils Hilfsmittelkontext — Brücke zum Link-Magnet hilfsmittel-pflegekasse-uebernahme",
     "wanne-zur-dusche": "Angebotsvergleich als nächster Schritt nach der Variantenwahl (Cluster-intern)",
     "wohnumfeldverbesserung-beantragen": "Abgrenzung zum Hilfsmittel-Antrag (Aufsatz vs. kompletter Umbau) + Widerspruchs-Weg nach einer Ablehnung (Cluster-intern care)",
-    "hausnotruf-mobil-gps-unterwegs": "Entscheidung stationaer vs. mobil: Sturzerkennung als Funktions-Follow-up, Kosten-/Vertragsratgeber mit Partner-Placements, Hilfsmittel-Antragsroute als Kassen-Weg (Cluster-intern care)"
+    "hausnotruf-mobil-gps-unterwegs": "Entscheidung stationaer vs. mobil: Sturzerkennung als Funktions-Follow-up, Kosten-/Vertragsratgeber mit Partner-Placements, Hilfsmittel-Antragsroute als Kassen-Weg (Cluster-intern care)",
+    "hausnotruf-kuendigen": "Post-Kauf-Intention (kuendigen): Wechselnde vergleichen Anbieter mit Partner-Placements, Hilfsmittel-/Kassenroute fuer Zuschuss-Wechsel (Cluster-intern care)"
   }
 }

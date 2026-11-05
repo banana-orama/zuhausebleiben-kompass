@@ -1,0 +1,6 @@
+URL: https://www.pflege.net/hausnotruf-vertrag/
+STATUS: via curl
+FETCHED: 2026-11-05
+----
+Error 403 Forbidden 
+ 403 Forbidden
