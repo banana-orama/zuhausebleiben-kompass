@@ -62,8 +62,9 @@ Ledger: research/sitzsteh-061126-ledger.json — **40 Zitate verbatim + 8 Absenz
 ## 7. Ergebnis (06.11.2026)
 
 - npm test komplett grün (Exit 0; Playwright 21 passed inkl. Consent; Partner-Gates A–F ALL PASS; test_articles 29; RSS 29; LAUNCH-Dist 49 Seiten/8 Checklisten-URLs).
-- Commit gepusht; CI-Run siehe launch-state-Update; Live-Readback research/verify_sitzsteh_live_061126.py auf der öffentlichen URL (robots index,follow, Kernzahlen, SVG 200, Sitemap/RSS/llms/Homepage) — Ergebnis im launch-state-Eintrag.
-- IndexNow: siehe launch-state-Eintrag.
+- Commit `f45f50f` gepusht; CI **success** (Run 42190346179); Live-Readback **24/24 PASS** auf der öffentlichen URL (`research/verify_sitzsteh_live_061126.py`: robots index,follow, Canonical, alle Kernzahlen live, SVG live + direkt 200 mit Stand, Sitemap mit Artikel/ohne Region-URLs, RSS 29, Homepage listet Ratgeber, llms.txt aktualisiert, kein Partner-Marker, Quellenstand 2026-11-06). Erster Lauf 23/24: ein Needle-Fehler im Live-Skript selbst (SVG-src ist absolut `https://…` statt root-relativ) — Skript korrigiert, Artikel war korrekt.
+- IndexNow: 2 URLs (Artikel + Homepage) über api.indexnow.org eingereicht, HTTP 200.
+- Mobile-390-Screenshot + SVG-Screenshot in research/evidence/sitzsteh-061126/ committed.
 
 ## 8. Fortsetzungspfad (nächster Lauf)
 
