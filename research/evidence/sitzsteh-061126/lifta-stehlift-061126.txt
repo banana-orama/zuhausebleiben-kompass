@@ -1,0 +1,644 @@
+Stehlift: gelenkschonende Mobiltätshilfe für Treppen | Lifta 
+ {
+ this.isMainNavigationOpen =!this.isMainNavigationOpen;
+ }, delay);
+ }
+ if (navigationFlag === 'isContactNavigationOpen') {
+ this.isMainNavigationOpen = false;
+ this.isSearchNavigationOpen = false;
+ setTimeout(() => {
+ this.isContactNavigationOpen =!this.isContactNavigationOpen;
+ }, delay);
+ }
+ if (navigationFlag === 'isSearchNavigationOpen') {
+ this.isMainNavigationOpen = false;
+ this.isContactNavigationOpen = false;
+ setTimeout(() => {
+ this.isSearchNavigationOpen =!this.isSearchNavigationOpen;
+ }, delay);
+ }
+ setTimeout(() => {
+ if (this.isMainNavigationOpen || this.isContactNavigationOpen || this.isSearchNavigationOpen) {
+ window.documentScrollingStatus = true;
+ this.$dispatch('toggle-document-scrolling');
+ }
+ if (!this.isMainNavigationOpen &&!this.isContactNavigationOpen &&!this.isSearchNavigationOpen) {
+ window.documentScrollingStatus = false;
+ this.$dispatch('toggle-document-scrolling');
+ }
+ }, delay + 50);
+ }
+ }"
+ @resize.window="navigationsHeight = window.innerHeight - menuHeightPx; menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;"
+ @close-main-navigation.window="closeNavigation();"
+ x-init="
+ menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;
+ navigationsHeight = window.innerHeight - menuHeightPx;
+ /**toggleNavigation('isMainNavigationOpen')**/;
+ "
+>
+ Treppenlifte 
+ Hauslifte 
+ Rollstuhllifte 
+ 0800 20 33 150
+ 24/7 für Sie da 
+ Suche 
+ Menü 
+ 0800 20 33 150
+ Jetzt Kontakt aufnehmen 
+ (24 Std. täglich, kostenlos) 
+ { if (value) { $el.style.height = navigationsHeight + 'px'; } else { $el.style.height = '0px'; } });
+ $el.style.height = '0px';
+ "
+ @resize.window="if (isMainNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+ >
+ Lifta in Ihrer Nähe
+ Lifta Index-Studie 2026
+ { $refs.wrapper.scrollLeft = 840 }, 500);
+ "
+ class="bg-white min-h-full"
+ >
+ Schließen
+ Treppenlifte
+ Mehr 
+ Hauslifte
+ Mehr 
+ Rollstuhllifte
+ Mehr 
+ Liftarten Entscheidungshilfe
+ Preise
+ Mehr 
+ Zuschüsse
+ Mehr 
+ Service
+ Mehr 
+ Ratgeber
+ Mehr 
+ Kontakt
+ Mehr 
+ Lifta Index-Studie
+ Lifta Magazin
+ Zurück
+ Schließen
+ Alles rund um Treppenlifte 
+ Unsere Treppenlift-Modelle 
+ Lifta Avantgarde
+ Lifta Luxor
+ Lifta Esprit
+ Lifta Klassik
+ Lifta Außenlifte
+ Treppenlifte nach Einbausituationen 
+ Treppenlifte für gerade Treppen
+ Treppenlifte für kurvige Treppen
+ Treppenlifte für Wendeltreppen
+ Treppenlifte für Podesttreppen
+ Treppenlifte für Mehrfamilienhäuser
+ Treppenlifte für den Außenbereich
+ Alle Hauslifte 
+ Lifta Midi 
+ Lifta Maxi 
+ Alle Rollstuhllifte 
+ Plattformlifte 
+ Hublifte 
+ Rollstuhllifte für öffentliche Gebäude 
+ Unsere Treppenlift-Preise 
+ Treppenlift-Preisrechner 
+ Treppenlift mieten 
+ Weitere Finanzierungsmöglichkeiten 
+ Mögliche Treppenlift-Zuschüsse 
+ KfW-Förderungen 2026 
+ Treppenlift & Krankenkasse 
+ Treppenlift von der Steuer absetzen 
+ Alle Lifta Serviceleistungen 
+ Unverbindliche Beratung 
+ Fachkundiger Einbau Ihres Lifts 
+ Regelmäßige Wartung 
+ Hilfe bei Fehlermeldungen 
+ Schneller Reparatur-Service 
+ Umzug Ihres Liftes 
+ Rückkauf und Rücknahme Ihres Lifts 
+ Alle Ratgeber-Themen 
+ So funktioniert ein Treppenlift 
+ Der Treppenlift-Kaufprozess erklärt 
+ Den richtigen Treppenlift-Anbieter finden 
+ Tipps zum Treppenlift-Vergleich 
+ Alternativen zum Treppenlift 
+ Treppenlift-Bilder und Einbaubeispiele 
+ Lifta in Ihrer Nähe 
+ Telefonische Beratung 
+ Termin vereinbaren 
+ Infopaket 
+ { if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+ $el.style.height = '0px';
+ "
+ @resize.window="if (isContactNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+ >
+ Schließen
+ Wir sind rund um die Uhr für Sie da!
+ 0800 20 33 150
+ (24 Std. täglich, kostenlos)
+ response.json()).then(data => {
+ $refs.name.innerHTML = data.payload.name;
+ $refs.contactimage.src = data.payload.image;
+ $refs.contactimage.alt = data.payload.name;
+ $refs.contactimage.title = data.payload.position;
+ $dispatch('contact-loaded', data)
+ });">
+ Lifta Berater für Ihre Region
+ Jetzt kostenlos beraten lassen
+ In Ihrer Nähe
+ Infopaket
+ Termin vor Ort
+ { if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+ $el.style.height = '0px';
+ "
+ @resize.window="if (isSearchNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+ >
+ 3) {
+ window.dataLayer.push({
+ 'site_search_search_phrase': this.searchWord,
+ 'event': 'site_search_used'
+ });
+ }
+ this.searchPages.search(this.searchWord, {
+ limit: 3,
+ matchingStrategy: 'last',
+ }).then((response) => {
+ this.searchResultsPages = response.hits;
+ });
+ if ('1' === '1') {
+ this.searchPosts.search(this.searchWord, {limit: 3}).then((response) => {
+ this.searchResultsPosts = response.hits;
+ });
+ }
+ let possibleCities = this.searchWord.split(' ');
+ for (let i = 0; i {
+ if (response.hits.length === 1) {
+ this.searchResultsConsultantsCity = response.hits[0].city;
+ this.user_settings_city = response.hits[0].city;
+ this.user_settings_postal_code = response.hits[0].zip;
+ this.searchConsultant.search(
+ '',
+ {
+ limit: 1,
+ sort: [
+ '_geoPoint(' + response.hits[0].lat + ',' + response.hits[0].lng + '):asc'
+ ]
+ }
+ ).then(
+ (consultantData) => {
+ if (consultantData && consultantData.hits.length > 0) {
+ this.searchResultsConsultants = consultantData.hits;
+ }
+ }
+ )
+ }
+ }
+ );
+ }
+ },
+ trackResultClick(url) {
+ if (window.dataLayer) {
+ window.dataLayer.push({
+ 'site_search_search_phrase': this.searchWord,
+ 'site_search_clicked_url': url,
+ 'event': 'site_search_clicked'
+ });
+ }
+ window.location.href = url;
+ }
+ }"
+>
+ Schließen
+ 0"
+ xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
+ 0 || searchResultsPosts.length > 0 || searchResultsConsultants.length > 0"
+ x-transition.opacity
+ >
+ 0">
+ Berater
+ Ihr Treppenlift Berater in Ortsname 
+ Lifta Berater:in für Ihre Region
+ Zu
+ Ihrem persönlichen Berater 
+ Zu
+ Ihrem persönlichen Berater 
+ 0">
+ Seiten
+ 0">
+ Magazin
+ Leider kein Suchergebnis
+ gefunden
+ Hier finden Sie häufig
+ gesuchte
+ Begriffe:
+ 0)? window.innerWidth: screen.width;
+ isSliderActive = 768 > screenwidth;
+ if (isSliderActive) {window.setInterval(() => { $dispatch('value-bars-slider-next', { nextimg: true })}, 3000);}"
+ @value-bars-slider-next.window="activeImg = ((activeImg + 1) % countImgs);"
+>
+ TÜV-geprüfte Kundenzufriedenheit
+ Trusted Shops Bewertung: { rating = value; }) "
+ x-text="formattedRating()"
+> 
+ von 5 Sternen
+ Focus Money Preis-Sieger
+ Stehlifte:
+Beförderung im Stehen
+ Bei einem Stehlift lehnen Sie sich während der Fahrt an einen geneigten Sitz an, sodass Sie Ihre Beine nicht komplett beugen müssen. Das ist insbesondere für Menschen von Vorteil, die Schwierigkeiten beim Hinsetzen und Aufstehen haben. Erfahren Sie mehr zum sogenannten Stehlift.
+ Kostenlose Beratung anfordern
+ Lifta 
+ / 
+ Treppenlifte 
+ / 
+ Stehlifte 
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Alternative zum klassischen Sitzlift
+ Was ist ein Stehlift?
+ Der Stehlift ist einem klassischen Treppenlift mit Sitz im Grunde sehr ähnlich und bewegt sich ebenfalls entlang der Treppe an einer Schiene in die nächste Etage. Allerdings werden Sie hier nicht im Sitzen, sondern – wie der Name verrät – auf einer kleinen Plattform stehend nach oben und unten transportiert. Je nach Anbieter gibt es verschiedene Arten von Stehliften, die im Design variieren. Bei einigen Modellen handelt es sich um reine Anlehnlifte, bei denen Sie sich lediglich an ein kleines Polster anlehnen, die Beine aber weitgehend durchgestreckt sind.
+Ein Sattelsitzlift, wie Sie ihn bei Lifta erhalten, ist eine Mischung aus Sitz- und Stehlift. Hier sind die Beine, ähnlich wie bei einem Barhocker, zumindest leicht angewinkelt und Sie sitzen auf einem etwas höheren, Sattel-ähnlichen Sitz, der schräg nach vorne geneigt ist. So bietet der Sattelsitzlift trotzdem den entscheidenden Vorteil eines Stehlifts, dass Sie sich nicht komplett hinsetzen müssen.
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Gelenke schonen & entlasten
+ Für wen eignet sich ein Stehlift?
+ Der Stehlift ist insbesondere für Menschen konzipiert, die zwar einerseits auf eine Mobilitätshilfe angewiesen sind, um Treppen über mehrere Etagen selbstständig zu überwinden, denen aber beispielsweise das Hinsetzen und Aufstehen schwerfällt oder Schmerzen bereitet. Hier ist ein Stehlift die ideale Lösung, weil Sie durch die integrierte Stehplatte die Gelenke nicht gänzlich beugen müssen. Diese Treppensteighilfe ist für viele Betroffene eine enorme Erleichterung im Alltag und durch die Entlastung der Gelenke eine gute Alternative zu Sitzliften.
+Anders als Homelifte, Hublifte oder Plattformlifte sind Stehlifte übrigens nicht für den Transport von Personen mit Rollstuhl geeignet, weil die Plattform gerade genügend Platz bietet, um Ihre Füße darauf abzustellen. Für Rollstuhlfahrer oder Menschen mit Gehhilfen sind daher spezielle Rollstuhllifte oder Senkrechtlifte die bessere Option, weil Sie hier direkt mit Ihrer Mobilitätshilfe befördert werden können.
+ Die Vorteile von Stehliften
+ Beförderung im Stehen oder mit leicht angewinkelten Beinen
+ Entlastung und Schonung der Gelenke
+ Selbstständige Fortbewegung im Haus
+ Platzsparender Einbau an verschiedenen Treppen
+ Auch für schmale Treppenhäuser geeignet
+ Hochklappbares Fußbrett
+ Hohe Sicherheit während der Fahrt
+ Einfache Bedienung
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Gutes Preis-Leistungs-Verhältnis
+ Was kostet ein Stehlift?
+ Die Kosten für einen Stehlift sind, wie bei einem klassischen Sitzlift, immer individuell und von verschiedenen Faktoren abhängig. Bei den Schienen handelt es sich in jedem Fall um eine Maßanfertigung, die die Kosten beeinflussen. Hier spielt zum Beispiel auch die Treppenform eine Rolle: Soll der Stehlift auf einer geraden oder kurvigen Treppe montiert werden?
+Wie bei anderen Treppenlift-Modellen, besteht auch beim Stehlift die Möglichkeit, die Kosten bezuschussen zu lassen. Hier gibt es verschiedene Unterstützer und Förderer. Die Krankenkasse bezuschusst den Einbau eines Lifts beispielsweise bei Vorliegen eines Pflegegrads. Und auch die KfW unterstützt den Einbau, um Barrieren im eigenen Zuhause zu reduzieren. Unsere Experten beraten Sie gerne umfassend zu den Kosten und Finanzierungsmöglichkeiten.
+ Beratungstermin vereinbaren
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Reibungsloser Betrieb
+ Stehtreppenlifte: Funktionsweise und Sicherheit
+ Im Wesentlichen funktioniert der Stehlift wie ein Sitzlift. Er wird durch einen Elektromotor angetrieben und fährt an einem Schienensystem entlang, das entweder an der Wand, am Geländer oder an den Treppenstufen befestigt wird. Vor der Benutzung klappen Sie die Stehplatte sowie die Armlehnen herunter, dann können Sie auf die stabile Plattform aufsteigen und sich an den Sattelsitz anlehnen. Das Fußbrett ist mit einem rutschfesten Material überzogen, sodass Sie während der Fahrt stets einen sicheren Stand haben. Jetzt verschließen Sie noch den Sicherheitsgurt, der von einer Armlehne über ihren Bauch zur anderen Armlehne verläuft und dort einrastet. Die Arme legen Sie während der Fahrt auf den Lehnen ab. Bedient wird der Stehlift über ein Steuerelement an einer der Armlehnen.
+In der Parkposition lassen sich die Armlehnen und die Stehplatte praktisch hochklappen, sodass der Stehlift kaum Platz wegnimmt. So eignet sich der klappbare Treppenlift auch für schmale Treppenhäuser und stellt sicher, dass die Treppe weiterhin uneingeschränkt durch andere Personen genutzt werden kann.
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Maßgeschneidert & schnell eingebaut
+ Einbau und Voraussetzungen für einen Stehlift
+ Da ein Stehlift nur wenig Platz benötigt, lässt er sich in den allermeisten Treppenhäusern im Innenbereich problemlos einbauen. Ob gerade oder kurvige Treppe – die Schienen werden passend zu Ihrer Wohnsituation maßgeschneidert, um einen reibungslosen Betrieb des Stehlifts zu gewährleisten. Wichtig ist, dass die Treppe die vorgeschriebene Mindestbreite hat, damit sie auch weiterhin bequem genutzt werden kann. In privaten Gebäuden mit zwei oder weniger Wohneinheiten reicht eine Mindestbreite von 80 cm aus, um einen Stehlift einzubauen. Bei einem unverbindlichen Termin bei Ihnen zuhause macht sich Lifta Berater ein genaues Bild zu den baulichen Gegebenheiten. Auf dieser Basis kann alles Weitere für den Einbau des Stehlifts besprochen und geplant werden.
+ Mehr zum Treppenlift-Einbau
+ Häufige Fragen zu Stehliften
+ Was macht einen Stehlift aus?
+ Bei einem Stehlift werden Sie, anders als bei einem Sitzlift, auf einer kleinen Plattform stehend befördert. Dadurch sind Ihre Beine entweder leicht angewinkelt oder durchgestreckt. Das hat den Vorteil, dass Sie sich nicht komplett hinsetzen müssen und somit Ihre Gelenke geschont werden. Das ist besonders praktisch für Menschen, die Schwierigkeiten oder Schmerzen beim Hinsetzen und Aufstehen haben. So eignet sich der Stehlift auch als Lift für Senioren.
+ Welche Arten von Stehliften gibt es?
+ Der Stehlift kommt je nach Hersteller in verschiedenen Designs daher. Es gibt zum einen sogenannte Anlehnlifte, bei denen Sie sich für die Fahrt mit durchgestreckten Beinen an ein Polster anlehnen. Zum anderen gibt es praktische Sattelsitzlifte wie bei Lifta, bei denen Sie auf einem geneigten Sattelsitz Platz nehmen und die Beine leicht angewinkelt sind, wie bei einem Barhocker. Unser Stehlift ist außerdem individuell an jede Treppenform anpassbar.
+ Wie funktioniert ein Stehlift?
+ Technisch funktionieren Stehlifte genau wie herkömmliche Sitzlifte. Der Stehlift fährt entlang eines Schienensystems, das dem geraden oder kurvigen Treppenverlauf folgt. Angetrieben wird der Lift durch einen kleinen Elektromotor. Während der Fahrt sind Sie durch einen Sicherheitsgurt geschützt. In der Parkposition können sowohl die Stehplatte als auch die Armlehnen platzsparend hochgeklappt werden.
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Große Modellauswahl
+ Entdecken Sie weitere Lifta 
+Treppenlift-Modelle
+ Lifta Luxor
+ Wenn Technik zum Wohnobjekt wird
+ Sanftes Fahrgefühl durch treppenspezifische Mapping-Technologie
+ Designorientierte Konstruktion für anspruchsvolle Wohnräume
+ Zum Treppenlift Luxor 
+ Lifta Avantgarde
+ Unser beliebtestes Modell
+ Kombiniert innovative Technik und Design
+ Höchster Komfort durch intelligente Details
+ Zum Treppenlift Avantgarde 
+ Lifta Esprit
+ Spezialist für schmale und kurvige Treppen
+ Unsere schmalste Schienenlösung
+ Prämiertes Design und dezente Optik
+ Zum Treppenlift Esprit 
+ Lifta Klassik
+ Höchste Belastbarkeit bis 160 kg
+ Solide Konstruktion mit ausgereifter Technik
+ Gewichtssensor verhindert versehentliches Losfahren
+ Zum Treppenlift Klassik 
+ Alle Treppenlift-Modelle 
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Kostenlos & unverbindlich
+ Vereinbaren Sie jetzt einen Beratungstermin
+ Beratung vereinbaren
+ Rückruf vereinbaren
+ Infopaket bestellen
+ Infopaket 
+ bestellen
+ Kostenlos & unverbindlich
+ Vereinbaren Sie einfach einen Termin
+ *= Pflichtfelder 
+ Ihr Wunschdatum 
+ 11) {year++; month=0}; getNoOfDays()">
+ 09:00 - 10:00 
+ 10:00 - 11:00 
+ 11:00 - 12:00 
+ 12:00 - 13:00 
+ 13:00 - 14:00 
+ 14:00 - 15:00 
+ 15:00 - 16:00 
+ 16:00 - 17:00 
+ 17:00 - 18:00 
+ 18:00 - 19:00 
+ Uhrzeit 
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.name.value = data.payload.value;
+ validateField('name');
+ showAsLabel('name');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Vor- und Nachname* 
+ Bitte geben Sie Ihren Vor- und Nachname ein.
+ Telefon für Rückfragen* 
+ Bitte geben Sie Ihre Rufnummer ein.
+ Wozu benötigen wir Ihre Telefonnummer? 
+ Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+ Telefonnummer ausschließlich für Rückfragen zu dieser
+ Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+ Jetzt Termin vereinbaren 
+ Anfrage wird gesendet
+ Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+ widerrufbar
+ Widerruf jederzeit per Email, Brief oder Telefon möglich.
+ Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+ lifta@lifta.de 
+ 02234-504 400 
+)*.
+ Rückruf vereinbaren
+ Lassen Sie sich bequem am Wunschdatum zurückrufen
+ *= Pflichtfelder 
+ Ihr Wunschdatum 
+ 11) {year++; month=0}; getNoOfDays()">
+ 09:00 - 10:00 
+ 10:00 - 11:00 
+ 11:00 - 12:00 
+ 12:00 - 13:00 
+ 13:00 - 14:00 
+ 14:00 - 15:00 
+ 15:00 - 16:00 
+ 16:00 - 17:00 
+ 17:00 - 18:00 
+ 18:00 - 19:00 
+ Uhrzeit 
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.name.value = data.payload.value;
+ validateField('name');
+ showAsLabel('name');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Vor- und Nachname* 
+ Bitte geben Sie Ihren Vor- und Nachname ein.
+ Telefon* 
+ Bitte geben Sie Ihre Rufnummer ein.
+ Wozu benötigen wir Ihre Telefonnummer? 
+ Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+ Telefonnummer ausschließlich für Rückfragen zu dieser
+ Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+ Jetzt Rückruf bestellen 
+ Anfrage wird gesendet
+ Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+ widerrufbar
+ Widerruf jederzeit per Email, Brief oder Telefon möglich.
+ Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+ lifta@lifta.de 
+ 02234-504 400 
+)*.
+ Interesse geweckt?
+ Wir senden Ihnen kostenlos unser Infopaket
+ *= Pflichtfelder 
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.name.value = data.payload.value;
+ validateField('name');
+ showAsLabel('name');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Vor- und Nachname* 
+ Bitte geben Sie Ihren Vor- und Nachname ein.
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.street_address.value = data.payload.value;
+ validateField('street_address');
+ showAsLabel('street_address');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Straße und Hausnummer* 
+ Bitte geben Sie Ihre Straße und Hausnummer ein.
+ PLZ* 
+ Bitte Postleitzahl überprüfen.
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.city.value = data.payload.value;
+ validateField('city');
+ showAsLabel('city');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Ort* 
+ Bitte geben Sie Ihren Ort ein.
+ Telefon* 
+ Bitte geben Sie Ihre Rufnummer ein.
+ Wozu benötigen wir Ihre Telefonnummer? 
+ Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+ Telefonnummer ausschließlich für Rückfragen zu dieser
+ Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+ Ja, ich erlaube, dass meine Rufnummer für eine telefonische Beratung zu Zuschüssen und regionalen Förderungen verwendet wird.
+ Widerruf jederzeit per Email, Brief oder Telefon möglich.
+ Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+ lifta@lifta.de 
+ 02234-504 400 
+ Jetzt kostenlos bestellen 
+ Anfrage wird gesendet
+ Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+ widerrufbar
+ Widerruf jederzeit per Email, Brief oder Telefon möglich.
+ Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+ lifta@lifta.de 
+ 02234-504 400 
+)*.
+ Schon gewusst?
+ Treppenlift-Modelle im Überblick
+ Vergleichen Sie unsere beliebten Sitzlifte miteinander.
+ Mehr erfahren 
+ Ablauf beim Treppenlift-Kauf
+ Wir zeigen Ihnen, was Sie beim Neukauf eines Lifts erwartet.
+ Mehr erfahren 
+ Termin vereinbaren
+ Lassen Sie sich kostenfrei und unverbindlich zu Hause beraten.
+ Mehr erfahren 
+ TÜV-geprüfte Kundenzufriedenheit
+ Mehr Infos 
+ Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+ x-text="formattedRating()"
+> 
+ von 5 Sternen
+ Mehr Infos 
+ Focus Money Preis-Sieger
+ Mehr Infos 
+ response.json()).then(data => {
+ $dispatch('contact-loaded', data)
+ }
+ );
+ };
+ "
+ @contact-loaded.window="name = $event.detail.payload.name;
+ image = $event.detail.payload.image;
+ ort = $event.detail.payload.ort;"
+ class="hidden md:flex justify-center w-full md:w-auto md:flex-col md:mr-50 lg:mr-100 items-center">
+ Lifta Berater:in für Ihre Region
+ Haben Sie noch Fragen?
+ Wir sind rund um die Uhr für Sie da!
+ 0800 20 33 150
+ (Kostenlose Service Hotline - 24 Std.
+ täglich für Sie da)
+ In Ihrer Nähe 
+ Infopaket 
+ Termin vor Ort 
+ TÜV-geprüfte Kundenzufriedenheit
+ Mehr Infos 
+ TÜV-geprüfte Kundenzufriedenheit
+ Mehr Infos 
+ Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+ x-text="formattedRating()"
+> 
+ von 5 Sternen
+ Mehr Infos 
+ Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+ x-text="formattedRating()"
+> 
+ von 5 Sternen
+ Mehr Infos 
+ Focus Money Preis-Sieger
+ Mehr Infos 
+ Focus Money Preis-Sieger
+ Mehr Infos 
+ Marke des Jahrhunderts Deutsche Standards
+ Mehr Infos 
+ Glossar 
+ Karriere 
+ Partner 
+ Presse 
+ Über Lifta 
+ Copyright Lifta 2026, Alle Rechte vorbehalten
+ Barrierefreiheit 
+ Datenschutz 
+ Impressum 
+ Privatsphäre
+ Einstellungen 
+ Glossar 
+ Karriere 
+ Über Lifta 
+ Partner 
+ Barrierefreiheit 
+ Datenschutz 
+ Impressum 
+ Privatsphäre
+ Einstellungen 
+ Presse 
+ Copyright Lifta 2026, Alle Rechte vorbehalten
+ TÜV-geprüfte Kundenzufriedenheit
+ Freiwillige Befragung von 1.216 Kunden zur Kundenzufriedenheit im Service.
+ TÜV Süd Verbraucherinfo 
+ TÜV-geprüfte Kundenzufriedenheit
+ Prüfbericht (PDF)
+ Trusted Shops Kundenbewertung
+ In dem unabhängigen Bewertungsportal Trusted Shops schneidet Lifta bestens ab.
+ { rating = value; })" class="mt-15 text-15 leading-snug font-light">
+ Kundenbewertung (5,0 / 5) 
+ Zu Trusted Shops
+ Focus Money Preis-Sieger
+ Lifta bietet aus Sicht der Verbraucher im Bereich Treppenlifte das beste Preis-Leistungs-Verhältnis und setzt damit den Maßstab in seiner Branche.
+ Focus Money Preis-Sieger
+ Zum Anbieterranking
+ Zum Berichtsband
+ Marke des Jahrhunderts
+ Seit 2003 wird Lifta regelmäßig im Markenkompendium "Marken des Jahrhunderts" von Herausgeber und Verleger Dr. Florian Langenscheidt aufgeführt.
+ Marke des Jahrhunderts Deutsche Standards
+ Deutsche Standards
+ b.toString(16).padStart(2, '0')).join('');
+ }
+ }"
+ x-init="
+ window.sha256_last_name = await sha256(user_data_name);
+ window.sha256_phone_number = await sha256(user_data_phone_number);
+ window.sha256_email_address = await sha256(user_data_email);
+ "
+>

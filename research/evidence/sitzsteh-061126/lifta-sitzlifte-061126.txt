@@ -1,0 +1,678 @@
+Sitzlifte: der Treppenlift-Klassiker für alle Treppen | Lifta 
+ {
+ this.isMainNavigationOpen =!this.isMainNavigationOpen;
+ }, delay);
+ }
+ if (navigationFlag === 'isContactNavigationOpen') {
+ this.isMainNavigationOpen = false;
+ this.isSearchNavigationOpen = false;
+ setTimeout(() => {
+ this.isContactNavigationOpen =!this.isContactNavigationOpen;
+ }, delay);
+ }
+ if (navigationFlag === 'isSearchNavigationOpen') {
+ this.isMainNavigationOpen = false;
+ this.isContactNavigationOpen = false;
+ setTimeout(() => {
+ this.isSearchNavigationOpen =!this.isSearchNavigationOpen;
+ }, delay);
+ }
+ setTimeout(() => {
+ if (this.isMainNavigationOpen || this.isContactNavigationOpen || this.isSearchNavigationOpen) {
+ window.documentScrollingStatus = true;
+ this.$dispatch('toggle-document-scrolling');
+ }
+ if (!this.isMainNavigationOpen &&!this.isContactNavigationOpen &&!this.isSearchNavigationOpen) {
+ window.documentScrollingStatus = false;
+ this.$dispatch('toggle-document-scrolling');
+ }
+ }, delay + 50);
+ }
+ }"
+ @resize.window="navigationsHeight = window.innerHeight - menuHeightPx; menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;"
+ @close-main-navigation.window="closeNavigation();"
+ x-init="
+ menuHeightPx = $refs.navigationwrapper.getBoundingClientRect().height;
+ navigationsHeight = window.innerHeight - menuHeightPx;
+ /**toggleNavigation('isMainNavigationOpen')**/;
+ "
+>
+ Treppenlifte 
+ Hauslifte 
+ Rollstuhllifte 
+ 0800 20 33 150
+ 24/7 für Sie da 
+ Suche 
+ Menü 
+ 0800 20 33 150
+ Jetzt Kontakt aufnehmen 
+ (24 Std. täglich, kostenlos) 
+ { if (value) { $el.style.height = navigationsHeight + 'px'; } else { $el.style.height = '0px'; } });
+ $el.style.height = '0px';
+ "
+ @resize.window="if (isMainNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+ >
+ Lifta in Ihrer Nähe
+ Lifta Index-Studie 2026
+ { $refs.wrapper.scrollLeft = 840 }, 500);
+ "
+ class="bg-white min-h-full"
+ >
+ Schließen
+ Treppenlifte
+ Mehr 
+ Hauslifte
+ Mehr 
+ Rollstuhllifte
+ Mehr 
+ Liftarten Entscheidungshilfe
+ Preise
+ Mehr 
+ Zuschüsse
+ Mehr 
+ Service
+ Mehr 
+ Ratgeber
+ Mehr 
+ Kontakt
+ Mehr 
+ Lifta Index-Studie
+ Lifta Magazin
+ Zurück
+ Schließen
+ Alles rund um Treppenlifte 
+ Unsere Treppenlift-Modelle 
+ Lifta Avantgarde
+ Lifta Luxor
+ Lifta Esprit
+ Lifta Klassik
+ Lifta Außenlifte
+ Treppenlifte nach Einbausituationen 
+ Treppenlifte für gerade Treppen
+ Treppenlifte für kurvige Treppen
+ Treppenlifte für Wendeltreppen
+ Treppenlifte für Podesttreppen
+ Treppenlifte für Mehrfamilienhäuser
+ Treppenlifte für den Außenbereich
+ Alle Hauslifte 
+ Lifta Midi 
+ Lifta Maxi 
+ Alle Rollstuhllifte 
+ Plattformlifte 
+ Hublifte 
+ Rollstuhllifte für öffentliche Gebäude 
+ Unsere Treppenlift-Preise 
+ Treppenlift-Preisrechner 
+ Treppenlift mieten 
+ Weitere Finanzierungsmöglichkeiten 
+ Mögliche Treppenlift-Zuschüsse 
+ KfW-Förderungen 2026 
+ Treppenlift & Krankenkasse 
+ Treppenlift von der Steuer absetzen 
+ Alle Lifta Serviceleistungen 
+ Unverbindliche Beratung 
+ Fachkundiger Einbau Ihres Lifts 
+ Regelmäßige Wartung 
+ Hilfe bei Fehlermeldungen 
+ Schneller Reparatur-Service 
+ Umzug Ihres Liftes 
+ Rückkauf und Rücknahme Ihres Lifts 
+ Alle Ratgeber-Themen 
+ So funktioniert ein Treppenlift 
+ Der Treppenlift-Kaufprozess erklärt 
+ Den richtigen Treppenlift-Anbieter finden 
+ Tipps zum Treppenlift-Vergleich 
+ Alternativen zum Treppenlift 
+ Treppenlift-Bilder und Einbaubeispiele 
+ Lifta in Ihrer Nähe 
+ Telefonische Beratung 
+ Termin vereinbaren 
+ Infopaket 
+ { if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+ $el.style.height = '0px';
+ "
+ @resize.window="if (isContactNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+ >
+ Schließen
+ Wir sind rund um die Uhr für Sie da!
+ 0800 20 33 150
+ (24 Std. täglich, kostenlos)
+ response.json()).then(data => {
+ $refs.name.innerHTML = data.payload.name;
+ $refs.contactimage.src = data.payload.image;
+ $refs.contactimage.alt = data.payload.name;
+ $refs.contactimage.title = data.payload.position;
+ $dispatch('contact-loaded', data)
+ });">
+ Lifta Berater für Ihre Region
+ Jetzt kostenlos beraten lassen
+ In Ihrer Nähe
+ Infopaket
+ Termin vor Ort
+ { if (value) { $el.style.height = navigationsHeight + 'px' } else { $el.style.height = '0px' } });
+ $el.style.height = '0px';
+ "
+ @resize.window="if (isSearchNavigationOpen) { $el.style.height = window.innerHeight - menuHeightPx + 'px'; }"
+ >
+ 3) {
+ window.dataLayer.push({
+ 'site_search_search_phrase': this.searchWord,
+ 'event': 'site_search_used'
+ });
+ }
+ this.searchPages.search(this.searchWord, {
+ limit: 3,
+ matchingStrategy: 'last',
+ }).then((response) => {
+ this.searchResultsPages = response.hits;
+ });
+ if ('1' === '1') {
+ this.searchPosts.search(this.searchWord, {limit: 3}).then((response) => {
+ this.searchResultsPosts = response.hits;
+ });
+ }
+ let possibleCities = this.searchWord.split(' ');
+ for (let i = 0; i {
+ if (response.hits.length === 1) {
+ this.searchResultsConsultantsCity = response.hits[0].city;
+ this.user_settings_city = response.hits[0].city;
+ this.user_settings_postal_code = response.hits[0].zip;
+ this.searchConsultant.search(
+ '',
+ {
+ limit: 1,
+ sort: [
+ '_geoPoint(' + response.hits[0].lat + ',' + response.hits[0].lng + '):asc'
+ ]
+ }
+ ).then(
+ (consultantData) => {
+ if (consultantData && consultantData.hits.length > 0) {
+ this.searchResultsConsultants = consultantData.hits;
+ }
+ }
+ )
+ }
+ }
+ );
+ }
+ },
+ trackResultClick(url) {
+ if (window.dataLayer) {
+ window.dataLayer.push({
+ 'site_search_search_phrase': this.searchWord,
+ 'site_search_clicked_url': url,
+ 'event': 'site_search_clicked'
+ });
+ }
+ window.location.href = url;
+ }
+ }"
+>
+ Schließen
+ 0"
+ xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
+ 0 || searchResultsPosts.length > 0 || searchResultsConsultants.length > 0"
+ x-transition.opacity
+ >
+ 0">
+ Berater
+ Ihr Treppenlift Berater in Ortsname 
+ Lifta Berater:in für Ihre Region
+ Zu
+ Ihrem persönlichen Berater 
+ Zu
+ Ihrem persönlichen Berater 
+ 0">
+ Seiten
+ 0">
+ Magazin
+ Leider kein Suchergebnis
+ gefunden
+ Hier finden Sie häufig
+ gesuchte
+ Begriffe:
+ 0)? window.innerWidth: screen.width;
+ isSliderActive = 768 > screenwidth;
+ if (isSliderActive) {window.setInterval(() => { $dispatch('value-bars-slider-next', { nextimg: true })}, 3000);}"
+ @value-bars-slider-next.window="activeImg = ((activeImg + 1) % countImgs);"
+>
+ TÜV-geprüfte Kundenzufriedenheit
+ Trusted Shops Bewertung: { rating = value; }) "
+ x-text="formattedRating()"
+> 
+ von 5 Sternen
+ Focus Money Preis-Sieger
+ Sitzlifte: die bekannteste Art von Treppenlift
+ Mit einem Sitzlift überwinden Sie sowohl gerade als auch kurvige Treppen im Innen- und Außenbereich einfach und ohne fremde Hilfe. Dabei nehmen Sie ganz bequem auf einem Sitz Platz, der sich sicher entlang einer Schiene nach oben und unten bewegt.
+ Kostenlose Beratung anfordern
+ Lifta 
+ / 
+ Treppenlifte 
+ / 
+ Sitzlifte 
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Selbstständigkeit und Lebensqualität in Ihrem Zuhause
+ Treppen überwinden mit Sitzlift
+ Der Sitzlift ist der Klassiker unter den Treppenliften. Wenn von einem Treppenlift die Rede ist, ist in den allermeisten Fällen ein Sitzlift gemeint. Nicht zu Unrecht handelt es sich dabei um das gängigste Art von Treppenlift. Der Sitzlift punktet mit einer einfachen, aber zuverlässigen Konstruktion, die aus einer Schiene entlang der Treppe, dem elektrischen Antrieb und dem Sitzelement besteht. Wie der Name verrät, werden Personen bei dieser Art von Lift im Sitzen befördert.
+Ein wesentlicher Vorteil des Sitzlifts besteht in seiner Vielseitigkeit und Flexibilität. Es gibt verschiedene Modelle, die sich sowohl für gerade als auch für kurvige Treppenverläufe eignen. Außerdem gibt es Sitzlifte gleichermaßen für den Innen- und Außenbereich, sodass sich für jede Wohnsituation eine passende Variante findet.
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Unsere Lifta Sitzlift-Modelle
+ Lifta Luxor
+ Wenn Technik zum Wohnobjekt wird
+ Ruhige, harmonische Fahrt dank intelligenter Steuerung
+ Automatisierte Funktionen für müheloses Ein- und Aussteigen
+ Zum Treppenlift Luxor 
+ Lifta Avantgarde
+ Unser beliebtestes Modell
+ Kombiniert innovative Technik und Design
+ Höchster Komfort durch intelligente Details
+ Zum Treppenlift Avantgarde 
+ Lifta Esprit
+ Spezialist für schmale und kurvige Treppen
+ Unsere schmalste Schienenlösung
+ Prämiertes Design und dezente Optik
+ Zum Treppenlift Esprit 
+ Lifta Klassik
+ Höchste Belastbarkeit bis 160 kg
+ Solide Konstruktion mit ausgereifter Technik
+ Gewichtssensor verhindert versehentliches Losfahren
+ Zum Treppenlift Klassik 
+ Vorteile von Sitzliften auf einen Blick
+ Ideal für schmale Treppen und kleine Flure
+ Selbstständige und sichere Überwindung von Treppen
+ Innen und außen installierbar
+ Einfache Bedienung
+ Platzsparendes Design
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Mobilität ohne Kompromisse
+ Für wen eignet sich ein Sitzlift?
+ Ein Sitzlift eignet sich insbesondere für Menschen, die in ihrer Mobilität eingeschränkt sind und sich mit Stufen schwertun oder gar Schmerzen beim Treppensteigen haben, aber gerne in ihrem vertrauten Umfeld bleiben möchten. Hier ist ein Treppenlift mit Sitz ein praktisches Hilfsmittel, um die komfortable und selbstständige Fortbewegung im eigenen Zuhause zu ermöglichen und für mehr Sicherheit zu sorgen. 
+Sinnvoll ist der Sitzlift vor allem dann, wenn Sie noch eigenständig auf dem Sitz Platz nehmen und wieder aufstehen können. Für Rollstuhlfahrer gestaltet sich der Umstieg deutlich schwieriger oder ist mitunter gar nicht möglich. In diesem Fall sind Rollstuhllifte die bessere Alternative: Bei Hubliften oder Plattformliften entfällt der Umstieg, weil die Plattform hier in der Regel direkt mit dem Rollstuhl befahren werden kann.
+ Bewährte Qualität
+ Was kostet ein Sitzlift?
+ Die Kosten für einen Sitzlift variieren von Modell zu Modell und sind von verschiedenen Faktoren abhängig. Maßgeblich ist vor allem der Treppenverlauf, auf den die Schienen abgestimmt werden müssen. Hier fällt die Maßanfertigung mal aufwendiger und mal weniger aufwendig aus. Weitere Kriterien sind die Länge der Treppe, das gewählte Lift-Modell sowie weitere gewünschte Ausstattungsmerkmale. Mit unserem Preisrechner können Sie sich ein genaueres Bild machen, welche Kosten Sie beim Sitzlift erwarten.
+Außerdem sind hier ein paar Kostenbeispiele für unsere Sitzlifte je nach Treppenform und Einsatzort:
+ gerade Treppe im Innenbereich: ab 5.800 €
+ kurvige Treppe im Innenbereich: ab 10.600 €
+ gerade Treppe im Außenbereich: ab 7.500 €
+ Mehr zu den Treppenlift-Kosten
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Zuverlässig und intuitiv bedienbar
+ So funktioniert ein Sitzlift
+ Der Sitzlift basiert auf einem ausgeklügelten System, das sowohl sicher als auch intuitiv bedienbar ist. Der wichtigste Bestandteil ist das Schienensystem, das passend zum Treppenverlauf individuell angefertigt und an der Treppe befestigt wird – entweder an der Wand, am Geländer oder direkt an den Stufen. Je nach Modell wird eine Einrohrschiene oder ein robustes Doppelschienensystem verbaut.
+An der Schiene selbst befindet sich das Sitzelement, auf dem Sie während der Fahrt Platz nehmen (anders als bei einem Stehlift, bei dem die Beine nur leicht gebeugt sind). Der Sitz ist ergonomisch und sanft gepolstert, sodass während der Fahrt der größtmögliche Komfort gegeben ist. Damit auch das Ein- und Aussteigen leichter fällt, verfügen gute Sitzlifte über einen praktischen Drehsitz, der manuell oder automatisch in eine bequeme Einstiegsposition gebracht wird. Zum Lift gehört außerdem ein klappbares Fußbrett, auf dem Sie während der Fahrt Ihre Füße abstellen können.
+ Zur Sicherheit legen Sie einen Gurt an, ähnlich wie beim Autofahren. Dann kann die Fahrt losgehen. Um den Treppenlift in Bewegung zu setzen, ist an einer der Armlehnen ein Bedienfeld integriert, das Ihnen eine einfache Handhabung ermöglicht. Zusätzlich verfügt ein hochwertiger Sitzlift auch über eine Fernbedienung. So können Sie den Lift zu sich zu holen, wenn Sie sich in einer anderen Etage befinden. Betrieben wird der Sitzlift entweder mit Strom oder per Akku. Letzteres hat den Vorteil, dass sich der Lift automatisch auflädt und somit jederzeit einsatzbereit ist, auch wenn mal der Strom ausfällt.
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Für jede Wohnsituation & Treppenform geeignet
+ Verschiedene Arten von Treppenliften mit Sitz
+ Sitzlift für gerade Treppen
+ Die meisten Sitzlift-Modelle meistern problemlos gerade Treppenverläufe. Durch die vergleichsweise simple Konstruktion sind Modelle für gerade Treppen in der Regel günstiger als Kurvenlifte. Die Maßanfertigung der geraden Schiene geht vergleichsweise schnell vonstatten und ist weniger kompliziert, was auch den späteren Einbau vereinfacht.
+ Sitzlift für kurvige Treppen
+ Kurvenlifte sind etwas komplexer und erfordern eine präzise Anfertigung des Schienensystems. Die Schiene muss perfekt zum Treppenverlauf passen, damit ein reibungsloser Betrieb gewährleistet ist. Ob für eine Treppe mit Podest oder eine Wendeltreppe – Kurvenlifte sind für verschiedenste Treppenverläufe möglich, für gewöhnlich aber etwas kostspieliger als Sitzlifte für gerade Treppen.
+ Deutschlands dichtestes Servicenetz
+ Finden Sie Ihren Treppenlift-Berater
+ Jetzt Berater in der Nähe finden (PLZ) 
+ Berater in der Nähe (PLZ) 
+ Ihre Postleitzahl
+ Leider keine Ergebnis gefunden. Bitte prüfen Sie Ihre Eingabe.
+ 0"
+ class="p-15 absolute z-20 left-0 right-0 top-[50px] md:top-[58px] text-primary rounded bg-white shadow-small"
+ >
+ Lifta Berater:in für Ihre Region
+ Zu
+ Ihrem persönlichen Berater 
+ Beratungsleistungen des Beraters:
+ Machbarkeit auf Ihrer Treppe
+ Preise unserer Treppenlifte
+ Zuschüsse für Ihre Region
+ Technik & Service
+ Persönlicher Service und bestmögliche Beratung liegen uns am Herzen. Auch für Ihre Region stehen kompetente Fachexperten für Lifte zur Verfügung.
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Barrierefreiheit auch außerhalb des Hauses
+ Sitzlift für den Außenbereich
+ Bei Sitzliften für den Außenbereich ist ein zuverlässiger Wetterschutz unverzichtbar. Aus diesem Grund kommen bei den meisten Außenliften robuste und witterungsbeständige Materialien zum Einsatz, die Wind und Wetter gekonnt standhalten. Der Sitz ist wasserabweisend und leicht zu reinigen, die Elektronik für den Antrieb ist wetterfest versiegelt. Eine separate Hülle zur Abdeckung des Sitzlifts sorgt für zusätzlichen Schutz bei schlechtem Wetter. 
+Unser Allwetter-Lifta GTL 320 ist speziell für die Benutzung im Außenbereich konzipiert und an nahezu allen Treppen im Freien installierbar. Da Treppen im Außenbereich für gewöhnlich gerade verlaufen, ist der Einbau unkompliziert und schnell erledigt. So überwinden Sie bequem die Treppenstufen vor dem Haus oder in den Garten.
+ Mehr zum Allwetter-Lifta erfahren
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ In kurzer Zeit für Sie benutzbar
+ Voraussetzungen für den Einbau
+ Ein Sitzlift lässt sich meist problemlos einbauen, wenn die Mindestbreite passt: 100 cm in Mehrfamilienhäusern mit mehr als zwei Wohneinheiten, 80 cm in kleineren Gebäuden. So bleibt die Treppe als Flucht- und Rettungsweg nutzbar. Praktisch: Sitz, Armlehnen und Fußbrett sind klappbar und schaffen Platz, wenn der Lift nicht genutzt wird.
+Wenn Sie sich für einen Sitzlift von Lifta entscheiden, machen wir uns bei einem unverbindlichen Termin bei Ihnen vor Ort ein Bild von den baulichen Gegebenheiten. So können wir Sie zum geeigneten Modell beraten und auf Basis der Wohnsituation die groben Kosten schätzen.
+ Mehr zum Treppenlift-Einbau
+ Häufige Fragen zu Sitzliften
+ Wie funktioniert ein Sitzlift?
+ Ein Sitzlift besteht aus einem Ein- oder Zweirohrschienensystem, einem Sitzelement und einem Antrieb. Der Lift bewegt sich sicher entlang der Schiene, die dem Treppenverlauf folgt. Sie bedienen den Sitzlift über ein Bedienelement an der Armlehne oder über eine Fernbedienung. So gelangen Sie sicher und selbstständig von einer Etage in die andere.
+ Wo wird ein Sitzlift befestigt?
+ Ein Sitzlift bzw. das Schienensystem wird je nach Modell und Wohnsituation an der Wand, dem Geländer oder an den Stufen befestigt. Dabei spielt es keine Rolle, aus welchen Materialien die Treppe oder die Wände bestehen. Ganz gleich, ob Stein, Granit oder Holz – für jede Wohnsituation gibt es die passende Befestigungsmöglichkeit. So sind Sitzlifte in nahezu jedem Zuhause einbaubar.
+ Wann wird ein Sitzlift von der Krankenkasse bezahlt?
+ Die Kranken- bzw. Pflegekasse bezuschusst wohnumfeldverbessernde Umbaumaßnahmen, zu denen auch der Einbau eines Sitzlifts zählt. Wichtigste Voraussetzung ist ein vorliegender Pflegegrad (Pflegegrad 1 bis 5). Falls dieser noch nicht vorliegt, müssen Sie zunächst einen Antrag auf die Einordnung in den Pflegegrad stellen. Die Pflegekasse unterstützt den Kauf eines Treppenlifts mit bis zu 4.180 Euro pro Person. Bei mehreren Personen mit Pflegegrad in einem Haushalt kann die Zuschusssumme bis maximal 16.720 Euro gebündelt werden.
+ response.json()).then(data => {
+ $refs.headline.innerHTML = $refs.headline.innerHTML.replace(new RegExp('#name#', 'g'), data.payload.value);
+ }
+ );
+ }
+ "
+>
+ Kostenlos & unverbindlich
+ Vereinbaren Sie jetzt einen Beratungstermin für einen Sitzlift
+ Beratung vereinbaren
+ Rückruf vereinbaren
+ Infopaket bestellen
+ Infopaket 
+ bestellen
+ Kostenlos & unverbindlich
+ Vereinbaren Sie einfach einen Termin
+ *= Pflichtfelder 
+ Ihr Wunschdatum 
+ 11) {year++; month=0}; getNoOfDays()">
+ 09:00 - 10:00 
+ 10:00 - 11:00 
+ 11:00 - 12:00 
+ 12:00 - 13:00 
+ 13:00 - 14:00 
+ 14:00 - 15:00 
+ 15:00 - 16:00 
+ 16:00 - 17:00 
+ 17:00 - 18:00 
+ 18:00 - 19:00 
+ Uhrzeit 
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.name.value = data.payload.value;
+ validateField('name');
+ showAsLabel('name');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Vor- und Nachname* 
+ Bitte geben Sie Ihren Vor- und Nachname ein.
+ Telefon für Rückfragen* 
+ Bitte geben Sie Ihre Rufnummer ein.
+ Wozu benötigen wir Ihre Telefonnummer? 
+ Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+ Telefonnummer ausschließlich für Rückfragen zu dieser
+ Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+ Jetzt Termin vereinbaren 
+ Anfrage wird gesendet
+ Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+ widerrufbar
+ Widerruf jederzeit per Email, Brief oder Telefon möglich.
+ Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+ lifta@lifta.de 
+ 02234-504 400 
+)*.
+ Rückruf vereinbaren
+ Lassen Sie sich bequem am Wunschdatum zurückrufen
+ *= Pflichtfelder 
+ Ihr Wunschdatum 
+ 11) {year++; month=0}; getNoOfDays()">
+ 09:00 - 10:00 
+ 10:00 - 11:00 
+ 11:00 - 12:00 
+ 12:00 - 13:00 
+ 13:00 - 14:00 
+ 14:00 - 15:00 
+ 15:00 - 16:00 
+ 16:00 - 17:00 
+ 17:00 - 18:00 
+ 18:00 - 19:00 
+ Uhrzeit 
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.name.value = data.payload.value;
+ validateField('name');
+ showAsLabel('name');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Vor- und Nachname* 
+ Bitte geben Sie Ihren Vor- und Nachname ein.
+ Telefon* 
+ Bitte geben Sie Ihre Rufnummer ein.
+ Wozu benötigen wir Ihre Telefonnummer? 
+ Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+ Telefonnummer ausschließlich für Rückfragen zu dieser
+ Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+ Jetzt Rückruf bestellen 
+ Anfrage wird gesendet
+ Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+ widerrufbar
+ Widerruf jederzeit per Email, Brief oder Telefon möglich.
+ Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+ lifta@lifta.de 
+ 02234-504 400 
+)*.
+ Interesse geweckt?
+ Wir senden Ihnen kostenlos unser Infopaket
+ *= Pflichtfelder 
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.name.value = data.payload.value;
+ validateField('name');
+ showAsLabel('name');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Vor- und Nachname* 
+ Bitte geben Sie Ihren Vor- und Nachname ein.
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.street_address.value = data.payload.value;
+ validateField('street_address');
+ showAsLabel('street_address');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Straße und Hausnummer* 
+ Bitte geben Sie Ihre Straße und Hausnummer ein.
+ PLZ* 
+ Bitte Postleitzahl überprüfen.
+ response.json()).then(data => {
+ if (data.payload.value) {
+ $el.value = data.payload.value;
+ fieldStatus.city.value = data.payload.value;
+ validateField('city');
+ showAsLabel('city');
+ }
+ }
+ );
+ "
+ class="h-60 pt-[20px] text-18 pl-15 z-10 block text-primary-base rounded border border-solid w-full placeholder-primary-base outline-hidden shadow-small"
+ />
+ Ort* 
+ Bitte geben Sie Ihren Ort ein.
+ Telefon* 
+ Bitte geben Sie Ihre Rufnummer ein.
+ Wozu benötigen wir Ihre Telefonnummer? 
+ Rückfragen zu Ihrer Anfrage lassen sich am einfachsten telefonisch klären. Wir nutzen die
+ Telefonnummer ausschließlich für Rückfragen zu dieser
+ Anfrage. Bitte geben Sie eine Nummer an, unter welcher wir Sie gut erreichen können.
+ Ja, ich erlaube, dass meine Rufnummer für eine telefonische Beratung zu Zuschüssen und regionalen Förderungen verwendet wird.
+ Widerruf jederzeit per Email, Brief oder Telefon möglich.
+ Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+ lifta@lifta.de 
+ 02234-504 400 
+ Jetzt kostenlos bestellen 
+ Anfrage wird gesendet
+ Ihre Daten sind bei uns dank SSL-Verschlüsselung und Serverstandort in Deutschland absolut sicher. Zur Datenschutzerklärung (Ihre Zustimmung ist jederzeit
+ widerrufbar
+ Widerruf jederzeit per Email, Brief oder Telefon möglich.
+ Lifta GmbH
+Horbeller Straße 33
+D-50858 Köln
+ lifta@lifta.de 
+ 02234-504 400 
+)*.
+ Schon gewusst?
+ Treppenlift-Modelle im Überblick
+ Vergleichen Sie unsere beliebten Sitzlifte miteinander.
+ Mehr erfahren 
+ Ablauf beim Treppenlift-Kauf
+ Wir zeigen Ihnen, was Sie beim Neukauf eines Lifts erwartet.
+ Mehr erfahren 
+ Termin vereinbaren
+ Lassen Sie sich kostenfrei und unverbindlich zu Hause beraten.
+ Mehr erfahren 
+ TÜV-geprüfte Kundenzufriedenheit
+ Mehr Infos 
+ Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+ x-text="formattedRating()"
+> 
+ von 5 Sternen
+ Mehr Infos 
+ Focus Money Preis-Sieger
+ Mehr Infos 
+ response.json()).then(data => {
+ $dispatch('contact-loaded', data)
+ }
+ );
+ };
+ "
+ @contact-loaded.window="name = $event.detail.payload.name;
+ image = $event.detail.payload.image;
+ ort = $event.detail.payload.ort;"
+ class="hidden md:flex justify-center w-full md:w-auto md:flex-col md:mr-50 lg:mr-100 items-center">
+ Lifta Berater:in für Ihre Region
+ Haben Sie noch Fragen?
+ Wir sind rund um die Uhr für Sie da!
+ 0800 20 33 150
+ (Kostenlose Service Hotline - 24 Std.
+ täglich für Sie da)
+ In Ihrer Nähe 
+ Infopaket 
+ Termin vor Ort 
+ TÜV-geprüfte Kundenzufriedenheit
+ Mehr Infos 
+ TÜV-geprüfte Kundenzufriedenheit
+ Mehr Infos 
+ Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+ x-text="formattedRating()"
+> 
+ von 5 Sternen
+ Mehr Infos 
+ Kunden bewerten Lifta durchschnittlich mit { rating = value; }) "
+ x-text="formattedRating()"
+> 
+ von 5 Sternen
+ Mehr Infos 
+ Focus Money Preis-Sieger
+ Mehr Infos 
+ Focus Money Preis-Sieger
+ Mehr Infos 
+ Marke des Jahrhunderts Deutsche Standards
+ Mehr Infos 
+ Glossar 
+ Karriere 
+ Partner 
+ Presse 
+ Über Lifta 
+ Copyright Lifta 2026, Alle Rechte vorbehalten
+ Barrierefreiheit 
+ Datenschutz 
+ Impressum 
+ Privatsphäre
+ Einstellungen 
+ Glossar 
+ Karriere 
+ Über Lifta 
+ Partner 
+ Barrierefreiheit 
+ Datenschutz 
+ Impressum 
+ Privatsphäre
+ Einstellungen 
+ Presse 
+ Copyright Lifta 2026, Alle Rechte vorbehalten
+ TÜV-geprüfte Kundenzufriedenheit
+ Freiwillige Befragung von 1.216 Kunden zur Kundenzufriedenheit im Service.
+ TÜV Süd Verbraucherinfo 
+ TÜV-geprüfte Kundenzufriedenheit
+ Prüfbericht (PDF)
+ Trusted Shops Kundenbewertung
+ In dem unabhängigen Bewertungsportal Trusted Shops schneidet Lifta bestens ab.
+ { rating = value; })" class="mt-15 text-15 leading-snug font-light">
+ Kundenbewertung (5,0 / 5) 
+ Zu Trusted Shops
+ Focus Money Preis-Sieger
+ Lifta bietet aus Sicht der Verbraucher im Bereich Treppenlifte das beste Preis-Leistungs-Verhältnis und setzt damit den Maßstab in seiner Branche.
+ Focus Money Preis-Sieger
+ Zum Anbieterranking
+ Zum Berichtsband
+ Marke des Jahrhunderts
+ Seit 2003 wird Lifta regelmäßig im Markenkompendium "Marken des Jahrhunderts" von Herausgeber und Verleger Dr. Florian Langenscheidt aufgeführt.
+ Marke des Jahrhunderts Deutsche Standards
+ Deutsche Standards
+ b.toString(16).padStart(2, '0')).join('');
+ }
+ }"
+ x-init="
+ window.sha256_last_name = await sha256(user_data_name);
+ window.sha256_phone_number = await sha256(user_data_phone_number);
+ window.sha256_email_address = await sha256(user_data_email);
+ "
+>

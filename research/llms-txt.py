@@ -41,6 +41,7 @@ SUMMARIES = {
     "treppenlift-maximalgewicht": "Tragkraft verstehen: die Grenze gilt für Person plus Zuladung, belegte Herstellerwerte von 125 bis 200 kg, Ausführung statt Modellpauschale fragen und das Angebot prüfen.",
     "treppenlift-aussentreppen-aussenlift": "Treppenlift für die Außentreppe: was einen Außenlift wetterfest macht, Preisspannen von Herstellern und Fachportalen mit dokumentierter Streuung, Winter-Praxis und Angebots-Checkliste.",
     "treppenlift-plattformlift-rollstuhllift": "Plattformlift für Rollstuhlfahrer: vier Bauarten getrennt (Hublift, gerade/kurvig, Homelift), Portal-Spannen und Herstellerpreise nebeneinander, Maße und Tragkraft mit dokumentierten Widersprüchen, Angebots-Checkliste.",
+    "treppenlift-sitzlift-oder-stehlift": "Sitzlift oder Stehlift: drei Fragen zur Bauform, Rollstuhl-Grenze des Stehlifts, belegte 80-cm-Basis mit dokumentierter 55-cm-Portalstreuung, Absenz-Checks bei HIRO/TKE und die Fragen für das Aufmaß-Angebot.",
     "bad-umbau-barrierefrei": "Badumbau nach tatsächlichem Bedarf planen: Entscheidungsmatrix, Angebotscheckliste und geprüfte Förderorientierung.",
     "badumbau-angebote-vergleichen": "Badumbau-Angebote anhand von Umfang, Abdichtung, Zusatzarbeiten und Zahlungsregeln Position für Position vergleichen.",
     "bodengleiche-dusche-altbau": "Prüfpunkte, ob die bodengleiche Dusche im Altbau machbar ist: Aufbauhöhe, Fallrohrweg, Decke und Konstruktion.",
@@ -66,7 +67,7 @@ SUMMARIES = {
 SECTION_MAP = [
     ("Treppenlift", ["treppenlift-kosten", "treppenlift-angebote-vergleichen", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
                      "treppenlift-mieten", "treppenlift-mietwohnung", "treppenlift-zuschuss", "treppenlift-steuerlich-absetzen",
-                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift"]),
+                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift", "treppenlift-sitzlift-oder-stehlift"]),
     ("Bad barrierefrei umbauen", ["bad-umbau-barrierefrei", "badumbau-angebote-vergleichen",
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),
     # pflegegrad-beantragen is NOT listed: the thin legacy stub was folded into the
