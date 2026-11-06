@@ -1,0 +1,182 @@
+{
+ "task": "hausnotruf-schluesselhinterlegung",
+ "checked_at": "2026-11-06",
+ "sources": [
+  {
+   "n": 1,
+   "key": "vz_hausnotruf",
+   "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
+   "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt",
+   "evidence": "research/evidence/schluessel-061126/vz-hausnotruf.txt",
+   "quotes": [
+    "Der Basistarif liegt je nach Anbieter und Leistung meist zwischen 27 und 40 Euro monatlich. Zusatzleistungen wie Schlüsselhinterlegung oder mobile Notrufsysteme können die Kosten um weitere 30 bis 80 Euro erhöhen.",
+    "Vergleichen Sie daher mehrere Anbieter und buchen Sie nur, was Sie wirklich brauchen.",
+    "Viele Anbieter bieten neben dem Basistarif ergänzende Leistungen an, etwa Schlüsselhinterlegung, regelmäßige Kontrollrufe oder automatische Sturzdetektoren. Auch mobile Notrufsysteme für unterwegs sind erhältlich. Diese Zusatzleistungen sind kostenpflichtig und müssen privat finanziert werden.",
+    "Schlüsselhinterlegung, so dass Nothelfer problemlos die Wohnung betreten können,",
+    "Oft reicht ein günstiger Basistarif aus."
+   ]
+  },
+  {
+   "n": 2,
+   "key": "malteser",
+   "url": "https://www.malteser.de/hausnotruf.html",
+   "title": "Malteser (Herstellerangabe): Hausnotruf",
+   "evidence": "research/evidence/schluessel-061126/malteser.txt",
+   "quotes": [
+    "Der Malteser Bereitschaftsdienst hilft Ihnen an 365 Tagen im Jahr rund um die Uhr.",
+    "Persönliche, medizinische Angaben und auf Wunsch auch der Wohnungsschlüssel liegen den Mitarbeitenden der Malteser vor - für eine optimale Reaktionsfähigkeit.",
+    "Der Sprechkontakt zu einem Malteser Mitarbeitenden wird sofort hergestellt."
+   ]
+  },
+  {
+   "n": 3,
+   "key": "easierlife",
+   "url": "https://www.easierlife.de/magazin/de/hausnotruf-wie-kommen-meine-retter-eigentlich-in-mein-haus/",
+   "title": "easierLife (Anbieter-Magazin): Wie kommen meine Retter in mein Haus?",
+   "evidence": "research/evidence/schluessel-061126/easierlife.txt",
+   "quotes": [
+    "Wir stellen euch im Folgenden die drei gängigsten Methoden zur Schlüsselaufbewahrung vor",
+    "Einen Notfall kann man nie planen und es kann zu den unpassendsten Uhrzeiten passieren - auch mal nachts, oder eben wenn die Nachbarin oder der Nachbar nicht anzutreffen ist.",
+    "eine mechanische Türöffnung - etwa durch einen Schlüsseldienst oder die Feuerwehr und Polizei",
+    "Die Schlüsselhinterlegung ist bei dem Standard-Tarif von Hausnotrufgeräten in der Regel nicht inklusive und wird auch nicht von der Pflegekasse bezuschusst.",
+    "Die Hinterlegung des Schlüssels muss also zusätzlich bei den jeweiligen Hausnotrufanbietern gebucht werden",
+    "in den meisten Fällen mit zusätzlichen Leistungen gekoppelt",
+    "Für einen Schlüsseltresor fällt in der Regel nur ein einmaliger Betrag an, etwa zwischen 35 bis 100 Euro.",
+    "Nur wer den Code kennt, kann den Tresor öffnen und den Haustürschlüssel entnehmen.",
+    "Der Code des Schlüsseltresors wird demnach nur an nahestehende Personen und die Notrufzentrale übermittelt",
+    "übermittelt die Notrufzentrale den Zahlencode an den Rettungsdienst",
+    "Um solch unglückliche Situationen vorzubeugen, gibt es auch die Möglichkeit einen Zweitschlüssel direkt bei einem Pflegedienst oder einem Wohlfahrtsverband zu hinterlegen.",
+    "Falls ein Notruf abgesetzt wird, wird dieser durch das Hausnotrufgerät informiert und kann sich - sofern nötig - mit dem Schlüssel direkten Zutritt in das Haus oder in die Wohnung verschaffen."
+   ]
+  },
+  {
+   "n": 4,
+   "key": "pflegehelfer24",
+   "url": "https://pflege-helfer24.de/ratgeber/hausnotruf/hausnotruf-schluesselhinterlegung-diese-optionen-haben-sie",
+   "title": "Pflege-Helfer24 (Ratgeber): Hausnotruf Schlüsselhinterlegung",
+   "evidence": "research/evidence/schluessel-061126/pflegehelfer24.txt",
+   "quotes": [
+    "Die Hinterlegung eines Schlüssels bei der Notrufzentrale des Hausnotrufdienstes ist ebenfalls eine Option. Für diese Dienstleistung fallen in der Regel monatliche Kosten von etwa 15 Euro an.",
+    "zeigt die Praxis, dass der Rettungsdienst in einigen Fällen schneller am Einsatzort sein kann als der Dienst, der den Schlüssel liefert",
+    "Aus diesem Grund ist diese Option allein nicht immer die zuverlässigste Lösung.",
+    "Die Kosten für einen zuverlässigen Schlüsseltresor liegen bei einmalig etwa 30 Euro.",
+    "In der Praxis hat sich eine Kombination der Optionen als effektiv erwiesen.",
+    "Wichtig ist bei allen Optionen, regelmäßig zu überprüfen, ob der hinterlegte Schlüssel noch passt, besonders nach dem Austausch von Schlössern oder Sicherheitssystemen.",
+    "Ebenfalls sollte der Kreis der eingeweihten Personen überschaubar und vertrauenswürdig bleiben, um das Risiko eines Missbrauchs zu minimieren.",
+    "Eine weitere Möglichkeit ist die Installation eines Schlüsseltresors, der an der Außenwand eines Einfamilienhauses oder direkt vor der Wohnungstür in Mehrfamilienhäusern angebracht wird.",
+    "Schlüsseltresore sind mit einem Sicherheitscode versehen, der nur autorisierten Personen bekannt ist.",
+    "Diese Lösung bietet den Vorteil, dass im Notfall schnell Hilfe geleistet werden kann"
+   ]
+  },
+  {
+   "n": 5,
+   "key": "pflegeeinstieg",
+   "url": "https://www.pflege-einstieg.de/ratgeber/hausnotruf-schluesselhinterlegung",
+   "title": "Pflege-Einstieg (Ratgeber): Hausnotruf — Schlüssel hinterlegen",
+   "evidence": "research/evidence/schluessel-061126/pflegeeinstieg.txt",
+   "quotes": [
+    "Ein Hausnotruf am Handgelenk nützt wenig, wenn nach dem Knopfdruck niemand in die Wohnung kommt.",
+    "Der Notruf geht raus, die Leitstelle meldet sich, aber die Tür ist von innen verriegelt und der einzige Schlüssel liegt drinnen.",
+    "Ohne hinterlegten Schlüssel bleiben nur zwei Möglichkeiten: ein Nachbar mit Zweitschlüssel oder die Feuerwehr, die die Tür öffnet.",
+    "Deshalb gehört die Schlüsselfrage direkt zur Einrichtung des Hausnotrufs dazu, nicht als Nebensache Wochen später.",
+    "Kläre sie am besten in demselben Gespräch, in dem der Anbieter das Gerät installiert.",
+    "Ein kleiner Tresor mit Zahlencode, in dem der Wohnungsschlüssel liegt. Die Leitstelle gibt den Code im Notfall an die Einsatzkräfte weiter.",
+    "Unabhängig davon, ob gerade jemand erreichbar ist.",
+    "Kombiniere ruhig zwei Wege.",
+    "Ein Nachbar für den schnellen Fall plus ein Schlüsselsafe als Absicherung, wenn niemand ans Telefon geht, deckt die meisten Situationen ab.",
+    "Manche Anbieter verwahren einen Schlüssel selbst oder arbeiten mit einem eigenen Bereitschaftsdienst, der anrückt und aufschließt.",
+    "Ein erwachsenes Kind oder Enkel mit Zweitschlüssel, das schnell da sein kann.",
+    "Einfach, aber nur so gut wie die Erreichbarkeit, nachts, im Urlaub oder bei Krankheit entsteht eine Lücke."
+   ]
+  },
+  {
+   "n": 6,
+   "key": "vz_schluesseldienst",
+   "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/abzocke/schluesseldienste-so-schuetzen-sie-sich-vor-ueberzogen-hohen-rechnungen-6687",
+   "title": "Verbraucherzentrale: Schlüsseldienste — überzogene Rechnungen",
+   "evidence": "research/evidence/schluessel-061126/vz-schluesseldienst.txt",
+   "quotes": [
+    "Eine Verbraucherin bezahlte fast 800 Euro für so eine einfache Türnotöffnung.",
+    "stellte sich heraus, dass die Angaben auf der Rechnung frei erfunden waren",
+    "Die Kosten, die für die Öffnung einer lediglich zugefallenen Tür entstehen, können variieren – je nach Region und Tageszeit. Ein Einsatz tagsüber und an Werktagen kostet weniger als ein Akut-Einsatz in der Nacht, an Sonn- oder Feiertagen.",
+    "Vergleichen Sie die Preise der Anbieter und achten Sie auf Wochenend- und Nachtzuschläge.",
+    "Bevorzugen Sie ortsansässige Firmen, um die Fahrtkosten gering zu halten.",
+    "Suchen Sie sich bereits im Vorfeld einen seriösen Schlüsseldienst in Ihrer Nähe."
+   ]
+  },
+  {
+   "n": 7,
+   "key": "test_feuerwehr",
+   "url": "https://www.test.de/Feuerwehr-Wer-fuer-den-Einsatz-zahlen-muss-4733968-0/",
+   "title": "Stiftung Warentest: Wer für den Feuerwehr-Einsatz zahlen muss",
+   "evidence": "research/evidence/schluessel-061126/test-feuerwehr.txt",
+   "quotes": [
+    "Als Faustregel gilt: Die Kernarbeit der Feuerwehr – Brandbekämpfung, Einsätze bei Naturkatastrophen, Rettung von Menschen aus akuter Gefahr – geht auf Kosten der Staatskasse.",
+    "Jenseits der Faustregel gibt es von Bundesland zu Bundesland und von Kommune zu Kommune kleine, aber feine Unterschiede",
+    "Hilft die Feuerwehr aus eigenem Antrieb spontan in einer Notlage, darf sie dafür keine Gebühren erheben. Das entschied das Verwaltungsgericht Gießen in einem anderen Fall (Az. 2 K 2103/23.GI)."
+   ]
+  },
+  {
+   "n": 8,
+   "key": "haufe_urteile",
+   "url": "https://www.haufe.de/recht/weitere-rechtsgebiete/miet-immobilienrecht/wer-zahlt-fuer-eine-durch-die-feuerwehr-zerstoerte-wohnungstuer_214_638960.html",
+   "title": "Haufe (Urteilsberichte): Wer zahlt für eine zerstörte Wohnungstür?",
+   "evidence": "research/evidence/schluessel-061126/haufe.txt",
+   "quotes": [
+    "Das AG Hildburghausen entschied, dass der Vermieter die Kosten für die Reparatur der Wohnungstür nach § 536a BGB zu tragen hat (AG Hildburghausen Urteil v. 22.5.2024, 21 C 133/23).",
+    "Es hätte genügt, den Glaseinsatz einzuschlagen. Außerdem hätte die Feuerwehr die Tür mit einem hinterlegten Schlüssel öffnen können.",
+    "Außerdem sei zu diesem Zeitpunkt kein Generalschlüssel vor Ort gewesen.",
+    "Vielmehr kann ein Mieter nichts dafür, wenn er aufgrund eines plötzlichen gesundheitlichen Notfalls nicht in der Lage ist, dem Rettungsdienst die Tür zu öffnen.",
+    "verklagte seinen Vermieter auf Ersatz der dafür in Rechnung gestellten Kosten in Höhe von 2957,21 EUR",
+    "Hier entschied das AG Berlin-Mitte, dass der Mieter nicht für die Beschädigung der Tür aufkommen muss."
+   ]
+  }
+ ],
+ "absenz_checks": [
+  {
+   "label": "Malteser-Seite: 0 × Tresor (Tresor ist kein Malteser-Angebot laut geprüfter Seite)",
+   "files": ["research/evidence/schluessel-061126/malteser.txt"],
+   "needles": ["tresor"],
+   "expected": 0
+  },
+  {
+   "label": "Malteser-Seite: 0 × Schlüsseldienst",
+   "files": ["research/evidence/schluessel-061126/malteser.txt"],
+   "needles": ["schlüsseldienst"],
+   "expected": 0
+  },
+  {
+   "label": "Malteser-Seite: 0 × Hinterlegung (Seite nennt Verwahrung ohne dieses Wort)",
+   "files": ["research/evidence/schluessel-061126/malteser.txt"],
+   "needles": ["hinterleg"],
+   "expected": 0
+  },
+  {
+   "label": "VZ-Hausnotruf: 0 × '15 Euro' (VZ nennt keine Zentrale-Einzahl — Divergenz zu [4] echt)",
+   "files": ["research/evidence/schluessel-061126/vz-hausnotruf.txt"],
+   "needles": ["15 Euro"],
+   "expected": 0
+  },
+  {
+   "label": "VZ-Hausnotruf: 0 × 'Tresor' (VZ nennt keinen Tresor — Tresor-Zahlen nur Portale)",
+   "files": ["research/evidence/schluessel-061126/vz-hausnotruf.txt"],
+   "needles": ["tresor"],
+   "expected": 0
+  },
+  {
+   "label": "Pflege-Einstieg: 0 × Preiszahl (nur qualitativ)",
+   "files": ["research/evidence/schluessel-061126/pflegeeinstieg.txt"],
+   "needles": ["Euro"],
+   "expected": 0
+  }
+ ],
+ "article_checks": [
+  {"label": "Titel <= 40 Zeichen", "check": "title_len_40"},
+  {"label": "Kernzahlen: 2.957,21 / 800 Euro / 15 Euro / 30 bis 80 / 35 bis 100 / 27 und 40 / 536a / 2 K 2103", "check": "key_numbers"}
+ ],
+ "notes": [
+  "test.de-Zitate enthalten Soft-Hyphens (U+00AD) im Evidenztext — norm() stript sie auf beiden Seiten.",
+  "Tabelle-Zellen sind Paraphrasen mit [n]-Bezug (Korpus-Konvention), verbatim-Prüfung nur für Fließtext-Zitate.",
+  "Malteser-Absenzen begründen: Artikel stellt Tresor NICHT als Malteser-Option dar; SVG-Kostenchips trennen Hersteller-/Portalangaben."
+ ]
+}
