@@ -1,22 +1,23 @@
-# Affiliate-Link-Status: Warum noch keine Partnerlinks live sind
+# Affiliate-Link-Status: Partnerprogramme-Übersicht
 
-Stand: 23.10.2026 (Partner-Scan: Rückfalloption dokumentiert, Awin-Fensterdaten öffentlich re-verifiziert)
+Stand: 06.11.2026 (ADCELL-Terms-Refresh; Malteser seit 02.11. approved + live)
 
 ## Kurze Antwort
 Nein — **Awin-Erlaubnis ist pro Programm nötig**. Ein Publisher-Konto allein reicht nicht; jeder Advertiser muss die Bewerbung freigeben, erst dann erzeugt Awin Tracker/Links für uns. Vorzeitige Direktlinks ohne Freigabe würden weder tracken noch vergütet werden und verstoßen gegen Liftas Bedingungen (Historie: nur freigegebene Websites, SEM-Verbot; Verstoß = Ausschluss + Storno).
 
-# Programmstatus (23.10. öffentliche Profile re-verifiziert; Bewerbungsstand: Awin-Login 15./17.10.)
-| Advertiser | Netzwerk/ID | Konditionen (öffentlich, 23.10.) | Unser Status | Nächster Schritt |
+# Programmstatus (06.11. öffentlich re-verifiziert; ADCELL-Terms-Refresh `operations/ADCELL-GO-PACK.md`)
+| Advertiser | Netzwerk/ID | Konditionen (öffentlich, 06.11.) | Unser Status | Nächster Schritt |
 |---|---|---|---|---|
-| Lifta DE | Awin 40988 | 50 €/validem Lead, 500 €/Auftrag, 30 d Cookie (23.10. öffentlich unverändert) | **Bewerbung offen** (15.10.) | Zusage abwarten; Follow-up sendefertig, keychain-blockiert |
-| Malteser DE | Awin 112616 | 10 € CPL Vor-Ort-Beratungstermin; **1 € CPL Infomaterial nur bis 31.10.2026** (23.10. öffentlich bestätigt); 30 d Cookie | **Bewerbung offen** (17.10.) | Zusage abwarten; dann Infomaterial-/Beratungstermin-Links in die 2 Hausnotruf-Artikel |
-| **Pflegehase Hausnotruf** (Backup, antragsfertig) | **ADCELL 10690** | 25,00 €/Lead (Lead = von der Pflegekasse genehmigter Antrag), 60 d Cookie, Freigabe 28/56 Tage | **Noch nicht beworben** — braucht einmalig ADCELL-Publisher-Registrierung (Joint-Controller-Checkbox = Betreiber-Akt) | Betreiber-GO → Registrierung → Bewerbung → Freigabe → partner-links.json + Gate erweitern |
-| **Aroundhome DE** (Bad-Cluster, antragsfertig, 23.10.) | **Awin 68536** | Umsatzbeteiligung „im Regelfall 30 %“ (kein Fix-CPL), 30 d Cookie, Lead-Validierung ~8 Tage; Lead-Kriterien: echte, exklusive Kontaktdaten, keine Test-/Auslandsanfragen (öffentliches Profil 23.10.) | **Noch nicht beworben** — gleicher Awin-Login-Blocker wie oben; Bewerbung läuft über das bestehende Publisher-Konto | Awin-Login (Vault/Sitzung) → Bewerbung 68536 (Promotion „Content“) → Freigabe → Bad-Cluster-Placements in partner-links.json |
+| Lifta DE | Awin 40988 | 50 €/validem Lead, 500 €/Auftrag, 30 d Cookie | **Bewerbung offen** (seit 15.10.) | Zusage abwarten; Follow-up sendefertig, keychain-blockiert (Draft 03.11. aktualisiert in `operations/liftstar-followup-draft.txt`) |
+| **Malteser DE** ✅ | Awin 112616 | 10 € CPL Vor-Ort-Beratungstermin (1-€-Infomaterial-Fenster lief 31.10. aus), 30 d Cookie | **ZUGELASSEN (02.11.) + 2 Placements LIVE seit 02.11.** (Commit 8b1b901; 06.11. live re-verifiziert: beide Tracker-URLs auf hausnotruf-kosten-anbieter-vergleich, rel=sponsored, placement_ids malteser_beratungstermin/malteser_info_material) | Leads/Ertrag im Login prüfen sobald Awin-Session; kein weiterer Page-Ausbau nötig |
+| **HIRO Lift** (Treppenlift-Hersteller, neu im GO-Pack) | **ADCELL 9440** | 50,00 €/Lead, 90 d Cookie, Freigabe 56/56 T., SEM nur auf Anfrage, incentivierter Traffic **nicht erlaubt**, Direct Linking erlaubt (06.11. Eigenseite) | **Noch nicht beworben** — Teil des ADCELL-GO-Packs (eine Registrierung, dann Bewerbungsformular + Freitext fertig in `operations/ADCELL-GO-PACK.md`) | ADCELL-GO → Registrierung → HIRO-Bewerbung → Freischaltung → Treppenlift-Cluster-Placements |
+| **Pflegehase Hausnotruf** (Backup) | **ADCELL 10690** | 25,00 €/Lead (Lead = von der Pflegekasse genehmigter Antrag), 60 d Cookie, Freigabe 28/56 T.; Bedingungstabelle seit 06.11. explizit (SEM/PLA/Cashback/Incentive „erlaubt" — wir bleiben rein organisch) | **Noch nicht beworben** — offenes Programm („Nach Ihrer Anmeldung können Sie direkt loslegen"); Teil des ADCELL-GO-Packs | ADCELL-GO → Registrierung (Joint-Controller-Checkbox = Betreiber-Akt) → Join → placements nur hausnotruf-kosten-vergleich |
+| **Aroundhome DE** (Bad-Cluster, antragsfertig, 23.10.) | **Awin 68536** | Umsatzbeteiligung „im Regelfall 30 %“ (kein Fix-CPL), 30 d Cookie, Lead-Validierung ~8 Tage; Lead-Kriterien: echte, exklusive Kontaktdaten, keine Test-/Auslandsanfragen | **Noch nicht beworben** — Awin-Login-Blocker (Bewerbung läuft über bestehendes Publisher-Konto 3124891) | Awin-Login (Sitzung/Vault) → Bewerbung 68536 (Promotion „Content") → Bad-Cluster-Placements |
 
 Details + Verwerfungen (Libify tot, Treppenlift-Angebotsvergleich ohne Programm, Treppenlift-ME-Modell passt nicht, lifeo Vor-Ort-Modell, Smartversorgt nur via drittem Netzwerk, Acorn DE als unabhängige Treppenlift-Option dokumentiert): `research/partner-scan-231026.md` (Ledger 43/43 verbatim verifiziert). Bad-Cluster-Scan (Aroundhome-Kandidat; Badumbauheld/Seniovo verworfen — Fachbetriebs-Netzwerke ohne Publisher-Route): `research/partner-scan-badumbau-231026.md` (Ledger 24/24 verbatim verifiziert).
 
-## Malteser-Fenster bewusst nutzen
-1-€-CPL (Informationsmaterial) läuft nur bis 31.10.2026 — jede Woche Zögerung kostet das billigste Einstiegsprodukt. Hausnotruf-Artikel (2× live, gut gerankt auf Long-Tail) passen 1:1 auf die Infomaterial-/Beratungstermin-URLs.
+## Malteser: erste monetarisierte Route (seit 02.11.)
+Zugelassen und mit 2 Placements live auf hausnotruf-kosten-anbieter-vergleich (10 €-CPL-Beratungstermin + Infomaterial-Link). Das 1-€-Fenster lief am 31.10. aus — die Vorbereitung kam rechtzeitig vor der Zusage. Nächste Erkenntnis nur noch aus dem Awin-Login (Lead-Zahlen, Freigaben) oder dem ersten Zahlungseingang.
 
 ## Vorbereitung (parallel, ohne Zusage legitim)
 - Ratgeber bleiben unverändert echt (keine Link-Platzhalter im Text — Leser täuschen ist tabu).
