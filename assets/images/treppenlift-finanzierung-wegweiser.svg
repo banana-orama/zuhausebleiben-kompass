@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 620" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Treppenlift-Finanzierung: fuenf Schritte vor der Unterschrift</title>
+  <desc id="d1">Fuenf nummerierte Schritte: 1 Pflegekassen-Zuschuss zuerst beantragen (Hoechstbetrag 4.180 Euro je Massnahme). 2 Zwei bis drei Angebote mit Gesamtsumme einholen. 3 Zahlungsmodell vergleichen: Direktkauf, Raten (2 bis 60 Monate je Hersteller), Bankkredit, Miete. 4 Vertragsrechte pruefen: 14 Tage Widerruf, Sondertilgung, Vorsaelligkeit, Tilgungsplan. 5 Ab 20.11.2026 Kredit-Reform beachten: zinsfreie und kleine Kredite erfasst, Bonitaetspruefung vor Vergabe.</desc>
+  <defs>
+    <clipPath id="fc"><rect x="0" y="0" width="780" height="620" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#fc)" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect width="780" height="620" fill="#f4f7f5"/>
+    <rect x="0" y="0" width="780" height="64" fill="#1e5f4b"/>
+    <text x="24" y="40" font-size="21" font-weight="700" fill="#ffffff">Treppenlift finanzieren — fuenf Schritte vor der Unterschrift</text>
+    <rect x="24" y="72" width="732" height="2" fill="#d8e2dc"/>
+
+    <!-- Schritt 1 -->
+    <circle cx="52" cy="122" r="19" fill="#1e5f4b"/>
+    <text x="52" y="129" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="88" y="118" font-size="17" font-weight="700" fill="#123b2f">Zuschuss zuerst beantragen</text>
+    <text x="88" y="141" font-size="14" fill="#2f4f43">Hoechstbetrag: 4.180 Euro je Massnahme (SGB XI § 40 Abs. 4) —</text>
+    <text x="88" y="160" font-size="14" fill="#2f4f43">Antrag vor dem Umbau; Restbetrag erst danach finanzieren.</text>
+
+    <!-- Schritt 2 -->
+    <circle cx="52" cy="212" r="19" fill="#1e5f4b"/>
+    <text x="52" y="219" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="88" y="208" font-size="17" font-weight="700" fill="#123b2f">Zwei bis drei Angebote einholen</text>
+    <text x="88" y="231" font-size="14" fill="#2f4f43">Gesamtsumme, Laufzeit und Anzahlung schriftlich —</text>
+    <text x="88" y="250" font-size="14" fill="#2f4f43">nicht im ersten Aufmass-Termin unterschreiben.</text>
+
+    <!-- Schritt 3 -->
+    <circle cx="52" cy="302" r="19" fill="#1e5f4b"/>
+    <text x="52" y="309" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="88" y="298" font-size="17" font-weight="700" fill="#123b2f">Zahlungsmodell vergleichen</text>
+    <text x="88" y="321" font-size="14" fill="#2f4f43">Direktkauf · Anbieter-Raten (Herstellerangaben: 2 bis 60 Monate,</text>
+    <text x="88" y="340" font-size="14" fill="#2f4f43">teils 50/50 ohne Zinsen) · Bankkredit · Miete bei kurzem Bedarf.</text>
+
+    <!-- Schritt 4 -->
+    <circle cx="52" cy="392" r="19" fill="#1e5f4b"/>
+    <text x="52" y="399" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="88" y="388" font-size="17" font-weight="700" fill="#123b2f">Vertragsrechte pruefen</text>
+    <text x="88" y="411" font-size="14" fill="#2f4f43">14 Tage Widerruf (auch bei 0 %, eingeschraenkt), Sondertilgung</text>
+    <text x="88" y="430" font-size="14" fill="#2f4f43">jederzeit moeglich, Vorsaelligkeit max. 1 % / 0,5 %, Tilgungsplan.</text>
+
+    <!-- Schritt 5 -->
+    <circle cx="52" cy="482" r="19" fill="#8a4a20"/>
+    <text x="52" y="489" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+    <text x="88" y="478" font-size="17" font-weight="700" fill="#5c3312">Ab 20.11.2026: Kredit-Reform beachten</text>
+    <text x="88" y="501" font-size="14" fill="#5c3312">Zinsfreie und kleine Kredite erfasst — Bonitaetspruefung</text>
+    <text x="88" y="520" font-size="14" fill="#5c3312">vor Vergabe; Vertragsrechte koennen neu gefasst sein.</text>
+
+    <rect x="24" y="548" width="732" height="50" rx="8" fill="#e4efe9"/>
+    <text x="40" y="568" font-size="12.5" fill="#123b2f">Herstellerangaben divergieren (Laufzeit, Zinsausweis, Betragsgrenze) — verbindlich ist nur Ihr Angebot nach dem Aufmass.</text>
+    <text x="40" y="586" font-size="12.5" fill="#123b2f">Allgemeine Orientierung, keine Finanz- oder Rechtsberatung. Stand: 09.11.2026 · ZuhauseBleiben Kompass</text>
+  </g>
+</svg>
