@@ -1,0 +1,26 @@
+bad-umbau-barrierefrei: 4 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02, 2026-11-02, 2026-11-02, 2026-11-02)
+badumbau-angebote-vergleichen: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02)
+beleuchtung-orientierung-im-alter: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02)
+bodengleiche-dusche-altbau: 4 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02, 2026-11-02, 2026-11-02, 2026-11-02)
+hausnotruf-mobil-gps-unterwegs: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-04)
+hilfsmittel-dusch-wc-uebernahme: 2 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02, 2026-11-02)
+hilfsmittel-pflegekasse-uebernahme: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02)
+rollator-auswahl-passform-kosten: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02)
+treppenlift-angebote-vergleichen: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02)
+treppenlift-kosten: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02)
+treppenlift-mieten: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02)
+treppenlift-mietwohnung: 1 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02)
+treppenlift-zuschuss: 4 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02, 2026-11-02, 2026-11-02, 2026-11-02)
+tuerbreiten-schwellen-schnellcheck: 2 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02, 2026-11-02)
+wanne-zur-dusche: 4 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02, 2026-11-02, 2026-11-02, 2026-11-02)
+wohnumfeldverbesserung-beantragen: 2 Quelle(n) checked_at → 2026-11-09 (vorher: 2026-11-02, 2026-11-02)
+GESAMT: 31 checked_at-Felder in 16 Artikeln aktualisiert
+
+bad-umbau-barrierefrei: 2 sichtbare KfW-Prüfdaten "2. November 2026" → "9. November 2026"
+bodengleiche-dusche-altbau: 2 sichtbare KfW-Prüfdaten "2. November 2026" → "9. November 2026"
+treppenlift-zuschuss: 2 sichtbare KfW-Prüfdaten "2. November 2026" → "9. November 2026"
+wanne-zur-dusche: 1 sichtbare KfW-Prüfdaten "2. November 2026" → "9. November 2026"
+wohnumfeldverbesserung-beantragen: Gesamtdisclaimer "2. November 2026" erhalten = 1× (erwartet 1)
+Restprüfung OK: 1× "2. November 2026" verbleibend (nur wohnumfeldverbesserung-Disclaimer)
+
+Bump abgeschlossen: alle Ersetzungen exakt wie erwartet.
