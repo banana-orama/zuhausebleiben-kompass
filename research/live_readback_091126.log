@@ -1,0 +1,28 @@
+PASS /treppenlift-zuschuss.html count "9. November 2026" = 3 (erwartet >= 2)
+PASS /treppenlift-zuschuss.html count "2. November 2026" = 0 (erwartet 0)
+PASS /treppenlift-zuschuss.html contains "geprüft 2026-11-09"
+PASS /treppenlift-zuschuss.html robots=index,follow
+OK   /treppenlift-zuschuss.html HTTP 200, alle lokalen Asserts PASS
+PASS /bad-umbau-barrierefrei.html count "9. November 2026" = 3 (erwartet >= 2)
+PASS /bad-umbau-barrierefrei.html count "2. November 2026" = 0 (erwartet 0)
+PASS /bad-umbau-barrierefrei.html robots=index,follow
+OK   /bad-umbau-barrierefrei.html HTTP 200, alle lokalen Asserts PASS
+PASS /bodengleiche-dusche-altbau.html count "9. November 2026" = 3 (erwartet >= 2)
+PASS /bodengleiche-dusche-altbau.html count "2. November 2026" = 0 (erwartet 0)
+PASS /bodengleiche-dusche-altbau.html robots=index,follow
+OK   /bodengleiche-dusche-altbau.html HTTP 200, alle lokalen Asserts PASS
+PASS /wanne-zur-dusche.html count "9. November 2026" = 1 (erwartet >= 1)
+PASS /wanne-zur-dusche.html count "2. November 2026" = 0 (erwartet 0)
+PASS /wanne-zur-dusche.html robots=index,follow
+OK   /wanne-zur-dusche.html HTTP 200, alle lokalen Asserts PASS
+PASS /wohnumfeldverbesserung-beantragen.html count "2. November 2026" = 1 (erwartet 1)
+PASS /wohnumfeldverbesserung-beantragen.html count "9. November 2026" = 0 (erwartet 0)
+PASS /wohnumfeldverbesserung-beantragen.html robots=index,follow
+OK   /wohnumfeldverbesserung-beantragen.html HTTP 200, alle lokalen Asserts PASS
+PASS /hilfsmittel-dusch-wc-uebernahme.html count "ab 2,19 Prozent (Stand: 10. Juli 2025)" = 1 (erwartet >= 1)
+PASS /hilfsmittel-dusch-wc-uebernahme.html robots=index,follow
+OK   /hilfsmittel-dusch-wc-uebernahme.html HTTP 200, alle lokalen Asserts PASS
+PASS / robots=index,follow
+OK   / HTTP 200, alle lokalen Asserts PASS
+================================================================================
+ERGEBNIS: LIVE-READBACK ALL PASS (7 Seiten, öffentliche URL https://zuhausebleiben-kompass.de)
