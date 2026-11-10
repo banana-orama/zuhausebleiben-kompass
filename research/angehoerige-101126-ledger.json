@@ -1,0 +1,165 @@
+{
+ "task": "hausnotruf-angehoerige-einrichten",
+ "checked_at": "2026-11-10",
+ "sources": [
+  {
+   "n": 1,
+   "key": "vz_hausnotruf",
+   "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
+   "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt",
+   "evidence": "research/evidence/angehoerige-101126/vz-10566.txt",
+   "quotes": [
+    "Mit einem Hausnotrufsystem können Sie im Notfall per Knopfdruck Hilfe rufen.",
+    "Die Kosten liegen meist je nach Leistung zwischen 27 und 40 Euro monatlich im Basistarif.",
+    "Mit Pflegegrad übernimmt die Pflegekasse bis zu 27 Euro monatlich. Dazu müssen noch weitere Voraussetzungen erfüllt sein.",
+    "Wenn ein Pflegegrad vorhanden ist und die beantragende Person fast den ganzen Tag allein ist.",
+    "Außerdem muss bei der pflegebedürftigen Person jederzeit aufgrund des Krankheits- oder Pflegezustandes mit einer Notsituation zu rechnen sein. Dann kann sie ohne Hausnotrufsystem selbst keine Hilfe holen.",
+    "Der Hausnotrufanbieter muss Vertragspartner der Pflegekasse sein.",
+    "Ausstattung mit Funksender (Armband oder Halskette mit Notfallknopf)",
+    "Installation und Einweisung",
+    "24-Stunden-Erreichbarkeit der Notrufzentrale",
+    "Die Geräte werden aufgestellt und für Sie eingerichtet.",
+    "Sie und eine Kontaktperson Ihrer Wahl werden in das System eingewiesen.",
+    "Auftretende Mängel werden behoben.",
+    "Weniger geeignet ist das System für Menschen mit Demenz, da sie den Notruf häufig nicht gezielt auslösen können.",
+    "Das geht auch formlos. In vielen Fällen stellt ihn die Pflegekasse zur Verfügung.",
+    "Der Medizinische Dienst prüft für die Pflegekasse, ob die Voraussetzungen erfüllt sind.",
+    "Je nach Situation werden dann Angehörige, Pflegedienste oder der Rettungsdienst oder Notarzt verständigt.",
+    "Adresse und Zugang zur Wohnung,",
+    "Gesundheitszustand und Medikamente sowie",
+    "die Kontaktdaten von Angehörigen.",
+    "Sie brauchen eine Telefon- oder IP-Anschluss, an die die Basisstation angeschlossen wird. Außerdem benötigen Sie an der Stelle eine Steckdose für die Stromversorgung.",
+    "Wenn das Internet oder Telefon ausfällt, kann ein Gerät mit SIM-Karte sinnvoll sein.",
+    "Stromausfälle für circa 10 bis 20 Stunden überbrücken",
+    "Meist liegt sie bei bis zu 50 Metern.",
+    "Sie müssen sicher und DSGVO-konform gespeichert werden.",
+    "Zusatzleistungen kosten extra. Sie können rund 30 bis 50 Euro (oder auch mehr) zusätzlich im Monat ausmachen. Überlegen Sie genau, welche Sie brauchen. Die Preise können je nach Anbieter und Region stark variieren.",
+    "regelmäßige Kontrollanrufe zu Ihrer Sicherheit",
+    "Entlastung für Angehörige: Sie wissen, dass im Notfall Hilfe kommt.",
+    "Sie sind sturzgefährdet oder unsicher beim Gehen",
+    "Sie sind bereits gestürzt oder haben Angst davor",
+    "Sie hatten bereits einen Notfall, zum Beispiel einen Sturz oder Herzprobleme",
+    "Bei vorhandenem Pflegegrad kann die Pflegekasse die Kosten für den Basistarif übernehmen. Voraussetzung ist unter anderem, dass die pflegebedürftige Person häufig allein ist, jederzeit mit einer Notsituation gerechnet werden muss und in dieser Situation kein Notruf mit dem handelsüblichen Telefon abgesetzt werden kann."
+   ]
+  },
+  {
+   "n": 2,
+   "key": "malteser",
+   "url": "https://www.malteser.de/hausnotruf.html",
+   "title": "Malteser (Herstellerangabe): Hausnotruf",
+   "evidence": "research/evidence/angehoerige-101126/malteser-hausnotruf.txt",
+   "quotes": [
+    "Oft sind bei der Anschaffung eines Hausnotrufs die Angehörigen die treibende Kraft: Wer seine Liebsten in Sicherheit weiß, kann wieder beruhigt schlafen.",
+    "Mit unserer kostenlosen App bleiben Familienmitglieder jederzeit informiert: Echtzeit-Meldungen bei Stürzen oder Notfällen und direkte Kommunikation mit uns Maltesern",
+    "Die Mitarbeitenden alarmieren entweder den Malteser Bereitschaftsdienst, eine Vertrauensperson oder den Rettungsdienst.",
+    "Das Basispaket Grundsicherheit eignet sich, wenn Ihre Angehörigen in der Nähe sind, um in Notfällen nach Ihnen zu sehen.",
+    "Wir kümmern uns um alle technischen Aspekte des Hausnotrufs– von der Installation bis hin zur regelmäßigen Wartung.",
+    "Damit Sie oder Ihre Angehörigen wissen, was im Notfall zu tun ist, findet eine persönliche Einweisung im Vorfeld statt.",
+    "Sie haben keinen Telefonanschluss in der Wohnung? Kein Problem, der Malteser Hausnotruf funktioniert auch über Mobilfunk.",
+    "Persönliche, medizinische Angaben und auf Wunsch auch der Wohnungsschlüssel liegen den Mitarbeitenden der Malteser vor - für eine optimale Reaktionsfähigkeit.",
+    "Sie haben jederzeit die Möglichkeit, den Hausnotruf mit einer Frist von einem Monat zum Monatsende zu kündigen.",
+    "Bereits ab Pflegegrad 1 können Notrufsysteme mit einem festen monatlichen Zuschuss von 27,00 € unterstützt werden.",
+    "In einem Gespräch stellen wir Ihnen den Malteser Hausnotruf vor und informieren Sie über Verfügbarkeit, Kosten und sinnvolle Zusatzleistungen für Ihre Sicherheit.",
+    "Monatlicher Fixpreis ohne versteckte Kosten",
+    "Jederzeit monatlich kündbar",
+    "Unter bestimmten Voraussetzungen erstattet die Pflegekasse auch die Kosten für den Hausnotruf.",
+    "Bereitschaftsdienst mit Bewegungserkennung"
+   ]
+  },
+  {
+   "n": 3,
+   "key": "hsp_angehoerige",
+   "url": "https://www.hsp-hausnotruf.de/fuer-angehoerige/",
+   "title": "HSP Hausnotruf (Anbieter-Magazin): Hausnotruf für Angehörige",
+   "evidence": "research/evidence/angehoerige-101126/hsp-angehoerige.txt",
+   "quotes": [
+    "Viele Angehörige kennen dieses Gefühl: Ein Elternteil lebt noch selbstständig zuhause, aber die Sorge bleibt. Was passiert bei einem Sturz? Was, wenn niemand erreichbar ist?",
+    "Viele ältere Menschen möchten nicht das Gefühl haben, kontrolliert zu werden. Deshalb sollte der Hausnotruf nicht als Einschränkung, sondern als Unterstützung für mehr Selbstständigkeit erklärt werden.",
+    "Mir ist wichtig, dass du weiter sicher zuhause leben kannst.",
+    "Oft hilft es, das Thema ruhig und praktisch zu erklären – nicht als Druck, sondern als gemeinsame Vorsorge.",
+    "kann eine Vollmacht erforderlich sein",
+    "Name und Kontaktdaten der betroffenen Person",
+    "Pflegegrad oder Status des Pflegegrad-Antrags",
+    "Besonderheiten wie Sturzrisiko, Mobilität oder Erkrankungen",
+    "Je nach Notfallplan können Angehörige, Nachbarn oder Pflegedienst informiert werden.",
+    "Der Hausnotruf ist nicht für Kontrolle, sondern für den Notfall."
+   ]
+  },
+  {
+   "n": 4,
+   "key": "bewo_angehoerige",
+   "url": "https://www.bewo-telehealthcare.com/ratgeber/hausnotruf-fuer-angehoerige",
+   "title": "BeWo Telehealthcare (Anbieter-Magazin): HausNotruf für Angehörige",
+   "evidence": "research/evidence/angehoerige-101126/bewo-angehoerige.txt",
+   "quotes": [
+    "Sie können den HausNotruf für Ihre Eltern komplett organisieren, auch wenn Sie hunderte Kilometer entfernt wohnen.",
+    "Den Vertrag können Sie als Angehörige anstoßen, das Gerät wird funktionsfertig zu Ihren Eltern geliefert – dank eingebauter SIM-Karte muss es nur aufgestellt und eingeschaltet werden.",
+    "Viele ältere Menschen reagieren zunächst abwehrend, weil ein HausNotruf für sie nach Hilfsbedürftigkeit, Kontrolle oder dem Verlust der Selbstständigkeit klingt.",
+    "Manchmal braucht es zwei oder drei Gespräche. Drängen Sie nicht – ein konkretes Erlebnis im Bekanntenkreis öffnet oft mehr Türen als gut gemeinter Druck.",
+    "Lassen Sie Ihre Eltern mitbestimmen, welcher Tarif und welches Gerät passt. Das bewahrt ihr Gefühl der Kontrolle.",
+    "Ihre Eltern sind in letzter Zeit gestürzt oder werden beim Gehen unsicherer.",
+    "Sie erreichen Ihre Eltern manchmal telefonisch nicht und machen sich dann sofort Sorgen."
+   ]
+  },
+  {
+   "n": 5,
+   "key": "notfallknopf_beantragen",
+   "url": "https://www.notfallknopf.de/beantragen/",
+   "title": "Notfallknopf.de (Anbieter-Ratgeber): Hausnotruf beantragen",
+   "evidence": "research/evidence/angehoerige-101126/notfallknopf-beantragen.txt",
+   "quotes": [
+    "Können sie es, unterschreibt die versicherte Person",
+    "das Antragsformular, und der Anbieter kann den Antrag für sie bei der Pflegekasse einreichen.",
+    "Können sie es nicht, braucht ein Angehöriger eine",
+    "Vorsorgevollmacht für Vermögenssorge oder Vertragsangelegenheiten",
+    "Eine reine Gesundheitsvollmacht reicht dafür nicht aus.",
+    "Ohne Vollmacht kann ein vom Betreuungsgericht bestellter Betreuer den Antrag stellen, sofern sein Aufgabenkreis Vermögenssorge oder Wohnungsangelegenheiten umfasst.",
+    "Eine ärztliche Verordnung brauchen Sie nicht.",
+    "keine ärztliche Verordnung erforderlich",
+    "Für die Direktabrechnung mit der Pflegekasse braucht der Anbieter einen Versorgungsvertrag nach § 78 SGB XI.",
+    "Fragen Sie, ob der Anbieter den Versorgungsvertrag tatsächlich besitzt.",
+    "Fragen Sie, ob er direkt mit der Pflegekasse abrechnet, damit Sie nicht in Vorleistung gehen.",
+    "innerhalb von drei Wochen nach Antragseingang",
+    "entscheiden. Schaltet sie eine Pflegefachperson oder den Medizinischen Dienst ein, hat sie fünf Wochen Zeit.",
+    "grundsätzlich innerhalb einer Woche betriebsbereit zur Verfügung stellen",
+    "sofern Telefon- oder Internetanschluss und Versichertenangaben vorliegen.",
+    "Sie gehen nicht in Vorleistung",
+    "sind bei Anbietern, die dem GKV-Hausnotrufvertrag ab April 2026 beigetreten sind, in der Vergütung enthalten.",
+    "in die Wohnung hineingelangen können",
+    "Bei den meisten Anbietern ist das eine kostenpflichtige Zusatzleistung, die die Pflegekasse nicht übernimmt.",
+    "Als Vertrauensperson würden wir jemanden bitten, den Ihre Mutter gut kennt und der leicht erreichbar ist.",
+    "mit den Eltern über den Hausnotruf zu sprechen",
+    "kein Anspruch auf Kostenübernahme"
+   ]
+  },
+  {
+   "n": 6,
+   "key": "sanivia_beantragen",
+   "url": "https://sanivia.de/ratgeber/hausnotruf-beantragen-schritt-fuer-schritt/",
+   "title": "Sanivia (Anbieter-Ratgeber): Hausnotruf beantragen — Schritt für Schritt",
+   "evidence": "research/evidence/angehoerige-101126/sanivia-beantragen.txt",
+   "quotes": [
+    "mit anerkanntem Pflegegrad übernimmt die Pflegekasse die monatlichen Kosten",
+    "vollständig — für Sie 0 € im Monat"
+   ]
+  },
+  {
+   "n": 7,
+   "key": "vz_vorsorgevollmacht",
+   "url": "https://www.verbraucherzentrale.de/veranstaltungen/fuer-den-ernstfall-gewappnet-wissenswertes-zur-vorsorgevollmacht-123149",
+   "title": "Verbraucherzentrale (Veranstaltungsseite): Vorsorgevollmacht",
+   "evidence": "research/evidence/angehoerige-101126/vz-vorsorgevollmacht.txt",
+   "quotes": [
+    "In dieser Situation braucht es eine rechtliche Vertretung – weder Ehepartner noch Kinder können dies automatisch übernehmen."
+   ]
+  }
+ ],
+ "notes": [
+  "Divergenz D1 dokumentiert: HSP vage ('kann eine Vollmacht erforderlich sein') vs. notfallknopf spezifisch (Vorsorgevollmacht Vermögenssorge/Vertragsangelegenheiten, Gesundheitsvollmacht reicht nicht, Betreuer-Aufgabenkreis) vs. BeWo 'Vertrag als Angehörige anstoßen'.",
+  "Divergenz D2 dokumentiert: Einrichtungsweg — Malteser Installation+persönliche Einweisung vs. BeWo funktionsfertiges Gerät per Post mit SIM vs. VZ Leistungsanforderung (aufgestellt, eingerichtet, Einweisung).",
+  "Divergenz D3 dokumentiert: VZ-Zusatzleistungen 'rund 30 bis 50 Euro (oder auch mehr)' (Artikeltext) vs. '30 bis 80 Euro' (FAQ-Teil derselben Seite).",
+  "Divergenz D4 dokumentiert: sanivia '0 € im Monat' vs. VZ 'bis zu 27 Euro' + Voraussetzungen + MD-Prüfung vs. Malteser '27,00 € Zuschuss ab Pflegegrad 1' mit eigener Voraussetzungs-Einschränkung.",
+  "Absenz-Check artikelbezogen: Artikel behauptet keine Einrichtungs-Dauer-Pauschale, keine Anbieter-Empfehlung, keine Rechtsberatung; Malteser nur Herstellerangabe.",
+  "Zero-Arithmetik: alle Zahlen im Artikel sind wörtliche Quellenangaben (27/27–40 EUR, 3/5 Wochen, 1 Woche, 10–20 h, 50 m, 30–50/30–80 EUR); keine Berechnungen."
+ ]
+}

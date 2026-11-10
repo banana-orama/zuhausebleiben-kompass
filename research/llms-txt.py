@@ -60,6 +60,7 @@ SUMMARIES = {
     "hausnotruf-schluesselhinterlegung": "Die Schlüsselfrage beim Hausnotruf: vier Wege (Zweitschlüssel, Dienst-Verwahrung, Pflegedienst, Tresor) mit belegten, streuenden Kostenangaben, Notfall-Ablauf ohne Schlüssel (Feuerwehr-Faustregel, Schlüsseldienst-Abzocke, Urteilsberichte) und den Fragen fürs Einrichtungsgespräch.",
     "treppenlift-finanzierung": "Treppenlift finanzieren: belegte Herstellermodelle (50/50 zinsfrei in 12 Monaten, easyCredit-Raten 2 bis 60 Monate, individuelle Vereinbarungen mit dokumentierten Widersprüchen), Verbraucherdarlehen-Rechte im Gesetzestext (Widerruf, Sondertilgung, Vorfälligkeit), die Null-Prozent-Nuance und die Kredit-Reform ab 20.11.2026.",
     "hausnotruf-kuendigen": "Hausnotruf kündigen nach BGB-Wortlaut: Widerruf (14 Tage), gesetzliche Grenzen für Laufzeit und Frist (§ 309 Nr. 9), Kündigungsbutton beim Online-Abschluss (§ 312k), Todesfall (§ 1922), Pflegekassen-Vertragspartner-Falle beim Wechsel und Geräte-Rückgabe.",
+    "hausnotruf-angehoerige-einrichten": "Hausnotruf für Angehörige einrichten: Bedarf ohne Diagnose erkennen, das Gespräch ohne Druck führen, klären wer unterschreibt (Vollmacht-Typen), die Pflegekassen-Route mit echten Voraussetzungen einschätzen und die Einrichtung samt Testalarm und Notfallplan begleiten.",
 }
 
 # NOTE (2026-11-03, audit #9): the legacy entry page pflegegrad-beantragen was folded
@@ -79,7 +80,8 @@ SECTION_MAP = [
                                                 "wohnumfeldverbesserung-beantragen",
                                                 "rollator-auswahl-passform-kosten",
                                                 "hausnotruf-kosten-anbieter-vergleich", "hausnotruf-sturzerkennung-oder-knopf",
-                                                "hausnotruf-mobil-gps-unterwegs", "hausnotruf-schluesselhinterlegung", "hausnotruf-kuendigen"]),
+                                                "hausnotruf-mobil-gps-unterwegs", "hausnotruf-schluesselhinterlegung", "hausnotruf-kuendigen",
+                                                "hausnotruf-angehoerige-einrichten"]),
     ("Wohnen im Alltag", ["tuerbreiten-schwellen-schnellcheck", "beleuchtung-orientierung-im-alter",
                           "verhinderungspflege-tagespflege-ueberblick"]),
 ]
