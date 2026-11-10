@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 660" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Warntafel: sechs Warnsignale unserioeser Treppenlift-Verkaufs-Methoden</title>
+  <desc id="d1">Sechs nummerierte Kacheln mit Warnsignal und Kurzregel: Zeitdruck, unterschobener Widerrufs-Verzicht, Anzahlung ohne Vorarbeit, Kaltakquise, intransparente Portale, fehlende Belehrung und Service. Stand 10.11.2026.</desc>
+  <rect width="780" height="660" fill="#f4f7f5"/>
+  <rect width="780" height="64" fill="#1e5f4b"/>
+  <text x="24" y="40" font-size="21" font-weight="700" fill="#ffffff">Unserioese Verkaufs-Methoden — sechs Warnsignale</text>
+  <rect x="24" y="72" width="732" height="2" fill="#d8e2dc"/>
+
+  <!-- Kachel 1 -->
+  <rect x="24" y="92" width="356" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc" class="chip"/>
+  <circle cx="56" cy="126" r="17" fill="#1e5f4b"/>
+  <text x="56" y="132" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="84" y="122" font-size="16" font-weight="700" fill="#123b2f">Zeitdruck mit Sonderangeboten</text>
+  <text x="84" y="146" font-size="13" fill="#2f4f43">„Nur heute guenstig“, behauptete Anfahrt,</text>
+  <text x="84" y="164" font-size="13" fill="#2f4f43">Einbau-Versprechen ohne Besichtigung.</text>
+  <text x="84" y="200" font-size="13" fill="#1e5f4b" font-weight="700">Regel: nichts am Telefon oder an der</text>
+  <text x="84" y="218" font-size="13" fill="#1e5f4b" font-weight="700">Tuer unterschreiben.</text>
+
+  <!-- Kachel 2 -->
+  <rect x="400" y="92" width="356" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc" class="chip"/>
+  <circle cx="432" cy="126" r="17" fill="#1e5f4b"/>
+  <text x="432" y="132" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="460" y="122" font-size="16" font-weight="700" fill="#123b2f">Verzicht aufs Widerrufsrecht</text>
+  <text x="460" y="146" font-size="13" fill="#2f4f43">Erklaerung im Angebot getarnt als</text>
+  <text x="460" y="164" font-size="13" fill="#2f4f43">Start-Termin — Inhalt: Widerrufs-Verzicht.</text>
+  <text x="460" y="200" font-size="13" fill="#1e5f4b" font-weight="700">Regel: jede Unterschrift ganz lesen,</text>
+  <text x="460" y="218" font-size="13" fill="#1e5f4b" font-weight="700">Belehrung verlangen.</text>
+
+  <!-- Kachel 3 -->
+  <rect x="24" y="260" width="356" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc" class="chip"/>
+  <circle cx="56" cy="294" r="17" fill="#1e5f4b"/>
+  <text x="56" y="300" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="84" y="290" font-size="16" font-weight="700" fill="#123b2f">Anzahlung ohne Vorarbeit</text>
+  <text x="84" y="314" font-size="13" fill="#2f4f43">Kein Vor-Ort-Besuch, kein detaillierter</text>
+  <text x="84" y="332" font-size="13" fill="#2f4f43">Kostenvoranschlag — aber Geld vorab.</text>
+  <text x="84" y="368" font-size="13" fill="#1e5f4b" font-weight="700">Regel: erst Voranschlag, zahlen erst</text>
+  <text x="84" y="386" font-size="13" fill="#1e5f4b" font-weight="700">nach Einbau und Funktionstest.</text>
+
+  <!-- Kachel 4 -->
+  <rect x="400" y="260" width="356" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc" class="chip"/>
+  <circle cx="432" cy="294" r="17" fill="#1e5f4b"/>
+  <text x="432" y="300" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="460" y="290" font-size="16" font-weight="700" fill="#123b2f">Kaltakquise ohne Einwilligung</text>
+  <text x="460" y="314" font-size="13" fill="#2f4f43">Anrufe ohne Einwilligung, Dauer-Mails</text>
+  <text x="460" y="332" font-size="13" fill="#2f4f43">schon nach der ersten Anfrage.</text>
+  <text x="460" y="368" font-size="13" fill="#1e5f4b" font-weight="700">Regel: Gespraech beenden, Meldung an</text>
+  <text x="460" y="386" font-size="13" fill="#1e5f4b" font-weight="700">die Verbraucherzentrale.</text>
+
+  <!-- Kachel 5 -->
+  <rect x="24" y="428" width="356" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc" class="chip"/>
+  <circle cx="56" cy="462" r="17" fill="#1e5f4b"/>
+  <text x="56" y="468" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="84" y="458" font-size="16" font-weight="700" fill="#123b2f">Portale ohne erkennbare Finanzierung</text>
+  <text x="84" y="482" font-size="13" fill="#2f4f43">Gefaelschte Bewertungen, Formulare,</text>
+  <text x="84" y="500" font-size="13" fill="#2f4f43">die Daten fuer Werbezwecke sammeln.</text>
+  <text x="84" y="536" font-size="13" fill="#1e5f4b" font-weight="700">Regel: nach Betreiber und Finanzierung</text>
+  <text x="84" y="554" font-size="13" fill="#1e5f4b" font-weight="700">fragen — nur nötige Daten angeben.</text>
+
+  <!-- Kachel 6 -->
+  <rect x="400" y="428" width="356" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc" class="chip"/>
+  <circle cx="432" cy="462" r="17" fill="#1e5f4b"/>
+  <text x="432" y="468" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+  <text x="460" y="458" font-size="16" font-weight="700" fill="#123b2f">Belehrung und Service unklar</text>
+  <text x="460" y="482" font-size="13" fill="#2f4f43">Widerruf verschwiegen oder „gibt es</text>
+  <text x="460" y="500" font-size="13" fill="#2f4f43">nicht“, keine Notfall-Nummer im Vertrag.</text>
+  <text x="460" y="536" font-size="13" fill="#1e5f4b" font-weight="700">Regel: Belehrung, Festpreis und Service</text>
+  <text x="460" y="554" font-size="13" fill="#1e5f4b" font-weight="700">verankern — sonst woanders kaufen.</text>
+
+  <rect x="24" y="600" width="732" height="2" fill="#d8e2dc"/>
+  <text x="24" y="624" font-size="12" fill="#2f4f43">Quellen: Verbraucherzentrale (Ratgeber + Umfrage-Auswertung), Stiftung Warentest, §§ 4a/5a/7 UWG, § 312g BGB — Stand 10.11.2026.</text>
+  <text x="24" y="642" font-size="12" fill="#2f4f43">Allgemeine Orientierung, keine Rechtsberatung · ZuhauseBleiben Kompass, KI-unterstuetzte Schema-Grafik</text>
+</svg>

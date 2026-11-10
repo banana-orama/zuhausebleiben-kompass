@@ -12,6 +12,7 @@
     "hausnotruf-schluesselhinterlegung": ["hausnotruf-kosten-anbieter-vergleich", "hausnotruf-sturzerkennung-oder-knopf"],
     "hausnotruf-kuendigen": ["hausnotruf-kosten-anbieter-vergleich", "hilfsmittel-pflegekasse-uebernahme"],
     "hausnotruf-angehoerige-einrichten": ["hausnotruf-kosten-anbieter-vergleich", "hausnotruf-schluesselhinterlegung", "hausnotruf-mobil-gps-unterwegs"],
+    "treppenlift-unserioese-anbieter": ["treppenlift-angebote-vergleichen", "treppenlift-mieten", "treppenlift-kosten"],
     "wanne-zur-dusche": ["badumbau-angebote-vergleichen"]
   },
   "rationale": {
@@ -25,6 +26,7 @@
     "hausnotruf-mobil-gps-unterwegs": "Entscheidung stationaer vs. mobil: Sturzerkennung als Funktions-Follow-up, Kosten-/Vertragsratgeber mit Partner-Placements, Hilfsmittel-Antragsroute als Kassen-Weg (Cluster-intern care)",
     "hausnotruf-kuendigen": "Post-Kauf-Intention (kuendigen): Wechselnde vergleichen Anbieter mit Partner-Placements, Hilfsmittel-/Kassenroute fuer Zuschuss-Wechsel (Cluster-intern care)",
     "hausnotruf-schluesselhinterlegung": "Kaufnah vor Vertragsabschluss: Anleger vergleichen Anbieter (Hinterlegungskosten im Angebot klaeren), Systemwahl-Entscheidung sturzerkennung als Funktions-Follow-up (Cluster-intern care)",
-    "hausnotruf-angehoerige-einrichten": "Angehoerigen-Journey: Anleger vergleichen Anbieter mit Partner-Placements, Schluesselfrage als vertragsnahe Vorbereitung, Demenz-/Ortungsfrage als mobil-Follow-up (Cluster-intern care)"
+    "hausnotruf-angehoerige-einrichten": "Angehoerigen-Journey: Anleger vergleichen Anbieter mit Partner-Placements, Schluesselfrage als vertragsnahe Vorbereitung, Demenz-/Ortungsfrage als mobil-Follow-up (Cluster-intern care)",
+    "treppenlift-unserioese-anbieter": "Verkaufsdruck-Thema: sauberer Vergleich mit Voranschlags-/Festpreis-Mechanik als naechster Schritt (angebote-vergleichen), Vertragspruefung mit Mobilae-Klage-Kontext (mieten), Preisrahmen vor jedem Vergleich (kosten) — lift-intern, kein Cross-Cluster"
   }
 }
