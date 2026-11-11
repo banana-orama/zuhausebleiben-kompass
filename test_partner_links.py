@@ -118,8 +118,8 @@ def main():
             check('A1 partner markers only on addressed pages', not leaks, str(leaks[:5]))
             check('A2 partner markers present when active',
                   (total > 0) == bool(active_partners), f'found {total}')
-            check('A3 article count still >= 32',
-                  len(list((ROOT / 'dist-pl-inactive').glob('*.html'))) >= 32)
+            check('A3 article count still >= 33',
+                  len(list((ROOT / 'dist-pl-inactive').glob('*.html'))) >= 33)
 
             # --- Szenario F: Datenschutz spiegelt den Aktivierungsstand ---
             ds = read_html('dist-pl-inactive', 'datenschutz.html')

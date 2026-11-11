@@ -1,0 +1,253 @@
+{
+ "task": "briefing-23 treppenlift-foerderung-ohne-pflegegrad",
+ "checked_at": "2026-11-11",
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__113.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-113.txt",
+   "quotes": [
+    "Leistungen zur Sozialen Teilhabe werden erbracht, um eine gleichberechtigte Teilhabe am Leben in der Gemeinschaft zu ermöglichen oder zu erleichtern",
+    "Leistungen zur Sozialen Teilhabe sind insbesondere 1. Leistungen für Wohnraum, 2. Assistenzleistungen"
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__77.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-77.txt",
+   "quotes": [
+    "Leistungen für Wohnraum werden erbracht, um Leistungsberechtigten zu Wohnraum zu verhelfen, der zur Führung eines möglichst selbstbestimmten, eigenverantwortlichen Lebens geeignet ist.",
+    "Die Leistungen umfassen Leistungen für die Beschaffung, den Umbau, die Ausstattung und die Erhaltung von Wohnraum, der den besonderen Bedürfnissen von Menschen mit Behinderungen entspricht."
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__90.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-90.txt",
+   "quotes": [
+    "Aufgabe der Eingliederungshilfe ist es, Leistungsberechtigten eine individuelle Lebensführung zu ermöglichen, die der Würde des Menschen entspricht, und die volle, wirksame und gleichberechtigte Teilhabe am Leben in der Gesellschaft zu fördern."
+   ]
+  },
+  {
+   "n": 4,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__99.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-99.txt",
+   "quotes": [
+    "Leistungen der Eingliederungshilfe erhalten Menschen mit Behinderungen im Sinne von § 2 Absatz 1 Satz 1 und 2, die wesentlich in der gleichberechtigten Teilhabe an der Gesellschaft eingeschränkt sind (wesentliche Behinderung) oder von einer solchen wesentlichen Behinderung bedroht sind",
+    "Menschen mit anderen geistigen, seelischen, körperlichen oder Sinnesbeeinträchtigungen, durch die sie in Wechselwirkung mit einstellungs- und umweltbedingten Barrieren in der gleichberechtigten Teilhabe an der Gesellschaft eingeschränkt sind, können Leistungen der Eingliederungshilfe erhalten."
+   ]
+  },
+  {
+   "n": 5,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__2.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-2.txt",
+   "quotes": [
+    "Menschen mit Behinderungen sind Menschen, die körperliche, seelische, geistige oder Sinnesbeeinträchtigungen haben, die sie in Wechselwirkung mit einstellungs- und umweltbedingten Barrieren an der gleichberechtigten Teilhabe an der Gesellschaft mit hoher Wahrscheinlichkeit länger als sechs Monate hindern können."
+   ]
+  },
+  {
+   "n": 6,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__104.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-104.txt",
+   "quotes": [
+    "Die Leistungen der Eingliederungshilfe bestimmen sich nach der Besonderheit des Einzelfalles, insbesondere nach der Art des Bedarfes, den persönlichen Verhältnissen, dem Sozialraum und den eigenen Kräften und Mitteln",
+    "Die Wünsche der Leistungsberechtigten gelten nicht als angemessen,"
+   ]
+  },
+  {
+   "n": 7,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__117.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-117.txt",
+   "quotes": [
+    "Bestehen im Einzelfall Anhaltspunkte für eine Pflegebedürftigkeit nach dem Elften Buch, wird die zuständige Pflegekasse mit Zustimmung des Leistungsberechtigten vom Träger der Eingliederungshilfe informiert und muss am Gesamtplanverfahren beratend teilnehmen",
+    "Am Gesamtplanverfahren wird auf Verlangen des Leistungsberechtigten eine Person seines Vertrauens beteiligt."
+   ]
+  },
+  {
+   "n": 8,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__118.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-118.txt",
+   "quotes": [
+    "Die Ermittlung des individuellen Bedarfes des Leistungsberechtigten muss durch ein Instrument erfolgen, das sich an der Internationalen Klassifikation der Funktionsfähigkeit, Behinderung und Gesundheit orientiert."
+   ]
+  },
+  {
+   "n": 9,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__29.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-29.txt",
+   "quotes": [
+    "Auf Antrag der Leistungsberechtigten werden Leistungen zur Teilhabe durch die Leistungsform eines Persönlichen Budgets ausgeführt",
+    "An die Entscheidung sind die Leistungsberechtigten für die Dauer von sechs Monaten gebunden."
+   ]
+  },
+  {
+   "n": 10,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__32.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-32.txt",
+   "quotes": [
+    "fördert das Bundesministerium für Arbeit und Soziales eine von Leistungsträgern und Leistungserbringern unabhängige ergänzende Beratung als niedrigschwelliges Angebot, das bereits im Vorfeld der Beantragung konkreter Leistungen zur Verfügung steht"
+   ]
+  },
+  {
+   "n": 11,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__6.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-6.txt",
+   "quotes": [
+    "Träger der Leistungen zur Teilhabe (Rehabilitationsträger) können sein: 1. die gesetzlichen Krankenkassen für Leistungen nach § 5 Nummer 1 und 3",
+    "3. die Träger der gesetzlichen Unfallversicherung für Leistungen nach § 5 Nummer 1 bis 3 und 5",
+    "die Träger der gesetzlichen Rentenversicherung für Leistungen nach § 5 Nummer 1 bis 3"
+   ]
+  },
+  {
+   "n": 12,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__14.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-14.txt",
+   "quotes": [
+    "Werden Leistungen zur Teilhabe beantragt, stellt der Rehabilitationsträger innerhalb von zwei Wochen nach Eingang des Antrages bei ihm fest, ob er nach dem für ihn geltenden Leistungsgesetz für die Leistung zuständig ist",
+    "leitet er den Antrag unverzüglich dem nach seiner Auffassung zuständigen Rehabilitationsträger zu und unterrichtet hierüber den Antragsteller"
+   ]
+  },
+  {
+   "n": 13,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__47.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-47.txt",
+   "quotes": [
+    "Hilfsmittel (Körperersatzstücke sowie orthopädische und andere Hilfsmittel) nach § 42 Absatz 2 Nummer 6 umfassen die Hilfen, die von den Leistungsberechtigten getragen oder mitgeführt oder bei einem Wohnungswechsel mitgenommen werden können"
+   ]
+  },
+  {
+   "n": 14,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__135.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-135.txt",
+   "quotes": [
+    "Maßgeblich für die Ermittlung des Beitrages nach § 136 ist die Summe der Einkünfte des Vorvorjahres nach § 2 Absatz 2 des Einkommensteuergesetzes sowie bei Renteneinkünften die Bruttorente des Vorvorjahres."
+   ]
+  },
+  {
+   "n": 15,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__136.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-136.txt",
+   "quotes": [
+    "Ein Beitrag zu den Aufwendungen ist aufzubringen, wenn das Einkommen im Sinne des § 135 überwiegend 1. aus einer sozialversicherungspflichtigen Beschäftigung oder selbständigen Tätigkeit erzielt wird und 85 Prozent der jährlichen Bezugsgröße nach § 18 Absatz 1 des Vierten Buches übersteigt",
+    "aus einer nicht sozialversicherungspflichtigen Beschäftigung erzielt wird und 75 Prozent der jährlichen Bezugsgröße nach § 18 Absatz 1 des Vierten Buches übersteigt",
+    "aus Renteneinkünften erzielt wird und 60 Prozent der jährlichen Bezugsgröße nach § 18 Absatz 1 des Vierten Buches übersteigt"
+   ]
+  },
+  {
+   "n": 16,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__139.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-139.txt",
+   "quotes": [
+    "Zum Vermögen im Sinne dieses Teils gehört das gesamte verwertbare Vermögen.",
+    "eines Barvermögens oder sonstiger Geldwerte bis zu einem Betrag von 150 Prozent der jährlichen Bezugsgröße nach § 18 Absatz 1 des Vierten Buches"
+   ]
+  },
+  {
+   "n": 17,
+   "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__140.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb9-140.txt",
+   "quotes": [
+    "haben vor der Inanspruchnahme von Leistungen nach diesem Teil die erforderlichen Mittel aus ihrem Vermögen aufzubringen",
+    "soll die beantragte Leistung als Darlehen geleistet werden."
+   ]
+  },
+  {
+   "n": 18,
+   "url": "https://www.gesetze-im-internet.de/sgb_7/__26.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb7-26.txt",
+   "quotes": [
+    "Versicherte haben nach Maßgabe der folgenden Vorschriften und unter Beachtung des Neunten Buches Anspruch auf Heilbehandlung einschließlich Leistungen zur medizinischen Rehabilitation, auf Leistungen zur Teilhabe am Arbeitsleben und zur Sozialen Teilhabe, auf ergänzende Leistungen, auf Leistungen bei Pflegebedürftigkeit sowie auf Geldleistungen.",
+    "Hilfen zur Bewältigung der Anforderungen des täglichen Lebens und zur Teilhabe am Leben in der Gemeinschaft sowie zur Führung eines möglichst selbständigen Lebens"
+   ]
+  },
+  {
+   "n": 19,
+   "url": "https://www.gesetze-im-internet.de/sgb_6/__9.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb6-9.txt",
+   "quotes": [
+    "Die Träger der Rentenversicherung erbringen Leistungen zur Prävention, Leistungen zur medizinischen Rehabilitation, Leistungen zur Teilhabe am Arbeitsleben, Leistungen zur Nachsorge sowie ergänzende Leistungen"
+   ]
+  },
+  {
+   "n": 20,
+   "url": "https://deutsche-rentenversicherung.de/DRV/DE/Reha/Berufliche-Reha/berufliche-reha.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/drv-berufliche-reha.txt",
+   "quotes": [
+    "Wohnungshilfen sind Förderbeträge, die Sie für den behindertengerechten Um- und Ausbau Ihres Wohnbereichs erhalten können.",
+    "Die Baumaßnahmen müssen dazu beitragen, Ihren Arbeitsplatz möglichst barrierefrei und selbständig zu erreichen. Sie dürfen nicht in erster Linie einer besseren Lebensqualität dienen.",
+    "Wohnungshilfen der Rentenversicherung erstrecken sich nur auf den Bereich vor der Haus- bzw. vor der Wohnungstür, weil Maßnahmen innerhalb des Wohnbereichs zur persönlichen Lebensführung gehören."
+   ]
+  },
+  {
+   "n": 21,
+   "url": "https://www.dguv.de/de/reha_leistung/teilhabe/index.jsp",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/dguv-teilhabe.txt",
+   "quotes": [
+    "Sie umfasst neben der medizinischen Versorgung und den Leistungen zur Teilhabe am Arbeitsleben (LTA) auch Leistungen zur Sozialen Teilhabe (früher Teilhabe am Leben in der Gemeinschaft).",
+    "Hierunter fallen vor allem die Bereiche Familie, Freizeit, Kultur, Sport und Erholung, Kommunikation, Wohnen, Mobilität."
+   ]
+  },
+  {
+   "n": 22,
+   "url": "https://www.gesetze-im-internet.de/sgb_14/__66.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb14-66.txt",
+   "quotes": [
+    "Geschädigte, die auf Grund der Schädigungsfolgen zum leistungsberechtigten Personenkreis im Sinne von § 99 des Neunten Buches gehören, erhalten Leistungen zur Sozialen Teilhabe entsprechend Teil 2 Kapitel 6 des Neunten Buches."
+   ]
+  },
+  {
+   "n": 23,
+   "url": "https://www.gesetze-im-internet.de/sgb_12/__61.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb12-61.txt",
+   "quotes": [
+    "Personen, die pflegebedürftig im Sinne des § 61a sind, haben Anspruch auf Hilfe zur Pflege, soweit ihnen und ihren nicht getrennt lebenden Ehegatten oder Lebenspartnern nicht zuzumuten ist, dass sie die für die Hilfe zur Pflege benötigten Mittel aus dem Einkommen und Vermögen nach den Vorschriften des Elften Kapitels aufbringen."
+   ]
+  },
+  {
+   "n": 24,
+   "url": "https://www.gesetze-im-internet.de/sgb_12/__61a.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb12-61a.txt",
+   "quotes": [
+    "Pflegebedürftig sind Personen, die gesundheitlich bedingte Beeinträchtigungen der Selbständigkeit oder der Fähigkeiten aufweisen und deshalb der Hilfe durch andere bedürfen.",
+    "Fortbewegen innerhalb des Wohnbereichs, e) Treppensteigen;"
+   ]
+  },
+  {
+   "n": 25,
+   "url": "https://www.gesetze-im-internet.de/sgb_12/__64e.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb12-64e.txt",
+   "quotes": [
+    "Maßnahmen zur Verbesserung des Wohnumfeldes der Pflegebedürftigen können gewährt werden, 1. soweit sie angemessen sind und 2. durch sie a) die häusliche Pflege ermöglicht oder erheblich erleichtert werden kann oder b) eine möglichst selbständige Lebensführung der Pflegebedürftigen wiederhergestellt werden kann."
+   ]
+  },
+  {
+   "n": 26,
+   "url": "https://www.gesetze-im-internet.de/sgb_12/__2.html",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/sgb12-2.txt",
+   "quotes": [
+    "Sozialhilfe erhält nicht, wer sich vor allem durch Einsatz seiner Arbeitskraft, seines Einkommens und seines Vermögens selbst helfen kann oder wer die erforderliche Leistung von anderen, insbesondere von Angehörigen oder von Trägern anderer Sozialleistungen, erhält."
+   ]
+  },
+  {
+   "n": 27,
+   "url": "https://dserver.bundestag.de/btd/21/088/2108869.pdf",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/drucksache-21-8869.norm.txt",
+   "quotes": [
+    "ab 15 bis unter 30 Gesamtpunkten in den Pflegegrad 1: geringe Beeinträchtigungen der Selbständigkeit oder der Fähigkeiten",
+    "Übergangsregelung zur Anpassung der Schwellenwerte zum 1. Januar 2027",
+    "Die Zuordnung zu den Pflegegraden nach dem bis zum 31. Dezember 2026 geltenden Recht bleibt bis zur Vornahme einer Neubegutachtung und der nachfolgenden Einstufung durch die Pflegekasse bestehen",
+    "Dieses Gesetz tritt vorbehaltlich der Absätze 2 und 3 am 1. Januar 2027 in Kraft."
+   ]
+  },
+  {
+   "n": 28,
+   "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz",
+   "evidence": "research/evidence/ohne-pflegegrad-111126/bmg-pnog-pm.txt",
+   "quotes": [
+    "Die Begutachtungssystematik wird im Sinne der ursprünglichen wissenschaftlich empfohlenen Werte angepasst, so dass die Pflegegrade 1 bis 3 zielgenauer vergeben werden.",
+    "Für alle bereits in einen Pflegegrad eingestuften Personen gilt ein Bestandsschutz.",
+    "„Reha vor Pflege“: Im Rahmen der Pflegebegutachtung wird künftig konsequenter geprüft, ob eine Rehabilitation den Pflegebedarf spürbar senken kann."
+   ]
+  }
+ ]
+}

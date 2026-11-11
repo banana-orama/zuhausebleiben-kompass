@@ -13,6 +13,7 @@
     "hausnotruf-kuendigen": ["hausnotruf-kosten-anbieter-vergleich", "hilfsmittel-pflegekasse-uebernahme"],
     "hausnotruf-angehoerige-einrichten": ["hausnotruf-kosten-anbieter-vergleich", "hausnotruf-schluesselhinterlegung", "hausnotruf-mobil-gps-unterwegs"],
     "treppenlift-unserioese-anbieter": ["treppenlift-angebote-vergleichen", "treppenlift-mieten", "treppenlift-kosten"],
+    "treppenlift-foerderung-ohne-pflegegrad": ["treppenlift-zuschuss", "treppenlift-finanzierung", "treppenlift-gebraucht-oder-neu"],
     "wanne-zur-dusche": ["badumbau-angebote-vergleichen"]
   },
   "rationale": {
@@ -27,6 +28,7 @@
     "hausnotruf-kuendigen": "Post-Kauf-Intention (kuendigen): Wechselnde vergleichen Anbieter mit Partner-Placements, Hilfsmittel-/Kassenroute fuer Zuschuss-Wechsel (Cluster-intern care)",
     "hausnotruf-schluesselhinterlegung": "Kaufnah vor Vertragsabschluss: Anleger vergleichen Anbieter (Hinterlegungskosten im Angebot klaeren), Systemwahl-Entscheidung sturzerkennung als Funktions-Follow-up (Cluster-intern care)",
     "hausnotruf-angehoerige-einrichten": "Angehoerigen-Journey: Anleger vergleichen Anbieter mit Partner-Placements, Schluesselfrage als vertragsnahe Vorbereitung, Demenz-/Ortungsfrage als mobil-Follow-up (Cluster-intern care)",
-    "treppenlift-unserioese-anbieter": "Verkaufsdruck-Thema: sauberer Vergleich mit Voranschlags-/Festpreis-Mechanik als naechster Schritt (angebote-vergleichen), Vertragspruefung mit Mobilae-Klage-Kontext (mieten), Preisrahmen vor jedem Vergleich (kosten) — lift-intern, kein Cross-Cluster"
+    "treppenlift-unserioese-anbieter": "Verkaufsdruck-Thema: sauberer Vergleich mit Voranschlags-/Festpreis-Mechanik als naechster Schritt (angebote-vergleichen), Vertragspruefung mit Mobilae-Klage-Kontext (mieten), Preisrahmen vor jedem Vergleich (kosten) — lift-intern, kein Cross-Cluster",
+    "treppenlift-foerderung-ohne-pflegegrad": "Foerderungs-Thema ohne Pflegegrad: Pflegekassen-Route als Schritt 0 (zuschuss), Finanzierungsbausteine falls kein Titel greift (finanzierung), Gebrauchtkauf als Kostenhebel (gebraucht-oder-neu) — lift-intern, kein Cross-Cluster"
   }
 }

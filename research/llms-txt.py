@@ -62,6 +62,7 @@ SUMMARIES = {
     "hausnotruf-kuendigen": "Hausnotruf kündigen nach BGB-Wortlaut: Widerruf (14 Tage), gesetzliche Grenzen für Laufzeit und Frist (§ 309 Nr. 9), Kündigungsbutton beim Online-Abschluss (§ 312k), Todesfall (§ 1922), Pflegekassen-Vertragspartner-Falle beim Wechsel und Geräte-Rückgabe.",
     "hausnotruf-angehoerige-einrichten": "Hausnotruf für Angehörige einrichten: Bedarf ohne Diagnose erkennen, das Gespräch ohne Druck führen, klären wer unterschreibt (Vollmacht-Typen), die Pflegekassen-Route mit echten Voraussetzungen einschätzen und die Einrichtung samt Testalarm und Notfallplan begleiten.",
     "treppenlift-unserioese-anbieter": "Unseriöse Treppenlift-Anbieter erkennen: die dokumentierten Verkaufs-Tricks (Zeitdruck, unterschobener Widerrufs-Verzicht, Anzahlung ohne Voranschlag, Kaltakquise, intransparente Portale), die VZ-Betroffenen-Umfrage, die Verbandsklage gegen 18 Vertragsklauseln (I-13 UKl 17/26) und Ihre Rechte aus §§ 4a/5a/7 UWG und § 312g BGB.",
+    "treppenlift-foerderung-ohne-pflegegrad": "Treppenlift-Förderung ohne Pflegegrad: die drei realen Wege mit gesetzlicher Grundlage — Eingliederungshilfe (Leistungen für Wohnraum, §§ 113/77 SGB IX), Unfallversicherung (§ 26 SGB VII), Sozialamt/Hilfe zur Pflege (§ 64e SGB XII) — plus Einkommens- und Vermögensregeln (§§ 135 ff.), Antragsweg und die Grenzen von Rentenversicherung und Krankenkasse.",
 }
 
 # NOTE (2026-11-03, audit #9): the legacy entry page pflegegrad-beantragen was folded
@@ -71,7 +72,7 @@ SUMMARIES = {
 SECTION_MAP = [
     ("Treppenlift", ["treppenlift-kosten", "treppenlift-angebote-vergleichen", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
                      "treppenlift-mieten", "treppenlift-mietwohnung", "treppenlift-zuschuss", "treppenlift-steuerlich-absetzen",
-                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift", "treppenlift-sitzlift-oder-stehlift", "treppenlift-finanzierung", "treppenlift-unserioese-anbieter"]),
+                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift", "treppenlift-sitzlift-oder-stehlift", "treppenlift-finanzierung", "treppenlift-unserioese-anbieter", "treppenlift-foerderung-ohne-pflegegrad"]),
     ("Bad barrierefrei umbauen", ["bad-umbau-barrierefrei", "badumbau-angebote-vergleichen",
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),
     # pflegegrad-beantragen is NOT listed: the thin legacy stub was folded into the
