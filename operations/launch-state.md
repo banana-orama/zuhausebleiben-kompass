@@ -1,6 +1,8 @@
 # Launch-State: ZuhauseBleiben Kompass
 
-Aktualisiert: 2026-11-10 (Briefing 22 treppenlift-unserioese-anbieter live + deploy-verifiziert) · Verifizierte Tatsachen mit Datum; Offenes markiert.
+Aktualisiert: 2026-11-11 (Briefing 23 treppenlift-foerderung-ohne-pflegegrad live + deploy-verifiziert) · Verifizierte Tatsachen mit Datum; Offenes markiert.
+
+## 2026-11-11 (Briefing 23): treppenlift-foerderung-ohne-pflegegrad live — Commit c715267, CI 42992901718 success, Live-Readback 40/40 ALL PASS auf der öffentlichen URL (Artikel 200 index,follow, 15 Kernzahl-Wortlaute inkl. §-Schwellen-/Vorvorjahr-/Treppensteigen-Befunde, CTA → treppenlift-zuschuss, 0 Partner-Marker, SVG 200, Sitemap exakt 45 locs, RSS 34, Homepage, llms.txt), IndexNow 200. 34. Ratgeber. Details: research/treppenlift-foerderung-ohne-pflegegrad-batch.md + CONTENT-PIPELINE-STATE Batch 19.
 
 ## Phase-Übersicht
 
