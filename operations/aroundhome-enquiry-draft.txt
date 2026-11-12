@@ -40,3 +40,5 @@ https://zuhausebleiben-kompass.de/
 (Keychain/SMTP-Secret). Senden in Nutzer-Session oder nach Keychain-Freigabe; vor
 Absenden Bewerbungsdialog im Awin-Login (68536, Promotion „Content“) priorisieren —
 die Bewerbung im Netzwerk ist der eigentliche Gate, die Mail nur Ergänzung.]
+
+[Status: VERSANDT 12.11.2026 an affiliateprogramm@aroundhome.de, CC artefact (SMTP 250).]
