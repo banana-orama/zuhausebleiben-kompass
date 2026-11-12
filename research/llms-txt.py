@@ -56,6 +56,7 @@ SUMMARIES = {
     "beleuchtung-orientierung-im-alter": "Lichtplanung im Alter: Grundhelligkeit, Blendung vermeiden, Nachtlicht und Bewegungsmelder gezielt einsetzen.",
     "verhinderungspflege-tagespflege-ueberblick": "Verhinderungspflege (§ 39 SGB XI) und Tagespflege (§ 41): Ansprüche, Budgets und Entscheidungsmatrix.",
     "wohnumfeldverbesserung-beantragen": "Wohnumfeld-Zuschuss der Pflegekasse (§ 40 Abs. 4 SGB XI): bis 4.180 Euro je Maßnahme, Antrag vor dem Umbau, 3/5-Wochen-Frist mit Genehmigungsfiktion, Unterlagen-Checkliste und typische Ablehnungsgründe.",
+    "wohnung-anpassen-nach-krankenhausentlassung": "Wohnung nach der Krankenhausentlassung: Entlassmanagement (§ 39 Abs. 1a SGB V), Pflegebegutachtung im Krankenhaus binnen fünf Arbeitstagen (§ 18a Abs. 5 SGB XI), Bescheidfrist 25 Arbeitstage (§ 18c), Sozialdienst/Pflegeberatung/EUTB, Überbrückung mit Kurzzeitpflege (§ 42) und die Wohnumfeld-Antragsroute mit 3/5-Wochen-Frist — drei Zeithorizonte mit Checkliste.",
     "hausnotruf-mobil-gps-unterwegs": "Mobiler Hausnotruf mit GPS für unterwegs und ohne Festnetz: Funktionsweise, dokumentierte Kosten-Spannen, Pflegekasse (Basistarif vs. GPS-Aufpreis vs. Hilfsmittel-Weg 52.40.01), Laden-Routine und Zustimmungspflicht bei Ortung.",
     "hausnotruf-schluesselhinterlegung": "Die Schlüsselfrage beim Hausnotruf: vier Wege (Zweitschlüssel, Dienst-Verwahrung, Pflegedienst, Tresor) mit belegten, streuenden Kostenangaben, Notfall-Ablauf ohne Schlüssel (Feuerwehr-Faustregel, Schlüsseldienst-Abzocke, Urteilsberichte) und den Fragen fürs Einrichtungsgespräch.",
     "treppenlift-finanzierung": "Treppenlift finanzieren: belegte Herstellermodelle (50/50 zinsfrei in 12 Monaten, easyCredit-Raten 2 bis 60 Monate, individuelle Vereinbarungen mit dokumentierten Widersprüchen), Verbraucherdarlehen-Rechte im Gesetzestext (Widerruf, Sondertilgung, Vorfälligkeit), die Null-Prozent-Nuance und die Kredit-Reform ab 20.11.2026.",
@@ -83,7 +84,8 @@ SECTION_MAP = [
                                                 "rollator-auswahl-passform-kosten",
                                                 "hausnotruf-kosten-anbieter-vergleich", "hausnotruf-sturzerkennung-oder-knopf",
                                                 "hausnotruf-mobil-gps-unterwegs", "hausnotruf-schluesselhinterlegung", "hausnotruf-kuendigen",
-                                                "hausnotruf-angehoerige-einrichten"]),
+                                                "hausnotruf-angehoerige-einrichten",
+                                                "wohnung-anpassen-nach-krankenhausentlassung"]),
     ("Wohnen im Alltag", ["tuerbreiten-schwellen-schnellcheck", "beleuchtung-orientierung-im-alter",
                           "verhinderungspflege-tagespflege-ueberblick"]),
 ]

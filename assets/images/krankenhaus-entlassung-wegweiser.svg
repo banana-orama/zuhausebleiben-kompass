@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 620" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Wegweiser: die drei Zeithorizonte nach der Krankenhausentlassung</title>
+  <desc id="d1">Drei Baender mit jeweils drei nummerierten Schritten: Band 1 im Krankenhaus (Entlassmanagement und Einwilligung, Pflegebegutachtung binnen fuenf Arbeitstagen, Sozialdienst einschalten), Band 2 erste Tage zu Hause (Verordnungen bis sieben Tage einloesen, Kurzzeitpflege fuer Pflegegrade 2 bis 5 klaeren, Hausnotruf ohne Bau), Band 3 Wochen bis Monate (Bescheid spaetestens 25 Arbeitstage, Wohnumfeld-Antrag vor dem Umbau, erst nach der Foerderentscheidung Angebote vergleichen). Rechtsstand 12.11.2026.</desc>
+  <rect width="780" height="620" fill="#f4f7f5"/>
+  <rect width="780" height="64" fill="#1e5f4b"/>
+  <text x="24" y="40" font-size="21" font-weight="700" fill="#ffffff">Nach der Entlassung: drei Zeithorizonte</text>
+  <rect x="24" y="72" width="732" height="2" fill="#d8e2dc"/>
+
+  <!-- Band 1: Im Krankenhaus -->
+  <rect x="24" y="92" width="732" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc"/>
+  <rect x="24" y="92" width="732" height="30" rx="12" fill="#e8f0ec"/>
+  <text x="40" y="113" font-size="15" font-weight="700" fill="#1e5f4b">Im Krankenhaus</text>
+  <circle cx="52" cy="148" r="12" fill="#1e5f4b"/>
+  <text x="52" y="153" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="76" y="145" font-size="13.5" fill="#243b35">Entlassmanagement-Gespräch führen, Einwilligung erteilen</text>
+  <text x="76" y="163" font-size="12" fill="#53655e">§ 39 Abs. 1a SGB V — ohne Einwilligung keine Datenweitergabe</text>
+  <circle cx="52" cy="184" r="12" fill="#1e5f4b"/>
+  <text x="52" y="189" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="76" y="181" font-size="13.5" fill="#243b35">Pflegebegutachtung im Krankenhaus anstoßen</text>
+  <text x="76" y="199" font-size="12" fill="#53655e">spätestens am 5. Arbeitstag nach Antrag (§ 18a Abs. 5 SGB XI)</text>
+  <circle cx="52" cy="220" r="12" fill="#1e5f4b"/>
+  <text x="52" y="225" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="76" y="217" font-size="13.5" fill="#243b35">Sozialdienst einschalten — er organisiert die Anschlussversorgung</text>
+  <text x="76" y="235" font-size="12" fill="#53655e">Kassen beraten nach § 7a SGB XI; EUTB als unabhängige Beratung</text>
+
+  <!-- Band 2: Erste Tage zu Hause -->
+  <rect x="24" y="252" width="732" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc"/>
+  <rect x="24" y="252" width="732" height="30" rx="12" fill="#e8f0ec"/>
+  <text x="40" y="273" font-size="15" font-weight="700" fill="#1e5f4b">Erste Tage zu Hause</text>
+  <circle cx="52" cy="308" r="12" fill="#3a7d5c"/>
+  <text x="52" y="313" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="76" y="305" font-size="13.5" fill="#243b35">Entlass-Verordnungen einlösen — Zeitraum bis zu 7 Tage</text>
+  <text x="76" y="323" font-size="12" fill="#53655e">Häusliche Krankenpflege, Haushaltshilfe, Heil- und Hilfsmittel</text>
+  <circle cx="52" cy="344" r="12" fill="#3a7d5c"/>
+  <text x="52" y="349" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="76" y="341" font-size="13.5" fill="#243b35">Kurzzeitpflege als Übergangszeit klären</text>
+  <text x="76" y="359" font-size="12" fill="#53655e">Pflegegrade 2 bis 5, acht Wochen pro Kalenderjahr (§ 42 SGB XI)</text>
+  <circle cx="52" cy="380" r="12" fill="#3a7d5c"/>
+  <text x="52" y="385" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+  <text x="76" y="377" font-size="13.5" fill="#243b35">Notfall-Weg sichern: Hausnotruf kommt ohne Bau aus</text>
+  <text x="76" y="395" font-size="12" fill="#53655e">Kosten und Anbieter behandelt unser Vergleichs-Ratgeber</text>
+
+  <!-- Band 3: Wochen bis Monate -->
+  <rect x="24" y="412" width="732" height="150" rx="12" fill="#ffffff" stroke="#d8e2dc"/>
+  <rect x="24" y="412" width="732" height="30" rx="12" fill="#e8f0ec"/>
+  <text x="40" y="433" font-size="15" font-weight="700" fill="#1e5f4b">Wochen bis Monate</text>
+  <circle cx="52" cy="468" r="12" fill="#77521c"/>
+  <text x="52" y="473" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+  <text x="76" y="465" font-size="13.5" fill="#243b35">Pflegegrad-Bescheid — spätestens 25 Arbeitstage nach Antrag</text>
+  <text x="76" y="483" font-size="12" fill="#53655e">§ 18c SGB XI; Mitteilung kann ans Krankenhaus erfolgen</text>
+  <circle cx="52" cy="504" r="12" fill="#77521c"/>
+  <text x="52" y="509" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
+  <text x="76" y="501" font-size="13.5" fill="#243b35">Wohnumfeld-Antrag stellen — vor dem ersten Handwerksauftrag</text>
+  <text x="76" y="519" font-size="12" fill="#53655e">Entscheidung binnen 3 bis 5 Wochen (§ 40 Abs. 7 SGB XI)</text>
+  <circle cx="52" cy="540" r="12" fill="#77521c"/>
+  <text x="52" y="545" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+  <text x="76" y="537" font-size="13.5" fill="#243b35">Erst nach der Förder-Entscheidung Angebote vergleichen</text>
+  <text x="76" y="555" font-size="12" fill="#53655e">Umbauvertrag erst mit bewilligten Maßnahmen binden</text>
+
+  <rect x="24" y="576" width="732" height="2" fill="#d8e2dc"/>
+  <text x="24" y="602" font-size="12" fill="#53655e">Rechtsstand 12.11.2026 · KI-Illustration, schematisch · keine Bewilligungsgarantie</text>
+</svg>

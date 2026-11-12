@@ -17,7 +17,7 @@ LINKS = CL.get("links", {})
 fails = []
 
 def is_bad(s): return "bad" in s or "wanne" in s or "dusche" in s
-def is_care(s): return bool(re.match(r"^(hausnotruf|pflegegrad|hilfsmittel|rollator|verhinderungspflege|tuerbreiten|beleuchtung|wohnumfeld)", s))
+def is_care(s): return bool(re.match(r"^(hausnotruf|pflegegrad|hilfsmittel|rollator|verhinderungspflege|tuerbreiten|beleuchtung|wohnumfeld|wohnung-anpassen)", s))
 def is_lift(s): return s.startswith("treppenlift")
 def cluster(s): return "bad" if is_bad(s) else "care" if is_care(s) else "lift"
 def in_cluster(src, t):

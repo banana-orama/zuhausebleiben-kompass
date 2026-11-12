@@ -1,0 +1,143 @@
+{
+ "slug": "wohnung-anpassen-nach-krankenhausentlassung",
+ "title": "Krankenhausentlassung: Wohnung anpassen",
+ "description": "Entlassmanagement einfordern, Pflegebegutachtung im Krankenhaus nutzen, Förderrouten mit Fristen und Überbrückung: die drei Zeithorizonte nach der Entlassung.",
+ "h1": "Wohnung nach der Krankenhausentlassung anpassen: die drei Zeithorizonte",
+ "intro": [
+  "Ein Klinikaufenthalt endet oft mit einer Situation, für die niemand vorbereitet ist: Die Treppe ist plötzlich unüberwindbar, das Bad nicht mehr sicher nutzbar, und die Entlassung steht für morgen im Plan. Genau dafür gibt es im Sozialrecht eine konkrete Abfolge: Das Krankenhaus muss ein Entlassmanagement organisieren [1], die Pflegekasse muss eine Pflegebegutachtung schon im Krankenhaus durchführen, wenn die Weiterversorgung es verlangt — spätestens am fünften Arbeitstag nach dem Antrag [4] — und die Förderung der Wohnung gehört in einen eigenen Antrag mit eigener Frist, lange bevor der erste Handwerksauftrag startet [8].",
+  "Dieser Ratgeber ordnet die Schritte in drei Zeithorizonte: was noch im Krankenhaus zu klären ist, was in den ersten Tagen zu Hause läuft und was in den Wochen danach folgt. Alle Rechtsangaben stammen aus den verlinkten Gesetzestexten, dem Rahmenvertrag Entlassmanagement in der Fassung vom 19.11.2025 sowie BMG-, Kassen- und Verbraucherquellen, abgerufen am 12.11.2026. Förderbeträge und Programmstatus führen wir bewusst nicht hier, sondern in den verlinkten Förder-Ratgebern — keiner dieser Wege garantiert eine Bewilligung."
+ ],
+ "sections": [
+  {
+   "heading": "Kurz beantwortet: die drei Zeithorizonte",
+   "paragraphs": [
+    "Nach einer Krankenhausentlassung laufen drei Uhren mit sehr unterschiedlichen Geschwindigkeiten. Im Krankenhaus entscheiden Entlassmanagement und Pflegebegutachtung darüber, wie schnell Pflegegrade, Verordnungen und Übergangsleistungen feststehen [1][4]. In den ersten Tagen zu Hause tragen Verordnungen mit einem Geltungszeitraum von bis zu sieben Tagen und Übergangsleistungen wie die Kurzzeitpflege die Versorgung [1][9]. Und in den Wochen danach laufen die Förder-Anträge für die Wohnung, deren Entscheidung die Pflegekasse innerhalb von drei bis fünf Wochen treffen muss [8]. Wer die Reihenfolge kennt, verliert keine dieser Fristen — und unterschreibt keinen Umbauvertrag, bevor die Förder-Entscheidung da ist."
+   ],
+   "table": {
+    "headers": ["Zeithorizont", "Was geschieht", "Ihr Zug", "Rechtsgrundlage"],
+    "rows": [
+     ["Im Krankenhaus", "Entlassplan und Verordnungen, Pflegebegutachtung auf Wunsch vor Ort", "Entlassmanagement-Gespräch führen, Einwilligung erteilen, Begutachtung anstoßen", "§ 39 Abs. 1a SGB V [1]; § 18a Abs. 5 SGB XI [4]"],
+     ["Erste Tage zu Hause", "Verordnungen bis zu sieben Tage, Kurzzeitpflege als Übergangszeit", "Verordnungen zeitnah einlösen, Übergangsleistungen aktivieren", "§ 39 Abs. 1a SGB V [1]; § 42 SGB XI [9]"],
+     ["Wochen bis Monate", "Pflegegrad-Bescheid, Entscheidung über Wohnumfeld-Zuschuss", "Antrag vor dem Umbau, danach Angebote vergleichen", "§ 18c SGB XI [5]; § 40 Abs. 7 SGB XI [8]"]
+    ]
+   }
+  },
+  {
+   "heading": "Entlassmanagement: der gesetzliche Anspruch ab dem Aufenthalt",
+   "paragraphs": [
+    "Die Krankenhausbehandlung umfasst nach § 39 Absatz 1a SGB V ein Entlassmanagement „zur Unterstützung einer sektorenübergreifenden Versorgung der Versicherten beim Übergang in die Versorgung nach Krankenhausbehandlung“ [1]. Es umfasst alle Leistungen, die für die Versorgung danach erforderlich sind — ausdrücklich auch „alle dafür erforderlichen Leistungen nach dem Elften Buch“, also der Pflegerecht [1]. Der Anspruch ist doppelt verankert: Gegenüber dem Krankenhaus besteht der Anspruch auf das Entlassmanagement selbst, gegenüber der Krankenkasse beziehungsweise Pflegekasse ein Anspruch auf dessen Unterstützung; soweit Hilfen durch die Pflegeversicherung in Betracht kommen, kooperieren Kranken- und Pflegekassen miteinander [1][3].",
+    "Der Rahmenvertrag konkretisiert das: Das Krankenhaus stellt ein standardisiertes Entlassmanagement in multidisziplinärer Zusammenarbeit sicher und etabliert schriftliche, für alle Beteiligten transparente Standards [3]. Zum Beteiligtenkreis gehören ausdrücklich Ärzteschaft, Pflegepersonal, Sozialdienst und Krankenhausapothekerschaft [3]. Das Bundesgesundheitsministerium ergänzt die Praxisanforderung: Krankenhäuser erfassen den patientenindividuellen Bedarf für die Anschlussversorgung „möglichst frühzeitig“ mit einem geeigneten Assessment und stellen einen Entlassplan auf [2]. Der Entlassplan prüft zugleich, welche verordnungs- oder veranlassungsfähigen Leistungen danach gebraucht werden — das Ministerium nennt ausdrücklich Kurzzeitpflege und Haushaltshilfe als Beispiele [2]. Sobald Bedarf für eine Unterstützung durch die Kranken- oder Pflegekasse festgestellt wird, nimmt das Krankenhaus rechtzeitig Kontakt auf — namentlich bei Pflegebedarf samt Pflegegrad-Antrag und der Einbeziehung der Pflegeberatung nach § 7a SGB XI, bei Häuslicher Krankenpflege, Haushaltshilfe, Rehabilitation, Hilfsmittelversorgung und im Rahmen der Übergangsversorgung (Kurzzeitpflege) [2]. Ihre Wahlrechte — freie Arztwahl und die Wahle bei den Pflegeleistungen — bleiben dabei gewahrt [2]."
+   ],
+   "bullets": [
+    "Ohne Ihre Einwilligung läuft nichts: Das Entlassmanagement und die Datenweitergabe dürfen nur mit Einwilligung und nach vorheriger Information erfolgen, Information und Einwilligung müssen schriftlich oder elektronisch geschehen [1].",
+    "Angehörige können einbezogen werden: Auf Wunsch können auch Angehörige oder Bezugspersonen in die Beratung einbezogen werden — sagen Sie das im Entlassgespräch ausdrücklich [10].",
+    "Die Übergangs-Verordnung nutzt ein enges Zeitfenster: Klinikärzte können unter anderem Medikamente (kleinste Packungsgröße), Verband-, Heil- und Hilfsmittel, häusliche Krankenpflege oder eine Haushaltshilfe für bis zu 7 Tage verordnen [1][11].",
+    "Zum Entlassbrief gehören in der Regel ein Medikationsplan und gegebenenfalls ein Pflegeüberleitungsbogen — er gibt Pflegediensten und Reha-Einrichtungen die Übergabe [11]."
+   ]
+  },
+  {
+   "heading": "Pflegebegutachtung im Krankenhaus: die Fünf-Arbeitstage-Klausel",
+   "paragraphs": [
+    "Die wichtigste — und am seltensten genannte — Frist steht in § 18a Absatz 5 SGB XI: Die Begutachtung ist unverzüglich, spätestens am fünften Arbeitstag nach Antragseingang durchzuführen, wenn sich der Antragsteller im Krankenhaus oder in einer stationären Rehabilitationseinrichtung befindet [4]. Die Voraussetzung dazu: Es liegen Hinweise vor, dass zur Sicherstellung der ambulanten oder stationären Weiterversorgung und Betreuung eine Begutachtung in der Einrichtung erforderlich ist [4]. Genau das ist bei einer Entlassung in eine unangepasste Wohnung der Fall — nennen Sie dieses Ziel im Antrag und gegenüber dem Sozialdienst wörtlich. Die Pflegekasse ihrerseits muss den Begutachtungsauftrag innerhalb von drei Arbeitstagen an den Medizinischen Dienst übermitteln [6].",
+    "Zwei Grenzen gehören zur Ehrlichkeit: Erstens ist die Krankenhaus-Begutachtung eine verkürzte Prüfung — die Empfehlung muss nur die Feststellung beinhalten, ob Pflegebedürftigkeit vorliegt und ob mindestens die Voraussetzungen des Pflegegrades 2 erfüllt sind; die abschließende Begutachtung wird unverzüglich nachgeholt [4]. Zweitens ist die Fünf-Arbeitstage-Frist keine Selbstlauf-Einrichtung: Sie setzt den Antrag voraus und den Hinweis auf die Weiterversorgung. Ohne Antrag läuft in den fünf Tagen nichts.",
+    "Die Bescheidfrist steht in § 18c Absatz 1 SGB XI: Die Pflegekasse muss über den Antrag spätestens 25 Arbeitstage nach Eingang schriftlich entscheiden [5] — das sind etwa fünf Kalenderwochen. Im Krankenhausfall darf die Mitteilung unmittelbar an das Krankenhaus, die Reha-Einrichtung oder das Hospiz in gesicherter elektronischer Form erfolgen [5].",
+    "Zur Einordnung: Der sichtbarste Konkurrenz-Ratgeber zur Wohnung nach einem Schlaganfall listet Förderbeträge zur Wohnumfeldverbesserung — erwähnt aber das Entlassmanagement kein einziges Mal und nennt keine der Krankenhaus-Fristen [14]. Genau diese Lücke füllt dieser Artikel: Die Fristen im Krankenhaus entscheiden, ob die Förder-Anträge Wochen früher laufen."
+   ]
+  },
+  {
+   "heading": "Wer konkret hilft: Sozialdienst, Pflegeberatung, EUTB",
+   "paragraphs": [
+    "Der Klinik-Sozialdienst ist die zentrale Anlaufstelle: Wird während der Behandlung festgestellt, dass Sie nach dem Aufenthalt weitere Unterstützung benötigen, organisiert der Sozialdienst der jeweiligen Einrichtung die notwendige Anschlussversorgung [12]. Dafür braucht er Ihre schriftliche Einwilligungserklärung [12] — und Ihr Zureden, wenn es nicht von allein passiert: Für den Fall, dass das Krankenhaus oder die Reha-Einrichtung nicht von sich aus die Nachversorgung vorbereiten, sollten Sie oder Ihre Angehörigen die behandelnde Ärztin, den behandelnden Arzt oder den Sozialdienst der Klinik ansprechen [12]. Das offizielle Gesundheitsportal des Bundes empfiehlt dasselbe: Da eine Entlassung manchmal kurzfristig erfolgt, sollten Sie frühzeitig das Gespräch mit dem Krankenhauspersonal suchen, insbesondere dem Sozialdienst [10].",
+    "Zwei Beratungsangebote laufen parallel und sind kostenlos: Die Pflegeberatung nach § 7a SGB XI steht Personen mit Leistungen der Pflegeversicherung zu — sie hilft bei der Auswahl von Sozialleistungen und Hilfsangeboten rund um Pflege-, Versorgungs- oder Betreuungsbedarf [7]; ein Anspruch auf Pflegeberatung besteht auch dann, wenn ein Antrag gestellt wurde und erkennbar ein Hilfe- und Beratungsbedarf besteht [7]. Der BMG-Ablauf sieht ausdrücklich vor, dass das Krankenhaus die Pflegeberatung nach § 7a SGB XI in den Entlassplan einbezieht [2]. Daneben gibt es die Ergänzende unabhängige Teilhabeberatung (EUTB) nach § 32 SGB IX: ein von Leistungsträgern und Leistungserbringern unabhängiges, niedrigschwelliges Angebot, das bereits im Vorfeld der Beantragung konkreter Leistungen zur Verfügung steht [15] — nützlich, wenn Sie eine zweite Meinung neben Kasse und Klinik wollen."
+   ]
+  },
+  {
+   "heading": "Wohnraumanpassung finanzieren: die Pflegekassen-Route mit ihren Fristen",
+   "paragraphs": [
+    "Für die eigentliche Wohnungsumsetzung gilt eine eigene Antragstrecke: Die Pflegekassen können subsidiär finanzielle Zuschüsse für Maßnahmen zur Verbesserung des individuellen Wohnumfeldes gewähren — beispielsweise für technische Hilfen im Haushalt —, wenn dadurch im Einzelfall die häusliche Pflege ermöglicht oder erheblich erleichtert oder eine möglichst selbständige Lebensführung wiederhergestellt wird [8]. Das ist eine Ermessensleistung mit Zielbindung, keine Automatik. Und die Reihenfolge ist bindend: Der Antrag gehört vor dem Umbau-Beginn — dazu, samt Unterlagen-Liste und typischen Ablehnungsgründen, führt unser Ratgeber zum Wohnumfeld-Zuschuss.",
+    "Die Entscheidungsfrist hilft bei der Auftragsplanung: Die Pflegekasse muss über einen Antrag auf Pflegehilfsmittel oder Zuschüsse zu wohnumfeldverbessernden Maßnahmen zügig entscheiden, spätestens binnen drei Wochen nach Antragseingang — oder binnen fünf Wochen, wenn eine Pflegefachperson oder der Medizinische Dienst beteiligt wird [8]. Erst nach dieser Entscheidung sollten verbindliche Umbauverträge stehen; unser Ratgeber zur Treppenlift-Förderung zeigt zusätzlich, welche Wege bestehen, wenn kein Pflegegrad vorliegt.",
+    "Eine Grenze gehört auch hier dazu: Als Hilfsmittel der Teilhabe zählen nach § 47 SGB IX nur die Hilfen, die von den Leistungsberechtigten getragen oder mitgeführt oder bei einem Wohnungswechsel mitgenommen werden können [16] — ein fest eingebauter Treppenlift fällt darunter nicht, und auch der Wohnumfeld-Zuschuss der Pflegekasse setzt einen Pflegegrad voraus. Ohne Pflegegrad laufen andere Träger-Routen mit eigenen Voraussetzungen; wir haben sie in einem eigenen Ratgeber mit den gesetzlichen Grundlagen aufgeschlüsselt."
+   ]
+  },
+  {
+   "heading": "Überbrücken, bis der Umbau steht",
+   "paragraphs": [
+    "Zwischen Entlassung und fertigem Umbau liegen Wochen — oft Monate. Das Gesetz kennt dafür eine eigens auf den Klinik-Übergang zugeschnittene Leistung: Kann die häusliche Pflege zeitweise nicht, noch nicht oder nicht im erforderlichen Umfang erbracht werden und reicht auch teilstationäre Pflege nicht aus, besteht für Pflegebedürftige der Pflegegrade 2 bis 5 Anspruch auf Pflege in einer vollstationären Einrichtung — ausdrücklich auch für eine Übergangszeit im Anschluß an eine stationäre Behandlung [9]. Der Anspruch auf Kurzzeitpflege ist auf acht Wochen pro Kalenderjahr beschränkt [9]. Für Pflegegrad 1 gilt das nicht — dessen Anträge laufen über andere Leistungen.",
+    "Wer direkt aus dem Krankenhaus, aus der Übergangspflege oder aus der Reha in die Kurzzeitpflege wechselt, hat sogar eine eigene Begutachtungs-Frist: Nimmt der Versicherte unmittelbar im Anschluss Kurzzeitpflege in Anspruch, hat die abschließende Begutachtung spätestens am zehnten Arbeitstag nach Beginn der Kurzzeitpflege zu erfolgen [4]. Nutzen Sie zusätzlich das Verordnungsfenster: Die Entlass-Verordnungen für häusliche Krankenpflege und Haushaltshilfe gelten bis zu sieben Tage [1][11] — ihr Zeitraum ist knapp bemessen, also am Entlassungstag beim Pflegedienst anfragen, nicht eine Woche später.",
+    "Für die eigene Wohnung ist in der ersten Woche vor allem eins wichtig: Wege und Räume, die ohne Umbau nutzbar bleiben, und ein Notfall-Weg für den Fall eines Sturzes in der Übergangszeit. Ein Hausnotruf braucht keinen Bau und ist eine der wenigen Maßnahmen, die sich innerhalb von Tagen statt Monaten einrichten lässt — Kosten und Anbieter-Unterschiede behandelt unser Vergleichs-Ratgeber; er ersetzt keinen Sturzschutz und keine fachliche Wohnraumbewertung."
+   ]
+  },
+  {
+   "heading": "Reihenfolge-Checkliste: von der Aufnahme bis zum Auftragsstart",
+   "bullets": [
+    "Im Krankenhaus früh den Sozialdienst ansprechen und das Entlassmanagement-Gespräch führen — die Entlassung erfolgt manchmal kurzfristig [10].",
+    "Einwilligung für das Entlassmanagement schriftlich oder elektronisch erteilen — ohne sie ist keine Datenweitergabe erlaubt [1].",
+    "Antrag auf Feststellung der Pflegebedürftigkeit stellen und die Begutachtung im Krankenhaus anstoßen — Ziel „sicherstellen der Weiterversorgung“ nennen; Begutachtung spätestens am fünften Arbeitstag [4].",
+    "Entlassverordnungen (bis zu 7 Tage) und den Entlassbrief mit Medikationsplan und Pflegeüberleitungsbogen mitnehmen [11].",
+    "Pflegeberatung nach § 7a SGB XI benennen lassen — der Anspruch besteht auch bei laufendem Antrag mit erkennbarem Bedarf [7].",
+    "Übergangsleistungen klären: Kurzzeitpflege für Pflegegrade 2 bis 5, acht Wochen pro Kalenderjahr [9].",
+    "EUTB-Beratung früh nutzen — unabhängig von den Trägern, schon vor konkreten Anträgen [15].",
+    "Wohnumfeld-Antrag vor dem Umbau-Beginn stellen; die Entscheidung kommt binnen drei bis fünf Wochen [8].",
+    "Erst nach der Förder-Entscheidung verbindliche Umbauverträge abschließen und Angebote anhand der bewilligten Maßnahmen vergleichen [8].",
+    "Ohne Pflegegrad: die Träger-Routen (Eingliederungshilfe, Unfallversicherung, Sozialamt) im eigenen Ratgeber prüfen, bevor Sie Eigenmittel binden."
+   ]
+  },
+  {
+   "heading": "Zwei Fehlannahmen — und die Praxislücke",
+   "paragraphs": [
+    "Erste Fehlannahme: „Das Krankenhaus organisiert das schon.“ Der Anspruch auf das Entlassmanagement besteht zwar gegenüber dem Krankenhaus [3] — aber ohne Ihre schriftliche oder elektronische Einwilligung darf nichts weitergegeben werden [1], und die Praxis sieht anders aus als der Gesetzestext: Nach einem Aufruf der Sozialverbandes VdK berichteten weit über 100 VdK-Mitglieder über ihre Erfahrungen mit dem Sozialdienst nach einem überstandenen Krankenhausaufenthalt [13]; es „kann es passieren, dass nach einer überstandenen Operation hilflose Patientinnen oder Patienten nach Hause entlassen werden, ohne dass die Versorgung durch Pflege, Haushaltshilfe oder ausreichende Medikamente sichergestellt ist und organisiert wird“ [13]. Die VdK-Präsidentin bringt es auf den Punkt: „Der Anspruch auf ein Entlassmanagement steht unmissverständlich im Gesetz. Nun muss es auch funktionieren“ [13]. Die Konsequenz für Ihre Familie: selbst ansprechen, selbst nachfragen, den Entlassbrief samt Ansprechpartner-Rufnummer zu den Unterlagen nehmen [11][12].",
+    "Zweite Fehlannahme: „Das Entlassmanagement zahlt den Umbau.“ Es organisiert und verordnet Übergangsleistungen — Verordnungen gelten bis zu sieben Tage [1][11]; die eigentliche Wohnraumanpassung läuft über separate Träger mit eigenen Anträgen: der Wohnumfeld-Zuschuss als Ermessensleistung der Pflegekasse [8] oder — ohne Pflegegrad — die Träger-Routen unseres Förderungs-Ratgebers. Keine dieser Stellen garantiert eine Bewilligung; alle Zahlen zu Beträgen und Programmständen führen die verlinkten Ratgeber mit Quellenstand."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "question": "Kann die Pflegebegutachtung wirklich schon im Krankenhaus stattfinden?",
+   "answer": "Ja. § 18a Absatz 5 SGB XI verlangt die Begutachtung unverzüglich, spätestens am fünften Arbeitstag nach Antragseingang, wenn sich der Antragsteller im Krankenhaus oder in einer stationären Rehabilitationseinrichtung befindet und Hinweise für eine zur Sicherstellung der Weiterversorgung erforderliche Begutachtung vorliegen [4]. Die Krankenhaus-Prüfung ist verkürzt (mindestens Pflegegrad 2), die abschließende Begutachtung wird unverzüglich nachgeholt [4]."
+  },
+  {
+   "question": "Was tun, wenn das Krankenhaus nichts organisiert?",
+   "answer": "Selbst ansprechen: Für den Fall, dass das Krankenhaus oder die Reha-Einrichtung nicht von sich aus die Nachversorgung vorbereiten, sollten Sie oder Ihre Angehörigen die behandelnde Ärztin, den behandelnden Arzt oder den Sozialdienst der Klinik ansprechen [12]. Der Anspruch selbst steht im Gesetz — er setzt aber Ihre Einwilligung und Ihren Antrag voraus [1][4]. Der Sozialverband VdK dokumentiert, dass die Praxis dennoch lückenhaft sein kann [13]."
+  },
+  {
+   "question": "Brauche ich für das Entlassmanagement eine Unterschrift?",
+   "answer": "Ja. Das Entlassmanagement und die erforderliche Datenverarbeitung dürfen nur mit Einwilligung und nach vorheriger Information des Versicherten erfolgen; Information und Einwilligung müssen schriftlich oder elektronisch geschehen [1]. Auch der Klinik-Sozialdienst benötigt für seine Tätigkeit Ihre schriftliche Einwilligungserklärung [12]."
+  },
+  {
+   "question": "Wie schnell steht der Pflegegrad-Bescheid nach einem Antrag aus dem Krankenhaus?",
+   "answer": "Die Pflegekasse muss spätestens 25 Arbeitstage nach Antragseingang schriftlich entscheiden [5] — etwa fünf Kalenderwochen. Die Begutachtung im Krankenhaus selbst ist auf den fünften Arbeitstag befristet, wenn die Weiterversorgung es erfordert [4]; die Auftragsübermittlung an den Medizinischen Dienst muss binnen drei Arbeitstagen erfolgen [6]."
+  },
+  {
+   "question": "Übernimmt das Entlassmanagement die Kosten für Treppenlift oder Badumbau?",
+   "answer": "Nein. Das Entlassmanagement organisiert den Übergang und umfasst Verordnungen von bis zu sieben Tagen für Übergangsleistungen [1][11]. Zuschüsse für wohnumfeldverbessernde Maßnahmen sind eine eigene Ermessensleistung der Pflegekasse mit eigener Antragstrecke und einer Entscheidungsfrist von drei bis fünf Wochen [8]. Beträge, Voraussetzungen und weite Routen behandeln unsere Ratgeber zum Wohnumfeld-Zuschuss und zur Treppenlift-Förderung."
+  },
+  {
+   "question": "Was gilt, wenn kein Pflegegrad vorliegt oder die Kurzzeitpflege nicht greift?",
+   "answer": "Kurzzeitpflege steht Pflegegraden 2 bis 5 zu [9]. Ohne Pflegegrad laufen Wohnraumanpassungen über andere Träger: Eingliederungshilfe mit Leistungen für Wohnraum, gesetzliche Unfallversicherung nach Arbeitsunfall oder Sozialamt — mit eigenen Voraussetzungen und Antragswegen, die wir mit den gesetzlichen Grundlagen in einem eigenen Ratgeber aufgeschlüsselt haben."
+  }
+ ],
+ "image": {
+  "src": "assets/images/krankenhaus-entlassung-wegweiser.svg",
+  "alt": "Wegweiser mit drei Zeitbändern: im Krankenhaus Entlassmanagement und Begutachtung anstoßen, in den ersten Tagen Verordnungen und Kurzzeitpflege nutzen, in den Wochen danach Förderanträge vor dem Umbau stellen",
+  "caption": "Die drei Zeithorizonte nach der Krankenhausentlassung (KI-Illustration, schematisch, keine Abbildung eines realen Ablaufs; Rechtsstand 12.11.2026)"
+ },
+ "sources": [
+  {"title": "§ 39 SGB V — Krankenhausbehandlung (Abs. 1a Entlassmanagement)", "url": "https://www.gesetze-im-internet.de/sgb_5/__39.html", "checked_at": "2026-11-12"},
+  {"title": "Bundesgesundheitsministerium — Entlassmanagement (Begriffsseite)", "url": "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/e/entlassmanagement", "checked_at": "2026-11-12"},
+  {"title": "Rahmenvertrag Entlassmanagement nach § 39 Absatz 1a SGB V — Lesefassung in der Fassung der 14. Änderungsvereinbarung vom 19.11.2025 (GKV-Spitzenverband, PDF)", "url": "https://gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/amb_stat_vers/entlassmanagement/14._AendVb_Rahmenvertrag_Entlassmanagement_19.11.2025_Lesefassung_ohne_Anlagen.pdf", "checked_at": "2026-11-12"},
+  {"title": "§ 18a SGB XI — Begutachtungsverfahren (Abs. 5 Krankenhaus-Begutachtung binnen fünf Arbeitstagen)", "url": "https://www.gesetze-im-internet.de/sgb_11/__18a.html", "checked_at": "2026-11-12"},
+  {"title": "§ 18c SGB XI — Entscheidung über den Antrag, Fristen (25 Arbeitstage)", "url": "https://www.gesetze-im-internet.de/sgb_11/__18c.html", "checked_at": "2026-11-12"},
+  {"title": "§ 18 SGB XI — Beauftragung der Begutachtung (Auftragsübermittlung binnen drei Arbeitstagen)", "url": "https://www.gesetze-im-internet.de/sgb_11/__18.html", "checked_at": "2026-11-12"},
+  {"title": "§ 7a SGB XI — Pflegeberatung", "url": "https://www.gesetze-im-internet.de/sgb_11/__7a.html", "checked_at": "2026-11-12"},
+  {"title": "§ 40 SGB XI — Ansprüche auf Pflegeleistungen (Abs. 4 Zuschüsse Wohnumfeld, Abs. 7 Entscheidungsfrist)", "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "checked_at": "2026-11-12"},
+  {"title": "§ 42 SGB XI — Kurzzeitpflege (Pflegegrade 2 bis 5, Übergangszeit, acht Wochen)", "url": "https://www.gesetze-im-internet.de/sgb_11/__42.html", "checked_at": "2026-11-12"},
+  {"title": "gesund.bund.de — Entlassung: wie geht es weiter?", "url": "https://gesund.bund.de/entlassung-aus-dem-krankenhaus", "checked_at": "2026-11-12"},
+  {"title": "Verbraucherzentrale — Krankenhaus: was kommt danach? Entlassmanagement unterstützt!", "url": "https://verbraucherzentrale.de/wissen/gesundheit-pflege/aerztinnen-und-kliniken/krankenhaus-was-kommt-danach-entlassmanagement-unterstuetzt-101021", "checked_at": "2026-11-12"},
+  {"title": "AOK — Versorgung nach Krankenhausaufenthalt oder Reha", "url": "https://www.aok.de/pk/leistungen/medizinische-behandlung/entlassung-krankenhaus", "checked_at": "2026-11-12"},
+  {"title": "Sozialverband VdK Deutschland — Entlassmanagement: Hilflos nach der Operation", "url": "https://vdk.de/aktuelles/tipp/entlassmanagement-hilflos-nach-der-operation", "checked_at": "2026-11-12"},
+  {"title": "pflege-panorama — Schlaganfall Wohnung anpassen 2026 (Konkurrenz-Analyse: Förder-Fokus ohne Entlassmanagement)", "url": "https://www.pflege-panorama.de/ratgeber/schlaganfall-wohnung-anpassen-2/", "checked_at": "2026-11-12"},
+  {"title": "§ 32 SGB IX — Ergänzende unabhängige Teilhabeberatung (EUTB)", "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__32.html", "checked_at": "2026-11-12"},
+  {"title": "§ 47 SGB IX — Hilfsmittel (getragen, mitgeführt, mitgenommen)", "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__47.html", "checked_at": "2026-11-12"}
+ ],
+ "status": "editorial-reviewed-preview"
+}

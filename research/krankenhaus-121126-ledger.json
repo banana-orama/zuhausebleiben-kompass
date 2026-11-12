@@ -1,0 +1,94 @@
+{
+ "task": "Briefing 24: wohnung-anpassen-nach-krankenhausentlassung",
+ "checked_at": "2026-11-12",
+ "note": "Alle Zitate verbatim aus den Evidenz-Dateien (Whitespace-normalisiert). Rahmenvertrag-Text dehypheniert (rahmenvertrag-14aendvb.norm.txt). Rechtsstand-Pruefung: § 39 Abs. 1a SGB V, §§ 18/18a/18c/40/42 SGB XI in der aktuellen Lesefassung (gesetze-im-internet, 12.11.2026).",
+ "sources": [
+  {"n": 1, "url": "https://www.gesetze-im-internet.de/sgb_5/__39.html", "title": "§ 39 SGB V Krankenhausbehandlung (Abs. 1a Entlassmanagement)", "evidence": "research/evidence/krankenhaus-121126/sgb5-39.html", "quotes": [
+   "(1a) Die Krankenhausbehandlung umfasst ein Entlassmanagement zur Unterstützung einer sektorenübergreifenden Versorgung der Versicherten beim Übergang in die Versorgung nach Krankenhausbehandlung.",
+   "Der Versicherte hat gegenüber der Krankenkasse einen Anspruch auf Unterstützung des Entlassmanagements nach Satz 1; soweit Hilfen durch die Pflegeversicherung in Betracht kommen, kooperieren Kranken- und Pflegekassen miteinander.",
+   "Das Entlassmanagement umfasst alle Leistungen, die für die Versorgung nach Krankenhausbehandlung erforderlich sind, insbesondere die Leistungen nach den §§ 37b, 38, 39c sowie alle dafür erforderlichen Leistungen nach dem Elften Buch.",
+   "können die in § 92 Absatz 1 Satz 2 Nummer 6 genannten Leistungen für die Versorgung in einem Zeitraum von bis zu sieben Tagen verordnet und die Arbeitsunfähigkeit festgestellt werden",
+   "Das Entlassmanagement und eine dazu erforderliche Verarbeitung personenbezogener Daten dürfen nur mit Einwilligung und nach vorheriger Information des Versicherten erfolgen.",
+   "Die Information sowie die Einwilligung müssen schriftlich oder elektronisch erfolgen.",
+   "Die weiteren Einzelheiten zu den Sätzen 1 bis 8, insbesondere zur Zusammenarbeit der Leistungserbringer mit den Krankenkassen, regeln der Spitzenverband Bund der Krankenkassen auch als Spitzenverband Bund der Pflegekassen, die Kassenärztliche Bundesvereinigung und die Deutsche Krankenhausgesellschaft unter Berücksichtigung der Richtlinien des Gemeinsamen Bundesausschusses in einem Rahmenvertrag."
+  ]},
+  {"n": 2, "url": "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/e/entlassmanagement", "title": "BMG Begriffsseite Entlassmanagement", "evidence": "research/evidence/krankenhaus-121126/bmg-entlassmanagement.html", "quotes": [
+   "haben Krankenhäuser zur Gewährleistung eines nahtlosen Übergangs der Patientinnen und Patienten in die nachfolgenden Versorgungsbereiche durch die Anwendung eines geeigneten Assessments den patientenindividuellen Bedarf für die Anschlussversorgung möglichst frühzeitig zu erfassen und einen Entlassplan aufzustellen.",
+   "Bei der Aufstellung des Entlassplans erfolgt zugleich die Prüfung der Erforderlichkeit von Anschlussmedikation, fortdauernder Arbeitsunfähigkeit und anderer verordnungs- beziehungsweise veranlassungsfähiger Leistungen (zum Beispiel SAPV, Kurzzeitpflege, Haushaltshilfe).",
+   "Sobald Bedarf für eine Unterstützung durch die Kranken- beziehungsweise Pflegekasse festgestellt wird, nimmt das Krankenhaus rechtzeitig Kontakt auf, insbesondere bei Versorgungsbedarfen in den Bereichen Pflege (zum Beispiel bei Antrag auf Feststellung der Pflegebedürftigkeit sowie zur Einbeziehung der Pflegeberatung nach § 7a SGB XI), Häusliche Krankenpflege (auch außerklinische Intensivpflege) und Haushaltshilfe, Rehabilitation, Hilfsmittelversorgung, häusliche Versorgung sowie bei genehmigungspflichtigen Leistungen und im Rahmen der Übergangsversorgung (Kurzzeitpflege).",
+   "Auch das Recht der Patientin beziehungsweise des Patienten auf freie Arztwahl sowie die Wahlrechte bei den Leistungen der Pflegeversicherung oder den Leistungen zur Teilhabe müssen im Rahmen des Entlassmanagements gewahrt bleiben."
+  ]},
+  {"n": 3, "url": "https://gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/amb_stat_vers/entlassmanagement/14._AendVb_Rahmenvertrag_Entlassmanagement_19.11.2025_Lesefassung_ohne_Anlagen.pdf", "title": "Rahmenvertrag Entlassmanagement nach § 39 Absatz 1a SGB V, Lesefassung i. d. F. der 14. Änderungsvereinbarung vom 19.11.2025", "evidence": "research/evidence/krankenhaus-121126/rahmenvertrag-14aendvb.norm.txt", "quotes": [
+   "Der Anspruch des Patienten auf ein Entlassmanagement im Rahmen der Krankenhausbehandlung besteht gegenüber dem Krankenhaus, während gegenüber der Krankenkasse bzw. Pflegekasse ein Anspruch auf Unterstützung des Entlassmanagements besteht.",
+   "Das Krankenhaus stellt ein standardisiertes Entlassmanagement in multidisziplinärer Zusammenarbeit sicher und etabliert schriftliche, für alle Beteiligten transparente Standards",
+   "Das Krankenhaus informiert den Patienten vor dem Assessment gemäß § 3 schriftlich oder elektronisch über Inhalte und Ziele des Entlassmanagements und holt, sofern erforderlich, die schriftliche oder elektronische Einwilligung des Patienten für die Durchführung des Entlassmanagements ein.",
+   "Krankenhäuser informieren über ihr Entlassmanagement in ihrem Internetauftritt."
+  ]},
+  {"n": 4, "url": "https://www.gesetze-im-internet.de/sgb_11/__18a.html", "title": "§ 18a SGB XI Begutachtungsverfahren (Abs. 5 Krankenhaus-Begutachtung binnen 5 Arbeitstagen, Abs. 7 verkürzte Prüfung)", "evidence": "research/evidence/krankenhaus-121126/sgb11-18a.html", "quotes": [
+   "Die Begutachtung ist unverzüglich, spätestens am fünften Arbeitstag nach Eingang des Antrags bei der zuständigen Pflegekasse durchzuführen, wenn sich der Antragsteller im Krankenhaus oder in einer stationären Rehabilitationseinrichtung befindet",
+   "Hinweise vorliegen, dass zur Sicherstellung der ambulanten oder stationären Weiterversorgung und Betreuung eine Begutachtung in der Einrichtung erforderlich ist",
+   "muss die Empfehlung nur die Feststellung beinhalten, ob Pflegebedürftigkeit im Sinne der §§ 14 und 15 vorliegt und ob mindestens die Voraussetzungen des Pflegegrades 2 erfüllt sind",
+   "Nimmt der Versicherte unmittelbar im Anschluss an den Aufenthalt in einem Krankenhaus, einschließlich eines Aufenthalts im Rahmen der Übergangspflege nach § 39e des Fünften Buches, oder im Anschluss an den Aufenthalt in einer stationären Rehabilitationseinrichtung Kurzzeitpflege in Anspruch, hat die abschließende Begutachtung spätestens am zehnten Arbeitstag nach Beginn der Kurzzeitpflege in dieser Einrichtung zu erfolgen."
+  ]},
+  {"n": 5, "url": "https://www.gesetze-im-internet.de/sgb_11/__18c.html", "title": "§ 18c SGB XI Entscheidung über den Antrag, Fristen (25 Arbeitstage; elektronische Mitteilung an das Krankenhaus)", "evidence": "research/evidence/krankenhaus-121126/sgb11-18c.html", "quotes": [
+   "Ihre Entscheidung über einen Antrag nach § 33 Absatz 1 Satz 1 hat die zuständige Pflegekasse dem Antragsteller spätestens 25 Arbeitstage nach Eingang des Antrags schriftlich mitzuteilen.",
+   "Ist im Fall des § 18a Absatz 5 eine Mitteilung unmittelbar an das Krankenhaus, die stationäre Rehabilitationseinrichtung oder das Hospiz zulässig, hat diese unverzüglich in gesicherter elektronischer Form zu erfolgen."
+  ]},
+  {"n": 6, "url": "https://www.gesetze-im-internet.de/sgb_11/__18.html", "title": "§ 18 SGB XI Beauftragung der Begutachtung (Auftragsübermittlung binnen 3 Arbeitstagen)", "evidence": "research/evidence/krankenhaus-121126/sgb11-18.html", "quotes": [
+   "Die Übermittlung eines Auftrags hat innerhalb von drei Arbeitstagen ab Eingang des Antrags auf Pflegeleistungen nach § 33 Absatz 1 Satz 1 in gesicherter elektronischer Form zu erfolgen"
+  ]},
+  {"n": 7, "url": "https://www.gesetze-im-internet.de/sgb_11/__7a.html", "title": "§ 7a SGB XI Pflegeberatung", "evidence": "research/evidence/krankenhaus-121126/sgb11-7a.html", "quotes": [
+   "Personen, die Leistungen nach diesem Buch erhalten, haben Anspruch auf individuelle Beratung und Hilfestellung durch einen Pflegeberater oder eine Pflegeberaterin bei der Auswahl und Inanspruchnahme von bundes- oder landesrechtlich vorgesehenen Sozialleistungen sowie sonstigen Hilfsangeboten, die auf die Unterstützung von Menschen mit Pflege-, Versorgungs- oder Betreuungsbedarf ausgerichtet sind (Pflegeberatung)",
+   "Ein Anspruch auf Pflegeberatung besteht auch dann, wenn ein Antrag auf Leistungen nach diesem Buch gestellt wurde und erkennbar ein Hilfe- und Beratungsbedarf besteht."
+  ]},
+  {"n": 8, "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "title": "§ 40 SGB XI (Abs. 4 Zuschüsse Wohnumfeld, Abs. 7 Entscheidungsfrist 3/5 Wochen)", "evidence": "research/evidence/krankenhaus-121126/sgb11-40.html", "quotes": [
+   "Die Pflegekassen können subsidiär finanzielle Zuschüsse für Maßnahmen zur Verbesserung des individuellen Wohnumfeldes des Pflegebedürftigen gewähren, beispielsweise für technische Hilfen im Haushalt, wenn dadurch im Einzelfall die häusliche Pflege ermöglicht oder erheblich erleichtert oder eine möglichst selbständige Lebensführung des Pflegebedürftigen wiederhergestellt wird.",
+   "Die Pflegekasse hat über einen Antrag auf Pflegehilfsmittel oder Zuschüsse zu wohnumfeldverbessernden Maßnahmen zügig, spätestens bis zum Ablauf von drei Wochen nach Antragseingang oder in Fällen, in denen eine Pflegefachperson oder der Medizinische Dienst nach Absatz 1 Satz 2 beteiligt wird, innerhalb von fünf Wochen nach Antragseingang zu entscheiden."
+  ]},
+  {"n": 9, "url": "https://www.gesetze-im-internet.de/sgb_11/__42.html", "title": "§ 42 SGB XI Kurzzeitpflege (Abs. 1 Pflegegrade 2 bis 5 mit Übergangszeit, Abs. 2 acht Wochen)", "evidence": "research/evidence/krankenhaus-121126/sgb11-42.html", "quotes": [
+   "Kann die häusliche Pflege zeitweise nicht, noch nicht oder nicht im erforderlichen Umfang erbracht werden und reicht auch teilstationäre Pflege nicht aus, besteht für Pflegebedürftige der Pflegegrade 2 bis 5 Anspruch auf Pflege in einer vollstationären Einrichtung.",
+   "für eine Übergangszeit im Anschluß an eine stationäre Behandlung des Pflegebedürftigen",
+   "Der Anspruch auf Kurzzeitpflege ist auf acht Wochen pro Kalenderjahr beschränkt."
+  ]},
+  {"n": 10, "url": "https://gesund.bund.de/entlassung-aus-dem-krankenhaus", "title": "gesund.bund.de: Entlassung – wie geht es weiter?", "evidence": "research/evidence/krankenhaus-121126/gesundbund-entlassung.html", "quotes": [
+   "Gesetzlich Versicherte haben Anspruch auf ein Entlassmanagement.",
+   "Da eine Entlassung manchmal kurzfristig erfolgt, sollten Sie frühzeitig das Gespräch mit dem Krankenhauspersonal suchen, insbesondere dem Sozialdienst.",
+   "Auf Wunsch können auch Angehörige oder Bezugspersonen in die Beratung einbezogen werden."
+  ]},
+  {"n": 11, "url": "https://verbraucherzentrale.de/wissen/gesundheit-pflege/aerztinnen-und-kliniken/krankenhaus-was-kommt-danach-entlassmanagement-unterstuetzt-101021", "title": "Verbraucherzentrale: Krankenhaus – was kommt danach? Entlassmanagement unterstützt!", "evidence": "research/evidence/krankenhaus-121126/vz-entlassmanagement.html", "quotes": [
+   "Organisation der lückenlosen weiteren Versorgung von Patient:innen nach einem Krankenhausaufenthalt.",
+   "unter anderem Medikamente, Verband-, Heil- und Hilfsmittel, häusliche Krankenpflege oder eine Haushaltshilfe für bis zu 7 Tage verordnen",
+   "Wenn Sie aus dem Krankenhaus entlassen werden, erhalten Sie von den Krankenhausärzt:innen einen Entlassbrief.",
+   "Der Entlassbrief wird in der Regel ergänzt durch einen Medikationsplan und gegebenenfalls durch einen Pflegeüberleitungsbogen."
+  ]},
+  {"n": 12, "url": "https://www.aok.de/pk/leistungen/medizinische-behandlung/entlassung-krankenhaus", "title": "AOK: Versorgung nach Krankenhausaufenthalt oder Reha", "evidence": "research/evidence/krankenhaus-121126/aok-entlassung.html", "quotes": [
+   "Wird während Ihrer Behandlung festgestellt, dass Sie nach dem Aufenthalt in einem Krankenhaus oder nach einer Rehabilitationsklinik weitere Unterstützung benötigen, organisiert der Sozialdienst der jeweiligen Einrichtung die notwendige Anschlussversorgung.",
+   "Damit der Sozialdienst für Sie tätig werden kann, benötigt es Ihre schriftliche Einwilligungserklärung.",
+   "Für den Fall, dass das Krankenhaus oder die Rehabilitationseinrichtung nicht von sich aus die Nachversorgung nach der Entlassung vorbereiten, sollten Sie oder Ihre Angehörigen die behandelnde Ärztin, den behandelnden Arzt oder den Sozialdienst der Klinik ansprechen."
+  ]},
+  {"n": 13, "url": "https://vdk.de/aktuelles/tipp/entlassmanagement-hilflos-nach-der-operation", "title": "VdK: Entlassmanagement – Hilflos nach der Operation", "evidence": "research/evidence/krankenhaus-121126/vdk-entlassmanagement.html", "quotes": [
+   "weit über 100 VdK-Mitglieder über ihre Erfahrungen mit dem Sozialdienst nach einem überstandenen Krankenhausaufenthalt berichtet.",
+   "So kann es passieren, dass nach einer überstandenen Operation hilflose Patientinnen oder Patienten nach Hause entlassen werden, ohne dass die Versorgung durch Pflege, Haushaltshilfe oder ausreichende Medikamente sichergestellt ist und organisiert wird.",
+   "Der Anspruch auf ein Entlassmanagement steht unmissverständlich im Gesetz."
+  ]},
+  {"n": 14, "url": "https://www.pflege-panorama.de/ratgeber/schlaganfall-wohnung-anpassen-2/", "title": "pflege-panorama: Schlaganfall Wohnung anpassen 2026 (Konkurrenz-Analyse, Förder-Fokus ohne Entlassmanagement)", "evidence": "research/evidence/krankenhaus-121126/panorama-schlaganfall.html", "quotes": [
+   "Pflegekasse zahlt bis 4.180 Euro Wohnumfeldverbesserung pro Maßnahme (§40 SGB XI)"
+  ]},
+  {"n": 15, "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__32.html", "title": "§ 32 SGB IX Ergänzende unabhängige Teilhabeberatung (EUTB)", "evidence": "research/evidence/krankenhaus-121126/sgb9-32.html", "quotes": [
+   "(1) Zur Stärkung der Selbstbestimmung von Menschen mit Behinderungen und von Behinderung bedrohter Menschen fördert das Bundesministerium für Arbeit und Soziales eine von Leistungsträgern und Leistungserbringern unabhängige ergänzende Beratung als niedrigschwelliges Angebot, das bereits im Vorfeld der Beantragung konkreter Leistungen zur Verfügung steht."
+  ]},
+  {"n": 16, "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__47.html", "title": "§ 47 SGB IX Hilfsmittel (Tragbarkeit: getragen, mitgeführt, mitgenommen)", "evidence": "research/evidence/krankenhaus-121126/sgb9-47.txt", "quotes": [
+   "umfassen die Hilfen, die von den Leistungsberechtigten getragen oder mitgeführt oder bei einem Wohnungswechsel mitgenommen werden können"
+  ]}
+ ],
+ "arithmetik": [
+  {"id": "a1", "claim": "25 Arbeitstage Bescheidfrist entsprechen etwa fünf Kalenderwochen (25/5 = 5).", "check": "25/5 == 5"}
+ ],
+ "absenzen": [
+  {"id": "x1", "claim": "Keine Förderbeträge im Artikel (4.180/16.720 bleiben im wohnumfeldverbesserung-Ratgeber)", "files": ["content-ready/wohnung-anpassen-nach-krankenhausentlassung.json"], "patterns": ["4.180", "16.720"], "expect": 0},
+  {"id": "x2", "claim": "Keine KfW-Claims im Artikel (Programmstatus bleibt in den Förder-Ratgebern)", "files": ["content-ready/wohnung-anpassen-nach-krankenhausentlassung.json"], "patterns": ["KfW"], "expect": 0},
+  {"id": "x3", "claim": "Keine Treppenlift-Preisangaben im Artikel", "files": ["content-ready/wohnung-anpassen-nach-krankenhausentlassung.json"], "patterns": ["5.500", "9.900"], "expect": 0},
+  {"id": "x4", "claim": "Keine Partner-/Affiliate-Marker im Artikel", "files": ["content-ready/wohnung-anpassen-nach-krankenhausentlassung.json"], "patterns": ["awin", "sponsored", "Anzeige"], "expect": 0},
+  {"id": "x5", "claim": "Konkurrenz-Lücke belegt: pflege-panorama Schlaganfall-Artikel erwähnt Entlassmanagement 0x", "files": ["research/evidence/krankenhaus-121126/panorama-schlaganfall.html"], "patterns": ["Entlassmanagement"], "expect": 0}
+ ]
+}
