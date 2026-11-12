@@ -1,0 +1,72 @@
+{
+ "task": "Briefing 25: treppenlift-aufmass-termin",
+ "checked_at": "2026-11-12",
+ "note": "Alle Zitate verbatim aus den Evidenz-Dateien (Whitespace-normalisiert, HTML-Tags zu Zeilenumbruechen). Händler-/Herstellerangaben (ts-treppenlifte, Lifta, Bäthe, Brandenburg-Liftsysteme via CHIP-Unternehmensportrait) sind Selbstauskünfte, im Artikel als solche gekennzeichnet. Rechtsquelle: § 312g BGB (gesetze-im-internet, 12.11.2026).",
+ "sources": [
+  {"n": 1, "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/treppenlifte-das-muessen-sie-ueber-planung-und-umsetzung-wissen-10711", "title": "Verbraucherzentrale — Treppenlifte: Planung und Umsetzung (Stand 20.01.2026)", "evidence": "research/evidence/aufmass-121126/vz-planung.txt", "quotes": [
+   "Holen Sie am besten mehrere Vergleichsangebote ein und achten Sie darauf, dass der Anbieter einen kostenlosen Kostenvoranschlag erstellt.",
+   "Keinesfalls sollten Sie sich zu einem Vertragsabschluss drängen lassen. Stattdessen sollten Sie Ihre Entscheidung in Ruhe überlegen und erneut von einer neutralen Instanz prüfen lassen.",
+   "Wenn Sie in Ihrer Wohnung oder am Telefon einen Vertrag über den Einbau von Treppenliften abschließen, steht Ihnen ein 14-tägiges Widerrufsrecht zu.",
+   "Verkauf und Montage von Treppenliften sind als Werkvertrag anzusehen und können daher grundsätzlich widerrufen werden.",
+   "Werden Sie beim Abschluss eines Vertrages nicht über das Widerrufsrecht informiert oder wird gar behauptet, dass kein Widerruf möglich ist, verlängert sich die Möglichkeit des Widerrufs. Der Widerruf ist dann 12 Monate und 14 Tage nach Vertragsschluss möglich.",
+   "Vereinbaren Sie möglichst einen Festpreis für den Einbau. Bei einem Kostenvoranschlag ist eine Überschreitung bis zu 20 Prozent ohne Anzeige möglich.",
+   "Vorsicht bei Hausbesuchen: Einen Beratungstermin sollten Sie nicht allein wahrnehmen.",
+   "Lassen Sie sich nicht zu einer Unterschrift drängen.",
+   "Zahlen Sie erst, wenn alle Unterlagen, etwa eine Prüfbescheinigung, vorliegen und der Lifter mängelfrei funktioniert.",
+   "Bei Versprechen wie \"Maßanfertigung und Lieferung sofort\" sollten Sie skeptisch werden."
+  ]},
+  {"n": 2, "url": "https://www.verbraucherzentrale.de/sites/default/files/2021-01/Auswertung_Treppenlift_Umfrage_online_0.pdf", "title": "Verbraucherzentralen — Auswertung Treppenlift-Umfrage „Treppauf oder Treppab“ (10.12.2020, 125 Bögen)", "evidence": "research/evidence/aufmass-121126/vz-umfrage.txt", "quotes": [
+   "Im Teilnahmezeitraum wurden 125 ausgefüllte Umfragebögen von Verbraucher:innen ausgewertet, die Probleme mit Ihrem Treppenlift hatten.",
+   "Die Fragen zu den Vertragsverhandlungen und den anschließenden Planungen wurden von 120 Verbraucher:innen beantwortet. Ein Drittel der Befragten hat das Angebot oder den vorgelegten Vertrag sofort unterschrieben.",
+   "Ebenfalls ein Drittel gab an, dass sie über Widerrufsrechte und Geschäftsbedingungen nicht ausreichend informiert wurden.",
+   "Von 123 Antworten auf die Frage zum Erhalt von Planungsunterlagen erklärten 77, sie hätten Planungsunterlagen erhalten, 46 Teilnehmer:innen (mithin mehr als ein Drittel) verneinten das.",
+   "In der konkreten Planungsphase ist die Linienführung ordentlich zu planen. (Lassen sich Türen öffnen, bleibt genug Platz zum Gehen für den Rollator etc.).",
+   "Daher sollten Planungsunterlagen unbedingt vor der Vertragsunterschrift ausgehändigt werden.",
+   "Die Umfrage zeigt deutlich, dass die Verbraucher:innen nicht ausreichend über ihre vertraglichen Rechte aufgeklärt werden und dass wichtige Dokumente der Planung nicht übergeben werden."
+  ]},
+  {"n": 3, "url": "https://www.gesetze-im-internet.de/bgb/__312g.html", "title": "§ 312g BGB Widerrufsrecht (Abs. 1 außerhalb von Geschäftsräumen/Fernabsatz; Abs. 2 Nr. 1 Maßanfertigungen)", "evidence": "research/evidence/aufmass-121126/bgb-312g.txt", "quotes": [
+   "Dem Verbraucher steht bei außerhalb von Geschäftsräumen geschlossenen Verträgen und bei Fernabsatzverträgen ein Widerrufsrecht gemäß § 355 zu.",
+   "Verträge zur Lieferung von Waren, die nicht vorgefertigt sind und für deren Herstellung eine individuelle Auswahl oder Bestimmung durch den Verbraucher maßgeblich ist oder die eindeutig auf die persönlichen Bedürfnisse des Verbrauchers zugeschnitten sind"
+  ]},
+  {"n": 4, "url": "https://ts-treppenlifte.de/preise-kosten/", "title": "ts-treppenlifte.de — Treppenlift Kosten & Preise (Händlerangabe, Stand November 2026)", "evidence": "research/evidence/aufmass-121126/ts-preise.txt", "quotes": [
+   "Hersteller wie Lifta, Hiro oder Sanimed nennen meist keine festen Preise. Die Führungsschiene wird für jede Treppe individuell vermessen",
+   "Deshalb messen wir Ihre Treppe bei einem Termin vor Ort kostenlos aus. Danach bekommen Sie einen Festpreis inklusive Montage",
+   "Nach Ihrer Anfrage erhalten Sie innerhalb von 24 Stunden ein Angebot. Für einen verbindlichen Festpreis messen wir Ihre Treppe vor Ort kostenlos aus.",
+   "Die Schiene wird in der Regel auf den Stufen befestigt, nicht an der Wand. Größere Umbauten am Treppenhaus sind deshalb selten nötig.",
+   "Aufmaß vor Ort statt Preis nach Foto oder Telefonat bei kurvigen Treppen",
+   "Modell und Hersteller stehen im Angebot, nicht nur „Treppenlift“",
+   "Lieferzeit und Einbaudauer sind genannt",
+   "Bei geradem Treppenverlauf wird die Schiene nur auf Länge gekürzt, nicht gebogen. Bei uns meist an einem Tag eingebaut.",
+   "Ja. Bei gleicher Treppe können die Angebote verschiedener Anbieter deutlich auseinanderliegen. Vergleichen Sie aber nur Angebote mit gleichem Leistungsumfang: Festpreis mit Montage, Modell, Lieferzeit, Gewährleistung und Wartungskosten.",
+   "Das Angebot eignet sich als Kostenvoranschlag für die Pflegekasse",
+   "Stand November 2026"
+  ]},
+  {"n": 5, "url": "https://www.lifta.de/treppenlift/", "title": "Lifta — Treppenlift-Übersichtsseite (Herstellerangabe)", "evidence": "research/evidence/aufmass-121126/lifta-haupt.txt", "quotes": [
+   "Die Montagezeit auf einer geraden Treppe beträgt zwei bis drei Stunden. Auf einer kurvigen oder Wendeltreppe dauert der Einbau maximal fünf Stunden.",
+   "Nach einem ersten unverbindlichen Termin bekommen Sie ausreichend Bedenkzeit, um sich für ein Modell zu entscheiden."
+  ]},
+  {"n": 6, "url": "https://www.lifta.de/faq", "title": "Lifta — FAQ (Herstellerangabe: Einbau-Dauer, Stufenmontage, kostenlose Beratung)", "evidence": "research/evidence/aufmass-121126/lifta-faq.txt", "quotes": [
+   "Der Einbau eines Treppenlifts dauert in der Regel nur wenige Stunden. Bei geraden Treppen ist die Montage meist innerhalb eines halben Tages abgeschlossen.",
+   "Nein. Der Treppenlift wird ausschließlich an den Treppenstufen befestigt – nicht an der Wand.",
+   "Im Rahmen einer kostenlosen Beratung prüfen wir gemeinsam mit Ihnen, welche Lösung für Ihre Treppe am besten geeignet ist."
+  ]},
+  {"n": 7, "url": "https://baethe.de/treppenlift", "title": "Bäthe Treppen — Treppenlift-Seite (Fachbetriebsangabe: Aufmaßservice bis unverbindliches Angebot)", "evidence": "research/evidence/aufmass-121126/baethe.txt", "quotes": [
+   "Vom kostenfreien Aufmaßservice bis zum unverbindlichen Angebot"
+  ]},
+  {"n": 8, "url": "https://unternehmen.chip.de/digitale-treppenlift-beratung.html", "title": "CHIP Unternehmensportrait Brandenburg Liftsysteme — digitales Aufmaß (Unternehmensangabe)", "evidence": "research/evidence/aufmass-121126/chip.txt", "quotes": [
+   "Der Treppenlift-Markt hat ein Reputationsproblem, und es hat wenig mit Technik zu tun. Berichte über aggressive Abschlussgespräche, Rabatte, die nur am selben Abend gelten, oder Anbieter, die nach der Montage nicht mehr erreichbar sind, prägen die Wahrnehmung ganzer Branchensegmente.",
+   "Wenn Aufmaß, Konfiguration, Angebot und Montageprotokoll in einem durchgängigen Datensatz liegen, lässt sich jede Position später nachvollziehen – auch von Angehörigen, die nicht beim Termin dabei waren.",
+   "Der Vor-Ort-Termin wird nicht ersetzt.",
+   "wird das Aufmaß deshalb digital erfasst und direkt in die Konfiguration übertragen",
+   "Digitales Aufmaß statt Zollstock und Schätzung"
+  ]}
+ ],
+ "arithmetik": [
+  {"id": "a1", "expr": "43+81+1 == 125 (Umfrage: sofort unterschreiben Ja/Nein/keine Angabe)"},
+  {"id": "a2", "expr": "83+37+5 == 125 (Umfrage: Widerrufsbelehrung Ja/Nein/keine Angabe)"},
+  {"id": "a3", "expr": "77+46 == 123 (Umfrage: Planungsunterlagen erhalten + verneint)"}
+ ],
+ "absenzen": [
+  {"id": "x1", "files": ["content-ready/treppenlift-aufmass-termin.json"], "patterns": ["4.180", "16.720", "KfW", "awin"], "expect": 0}
+ ]
+}

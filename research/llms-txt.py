@@ -57,6 +57,7 @@ SUMMARIES = {
     "verhinderungspflege-tagespflege-ueberblick": "Verhinderungspflege (§ 39 SGB XI) und Tagespflege (§ 41): Ansprüche, Budgets und Entscheidungsmatrix.",
     "wohnumfeldverbesserung-beantragen": "Wohnumfeld-Zuschuss der Pflegekasse (§ 40 Abs. 4 SGB XI): bis 4.180 Euro je Maßnahme, Antrag vor dem Umbau, 3/5-Wochen-Frist mit Genehmigungsfiktion, Unterlagen-Checkliste und typische Ablehnungsgründe.",
     "wohnung-anpassen-nach-krankenhausentlassung": "Wohnung nach der Krankenhausentlassung: Entlassmanagement (§ 39 Abs. 1a SGB V), Pflegebegutachtung im Krankenhaus binnen fünf Arbeitstagen (§ 18a Abs. 5 SGB XI), Bescheidfrist 25 Arbeitstage (§ 18c), Sozialdienst/Pflegeberatung/EUTB, Überbrückung mit Kurzzeitpflege (§ 42) und die Wohnumfeld-Antragsroute mit 3/5-Wochen-Frist — drei Zeithorizonte mit Checkliste.",
+    "treppenlift-aufmass-termin": "Treppenlift-Aufmaß-Termin: was beim Vermessen passiert, wie das Festpreis-Angebot danach aufgebaut ist, Vorbereitungs-Checkliste für Unterlagen und Fragen und die Verbraucherschutz-Lage (keine Unterschrift am Termin, 14-tägiges Widerrufsrecht mit Maßanfertigungs-Ausnahme).",
     "hausnotruf-mobil-gps-unterwegs": "Mobiler Hausnotruf mit GPS für unterwegs und ohne Festnetz: Funktionsweise, dokumentierte Kosten-Spannen, Pflegekasse (Basistarif vs. GPS-Aufpreis vs. Hilfsmittel-Weg 52.40.01), Laden-Routine und Zustimmungspflicht bei Ortung.",
     "hausnotruf-schluesselhinterlegung": "Die Schlüsselfrage beim Hausnotruf: vier Wege (Zweitschlüssel, Dienst-Verwahrung, Pflegedienst, Tresor) mit belegten, streuenden Kostenangaben, Notfall-Ablauf ohne Schlüssel (Feuerwehr-Faustregel, Schlüsseldienst-Abzocke, Urteilsberichte) und den Fragen fürs Einrichtungsgespräch.",
     "treppenlift-finanzierung": "Treppenlift finanzieren: belegte Herstellermodelle (50/50 zinsfrei in 12 Monaten, easyCredit-Raten 2 bis 60 Monate, individuelle Vereinbarungen mit dokumentierten Widersprüchen), Verbraucherdarlehen-Rechte im Gesetzestext (Widerruf, Sondertilgung, Vorfälligkeit), die Null-Prozent-Nuance und die Kredit-Reform ab 20.11.2026.",
@@ -73,7 +74,7 @@ SUMMARIES = {
 SECTION_MAP = [
     ("Treppenlift", ["treppenlift-kosten", "treppenlift-angebote-vergleichen", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
                      "treppenlift-mieten", "treppenlift-mietwohnung", "treppenlift-zuschuss", "treppenlift-steuerlich-absetzen",
-                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift", "treppenlift-sitzlift-oder-stehlift", "treppenlift-finanzierung", "treppenlift-unserioese-anbieter", "treppenlift-foerderung-ohne-pflegegrad"]),
+                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift", "treppenlift-sitzlift-oder-stehlift", "treppenlift-finanzierung", "treppenlift-unserioese-anbieter", "treppenlift-foerderung-ohne-pflegegrad", "treppenlift-aufmass-termin"]),
     ("Bad barrierefrei umbauen", ["bad-umbau-barrierefrei", "badumbau-angebote-vergleichen",
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),
     # pflegegrad-beantragen is NOT listed: the thin legacy stub was folded into the

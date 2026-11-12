@@ -59,7 +59,7 @@ rss = ET.parse(dist / "rss.xml")
 items = rss.findall(".//item")
 desc = rss.find(".//channel/description").text
 check("rss new description", "im Aufbau. Noch keine" not in desc, desc[:50])
-check("rss has 35 article items", len(items) == 35, str(len(items)))
+check("rss has 36 article items", len(items) == 36, str(len(items)))
 check("rss includes promoted briefing-1 article", any("treppenlift-angebote-vergleichen" in (i.find("link").text or "") for i in items))
 titles = [i.find("title").text for i in items]
 check("rss includes briefing 9", any("Dusch-WC" in t for t in titles), str(len(titles)))
