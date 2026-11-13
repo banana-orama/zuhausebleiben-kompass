@@ -25,7 +25,13 @@ for f in files:
     elif f.parent.name == 'region' or f.name == 'regional.html':
         # Fix #5 (2026-10-30): Region-Platzhalter bleiben noindex, bis sie mit
         # verifiziertem Landesprogramm-Inhalt erweitert sind (expand-or-noindex-Gate).
-        assert p.noindex,(f,'region placeholder must stay noindex until expanded')
+        # 13.11.2026: Nordrhein-Westfalen ist als erste Region ausgebaut
+        # (data/region-nrw.json, 10 Quellen mit checked_at) und MUSS im Launch-Build
+        # indexierbar sein; Hub und alle übrigen Regionen bleiben Platzhalter (noindex).
+        if f.name == 'nordrhein-westfalen.html':
+            assert not p.noindex,(f,'expanded NRW region must be indexable at launch')
+        else:
+            assert p.noindex,(f,'region placeholder must stay noindex until expanded')
     elif f.name == 'pflegegrad-beantragen.html':
         # Audit #9 (2026-11-03): dünner Legacy-Stub in den Antrag-Ratgeber gefaltet —
         # die Weiterleitungsseite bleibt dauerhaft noindex und außerhalb der Sitemap.
@@ -43,7 +49,8 @@ for name in ('sitemap.xml','rss.xml'):ET.parse(root/name)
 sm=(root/'sitemap.xml').read_text()
 locs=[u.split('<loc>')[1].split('</loc>')[0] for u in sm.split('<url>')[1:]]
 assert any(u.endswith('/datenschutz.html') for u in locs),('datenschutz.html missing from sitemap',len(locs))
-assert not any('/region/' in u or u.endswith('/regional.html') for u in locs),('region placeholders must stay out of the sitemap (fix #5)',)
+_region_locs=[u for u in locs if '/region/' in u or u.endswith('/regional.html')]
+assert _region_locs==[u for u in _region_locs if u.endswith('/region/nordrhein-westfalen.html')] and len(_region_locs)==1,('exactly the expanded NRW region belongs in the sitemap — no hub, no placeholders (fix #5 + 13.11. expansion)',_region_locs)
 assert not any(u.endswith('/pflegegrad-beantragen.html') for u in locs),('redirect stub must stay out of the sitemap (audit #9)',)
 assert len(locs)==len(set(locs)),('duplicate sitemap URLs',)
 # Audit #9: Weiterleitungsseite muss auf den Antrag-Ratgeber zeigen (Meta-Refresh + Canonical),

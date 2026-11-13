@@ -1,0 +1,153 @@
+{
+  "slug": "nordrhein-westfalen",
+  "name": "Nordrhein-Westfalen",
+  "title": "Umbau-Förderung in NRW: vier Wege",
+  "description": "Vier Förderwege in NRW: Landesprogramm der NRW.BANK, Pflegekasse, Eingliederungshilfe über LVR/LWL und der aktuelle KfW-Stand — geprüft am 13.11.2026.",
+  "h1": "Umbau und Förderung in Nordrhein-Westfalen",
+  "leads": [
+    "Wenn in Nordrhein-Westfalen ein Treppenlift, ein barrierearmes Bad oder eine Stufe im Alltag zum Problem wird, laufen mehrere Förderwege parallel: die Pflegekasse, das Landesprogramm über die NRW.BANK, die Eingliederungshilfe über die Landschaftsverbände LVR und LWL — und die KfW, deren Zuschuss für Barrierereduzierung 2026 ausgeschöpft ist. Diese Seite ordnet die vier Wege für NRW — ohne Garantien und ohne Vermittlungsinteresse.",
+    "Alle Angaben wurden am 13.11.2026 aus den verlinkten offiziellen Seiten geprüft. Förderbedingungen ändern sich häufig; im Einzelfall entscheidet immer die zuständige Stelle. Diese Seite wurde mit KI-Unterstützung erstellt und redaktionell gegen die Quellen geprüft."
+  ],
+  "sections": [
+    {
+      "h2": "Die vier Förderwege im Überblick",
+      "p": [
+        "Nicht jeder Weg passt zu jedem Haushalt. Die Tabelle zeigt, wer jeweils entscheidet und was Sie vorher klären sollten. Die ausführlichen Antragsstrecken behandeln unsere Ratgeber; die Links dazu finden Sie auf dieser Seite."
+      ],
+      "table": {
+        "head": ["Weg", "Zuständig", "Was infrage kommt", "Vorher klären"],
+        "rows": [
+          ["1. Wohnumfeld-Zuschuss", "Ihre Pflegekasse", "Zuschuss zu wohnumfeldverbessernden Maßnahmen (Ermessensleistung)", "Antrag vor der Beauftragung; Bescheid abwarten"],
+          ["2. Landes-Wohnraumförderung: Eigentumsförderung – Modernisierung", "NRW.BANK über die Bewilligungsbehörde vor Ort", "Zinsgünstiges Darlehen bis 220.000 € (Finanzierungsanteil bis 100 %), Tilgungsnachlass bis 50 %", "Einkommensgrenzen (§ 13 WFNG NRW); Immobilie wird selbst genutzt"],
+          ["3. Leistungen für Wohnraum (Eingliederungshilfe)", "LVR (Rheinland) bzw. LWL (Westfalen-Lippe)", "Gebäudefeste Umbauten, z. B. fest verbundene Treppenlifter", "Pflegekasse zuerst prüfen (dokumentierte Kreis-Praxis); Einkommen und Vermögen"],
+          ["4. KfW-Programme", "KfW (bundesweit)", "Kredit „Altersgerecht Umbauen“ (159); der Zuschuss 455-B ist derzeit gestoppt", "Aktuellen Programmstand direkt bei der KfW prüfen"]
+        ]
+      }
+    },
+    {
+      "h2": "Weg 1: Pflegekasse — zuerst prüfen",
+      "p": [
+        "Der Wohnumfeld-Zuschuss ist eine bundesweite Leistung: Bei Pflegebedürftigkeit kann die Pflegekasse Maßnahmen zur Verbesserung des Wohnumfeldes subsidiär fördern — als Ermessensleistung, nicht als automatischen Anspruch. In Nordrhein-Westfalen gelten dafür keine abweichenden Regeln.",
+        "Entscheidend ist die Reihenfolge: Der Antrag gehört vor der Beauftragung, und der Bescheid sollte abgewartet werden. Beträge, Fristen und die Genehmigungsfiktion behandeln unsere Ratgeber — dort finden Sie auch den Verweis auf das Gesetz im Original."
+      ],
+      "cta": {"label": "Wohnumfeld-Zuschuss richtig beantragen: Beträge, Fristen, Form", "slug": "wohnumfeldverbesserung-beantragen"}
+    },
+    {
+      "h2": "Weg 2: Landesprogramm der NRW.BANK (Eigentumsförderung – Modernisierung)",
+      "p": [
+        "Die NRW.BANK fördert im Auftrag des Landes Nordrhein-Westfalen Privatpersonen mit geringem bis mittlerem Einkommen bei Investitionen in selbst genutztes Wohneigentum. Das Modernisierungsprogramm der Wohnraumförderung des Landes bietet zinsgünstige Darlehen bis 220.000 € mit einem Finanzierungsanteil von bis zu 100 %, festen Zinsen über 30 Jahre und Tilgungsnachlässen von bis zu 50 % des Darlehens.",
+        "Modernisierung umfasst nach Angaben der NRW.BANK unter anderem den Abbau von Barrieren — also genau die Maßnahmen, die auch unsere Ratgeber behandeln: Treppenlift, Bad-Umbau, Schwellen, Türbreiten. Wichtig zur Einordnung: Ein Darlehen muss zurückgezahlt werden; der Tilgungsnachlass ist der Teil, der erlassen wird. Ein Zuschuss ist das nicht."
+      ],
+      "bullets": [
+        "Beantragt wird über die für Sie zuständige Bewilligungsbehörde vor Ort — die NRW.BANK stellt dafür eine Checkliste für das Beratungsgespräch bereit.",
+        "Für schwerbehinderte und/oder pflegebedürftige Personen gibt es laut NRW.BANK „anrechenfreie Beträge bei der Einkommensermittlung“, die der Online-Chancenprüfer nicht berücksichtigt — lassen Sie sich deshalb persönlich von der Bewilligungsbehörde beraten.",
+        "Die Einkommensgrenzen ergeben sich aus § 13 des Wohnraumförderungsgesetzes NRW (WFNG); die NRW.BANK veröffentlicht sie nach Haushaltsgröße und Einkommensgruppe (Tabelle unten).",
+        "Maßgeblich sind die Programmdetails des jeweiligen Förderprodukts; die Einkommensgruppe hängt vom Programm ab."
+      ],
+      "table": {
+        "head": ["Haushalt", "Einkommensgruppe A", "Einkommensgruppe B"],
+        "rows": [
+          ["Alleinstehend", "23.540 €", "32.956 €"],
+          ["2 Personen", "28.350 €", "39.690 €"],
+          ["Alleinerziehend (1 Kind)", "29.210 €", "40.894 €"],
+          ["3 Personen (1 Kind)", "35.740 €", "50.036 €"],
+          ["4 Personen (2 Kinder)", "43.130 €", "60.382 €"],
+          ["5 Personen (3 Kinder)", "50.520 €", "70.728 €"],
+          ["6 Personen (4 Kinder)", "57.910 €", "81.074 €"]
+        ],
+        "note": "Gesetzliche Einkommensgrenzen nach § 13 WFNG NRW, dargestellt von der NRW.BANK (abgerufen 13.11.2026). Die zweite Tabelle auf der NRW.BANK-Seite ist nur ein Brutto-Beispielwert, kein Anspruchswert."
+      }
+    },
+    {
+      "h2": "Weg 3: Eingliederungshilfe — Leistungen für Wohnraum (LVR/LWL)",
+      "p": [
+        "Für Menschen mit wesentlicher Behinderung gibt es über die Eingliederungshilfe „Leistungen für Wohnraum“. Der LWL definiert sie so: Geräte oder Vorrichtungen, die mit dem Gebäude verbunden sind und bei einem Umzug nicht mitgenommen werden können. Genau das unterscheidet diesen Weg von Hilfsmitteln, die man mitnimmt.",
+        "Zum engeren Leistungsumfang gehören laut LWL ausdrücklich: fest mit dem Baukörper verbundene Treppenlifter für das Verlassen des Hauses, behindertengerechte Badezimmerumbauten (unter anderem ebenerdige Duschen), gemauerte Rampen im und am Haus, Türverbreiterungen sowie Haustüröffnungssysteme.",
+        "Eine wichtige Abgrenzung nennt der LWL selbst: Erleichtert die Vorrichtung vor allem die Pflege einer Person, ist es eine Maßnahme zur Verbesserung des Wohnumfeldes nach § 64e SGB XII im Rahmen der Hilfe zur Pflege — also ein Weg über das Sozialamt. Diese Route mit ihren Voraussetzungen behandelt unser Ratgeber zur Förderung ohne Pflegegrad.",
+        "Um Leistungen für Wohnraum zu erhalten, müssen Sie laut LWL einen Antrag auf Eingliederungshilfe stellen. Zuständig ist in Nordrhein-Westfalen der Landschaftsverband: für das Rheinland der LVR mit Sitz in Köln, für Westfalen-Lippe der LWL mit Sitz in Münster. Nach Antragseingang wird laut LWL-Serviceportal innerhalb von zwei Wochen geprüft, welcher Träger zuständig ist; sollte ein anderer zuständig sein, wird der Antrag unverzüglich weitergeleitet. Antragsgebühren fallen nicht an."
+      ],
+      "bullets": [
+        "Zuständigkeits-Praxis am Beispiel Kreis Recklinghausen: Der Kreis ist für Personen bis zum Ende der Schulausbildung zuständig; danach ist der Landschaftsverband (LWL) der Ansprechpartner.",
+        "Dieselbe Kreis-Seite dokumentiert die Reihenfolge: Besteht eine Pflegeversicherung, ist zunächst dort der Zuschuss zu wohnumfeldverbessernden Maßnahmen zu beantragen; reicht das nicht, ist der Pflegekassen-Bescheid dem Antrag beizufügen. Das ist die dokumentierte Praxis eines Kreises — fragen Sie bei Ihrem Kreis oder beim Landschaftsverband nach der Vorgehensweise in Ihrem Fall.",
+        "Leistungen für Wohnraum sind abhängig von Einkommen und Vermögen; die Verhältnisse müssen zur Bearbeitung offengelegt werden."
+      ],
+      "cta": {"label": "Förderung ohne Pflegegrad: die drei realen Wege im Detail", "slug": "treppenlift-foerderung-ohne-pflegegrad"}
+    },
+    {
+      "h2": "Weg 4: KfW — Zuschuss gestoppt, Kredit verfügbar (Stand 13.11.2026)",
+      "p": [
+        "Der KfW-Zuschuss „Altersgerecht Umbauen – Barrierereduzierung“ (455-B) kann derzeit nicht beantragt werden. Die KfW schreibt auf der Produktseite: „Diesen Zuschuss können Sie nicht mehr beantragen.“ Grund ist die hohe Nachfrage — die vom Bund für 2026 bereitgestellten Mittel sind ausgeschöpft. Zur Geschichte: Die Antragstellung war am 8. April 2026 wieder aufgenommen worden; nach einer KfW-Meldung können „ab sofort“ keine Anträge mehr gestellt werden. Für 2027 bleibt es offen: Sollten erneut Bundesmittel bereitgestellt werden, „wird eine Antragstellung wieder möglich sein“.",
+        "Verfügbar ist nach KfW-Angabe alternativ der zinsverbilligte Kredit „Altersgerecht Umbauen“ (159) — ein Darlehen, das zurückgezahlt werden muss. Den Programmstand prüfen Sie vor jeder Planung direkt auf der KfW-Produktseite."
+      ],
+      "bullets": [
+        "Portal-Echo kann den Stopp verzögert spiegeln: Am 13.11.2026 listete die NRW.BANK das KfW-Programm auf ihrer Förderproduktseite noch ohne Stopphinweis („Zuschüsse bis zu 6.250 € pro Wohneinheit“). Maßgeblich ist allein die Produktseite der KfW — nicht das Portal, das das Programm wiedergibt."
+      ]
+    },
+    {
+      "h2": "Wohnberatung in NRW: neutral und kostenlos",
+      "p": [
+        "Bevor Sie sich durch Anträge und Programme arbeiten, lohnt ein Gespräch mit der Wohnberatung. Die Landeskoordination Wohnberatung NRW beschreibt das Angebot so: „berät neutral und kostenlos zur Anpassung der Wohnsituation an jede Lebensphase“. Eine qualifizierte Wohnberatung „berät vor Ort über die Möglichkeiten, die Wohnung/das Haus bequemer, sicherer und alltagstauglicher zu gestalten“ und „unterstützt bei Bedarf die Umsetzung der Maßnahmen“.",
+        "Gefunden wird die zuständige Stelle über die digitale Karte der Landeskoordination: „Auf unserer digitalen Karte finden Sie die geförderten und nicht-geförderten Wohnberatungsstellen in Ihrer Nähe.“"
+      ]
+    },
+    {
+      "h2": "Mieter in Nordrhein-Westfalen",
+      "p": [
+        "Das Mietrecht ist bundesweit geregelt — für Mieterinnen und Mieter in NRW gelten also keine abweichenden Regeln: Modernisierungen (dazu gehören barrierereduzierende Maßnahmen) verlangen die Duldung bzw. Zustimmung des Vermieters nach § 554 BGB, mit klaren Ausnahme- und Interessenabwägungsregeln. Unser Ratgeber zum Treppenlift in der Mietwohnung behandelt die Route im Detail, einschließlich Vermieter-Zustimmung und Kostenverteilung.",
+        "Zum Landesprogramm der NRW.BANK (Weg 2): Es richtet sich an selbst genutztes Wohneigentum — Mieter sind dort nicht die Zielgruppe. Die Eingliederungshilfe (Weg 3) und die Pflegekasse (Weg 1) sind dagegen nicht auf Eigentümer beschränkt; wie eine bauliche Maßnahme in der Mietwohnung konkret abläuft, klären Sie mit dem jeweiligen Träger und Ihrer Vermieterin oder Ihrem Vermieter."
+      ]
+    },
+    {
+      "h2": "Reihenfolge für Ihren Antrag in NRW",
+      "p": [
+        "Diese Reihenfolge vermeidet die häufigsten Umwege: abgelehnte Anträge wegen fehlender Vorprüfung und Fördermittel, die wegen vorzeitiger Beauftragung verfallen."
+      ],
+      "bullets": [
+        "Pflegegrad bzw. bestehende Leistungsansprüche klären — der Bescheid ist die Grundlage für mehrere Wege.",
+        "Wohnumfeld-Antrag bei der Pflegekasse stellen, bevor ein Auftrag unterschrieben wird.",
+        "Bei eigener Immobilie: Einkommensgrenze des NRW.BANK-Programms prüfen und Termin bei der Bewilligungsbehörde vereinbaren (Checkliste der NRW.BANK mitnehmen).",
+        "Bei wesentlicher Behinderung: Eingliederungshilfe-Antrag beim Landschaftsverband (LVR oder LWL) stellen — Pflegekassen-Bescheid beifügen, wenn die Pflegekasse nicht ausreicht.",
+        "Kostenlose Wohnberatung in Ihrer Nähe über die Karte der Landeskoordination NRW finden und das Erstgespräch nutzen.",
+        "Vor jedem KfW-Bezug den aktuellen Programmstand auf der KfW-Produktseite prüfen; der Zuschuss 455-B ist derzeit nicht beantragbar, der Kredit 159 schon.",
+        "Kostenvoranschläge von Fachbetrieben einholen und für alle Anträge aufbewahren — sie gehören in fast jede Antragsmappe."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Gibt es in NRW einen direkten Landes-Zuschuss für den Treppenlift?",
+      "a": "Ein landeseigenes Zuschussprogramm speziell für Treppenlifte ist uns zum Prüfstand 13.11.2026 nicht bekannt. Das Landesprogramm der NRW.BANK arbeitet mit zinsgünstigen Darlehen und Tilgungsnachlässen (kein Zuschuss) und setzt Einkommensgrenzen voraus. Zuschuss-Routen für den Treppenlift laufen über die Pflegekasse (Wohnumfeld, Ermessensleistung) oder — bei wesentlicher Behinderung und gebäudefester Anlage — über die Eingliederungshilfe der Landschaftsverbände. Ob eine Leistung bewilligt wird, entscheidet die zuständige Stelle."
+    },
+    {
+      "q": "Wohin richte ich den Antrag in NRW?",
+      "a": "Wohnumfeld-Zuschuss: direkt bei Ihrer Pflegekasse. NRW.BANK-Wohnraumförderung: bei der für Ihre Gemeinde oder Stadt zuständigen Bewilligungsbehörde. Eingliederungshilfe: beim Landschaftsverband — LVR im Rheinland, LWL in Westfalen-Lippe; nach zwei Wochen wird die Zuständigkeit geprüft und der Antrag gegebenenfalls weitergeleitet."
+    },
+    {
+      "q": "Ist der KfW-Zuschuss 455-B im Jahr 2026 beantragbar?",
+      "a": "Nein — Stand 13.11.2026 schreibt die KfW: „Diesen Zuschuss können Sie nicht mehr beantragen.“ Die Mittel für 2026 sind ausgeschöpft. Für 2027 ist eine Wiederaufnahme möglich, aber nicht zugesagt. Der zinsverbilligte Kredit „Altersgerecht Umbauen“ (159) ist nach KfW-Angabe verfügbar."
+    },
+    {
+      "q": "Was kostet die Wohnberatung in NRW?",
+      "a": "Die Wohnberatung berät nach Angabe der Landeskoordination Wohnberatung NRW „neutral und kostenlos“. Die Stellen finden Sie über die digitale Karte der Landeskoordination."
+    }
+  ],
+  "ctaEarly": {"label": "Förderwege im Detail: Beträge, Fristen, Voraussetzungen", "slug": "treppenlift-zuschuss"},
+  "related": [
+    {"label": "Treppenlift in der Mietwohnung: Vermieter-Zustimmung und Kosten", "slug": "treppenlift-mietwohnung"},
+    {"label": "Pflegegrad beantragen: Ablauf und Fristen", "slug": "pflegegrad-antrag-ablauf-fristen"},
+    {"label": "Was kostet ein Treppenlift wirklich?", "slug": "treppenlift-kosten"}
+  ],
+  "standLine": "Alle Angaben am 13.11.2026 aus den verlinkten Seiten geprüft. Förderbedingungen ändern sich häufig; prüfen Sie vor jedem Antrag den aktuellen Stand bei der zuständigen Stelle.",
+  "sources": [
+    {"label": "NRW.BANK — „Barrierefrei umbauen“ (Wohnraumförderung des Landes, Eigentumsförderung – Modernisierung, § 13-WFNG-Einkommensgrenzen, anrechenfreie Beträge, Bewilligungsbehörden-Weg)", "url": "https://www.nrwbank.de/de/privatpersonen/wohneigentum-gestalten/barrierefrei-umbauen", "checked_at": "2026-11-13"},
+    {"label": "NRW.BANK — Förderproduktseite „Altersgerecht Umbauen – Barrierereduzierung – Investitionszuschuss“ (spiegelt KfW-Programm, Fördergeber KfW; am 13.11.2026 ohne Stopphinweis)", "url": "https://www.nrwbank.de/de/foerderung/foerderprodukte/15730/altersgerecht-umbauen---barrierereduzierung---investitionszuschuss.html", "checked_at": "2026-11-13"},
+    {"label": "KfW — Produktseite „Barrierereduzierung – Investitionszuschuss (455-B)“ (Antragstopp, Kredit-159-Hinweis)", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/", "checked_at": "2026-11-13"},
+    {"label": "KfW-Newsroom — Meldung zur Wiederaufnahme der Zuschussförderung ab 8. April 2026", "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/News-Details_889024.html", "checked_at": "2026-11-13"},
+    {"label": "KfW-Newsroom — Meldung „keine Anträge mehr“ (Mittel 2026 belegt)", "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/News-Details_903232.html", "checked_at": "2026-11-13"},
+    {"label": "LWL-Inklusionsamt Soziale Teilhabe — „Leistungen für Wohnraum“ (Definition, Beispiele inkl. Treppenlifter, § 64e-Abgrenzung, Antragstellung)", "url": "https://www.lwl-inklusionsamt-soziale-teilhabe.de/de/hilfen/leistungen-fur-wohnraum/", "checked_at": "2026-11-13"},
+    {"label": "LWL-Serviceportal — „Eingliederungshilfe für volljährige Menschen“ (LVR/LWL-Zuständigkeit, 2-Wochen-Prüfung, keine Antragsgebühren)", "url": "https://serviceportal.lwl.org/de/soziale-teilhabe/eingliederungshilfe-fur-volljaehrige-menschen/", "checked_at": "2026-11-13"},
+    {"label": "Kreis Recklinghausen — „Eingliederungshilfe: Hilfen für den behinderungsgerechten Wohnungsumbau“ (Zuständigkeit Kreis/LWL, Pflegekasse-zuerst-Praxis, Einkommen/Vermögen)", "url": "https://www.kreis-re.de/Inhalte/Buergerservice/_index2.asp?id=18979&seite=angebot", "checked_at": "2026-11-13"},
+    {"label": "Landeskoordination Wohnberatung NRW — „Was ist Wohnberatung?“ (neutral und kostenlos, Beratung vor Ort)", "url": "https://lk-wohnberatung.nrw/was-ist-wohnberatung/", "checked_at": "2026-11-13"},
+    {"label": "Landeskoordination Wohnberatung NRW — „Wohnberatungsstellen“ (digitale Karte)", "url": "https://lk-wohnberatung.nrw/wohnberatungsstellen/", "checked_at": "2026-11-13"}
+  ]
+}

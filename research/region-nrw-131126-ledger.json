@@ -1,0 +1,131 @@
+{
+  "batch": "region-nrw-131126",
+  "checked_at": "2026-11-13",
+  "evidence_dir": "research/evidence/region-nrw-131126",
+  "sources": [
+    {
+      "id": 1,
+      "label": "NRW.BANK — Barrierefrei umbauen (Guide, Wohnraumförderung des Landes NRW)",
+      "url": "https://www.nrwbank.de/de/privatpersonen/wohneigentum-gestalten/barrierefrei-umbauen",
+      "evidence": "nrwbank-guide.txt",
+      "quotes": [
+        "Wir unterstützen im Auftrag des Landes Privatpersonen mit geringem bis mittlerem Einkommen bei Investitionen in selbst genutztes Wohneigentum.",
+        "Eigentumsförderung - Modernisierung",
+        "Zinsgünstige Darlehen bis 220.000 € mit einem Finanzierungsanteil von bis zu 100% - feste Zinsen 30 Jahre",
+        "Für Haushalte mit kleinen und mittleren Einkommen",
+        "Fördert die Modernisierung von selbst genutzten Eigenheimen und Eigentumswohnungen",
+        "Mit attraktiven Tilgungsnachlässen in Höhe von bis zu 50 % des Darlehens",
+        "Für schwerbehinderte und/oder pflegebedürftige Personen gibt es anrechenfreie Beträge bei der Einkommensermittlung",
+        "gesetzlichen Einkommensgrenzen nach § 13 des Gesetzes zur Förderung und Nutzung von Wohnraum für das Land Nordrhein-Westfalen (WFNG NRW)",
+        "Checkliste für Beratungstermine zum Thema Wohnraumförderung",
+        "Dieses Programm der Wohnraumförderung des Landes fördert Modernisierungs- und Umbauvorhaben von Wohneigentum."
+      ],
+      "needles": ["23.540 €", "32.956 €", "28.350 €", "39.690 €", "29.210 €", "40.894 €", "35.740 €", "50.036 €", "43.130 €", "60.382 €", "50.520 €", "70.728 €", "57.910 €", "81.074 €", "Abbau von Barrieren"]
+    },
+    {
+      "id": 2,
+      "label": "NRW.BANK — Förderprodukt 15730 (spiegelt KfW-455-B ohne Stopphinweis, Fördergeber KfW)",
+      "url": "https://www.nrwbank.de/de/foerderung/foerderprodukte/15730/altersgerecht-umbauen---barrierereduzierung---investitionszuschuss.html",
+      "evidence": "nrwbank-15730.txt",
+      "quotes": [
+        "Zuschüsse bis zu 6.250 € pro Wohneinheit",
+        "Fördergeber: KfW"
+      ],
+      "needles": []
+    },
+    {
+      "id": 3,
+      "label": "KfW — Produktseite 455-B (Antragstopp, Kredit-159-Alternative)",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
+      "evidence": "kfw-455-live.txt",
+      "quotes": [
+        "Diesen Zuschuss können Sie nicht mehr beantragen.",
+        "wird eine Antrag­stellung wieder möglich sein",
+        "zins­verbilligten Kredit „Altersgerecht Umbauen“ (159) beantragen"
+      ],
+      "needles": ["2027"]
+    },
+    {
+      "id": 4,
+      "label": "KfW-Newsroom — Wiederaufnahme ab 8. April 2026",
+      "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/News-Details_889024.html",
+      "evidence": "kfw-news-start.txt",
+      "quotes": [
+        "Ab dem 8. April 2026 nimmt die KfW die Zuschussförderung für Maßnahmen zur Barrierereduzierung in Wohnungen und Häusern wieder auf."
+      ],
+      "needles": []
+    },
+    {
+      "id": 5,
+      "label": "KfW-Newsroom — erneuter Antragstopp (Mittel 2026 belegt)",
+      "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/News-Details_903232.html",
+      "evidence": "kfw-news-stopp.txt",
+      "quotes": [
+        "bereitgestellten Mittel vollständig mit Anträgen belegt sind",
+        "Ab sofort können daher keine Anträge mehr in diesem Förderprogramm gestellt werden."
+      ],
+      "needles": []
+    },
+    {
+      "id": 6,
+      "label": "LWL-Inklusionsamt Soziale Teilhabe — Leistungen für Wohnraum",
+      "url": "https://www.lwl-inklusionsamt-soziale-teilhabe.de/de/hilfen/leistungen-fur-wohnraum/",
+      "evidence": "lwl-wohnraum.txt",
+      "quotes": [
+        "Leistungen für Wohnraum sind Geräte oder Vorrichtungen, die mit dem Gebäude verbunden sind.",
+        "fest mit dem Baukörper verbundene Treppenlifter für das Verlassen des Hauses",
+        "ist es eine Maßnahme zur Verbesserung des Wohnumfeldes (nach §64e SGB XII) im Rahmen Hilfe zur Pflege",
+        "Um Leistungen für Wohnraum zu erhalten, müssen Sie einen Antrag auf Eingliederungshilfe stellen."
+      ],
+      "needles": ["behindertengerechte Badezimmerumbauten", "ebenerdige Duschen", "Türverbreiterungen", "Haustüröffnungssysteme"]
+    },
+    {
+      "id": 7,
+      "label": "LWL-Serviceportal — Eingliederungshilfe für volljährige Menschen",
+      "url": "https://serviceportal.lwl.org/de/soziale-teilhabe/eingliederungshilfe-fur-volljaehrige-menschen/",
+      "evidence": "lwl-serviceportal.txt",
+      "quotes": [
+        "Sie können Eingliederungshilfe bei Ihrem zuständigen Landschaftsverband (Landschaftsverband Rheinland, LVR oder Landschaftsverband Westfalen-Lippe, LWL) beantragen.",
+        "Innerhalb von 2 Wochen ab Antragseingang wird die Zuständigkeit geprüft. Sollte ein anderer Träger zuständig sein, wird Ihr Antrag unverzüglich weitergeleitet.",
+        "keine Antragsgebühren"
+      ],
+      "needles": []
+    },
+    {
+      "id": 8,
+      "label": "Kreis Recklinghausen — Eingliederungshilfe Wohnungsumbau (Zuständigkeit + Pflegekasse-zuerst-Praxis)",
+      "url": "https://www.kreis-re.de/Inhalte/Buergerservice/_index2.asp?id=18979&seite=angebot",
+      "evidence": "kreis-re.txt",
+      "quotes": [
+        "Der Kreis Recklinghausen ist grundsätzlich zuständig für Leistungen der Eingliederungshilfe für Personen bis zur Beendigung der Schulausbildung.",
+        "Besteht eine Pflegeversicherung, so ist zunächst dort ein Zuschuss zu Wohnumfeld verbessernden Maßnahmen zu beantragen.",
+        "Sollten die Leistungen der Pflegekasse nicht ausreichen, ist der entsprechende Bescheid dem Antrag beizufügen bzw. nachzureichen.",
+        "Leistungen für Wohnraum sind abhängig von Einkommen und Vermögen."
+      ],
+      "needles": []
+    },
+    {
+      "id": 9,
+      "label": "Landeskoordination Wohnberatung NRW — Was ist Wohnberatung?",
+      "url": "https://lk-wohnberatung.nrw/was-ist-wohnberatung/",
+      "evidence": "wohnberatung-nrw.html",
+      "quotes": [
+        "berät neutral und kostenlos zur Anpassung der Wohnsituation an jede Lebensphase",
+        "berät vor Ort über die Möglichkeiten, die Wohnung/das Haus bequemer, sicherer und alltagstauglicher zu gestalten",
+        "unterstützt bei Bedarf die Umsetzung der Maßnahmen"
+      ],
+      "needles": [],
+      "note": "Verbatim-Prüfung gegen das RAW-HTML (Text-Extraktion verliert den Body dieser Seite)."
+    },
+    {
+      "id": 10,
+      "label": "Landeskoordination Wohnberatung NRW — Wohnberatungsstellen (digitale Karte)",
+      "url": "https://lk-wohnberatung.nrw/wohnberatungsstellen/",
+      "evidence": "wohnberatung-stellen.txt",
+      "quotes": [
+        "Auf unserer digitalen Karte finden Sie die geförderten und nicht-geförderten Wohnberatungsstellen in Ihrer Nähe."
+      ],
+      "needles": []
+    }
+  ]
+}
