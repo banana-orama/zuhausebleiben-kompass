@@ -1,0 +1,28 @@
+Betreff: Re: Aroundhome-Partnerprogramm — Eckdaten (Volumen, Kanäle, Integration, Sitz)
+
+Hallo Katharina,
+
+danke für die schnelle Rückmeldung — Du natürlich gern.
+
+Zu Deinen vier Punkten, ehrlich und konkret:
+
+**1. Volumen**
+Unser Portal ist bewusst neu aufgesetzt (Launch 15.10.2026) und steht gerade am Anfang der organischen Sichtbarkeit — die ersten Seiten sind in den letzten Wochen in den Google-Index gekommen, belastbare Klickzahlen bauen sich gerade erst auf. Deshalb möchte ich Dir keine erfundenen Wochen-Leadzahlen nennen. Was ich liefern kann: redaktionell 34 geprüfte Ratgeber plus 8 druckbare Checklisten, deren Badumbau-Cluster (Wanne zur Dusche, bodengleiche Dusche im Altbau, Angebote vergleichen, Dusch-WC) exakt Deine Badezimmer-Kategorie abdeckt. Die Content-Produktion läuft werktäglich weiter; leadnahen Traffic erwarte ich realistisch über die Vergleichs- und Checklisten-Seiten, sobald diese Long-Tail-Queries ranken. Wenn Du magst, ziehe ich Dich mit einem kurzen Zahlen-Update mit, sobald die Search-Console-Daten aussagekräftig sind — transparent statt geschönt.
+
+**2. Kanäle / Trafficquellen**
+100 % redaktionelle organische Suche (SEO/GEO): Struktur-Cluster mit Quellenbelegen (gesetze-im-internet.de, KfW, BMG), druckbare Checklisten als Linkmagnet, IndexNow für Bing/Ecosia, llms.txt für KI-Crawler. Kein SEM, kein Brand-Bidding, keine Newsletter-Kampagnen, keine Incentives, keine Gesundheitsdatenerhebung. Zielgruppe: ältere Menschen und ihre Angehörigen, durchweg Sie-Ansprache.
+
+**3. Einbindung / Tracking**
+Klar präferiert: **Textlinks über Awin** (DeepLinks via cread.php auf die Badezimmer-Kategorie bzw. Wanne-zur-Dusche/ebenerdige Dusche). Unsere Platzierungen laufen mit rel="sponsored", sichtbarer Anzeigen-Kennzeichnung und Vergütungshinweis; intern messen wir Klicks consent-gated mit stabilen Platzierungs-IDs (GA4, nur nach Einwilligung). **Kein iFrame, keine API-Leadübernahme** — aus Überzeugung: Wir sammeln auf unserer Seite bewusst keinerlei Interessentendaten (kein Kontaktformular, keine Gesundheitsdaten); die Übergabe erfolgt komplett auf Eurer Landingpage. Das gleiche Setup läuft seit Anfang November live mit dem Malteser-Hausnotruf-Programm (Awin 112616) und ist dort freigegeben.
+
+**4. Unternehmenssitz**
+Deutschland: Tobias Batke (Kleingewerbe), Sängertshöhe 14, 51588 Nümbrecht, NRW. Impressum: https://zuhausebleiben-kompass.de/impressum.html
+
+Falls für die Prüfung hilfreich: Awin-Publisher-ID 3124891 („Zuhausebleiben-Kompass"), Bewerbung auf Advertiser 68536 ist im Netzwerk eingereicht. Gerne schicke ich auch einen Screenshot einer Beispiel-Platzierung oder die Checkliste „Angebote vergleichen" als PDF zur redaktionellen Einschätzung.
+
+Ich freue mich auf Deine Einschätzung, wie wir das am sinnvollsten aufsetzen!
+
+Viele Grüße
+Tobias Batke
+ZuhauseBleiben Kompass
+anfragen@zuhausebleiben-kompass.de · https://zuhausebleiben-kompass.de/
