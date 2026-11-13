@@ -16,7 +16,7 @@
 - Vollständig: `research/partner-scan-badumbau-231026.md` (Ledger 24/24 verbatim). Entwurf Erstmail: `operations/aroundhome-enquiry-draft.txt` (nicht gesendet, keychain-blockiert).
 
 ## Warteschleifen
-1. Programmzusage im Awin-Login („Bewerbung offen" → zugelassen/abgelehnt) UND substanzielle Antwort von Genc Kashtanjeva (koop@liftstar-marketing.de; laut Auto-Antwort ab 22.10.2026 erreichbar, Posteingang id 11232). Beides abwarten; Nachfassen ab 22.10. geplant.
+1. Programmzusage im Awin-Login („Bewerbung offen" → zugelassen/abgelehnt) UND substanzielle Antwort von Genc Kashtanjeva (koop@liftstar-marketing.de; laut Auto-Antwort ab 22.10.2026 erreichbar, Posteingang id 11232). **Follow-up 13.11. gesendet (Gesendet-Beleg ID 37**, Draft auf 37 Ratgeber/7 Checklisten aktualisiert); erneutes Nachfassen ab ~20.11., falls weiter ohne Antwort.
 2. Erst nach Zusage: aktuelle T&C im Login lesen, Werbemittel/Links nur aus dem Programm, Leadformular-Weg laut Frage-3-Antwort bauen, Pinterest nur mit Kanalfreigabe. Kein Leadformular, keine Partnerlinks vorher.
 3. Awin-Profil ist laut Dashboard-Hinweis unvollständig — Vervollständigung erst mit Betreiber-Rücksprache/Zusage, keine Datenerfindung.
 4. Projektpostfach: IMAP/SMTP aktiv (Himalaya, Schlüsselbund); Eingang regelmäßig prüfen. Gesendet-Stempel zeigt 1970 (Server-Anzeigebug, Inhalt korrekt).
