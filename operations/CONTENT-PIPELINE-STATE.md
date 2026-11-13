@@ -1,6 +1,12 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-11-12 (Batch 21: Briefing 25 Treppenlift-Aufmaß-Termin — 36. Ratgeber, Lift-Journey damit lückenlos). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-11-13 (Batch 22: Briefing 26 Hausnotruf-Alarm-Ablauf — 37. Ratgeber, Care-/Hausnotruf-Journey). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+
+### Batch 22 (2026-11-13, Cron-Lauf) — Briefing 26: Hausnotruf-Alarm-Ablauf
+
+1. **Neu veröffentlicht:** hausnotruf-alarm-ablauf.json (37. Ratgeber) — Care-Journey nach Batch-21-Vorgabe, Cluster mit zugelassenem Partner (Malteser, beratungstermin-Placement jetzt auf 3 Artikeln). Inhalt: Alarmkette Knopf→Zentrale→Sprechkontakt→Verzweigung (medizinischer Notfall → Rettungsdienst sofort vs. Alarmplan), stiller Alarm (Herstellerangabe „in jedem Fall Bereitschafts- oder Rettungsdienst", DRK „kommt immer jemand"), Maßnahmenplan inkl. Grenze („ersetzt nicht die individuelle Einschätzung") + freiwillige Krankheitsangaben, Fehlalarm/Probealarm (80 %, „Lieber einmal zu oft als einmal zu wenig", Absenz von Fehlalarm-Gebühren dokumentiert), Zentrale-Zeiten als Zentrumsangabe (30 s Ziel/94 % DRK Sachsen) + Verbandskontext (11.000 Rufe/3.600 Einsätze/Tag, 1,2 Mio Nutzer), BGH III ZR 92/16 (Leitsatz, Entlastungsbeweis § 280 Abs. 1 Satz 2 BGB, 16-Stunden-Erste-Hilfe-Ausbildung als Vertragsdetail) als Qualitätsfrage, 10-Punkte-Checkliste, 6 FAQs. 9 Quellen, 54/54 Zitate verbatim (`research/alarm-ablauf-131126-ledger.json`), Protokoll `research/hausnotruf-alarm-ablauf-batch.md`, Evidence `research/evidence/alarm-131126/`.
+2. Renderer: specialMap +1 (Early-CTA → hausnotruf-kosten-anbieter-vergleich). llms-txt.py: Summary + Section +1. Zähler: test_articles 37, verify_checklists_build RSS 37 (Sitemap dynamisch 48 locs).
+3. Gates: npm test EXIT 0 (62 Seiten/37 Artikel, Playwright 21, Partner A–F), verify_checklists_build ALL PASS, SVG-Gate 33/33 + Vision, Artikel-Akzeptanz 90/90 (Content-Support/Needles/Quellen/Placement/CTA/Related), Mobile 390px 0px Overflow.
 
 ## Bestand
 
