@@ -1,0 +1,21 @@
+================================================================================
+KfW 159 — kanonikal Umlaut+Slash
+Zinssatz-Kontext (textContent): Zinssatz: ab 3,00 %Zinsbeispiel für ein Darlehen aus dem Programm "Altersgerecht Umbauen" in Höhe von 50
+FAIL  159 Zins 3,19 sichtbar: gefunden=False erwartet=True
+PASS  159 Zins 2,35 (erwartet: NICHT): gefunden=False erwartet=False
+PASS  159 Platzhalter ab -,-- % (erwartet: weg nach JS): gefunden=False erwartet=False
+PASS  159 50.000/WE: gefunden=True erwartet=True
+PASS  159 Haushaltsvorbehalt: gefunden=True erwartet=True
+PASS  159 Kombination FAQ (DOM-Fallback ok): gefunden=True erwartet=True
+screenshot 159: /Users/mac/.config/browser-harness/tmp/p-f254fccaf904/shot.png
+================================================================================
+KfW 455-B — Antragstopp im gerenderten Text
+PASS  455-B sichtbar: 'Diesen Zuschuss können Sie nicht mehr beantragen': True
+PASS  455-B sichtbar: 'bereits ausgeschöpft': True
+PASS  455-B sichtbar: 'Laufende Anträge nicht betroffen': True
+PASS  455-B sichtbar: 'reserviert': True
+PASS  455-B sichtbar: 'Sollten im Jahr 2027 erneut Bundesmittel': True
+PASS  455-B sichtbar: 'noch nicht mit Ihrem Vorhaben begonnen': True
+info 455-B 'Neustart' x0: 
+info 455-B '2026' x1: enPressestelleFolgen Sie uns auf:KfW auf XYoutubeXingLinkedInInstagram2026 KfW, Frankfurt am Main Sitemap Barrierefreiheit Barriere melden D
+screenshot 455-B: /Users/mac/.config/browser-harness/tmp/p-f254fccaf904/shot.png

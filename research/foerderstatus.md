@@ -2,7 +2,31 @@
 
 # Prüflauf-Einträge: neuester oben, Marker "AKTUELL" wandert mit.
 
-## Prüflauf 09.11.2026, 08:20–08:52 CET (cron, autonomous) — AKTUELL
+## Prüflauf 16.11.2026, 08:20–08:41 CET (cron, autonomous) — AKTUELL
+
+**Ergebnis in einem Satz:** Alle förderrelevanten Zahlen und Rechtsaussagen des Live-Contents stimmen zum Quellenstand vom 16.11.2026 — **null Abweichungen, keine sachliche Korrektur nötig** (34 curl-Volltext-Assertionen PASS, Browser-Check 455-B 6/6 sichtbar, 79/79 offizielle URLs HTTP 200 — 8 davon nach jeweils einem Retry, transienter gesetze-im-internet Rate-Limit). Geändert wurden nur Prüfdaten.
+
+**Kernbeobachtung heute (Zinssatz-Volatilität bestätigt):** Die KfW-159-Seite rendert im Browser jetzt **„Zinssatz: ab 3,00 % effektivem Jahreszins"** — 09.11. noch 3,19 %, statischer Abruf zeigt weiterhin den Platzhalter „ab -,-- %" (3,19/3,00/2,35/2,19: kein Treffer im statischen HTML). Innerhalb einer Woche −0,19 pp → der Zins ist dynamisch und ohne Ankündigung änderbar. **Ex post bestätigt: Der Content nennt nirgends einen konkreten KfW-Zins** (grep 3,00/3,19 in content-ready: 0 Treffer). Die Behauptung des neuen Artikels `treppenlift-finanzierung` („die KfW-Seite rendert heute höhere Sätze [als das kursierende 2,35 %]-Echo") bleibt mit 3,00 % **wahr** und wurde heute im Browser belegt; „2,35" taucht auf der KfW-Seite nicht auf (PASS-Abwesenheit).
+
+**Prüffläche erweitert (neue Artikel seit 09.11.):** `treppenlift-finanzierung` zitiert § 40 Abs. 4 als Ganzsatz („Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen." [20]) — heute **verbatim im Gesetzestext PASS** (15. §40-Assertion). Die Artikel 23/24 (ohne-pflegegrad, entlassung) haben KfW-/Betrags-Bezüge bewusst 0× — nichts zu prüfen.
+
+**Verifiziert am 16.11.2026 (Belege `research/evidence/foerder-161126-*.html`, Skript `research/verify_foerder_161126.py`, Log `verify_foerder_161126.log`):**
+- **§ 40 SGB XI** (gesetze-im-internet, ISO-8859-1): 15/15 PASS — Abs. 2 „42 Euro" ✓, Abs. 3 „zehn vom Hundert, höchstens jedoch 25 Euro" ✓, Abs. 4 „subsidiär"/Zweckformel/„4 180 Euro je Maßnahme"/Ganzsatz-verbatim/„16 720 Euro"/anteilig ✓, Abs. 7 „drei Wochen"/„fünf Wochen"/„als genehmigt" ✓, Fußnote „ab dem 1.1.2025" ✓ — unverändert zu 09.11.
+- **KfW 455-B**: 6/6 PASS (curl) + 6/6 im Browser sichtbar — Antragstopp-Wortlaut, ausgeschöpft, „Laufende Anträge nicht betroffen", „reserviert", 2027-Neu-Bundesmittel (bedingt), „noch nicht mit Ihrem Vorhaben begonnen" — **kein Neustart-Hinweis**: einziger „2026"-Treffer = Copyright-Footer (curl+Browser), „Neustart" 0×. Verweist weiterhin auf 159 als Alternative.
+- **KfW 159**: 9/9 PASS (curl) + Kernsätze im Browser sichtbar (50.000/WE, Haushaltsvorbehalt, Kombinations-FAQ inkl. DOM-Fallback) — unverändert; canonical = zitierte Form (Umlaut+Slash).
+- **BMG Zuschüsse zur Wohnungsanpassung**: 4/4 PASS (4.180/16.720 €, PG 1–5, Zweitzuschuss) + 2.090 €/Person Wohngemeinschaft ✓ + **Zinspassage unverändert**: „zinsvergünstigte Kredite ab 2,19 Prozent (Stand: 10. Juli 2025)" weiterhin auf der BMG-Seite → Artikel-Zitat `hilfsmittel-dusch-wc` bleibt exakt korrekt (offener Punkt aus 26.10. bleibt geschlossen).
+
+**Browser-Check (Chromium, Log `research/browser_check_foerder_161126.log`):** 159: Zins-Kontext „Zinssatz: ab 3,00 %Zinsbeispiel…" im textContent, „2,35" abwesend ✓, Platzhalter nach JS-Render ersetzt ✓, 50.000/Haushaltsvorbehalt/Kombinations-FAQ sichtbar ✓. 455-B: 6/6 Stopp-Sätze sichtbar ✓. Hinweis: KfW-Cookie-Banner lag über dem Viewport (Screenshots zeigen Banner, textContent-Extraktion davon unabhängig — Needles im DOM).
+
+**Link-Status:** 79/79 distinct offizielle URLs HTTP 200 (`research/check_foerder_links_161126.py`, Log) — Prüffläche automatisch gewachsen (neue Artikel: BGB §491–§502/§312g/§356b, SGB IX §§6/47/77/90/99/104/113/117, SGG, UWG, GKV-PDFs). 8 URLs (gesetze-im-internet) antworteten im ersten Lauf mit 000 (Rate-Limit), je **ein Retry = 200** — transient, kein Link-Rot (Lesson aus 26.10.-Lauf befolgt).
+
+**Geänderte Dateien:** 17 × `content-ready/*.json` — **32 `checked_at` → 2026-11-16** (nur heute re-verifizierte Quellen §40/455-B/159/BMG-wohnanp; Skript `research/bump_checked_at_161126.py`, URL-Zeilen-Zustandsautomat, Diff-Sanity 0 Fremdzeilen) + **7 sichtbare KfW-Prüfdatumsangaben** „9. → 16. November 2026" (bad-umbau ×2, bodengleiche ×2, treppenlift-zuschuss ×2 — inkl. „direkt im Browser geprüft" —, wanne ×1; gedeckt durch heutigen curl+Browser-Check). Bewusst **nicht** hochgesetzt: Gesamtdisclaimer „2. November" (wohnumfeldverbesserung), BGB/Reform-Stichtage „19./20. November 2026" (finanzierung/ohne-pflegegrad — Rechtsdaten, keine Prüfdaten), historische Herstellerangaben. `data/content.json` unangetastet (Altentwürfe, Renderer überschreibt).
+
+**Build/Deploy:** build:launch (57 Seiten, Mode: LAUNCH index) + test_site.py + test_articles.py + test_partner_links.py PASS. Dist-Readback: 4 Artikel mit „16. November 2026", 17 Seiten mit „2026-11-16"-Footer; einziger verbleibender „9. November"-Treffer im dist = BGB-Stichtag „**19**. November 2026" (Substr-Treffer, korrekt unverändert). Commit siehe unten, CI + Live-Readback im Cron-Report.
+
+---
+
+## Prüflauf 09.11.2026, 08:20–08:52 CET (cron, autonomous)
 
 **Ergebnis in einem Satz:** Alle förderrelevanten Zahlen und Rechtsaussagen des Live-Contents stimmen zum Quellenstand vom 09.11.2026 — **null Abweichungen** (33 curl-Volltext-Assertionen PASS, Browser-Check 11/11 PASS, 37/37 offizielle URLs HTTP 200). KfW-455-B-Antragstopp unverändert; KfW-159-Bedingungen unverändert; BMG-Werte inkl. Zinspassage unverändert.
 
