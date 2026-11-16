@@ -16,6 +16,9 @@ class Page(HTMLParser):
         if tag=='h1':self.h1+=1
         if tag=='meta' and d.get('name')=='robots':self.noindex='noindex' in d.get('content','')
 files=list(root.rglob('*.html'))
+# 13.11./16.11.2026: ausgebaute Regionen = alle data/region-*.json (vollständig recherchiert,
+# Quellen mit checked_at); sie MÜSSEN indexierbar sein, alle übrigen bleiben Platzhalter (noindex).
+_expanded={json.loads(f2.read_text())['slug']+'.html' for f2 in (root.parent/'data').glob('region-*.json')}
 for f in files:
     p=Page();p.feed(f.read_text())
     assert p.h1==1,(f,'heading count')
@@ -25,11 +28,12 @@ for f in files:
     elif f.parent.name == 'region' or f.name == 'regional.html':
         # Fix #5 (2026-10-30): Region-Platzhalter bleiben noindex, bis sie mit
         # verifiziertem Landesprogramm-Inhalt erweitert sind (expand-or-noindex-Gate).
-        # 13.11.2026: Nordrhein-Westfalen ist als erste Region ausgebaut
-        # (data/region-nrw.json, 10 Quellen mit checked_at) und MUSS im Launch-Build
+        # 13.11./16.11.2026: NRW und Bayern sind ausgebaut und MÜSSEN im Launch-Build
         # indexierbar sein; Hub und alle übrigen Regionen bleiben Platzhalter (noindex).
-        if f.name == 'nordrhein-westfalen.html':
-            assert not p.noindex,(f,'expanded NRW region must be indexable at launch')
+        if f.name == 'regional.html':
+            assert p.noindex,(f,'region hub stays noindex')
+        elif f.name in _expanded:
+            assert not p.noindex,(f,'expanded region must be indexable at launch')
         else:
             assert p.noindex,(f,'region placeholder must stay noindex until expanded')
     elif f.name == 'pflegegrad-beantragen.html':
@@ -50,7 +54,8 @@ sm=(root/'sitemap.xml').read_text()
 locs=[u.split('<loc>')[1].split('</loc>')[0] for u in sm.split('<url>')[1:]]
 assert any(u.endswith('/datenschutz.html') for u in locs),('datenschutz.html missing from sitemap',len(locs))
 _region_locs=[u for u in locs if '/region/' in u or u.endswith('/regional.html')]
-assert _region_locs==[u for u in _region_locs if u.endswith('/region/nordrhein-westfalen.html')] and len(_region_locs)==1,('exactly the expanded NRW region belongs in the sitemap — no hub, no placeholders (fix #5 + 13.11. expansion)',_region_locs)
+_region_names=sorted(u.split('/region/')[1] for u in _region_locs if '/region/' in u)
+assert _region_names==sorted(_expanded) and len(_region_locs)==len(_expanded),('exactly the expanded regions belong in the sitemap — no hub, no placeholders (fix #5 + 13.11./16.11. expansions)',_region_locs,_expanded)
 assert not any(u.endswith('/pflegegrad-beantragen.html') for u in locs),('redirect stub must stay out of the sitemap (audit #9)',)
 assert len(locs)==len(set(locs)),('duplicate sitemap URLs',)
 # Audit #9: Weiterleitungsseite muss auf den Antrag-Ratgeber zeigen (Meta-Refresh + Canonical),

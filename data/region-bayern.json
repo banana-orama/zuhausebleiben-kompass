@@ -1,0 +1,166 @@
+{
+  "slug": "bayern",
+  "name": "Bayern",
+  "teaser": "Zweite ausführlich recherchierte Region: leistungsfreies Landesdarlehen bis 10.000 €, Eingliederungshilfe der Bezirke, Einkommensgrenzen nach BayWoFG und der KfW-Stand.",
+  "title": "Umbau-Förderung in Bayern: vier Wege",
+  "description": "Vier Förderwege in Bayern: Landes-Darlehen bis 10.000 €, Eingliederungshilfe der Bezirke, Pflegekasse und KfW-Stand — geprüft am 16.11.2026.",
+  "h1": "Umbau und Förderung in Bayern",
+  "leads": [
+    "Wenn in Bayern ein Treppenlift, ein barrierearmes Bad oder eine Stufe im Alltag zum Problem wird, laufen mehrere Förderwege parallel: die Pflegekasse, das Landesprogramm zur behindertengerechten Anpassung von Miet- und Eigenwohnraum, die Eingliederungshilfe der sieben bayerischen Bezirke — und die KfW, deren Zuschuss für Barrierereduzierung 2026 ausgeschöpft ist. Diese Seite ordnet die vier Wege für Bayern — ohne Garantien und ohne Vermittlungsinteresse.",
+    "Alle Angaben wurden am 16.11.2026 aus den verlinkten offiziellen Seiten geprüft. Förderbedingungen ändern sich häufig; im Einzelfall entscheidet immer die zuständige Stelle. Diese Seite wurde mit KI-Unterstützung erstellt und redaktionell gegen die Quellen geprüft."
+  ],
+  "sections": [
+    {
+      "h2": "Die vier Förderwege im Überblick",
+      "p": [
+        "Nicht jeder Weg passt zu jedem Haushalt. Die Tabelle zeigt, wer jeweils entscheidet und was Sie vorher klären sollten. Die ausführlichen Antragsstrecken behandeln unsere Ratgeber; die Links dazu finden Sie auf dieser Seite."
+      ],
+      "table": {
+        "head": ["Weg", "Zuständig", "Was infrage kommt", "Vorher klären"],
+        "rows": [
+          ["1. Wohnumfeld-Zuschuss", "Ihre Pflegekasse", "Zuschuss zu wohnumfeldverbessernden Maßnahmen (Ermessensleistung)", "Antrag vor der Beauftragung; Bescheid abwarten"],
+          ["2. Landesprogramm „Anpassung von Miet- und Eigenwohnraum“", "Bewilligungsstelle vor Ort (Landratsamt, kreisfreie Stadt bzw. Bezirksregierung); Auszahlung über BayernLabo", "Leistungsfreies Baudarlehen bis 10.000 € je Wohnung", "Einkommensgrenzen (Art. 11 BayWoFG); Antrag vor Baubeginn/Kaufvertrag"],
+          ["3. Leistungen für Wohnraum (Eingliederungshilfe)", "der Bezirk, in dem Sie wohnen (Oberbayern, Niederbayern, Oberpfalz, Oberfranken, Mittelfranken, Unterfranken, Schwaben)", "Beschaffung, Umbau, Ausstattung und Erhaltung behinderungsgerechten Wohnraums", "Antrag beim Bezirk (auch formlos möglich); Einkommen und Vermögen"],
+          ["4. KfW-Programme", "KfW (bundesweit)", "Kredit „Altersgerecht Umbauen“ (159); der Zuschuss 455-B ist derzeit gestoppt", "Aktuellen Programmstand direkt bei der KfW prüfen"]
+        ]
+      }
+    },
+    {
+      "h2": "Weg 1: Pflegekasse — zuerst prüfen",
+      "p": [
+        "Der Wohnumfeld-Zuschuss ist eine bundesweite Leistung: Bei Pflegebedürftigkeit kann die Pflegekasse Maßnahmen zur Verbesserung des Wohnumfeldes subsidiär fördern — als Ermessensleistung, nicht als automatischen Anspruch. In Bayern gelten dafür keine abweichenden Regeln.",
+        "Entscheidend ist die Reihenfolge: Der Antrag gehört vor der Beauftragung, und der Bescheid sollte abgewartet werden. Beträge, Fristen und die Genehmigungsfiktion behandeln unsere Ratgeber — dort finden Sie auch den Verweis auf das Gesetz im Original."
+      ],
+      "cta": {"label": "Wohnumfeld-Zuschuss richtig beantragen: Beträge, Fristen, Form", "slug": "wohnumfeldverbesserung-beantragen"}
+    },
+    {
+      "h2": "Weg 2: Landesprogramm — leistungsfreies Baudarlehen bis 10.000 €",
+      "p": [
+        "Der Freistaat Bayern fördert nach Angaben des Staatsministeriums für Wohnen, Bau und Verkehr die behindertengerechte Anpassung von bestehendem Eigen- und MIETwohnraum im Rahmen des Bayerischen Wohnungsbauprogramms — mit einem leistungsfreien Baudarlehen von bis zu 10.000 Euro je Wohnung. Leistungsfrei bedeutet: Das Darlehen ist zins- und tilgungsfrei und muss nach der Förderbestimmung nicht zurückgezahlt werden; die Ausführungsbestimmung (WFB 2022, Teil 4) setzt dafür unter anderem eine fünfjährige Belegungsbindung fest — die Wohnung darf in dieser Zeit nur von Haushalten mit mindestens einer begünstigten Person bewohnt werden.",
+        "Ausdrücklich eingeschlossen ist der Umbau einer Wohnung zu einem behindertengerechten Zuschnitt sowie der Einbau baulicher Anlagen, die die Folgen einer Behinderung mildern — die Förderbestimmung nennt als Beispiele einen Aufzug oder eine Rampe für Rollstuhlfahrer. Eine wichtige Grenze für die Planung: Treppenlifte werden im Landesprogramm nicht namentlich genannt. Ob ein Treppenlift als förderfähige bauliche Anlage anerkannt wird, entscheidet die Bewilligungsstelle im Einzelfall — fragen Sie vorher dort nach.",
+        "Da die Mittel im Allgemeinen nicht für alle berechtigten Antragsteller ausreichen, richtet sich die Auswahl der zu fördernden Bauvorhaben nach der sozialen Dringlichkeit der Anträge (Angabe des Ministeriums). Der Antrag muss vor Baubeginn oder vor Abschluss eines Kaufvertrags bei der zuständigen Bewilligungsstelle gestellt werden."
+      ],
+      "bullets": [
+        "Zuständig für den Antrag: beim Eigenwohnraum das Landratsamt bzw. die kreisfreie Stadt; beim Mietwohnraum die kreisfreie Stadt bzw. die Bezirksregierung — die Bewilligungsstelle prüft förderrechtlich und leitet bei Bewilligung an die BayernLabo weiter.",
+        "Bagatellgrenze: Maßnahmen mit Gesamtkosten unter 1.000 € werden nicht gefördert (Förderbestimmung).",
+        "Für das leistungsfreie Darlehen wird ein einmaliger Verwaltungskostenbeitrag von 1 % erhoben, der bei Auszahlung einbehalten wird (Förderbestimmung).",
+        "Bei der Ermittlung des verfügbaren Einkommens zählen nach der Förderbestimmung Einnahmen mit entsprechenden Aufwendungen — zum Beispiel Pflegegeld oder Blindengeld — nicht als verfügbare Geldmittel.",
+        "Andere Finanzierungsmittel für dieselbe Maßnahme sind vorrangig einzusetzen: Wer von der Pflegekasse einen Wohnumfeld-Zuschuss erhält, klärt die Kombination vorher mit der Bewilligungsstelle."
+      ],
+      "table": {
+        "head": ["Haushalt", "Einkommensgrenze (Höchstwert)"],
+        "rows": [
+          ["Einpersonenhaushalt", "28.300 €"],
+          ["Zweipersonenhaushalt", "43.200 €"],
+          ["Je weitere Person im Haushalt", "+ 10.700 €"],
+          ["Je Kind (§ 32 EStG)", "+ 3.200 €"]
+        ],
+        "note": "Höchstgrenzen nach Art. 11 Abs. 1 BayWoFG („In der Förderentscheidung dürfen als Einkommensgrenze höchstens bestimmt werden …“), abgerufen 16.11.2026; maßgeblich ist das Gesamteinkommen. Die Grenzen können per Rechtsverordnung angepasst werden — aktuellen Stand bei der Bewilligungsstelle erfragen. In unserer Darstellung deutsche Schreibweise mit Tausenderpunkt; der Gesetzestext schreibt „28 300 €“."
+      }
+    },
+    {
+      "h2": "Weg 3: Eingliederungshilfe — Leistungen für Wohnraum der Bezirke",
+      "p": [
+        "Bundesrechtliche Grundlage ist das SGB IX: Zu den Leistungen zur sozialen Teilhabe gehören ausdrücklich „Leistungen für Wohnraum“ (§ 113 Abs. 2 Nr. 1). § 77 SGB IX beschreibt sie so: Sie werden erbracht, um Menschen mit Behinderungen zu Wohnraum zu verhelfen, der zur Führung eines möglichst selbstbestimmten, eigenverantwortlichen Lebens geeignet ist — umfasst sind die Beschaffung, der Umbau, die Ausstattung und die Erhaltung von Wohnraum, der den besonderen Bedürfnissen entspricht.",
+        "In Bayern sind Träger dieser Eingliederungshilfe nicht Landschaftsverbände wie in NRW, sondern die sieben Bezirke: Oberbayern, Niederbayern, Oberpfalz, Oberfranken, Mittelfranken, Unterfranken und Schwaben. Zuständig ist der Bezirk, in dem Sie wohnen. Der Antrag kann laut BayernPortal formlos gestellt werden.",
+        "Zum Leistungsumfang im Detail: Die abgerufenen Bezirksseiten nennen — anders als die Seiten der Landschaftsverbände in NRW — keinen festen Katalog mit Treppenlift-Passagen und keine Beträge. Höhe und Umfang richten sich nach dem Einzelfall, insbesondere nach Bedarf sowie Einkommen und Vermögen. Feste Höchstbeträge für Wohnraumanpassung haben wir auf den geprüften offiziellen Seiten nicht gefunden; das schreibt die zuständige Stelle erst im Einzelfall fest.",
+        "Ein Sonderweg für erwerbstätige Menschen: Das Inklusionsamt des Zentrums Bayern Familie und Soziales (ZBFS) kann schwerbehinderten Beschäftigten und Selbständigen Leistungen zur Beschaffung behinderungsgerechten Wohnraums, zur Anpassung von Wohnraum und Ausstattung sowie zum Umzug gewähren — aber nur, „sofern kein vorrangiger Rehabilitationsträger zuständig ist“. Es können einkommensabhängige Zuschüsse, Zinszuschüsse und/oder Darlehen gewährt werden."
+      ],
+      "cta": {"label": "Förderung ohne Pflegegrad: die drei realen Wege im Detail", "slug": "treppenlift-foerderung-ohne-pflegegrad"}
+    },
+    {
+      "h2": "Weg 4: KfW — Zuschuss gestoppt, Kredit verfügbar (Stand 16.11.2026)",
+      "p": [
+        "Der KfW-Zuschuss „Altersgerecht Umbauen – Barrierereduzierung“ (455-B) kann derzeit nicht beantragt werden. Die KfW schreibt auf der Produktseite: „Diesen Zuschuss können Sie nicht mehr beantragen.“ Grund ist die hohe Nachfrage — die vom Bund für 2026 bereitgestellten Mittel sind ausgeschöpft. Für 2027 bleibt es offen: Sollten erneut Bundesmittel bereitgestellt werden, „wird eine Antragstellung wieder möglich sein“.",
+        "Verfügbar ist nach KfW-Angabe der zinsverbilligte Kredit „Altersgerecht Umbauen“ (159) — ein Darlehen bis zu 50.000 Euro je Wohneinheit, das zurückgezahlt werden muss. Der Maßnahmenkatalog nennt Treppenlifte ausdrücklich („Treppenlifte, Senkrecht-, Hebe- oder Plattformlifte installieren“). Zur Kombination mit der Pflegekasse hält die KfW selbst fest: „Wird eine Maßnahme (z. B. Badumbau) mit dem Zuschuss der Pflegeversicherung gefördert, können andere Maßnahmen (z. B. Treppenlift) mit dem Kredit der KfW gefördert werden.“",
+        "Zinssätze listen wir bewusst nicht auf dieser Seite: Sie schwanken im Wochenrhythmus und werden bei Zusage durch die KfW festgelegt. Den aktuellen Stand lesen Sie vor jeder Planung im KfW-Konditionen-Anzeiger und auf der Produktseite."
+      ],
+      "bullets": [
+        "Wiederaufnahme-Geschichte zum Einordnen: Die Antragstellung für 455-B war am 8. April 2026 wieder aufgenommen worden und wurde noch 2026 erneut gestoppt (KfW-Newsroom). Maßgeblich ist allein die aktuelle Produktseite der KfW."
+      ]
+    },
+    {
+      "h2": "Wohnberatung in Bayern: Anlaufstellen",
+      "p": [
+        "Bevor Sie sich durch Anträge und Programme arbeiten, lohnt ein Gespräch mit einer Wohnberatung. BayernPortal listet „rund 100 Wohnberatungsangebote“ im Freistaat, die „organisatorisch und strukturell sehr unterschiedlich ausgestaltet“ sind; Träger sind kommunale und freie Stellen. Einen Überblick über Angebote in der Nähe bietet die Digitale Wohnberatung Bayern — eine geförderte Vereinsseite, die wir als Wegweiser nennen, ohne sie selbst zu prüfen.",
+        "Kostenlose Beratung garantieren die Pflegestützpunkte: Sie bieten laut Staatsministerium für Gesundheit „eine kostenlose Beratung zu allen Themen rund um die Pflege“ und stehen allen Bürgerinnen und Bürgern offen. Außerdem fördert das Staatsministerium für Gesundheit und Pflege den Aufbau von Wohnberatung nach dem SeLA-Modell — für die Anschubphase stehen den Trägern bis zu 40.000 Euro über maximal zwei Jahre zur Verfügung. Das ist Förderung für die Beratungsstellen selbst, keine Leistung für Ratsuchende."
+      ]
+    },
+    {
+      "h2": "Mieter in Bayern",
+      "p": [
+        "Das Mietrecht ist bundesweit geregelt — für Mieterinnen und Mieter in Bayern gelten also keine abweichenden Regeln: Modernisierungen (dazu gehören barrierereduzierende Maßnahmen) verlangen die Duldung bzw. Zustimmung des Vermieters nach § 554 BGB, mit klaren Ausnahme- und Interessenabwägungsregeln. Unser Ratgeber zum Treppenlift in der Mietwohnung behandelt die Route im Detail, einschließlich Vermieter-Zustimmung und Kostenverteilung.",
+        "Anders als das NRW-Bankprogramm (dort nur Eigentum) richtet sich das bayerische Landesprogramm ausdrücklich auch an Mietwohnraum — zuständig ist dann die kreisfreie Stadt bzw. die Bezirksregierung. Die Zustimmung der Vermieterin oder des Vermieters bleibt davon unberührt. Eingliederungshilfe (Weg 3) und Pflegekasse (Weg 1) sind nicht auf Eigentümer beschränkt; wie eine bauliche Maßnahme in der Mietwohnung konkret abläuft, klären Sie mit dem jeweiligen Träger und Ihrer Vermieterin oder Ihrem Vermieter."
+      ]
+    },
+    {
+      "h2": "Reihenfolge für Ihren Antrag in Bayern",
+      "p": [
+        "Diese Reihenfolge vermeidet die häufigsten Umwege: abgelehnte Anträge wegen fehlender Vorprüfung und Fördermittel, die wegen vorzeitiger Beauftragung verfallen."
+      ],
+      "bullets": [
+        "Pflegegrad bzw. bestehende Leistungsansprüche klären — der Bescheid ist die Grundlage für mehrere Wege.",
+        "Wohnumfeld-Antrag bei der Pflegekasse stellen, bevor ein Auftrag unterschrieben wird.",
+        "Landesprogramm prüfen: Einkommensgrenze (Art. 11 BayWoFG) gegenrechnen und vor Baubeginn bzw. Kaufvertragsabschluss bei der Bewilligungsstelle anfragen — beim Eigenwohnraum Landratsamt/kreisfreie Stadt, beim Mietwohnraum kreisfreie Stadt/Bezirksregierung.",
+        "Bei Treppenlift-Wünschen konkret nachfragen: Das Landesprogramm nennt Treppenlifte nicht namentlich — ob Ihr Vorhaben als bauliche Anlage anerkannt wird, sagt Ihnen nur die Bewilligungsstelle.",
+        "Bei Behinderung im Sinne des SGB IX: Eingliederungshilfe-Antrag beim Bezirk Ihres Wohnorts stellen — formlos möglich; Pflegekassen-Bescheid beifügen, wenn die Pflegekasse nicht ausreicht.",
+        "Erstgespräch bei einem Pflegestützpunkt oder Wohnberatungsangebot in Ihrer Nähe nutzen (Wegweiser: Digitale Wohnberatung Bayern).",
+        "Vor jedem KfW-Bezug den aktuellen Programmstand auf der KfW-Produktseite prüfen; der Zuschuss 455-B ist derzeit nicht beantragbar, der Kredit 159 schon.",
+        "Kostenvoranschläge von Fachbetrieben einholen und für alle Anträge aufbewahren — sie gehören in fast jede Antragsmappe."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Gibt es in Bayern einen direkten Landes-Zuschuss für den Treppenlift?",
+      "a": "Kein Zuschuss-Programm speziell für Treppenlifte ist uns zum Prüfstand 16.11.2026 bekannt. Das Landesprogramm arbeitet mit einem leistungsfreien Baudarlehen bis 10.000 € und nennt Treppenlifte nicht namentlich — als Beispiele für bauliche Anlagen nennt die Förderbestimmung Aufzug und Rampe. Ob ein Treppenlift anerkannt wird, entscheidet die Bewilligungsstelle im Einzelfall. Namentlich nennen Treppenlifte die Pflegekasse-Route (Wohnumfeld-Zuschuss) und der KfW-Kredit 159."
+    },
+    {
+      "q": "Welche Einkommensgrenzen gelten für das Landesdarlehen?",
+      "a": "Art. 11 Abs. 1 BayWoFG nennt als Höchstwerte für die Förderentscheidung: 28.300 € (Einpersonenhaushalt) und 43.200 € (Zweipersonenhaushalt), zuzüglich 10.700 € für jede weitere Person und 3.200 € für jedes Kind; maßgeblich ist das Gesamteinkommen. Nach der Förderbestimmung zählen Einnahmen wie Pflegegeld oder Blindengeld nicht als verfügbare Geldmittel. Die Grenzen können per Rechtsverordnung angepasst werden — im Zweifel bei der Bewilligungsstelle nachfragen."
+    },
+    {
+      "q": "Wohin richte ich den Antrag in Bayern?",
+      "a": "Wohnumfeld-Zuschuss: direkt bei Ihrer Pflegekasse. Landesprogramm: vor Baubeginn/Kaufvertrag bei der Bewilligungsstelle — Eigenwohnraum: Landratsamt oder kreisfreie Stadt; Mietwohnraum: kreisfreie Stadt oder Bezirksregierung; die BayernLabo zahlt nach Bewilligung aus. Eingliederungshilfe: beim Bezirk Ihres Wohnorts, ein formloser Antrag ist möglich."
+    },
+    {
+      "q": "Ist der KfW-Zuschuss 455-B im Jahr 2026 beantragbar?",
+      "a": "Nein — Stand 16.11.2026 schreibt die KfW: „Diesen Zuschuss können Sie nicht mehr beantragen.“ Die Mittel für 2026 sind ausgeschöpft. Für 2027 ist eine Wiederaufnahme möglich, aber nicht zugesagt. Der zinsverbilligte Kredit „Altersgerecht Umbauen“ (159) ist nach KfW-Angabe verfügbar; Zinssätze listen wir bewusst nicht, weil sie im Wochenrhythmus schwanken."
+    },
+    {
+      "q": "Gelten die NRW-„anrechenfreien Beträge“ auch in Bayern?",
+      "a": "Ein bayerisches Pendant zu NRWs „anrechenfreien Beträgen bei der Einkommensermittlung“ haben wir auf den geprüften offiziellen Seiten nicht gefunden. Belegt ist nur, dass bestimmte Einnahmen — zum Beispiel Pflegegeld und Blindengeld — bei der Ermittlung des verfügbaren Einkommens nicht als verfügbare Geldmittel zählen (Förderbestimmung). Konkrete Abzugsbeträge stehen in der Einkommensermittlung, die die Bewilligungsstelle anwendet; lassen Sie sich dort persönlich beraten."
+    },
+    {
+      "q": "Was kostet die Wohnberatung in Bayern?",
+      "a": "Pflegestützpunkte beraten laut Staatsministerium für Gesundheit kostenlos zu allen Themen rund um die Pflege — für alle Versicherten, gesetzlich wie privat. Die rund 100 Wohnberatungsangebote im Freistaat sind organisatorisch und strukturell unterschiedlich ausgestaltet; ob und zu welchen Kosten ein Angebot berät, sagt das jeweilige Angebot. Einen Überblick bietet die Digitale Wohnberatung Bayern."
+    }
+  ],
+  "ctaEarly": {"label": "Förderwege im Detail: Beträge, Fristen, Voraussetzungen", "slug": "treppenlift-zuschuss"},
+  "related": [
+    {"label": "Treppenlift in der Mietwohnung: Vermieter-Zustimmung und Kosten", "slug": "treppenlift-mietwohnung"},
+    {"label": "Pflegegrad beantragen: Ablauf und Fristen", "slug": "pflegegrad-antrag-ablauf-fristen"},
+    {"label": "Was kostet ein Treppenlift wirklich?", "slug": "treppenlift-kosten"}
+  ],
+  "standLine": "Alle Angaben am 16.11.2026 aus den verlinkten Seiten geprüft. Förderbedingungen ändern sich häufig; prüfen Sie vor jedem Antrag den aktuellen Stand bei der zuständigen Stelle.",
+  "sources": [
+    {"label": "Bayerisches Staatsministerium für Wohnen, Bau und Verkehr — „Barrierefreies Wohnen“ (leistungsfreies Baudarlehen bis 10.000 €, Einkommensgrenzen, Auswahl nach sozialer Dringlichkeit)", "url": "https://www.stmb.bayern.de/wohnen/wohnraum_nutzen/barrierefreieswohnen/", "checked_at": "2026-11-16"},
+    {"label": "Bayerisches Staatsministerium für Wohnen, Bau und Verkehr — „Förderung von Wohnraum für Menschen mit Behinderung“ (Programmseite Anpassung von Miet- und Eigenwohnraum)", "url": "https://www.stmb.bayern.de/wohnen/wohnraum_schaffen/foerderung/menschenmitbehinderung/", "checked_at": "2026-11-16"},
+    {"label": "StMB — „Übersicht der Förderprogramme“ (PDF, Stand April 2026; Bagatellgrenze mindestens 1.000 € förderfähige Kosten)", "url": "https://www.bauministerium.bayern.de/assets/stmi/wohnen/%C3%9Cbersicht_wohnraumf%C3%B6rderung.pdf", "checked_at": "2026-11-16"},
+    {"label": "Bayerisches Wohnraumförderungsgesetz (BayWoFG), Art. 11 — Einkommensgrenzen (28.300/43.200 €, +10.700 € je Person, +3.200 € je Kind)", "url": "https://www.gesetze-bayern.de/Content/Document/BayWoFG-11", "checked_at": "2026-11-16"},
+    {"label": "BayernLabo — Wohnraumförderungsbestimmungen (WFB 2022), Teil 4 „Anpassung von Miet- und Eigenwohnraum“ (Darlehen höchstens 10.000 €, Fehlbedarfsfinanzierung, Bagatellgrenze, 1-%-Verwaltungskostenbeitrag, 5 Jahre Belegungsbindung, Pflegegeld/Blindengeld, vorrangige Finanzierungsmittel)", "url": "https://bayernlabo.de/fileadmin/user_upload/eigenwohnraum/24_baufinanzierer/bayernlabo-wohnraumfoerderungsbestimmungen-2022.pdf", "checked_at": "2026-11-16"},
+    {"label": "BayernLabo — FAQs (Bewilligungsstellen Landratsamt/kreisfreie Stadt/Bezirksregierung, Antrag vor Baubeginn/Kaufvertragsabschluss)", "url": "https://bayernlabo.de/foerderinstitut/faqs", "checked_at": "2026-11-16"},
+    {"label": "BayernPortal — „Eingliederungshilfe für Menschen mit Behinderung; Beantragung“ (Antrag, auch formlos möglich)", "url": "https://www.bayernportal.de/dokumente/leistung/977201965436", "checked_at": "2026-11-16"},
+    {"label": "Bayerisches Staatsministerium für Arbeit und Soziales — „Eingliederungshilfe“ (Träger: die sieben bayerischen Bezirke)", "url": "https://www.stmas.bayern.de/themen/teilhabe-behinderung/eingliederungshilfe", "checked_at": "2026-11-16"},
+    {"label": "Gesetze im Internet — § 113 SGB IX (Leistungen zur sozialen Teilhabe, Nr. 1 „Leistungen für Wohnraum“)", "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__113.html", "checked_at": "2026-11-16"},
+    {"label": "Gesetze im Internet — § 77 SGB IX (Leistungen für Wohnraum: Beschaffung, Umbau, Ausstattung, Erhaltung)", "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__77.html", "checked_at": "2026-11-16"},
+    {"label": "ZBFS — Inklusionsamt „Wohnungshilfe“ (schwerbehinderte Beschäftigte und Selbständige, Vorrang anderer Rehabilitationsträger, einkommensabhängige Zuschüsse/Zinszuschüsse/Darlehen)", "url": "https://www.zbfs.bayern.de/inklusion/beschaeftigte_selbstaendige/wohnungshilfe/", "checked_at": "2026-11-16"},
+    {"label": "Bayerisches Staatsministerium für Arbeit und Soziales — „Wohnberatung nach dem SeLA-Modell“ (Anschub bis 40.000 € über maximal zwei Jahre)", "url": "https://www.stmas.bayern.de/themen/wohnen-im-alter/SeLA/", "checked_at": "2026-11-16"},
+    {"label": "Bayerisches Staatsministerium für Gesundheit, Pflege und Prävention — „Pflegestützpunkte“ (kostenlose Beratung, offen für alle)", "url": "https://www.stmgp.bayern.de/pflege/pflege-zu-hause/pflegestuetzpunkte/", "checked_at": "2026-11-16"},
+    {"label": "BayernPortal — „Barrierefreier Wohnraum; Beratung“ (rund 100 Wohnberatungsangebote, unterschiedlich ausgestaltet)", "url": "https://www.bayernportal.de/dokumente/leistung/063186663767", "checked_at": "2026-11-16"},
+    {"label": "Digitale Wohnberatung Bayern — geförderte Vereinsseite als Wegweiser zu Beratungsstellen (nur Kontextquelle)", "url": "https://digitale-wohnberatung.bayern/", "checked_at": "2026-11-16"},
+    {"label": "KfW — Produktseite „Barrierereduzierung – Investitionszuschuss (455-B)“ (Antragstopp-Wortlaut, 2027-Bedingung)", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/", "checked_at": "2026-11-16"},
+    {"label": "KfW — Produktseite „Altersgerecht Umbauen – Kredit (159)“ (bis 50.000 € je Wohneinheit, Treppenlifte im Maßnahmenkatalog, Kombination mit Pflegekassenzuschuss)", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-(159)/", "checked_at": "2026-11-16"},
+    {"label": "KfW-Newsroom — Meldung zum erneuten Antragstopp (Mittel 2026 vollständig belegt)", "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/News-Details_903232.html", "checked_at": "2026-11-16"}
+  ]
+}

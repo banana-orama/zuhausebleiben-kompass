@@ -1,0 +1,1807 @@
+URL: https://bayernlabo.de/fileadmin/user_upload/eigenwohnraum/24_baufinanzierer/bayernlabo-wohnraumfoerderungsbestimmungen-2022.pdf
+Abrufdatum: 16.11.2026
+---
+                                               2330-B
+
+                       Wohnraumförderungsbestimmungen 2022
+                                   (WFB 2022)
+     Bekanntmachung des Bayerischen Staatsministeriums für Wohnen, Bau und Verkehr
+
+                                  vom 16. März 2022, Az. 31-4731.1-2-8
+
+
+
+
+Inhaltsübersicht
+Teil 1 Allgemeine Förderungsgrundsätze
+1      Zuwendungen
+2      Gegenstände der Förderung
+3      Zuwendungsempfänger
+4      Vorzeitiger Vorhabenbeginn
+5      Zustimmung zum vorzeitigen Vorhabenbeginn
+6      Fremdmittel
+7      Allgemeine technische Anforderungen
+8      Fördervorrang
+
+
+Teil 2 Förderung von Mietwohnraum in Mehrfamilienhäusern
+Abschnitt 1 Allgemeine Fördervoraussetzungen
+9      Förderungsvoraussetzungen
+10     Einsatz der Fördermittel
+11     Förderfähige Kosten
+12     Besondere technische Anforderungen
+13     Besondere Wohnformen
+14     Eigenkapitalanforderungen
+15     Auszahlung
+16     Verwendungsnachweis
+
+
+Abschnitt 2 Einkommensorientierte Förderung (EOF)
+17     Art der Förderung
+18     Wirtschaftlichkeit der Maßnahme
+19     Höchstzulässige Miete
+20     Zumutbare Miete
+21     Belegungsbindung
+22     Zuschüsse
+23     Objektabhängiges Darlehen
+24     Belegungsabhängiges Darlehen
+25     Zusatzförderung
+26     Zahlungs- und Abrechnungsverfahren
+27     Sonderregelung für Personenkreise mit besonderen Zugangsproblemen zum Wohnungsmarkt
+
+
+Abschnitt 3 Nachhaltigkeit in der Wohnraumförderung
+28     Förderbaustein „drauf und dran - nachhaltig erneuern und erweitern“
+29     Förderbaustein „Nachhaltigkeitszuschuss“
+30     Förderbaustein „Energieeffizienz“
+
+
+Abschnitt 4 Aufwendungsorientierte Förderung (AOF)
+31     Art der Förderung
+32     Förderfähige Kosten
+33     Förderdarlehen
+34     Zuschüsse
+35     Wirtschaftlichkeit der Maßnahme
+36     Belegungsbindung
+37     Zulässige Miete
+
+
+Abschnitt 5 Verlängerung von Belegungs- und Mietbindungen
+38     Verlängerung von Belegungs- und Mietbindungen
+
+
+Abschnitt 6 Mittelbare Belegung
+39     Mittelbare Belegung
+
+
+Teil 3 Förderung von Eigenwohnraum sowie von Mietwohnraum im Zweifamilienhaus
+40     Förderungsvoraussetzungen
+41     Einsatz der Fördermittel
+42     Förderfähige Kosten
+43     Förderung
+44     Darlehen
+45     Zuschuss für Kinder und ergänzende Zuschüsse
+46     Eigenleistungen
+47     Tragbarkeit der Belastung
+48     Besondere technische Anforderungen
+49     Auszahlung
+50     Verwendungsnachweis
+51     Belegungsbindung
+52     Übertragung von Fördermitteln
+53     Eigentümerwechsel
+Teil 4 Förderung der Anpassung von bestehendem Miet- und Eigenwohnraum an die Belange von
+       Menschen mit Behinderung
+54     Ziel der Förderung und Art der baulichen Maßnahmen
+55     Förderfähige Kosten
+56     Förderempfänger und begünstigte Person
+57     Förderung
+58     Belegungsbindung
+59     Kumulierung mit anderen Finanzierungshilfen
+60     Auszahlung
+61     Nachweis der Verwendung
+
+
+Teil 5 Förderverfahren
+62     Antrags- und Bewilligungsverfahren
+63     Aufgaben der Bayerischen Landesbodenkreditanstalt
+64     Sicherung der Zweckbestimmung
+65     Evaluation
+
+
+Teil 6 Schlussbestimmungen
+66     Abweichungen
+67     Inkrafttreten, Außerkrafttreten und Überleitungsregelungen
+
+
+
+
+                                               Teil 1
+                                  Allgemeine Förderungsgrundsätze
+
+
+       Zuwendungen
+       1Der Freistaat Bayern gewährt im Bayerischen Wohnungsbauprogramm im Rahmen der verfügbaren
+
+       Haushaltsmittel Zuwendungen für die Wohnraumförderung auf der Grundlage des Bayerischen
+       Wohnraumförderungsgesetzes (BayWoFG) vom 10. April 2007 (GVBl. S. 260, BayRS 2330-2-I) in
+       der jeweils geltenden Fassung. 2Für die Förderung gelten die nachstehenden Bestimmungen sowie
+       die allgemeinen haushaltsrechtlichen Bestimmungen, insbesondere die Verwaltungsvorschriften
+       (VV-BayHO) zu Art. 44 der Bayerischen Haushaltsordnung – BayHO – (BayRS 630-1-F), in der
+       jeweils geltenden Fassung. 3Auf die Förderung besteht kein Rechtsanspruch (vergleiche Art. 13
+       Abs. 1 Satz 4 BayWoFG). 4Die Zuwendungen werden auf Ausgabenbasis gewährt. 5Die in dieser
+       Richtlinie genannten Begriffe sind für den Bereich der Wohnraumförderung wie folgt definiert:
+
+       – laufende Aufwendungen gemäß § 18 Abs. 1, 19 bis 21, 24, 26 bis 28 und 40c Abs. 1 und
+
+       – Kosten gemäß § 5 der Zweiten Berechnungsverordnung vom 12. Oktober 1990 (BGBl. I S. 2178)
+         in der jeweils geltenden Fassung (II. BV).
+
+       Gegenstände der Förderung
+
+       Gegenstände der Förderung sind
+       das Schaffen von Mietwohnraum in Mehrfamilienhäusern durch Neubau, Änderung oder Erweiterung
+       von Gebäuden nach Art. 3 Abs. 1 Satz 3 und Abs. 2 BayWoFG,
+der Erwerb von neugeschaffenem Mietwohnraum zur erstmaligen Belegung (Ersterwerb) im Rahmen
+der Einkommensorientierten Förderung (EOF),
+
+Erweiterung von Gebäuden mit nachhaltiger Verbesserung des Wohnungsbestands im Rahmen der
+EOF (Förderbaustein „drauf und dran“ (erneuern und erweitern, Teil 2, Abschnitt 3),
+
+die Verlängerung von Belegungs- und Mietbindungen an bestehendem gefördertem Mietwohnraum,
+
+Modernisierungsmaßnahmen nach Art. 3 Abs. 3 BayWoFG im Bestand von Mietwohnraum und
+Eigenwohnraum zur Anpassung an die Belange von Menschen mit Behinderung im Sinn des § 2
+Abs. 1 des Neunten Buches Sozialgesetzbuch (SGB IX) und
+
+das Schaffen von Eigenwohnraum in Form von Einfamilienhäusern, Zweifamilienhäusern
+(einschließlich darin befindlichen Mietwohnraums) und Eigentumswohnungen durch Neubau,
+Änderung oder Erweiterung von Gebäuden nach Art. 3 Abs. 1 Satz 4 und Art. 3 Abs. 2 BayWoFG
+und dessen Erwerb.
+
+Zuwendungsempfänger
+
+Der Förderempfänger (Art. 10 Abs. 2 Satz 1 BayWoFG) muss nach den gesamten wirtschaftlichen
+Verhältnissen in der Lage sein, das Bauherrenwagnis zu tragen.
+1Zur Prüfung der Zuverlässigkeit und Leistungsfähigkeit von Bauherren sowie von Erwerbern können
+
+mit deren Einverständnis und auf deren Kosten die Bewilligungsstelle (§ 1 Abs. 1 Nrn. 1 und 2 der
+Durchführungsverordnung Wohnungsrecht – DVWoR – vom 8. Mai 2007, GVBl. S. 326,
+BayRS 2330-4-I) und die Bayerische Landesbodenkreditanstalt alle erforderlichen Auskünfte
+einholen und Nachweise über die Einkommens- und Vermögensverhältnisse, das vorhandene
+Eigenkapital sowie die Vorlage eines Kreditgutachtens verlangen. 2Vor Auskunftsersuchen soll dem
+Betroffenen nach Maßgabe des Art. 21 Abs. 2 BayWoFG Gelegenheit zur Stellungnahme gegeben
+werden. 3Erteilt der Bauherr oder Erwerber das Einverständnis zur Einholung von erforderlichen
+Auskünften nicht, kann der Förderantrag abgelehnt werden.
+1Die Laufzeit neu errichteter Erbbaurechte soll mindestens 75 Jahre, die Restlaufzeit bei laufenden
+
+Erbbaurechten mindestens 60 Jahre betragen. 2Eine kürzere Laufzeit kann zugelassen werden,
+wenn sichergestellt ist, dass die planmäßige Tilgung des Förderdarlehens spätestens zehn Jahre vor
+Ablauf des Erbbaurechts erfolgt.
+
+
+Vorzeitiger Vorhabenbeginn
+1Bereits begonnene Vorhaben dürfen nicht gefördert werden (Art. 23 und 44 BayHO in Verbindung
+
+mit VV Nr. 1.3 zu Art. 44 BayHO). 2Als Vorhabenbeginn gelten der Baubeginn (Aushub des
+Mutterbodens), der Kaufvertrag für eine Kaufeigentumsmaßnahme oder grundsätzlich die Abgabe
+einer verbindlichen Willenserklärung zum Abschluss eines der Bauausführung zuzurechnenden
+Lieferungs- oder Leistungsvertrags. 3Ein Vorhaben gilt nicht als begonnen, wenn der Vertrag ein
+eindeutiges und ohne finanzielle Folgen bleibendes Rücktrittsrecht für den Fall der Nichtgewährung
+der beantragten Zuwendung enthält, oder unter einer eindeutigen aufschiebenden oder auflösenden
+Bedingung für den Fall der Nichtgewährung der beantragten Zuwendung geschlossen wird.
+1Nicht als Vorhabenbeginn gelten der Abschluss von Verträgen, die der Vorbereitung oder Planung
+
+des Projekts (einschließlich der Antragvorbereitung und -erstellung) dienen, etwa ein (den Erwerber
+rechtlich nicht bindender) Abschluss eines Reservierungsvertrags für eine
+Kaufeigentumsmaßnahme. 2Bei Baumaßnahmen gelten dementsprechend Planungsaufträge bis
+einschließlich Leistungsphase 7 HOAI, Baugrunduntersuchungen und Grunderwerb nicht als Beginn
+des Vorhabens, es sei denn, sie sind alleiniger Zweck der Zuwendung. 3Auch das Herrichten des
+Grundstücks (zum Beispiel Planieren) gilt unter der Voraussetzung des Satzes 2 nicht als Beginn
+des Vorhabens, wenn die Auftragsvergabe hierfür von den weiteren Vergaben getrennt werden
+kann.
+1Bei Vereinbarung eines Rücktrittsrechts (Nr. 4.1 Satz 3) dürfen dem Käufer für den Rücktrittsfall nur
+
+Notar- und eigene Geldbeschaffungskosten sowie Kosten der Ausführung von Sonderwünschen
+auferlegt sein. 2Dies gilt sinngemäß auch für Liefer- und Leistungsverträge für Fertighäuser; dabei
+dürfen dem Erwerber auch die Kosten für die ihm zur Verfügung gestellten technischen Unterlagen
+auferlegt werden.
+
+Wird ein im Bau befindliches Wohngebäude von einem anderen Bauherrn zur Fertigstellung
+erworben, ist hinsichtlich des Vorhabenbeginns nicht auf den Baubeginn, sondern auf den
+Kaufvertragsabschluss abzustellen.
+
+Bei einer Anpassungsmaßnahme nach Teil 4 kann von Nr. 4.1 Satz 1 eine Ausnahme unter der
+Voraussetzung zugelassen werden, dass zwischen dem Zeitpunkt der Auftragsvergabe und der
+Antragstellung kein längerer Zeitraum als sechs Monate vergangen ist.
+
+
+Zustimmung zum vorzeitigen Vorhabenbeginn
+
+Die Bewilligungsstelle kann auf Antrag einem vorzeitigen Baubeginn oder Kaufvertragsabschluss
+zustimmen, wenn die Förderungsvoraussetzungen erfüllt sind und
+
+– sie einen für den beantragten Förderfall ausreichenden Bewilligungsrahmen hat oder
+
+– sie zu Zustimmungen ermächtigt ist oder
+
+– in einem Ausnahmefall eine besondere Härte entstünde.
+1Die Zustimmung ist schriftlich zu erteilen und mit dem ausdrücklichen Hinweis zu versehen, dass
+
+
+– diese keine Zusicherung auf den Erlass eines Zuwendungsbescheides im Sinne des Art. 38 des
+  Bayerischen Verwaltungsverfahrensgesetzes darstellt,
+
+– das Finanzierungsrisiko dem Antragsteller verbleibt und
+
+– die für eine eventuelle Zuwendung relevanten Voraussetzungen bereits bei der vorzeitigen
+  Durchführung des Vorhabens einzuhalten sind (insbesondere die einschlägigen Allgemeinen und
+  gegebenenfalls Baufachlichen Nebenbestimmungen sowie weitere, sich aus haushaltsrechtlichen
+  oder anderen Vorschriften, Bestimmungen des Förderprogramms oder der Eigenart des
+  Vorhabens ergebende Regelungen).
+
+–   2Die einschlägigen Allgemeinen und gegebenenfalls Baufachlichen Nebenbestimmungen sind der
+
+    Zustimmung zum vorzeitigen Vorhabenbeginn beizufügen.
+
+Die Zustimmung darf nur erteilt werden, wenn – zumindest überschlägig – die Finanzierung des
+Vorhabens einschließlich etwaiger Kosten der Vorfinanzierung und der Folgekosten hinreichend
+gesichert erscheint und die Maßnahme sachlich geprüft ist (VV Nr. 1.3.3 zu Art. 44 BayHO).
+
+Sofern Zweifel an der Leistungsfähigkeit des Bauherrn oder Erwerbers aufgrund der
+Antragsunterlagen nicht ausgeschlossen werden können, schaltet die Bewilligungsstelle vorab die
+Bayerische Landesbodenkreditanstalt zu einer vorgezogenen Bonitätsprüfung ein und erteilt
+gegebenenfalls erst im Anschluss die Zustimmung.
+1Ergibt sich bei der Prüfung der Förderungsvoraussetzungen eine notwendige Änderung gegenüber
+
+dem Antrag, ist die Zustimmung unter dem Vorbehalt zu erteilen, dass eine entsprechende Auflage,
+die der spätere Bewilligungsbescheid enthalten wird, beachtet wird. 2Gegebenenfalls sind der
+Zustimmung entsprechende Ablichtungen der Tekturen beizufügen.
+Fremdmittel
+1Den staatlichen Darlehen dürfen in der Regel nur unkündbare Tilgungsdarlehen zu den für
+
+erststellige Kapitalmarktmittel im Wohnungsbau üblichen Bedingungen im Rang vorgehen. 2Die
+laufende Darlehenstilgung darf in der Regel höchstens 4 v. H. jährlich zuzüglich ersparter Zinsen mit
+bis zu fünf tilgungsfreien Jahren betragen; das gilt nicht für Darlehen der Bayerischen
+Landesbodenkreditanstalt, von Bausparkassen und der Kreditanstalt für Wiederaufbau. 3Neben dem
+staatlichen Darlehen können ergänzende Fördermittel anderer Zuwendungsgeber eingesetzt
+werden, sofern nicht nach deren Richtlinien ein Kumulierungsausschluss besteht. 4Bei Darlehen
+ohne laufende Tilgung muss eine Ersatztilgung nachgewiesen werden.
+
+Unkündbare Darlehen ohne laufende Tilgung, die später etwa in einer Summe aus
+Bausparvertragsmitteln oder einer fälligen Lebensversicherung oder aus einer Beteiligung an einem
+Investmentfonds zurückgezahlt werden, dürfen den staatlichen Darlehen ebenfalls im Rang
+vorgehen, wenn durch eine Erklärung des Darlehensgebers ein rangmäßiges Aufrücken des
+staatlichen Baudarlehens zumindest wie bei einem Tilgungsdarlehen nach Nr. 6.1 Satz 1
+sichergestellt wird.
+
+
+
+Allgemeine technische Anforderungen
+1Lage, Form, Größe, Beschaffenheit und Erschließung des Grundstücks müssen eine wirtschaftliche
+
+Bebauung zulassen. 2Auf ein kostensparendes und umweltschonendes Bauen und Betreiben ist
+besonders zu achten. 3Die Bauausführung und Ausstattung müssen wirtschaftlich sein und
+durchschnittlichen Wohnbedürfnissen entsprechen. 4Die Wohnungen, auch in Familienheimen,
+müssen hinsichtlich ihrer Zweckbestimmung angemessen groß und abgeschlossen sein.
+5Insbesondere sind der Schutz der Privatsphäre und gesunde Wohnverhältnisse zu gewährleisten.
+
+6Individualräume dürfen keine Durchgangsräume sein und nicht an einem Laubengang liegen. 7In
+
+ihnen dürfen jeweils nicht mehr als zwei Personen untergebracht werden. 8Für Kinder sollen
+Einzelzimmer geplant werden.
+1Die Berechnung der Wohnfläche erfolgt nach der Verordnung zur Berechnung der Wohnfläche
+
+(Wohnflächenverordnung – WoFlV – vom 25. November 2003, BGBl. I S. 2346) in der jeweils
+geltenden Fassung. 2In die Bauzeichnungen sind die Gesamtwohnflächen jeder Wohnung und die
+Wohnflächen der einzelnen Räume einzutragen.
+1Das Bauvorhaben ist nach den technischen Antragsunterlagen auszuführen. 2Bauliche Änderungen
+
+bedürfen der vorherigen Zustimmung der Bewilligungsstelle, soweit es nicht der Genehmigung durch
+die zuständige Stelle nach Art. 16 Abs. 1 Satz 2 Nr. 3 BayWoFG bedarf.
+
+
+Fördervorrang
+
+Zur Verringerung der Inanspruchnahme von Grund und Boden werden Maßnahmen vorrangig
+gefördert, die auf innerörtlichen Flächen erstellt werden oder die vorhandene Bausubstanz nutzen
+(Änderung oder Erweiterung von Gebäuden, Zweiterwerb), auf brachliegenden, ehemals baulich
+genutzten Flächen entstehen oder im Rahmen einer angemessenen Verdichtung oder Ergänzung
+bestehender Siedlungsgebiete durchgeführt werden sollen.
+                                        Teil 2
+                     Förderung von Mietwohnraum in Mehrfamilienhäusern
+
+                                      Abschnitt 1
+                               Allgemeine Fördervoraussetzungen
+
+
+Förderungsvoraussetzungen
+1Mietwohnraum in Mehrfamilienhäusern darf nur gefördert werden, wenn nachweislich ein
+
+bedeutsamer, nicht nur kurzfristiger Bedarf für diesen Wohnraum besteht. 2Mehrfamilienhäuser sind
+Gebäude mit mindestens drei Mietwohnungen; dabei darf an keiner Wohnung Wohnungseigentum
+begründet sein. 3Vorhaben mit weniger als drei zu fördernden Mietwohnungen werden nicht
+gefördert.
+
+Zur Prüfung des Wohnungsbedarfs holen die Regierungen in der Regel eine Stellungnahme der
+Bauortgemeinde sowie stets der nach § 1 Abs. 3 DVWoR (Durchführungsverordnung
+Wohnungsrecht) zuständigen Stelle ein.
+
+Bei Festlegung der Belegungsstruktur (Nrn. 21, 36) ist zu berücksichtigen, dass keine hohe örtliche
+Konzentration von Bewohnergruppen mit besonderen sozialen Problemen oder von spezifischen
+Bewohnergruppen entsteht.
+1Die Förderung wird in aller Regel eine notifizierungspflichtige Beihilfe nach Art. 107 Abs. 1 AEUV
+
+darstellen. 2Eine Zuwendung an ein Unternehmen kommt insoweit nur unter den Voraussetzungen
+des Beschlusses 2012/21/EU in Betracht. 3Danach hat die Bewilligungsstelle für die jeweilige
+Förderung insbesondere sicherzustellen, dass die Höhe der Förderung unter Berücksichtigung eines
+angemessenen Gewinns nicht über das hinausgeht, was erforderlich ist, um die durch die Erfüllung
+der mit der Förderung übernommenen Verpflichtungen verursachten Nettokosten abzudecken
+(Überkompensationsprüfung gemäß Art. 5 des Beschlusses 2012/21/EU). 4Übt der Fördernehmer
+neben der Zurverfügungstellung von sozial gebundenem Wohnraum noch weitere Tätigkeiten aus,
+ist die Überkompensationsprüfung demnach auf der Grundlage einer dem Förderempfänger
+aufzugebenden getrennten Ausweisung der jeweiligen Kosten und Einnahmen vorzunehmen (Art. 5
+Abs. 9 des Beschlusses 2012/21/EU).
+
+Zur Feststellung, dass das Unternehmen keine höhere Ausgleichleistung für die Erbringung von
+Dienstleistungen von allgemeinem Interesse (DAWI) erhält als es in Art. 5 des Beschlusses
+2012/21/EU vorgesehen ist (keine Überkompensation), sind aufgrund Art. 6 des Beschlusses
+2012/21/EU alle drei Jahre sowie am Ende des Bindungszeitraums Kontrollen durchzuführen.
+
+
+Einsatz der Fördermittel
+1Die Fördermittel werden nach der Dringlichkeit des örtlichen Wohnungsbedarfs vergeben. 2Die
+
+Regelungen nach Nr. 8 bleiben unberührt.
+
+
+Förderfähige Kosten
+1Förderfähig sind die Gesamtkosten im Sinn der §§ 5 bis 8 II. BV. 2Beim Ersterwerb gemäß Nr. 2.2
+
+sind der Kaufpreis sowie die Erwerbskosten förderfähig. 3Dabei muss der Kaufpreis unter
+Berücksichtigung des energetischen Standards nach den Gegebenheiten des örtlichen
+Wohnungsmarkts angemessen und wirtschaftlich sein.
+Besondere technische Anforderungen
+
+Die Gebäudeplanung soll das zulässige Maß der baulichen Nutzung des Grundstücks ausschöpfen.
+1Die Wohnfläche einer Wohnung muss mindestens 35 m 2 betragen. 2Die angemessene Wohnfläche
+
+beträgt höchstens:
+
+       Nr.            Wohnungstyp                   Haushaltsgröße               Wohnfläche
+
+        1      Ein-Zimmer-Wohnung              eine Person                           40 m2
+
+        2      Zwei-Zimmer-Wohnung             eine Person                           50 m2
+
+        3      Zwei-Zimmer-Wohnung             zwei Personen                         55 m2
+
+        4      Drei-Zimmer-Wohnung             zwei Personen                         65 m2
+
+        5      Drei-Zimmer-Wohnung             drei oder vier Personen               75 m2
+
+        6      Vier-Zimmer-Wohnung             vier Personen                         90 m2
+
+3Für jeden weiteren Haushaltsangehörigen kann die Wohnfläche bis zu 15 m 2 mehr betragen; in
+
+diesen Fällen sind Wohnungstypen mit einer größeren Zimmerzahl zulässig. 4Wird eine Wohnung
+rollstuhlgerecht nach DIN 18040 Teil 2 geplant, kann die Wohnfläche bis zu 15 m2 mehr betragen.
+1Die Individualräume (Schlafräume oder Kinderzimmer) für eine Person sollen mindestens 10 m 2, für
+
+zwei Personen mindestens 14 m2 groß sein. 2Eine Unterschreitung von bis zu 10 v. H. ist im
+Einzelfall vertretbar, wenn anderweitig Stellflächen für Schränke oder Spielflächen im räumlichen
+Zusammenhang mit den Individualräumen vorhanden sind. 3Die Individualräume sollen über Flure
+erschlossen werden.
+1Alle Wohnungen und der Zugang zu den Wohnungen sind nach der DIN 18040-2:2011-9,
+
+Barrierefreies Bauen – Planungsgrundlagen – Teil 2: Wohnungen zu gestalten. 2Die Wohnungen
+einer Wohnebene müssen stufenlos erreichbar sein. 3Alle weiteren zur Wohnanlage gehörenden
+Wohnebenen müssen so geplant sein, dass sie zumindest durch die nachträgliche Schaffung eines
+Aufzugs oder einer Rampe stufenlos erreichbar sind. 4Sind die Wohnungen für Rollstuhlbenutzer
+bestimmt, sind diese einschließlich der Erschließung die in der DIN 18040 Teil 2 mit R
+gekennzeichneten Anforderungen einzuhalten.
+
+In den Bauzeichnungen sind die sanitäre Ausstattung, die Möblierung und die Bewegungsflächen
+nach der DIN 18040 Teil 2 darzustellen; bei Wiederholungen genügt die einmalige Eintragung.
+1Allen Wohnungen soll ein eigener, angemessen großer, gut nutzbarer Freisitz (zum Beispiel Balkon,
+
+Loggia oder Terrasse) mit bis zu 6 m2 anrechenbarer Wohnfläche (§ 4 Nr. 4 WoFlV) zugeordnet
+sein. 2Die höchstens angemessene Wohnfläche nach Nr. 12.2 darf um die Fläche des Freisitzes
+überschritten werden.
+1Es können Gemeinschaftsräume mit einer angemessenen Fläche vorgesehen werden. 2Bei
+
+Wohnanlagen mit mindestens 50 Wohnungen soll die Fläche bis zu 0,5 m2 je Wohnung betragen.
+1Die Kosten der Kostengruppen 300 Bauwerk – Baukonstruktion (ohne Kosten der Garagen) und
+
+400 Bauwerk – Technische Anlagen der DIN 276 sollen einen Betrag in Höhe von 2 600 € je m2
+Wohnfläche nicht übersteigen. 2Dieser Betrag ändert sich jeweils am 1. Februar, beginnend im
+Jahr 2023, um den Prozentsatz, um den sich der vom Landesamt für Statistik festgestellte
+Preisindex für Wohngebäude insgesamt in Bayern für den vorausgehenden Monat November
+gegenüber dem Monat November des diesem wiederum vorausgehenden Jahres erhöht oder
+verringert hat. 3Die Bewilligungsstellen legen jährlich eigenverantwortlich die Kosten nach Satz 1
+fest.
+1Abweichend von § 8 Abs. 1 und 2 II. BV können die Kosten der Architekten- und
+
+Ingenieurleistungen (aus der Kostengruppe 700 der DIN 276) unter den Baunebenkosten pauschal
+mit 20 v. H. der Kosten der Kostengruppen 300 und 400 angesetzt werden. 2Bei einer
+Gebäudeänderung und -erweiterung kann ein Zuschlag von 20 v. H. angesetzt werden.
+
+Bei Wohnungen ab vier Personen soll ein zweites, räumlich vom Bad getrenntes WC vorgesehen
+werden.
+
+Eine Abstellfläche von mindestens 1 m2 soll innerhalb der Wohnung vorgesehen werden.
+
+Enthalten Wohnungen Abstellräume, die Keller ersetzen, können diese mit bis zu 6 m2 bei der
+Feststellung der höchstens angemessenen Wohnfläche außer Betracht bleiben.
+
+Es soll eine Möblierung mit handelsüblichen Möbeln möglich sein.
+
+
+Besondere Wohnformen
+1Besondere Wohnformen können nach Maßgabe des Art. 19 BayWoFG gefördert werden. 2Den
+
+sozialen und wohnungswirtschaftlichen Umständen des Einzelfalls ist Rechnung zu tragen. 3Von der
+Sonderregelung der Nr. 27 kann Gebrauch gemacht werden; auf einen befristeten Vergabevorbehalt
+(vergleiche Nr. 27.1 Satz 2) kann verzichtet werden. 4Dabei sind insbesondere die Ziele und
+Grundsätze (vergleiche Art. 2 und 8 BayWoFG) der Wohnraumförderung zu berücksichtigen; das gilt
+insbesondere bei Abweichungen von den in Art. 11 Abs. 1 BayWoFG bestimmten
+Einkommensgrenzen.
+1Um den besonderen Verhältnissen dieser Wohnformen gerecht zu werden, beträgt die
+
+angemessene Wohnfläche höchstens 50 m2 je Person. 2Insbesondere bei Wohngemeinschaften für
+ältere Menschen oder Menschen mit Behinderung kann ein angemessen großer Gemeinschaftsraum
+vorgesehen werden.
+
+Für zusätzliche bauliche Maßnahmen, die aufgrund des besonderen Bewohnerkreises erforderlich
+sind, zum Beispiel die Einrichtung eines Pflegebads in Seniorenwohngemeinschaften, kann
+zusätzlich ein Zuschuss in Höhe von bis zu 10 000 Euro gewährt werden.
+
+
+
+Eigenkapitalanforderungen
+1Der Mindesteigenkapitaleinsatz in Form von Barmitteln oder eines aus eigenen Mitteln erworbenen
+
+Grundstücks soll 15 v. H. der Gesamtkosten nicht unterschreiten. 2Bestehen hinsichtlich der Bonität
+des Bauherrn keine Bedenken, kann die Bewilligungsstelle in Absprache mit der Bayerischen
+Landesbodenkreditanstalt ausnahmsweise einen niedrigeren Eigenkapitalanteil zulassen oder auf
+den Einsatz von Eigenkapital verzichten.
+
+
+Auszahlung
+1Der Bauherr hat die Auszahlung der Darlehen und Zuschüsse bei der Bewilligungsstelle zu
+
+beantragen. 2Diese prüft den Stand des Baufortschritts und die ordnungsgemäße Verwendung
+bisher ausgezahlter Raten und legt den Auszahlungsantrag der Bayerischen
+Landesbodenkreditanstalt vor. 3Dabei können die Darlehen nach den folgenden vier Raten
+ausgezahlt werden:
+– 30 v. H. nach der Fertigstellung der Kellerdecke oder bei nichtunterkellerten Gebäuden nach der
+  Fertigstellung der Bodenplatte oder bei einer Änderung und Erweiterung von Gebäuden nach der
+  Einrichtung der Baustelle und dem Beginn der Arbeiten,
+
+– 35 v. H. nach der Fertigstellung des Rohbaus einschließlich der Dacheindeckung oder bei einer
+  Änderung und Erweiterung von Gebäuden nach der Fertigstellung der sanitären Installation und
+  des Innenputzes,
+
+– 25 v. H. nach Erreichen der Bezugsfertigkeit und
+
+– 10 v. H. nach restloser Fertigstellung und bestimmungsgemäßer Wohnungsbelegung.
+1Die Auszahlung der Zuschüsse nach Nr. 22.1 beziehungsweise Nr. 34.1 erfolgt in zwei Raten
+
+
+– 80 v. H. nach Fertigstellung des Rohbaus einschließlich der Dacheindeckung oder bei einer
+  Änderung und Erweiterung von Gebäuden nach der Fertigstellung der sanitären Installation und
+  des Innenputzes und
+
+– 20 v. H. nach restloser Fertigstellung und bestimmungsgemäßer Wohnungsbelegung,
+2Die Zuschüsse nach Nr. 22.2 und Nr. 34.1 werden in zwei Raten ausgezahlt,
+
+
+– 20 v. H. nach Fertigstellung des Rohbaus einschließlich der Dacheindeckung oder bei einer
+  Änderung und Erweiterung von Gebäuden nach der Fertigstellung der sanitären Installation und
+  des Innenputzes und
+
+– 80 v. H. nach restloser Fertigstellung und bestimmungsgemäßer Wohnungsbelegung.
+
+Die Zuschüsse nach Nrn. 22.3 und 34.3 wird nach restloser Fertigstellung und
+bestimmungsgemäßer Wohnungsbelegung ausgezahlt.
+
+Zur Auszahlung der Raten müssen die im Bewilligungsschreiben der Bayerischen
+Landesbodenkreditanstalt genannten Voraussetzungen erfüllt sein.
+
+Im begründeten Einzelfall kann die Bewilligungsstelle im Einvernehmen mit der Bayerischen
+Landesbodenkreditanstalt von den für die Auszahlung getroffenen Regelungen abweichen.
+
+
+Verwendungsnachweis
+1Der Zuwendungsempfänger hat der Bewilligungsstelle spätestens innerhalb von sechs Monaten
+
+nach der Bezugsfertigkeit der Baumaßnahme einen Verwendungsnachweis in Form einer
+Schlussabrechnung (EOF: Formblatt Stabau Ib beziehungsweise AOF: Formblatt Stabau If)
+vorzulegen. 2Die Bewilligungsstelle entscheidet über die Anerkennung der Schlussabrechnung durch
+Bescheid. 3Eine Fertigung hat sie der Bayerischen Landesbodenkreditanstalt zuzuleiten.
+
+Ergibt die Prüfung der Schlussabrechnung Abweichungen gegenüber der Bewilligung, entscheidet
+die Bewilligungsstelle über eine Anpassung der Förderung.
+
+Die Belege und Verträge sowie alle sonst mit der Förderung zusammenhängenden Unterlagen sind
+für die Dauer von zehn Jahren nach Beendigung der Miet- und Belegungsbindungen
+aufzubewahren.
+                                    Abschnitt 2
+                            Einkommensorientierte Förderung (EOF)
+
+
+Art der Förderung
+
+Die Förderung besteht aus einer Grundförderung mit einem objektabhängigen (Nr. 23) und einem
+belegungsabhängigen Darlehen (Nr. 24), ergänzenden Zuschüssen (Nr. 22) und einer
+Zusatzförderung mit einem laufenden Zuschuss zur Wohnkostenentlastung der begünstigten
+Haushalte.
+
+
+Wirtschaftlichkeit der Maßnahme
+1Zur Beurteilung der Wirtschaftlichkeit der Maßnahme ist eine Aufwands- und Ertragsberechnung
+
+nach Maßgabe des Formblatts Stabau Ib zu erstellen. 2Soweit dabei keine besonderen Vorgaben
+getroffen werden, sind die Bestimmungen des Teils II der II. BV mit Ausnahme des § 8 Abs. 1 und 2
+sowie der §§ 11 und 11a sinngemäß anzuwenden mit der Maßgabe, dass als Fremdkapitalkosten
+die Tilgungen der Fremdmittel (anstelle der Abschreibung), eine angemessene
+Eigenkapitalverzinsung (§ 20 Abs. 2 Satz 2 erster Halbsatz II. BV) und für Bewirtschaftungskosten
+(mit Ausnahme der Abschreibung) eine Pauschale von 20 € je m2 Wohnfläche und 125 € je Garage
+jährlich anzusetzen sind. 3Die Wirtschaftlichkeit soll ausgeglichen sein. 4Der Bauherr hat
+nachzuweisen, dass er einen etwaigen Minderertrag dauerhaft anderweitig abdecken kann.
+
+
+Höchstzulässige Miete
+1Höchstzulässige Miete im Sinn des Art. 15 Abs. 1 Satz 1 BayWoFG ist die im Bewilligungsbescheid
+
+festgelegte Erstvermietungsmiete zuzüglich der Mieterhöhungen nach Maßgabe der Nr. 19.2.
+2Zulässige Erstvermietungsmiete ist die örtliche durchschnittliche Miete für neu geschaffenen
+
+Mietwohnraum.
+1Mieterhöhungen können frühestens nach Ablauf des fünften Kalenderjahres ab dem Zeitpunkt der
+
+Bezugsfertigkeit gemäß den §§ 558 und 559 Bürgerliches Gesetzbuch (BGB) um höchstens
+7,5 v. H. erfolgen. 2Spätere Mieterhöhungen sind innerhalb des Bindungszeitraums nach jeweils drei
+Kalenderjahren nach Maßgabe von Satz 1 zulässig. 3Beteiligt sich eine Gemeinde an der
+Finanzierung mit eigenen Fördermitteln, insbesondere durch ein vergünstigtes Grundstück, kann die
+Bewilligungsstelle im Einvernehmen mit der Gemeinde zur Berücksichtigung
+wohnungswirtschaftlicher Belange von Satz 1 abweichende Regelungen treffen; unabdingbare
+mietrechtliche Vorschriften des BGB bleiben unberührt. 4Die Vereinbarung einer Staffelmiete gemäß
+§ 557a BGB ist unzulässig.
+
+Bei einer Wiedervermietung darf die Miete den sich aus Nrn. 19.1 und 19.2 ergebenden Betrag der
+Höchstmiete nicht überschreiten.
+
+Erstreckt sich die Förderentscheidung unmittelbar auch auf den Gemeinschaftsraum in der Weise,
+dass dieser mit Wohnraumförderungsmitteln gefördert wird, kann insoweit eine höchstzulässige
+Miete (ohne den Betrag für die Betriebskosten) oder, unter besonderen Umständen, eine
+unentgeltliche Nutzungsmöglichkeit bestimmt werden.
+1Für Nebenleistungen, insbesondere
+
+
+– Unterstützungsleistungen im Sinn des § 1 Abs. 1 Satz 3 des Wohn- und
+  Betreuungsvertragsgesetzes (WBVG),
+
+– Gemeinschaftsräume und
+– Garagen, Carports und Stellplätze
+
+– können neben der Miete angemessene Vergütungen vereinbart werden. 2Die Höhe der
+  Vergütungen darf das Ziel der Förderung nicht beeinträchtigen und ist gegebenenfalls in der
+  Förderentscheidung nach Art. 13 Abs. 1 Satz 1 BayWoFG festzulegen.
+  3Unterstützungsleistungen gemäß § 1 Abs. 1 Satz 1 WBVG können pauschal und unabhängig
+
+  von der tatsächlichen Inanspruchnahme in Rechnung gestellt werden. 4Wird ein
+  Gemeinschaftsraum nicht mit Wohnraumförderungsmitteln gefördert, findet insoweit
+  Art. 15 BayWoFG keine Anwendung. 5Die Vermietung einer geförderten Wohnung darf nicht von
+  der Vermietung einer Garage oder eines Stellplatzes abhängig gemacht werden.
+
+
+Zumutbare Miete
+1Die Bandbreite der zumutbaren Miete für Haushalte der Einkommensstufe I beträgt 3,50 € bis
+
+7,00 € je m2 Wohnfläche monatlich. 2Für Haushalte der Einkommensstufen II und III erhöht sich die
+zumutbare Miete jeweils um 1,50 € je m2 gegenüber der nächstniedrigeren Einkommensstufe. 3Die
+Bewilligungsstelle legt entsprechend dem örtlichen Mietenniveau eigenverantwortlich die jeweils
+zumutbare Miete fest. 4Für Wohnungen, die zur Belegung mit fünf und mehr Personen geeignet sind
+(Große Mietwohnungen) und für Wohnungen, die nach DIN 18040-2 Teil 2 R für Rollstuhlfahrer
+geeignet sind, ist die zumutbare Miete um 0,40 € je m2 Wohnfläche monatlich abzusenken. 5Die
+Bewilligungsstelle kann im begründeten Einzelfall von den Sätzen 1 und 2 abweichen.
+
+
+Belegungsbindung
+1Die Dauer der Belegungsbindung beträgt 25 oder 40 Jahre. 2Die Frist beginnt, sobald sämtliche
+
+geförderten Wohnungen der Wirtschaftseinheit (im Sinn von § 2 Abs. 2 II. BV) bezugsfertig sind.
+
+Für Wohnungen, die für Haushalte der Einkommensstufe I bestimmt sind und in einem Gebiet mit
+erhöhtem Wohnungsbedarf (Anlage zu § 3 Abs. 1 DVWoR) liegen, ist ein Benennungsrecht zu
+begründen und von der zuständigen Stelle entsprechend dem in Art. 5 Bayerisches
+Wohnungsbindungsgesetz (BayWoBindG) in Verbindung mit § 3 DVWoR geregelten Verfahren
+auszuüben; für die übrigen Wohnungen ist ein allgemeines Belegungsrecht zu begründen.
+1Die nach § 1 Abs. 3 DVWoR zuständigen Stellen informieren bei der Ausübung des
+
+Benennungsrechts und des allgemeinen Belegungsrechts in geeigneter Weise die
+Wohnungssuchenden über Art und Umfang der jeweils in Betracht kommenden Zusatzförderung.
+2Bei der Ausübung des Benennungsrechts händigen sie dem vom Vermieter ausgewählten
+
+Wohnungssuchenden die geprüfte Einkommenserklärung im Original (Formblatt Stabau III a) mit
+einem Antrag auf die Zusatzförderung (Formblatt Stabau I c) aus und weisen ihn auf die für die
+Zusatzförderung zuständige Bewilligungsstelle hin. 3Für die eigenen Akten ist eine Kopie der
+geprüften Einkommenserklärung zu fertigen.
+1Wird das Darlehen nach Nr. 24 ohne rechtliche Verpflichtung vorzeitig vollständig zurückgezahlt,
+
+enden die Bindungen mit Ablauf des zehnten Kalenderjahres nach dem Jahr der Rückzahlung,
+spätestens mit Ablauf der planmäßigen Bindungsdauer. 2Bei einer Rückzahlung des
+belegungsabhängigen Darlehens ist auch Nr. 25.9 zu beachten. 3Im Fall einer vorzeitigen
+Beendigung der Bindungen gemäß Satz 1 sind die Zuschüsse nach Nr. 22 unter Berücksichtigung
+der Bindungsdauer und der zehnjährigen Nachwirkungsfrist anteilig zu kürzen.
+Zuschüsse
+1Zu den Förderdarlehen nach den Nrn. 23 und 24 wird ein ergänzender Zuschuss bis zu 500 € je m 2
+
+Wohnfläche gewährt. 2Der sich insgesamt ergebende Zuschussbetrag ist auf volle hundert Euro
+abzurunden.
+1Für die zusätzlichen Kosten aufgrund eines besonders nachhaltigen Vorhaben entsprechend Nr. 29
+
+wird ein ergänzender Zuschuss in Höhe von bis zu 200 € je m2 Wohnfläche gewährt. 2Der sich
+insgesamt ergebende Zuschussbetrag ist auf volle hundert Euro abzurunden.
+1Für die zusätzlichen Kosten aufgrund von erhöhten energetischen Anforderungen gegenüber dem
+
+im Gebäudeenergiegesetz (GEG) geforderten Mindeststandard entsprechend Nr. 30 wird ein
+ergänzender Zuschuss in Höhe von bis zu 100 € je m2 Wohnfläche gewährt. 2Der sich insgesamt
+ergebende Zuschussbetrag ist auf volle hundert Euro abzurunden.
+
+
+Objektabhängiges Darlehen
+1Das Darlehen beträgt bis zu 25 v. H. der Kosten gemäß Nr. 12.8 Satz 1. 2Der sich insgesamt
+
+ergebende Darlehensbetrag ist auf volle hundert Euro zu runden. 3Die Bewilligungsstelle kann den
+Festbetrag im Einzelfall angemessen verringern, wenn die Wirtschaftlichkeit des Fördervorhabens
+das zulässt.
+1Bei besonders förderungswürdigen Vorhaben, kann das auf diese Wohnungen entfallende Darlehen
+
+im Hinblick auf den erforderlichen Mehrbedarf wie folgt erhöht werden:
+
+                                                      Neubau                Gebäudeänderung/
+                                                                                 -erweiterung
+
+    Für Rollstuhlfahrer                    15 v. H.                      15 v. H.
+
+    Zur Stärkung oder Aufwertung           10 v. H.                      10 v. H.
+            innerörtlicher Lagen
+
+2Der sich insgesamt ergebende Darlehensbetrag ist auf volle hundert Euro zu runden.
+
+
+1Das Darlehen ist unter Berücksichtigung der in Nr. 23.1 Sätze 2 und 3 genannten Grundsätze in der
+
+wirtschaftlich erforderlichen Höhe in die Finanzierung einzusetzen. 2Der so ermittelte Betrag wird
+dann mit dem Bewilligungsbescheid als Festbetrag gewährt.
+1Während der Dauer der Belegungsbindung beträgt der Zinssatz 0,5 v. H. 2Nach Ablauf der
+
+Belegungsbindung kann der Zinssatz dem Kapitalmarktzins, höchstens bis zu 7 v. H. jährlich,
+angepasst werden, soweit dadurch die Wirtschaftlichkeit der geförderten Maßnahme nicht gefährdet
+wird.
+1Die ersten zwei Jahre sind tilgungsfrei. 2Danach beträgt die Tilgung mindestens 1 v. H. jährlich
+
+unter Zuwachs der ersparten Zinsen. 3Die Vereinbarung einer höheren Tilgung von höchstens
+4 v. H. jährlich unter Zuwachs der ersparten Zinsen ist zulässig.
+
+Es wird ein einmaliger Verwaltungskostenbeitrag in Höhe von 2 v. H. des Darlehensnennbetrages
+erhoben; dieser ist in den ersten zwei Jahren halbjährlich mit je 0,5 v. H. zu entrichten.
+
+
+Belegungsabhängiges Darlehen
+1Die Gewährung des belegungsabhängigen Darlehens setzt voraus, dass der Abstand zwischen der
+
+höchstzulässigen Miete und der für die jeweilige Einkommensstufe zumutbaren Miete mindestens
+1,00 € je m2 Wohnfläche monatlich beträgt. 2Sofern ein belegungsabhängiges Darlehen gewährt
+wird, besteht vorbehaltlich der Nrn. 13 und 27 aufgrund der Bestimmungen im Bewilligungsbescheid
+ein Anspruch auf Zusatzförderung. 3Für Wohnungen, für die kein belegungsabhängiges Darlehen
+gewährt wird, soll die Miete auf die zumutbare Miete abgesenkt werden. 4Besteht nach Satz 2 kein
+Anspruch auf Zusatzförderung, wird der Zinssatz während der Dauer der Belegungsbindung auf
+0,5 v. H. gesenkt.
+1Das Darlehen ist in seiner Höhe so zu bemessen, dass unter Berücksichtigung des jeweils
+
+maßgeblichen Zinssatzes nach Nr. 24.3 Satz 1 die sich daraus ergebenden Zinserträge ausreichen,
+um den für die Zusatzförderung aufzubringenden Betrag zu erwirtschaften. 2Grundlage für die
+Berechnung ist die bei der Antragstellung mit dem Bauherrn abgestimmte Belegungsstruktur. 3Dabei
+ist von dem Abstand zwischen der höchstzulässigen Miete und der jeweils zumutbaren Miete
+auszugehen. 4Der sich errechnende Betrag ist auf volle hundert Euro aufzurunden.
+1Der Zinssatz beträgt 5,75 v. H. jährlich. 2Der Zinssatz nach Satz 1 wird für Vorhaben, die bis zum
+
+31. Dezember 2022 bewilligt werden, während der Dauer der Belegungsbindung auf 1,75 v. H.
+abgesenkt. 3Ab dem Jahr 2023 wird der Zinssatz jährlich neu festgesetzt. 4Die Zinsbindungsdauer
+für das Darlehen beträgt entsprechend der Bindungsdauer 25 oder 40 Jahre. 5Danach erfolgt eine
+Anpassung unter Berücksichtigung der marktüblichen Konditionen.
+
+Nach Ablauf der Belegungsbindung kann der Zinssatz dem Kapitalmarktzins angepasst werden,
+soweit dadurch die Wirtschaftlichkeit der geförderten Maßnahme nicht gefährdet wird.
+1Die ersten zehn Jahre sind tilgungsfrei. 2Die Tilgung beträgt 1 v. H. jährlich unter Zuwachs der
+
+ersparten Zinsen.
+
+Es wird ein einmaliger Verwaltungskostenbeitrag in Höhe von 2 v. H. des Darlehensnennbetrages
+erhoben; dieser ist in den ersten zwei Jahren halbjährlich mit je 0,5 v. H. zu entrichten.
+
+
+Zusatzförderung
+
+Für die Festsetzung der Zusatzförderung sind die Stellen nach § 1 Abs. 1 Nr. 1 Buchst. b DVWoR
+zuständig.
+1Grundlage für die Bemessung der Zusatzförderung ist der Unterschiedsbetrag zwischen der
+
+höchstzulässigen Miete und der zumutbaren Miete. 2Dieser Betrag bleibt für die Bindungsdauer von
+25 oder 40 Jahren unverändert. 3Bei der Berechnung der monatlichen Zusatzförderung ist die von
+der Bewilligungsstelle festgestellte Wohnfläche zugrunde zu legen.
+1Die Zusatzförderung richtet sich nach dem Gesamteinkommen des jeweiligen Haushalts (vergleiche
+
+Art. 5 BayWoFG) und dessen Zuordnung in folgende Einkommensstufen:
+
+    Haushaltsgröße                                    Grenzen für die Einkommensstufen
+
+                                                  Stufe I           Stufe II           Stufe III
+                                                     €                 €                   €
+
+    Einpersonenhaushalt                           14.000            18.300              22.600
+
+    Zweipersonenhaushalt                          22.000            28.250              34.500
+
+    Zuzüglich für jede weitere                     4.000             6.250              8.500
+            haushaltsangehörige Person
+     Zuzüglich für jedes Kind im Sinn des          1.000              1.750               2.500
+             Art. 11
+             Abs. 1Satz 2 BayWoFG; das
+             Gleiche gilt, wenn die
+             Voraussetzungen des Art. 11
+             Abs. 1 Satz 3 BayWoFG
+             vorliegen
+
+2Haushalte der Einkommensstufe I erhalten den vollen Unterschiedsbetrag als Zusatzförderung. 3Bei
+
+Haushalten der Einkommensstufen II und III vermindert sich die Zusatzförderung je Stufe um bis zu
+1,50 € je m2 Wohnfläche monatlich oder um den noch verbleibenden Restbetrag. 4Der monatliche
+Gesamtbetrag der Zusatzförderung ist jeweils auf volle Euro zu runden.
+1Ist die im Mietvertrag vereinbarte Miete niedriger als die höchstzulässige Miete, so ist nur die
+
+niedrigere Miete bei der Bemessung der Zusatzförderung zugrunde zu legen. 2In diesem Fall werden
+spätere Mieterhöhungen bei der Bemessung der Zusatzförderung bis zur höchstzulässigen Miete
+berücksichtigt.
+1Die Zusatzförderung wird stets entsprechend der Zuordnung des Haushalts in die jeweilige
+
+Einkommensstufe gewährt. 2Das gilt auch dann, wenn der Haushalt eine Wohnung bezieht, die für
+eine andere Einkommensstufe vorgesehen ist. 3In jedem Fall ist darauf zu achten, dass der nach
+Nr. 24.2 Sätze 2 und 3 ermittelte Betrag der jährlichen Zinserträge möglichst voll ausgeschöpft wird.
+4Sofern bei der Wiederbelegung eine sich deutlich von der ursprünglich festgelegten
+
+Belegungsstruktur abweichende Bedarfssituation ergibt, ist die Belegung der Wohnungen
+entsprechend der aktuellen Situation vorzunehmen.
+1Der Antrag auf Zusatzförderung ist vom Mieter bei der zuständigen Stelle nach § 1 Abs. 1 Nr. 1
+
+Buchst. b DVWoR einzureichen. 2Die Zusatzförderung kann, wenn das im Einzelfall geboten
+erscheint, mit befreiender Wirkung an den vermietenden Bauherrn gezahlt werden; dieser hat die
+Miete um den Betrag der Zusatzförderung zu kürzen.
+1Die Zusatzförderung wird für jeweils 24 Monate ab dem Beginn des Mietverhältnisses, frühestens
+
+jedoch ab dem Ersten des Monats der Antragstellung, bewilligt (Bewilligungszeitraum). 2Sie wird
+längstens für die Dauer der Belegungsbindung gewährt und in der Regel monatlich im Voraus
+ausgezahlt.
+
+Endet die Belegungs- und Mietbindung infolge Aufhebung des Bewilligungsbescheides für die
+Grundförderung, Kündigung des Darlehens durch die Bayerische Landesbodenkreditanstalt oder
+Zwangsversteigerung wird die Zusatzförderung für die Dauer des Mietverhältnisses, längstens aber
+bis zum Ende der Bindungsdauer weiter gewährt.
+1Die Zusatzförderung entfällt, wenn das belegungsabhängige Darlehen vor Bindungsablauf ganz
+
+oder auch nur teilweise freiwillig zurückgezahlt wird, mit Ablauf des auf den Zeitpunkt der
+Rückzahlung folgenden Monats. 2Für die verbleibende Bindungsdauer ist die im Mietvertrag
+vereinbarte Miete auf die im Einzelfall dem Mieter nach seinem Einkommen zumutbare Miete
+abzusenken.
+1Nach Ablauf des Bindungszeitraums kann die Zusatzförderung für einen Zeitraum von bis zu drei
+
+Jahren weitergewährt werden, wenn die Darlehen nach Nr. 24 um einen entsprechenden Zeitraum
+zu den während des Bindungszeitraums geltenden Konditionen verlängert werden. 2Die
+Zusatzförderung wird dabei im ersten Jahr um ein Viertel des sich nach Nr. 25.2 in Verbindung mit
+Nr. 25.5 ergebenden Betrags, anschließend um jeweils ein weiteres Viertel je Folgejahr abgesenkt.
+       Zahlungs- und Abrechnungsverfahren
+       1Die zuständige Stelle nach § 1 Abs. 1 Nr. 1 Buchst. b DVWoR zahlt die Zusatzförderung in der
+
+       Regel für jeweils einen Monat (Zahlungsabschnitt) im Voraus aus. 2Dazu erhält sie von der
+       Regierung die für den Zahlungsabschnitt erforderlichen Abschlagszahlungen (Wertstellung jeweils
+       zum Monatsersten) in Höhe der voraussichtlich benötigten Mittel. 3Sollten die Abschlagszahlungen
+       zu hoch oder zu niedrig festgesetzt sein, lässt die zuständige Stelle nach § 1 Abs. 1 Nr. 1
+       Buchst. b DVWoR die Abschlagszahlungen von der Regierung umgehend anpassen. 4Jeweils zum
+       10. Januar eines jeden Jahres legt die zuständige Stelle nach § 1 Abs. 1 Nr. 1 Buchst. b DVWoR der
+       Regierung die Abrechnungen vor, aus denen für das vorausgegangene Kalenderjahr die Summe der
+       ausbezahlten Beträge und der erhaltenen Abschlagszahlungen hervorgeht. 5Dabei sich etwa
+       ergebende Nachforderungen werden ihr von der Regierung erstattet, Überzahlungen verbleiben als
+       Guthaben für das nächste Kalenderjahr und verringern die Abschlagszahlung für den nächsten
+       Zahlungsabschnitt. 6Die Regierungen erhalten vom Staatsministerium für Wohnen, Bau und Verkehr
+       auf Anforderung die Bewirtschaftungsbefugnis für die Mittel in Höhe der voraussichtlich benötigten
+       Beträge.
+
+
+       Sonderregelung für Personenkreise mit besonderen Zugangsproblemen zum
+       Wohnungsmarkt
+       1Die Bewilligungsstelle kann bei Bauvorhaben für Personenkreise mit besonderen
+
+       Zugangsproblemen zum Wohnungsmarkt von den Regelungen der Nrn. 12 und 14 abweichen. 2Im
+       Bewilligungsbescheid ist für diesen Personenkreis ein befristeter Vergabevorbehalt festzulegen;
+       während dieses Zeitraums besteht kein Anspruch auf Zusatzförderung. 3Als höchstzulässige Miete
+       ist die jeweils zumutbare Miete im Bewilligungsbescheid auszuweisen und im Mietvertrag zu
+       vereinbaren.
+
+       Während der Dauer der besonderen Belegungsbindung wird der Zinssatz für das
+       belegungsabhängige Baudarlehen auf 0,5 v. H. gesenkt.
+
+       Für Mieterhöhungen der zumutbaren Miete gilt auch während des befristeten Vergabevorbehalts
+       Nr. 19.2.
+
+                                              Abschnitt 3
+                                   Nachhaltigkeit in der Wohnraumförderung
+
+Die Kombination der drei Förderbausteine „drauf und dran - nachhaltig erneuern und erweitern“,
+„Nachhaltigkeitszuschuss“ und „Energieeffizienz“ ist möglich.
+
+
+       Förderbaustein „drauf und dran - nachhaltig erneuern und erweitern“
+
+       Gefördert wird die Erweiterung von bestehenden Mietwohngebäuden mit Modernisierung der
+       bestehenden Wohnungen, insbesondere mit deren nachhaltigen energetischer Verbesserung nach
+       Maßgabe des Abschnittes 2.
+       Ziel ist die Nutzung von Synergieeffekten, die zur Wirtschaftlichkeit des Projektes wesentlich sind,
+       und die Reduzierung des Flächenverbrauchs durch Ausnutzung bauplanungsrechtlicher Potentiale
+       im Gebäudebestand.
+
+       Die Förderung erfolgt im Rahmen der Einkommensorientierten Förderung nach dem zweiten
+       Abschnitt (EOF) mit einem objekt- und belegungsabhängigen Darlehen gemäß Nrn. 23 und 24 sowie
+       den Zuschüssen nach Nr. 28.6.
+Die Gebäudeerweiterung soll mindestens 25 v. H. der Wohnfläche oder der Wohnungsanzahl des
+Bestandswohnraums umfassen.
+
+Mit der energetischen Verbesserung des bestehenden Wohnraums muss ein energetischer
+Effizienzhaus-Standard nach der Richtlinie für die Bundesförderung für effiziente Gebäude
+– BEG WG erreicht werden.
+
+Bei der Gebäudeerweiterung sind die Gesamtkosten gemäß Nr. 11, bei der Modernisierung des
+Gebäudebestands die Modernisierungsmaßnahmen im Sinn von Art. 3 Abs. 3 BayWoFG, zuzüglich
+der Kosten für modernisierungsbedingte Instandsetzungsmaßnahmen förderfähig.
+1Die Förderhöhe richtet sich nach Abschnitt 2 des Teils 2 (Nrn. 17 ff.) mit der Maßgabe, dass neben
+
+den Darlehen gemäß Nrn. 23 und 24 bei einer Maßnahme zur Gebäudeerweiterung der Zuschuss
+nach Nr. 22.1 auf bis zu 125 v. H. erhöht werden kann. 2Bei der Modernisierung des Bestands
+beträgt der Zuschuss nach Nr. 22.1 bis zu 75 v. H.
+1Für die neu geschaffenen Wohnungen sind hinsichtlich der höchstzulässigen und der zumutbaren
+
+Miete die Nrn. 19 und 20 anzuwenden. 2Die höchstzulässige Miete für den modernisierten
+Wohnraum richtet sich nach der ortsüblichen Miete für vergleichbaren modernisierten Wohnraum,
+die zumutbare Miete richtet sich nach Nr. 20.
+1Belegungsbindungen und Zusatzförderung richten sich nach Abschnitt 2 (Nrn. 21 und 25).
+
+2Modernisierte Wohnungen sind bei Freiwerden (Mieterwechsel) Wohnberechtigten neu zu
+
+überlassen, die über eine entsprechende Wohnberechtigung verfügen.
+
+
+Förderbaustein „Nachhaltigkeitszuschuss“
+1Gefördert werden besonders nachhaltige Projekte in der Mietwohnraumförderung. 2Bei der
+
+Beurteilung sind ökonomische Aspekte angemessen zu berücksichtigen. 3Die Förderung setzt
+Förderanreize bei nachhaltigen Maßnahmen, die über die gesetzlich oder förderrechtlich ohnehin
+schon gegebenen Anforderungen erheblich hinausgehen.
+1Die Förderhöhe richtet sich nach Abschnitt 2 des Teils 2 (Nrn.17 ff.) mit der Maßgabe, dass neben
+
+den Darlehen gemäß Nrn. 23 und 24 sowie den Zuschüssen nach Nr. 22.1 und Nr. 22.3 ein
+zusätzlicher Zuschuss nach Nr. 22.2 gewährt werden kann.
+1Das Vorhaben ist besonders nachhaltig, wenn es über seinen gesamten Lebenszyklus die Faktoren
+
+Ökonomie, Ökologie, technische Qualität und soziokulturelle Ansprüche miteinander in Einklang
+bringt. 2Für die Inanspruchnahme des Nachhaltigkeitszuschusses, sind bauliche Maßnahmen in
+relevantem Umfang aus mindestens drei der fünf folgenden Nachhaltigkeitsbereiche zu
+verwirklichen:
+
+– Soziokulturelle Maßnahmen
+
+– Ganzheitlicher Ressourceneinsatz
+
+– Einsatz nachwachsender Rohstoffe
+
+– Klimaanpassungsmaßnahmen
+
+– Lokale Erzeugung erneuerbarer Energien
+1Die Bereiche sind individuell kombinierbar und werden durch die Bewilligungsstellen
+
+einzelfallbezogen aufgrund der konkreten Maßnahmen und resultierenden Mehrkosten bewertet.
+2Sollten lediglich Maßnahmen in untergeordnetem Umfang oder in weniger als drei der Bereiche
+umgesetzt werden, kann der Zuschuss angemessen reduziert werden. 3Hierbei soll insbesondere
+auch die Höhe der durch die Maßnahmen entstehenden Mehrkosten berücksichtigt werden.
+
+
+Förderbaustein „Energieeffizienz“
+1Ziel des Bausteins ist es, einen Anreiz für Investitionen im geförderten Wohnungsbau zu setzen, mit
+
+denen die Energieeffizienz gesteigert und die CO2-Emissionen gesenkt werden. 2Gefördert werden
+Projekte die mindestens den Effizienzhausstandard 55 erreichen.
+1Die Förderhöhe richtet sich nach Abschnitt 2 des Teils 2 (Nrn. 17 ff.) mit der Maßgabe, dass neben
+
+den Darlehen gemäß Nrn. 23 und 24 sowie den Zuschüssen nach Nr. 22.1 und Nr. 22.2 ein
+zusätzlicher Zuschuss nach Nr. 22.3 gewährt werden kann.
+
+Es gelten die technischen Förderstandards der bisherigen Bundesförderung für effiziente Gebäude
+(BEG).
+1Mit dem Förderantrag ist die Bestätigung eines Energieeffizienz-Experten über die Planung der
+
+Baumaßnahme zur Erreichung einer Effizienzhaus-Stufe nach der Richtlinie für die Bundesförderung
+für effiziente Gebäude – BEG WG vorzulegen. 2Die Bestätigung muss dabei von einer in der
+Energieeffizienz-Expertenliste für Förderprogramme des Bundes (www.energie-effizienz-
+experten.de) aufgeführten Person erstellt worden sein. 3Der Nachweis erfolgt über eine Bestätigung
+zum Antrag oder in Abhängigkeit von der Maßnahme durch eine dazu analoge Bestätigung eines
+Energieeffizienz-Experten gemäß Satz 2. 4Nach Fertigstellung ist die Erreichung der geplanten
+Maßnahmen durch eine Bestätigung nach Durchführung gemäß BEG-EM oder analog dazu durch
+die Bestätigung eines Energieeffizienz-Experten gemäß Satz 2 nachzuweisen.
+
+
+
+                                    Abschnitt 4
+                           Aufwendungsorientierte Förderung (AOF)
+
+
+Art der Förderung
+
+Die Förderung besteht aus einem Darlehen und ergänzenden Zuschüssen.
+
+
+Förderfähige Kosten
+1Förderfähig sind die Gesamtkosten gemäß Nr. 11. 2Dabei sollen sich die Kosten der
+
+Kostengruppen 300 und 400 der DIN der Höhe nach an Nr. 12.8 orientieren. 3Nr. 12.9 gilt
+entsprechend. 4Maßgeblich sind die Verhältnisse zum Zeitpunkt der Bewilligung entsprechend §§ 4,
+4a II. BV.
+
+
+Förderdarlehen
+1Gefördert wird im Wege der Fehlbedarfsfinanzierung mit einem Förderdarlehen zu 0,5 v. H. Zins
+
+und 1 v. H. Tilgung. 2Abweichend hiervon wird in den ersten zwei Jahren statt der Tilgung ein
+einmaliger Verwaltungskostenbeitrag von 2 v. H. des Darlehensnennbetrages erhoben, der jeweils
+halbjährlich mit je 0,5 v. H. zu entrichten ist. 3Bei Neubauten ist zunächst von einem
+Darlehensbetrag von 1 500 € je Quadratmeter Wohnfläche, bei Aus- und Umbaumaßnahmen von
+1 000 € je Quadratmeter Wohnfläche auszugehen. 4Der tatsächliche Mittelbedarf errechnet sich
+anhand einer Aufwands- und Ertragsberechnung (Nrn. 35.2 bis 35.6). 5Für jedes volle Kalenderjahr
+der bestimmungsgemäßen Verwendung des gesamten geförderten Wohnraums wird nach dem
+Ablauf der Bindungen ein Darlehensnachlass von 0,5 v. H. des bewilligten Darlehensbetrags
+gewährt.
+
+
+Zuschüsse
+
+Zu dem Förderdarlehen nach Nr. 33 wird ein ergänzender Zuschuss bis zu 500 € je m2 Wohnfläche
+gewährt.
+
+Für ein besonders nachhaltiges Vorhaben gemäß Nr. 29 beträgt der Zuschuss bis zu 200 € je m2
+Wohnfläche.
+
+Für energieeffiziente Gebäude gemäß Nr. 30 wird ein ergänzender Zuschuss in Höhe von bis zu
+100 € je m2 Wohnfläche gewährt.
+
+Die sich jeweils ergebenden Zuschussbeträge sind auf volle hundert Euro abzurunden.
+
+
+Wirtschaftlichkeit der Maßnahme
+
+Das Darlehen und die ergänzenden Zuschüsse sind in der Höhe zu bewilligen, dass unter
+Berücksichtigung der Gesamtkosten, der Finanzierungsmittel und der Bewirtschaftungskosten die
+Erträge ausreichen, um die jährlichen Aufwendungen zu decken.
+
+Hinsichtlich des Finanzierungsplans gelten die Vorschriften der §§ 12 bis 16 II. BV entsprechend.
+
+Bei den Fremdkapitalkosten sind die Ansätze entsprechend § 21 II. BV anzuwenden.
+1Der Mindesteigenkapitaleinsatz beträgt 15 v. H. der Gesamtkosten. 2Das Eigenkapital ist höchstens
+
+mit dem Zinssatz zu verzinsen, der am Tag der Beantragung der Fördermittel für Bundesanleihen
+mit einer Laufzeit von zehn Jahren gezahlt wird. 3Liegt der Zinssatz für die Bundesanleihen bei
+1 v. H. oder darunter, ist eine Mindestverzinsung von 1 v. H. pro Jahr anzusetzen. 4In den Fällen der
+Nr. 14 Satz 2 (Eigenkapitalanforderungen) ist ein dem Eigenkapital nach Satz 1 entsprechender
+Betrag der sonstigen Finanzierungsmittel mit dem maximal für das Eigenkapital zulässigen Zinssatz
+in die Bedarfsberechnung einzustellen.
+1Für den Ansatz der Bewirtschaftungskosten (ohne Abschreibung) ist eine Pauschale von 20 € je
+
+Quadratmeter Wohnfläche jährlich anzusetzen. 2Für Garagen oder Carports kann ein Betrag je
+Stellplatz von jährlich 125 € angesetzt werden.
+
+Es kann eine Abschreibung von bis zu 1,25 v. H. der abschreibungsfähigen Kosten (§ 25 Abs. 1 und
+2 II. BV) angesetzt werden.
+1Ergeben sich bei der Prüfung der Schlussabrechnung gegenüber dem Bewilligungszeitpunkt
+
+Erhöhungen in den Gesamtkosten, sind diese in entsprechender Anwendung der Vorschriften der
+II. BV auf ihre Anerkennungsfähigkeit zu prüfen. 2Insbesondere können nur solche
+Kostenänderungen berücksichtigt werden, deren Erhöhung auf Umständen beruht, die der Bauherr
+nicht zu vertreten hat. 3Wertänderungen sind nicht als Änderungen der Gesamtkosten anzusehen.
+4Soweit notwendig, sind die zum Abgleich der Aufwands- und Ertragsberechnung notwendigen
+
+Fördermittel zu bewilligen.
+1Hat sich gegenüber dem Zeitpunkt der Bewilligung eine Kostenminderung ergeben, sind die
+
+Fördermittel zur Vermeidung einer Überkompensation solange zu kürzen bis sich wieder ein
+rechnerischer Abgleich zwischen Aufwendungen und Erträgen ergibt. 2Wurden bei Bewilligung die
+nach Nrn. 35.3 bis 35.6 zulässigen Ansätze für die laufenden Aufwendungen nicht in voller Höhe
+angesetzt, sollen die zulässigen Ansätze in voller Höhe berücksichtigt werden. 3Beihilferechtlich
+erforderliche Maßnahmen nach der Schlussabrechnung bleiben unberührt (vergleiche Art. 6 des
+Beschlusses 2012/21/EU).
+
+
+Belegungsbindung
+
+Die Wohnungen sind für die Dauer von 25 oder 40 Jahren an Haushalte zu vermieten, deren
+Einkommen die jeweilige Einkommensstufe der Tabelle in Nr. 25.3 einhält.
+
+
+Zulässige Miete
+1Zulässige Miete ist die zumutbare Miete (Bewilligungsmiete). 2Die zumutbare Miete richtet sich nach
+
+Nr. 20.
+1Zur Vermeidung einer Fehlförderung darf die festgelegte Bewilligungsmiete nach Ablauf von fünf
+
+Jahren nach Bezugsfertigkeit der Wohnungen für die Einkommensstufe I um 0,40 € je m2 monatlich,
+für die Einkommensstufe II um 0,50 € je m2 monatlich und für die Einkommensstufe III um 0,60 € je
+m2 monatlich erhöht werden. 2Nach Ablauf von jeweils weiteren fünf Jahren ist eine erneute
+Mieterhöhung in gleicher Höhe zulässig. 3Die ortsübliche Vergleichsmiete darf nicht überschritten
+werden. 4Die Vereinbarung einer Staffelmiete gemäß § 557a BGB ist unzulässig.
+
+
+
+                                      Abschnitt 5
+                        Verlängerung von Belegungs- und Mietbindungen
+
+
+Verlängerung von Belegungs- und Mietbindungen
+1Miet- und Belegungsbindungen an seit dem 1. Januar 2000 im Rahmen der EOF oder der AOF
+
+geförderten Mietwohnungen, welche gemäß der Förderentscheidung innerhalb von fünf Jahren
+auslaufen, können auf Antrag des Förderempfängers durch eine neue Förderentscheidung für
+weitere 15 Jahre unmittelbar anschließend an das bisherige Bindungsende verlängert werden.
+2Voraussetzung ist, dass hierfür ein erheblicher, nicht nur kurzfristiger Bedarf besteht (vergleiche
+
+Nr. 9.1).
+
+Das objektabhängige Darlehen wird zu den bis dahin geltenden Konditionen fortgeführt.
+
+Der Zinssatz für das belegungsabhängige Darlehen wird ab dem Zeitpunkt der Verlängerung für den
+noch nicht getilgten Darlehensrestbetrag mit dem für eine Neubewilligung geltenden Zinssatz
+gewährt.
+
+
+
+                                         Abschnitt 6
+                                         Mittelbare Belegung
+
+
+Mittelbare Belegung
+
+Die Belegungs- und Mietbindungen für die im Rahmen der EOF und AOF geförderten neu
+geschaffenen und gemäß Nr. 28 modernisierten Wohnungen können nach Maßgabe von Art. 14
+Abs. 1, Art. 15 Abs. 1 und 2 sowie Art. 16 Abs. 1 bis 5 BayWoFG ganz oder zum Teil an nicht
+gefördertem, verfügbaren Wohnraum (Ersatzwohnraum) begründet werden.
+1Der Ersatzwohnraum soll sich in der Gemeinde befinden, in der der neue Wohnraum geschaffen
+
+wird. 2Soweit es aus wohnungswirtschaftlichen Gründen sinnvoll ist, kann Ersatzwohnraum auch in
+anliegenden Gemeinden gebunden werden.
+1Bei der Auswahl der Ersatzwohnungen ist zu beachten, dass die ausgewählten Wohnungen keiner
+
+Bindung unterliegen und entsprechend Nr. 21 dieser Bestimmungen in Verbindung mit Nr. 5.8 der
+Verwaltungsvorschriften zum Vollzug des Wohnungsbindungsrechts (VVWoBindR) belegt werden
+können. 2Zudem ist darauf zu achten, dass bei möglichen Wohnflächenüberschreitungen die sich für
+den vorgesehenen Kreis der Wohnungssuchenden ergebenden höheren Mietbelastungen diesen
+auch zugemutet werden können.
+
+Für die Ersatzwohnungen hat die Bewilligungsstelle die höchstzulässige Miete (vergleiche Nr. 19)
+festzulegen und zugleich die zumutbare Miete zu bestimmen (vergleiche Nr. 20).
+1Am Ersatzwohnraum sind Bindungen von insgesamt gleichem Wert wie am geförderten Wohnraum
+
+einzuräumen. 2Dabei sind die neu zu schaffenden Wohnungen zu den angebotenen
+Ersatzwohnungen in Relation zu setzen. 3Die Bewilligungsstelle kann dabei insbesondere auf den
+Ertrag (Mietwert) der jeweiligen Wohnungen abstellen. 4Ergänzend sind alle Umstände des
+Einzelfalls zu berücksichtigen, die über die Mietwertberechnung hinaus einen erheblichen Einfluss
+auf den Wert der Bindungen haben, insbesondere die Bindungsdauer, die Zahl der
+Ersatzwohnungen und deren Wohnwert.
+1Bei der Bemessung der Förderhöhe hat die Bewilligungsstelle hinsichtlich der Zuschüsse nach
+
+Nr. 22 auf die neu zu bauenden Wohnungen abzustellen. 2Bei der Festlegung des
+belegungsabhängigen Darlehens ist die Wohnfläche der neu zu errichtenden Wohnungen zugrunde
+zu legen. 3Bei den Einkommensstufen ist auf den konkreten Bedarf bei den Ersatzwohnungen Bezug
+zu nehmen.
+
+Der Ersatzwohnraum soll spätestens im Zeitpunkt der Bezugsfertigkeit des geförderten Wohnraums
+zur Verfügung stehen.
+
+Im Ergebnis darf die Förderung mit mittelbarer Belegung beim Fördernehmer ebenso wenig zu einer
+Überkompensation führen wie bei einer herkömmlichen Förderung.
+
+Eine mittelbare Belegung ist für Besondere Wohnformen (Nr. 13) ausgeschlossen.
+
+
+
+                                    Teil 3
+       Förderung von Eigenwohnraum sowie von Mietwohnraum im Zweifamilienhaus
+
+
+Förderungsvoraussetzungen
+1Eigenwohnraum darf nur für Antragsteller gefördert werden, die sich nicht nur vorübergehend im
+
+Bundesgebiet aufhalten und rechtlich und tatsächlich in der Lage sind, für ihren Haushalt auf längere
+Dauer einen Wohnsitz als Mittelpunkt der Lebensbeziehungen zu begründen und dabei einen
+selbstständigen Haushalt zu führen. 2Die Förderung des Erwerbs von Eigenwohnraum zwischen
+Ehegatten, Lebenspartnern oder Partnern einer sonstigen auf Dauer angelegten
+Lebensgemeinschaft sowie zwischen Verwandten eines Haushaltsmitgliedes in gerader Linie
+(§ 1589 BGB) ist ausgeschlossen, ebenso die Übertragung im Wege der Erbfolge,
+testamentarischen Verfügung oder Schenkung. 3Der zu fördernde Haushalt hat die in Art. 11
+Abs. 1 BayWoFG genannte Einkommenshöchstgrenze einzuhalten.
+1Bei der Förderung von Eigenwohnraum sollen bei Haushalten, die in einer ehelichen Gemeinschaft
+
+oder Partnerschaft (eingetragene Lebenspartnerschaft, sonstige auf Dauer angelegte
+Lebensgemeinschaft) geführt werden, in aller Regel beide Ehegatten oder Partner gemeinsam
+Eigentümer oder Erbbauberechtigte sein oder werden. 2Beim Erwerb von Wohnraum müssen die
+Erwerber nachweisen, dass der Erwerb gesichert ist oder der Erwerb durch die Gewährung der
+Fördermittel gesichert wird.
+1Eine Förderung von Mietwohnraum im Zweifamilienhaus setzt voraus, dass dieser für Personen
+
+bestimmt ist, die mit dem Antragsteller im Sinn von Art. 4 Abs. 1 Nr. 2 BayWoFG in Beziehung
+stehen. 2Dabei darf die ortsüblich für vergleichbaren Wohnraum erzielbare Miete nicht überschritten
+werden. 3Wird lediglich der Mietwohnraum im Zweifamilienhaus gefördert, hat der Mieter zum Bezug
+der Wohnung die Voraussetzungen nach Art. 14 BayWoFG zu erfüllen und die in Art. 11
+Abs. 1 BayWoFG genannte Einkommenshöchstgrenze einzuhalten. 4Hinsichtlich der
+Wohnungsgrößen ist Nr. 12.2 zu beachten.
+
+
+Einsatz der Fördermittel
+
+Eigenwohnraum und Mietwohnraum im Zweifamilienhaus wird nach der sozialen Dringlichkeit
+gefördert.
+1Die soziale Dringlichkeit bestimmt sich nach den Gesamtumständen des Einzelfalls. 2Dabei sind
+
+insbesondere zu berücksichtigen:
+
+– die Höhe des Gesamteinkommens des Haushalts,
+
+– die Tragbarkeit der Belastung im Verhältnis zum verfügbaren Haushaltseinkommen,
+
+– die Haushaltsgröße (Anzahl der Kinder, Schwangerschaft, Aufnahme von Angehörigen),
+
+– die derzeitigen Wohnverhältnisse,
+
+– eine Schwerbehinderung oder dauerhafte schwere Erkrankung,
+
+– die Vermögensverhältnisse,
+
+– sonstige soziale Gründe.
+
+Eine soziale Dringlichkeit liegt in aller Regel nicht vor, wenn sich der Haushalt völlig oder
+überwiegend aus eigener finanzieller und wirtschaftlicher Kraft angemessenen Wohnraum schaffen
+kann; dabei ist das vorhandene Vermögen (zum Beispiel Immobilien, Geldvermögen, Wertpapiere)
+zu berücksichtigen.
+1Bei der Prüfung der Frage der Verwertbarkeit von Vermögen ist ein nach den Umständen des
+
+Einzelfalls angemessener pauschaler Teil des Vermögens als Selbstbehalt für Kosten
+zuzugestehen, die im weiteren Zusammenhang mit dem Bauvorhaben entstehen (zum Beispiel
+Umzugskosten, neue notwendige Einrichtung). 2Gegebenenfalls ist im Einzelfall ein weiterer
+konkreter Teil des Vermögens als Selbstbehalt für sonst dringend notwendige Aufwendungen
+zuzugestehen (zum Beispiel Mittel, die der Altersvorsorge dienen (Riesterrente), oder anstehende
+ärztliche Behandlungskosten, die nicht von einer Krankenversicherung getragen werden).
+
+Eine Förderung des Bauvorhabens ist ausgeschlossen, wenn ein Antragsteller nicht zur Verwertung
+seines Vermögens bereit ist, obwohl es ihm nach den Umständen zuzumuten wäre.
+
+
+Förderfähige Kosten
+1Beim Schaffen von Wohnraum sind die Gesamtkosten im Sinn der §§ 5 bis 8 II. BV in der jeweils
+
+geltenden Fassung förderfähig. 2Beim Erwerb von Wohnraum sind förderfähig der Kaufpreis sowie
+die Erwerbskosten; bei einem Zweiterwerb sind darüber hinaus förderfähig die Kosten von
+erforderlichen Modernisierungs- und Instandsetzungsmaßnahmen.
+
+
+Förderung
+1Gefördert wird mit einem Darlehen, einem einmaligen Zuschuss für Haushalte mit Kindern sowie
+
+einem ergänzenden Zuschuss beim Zweiterwerb. 2Die Fördermittel sind in der Höhe zu bewilligen,
+die zur Erreichung einer dauerhaft tragbaren Belastung erforderlich ist.
+
+
+Darlehen
+1Das Darlehen darf beim Bau und Ersterwerb höchstens 30 v. H. und beim Zweiterwerb höchstens
+
+40 v. H. der förderfähigen Kosten betragen. 2Ergibt sich ein rechnerischer Darlehensbetrag von
+weniger als 15 000 Euro, scheidet eine Förderung aus (Bagatellgrenze).
+1Der Zinssatz beträgt für die ersten 15 Jahre der Laufzeit 0,5 v. H. jährlich. 2Anschließend wird der
+
+Zinssatz dem Kapitalmarktzins angepasst, soweit die Tragbarkeit der Belastung nicht gefährdet wird;
+ein Zinssatz von 7 v. H. jährlich darf nicht überschritten werden.
+
+Mietwohnraum im Zweifamilienhaus wird ausschließlich mit einem Darlehen gefördert.
+1Die ersten zwei Jahre sind tilgungsfrei. 2Danach beträgt die Tilgung 1 v. H. jährlich unter Zuwachs
+
+der ersparten Zinsen. 3Beim Zweiterwerb von Wohnraum in neuwertigen oder annähernd
+neuwertigen Gebäuden beträgt die Tilgung 1 v. H., in den übrigen Fällen 2 v. H. jährlich unter
+Zuwachs der ersparten Zinsen.
+
+Es wird ein einmaliger Verwaltungskostenbeitrag in Höhe von 2 v. H. erhoben; dieser ist in den
+ersten zwei Jahren zu entrichten.
+
+Die Darlehensleistungen (Nrn. 44.2, 44.4 und 44.5) sind monatlich zu entrichten.
+
+
+Zuschuss für Kinder und ergänzende Zuschüsse
+
+Haushalte mit Kindern im Sinn des § 32 Abs. 1 bis 5 des Einkommensteuergesetzes (EStG) erhalten
+einen Zuschuss in Höhe von 5 000 € je Kind; das Gleiche gilt, wenn die Geburt eines Kindes oder
+mehrerer Kinder aufgrund einer bestehenden Schwangerschaft zum Zeitpunkt der
+Förderentscheidung zu erwarten ist.
+1Der Kinderzuschuss nach Nr. 45.1 wird nur in Verbindung mit dem Darlehen nach Nr. 44.1 gewährt.
+
+2Das nach Maßgabe der Nr. 44.1 ermittelte Darlehen darf nicht deshalb gekürzt werden, weil ein
+
+Kinderzuschuss zu bewilligen ist.
+
+Haben es die Antragsteller versäumt, eine zum Zeitpunkt der Förderentscheidung bestehende
+Schwangerschaft der Bewilligungsstelle anzuzeigen, kann der Zuschuss auf ihren Antrag
+nachträglich bewilligt werden.
+1Beim Zweiterwerb von bestehenden Familienheimen und Eigentumswohnungen wird ein das
+
+Darlehen ergänzender Zuschuss in Höhe von 10 v. H. der förderfähigen Kosten, maximal 30 000 €
+gewährt. 2Dies gilt auch, wenn das erworbene Gebäude durch einen Neubau ersetzt wird.
+1Die Gewährung des Zuschusses nach Nr. 45.4 ist nur in Verbindung mit dem Darlehen nach
+
+Nr. 44.1 möglich. 2Der sich insgesamt ergebende Zuschussbetrag ist auf volle hundert Euro zu
+runden. 3Das nach Maßgabe der Nr. 44.1 ermittelte Darlehen darf nicht deshalb gekürzt werden, weil
+ein Zuschuss für den Erwerb zu bewilligen ist.
+Wird das Darlehen nach Nr. 44.1 innerhalb von fünf Jahren ab dem Zeitpunkt der Bewilligung
+zurückgefordert oder freiwillig zurückgezahlt, ist der Zuschuss nach Nr. 45.4 entsprechend der
+Bindungsdauer (Nr. 44.2) anteilig zurückzufordern.
+
+
+Eigenleistungen
+1Die Eigenleistung soll mindestens 25 v. H. der Gesamtkosten betragen. 2Insbesondere bei der
+
+Förderung von Haushalten mit drei oder mehr Kindern kann die Bewilligungsstelle eine geringere
+Eigenleistung zulassen, jedoch nicht weniger als 15 v. H. 3Eine Eigenleistung von mindestens
+15 v. H. der Gesamtkosten muss durch Bereitstellung eigener Geldmittel oder eines aus eigenen
+Mitteln erworbenen Grundstücks erbracht werden. 4Bei der Mindesteigenleistung können Zuschüsse
+anderer Zuwendungsgeber sowie die Zuschüsse nach Nr. 45 berücksichtigt werden.
+
+Eigenleistungen sind
+
+– bare Geldmittel sowie Guthaben bei Geldinstituten einschließlich rechtsverbindlicher
+  Geldschenkungen (zum Beispiel von Verwandten),
+
+– der Wert des aus Eigenmitteln bezahlten oder etwa von Verwandten unentgeltlich überlassenen
+  Grundstücks,
+
+– bei Gebäudeänderung und Gebäudeerweiterung der Wert verwendeter Gebäudeteile (nach
+  Abzug einer etwaigen Altbelastung),
+
+– der Wert vor Baubeginn angeschaffter und aus Eigenmitteln bezahlter Baustoffe,
+
+– der Wert der Selbsthilfe (§ 15 Abs. 1 Nr. 2 II. BV).
+
+
+Tragbarkeit der Belastung
+
+Der Förderempfänger muss die Belastungen (Finanzierungs- und Bewirtschaftungskosten), die
+durch die laufenden Aufwendungen für die Eigentumsmaßnahme ausgelöst werden, dauerhaft
+tragen können.
+1Die Belastung für den Bauherrn oder Käufer ist anhand einer Lastenberechnung (§§ 40 ff. II. BV) zu
+
+ermitteln. 2Die Belastung aus der Bewirtschaftung der Immobilie wird dabei pauschal mit 30 € je m2
+jährlich für Eigenheime und mit 35 € je m2 jährlich für Eigentumswohnungen angesetzt. 3Die
+Bewilligungsstelle hat im Rahmen einer Prognose einzuschätzen, ob die sich für Bauherren und
+Erwerber aus der Immobilie ergebende Belastung dauerhaft tragbar ist. 4Die Belastung ist nur dann
+dauerhaft tragbar, wenn nicht wenigstens folgende Mindestbeträge, nach Abzug der Belastung aus
+der Immobilie, zum Lebensunterhalt verbleiben:
+
+– für den Antragssteller 1 100 € monatlich,
+
+– für jede weitere zum Haushalt rechnende Person zusätzlich 275 €, ab dem dritten Kind 225 €,
+  monatlich.
+1Die Beurteilung muss sich an den Geldmitteln orientieren, die dem Haushalt tatsächlich und
+
+regelmäßig zur allgemeinen Lebensführung zur Verfügung stehen. 2Dazu gehören neben dem
+durchschnittlichen monatlichen Nettoeinkommen insbesondere wiederkehrende
+Sonderzuwendungen (zum Beispiel Weihnachts- und Urlaubsgeld) sowie beispielsweise Kindergeld
+und Wohngeld (Lastenzuschuss).
+Bei zeitlich befristeten Einnahmen (zum Beispiel Elterngeld, Einkünfte aus befristeten
+Arbeitsverhältnissen, Unterhaltsleistungen) ist zu prüfen, ob die Belastung nach Wegfall dieser
+Einnahmen tragbar ist (Entwicklung der Einkommenslage, Wiederaufnahme einer Berufstätigkeit).
+
+Nicht zu den verfügbaren Geldmitteln gehören Einnahmen, denen entsprechende Aufwendungen
+des Leistungsempfängers gegenüberstehen (zum Beispiel Blindengeld, Pflegegeld, BAföG-
+Leistungen).
+1Soweit sich aus den Einkommensnachweisen das verfügbare Haushaltsnettoeinkommen nicht
+
+unmittelbar ergibt (zum Beispiel bei Einkünften aus Land- und Forstwirtschaft, Gewerbebetrieb,
+selbständiger Arbeit oder nichtselbständiger Arbeit von Beamten), sind vom Gewinn oder
+Betriebsüberschuss oder vom Nettoeinkommen gegebenenfalls Beiträge zur privaten Lebens- und
+Krankenversicherung (soweit sie nicht bei den Betriebsausgaben enthalten sind) sowie die
+Steuerleistung abzuziehen. 2Dabei müssen die privaten Vorsorgeeinrichtungen in ihrer Zielsetzung
+der gesetzlichen Sozialversicherung entsprechen.
+
+Um bei Antragstellern, die Einkünfte aus selbständiger Arbeit erzielen, die Tragbarkeit der Belastung
+beurteilen zu können, sind von diesen (neben den Einkommenserklärungen auf Formblatt
+Stabau III a/III b) regelmäßig folgende Einkommensnachweise vorzulegen:
+
+– Einkommensteuerbescheide der letzten beiden Steuerjahre (ersatzweise die letzte
+  Einkommensteuererklärung),
+
+– Jahresabschlüsse beziehungsweise Einnahmenüberschussberechnungen der letzten beiden
+  Jahre,
+
+– gegebenenfalls aussagefähige Unterlagen des laufenden Geschäftsjahres (zum Beispiel
+  betriebswirtschaftliche Auswertungen, Summen- und Saldenlisten).
+
+Bei einer finanziellen Mitleistung Dritter ist die Tragbarkeit der Belastung dann nicht auf Dauer
+sichergestellt, wenn mit dem baldigen Wegfall dieser Mitleistung zu rechnen ist.
+
+Künftige Änderungen in der Belastungsentwicklung sind zu berücksichtigen, sofern diese absehbar
+sind (zum Beispiel baldige Änderung der Einkommens- oder Haushaltssituation, Auslauf eines
+Bausparkassendarlehens mit mittelfristiger Laufzeit).
+1Bei der Gegenüberstellung von verfügbaren Geldmitteln des Haushalts und der Belastung aus der
+
+Immobilie ist eine angemessene Überschreitung der zum Lebensunterhalt notwendigen
+Mindestbeträge (Nr. 47.2 Satz 4) zuzugestehen.
+
+
+Besondere technische Anforderungen
+
+Die angemessene Größe von Baugrundstücken ist unter Berücksichtigung des Grundsatzes eines
+sparsamen Umgangs mit Grund und Boden sowie der ortsüblichen Gegebenheiten zu beurteilen.
+1Die angemessene Grundstücksgröße beim Bau (nicht beim Erst- und Zweiterwerb) von
+
+Eigenheimen ist in Anlehnung an die Gebietskategorien des Landesentwicklungsprogramms zu
+beurteilen. 2Orientierungswerte für die angemessene Grundstücksgröße sind:
+
+– in Verdichtungsräumen          400 m2,
+
+– im ländlichen Raum 600 m2.
+1Die Zulässigkeit einer Überschreitung der Orientierungswerte ist nach den Umständen des
+
+Einzelfalls zu beurteilen. 2Sie soll insbesondere dann zugelassen werden, wenn die Festsetzungen
+eines Bebauungsplans zur Grundstücksgröße zu beachten sind oder dem Bauherrn das Grundstück
+unentgeltlich überlassen wurde oder der Bauherr das Grundstück schon vor geraumer Zeit mit
+Eigenmitteln erworben hat.
+1Die Wohnfläche einer Eigentumswohnung soll in der Regel für einen Ein-Personen-Haushalt
+
+höchstens 60 m2, für einen Zwei-Personen-Haushalt höchstens 75 m2 betragen. 2Die Wohnfläche
+eines Eigenheimes für einen Zwei-Personen-Haushalt soll in der Regel höchstens 100 m2 betragen.
+
+Der weiteren Familienplanung ist mit einer zusätzlichen Wohnfläche entsprechend der folgenden
+Aufstellung Rechnung zu tragen.
+
+    Zahl der                           Max. Anzahl der                 Max. Wohnfläche
+           Haushaltsangehörigen               Individualräume
+                                       (Schlafräume, Kinderzimmer)
+
+    2 bis 4                                          5                 145 m2
+
+    5                                                6                 160 m2
+
+    Für jede zusätzliche Person               + 1 zusätzlicher         + max. 15 m2
+                                                   Individualraum
+1Bei der Nutzung vorhandener Bausubstanz richtet sich die Angemessenheit der Wohnfläche nach
+
+Nrn. 48.4 und 48.5. 2Überschreitet die Wohnfläche die Vorgaben nach Satz 1, ist sie angemessen,
+wenn die Belastung für das Objekt unter Berücksichtigung einer durchschnittlichen Förderung aus
+dem Bayerischen Wohnungsbauprogramm tragbar ist.
+1Für ein beruflich erforderliches häusliches Arbeitszimmer kann je Haushalt die Wohnfläche bis zu
+
+15 m2 mehr betragen. 2Ein häusliches Arbeitszimmer ist ein zur Wohnung gehörender, abgetrennter
+Raum, der ausschließlich oder nahezu ausschließlich zu beruflichen Zwecken genutzt wird.
+1Ist eine Person des Haushalts schwerbehindert im Sinn des § 2 Abs. 2 SGB IX oder pflegebedürftig
+
+im Sinn des § 14 SGB XI, kann die Wohnfläche bis zu 15 m2 mehr betragen. 2Einer Erhöhung der
+Wohnfläche soll nur zugestimmt werden, wenn die Bewegungsflächen nach Teil 2 der DIN 18040
+erforderlich und entsprechend planerisch nachgewiesen sind. 3Mit diesen Mehrflächen ist der
+zusätzliche Flächenbedarf auch dann gedeckt, wenn sich im Haushalt mehrere schwerbehinderte
+oder pflegebedürftige Personen befinden.
+
+Benötigt eine dem Haushalt angehörende schwerbehinderte oder pflegebedürftige Person einen
+abgeschlossenen Therapieraum, kann dafür ein zusätzlicher Wohnraum mit bis zu 15 m2
+Wohnfläche vorgesehen werden.
+1Die Individualräume (Schlafräume oder Kinderzimmer) für eine Person sollen mindestens 10 m 2, für
+
+zwei Personen mindestens 14 m2 groß sein. 2Eine Unterschreitung von bis zu 10 v. H. ist im
+Einzelfall vertretbar, wenn anderweitig Stellflächen für Schränke oder Spielflächen im räumlichen
+Zusammenhang mit den Individualräumen vorhanden sind. 3Die Individualräume sollen möglichst
+über Flure erschlossen werden und keine Durchgangsräume sein.
+
+Enthalten Wohnungen Abstellflächen, die Keller ersetzen, können diese mit bis zu 10 m2 bei der
+Feststellung der angemessenen Wohnfläche außer Betracht bleiben.
+
+Wird in einem Eigenheim neben der Hauptwohnung eine zweite zur Vermietung bestimmte
+Wohnung gefördert, ist Nr. 12.2 zu beachten.
+
+Die Bewilligungsstelle legt jährlich in Absprache mit angrenzenden Bewilligungsstellen und der
+Regierung fest, in welcher Höhe die Baukosten und Kaufpreise angemessen sind.
+Es dürfen nur Vorhaben gefördert werden, deren Baukosten und Kaufpreise unter Berücksichtigung
+des energetischen Standards nach den Gegebenheiten des örtlichen Wohnungsmarkts angemessen
+und wirtschaftlich sind.
+
+
+Auszahlung
+1Der Förderempfänger hat die Auszahlung bei der Bewilligungsstelle zu beantragen. 2Gemäß dem
+
+Bewilligungsbescheid kann nach der Erfüllung der im Bewilligungsschreiben der Bayerischen
+Landesbodenkreditanstalt genannten Bedingungen die Auszahlung der jeweiligen Ratenzahlungen
+bei der Bewilligungsstelle beantragt werden.
+
+Bei Darlehen für den Bau und Ersterwerb von Wohnungen erfolgt die Auszahlung in folgenden vier
+Teilraten:
+
+– 30 v. H. nach der Fertigstellung der Kellerdecke oder bei nichtunterkellerten Gebäuden nach der
+  Fertigstellung der Bodenplatte oder bei einer Änderung und Erweiterung von Gebäuden nach der
+  Einrichtung der Baustelle und dem Beginn der Arbeiten,
+
+– 35 v. H. nach der Fertigstellung des Rohbaus einschließlich der Dacheindeckung oder bei einer
+  Änderung und Erweiterung von Gebäuden nach der Fertigstellung der sanitären Installation und
+  des Innenputzes,
+
+– 25 v. H. nach Erreichen der Bezugsfertigkeit und
+
+– 10 v. H. nach restloser Fertigstellung und bestimmungsgemäßer Wohnungsbelegung.
+
+Bei Darlehen für den Zweiterwerb können die folgenden zwei Ratenzahlungen geleistet werden:
+
+– 90 v. H. nach Abschluss des notariellen Kaufvertrags und
+
+– 10 v. H. nach bestimmungsgemäßen Bezug und Vorlage des Verwendungsnachweises (Nr. 50).
+
+Der Zuschuss nach Nr. 45.1 und Nr. 45.4 kann zusammen mit der ersten Rate des Darlehens in
+einer Summe ausgezahlt werden.
+1Im begründeten Einzelfall kann die Bewilligungsstelle im Einvernehmen mit der Bayerischen
+
+Landesbodenkreditanstalt von den Regelungen der Nrn. 49.1 bis 49.4 abweichen. 2Dies gilt
+insbesondere, wenn mehr als 10 v. H. der Gesamtkosten auf Modernisierungs- und
+Instandsetzungsmaßnahmen entfallen.
+
+
+Verwendungsnachweis
+1Bei Vorhaben, die der Zuwendungsempfänger selbst als Bauherr durchführt, ist der
+
+Bewilligungsstelle spätestens innerhalb von sechs Monaten nach der Bezugsfertigkeit der
+Baumaßnahme der Nachweis über die Einnahmen und Ausgaben (Formblatt Stabau IV) vorzulegen.
+2Als Verwendungsnachweis dient eine Bestätigung der Bewilligungsstelle darüber, dass das
+
+geförderte Bauvorhaben technisch und wirtschaftlich entsprechend den Vorgaben des
+Bewilligungsbescheids und des Darlehensvertrags erstellt wurde und bestimmungsgemäß belegt ist.
+1Als Verwendungsnachweis beim Erst- und Zweiterwerb dient eine Bestätigung der
+
+Bewilligungsstelle, dass der Kaufpreis bezahlt wurde, die geförderte Wohnung bestimmungsgemäß
+belegt ist und – beim Zweiterwerb – etwaige Modernisierungs- und Instandsetzungsmaßnahmen
+ausgeführt wurden. 2Dazu hat der Zuwendungsempfänger der Bewilligungsstelle spätestens
+innerhalb von sechs Monaten nach Bezug der geförderten Wohnung die Begleichung des
+Kaufpreises und aller angefallenen Nebenkosten (zum Beispiel Notar- und Grundbuchgebühren)
+anhand von Originalbelegen nachzuweisen. 3Für ausgeführte Modernisierungs- und
+Instandsetzungsmaßnahmen sind Originalrechnungen von Fachbetrieben mit Zahlungsbelegen
+vorzulegen.
+
+Die Belege und Verträge sowie alle sonst mit der Förderung zusammenhängenden Unterlagen sind
+für die Dauer von zehn Jahren nach Abschluss der baulichen Maßnahme aufzubewahren.
+
+
+Belegungsbindung
+1Der Förderempfänger ist verpflichtet, den Eigenwohnraum für die Dauer von 15 Jahren selbst zu
+
+nutzen. 2Die Belegungsbindung für Mietwohnraum im Zweifamilienhaus besteht für die Dauer von 15
+Jahren. 3Die Bindungsdauer beginnt beim Neubau mit der Bezugsfertigkeit, beim Zweiterwerb mit
+der zeitnah zur Bewilligung der Fördermittel vorzunehmenden Wohnungsbelegung; erwirbt der
+Förderempfänger die von ihm bewohnte Wohnung, beginnt die Bindungsdauer mit dem Zeitpunkt
+des Abschlusses des Kaufvertrages.
+1Gibt der Förderempfänger die Selbstnutzung vor Ablauf der Belegungsbindung auf, entscheidet die
+
+Bewilligungsstelle über eine Anhebung des Zinssatzes für das staatliche Darlehen bis auf
+Kapitalmarktniveau zum Zeitpunkt der Beendigung der Selbstnutzung; ein Zinssatz von 7 v. H. darf
+dabei nicht überschritten werden. 2Wird der Wohnraum für die restliche Laufzeit der
+Belegungsbindung von einem Mieter, der im Rahmen der Mietwohnraumförderung wohnberechtigt
+ist (Art. 14 BayWoFG), bezogen, kann die Bewilligungsstelle auf eine Anhebung des Zinssatzes
+verzichten. 3Unterbricht der Förderempfänger die Selbstnutzung vorübergehend (zum Beispiel
+infolge eines befristeten Auslandsaufenthalts), entscheidet die Bewilligungsstelle über eine
+Anhebung des Zinssatzes für die Dauer der Unterbrechung der Selbstnutzung. 4Die Bindungsdauer
+wird um die Dauer der Unterbrechung verlängert. 5Nimmt der Förderempfänger im Anschluss an die
+Unterbrechung die Selbstnutzung wieder auf, wird der Zinssatz des Darlehens bis zum Auslauf der
+verlängerten Bindungsdauer wieder auf 0,5 v. H. jährlich gesenkt.
+
+Bei einer Vermietung des zur Selbstnutzung bestimmten Objekts bestehen Belegungs- und
+Mietpreisbindungen nach Maßgabe der Förderentscheidung.
+
+Ein Leerstehenlassen für mehr als drei Monate oder eine Verwendung des Eigenwohnraums zu
+anderen als Wohnzwecken gemäß Art. 16 Abs. 6 in Verbindung mit Abs. 1 Satz 2 Nrn. 2 und
+3 BayWoFG bedarf der Genehmigung der zuständigen Stelle (§ 1 Abs. 3 DVWoR).
+1Wird das Darlehen ohne rechtliche Verpflichtung vorzeitig vollständig zurückgezahlt, enden die
+
+Bindungen nach Nr. 51.1 zum Zeitpunkt der Rückzahlung; bei einer Vermietung enden die
+Bindungen zum Zeitpunkt der Beendigung des bestehenden Mietverhältnisses, spätestens aber mit
+Ablauf der planmäßigen Bindungsdauer. 2Gleiches gilt, wenn die Fördermittel wegen Verstoßes
+gegen Bestimmungen des Bewilligungsbescheides zurückgefordert werden. 3Wird die Nutzung des
+für eigene Wohnzwecke geförderten Wohnraums vor Ablauf der Belegungsbindung aufgegeben, ist
+für jedes volle Kalenderjahr der nicht zweckentsprechenden Belegung der ergänzende Zuschuss
+gemäß Nr. 45.5 anteilig zurückzufordern. 4Wird die zweckentsprechende Nutzung bereits nach
+weniger als fünf Jahren nach Bezugsfertigkeit des geförderten Wohnraums aufgegeben, ist der
+Zuschuss für Kinder anteilig für jedes volle Kalenderjahr der nicht zweckentsprechenden Belegung
+zurückzufordern.
+
+
+Übertragung von Fördermitteln
+1Die Fördermittel können auf Antrag des Förderempfängers auf ein anderes Objekt übertragen
+
+werden. 2Die Übertragung ist bei der für das ursprünglich geförderte Bestandsobjekt zuständigen
+Bewilligungsstelle unter Verwendung des Formblatts Stabau I a zu beantragen. 3Dem Antrag sind
+die Finanzierungsnachweise für das neue Objekt sowie aktuelle Einkommensnachweise, aufgrund
+derer die Tragbarkeit der Belastung geprüft werden kann, beizufügen. 4Die Bayerische
+Landesbodenkreditanstalt kann weitere Unterlagen vom Förderempfänger anfordern.
+
+Eine Übertragung früher gewährter Fördermittel vom bisherigen auf ein anderes Objekt ist unter
+folgenden Voraussetzungen möglich:
+
+– Die Übertragung muss aus sozialen und wirtschaftlichen Gründen erforderlich sein.
+
+– Das derzeitige Gesamteinkommen der Familie darf die für die ursprüngliche Förderung
+  festgelegte Einkommensgrenze nicht oder nur bis zur früher zulässigen Höhe überschreiten.
+
+– Der Verkaufserlös des bisherigen Objekts ist zur Finanzierung des neuen Objekts einzusetzen.
+1Sollen die Fördermittel auf ein Objekt im Zuständigkeitsbereich einer anderen Bewilligungsstelle
+
+übertragen werden, ist die bislang zuständige Bewilligungsstelle von der nach Nr. 62.1 zuständigen
+Bewilligungsstelle von der Übertragung zu unterrichten. 2Der Bescheid über die Zustimmung zur
+Übertragung ist dem Förderempfänger über die Bayerische Landesbodenkreditanstalt bekannt zu
+geben.
+
+
+Eigentümerwechsel
+
+Bei der Veräußerung eines geförderten Objekts kann der Erwerber die Restschuld des Darlehens in
+Anrechnung auf den Kaufpreis übernehmen, wenn die förderrechtlichen Voraussetzungen vorliegen
+und die Bewilligungsstelle aufgrund des Eigentümerwechsels die Förderbeziehungen durch
+Bescheid entsprechend anpasst.
+1Dabei hat der Erwerber die Übernahme der Restschuld mit dem Formblatt Stabau I a mit
+
+Einkommensnachweisen und Finanzierungsunterlagen zu beantragen. 2Die Bewilligungsstelle prüft
+– wie im üblichen Bewilligungsverfahren –, ob die Voraussetzungen für die Übernahme der
+Restschuld vorliegen. 3Bei einem positiven Prüfungsergebnis erteilt sie einen entsprechenden
+Bescheid und leitet ihn an die Bayerische Landesbodenkreditanstalt weiter.
+
+
+
+                                       Teil 4
+           Förderung der Anpassung von bestehendem Miet- und Eigenwohnraum
+                      an die Belange von Menschen mit Behinderung
+
+
+Ziel der Förderung und Art der baulichen Maßnahmen
+1Gefördert werden bauliche Maßnahmen, insbesondere Änderungen, die Menschen mit
+
+Behinderung (§ 2 Abs. 1 SGB IX) die Nutzung ihres Wohnraums im Hinblick auf ihre Behinderung
+erleichtern. 2Dabei kommen insbesondere in Betracht der
+
+– Umbau einer Wohnung (behindertengerechter Wohnungszuschnitt),
+
+– Einbau behindertengerechter sanitärer Anlagen,
+
+– Einbau solcher baulichen Anlagen, die die Folgen einer Behinderung mildern (zum Beispiel ein
+  Aufzug oder eine Rampe für Rollstuhlfahrer),
+
+– Abbau von Schwellen beziehungsweise die Schaffung eines barrierefreien Gebäude- oder
+  Wohnungszugangs.
+Förderfähige Kosten
+1Auszugehen ist zunächst von den Gesamtkosten der Maßnahme. 2Förderfähig ist der gegenüber
+
+einer konventionellen Ausführung anfallende Mehraufwand an Kosten von baulichen Änderungen,
+der dadurch entsteht, dass bestehender oder umzubauender Wohnraum an die Belange von
+Menschen mit Behinderung angepasst wird; dabei können auch die Kosten für die dadurch
+bedingten Instandsetzungsmaßnahmen mitgefördert werden.
+
+
+Förderempfänger und begünstigte Person
+
+Förderempfänger ist der Eigentümer, der Erbbauberechtigte oder der Nießbraucher der Wohnung,
+zu deren Nutzung die entsprechende bauliche Maßnahme erforderlich ist.
+
+Begünstigte Person ist der behinderte Mensch, für den die bauliche Maßnahme durchgeführt werden
+soll.
+
+Der Haushalt der begünstigten Person hat, sofern nicht eine niedrigere Einkommensgrenze
+bestimmt wurde, die in Art. 11 Abs. 1 BayWoFG genannten Einkommenshöchstgrenzen einzuhalten.
+1Die Förderung erfolgt nach der sozialen Dringlichkeit. 2Der Antrag kann abgelehnt werden, wenn die
+
+Förderung auch bei Einhaltung der maßgeblichen Einkommensgrenze offensichtlich nicht
+gerechtfertigt wäre.
+
+
+Förderung
+1Die Förderung besteht aus einem leistungsfreien Darlehen in Höhe von höchstens 10 000 € je
+
+Wohnung, das im Wege der Fehlbedarfsfinanzierung ausgereicht wird. 2Maßnahmen mit
+Gesamtkosten von weniger als 1 000 € (Bagatellgrenze) werden nicht gefördert.
+
+Der Höchstbetrag gilt auch in Fällen, in denen sich mehrere Menschen mit Behinderung in einem
+Haushalt befinden.
+1Der Höchstbetrag ist wohnungsbezogen. 2Innerhalb einer Wohnung können in zeitlichen Abständen
+
+verschiedene Maßnahmen bis zum Höchstbetrag gefördert werden. 3Ist der Höchstbetrag erreicht,
+ist eine weitere Förderung ausgeschlossen.
+
+Für das leistungsfreie Darlehen wird ein einmaliger Verwaltungskostenbeitrag von 1 v. H. erhoben,
+der bei Auszahlung einbehalten wird.
+
+
+Belegungsbindung
+
+Während der Dauer von fünf Jahren nach Beendigung der baulichen Maßnahmen darf die Wohnung
+nur von Haushalten mit wenigstens einer begünstigten Person (Nr. 56.2) belegt werden.
+1Wenn die Nutzung der geförderten Wohnung vor Ablauf der Belegungsbindung aufgegeben wird, ist
+
+für jedes volle Kalenderjahr der nicht bestimmungsgemäßen Belegung ein Fünftel des Förderbetrags
+zurückzuzahlen. 2Die Bewilligungsstelle kann auf eine Rückforderung verzichten, wenn sie nach den
+Umständen des Einzelfalles unbillig wäre. 3Bei Eigenwohnraum gilt dies insbesondere dann, wenn
+die begünstigte Person verstirbt oder die Wohnung aus gesundheitlichen Gründen nicht mehr nutzen
+kann.
+Kumulierung mit anderen Finanzierungshilfen
+
+Soweit anderweitige vertragliche oder gesetzliche Ansprüche auf Finanzierungsmittel für dieselben
+baulichen Maßnahmen bestehen, sind diese Finanzierungsmittel vorrangig einzusetzen.
+
+
+Auszahlung
+
+Soweit vertretbar erfolgt die Auszahlung nach Vorlage des Verwendungsnachweises.
+
+
+Nachweis der Verwendung
+1Als Verwendungsnachweis dient eine Schlussbestätigung der Bewilligungsstelle darüber, dass die
+
+bauliche Maßnahme wirtschaftlich und technisch dem Bewilligungsbescheid entsprechend erstellt
+wurde und der Wohnraum bestimmungsgemäß belegt ist. 2Dazu hat der Fördernehmer der
+Bewilligungsstelle spätestens innerhalb von sechs Monaten nach Abschluss der baulichen
+Maßnahme die Originalbelege (Einnahme- und Ausgabebelege) vorzulegen. 3Die Belege müssen
+die im Geschäftsverkehr üblichen Angaben und Anlagen enthalten, die Ausgabebelege
+insbesondere den Zahlungsempfänger, Grund und Tag der Zahlung und den Zahlungsbeweis. 4Die
+Belege und Verträge sowie alle sonst mit der Förderung zusammenhängenden Unterlagen sind für
+die Dauer von zehn Jahren nach Abschluss der baulichen Maßnahme aufzubewahren.
+
+
+
+                                          Teil 5
+                                         Förderverfahren
+
+
+Antrags- und Bewilligungsverfahren
+
+Zur Beantragung der Fördermittel nach Teil 2 bis Teil 4 ist der jeweils dafür bestimmte amtliche
+Vordruck zu verwenden und bei der zuständigen Bewilligungsstelle (§ 1 Abs. 1 Nr. 1 Buchst. c und
+Nr. 2 DVWoR) einzureichen.
+1Die Bewilligungsstelle prüft die Förderungsvoraussetzungen und entscheidet über den Antrag.
+
+2Dabei ist für Fördermittel nach Teil 2 und Teil 3 die Bayerische Landesbodenkreditanstalt
+
+einzubeziehen, wenn eine frühzeitige Beurteilung aus bankmäßiger Sicht geboten erscheint. 3Liegen
+für Fördermaßnahmen nach Teil 2 und Teil 3 die Förderungsvoraussetzungen vor, so erteilt sie im
+Rahmen der verfügbaren Mittel den Bewilligungsbescheid und leitet ihn an die Bayerische
+Landesbodenkreditanstalt zu dessen umgehender Versendung zu.
+
+Die Bewilligungsstelle entscheidet über einen Widerruf und eine Rückforderung der Zuschüsse
+(Nrn. 13.3, 22, 34, 45 und 57.1).
+
+
+Aufgaben der Bayerischen Landesbodenkreditanstalt
+
+Für die Ausreichung von Fördermitteln und die Verwaltung der Darlehen ist die Bayerische
+Landesbodenkreditanstalt zuständig.
+
+Der Bayerischen Landesbodenkreditanstalt obliegen insbesondere die folgenden Aufgaben:
+
+– Bankmäßige Nachprüfung der Bonität des Bauherrn oder Erwerbers und der Wirtschaftlichkeits-
+  oder Lastenberechnung,
+
+– Abschluss des Darlehensvertrags,
+
+– Sicherung des Darlehens,
+– Ausreichung und Verwaltung der Darlehen und Zuschüsse.
+
+Ergeben sich bei der Nachprüfung Bedenken gegen die Wirtschaftlichkeits- oder Lastenberechnung,
+Finanzierung oder Darlehenssicherung oder allgemein gegen die Förderungsfähigkeit des
+Vorhabens oder die Bonität des Bauherrn (Erwerbers), hat die Bayerische Landesbodenkreditanstalt
+eine Klärung mit der Bewilligungsstelle herbeizuführen.
+1Richten sich die Bedenken gegen die Darlehenssicherung, gilt das jedoch nur dann, wenn das
+
+Darlehen über das bei nachstelliger staatlicher Finanzierung zwangsläufig hinzunehmende Ausmaß
+hinaus gefährdet würde. 2Kommt eine einvernehmliche Beurteilung der Wirtschaftlichkeits- oder
+Lastenberechnung, Finanzierung oder Darlehenssicherung nicht zustande, ist eine endgültige
+Entscheidung durch das Staatsministerium für Wohnen, Bau und Verkehr herbeizuführen.
+1Die Bayerische Landesbodenkreditanstalt ist ermächtigt, die Darlehen jederzeit aus wichtigem
+
+Grund zur sofortigen Rückzahlung zu kündigen. 2Näheres regelt der Darlehensvertrag. 3Wichtige
+Gründe können insbesondere gegeben sein, wenn
+
+– der Bewilligungsbescheid bestandskräftig aufgehoben worden oder eine wirksam gewordene
+  Kündigung eines die Bewilligung regelnden öffentlich-rechtlichen Vertrags erfolgt ist,
+
+– bei Mietwohnraum in Mehrfamilienhäusern der Darlehensnehmer gegen die Bestimmungen über
+  die Belegungs- und Mietpreisbindung verstößt,
+
+– bei Eigenwohnraum die Selbstnutzung während der Dauer der Belegungsbindung infolge
+  Veräußerung der Wohnung aufgegeben wird.
+
+
+Sicherung der Zweckbestimmung
+1Das Darlehen ist im Grundbuch an rangbereitester Stelle und unmittelbar nach den für die
+
+Finanzierung des Vorhabens aufgenommenen Kapitalmarkt- und Bauspardarlehen dinglich zu
+sichern. 2Sofern es sich bei den im Rang vorgehenden oder gleichstehenden Grundpfandrechten um
+Grundschulden handelt, muss sichergestellt werden, dass ein Aufrücken des Grundpfandrechts für
+das Darlehen entsprechend der Tilgung der im Rang vorgehenden oder gleichstehenden Darlehen
+erfolgt. 3Dem Darlehen dürfen im Rang keine Grundpfandrechte zur Sicherung einer
+Kaufpreisforderung oder werthaltige Lasten in Abteilung II des Grundbuchs vorgehen. 4Zuschüsse
+werden nicht dinglich gesichert.
+
+Abweichend von Nr. 64.1 Satz 3 dürfen für Maßnahmen nach dem zweiten Teil die Rechte von
+Kommunen zur Sicherung der Wohnungsbindung- und -belegung sowie zur Sicherung der
+Rückübertragung sowie Rechte im Zusammenhang mit einem Erbbaurecht (Erbbauzins,
+Erhöhungsvormerkung und Vorkaufsrecht) im Rang vor den Fördermitteln eingetragen werden,
+wenn
+
+– die Kommune neben der staatlichen Wohnraumförderung eine kommunale Förderung in der
+  Form eines verbilligten Baugrundstücks (Kaufpreis höchstens 50 v. H. des Marktwerts des
+  Baugrundstücks) oder in der Form eines verbilligten Erbbaurechts (jährlicher Erbbauzins
+  höchstens 50 v. H. des Liegenschaftszinssatzes) gewährt,
+
+– die Baumaßnahme in einem Gebiet mit erhöhtem Wohnungsbedarf gemäß der Anlage zu § 3
+  Abs. 1 der Verordnung zur Durchführung des Wohnungsrechts und des Besonderen
+  Städtebaurechts (Durchführungsverordnung Wohnungsrecht – DVWoR) in der jeweils gültigen
+  Fassung liegt,
+       – auf dem kommunalen Wohnungsmarkt in keiner Wohnimmobilienkategorie für die vergangenen
+         drei Jahre eine negative Schwankung der Immobilienpreise (Marktwerte) von über 10 v. H.
+         festgestellt wird und
+
+       – die staatlich geförderte Wohnfläche mindestens 25 v. H. der Wohnfläche der Gesamtmaßnahme
+         umfasst.
+
+       Abweichend von Nr. 64.1 Satz 3 dürfen in Fällen von Grundstücken in Privateigentum, die im
+       Rahmen der Sozialgerechten Bodennutzung (SoBoN) beziehungsweise vergleichbarer
+       städtebaulicher Verträge für den geförderten Wohnungsbau vorgesehen sind, die Rechte von
+       Kommunen zur Sicherung der Wohnungsbindung und -belegung im Rang vor den Fördermitteln
+       eingetragen werden, wenn die Voraussetzungen gemäß Nr. 64.2 Spiegelstrich 2 bis 4 erfüllt sind
+       und die geförderte Wohnfläche (staatliche und kommunale Förderung) mindestens 25 v. H. der
+       Gesamtmaßnahme umfasst.
+
+
+       Evaluation
+
+       Nach Außerkrafttreten dieser Richtlinien wird eine Erfolgskontrolle in Form einer Nutzwertanalyse
+       hinsichtlich der Wirkung in Abhängigkeit der eingesetzten Haushaltsmittel, Anzahl der
+       eingegangenen Belegungsbindungen, Wirtschaftlichkeit und Sozialverträglichkeit durchgeführt.
+
+
+
+                                                  Teil 6
+                                             Schlussbestimmungen
+
+
+       Abweichungen
+       1Die Bewilligungsstellen nach § 1 Abs. 1 Nr. 1 Buchst. c DVWoR können im Rahmen ihrer
+
+       Zuständigkeit in Einzelfällen Abweichungen von den Nrn. 12.2, 12.3, 12.4 Satz 1 und 12.6 Satz 1
+       zulassen. 2Andere Abweichungen von diesen Richtlinien bedürfen der Zustimmung des
+       Staatsministeriums für Wohnen, Bau und Verkehr.
+
+
+       Inkrafttreten, Außerkrafttreten und Überleitungsregelungen
+
+       Diese Bekanntmachung tritt am 1. April 2022 in Kraft.
+
+       Diese Bekanntmachung tritt mit Ablauf des 31. Dezember 2024 außer Kraft.
+
+       In Bewilligungsverfahren, in denen vor dem Inkrafttreten dieser Bekanntmachung die Bewilligung
+       entscheidungsreif vorbereitet oder in denen für die Vorhaben Zustimmungen zum vorzeitigen
+       Baubeginn oder Kaufvertragsabschluss erteilt wurden, kann die Bewilligung von Fördermitteln noch
+       nach den Wohnraumförderungsbestimmungen 2012 bis spätestens 31. Dezember 2022 erfolgen.
+
+
+
+Dr. Thomas G r u b e r
+Ministerialdirektor
+
