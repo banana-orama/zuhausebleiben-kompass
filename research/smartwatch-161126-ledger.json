@@ -1,0 +1,125 @@
+{
+ "task": "hausnotruf-smartwatch-als-ersatz",
+ "checked_at": "2026-11-16",
+ "topic_gate": {
+  "serp": "Suchintent 'Smartwatch/Handy als Hausnotruf-Ersatz': 5 dedizierte Seiten, fast alle Anbieter-/Leadgen-Magazine mit Interessenkonflikt (pflege-helfer24 16.10.2026, notfallknopf.de Ratgeber, helfi-ruf 13.05.2026, pflege.net 07.06.2026 [403/WAF bei Abrufversuch, nur Snippet-Beleg], pflegekompass 13.07.2026) plus 1 Technik-Blog (smartwatch-fitnesstracker 30.09.2026) und 3 Shopping-Ads davor.",
+  "bestand": "0 dedizierte Abschnitte im Bestand (grep: 'Smartwatch' 4x nur als Grenze im Mobil-Artikel, 'Handy' 6x Kontext); intent-distinct gegen mobil-gps (unterwegs/Geraetewahl) und sturzerkennung-oder-knopf (Sensor-vs-Knopf am klassischen System).",
+  "verbesserung": "Institutionelle Befundlage (VZ-Smartwatch-Hinweis, gesund.bund Notruf-App-Satz, ADAC Bedienungs-Anforderung mit 0x Smartwatch, VdK-/Alzheimer-Demenz-Grenze) gegen die Anbieter-Magazin-Framings gestellt; Stale-Echos dokumentiert (VdK 20-25/30-50 Euro + 25,50 Euro gegen VZ-aktuell 27-40/30-80 + 27 Euro)."
+ },
+ "sources": [
+  {
+   "n": 1,
+   "key": "vz_hausnotruf",
+   "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/hausnotrufsysteme-erklaert-so-helfen-sie-im-notfall-funktionen-vorteile-kosten-10566",
+   "title": "Verbraucherzentrale: Hausnotrufsysteme erklärt (Funktionen, Vorteile, Kosten)",
+   "evidence": "research/evidence/smartwatch-161126/vz-10566.txt",
+   "quotes": [
+    "Außer dem altbekannten Hausnotruf gibt es mittlerweile auch weitere Möglichkeiten, die Sicherheit bieten. Hierzu gehört zum Beispiel eine Smartwatch mit GPS und Sturzprophylaxe, die unter bestimmten Voraussetzungen von der Pflegekasse finanziert werden.",
+    "Weniger geeignet ist das System für Menschen mit Demenz, da sie den Notruf häufig nicht gezielt auslösen können.",
+    "Der Basistarif liegt je nach Anbieter und Leistung meist zwischen 27 und 40 Euro monatlich. Zusatzleistungen wie Schlüsselhinterlegung oder mobile Notrufsysteme können die Kosten um weitere 30 bis 80 Euro erhöhen. Vergleichen Sie daher mehrere Anbieter und buchen Sie nur, was Sie wirklich brauchen.",
+    "Mit Pflegegrad übernimmt die Pflegekasse bis zu 27 Euro monatlich. Dazu müssen noch weitere Voraussetzungen erfüllt sein.",
+    "Auch ein Akku kann Stromausfälle für circa 10 bis 20 Stunden überbrücken.",
+    "Sie benötigen einen Telefon- oder Internetanschluss sowie eine Steckdose für die Basisstation.",
+    "Zusatzleistungen kosten extra. Sie können rund 30 bis 50 Euro (oder auch mehr) zusätzlich im Monat ausmachen."
+   ]
+  },
+  {
+   "n": 2,
+   "key": "gesund_bund",
+   "url": "https://gesund.bund.de/hausnotruf",
+   "title": "gesund.bund.de (BMG): Hausnotruf",
+   "evidence": "research/evidence/smartwatch-161126/gesund-bund.txt",
+   "quotes": [
+    "Ein Hausnotruf eignet sich vor allem für ältere, kranke oder anderweitig gesundheitlich beeinträchtigte Menschen, die eingeschränkt mobil oder sturzgefährdet sind und den Großteil des Tages allein leben. Für diese Personen ist das Telefon in einer Notsituation nicht immer rechtzeitig erreichbar.",
+    "Darüber hinaus gibt es die Möglichkeit, über das eigene Smartphone oder die Smartwatch eine Notruf-App zu nutzen.",
+    "Zusätzliche Sensoren können ruckartige Bewegungen wie bei einem Sturz wahrnehmen. Kommt es anschließend zu keinen weiteren Bewegungen, wird der Notruf automatisch ausgelöst.",
+    "Dann kann zum Beispiel ein mobiles Notruf-System mit Ortungsfunktion und automatischer Sturzerkennung sinnvoll sein.",
+    "Um einen eventuellen Stromausfall zu überbrücken, ist das Gerät in der Regel mit einem Akku ausgestattet."
+   ]
+  },
+  {
+   "n": 3,
+   "key": "adac",
+   "url": "https://www.adac.de/gesundheit/gesund-unterwegs/vorsorge/senioren-notruf/",
+   "title": "ADAC (13.10.2026): Was Notrufsysteme kosten und leisten sollten",
+   "evidence": "research/evidence/smartwatch-161126/adac.txt",
+   "quotes": [
+    "Geräte für den Hausnotruf müssen möglichst unkompliziert sein, also einfacher in der Bedienung als ein Telefon oder Handy.",
+    "Die Kosten werden über eine monatliche Pauschale in Höhe von 27 Euro (seit 1. April 2026) von der Pflegekasse bezuschusst. Voraussetzung ist mindestens Pflegegrad 1.",
+    "Nach einem Krankenhausaufenthalt oder in der Zeit, bis ein geeigneter Pflegeplatz gefunden ist, kann ein Hausnotruf auch nur vorübergehend eingerichtet werden.",
+    "Zusatzleistungen müssen häufig aus eigener Tasche bezahlt werden.",
+    "Die Geräte sollten bei leerem Akku, Störungen oder fehlendem Empfang klare Fehlersignale senden."
+   ]
+  },
+  {
+   "n": 4,
+   "key": "vdk_hamburg",
+   "url": "https://hamburg.vdk.de/unsere-themen/news/hilfe-rufen-im-ernstfall",
+   "title": "VdK Hamburg: Hilfe rufen im Ernstfall",
+   "evidence": "research/evidence/smartwatch-161126/vdk-hamburg.txt",
+   "quotes": [
+    "Wichtig: Ungeeignet sind solche Hausnotrufgeräte für Menschen mit Demenz. Denn bei ihnen könnte es passieren, dass sie nicht in der Lage sind zu entscheiden, wann sie Hilfe benötigen, oder dass sie den Notruf unkontrolliert betätigen.",
+    "Nach aktuellen Zahlen der Verbraucherzentrale liegen die monatlichen Kosten im Basistarif bei um die 20 bis 25 Euro und zwischen 30 und 50 Euro, wenn zusätzliche Leistungen hinzukommen.",
+    "Die Pflegekasse übernimmt unter bestimmen Voraussetzungen Kosten in Höhe von 25,50 Euro monatlich.",
+    "Hausnotrufgeräte sind für Menschen geeignet, die ihre Selbstständigkeit erhalten wollen, auch wenn sie durch eine Behinderung, eine chronische Erkrankung oder altersbedingte Beeinträchtigungen gefährdet sind und in Notlagesituationen das Telefon nicht rechtzeitig erreichen können."
+   ]
+  },
+  {
+   "n": 5,
+   "key": "alzheimer",
+   "url": "https://www.deutsche-alzheimer.de/mit-demenz-leben/technische-hilfen",
+   "title": "Deutsche Alzheimer Gesellschaft: Technische Hilfen",
+   "evidence": "research/evidence/smartwatch-161126/alzheimer-technisch.txt",
+   "quotes": [
+    "Der Notruf geht je nach Voreinstellung bei einer Notrufzentrale oder bei Angehörigen bzw. dem Pflegedienst ein.",
+    "Wer keine Service-Zentrale benötigt, kann das Hausnotrufgerät auch kaufen und auf die entsprechenden Nummern von Angehörigen programmieren.",
+    "Bei einigen Hausnotrufsystemen wird der Anschluss eines Sturz- oder Falldetektors angeboten, der bei Stürzen selbstständig Alarm auslöst.",
+    "Manche Produkte können die Freiheit einschränken.",
+    "Wenn mit der Überprüfung die Bewegungsfreiheit begrenzt wird, ist das schlecht. Darüber muss gut aufgeklärt werden.",
+    "Dieser kann in ein Handy integriert sein, als Armband, ähnlich wie eine Uhr, oder am Gürtel getragen werden."
+   ]
+  },
+  {
+   "n": 6,
+   "key": "pflege_de",
+   "url": "https://www.pflege.de/hilfsmittel/seniorennotruf/sturzmelder-sturzerkennung/",
+   "title": "pflege.de (Portalangabe): Notruf mit Sturzerkennung",
+   "evidence": "research/evidence/smartwatch-161126/pflege-de-sturz.txt",
+   "quotes": [
+    "Sturzsensoren, entweder in einem Armband, einer Smartwatch oder als Extragerät, das etwa am Gürtel getragen werden kann, bemerken ruckartige Bewegungen.",
+    "Smartwatch oder Smartphone mit Sturzerkennung: Oft mit Zusatzfunktionen wie Herzfrequenzmessung, GPS und Notrufknopf. Geeignet für technisch versierte Nutzer.",
+    "Nicht immer ist dieser Zusatzservice im Monatsbeitrag des Notrufsystems enthalten. Bei einigen Anbietern müssen Sie dafür extra zahlen.",
+    "Insbesondere bei den Smartwatches gibt es preisgünstige Modelle ab bereits 50 Euro ebenso wie sehr teurere High-End-Geräte für bis zu mehreren hundert Euro.",
+    "Akku muss regelmäßig geladen werden",
+    "Fehlalarme können ausgelöst werden",
+    "Von der Apple Watch mit Sturzerkennung über Samsung Galaxy Watches bis hin zu speziellen Senioren-Smartwatches ist alles dabei.",
+    "Sturzerkennung gehört auch bei vielen Smartwatches zur Standardausstattung.",
+    "Hinzu kommen gegebenenfalls Mobilfunkkosten, wenn Sie ein Gerät wählen, dass eine eigene SIM-Karte benötigt."
+   ]
+  }
+ ],
+ "absenz_checks": [
+  {
+   "files": ["research/evidence/smartwatch-161126/adac.txt",
+             "research/evidence/smartwatch-161126/alzheimer-technisch.txt",
+             "research/evidence/smartwatch-161126/vdk-hamburg.txt"],
+   "needles": ["smartwatch"],
+   "expected": 0
+  },
+  {
+   "files": ["research/evidence/smartwatch-161126/vz-10566.txt"],
+   "needles": ["30 bis 50", "30 bis 80"],
+   "expected": 1
+  },
+  {
+   "files": ["research/evidence/smartwatch-161126/vz-10566.txt",
+             "research/evidence/smartwatch-161126/gesund-bund.txt",
+             "research/evidence/smartwatch-161126/adac.txt",
+             "research/evidence/smartwatch-161126/vdk-hamburg.txt",
+             "research/evidence/smartwatch-161126/alzheimer-technisch.txt",
+             "research/evidence/smartwatch-161126/pflege-de-sturz.txt"],
+   "needles": ["4.180", "4 180", "16.720"],
+   "expected": 0
+  }
+ ]
+}

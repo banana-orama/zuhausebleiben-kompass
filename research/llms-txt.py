@@ -64,6 +64,7 @@ SUMMARIES = {
     "hausnotruf-kuendigen": "Hausnotruf kündigen nach BGB-Wortlaut: Widerruf (14 Tage), gesetzliche Grenzen für Laufzeit und Frist (§ 309 Nr. 9), Kündigungsbutton beim Online-Abschluss (§ 312k), Todesfall (§ 1922), Pflegekassen-Vertragspartner-Falle beim Wechsel und Geräte-Rückgabe.",
     "hausnotruf-angehoerige-einrichten": "Hausnotruf für Angehörige einrichten: Bedarf ohne Diagnose erkennen, das Gespräch ohne Druck führen, klären wer unterschreibt (Vollmacht-Typen), die Pflegekassen-Route mit echten Voraussetzungen einschätzen und die Einrichtung samt Testalarm und Notfallplan begleiten.",
     "hausnotruf-alarm-ablauf": "Was nach dem Hausnotruf-Knopfdruck passiert: Alarmkette vom Sprechkontakt bis zur organisierten Hilfe, stiller Alarm, wer kommt — und wer nicht, Fehlalarm-Zahlen frisch vom DRK-Zentrum, Maßnahmenplan und das BGH-Urteil III ZR 92/16 als Qualitätsfrage beim Anbieter.",
+    "hausnotruf-smartwatch-als-ersatz": "Smartwatch oder Handy statt Hausnotruf? Die drei Wege im belegten Vergleich: wer nimmt im Notfall ab, Sturzerkennung und ihre Kosten, Basistarif 27 bis 40 Euro gegen einmaligen Kauf ab 50 Euro, Pflegekassen-Stand seit 1. April 2026, Demenz-Grenze und die acht Fragen für das Familiengespräch.",
     "treppenlift-unserioese-anbieter": "Unseriöse Treppenlift-Anbieter erkennen: die dokumentierten Verkaufs-Tricks (Zeitdruck, unterschobener Widerrufs-Verzicht, Anzahlung ohne Voranschlag, Kaltakquise, intransparente Portale), die VZ-Betroffenen-Umfrage, die Verbandsklage gegen 18 Vertragsklauseln (I-13 UKl 17/26) und Ihre Rechte aus §§ 4a/5a/7 UWG und § 312g BGB.",
     "treppenlift-foerderung-ohne-pflegegrad": "Treppenlift-Förderung ohne Pflegegrad: die drei realen Wege mit gesetzlicher Grundlage — Eingliederungshilfe (Leistungen für Wohnraum, §§ 113/77 SGB IX), Unfallversicherung (§ 26 SGB VII), Sozialamt/Hilfe zur Pflege (§ 64e SGB XII) — plus Einkommens- und Vermögensregeln (§§ 135 ff.), Antragsweg und die Grenzen von Rentenversicherung und Krankenkasse.",
 }
@@ -87,6 +88,7 @@ SECTION_MAP = [
                                                 "hausnotruf-kosten-anbieter-vergleich", "hausnotruf-sturzerkennung-oder-knopf",
                                                 "hausnotruf-mobil-gps-unterwegs", "hausnotruf-schluesselhinterlegung", "hausnotruf-kuendigen",
                                                 "hausnotruf-angehoerige-einrichten", "hausnotruf-alarm-ablauf",
+                                                "hausnotruf-smartwatch-als-ersatz",
                                                 "wohnung-anpassen-nach-krankenhausentlassung"]),
     ("Wohnen im Alltag", ["tuerbreiten-schwellen-schnellcheck", "beleuchtung-orientierung-im-alter",
                           "verhinderungspflege-tagespflege-ueberblick"]),
