@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1180" viewBox="0 0 1000 1180" role="img" aria-labelledby="title desc">
+<title id="title">Badumbau-Kosten: vom Angebot zum Eigenanteil</title>
+<desc id="desc">Ablaufschema in fünf Schritten: Angebot mit Einzelpositionen, Pflegekassen-Zuschuss als Ermessensleistung bis 4.180 Euro je Massnahme, Steuerermässigung von 20 Prozent der Arbeitskosten bis 1.200 Euro mit Foerder-Ausnahme, KfW-Stand mit aktivem Kredit 159 und gestopptem Zuschuss 455-B, Eigenanteil als Differenz. Rechts stehen Kurzlegenden zu jedem Schritt.</desc>
+<rect width="1000" height="1180" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="start">BADUMBAU · KOSTEN</text>
+<text x="44" y="108" fill="#243b35" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="400" text-anchor="start">Vom Angebot zum Eigenanteil</text>
+<rect x="44" y="171" width="600" height="700" rx="4" fill="#fff" stroke="#d8dfd6" stroke-width="2"/>
+<text x="76" y="221" fill="#243b35" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="400" text-anchor="start">Fünf Schritte im Überblick</text>
+<rect x="84" y="250" width="520" height="92" rx="4" fill="#e8ede5" stroke="#d8dfd6" stroke-width="2"/>
+<circle cx="120" cy="296" r="20" fill="#245b47"/><text x="120" y="305" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">1</text>
+<text x="156" y="289" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Angebot mit Einzelpositionen</text>
+<text x="156" y="324" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">mit getrennten Arbeitskosten</text>
+<path d="M324 346 V372" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round"/><path d="M316 364 L324 374 L332 364" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="84" y="380" width="520" height="92" rx="4" fill="#e8ede5" stroke="#d8dfd6" stroke-width="2"/>
+<circle cx="120" cy="426" r="20" fill="#245b47"/><text x="120" y="435" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">2</text>
+<text x="156" y="419" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Pflegekasse — Ermessen</text>
+<text x="156" y="454" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">max. 4.180 € je Maßnahme</text>
+<path d="M324 476 V502" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round"/><path d="M316 494 L324 504 L332 494" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="84" y="510" width="520" height="92" rx="4" fill="#e8ede5" stroke="#d8dfd6" stroke-width="2"/>
+<circle cx="120" cy="556" r="20" fill="#245b47"/><text x="120" y="565" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">3</text>
+<text x="156" y="549" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Steuerermäßigung: 20 %</text>
+<text x="156" y="584" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">max. 1.200 € — Ausnahme</text>
+<path d="M324 606 V632" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round"/><path d="M316 624 L324 634 L332 624" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="84" y="640" width="520" height="92" rx="4" fill="#e8ede5" stroke="#d8dfd6" stroke-width="2"/>
+<circle cx="120" cy="686" r="20" fill="#245b47"/><text x="120" y="695" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">4</text>
+<text x="156" y="679" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">KfW: Kredit 159 aktiv,</text>
+<text x="156" y="714" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Zuschuss 455-B gestoppt</text>
+<path d="M324 736 V762" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round"/><path d="M316 754 L324 764 L332 754" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="84" y="770" width="520" height="92" rx="4" fill="#245b47" stroke="#245b47" stroke-width="2"/>
+<circle cx="120" cy="816" r="20" fill="#fff"/><text x="120" y="825" fill="#245b47" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">5</text>
+<text x="156" y="809" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Eigenanteil</text>
+<text x="156" y="844" fill="#e8ede5" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="400" text-anchor="start">Angebot minus Förderung</text>
+<circle cx="700" cy="262" r="20" fill="#245b47"/><text x="700" y="271" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">1</text>
+<text x="740" y="270" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Angebot prüfen</text>
+<text x="676" y="314" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Vor-, Nach- und Neben-</text>
+<text x="676" y="346" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">arbeiten müssen drin-</text>
+<text x="676" y="378" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">stehen (VZ-Tipp).</text>
+<circle cx="700" cy="440" r="20" fill="#245b47"/><text x="700" y="449" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">2</text>
+<text x="740" y="448" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Pflegekasse</text>
+<text x="676" y="492" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Ermessen, kein fester</text>
+<text x="676" y="524" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Anspruch. Antrag mit</text>
+<text x="676" y="556" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Voranschlag vor Bau.</text>
+<circle cx="700" cy="618" r="20" fill="#245b47"/><text x="700" y="627" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">3</text>
+<text x="740" y="626" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Steuer-Ausnahme</text>
+<text x="676" y="670" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Entfällt bei öffentlicher</text>
+<text x="676" y="702" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Förderung: zinsverbilligte</text>
+<text x="676" y="734" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Darlehen, Zuschüsse.</text>
+<circle cx="700" cy="796" r="20" fill="#245b47"/><text x="700" y="805" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">4</text>
+<text x="740" y="804" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">KfW-Stand</text>
+<text x="676" y="848" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Kredit: Fachbetrieb, keine</text>
+<text x="676" y="880" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Eigenleistung. Zuschuss</text>
+<text x="676" y="912" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">455-B: Antragstopp.</text>
+<circle cx="700" cy="960" r="20" fill="#245b47"/><text x="700" y="969" fill="#fff" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">5</text>
+<text x="740" y="968" fill="#243b35" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Eigenanteil</text>
+<text x="676" y="1012" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Unter 4.180 € zahlt die</text>
+<text x="676" y="1044" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Kasse den tatsächlichen</text>
+<text x="676" y="1076" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Betrag, nicht mehr.</text>
+<text x="44" y="1116" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Schematisch. Zahlen sind Höchstbeträge bzw. Portal-Richtwerte.</text>
+<text x="44" y="1148" fill="#53655e" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Keine Finanz- oder Steuerberatung. KI-Illustration · schematisch</text>
+</svg>

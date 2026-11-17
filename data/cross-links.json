@@ -17,7 +17,8 @@
     "treppenlift-unserioese-anbieter": ["treppenlift-angebote-vergleichen", "treppenlift-mieten", "treppenlift-kosten"],
     "treppenlift-foerderung-ohne-pflegegrad": ["treppenlift-zuschuss", "treppenlift-finanzierung", "treppenlift-gebraucht-oder-neu"],
     "treppenlift-aufmass-termin": ["treppenlift-angebote-vergleichen", "treppenlift-unserioese-anbieter", "treppenlift-schmale-treppe"],
-    "wanne-zur-dusche": ["badumbau-angebote-vergleichen"]
+    "wanne-zur-dusche": ["badumbau-angebote-vergleichen"],
+    "badumbau-kosten": ["badumbau-angebote-vergleichen", "wohnumfeldverbesserung-beantragen", "wanne-zur-dusche"]
   },
   "rationale": {
     "pflegegrad-antrag-ablauf-fristen": "Entlastungs-Pfad nach Bescheid (verhinderungspflege-ueberblick) + Wohnraumanpassung nach Pflegegrad (tuerbreiten): natürliche Anschlussfragen",
@@ -35,6 +36,7 @@
     "hausnotruf-angehoerige-einrichten": "Angehoerigen-Journey: Anleger vergleichen Anbieter mit Partner-Placements, Schluesselfrage als vertragsnahe Vorbereitung, Demenz-/Ortungsfrage als mobil-Follow-up (Cluster-intern care)",
     "treppenlift-unserioese-anbieter": "Verkaufsdruck-Thema: sauberer Vergleich mit Voranschlags-/Festpreis-Mechanik als naechster Schritt (angebote-vergleichen), Vertragspruefung mit Mobilae-Klage-Kontext (mieten), Preisrahmen vor jedem Vergleich (kosten) — lift-intern, kein Cross-Cluster",
     "treppenlift-foerderung-ohne-pflegegrad": "Foerderungs-Thema ohne Pflegegrad: Pflegekassen-Route als Schritt 0 (zuschuss), Finanzierungsbausteine falls kein Titel greift (finanzierung), Gebrauchtkauf als Kostenhebel (gebraucht-oder-neu) — lift-intern, kein Cross-Cluster",
-    "treppenlift-aufmass-termin": "Aufmass-Journey: Angebot nach dem Termin Position fuer Position vergleichen (angebote-vergleichen), Druckmuster und Warnzeichen am Termin erkennen (unserioese), Treppe vor dem Termin selbst pruefen (schmale-treppe) — lift-intern, kein Cross-Cluster"
+    "treppenlift-aufmass-termin": "Aufmass-Journey: Angebot nach dem Termin Position fuer Position vergleichen (angebote-vergleichen), Druckmuster und Warnzeichen am Termin erkennen (unserioese), Treppe vor dem Termin selbst pruefen (schmale-treppe) — lift-intern, kein Cross-Cluster",
+    "badumbau-kosten": "Kosten-Architektur des Bad-Clusters: Portal-Spannen einordnen und Streuung erklären, Kostenbausteine mit Quellen-Ankern, Eigenanteil-Mechanik (Pflegekasse Ermessen, Steuer mit Förder-Ausnahme, KfW-Stand), fiktive Beispielrechnung und Budget-Checkliste — Angebotsvergleich als nächster Schritt (Cluster-intern, Förderantrags-Strecke als bewusster Care-Cross)"
   }
 }

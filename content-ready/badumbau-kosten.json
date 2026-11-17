@@ -1,0 +1,233 @@
+{
+  "slug": "badumbau-kosten",
+  "title": "Badumbau-Kosten: Preis & Eigenanteil",
+  "description": "Badumbau-Kosten verstehen: Warum Portal-Zahlen auseinanderliegen, was in Angebote gehört und wie Pflegekasse, Steuer und KfW den Eigenanteil verändern.",
+  "h1": "Badumbau-Kosten: vom Portal-Richtwert zum Eigenanteil",
+  "intro": [
+    "Ein Badumbau hat keinen Festpreis. Die Ratgeber im Web nennen je nach Umfang zwischen rund 8.000 Euro für einen Teilumbau und über 40.000 Euro für hochwertige Komplettlösungen; für komplette Umbauten bewegen sich die meisten veröffentlichten Spannen zwischen 13.000 und 30.000 Euro. Welche Zahl für Ihr Bad gilt, entscheidet ein Angebot mit Einzelpositionen — und danach, welche Förderung Sie nutzen.",
+    "Dieser Ratgeber ordnet die veröffentlichten Spannen ein, zeigt die typischen Kostenbausteine, rechnet ein Beispiel vom Angebotsbetrag zum Eigenanteil und erklärt die drei Geldquellen: Pflegekasse (Ermessensleistung), Steuerermäßigung für Handwerkerleistungen (mit wichtiger Förder-Ausnahme) und KfW (Kredit aktiv, Zuschuss gestoppt). Alle Angaben wurden am 17.11.2026 geprüft; die Quellen nennen teils andere Stichtage."
+  ],
+  "sections": [
+    {
+      "heading": "Warum es keinen Festpreis für den Badumbau gibt",
+      "paragraphs": [
+        "Die Kosten hängen von fünf Dingen ab: vom Umfang (einzelne Maßnahme, Teilumbau oder Komplettumbau), vom Ausstattungsniveau, vom Zustand des Bestands (Leitungen, Estrich, nötige Bodenabsenkung), von der Region und davon, was eine Zahl überhaupt umfasst — Fliesen, Entsorgung und Malerarbeiten sind nicht immer enthalten. Ein Portal fasst die Mechanik knapp zusammen: „Einen Festpreis für den Badumbau gibt es nicht; Umfang, Boden, Leitungen und Ausstattung bestimmen die Kosten.“[12]",
+        "Zur Einordnung gehört auch die Perspektive der Veröffentlichenden: Fast alle Seiten mit Kostenzahlen vermitteln zugleich Fachbetriebe oder gewinnen so Anfragen. Das macht die Zahlen nicht falsch — aber lesen Sie Spannen stets als Richtwerte, nie als Zusage. Ein verbindlicher Betrag steht nur in einem konkreten Angebot."
+      ],
+      "bullets": [
+        "Umfang: einzelne Maßnahme (z. B. Haltegriffe), Teilumbau oder Komplettumbau?",
+        "Ausstattung: Standardmaße oder Sonderanfertigungen?",
+        "Bestand: Bodenabsenkung, alte Leitungen, Estrich, Asbestverdacht bei Bauten vor 1995?",
+        "Region: ein Portal rechnet mit Abweichungen von bis zu 20 Prozent nach oben oder unten.[8]",
+        "Inhalt der Zahl: Ist Material und Montage enthalten? Zählen Fliesen, Entsorgung und Malerarbeiten mit?"
+      ]
+    },
+    {
+      "heading": "Was die veröffentlichten Zahlen sagen (und warum sie auseinanderliegen)",
+      "paragraphs": [
+        "Die Tabelle fasst die aktuellen Ratgeber-Seiten zusammen. Vergleichen Sie die Werte nicht 1:1: Ein Portal rechnet mit einem 6-m²-Bad, das nächste mit 6–8 m²; mal sind Fliesen enthalten, mal nicht; mal heißt das Thema Badsanierung allgemein, mal barrierefreier Umbau."
+      ],
+      "table": {
+        "headers": ["Quelle (Abruf 17.11.2026)", "Angabe zum Komplettumbau", "Einordnung"],
+        "rows": [
+          ["badumbau-ratgeber.de[6]", "15.000 bis 30.000 € (ca. 6 m²)", "Portal mit Anbieter-Fokus; nennt zusätzlich Teilspannen je Maßnahme"],
+          ["konstruktionsfuhrer.de[7]", "15.000 bis 25.000 € (Standard DIN 18040-2), Teilumbau 8.000 bis 15.000 €", "nennt selbst „Stand Oktober 2026“ und erklärt ausdrücklich, keine Handwerksbetriebe zu vermitteln"],
+          ["kostenwelt.de[8]", "15.000 bis 25.000 € (6–8 m²)", "rechnet eine regionale Abweichung von bis zu ±20 % ein"],
+          ["bauguru24.de[10]", "13.000 bis 28.000 € (6–8 m²)", "ergänzt Baustein-Angaben und ein Rechenbeispiel"],
+          ["badklar.de[11]", "12.000 bis 25.000 €", "Thema ist Badsanierung allgemein — nicht speziell barrierefrei"],
+          ["pflege-panorama.de[9]", "Light ab 8.000 €, Komfort 18.000 bis 25.000 €, Luxus über 40.000 €", "Magazin mit Vermittlungsoption, nennt einen Vermittler namentlich[9]"]
+        ]
+      },
+      "paragraphs_after": [
+        "Als grobe Orientierung aus diesen Werten: einfache Teilumbauten beginnen bei rund 8.000 Euro, komplette Umbauten liegen überwiegend zwischen 13.000 und 30.000 Euro, hochwertige Lösungen deutlich darüber. Auffällig: Kein Portal dokumentiert diese Streuung selbst — und eine institutionelle Gegennummer fehlt ganz. Die Verbraucherzentrale erklärt zwar die Mechanik von Angeboten und Kostenvoranschlägen, veröffentlicht aber keine Badumbau-Zahlen;[5] auch DIN und KfW nennen keine Gesamtkosten für Umbauten. Konkrete Beträge für Ihr Bad bekommen Sie deshalb nur über Angebote. Dieser Ratgeber kann die Richtwerte ordnen, nicht ersetzen."
+      ]
+    },
+    {
+      "heading": "Kostenbausteine: Diese Posten stehen in Angeboten",
+      "paragraphs": [
+        "Die Bandbreiten stammen aus verschiedenen Portalrechnungen und gelten nicht für dasselbe Badezimmer. Sie zeigen vor allem, welche Posten in Angeboten auftauchen und in welcher Größenordnung sie liegen."
+      ],
+      "table": {
+        "headers": ["Baustein", "Veröffentlichte Bandbreite", "Quelle (Abruf 17.11.2026)"],
+        "rows": [
+          ["Bodengleiche Dusche", "3.000 bis 7.000 €", "konstruktionsfuhrer.de[7]"],
+          ["Bodengleiche Dusche", "3.000 bis 6.000 €", "kostenwelt.de[8]"],
+          ["Barrierefreie Dusche inkl. Fliesenarbeiten", "6.000 bis 12.000 €", "badumbau-ratgeber.de[6]"],
+          ["Badewanne zur Dusche umbauen", "4.000 bis 10.000 €", "badumbau-ratgeber.de[6]"],
+          ["Sanitär-Rohinstallation inkl. Bodenablauf", "2.500 bis 5.500 €", "bauguru24.de[10]"],
+          ["Haltegriffe, je Stück inkl. Montage", "60 bis 180 €", "pflege-panorama.de[9]"],
+          ["Bodenabsenkung im Altbau (Zusatz)", "1.000 bis 2.500 €", "kostenwelt.de[8]"],
+          ["Asbest-Entsorgung bei Altfliesen (vor 1995)", "800 bis 2.500 €", "pflege-panorama.de[9]"]
+        ]
+      },
+      "paragraphs_after": [
+        "Wichtiger als die Bandbreiten ist die Prüfung auf Vollständigkeit: Angebote und Kostenvoranschläge sollen „alle Vor-, Nach- und Nebenarbeiten berücksichtigen“.[5] Und achten Sie auf getrennte Arbeitskosten — sie sind die Grundlage für den Pflegekassen-Antrag und für die Steuerermäßigung.[12] Wie Sie Angebote Position für Position vergleichen und welche Vertragsdetails zählen, behandelt unser Ratgeber Badumbau-Angebote vergleichen."
+      ]
+    },
+    {
+      "heading": "Drei Geldquellen: Pflegekasse, Steuerermäßigung, KfW",
+      "paragraphs": [
+        "Vom Angebotsbetrag bis zum Eigenanteil sind drei Wege relevant — mit sehr unterschiedlichen Regeln."
+      ],
+      "bullets": [
+        "Pflegekasse: Es ist eine Ermessensleistung — die Pflegekassen „können subsidiär“ Zuschüsse gewähren, kein automatischer Anspruch.[1] Höchstbetrag: 4.180 Euro je Maßnahme; leben mehrere Pflegebedürftige in einer gemeinsamen Wohnung, sind bis zu 16.720 Euro je Maßnahme möglich.[1] Die Kasse muss zügig entscheiden, spätestens nach drei Wochen — bei Beteiligung einer Pflegefachperson oder des Medizinischen Dienstes nach fünf Wochen; ohne begründete Mitteilung gilt die Leistung nach Fristablauf als genehmigt.[1] Antrag immer mit Kostenvoranschlag und vor dem Baubeginn — die Antragsstrecke behandelt unser Ratgeber Wohnumfeldverbesserung beantragen.",
+        "Steuerermäßigung: Handwerkerleistungen mindern die Einkommensteuer um 20 Prozent der Aufwendungen, höchstens um 1.200 Euro im Jahr.[2] Der Abzug gilt nur für Arbeitskosten; Voraussetzung sind eine Rechnung und die Zahlung auf das Konto des Betriebs.[2] Wichtig und selten im Web zu lesen: „Dies gilt nicht für öffentlich geförderte Maßnahmen, für die zinsverbilligte Darlehen oder steuerfreie Zuschüsse in Anspruch genommen werden.“[2] Kombinationen mit Pflegekassen- oder KfW-Förderung lassen Sie vorab individuell prüfen — dieser Text kann keine Steuerberatung ersetzen.",
+        "KfW: Der Kredit 159 „Altersgerecht Umbauen“ fördert Maßnahmen gegen Barrieren als Darlehen; die Arbeiten müssen von einem Fachunternehmen kommen, Eigenleistungen sind nicht förderfähig.[4] Der Zuschuss 455-B ist dagegen gestoppt: „Diesen Zuschuss können Sie nicht mehr beantragen.“[3] Offen geschrieben ist nur eine mögliche Wiederbelebung, falls 2027 erneut Bundesmittel bereitgestellt werden.[3] Den Förderstand zu Pflegekasse und KfW pflegen wir im Ratgeber Wohnumfeldverbesserung beantragen."
+      ],
+      "paragraphs_after": [
+        "Abgrenzung, die sich auszahlt: Hilfsmittel wie Duschhocker, Duschstuhl oder Badewannenlift gehen nicht vom Wohnumfeld-Zuschuss ab — sie laufen separat über die Krankenkasse.[12] Welchen Weg Hilfsmittel nehmen, erklärt der Ratgeber Hilfsmittel-Kostenübernahme."
+      ]
+    },
+    {
+      "heading": "Beispielrechnung: vom Angebotsbetrag zum Eigenanteil (fiktiv)",
+      "paragraphs": [
+        "Die Rechnung ist ein fiktives Beispiel und zeigt nur die Mechanik — keine Markt- oder Durchschnittspreise. Der Angebotsbetrag von 18.000 Euro liegt in der veröffentlichten Komplett-Spanne mehrerer Portale (15.000 bis 25.000 Euro für Bäder mit 6–8 m²).[7][8]"
+      ],
+      "table": {
+        "headers": ["Schritt", "Betrag", "Grundlage"],
+        "rows": [
+          ["Angebot mit Einzelpositionen (fiktiv)", "18.000 €", "Rechenbeispiel innerhalb der Portal-Spannen[7][8]"],
+          ["minus Pflegekassen-Zuschuss (Ermessen)", "− 4.180 €", "Höchstbetrag nach § 40 Abs. 4 SGB XI[1]"],
+          ["Eigenanteil", "13.820 €", "Rechnung"],
+          ["davon Arbeitskosten laut Positionen (Beispiel)", "6.000 €", "Annahme für den Steuer-Schritt"],
+          ["Steuerermäßigung 20 % davon (Höchstbetrag)", "− 1.200 €", "§ 35a Abs. 3 EStG — nur ohne öffentliche Förderung[2]"]
+        ]
+      },
+      "paragraphs_after": [
+        "Zwei Details ändern das Ergebnis in der Praxis. Erstens: Liegt das Angebot unter 4.180 Euro, zahlt die Kasse den tatsächlichen Betrag, nicht den Höchstbetrag.[12] Zweitens: Sobald die Maßnahme öffentlich gefördert ist — etwa mit zinsverbilligtem KfW-Darlehen oder steuerfreien Zuschüssen — entfällt die Steuerermäßigung dafür nach Absatz 3 Satz 2.[2] Ob Ihr konkreter Pflegekassen-Zuschuss als steuerfreier Zuschuss im Sinne des Gesetzes wirkt, muss im Einzelfall geklärt werden; fragen Sie im Zweifel eine Steuerberatung oder eine Lohnsteuerhilfe."
+      ]
+    },
+    {
+      "heading": "Kosten senken, ohne an der Sicherheit zu sparen",
+      "paragraphs": [
+        "Die Sparschraube sitzt nicht am Haltegriff, sondern an Umfang, Ausstattung und Reihenfolge. Drei bewährte Hebel aus den geprüften Quellen:"
+      ],
+      "bullets": [
+        "Vom Bedarf planen, nicht vom Wunschbad: „Manchmal reichen Haltegriffe und ein Duschhocker; manchmal ist die Dusche statt der Wanne der richtige Schritt, dann aber gleich mit allem, was dazugehört, in einem Antrag.“[12]",
+        "Teilumbau zuerst: „Die meisten landen mit einem Teilumbau bei 8.000 bis 15.000 Euro.“[7] Kleinere Schritte wirken ebenfalls: „Bereits mit wenigen 1.000 Euro können Sie das Badezimmer an Ihre Bedürfnisse anpassen und somit Gefahrenquellen deutlich minimieren.“[6]",
+        "Standard statt Sonder: kostenwelt rät zu Standardgrößen bei Duschen und Waschtischen statt deutlich teureren Sonderanfertigungen.[8]"
+      ],
+      "paragraphs_after": [
+        "Dazu die Absicherungs-Mechanik aus der Verbraucherzentrale: Vor Auftragsvergabe zwei bis drei Angebote oder Kostenvoranschläge einholen — Kostenvoranschläge sind unverbindlich, an Preise in Angeboten sind die Unternehmen dagegen in aller Regel gebunden.[5] Steigt der Preis nach einem Kostenvoranschlag um mehr als 15 bis 20 Prozent, muss der Unternehmer darauf hinweisen; Sie können dann den Vertrag kündigen.[5]"
+      ]
+    },
+    {
+      "heading": "Checkliste: So schützen Sie Ihr Badumbau-Budget",
+      "paragraphs": [
+        "Die Reihenfolge ist gerade bei Förderung entscheidend: „Erst den Antrag bei der Pflegekasse stellen, mit Kostenvoranschlag, dann die Zusage abwarten, und erst danach den Auftrag unterschreiben. Wer vorher beauftragt, riskiert eine Ablehnung.“[7]"
+      ],
+      "bullets": [
+        "Bedarf schriftlich festhalten: Was soll nach dem Umbau besser funktionieren? Angehörige können ergänzen.",
+        "Pflegegrad prüfen oder beantragen, bevor Sie einen Förderantrag stellen.",
+        "Zwei bis drei Angebote mit Einzelpositionen und getrennten Arbeitskosten einholen.[5][12]",
+        "Vollständigkeit prüfen: Vor-, Nach- und Nebenarbeiten müssen ausgewiesen sein.[5]",
+        "Pflegekassen-Antrag mit Kostenvoranschlag stellen — vor dem Baubeginn.[7][9]",
+        "Entscheidungsfrist kennen: drei Wochen, mit Beteiligung des Medizinischen Dienstes fünf Wochen; ohne begründete Mitteilung gilt die Leistung als genehmigt.[1]",
+        "Auftrag erst nach der Förderzusage unterschreiben.[7]",
+        "Bei geplanter KfW-Förderung die Steuerermäßigung vorab prüfen lassen — Förder-Ausnahme beachten.[2]",
+        "Rechnungen mit ausgewiesenen Arbeitskosten sammeln; nur mit Rechnung und Zahlung auf das Konto des Betriebs zählt die Steuerermäßigung.[2]",
+        "Am Ende Baukosten gegen die bewilligten Förderbeträge gegenüberstellen und Belege ablegen (Pflegekasse, KfW-Auszahlung)."
+      ]
+    },
+    {
+      "heading": "Grenzen dieses Ratgebers",
+      "paragraphs": [
+        "Die genannten Bandbreiten sind Portal-Richtwerte mit teils anderen Stichtagen — kein Marktvergleich und keine Kostenschätzung für Ihr Bad. Ob die Pflegekasse in Ihrem Fall einen Zuschuss bewilligt, entscheidet sie nach Ihrer Antragstellung; dieser Text kann Bewilligungen weder vorhersagen noch garantieren. Steuerangaben wiedergeben das Gesetz vom 17.11.2026; sie sind keine individuelle Steuerberatung. Für verbindliche Beträge brauchen Sie Angebote, für förderrechtliche Einzelfragen die Pflegekasse oder eine unabhängige Beratungsstelle."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was kostet ein Badumbau ohne Pflegegrad?",
+      "answer": "Die Umbaukosten selbst ändern sich nicht — Sie tragen sie nur ohne Pflegekassen-Zuschuss ganz allein. Förderbar bleibt der KfW-Kredit 159 für Barrieren-Abbau, mit Fachunternehmen und ohne Eigenleistungen.[4] Der Zuschuss 455-B ist derzeit gestoppt.[3] Ob weitere Träger wie Sozialamt oder Eingliederungshilfe in Ihrem Fall einspringen, hängt von deren eigenen Voraussetzungen ab; klären Sie das, bevor Sie Aufträge oder Bauzeiten festlegen."
+    },
+    {
+      "question": "Stimmt es, dass die Pflegekasse den Badumbau mit 4.180 Euro bezahlt?",
+      "answer": "Nein, so pauschal ist es falsch. Der Zuschuss ist eine Ermessensleistung („können subsidiär“) mit Voraussetzungen; 4.180 Euro ist der Höchstbetrag je Maßnahme, kein fester Anspruch.[1] Liegt das Angebot darunter, zahlt die Kasse den tatsächlichen Betrag.[12] Werbeversprechen, den Zuschuss vorab zu „sichern“, können das Verfahren nicht ersetzen: Die Kasse entscheidet erst über Ihren Antrag."
+    },
+    {
+      "question": "Kann ich Pflegekassen-Zuschuss, KfW und Steuerermäßigung kombinieren?",
+      "answer": "Für die Steuerermäßigung steht eine klare Ausnahme im Gesetz: Sie gilt nicht für öffentlich geförderte Maßnahmen, für die zinsverbilligte Darlehen oder steuerfreie Zuschüsse in Anspruch genommen werden.[2] Einige Portale zeigen Kombinationen trotzdem in Beispielrechnungen — verlassen Sie sich im Zweifel auf den Gesetzestext und lassen Sie Ihre konkrete Kombination individuell prüfen."
+    },
+    {
+      "question": "Warum unterscheiden sich die Kostenangaben im Web so stark?",
+      "answer": "Weil sie Unterschiedliches messen: Badgröße (ca. 6 m² oder 6–8 m²), Umfang (Teil- oder Komplettumbau), Ausstattungsniveau, enthaltene Gewerke und Region — ein Portal rechnet mit bis zu ±20 % Abweichung je nach Anbieter und Region.[8] Manche Seiten antworten zudem auf die allgemeinere Frage „Badsanierung“ statt auf den barrierefreien Umbau.[11] Nutzen Sie Spannen als Orientierung und Ihr Angebot als Zahl."
+    },
+    {
+      "question": "Was, wenn der Umbau teurer wird als geplant?",
+      "answer": "Kostenvoranschläge sind unverbindlich — es kann teurer werden. Steigt der Preis um mehr als 15 bis 20 Prozent, muss der Unternehmer darauf hinweisen; Sie können dann den Vertrag kündigen. Ein verbindliches Angebot bindet die Unternehmen dagegen in aller Regel an die Preise.[5]"
+    },
+    {
+      "question": "Was zählt zum Eigenanteil, wenn das Angebot unter 4.180 Euro liegt?",
+      "answer": "Die Kasse zahlt dann den tatsächlichen Betrag, nicht den Höchstbetrag; der Eigenanteil ergibt sich als Angebots-Summe minus bewilligter Zuschüsse.[12] Auch bei der Steuerermäßigung zählen nur Arbeitskosten — Materialkosten sind ausgenommen.[2]"
+    }
+  ],
+  "sources": [
+    {
+      "title": "[1] § 40 SGB XI – Wohnraumanpassung und Pflegehilfsmittel (Abs. 4 und 7)",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[2] § 35a EStG – Steuerermäßigung bei Handwerkerleistungen (Abs. 3 und 5)",
+      "url": "https://www.gesetze-im-internet.de/estg/__35a.html",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[3] KfW – Barrierereduzierung: Investitionszuschuss (455-B), Produktseite mit Antragstopp",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[4] KfW – Altersgerecht Umbauen: Kredit (159)",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-(159",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[5] Verbraucherzentrale – Handwerker finden: so vermeiden Sie böse Überraschungen",
+      "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[6] badumbau-ratgeber.de – Was kostet ein barrierefreies Bad?",
+      "url": "https://www.badumbau-ratgeber.de/barrierefreies-bad-kosten/",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[7] konstruktionsfuhrer.de – Barrierefreies Bad Kosten (eigener Stand: Oktober 2026)",
+      "url": "https://konstruktionsfuhrer.de/haushaltsplane/barrierefreies-bad-kosten/",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[8] kostenwelt.de – Barrierefreies Bad Kosten: Umbau-Preise im Überblick",
+      "url": "https://kostenwelt.de/barrierefreies-bad-kosten/",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[9] pflege-panorama.de – Bad seniorengerecht renovieren: Reihenfolge & Kosten",
+      "url": "https://www.pflege-panorama.de/ratgeber/bad-seniorengerecht-renovieren/",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[10] bauguru24.de – Barrierefreies Bad Kosten: Umbau-Preise",
+      "url": "https://www.bauguru24.de/kosten/barrierefreies-bad",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[11] badklar.de – Badsanierung Kosten (Thema: Badsanierung allgemein)",
+      "url": "https://badklar.de/ratgeber/was-kostet-komplette-badsanierung",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "title": "[12] pflegekompass.de – Kosten Badumbau: Was den Preis bestimmt und wer zahlt (18.10.2026)",
+      "url": "https://pflegekompass.de/magazin/ratgeber/kosten-badumbau",
+      "checked_at": "2026-11-17"
+    }
+  ],
+  "image": {
+    "src": "assets/images/badumbau-kosten-wegweiser.svg",
+    "alt": "Ablauf-Schema: vom Angebot mit Einzelpositionen über Pflegekassen-Zuschuss, Steuerermäßigung mit Förder-Ausnahme und KfW-Status zum Eigenanteil",
+    "caption": "Schematische Redaktionsgrafik (KI-Illustration); keine finanzielle oder steuerliche Beratung."
+  },
+  "status": "editorial-reviewed-preview"
+}

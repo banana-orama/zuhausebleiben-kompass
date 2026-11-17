@@ -1,0 +1,184 @@
+{
+ "task": "badumbau-kosten (Briefing 28): Badumbau-Kosten-Architektur - keine Festpreise, Portal-Divergenz, Eigenanteil-Mechanik, §35a-Förder-Ausnahme",
+ "checked_at": "2026-11-17",
+ "checked_by": "milo (Hermes Agent, Cron-Lauf)",
+ "topic_gate": {
+  "serp": "Suchintent 'Badumbau/barrierefreies Bad Kosten': Positionen 1-5 = Ausschliesslich bezahlte Ads (pflege-helfer24, pflegehilfe.org, aroundhome.de, seniovo, my-hammer - Leadgen mit '4.180 Euro Zuschuss'-Versprechen); organisch ~8-10 dedizierte Seiten, ueberwiegend Anbieter-/Vermittlungs-Portale (badumbau-ratgeber, konstruktionsfuhrer, kostenwelt, bauguru24, badklar, seniorbad, pflegekompass, pflege-panorama) mit stark divergierenden Spannen (2.000-25.000 / 6.000-12.000 / 13.000-28.000 / 15.000-30.000 / 15.000-25.000 / Light 8.000-Luxus 40.000) und ohne die §35a-Foerder-Ausnahme. Institutionelle Quellen (VZ, DIN, KfW) liefern 0 Kosten-Gesamtratgeber.",
+  "bestand": "0 dedizierte Kosten-Ratgeber im Bad-Cluster (Stock-Grep 17.11.: 'kosten' 2-19x nur verstreut in Angebots-/Kassenkontexten, 'budget' 0x, 'preise' 0-3x). Cluster hat wanne-zur-dusche, bodengleiche-dusche-altbau, badumbau-angebote-vergleichen, bad-umbau-barrierefrei, hilfsmittel-dusch-wc - aber keine Kostenarchitektur-Seite (Pendant zu treppenlift-kosten/hausnotruf-kosten fehlt).",
+  "verbesserung": "1) Konsolidierte Divergenz-Tabelle der 6 organischen Portale mit Interessenkennzeichnung (kein Wettbewerber dokumentiert die Streuung selbst); 2) Foerder-Ausnahme §35a Abs. 3 Satz 2 EStG mit exaktem Gesetzestext: pflegekompass und pflege-panorama dokumentieren sie bereits (Skript-Check), ABER konstruktionsfuhrer nennt den Steuerbonus ohne Ausnahme (0x 'zinsverbilligt'), badumbau-ratgeber/kostenwelt/bauguru/badklar haben 0x '35a' komplett, VZ 0x 'Badumbau' (institutionelle Luecke: keine Verbraucherzentrale-Kosten-Ratgeber zum Thema); wir fuehren sie auf den Gesetzestext zurueck statt auf Portal-Echo; 3) Eigenanteil-Mechanik mit subsidiar-Ermessen-Ehrlichkeit ('koennen subsidiaer' statt Ads-Versprechen); 4) Kostenbausteine mit Quellen-Ankern je Position (nur zitierbare Bandbreiten, keine erfundenen Positionssummen); 5) Reihenfolge-Strecke (Antrag VOR Auftrag) mit 3/5-Wochen-Frist und 455-B-Stopp-Wortlaut im selben Text."
+ },
+ "sources": [
+  {
+   "n": 1,
+   "key": "sgb11_40",
+   "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+   "title": "§ 40 SGB XI - Wohnraumanpassung und Pflegehilfsmittel (gesetze-im-internet, Abruf 17.11.2026)",
+   "evidence": "research/evidence/badumbau-kosten-171126/sgb11-40.txt",
+   "quotes": [
+    "Die Pflegekassen können subsidiär finanzielle Zuschüsse für Maßnahmen zur Verbesserung des individuellen Wohnumfeldes des Pflegebedürftigen gewähren, beispielsweise für technische Hilfen im Haushalt, wenn dadurch im Einzelfall die häusliche Pflege ermöglicht oder erheblich erleichtert oder eine möglichst selbständige Lebensführung des Pflegebedürftigen wiederhergestellt wird.",
+    "Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen.",
+    "Der Gesamtbetrag je Maßnahme nach Satz 3 ist auf 16 720 Euro begrenzt und wird bei mehr als vier Anspruchsberechtigten anteilig auf die Versicherungsträger der Anspruchsberechtigten aufgeteilt.",
+    "spätestens bis zum Ablauf von drei Wochen nach Antragseingang oder in Fällen, in denen eine Pflegefachperson oder der Medizinische Dienst nach Absatz 1 Satz 2 beteiligt wird, innerhalb von fünf Wochen nach Antragseingang",
+    "Erfolgt keine Mitteilung eines hinreichenden Grundes, gilt die Leistung nach Ablauf der Frist als genehmigt."
+   ]
+  },
+  {
+   "n": 2,
+   "key": "estg_35a",
+   "url": "https://www.gesetze-im-internet.de/estg/__35a.html",
+   "title": "§ 35a EStG - Steuerermäßigung Handwerkerleistungen (gesetze-im-internet, Abruf 17.11.2026)",
+   "evidence": "research/evidence/badumbau-kosten-171126/estg-35a.txt",
+   "quotes": [
+    "Für die Inanspruchnahme von Handwerkerleistungen für Renovierungs-, Erhaltungs- und Modernisierungsmaßnahmen ermäßigt sich die tarifliche Einkommensteuer, vermindert um die sonstigen Steuerermäßigungen, auf Antrag um 20 Prozent der Aufwendungen des Steuerpflichtigen, höchstens jedoch um 1 200 Euro.",
+    "Dies gilt nicht für öffentlich geförderte Maßnahmen, für die zinsverbilligte Darlehen oder steuerfreie Zuschüsse in Anspruch genommen werden.",
+    "Der Abzug von der tariflichen Einkommensteuer nach den Absätzen 2 und 3 gilt nur für Arbeitskosten.",
+    "Voraussetzung für die Inanspruchnahme der Steuerermäßigungen nach den Absätzen 2 und 3 ist, dass der Steuerpflichtige für die Aufwendungen eine Rechnung erhalten hat und die Zahlung auf das Konto des Erbringers der Leistung erfolgt ist."
+   ]
+  },
+  {
+   "n": 3,
+   "key": "kfw_455b",
+   "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
+   "title": "KfW: Barrierereduzierung - Investitionszuschuss (455-B), Produktseite Live-Abruf 17.11.2026",
+   "evidence": "research/evidence/badumbau-kosten-171126/kfw-455b.txt",
+   "soft_hyphen_stripped": true,
+   "quotes": [
+    "Diesen Zuschuss können Sie nicht mehr beantragen.",
+    "Sollten im Jahr 2027 erneut Bundesmittel für barrierereduzierende Maßnahmen bereitgestellt werden, wird eine Antragstellung wieder möglich sein.",
+    "Der Zuschuss wird aus Mitteln des Bundes finanziert. Wegen der hohen Nachfrage sind die Fördermittel für Maßnahmen zur Barrierereduzierung bereits ausgeschöpft."
+   ]
+  },
+  {
+   "n": 4,
+   "key": "kfw_159",
+   "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-(159",
+   "title": "KfW: Altersgerecht Umbauen - Kredit (159), Produktseite Live-Abruf 17.11.2026",
+   "evidence": "research/evidence/badumbau-kosten-171126/kfw-159.txt",
+   "soft_hyphen_stripped": true,
+   "quotes": [
+    "Wir fördern Investitionen in Baumaßnahmen an Haus und Wohnung, mit denen Sie Barrieren reduzieren und den Einbruchschutz verbessern.",
+    "Die Arbeiten müssen von einem Fachunternehmen durchgeführt werden und den technischen Mindestanforderungen entsprechen. Eigenleistungen sind nicht förderfähig."
+   ]
+  },
+  {
+   "n": 5,
+   "key": "vz_handwerker",
+   "url": "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/handwerker-finden-so-vermeiden-sie-boese-ueberraschungen-13664",
+   "title": "Verbraucherzentrale: Handwerker finden - so vermeiden Sie böse Überraschungen (Live-Abruf 17.11.2026)",
+   "evidence": "research/evidence/badumbau-kosten-171126/vz-handwerker.txt",
+   "quotes": [
+    "Vor Auftragsvergabe sollten immer zwei bis drei Angebote oder Kostenvoranschläge verschiedener Firmen eingeholt werden.",
+    "Kostenvoranschläge sind nicht verbindlich, es kann also teurer werden. Steigt der Preis um mehr als 15 bis 20 Prozent, muss der Unternehmer jedoch darauf hinweisen. Sie können dann den Vertrag kündigen. An die Preise in Angeboten sind die Unternehmen dagegen in aller Regel gebunden.",
+    "So sollten Angebote und Kostenvoranschläge auch alle Vor-, Nach- und Nebenarbeiten berücksichtigen, beim Fenstertausch zum Beispiel den Gerüstbau."
+   ]
+  },
+  {
+   "n": 6,
+   "key": "badumbau_ratgeber",
+   "url": "https://www.badumbau-ratgeber.de/barrierefreies-bad-kosten/",
+   "title": "badumbau-ratgeber.de: Was kostet ein barrierefreies Bad? (Live-Abruf 17.11.2026)",
+   "evidence": "research/evidence/badumbau-kosten-171126/badumbau-ratgeber.txt",
+   "quotes": [
+    "Der Einbau bzw. Umbau zu einer barrierefreien Dusche kostet heute häufig 6.000 bis 12.000 Euro",
+    "Umbau Badewanne zur Dusche 4.000 bis 10.000 €",
+    "Komplettsanierung/-bau (6 m²) 15.000 bis 30.000 €",
+    "Für eine barrierefreie Umgestaltung des Badezimmers und umfassende Umbaumaßnahmen sollten Sie heute eher mit Kosten von 15.000 bis 30.000 Euro rechnen.",
+    "Bereits mit wenigen 1.000 Euro können Sie das Badezimmer an Ihre Bedürfnisse anpassen und somit Gefahrenquellen deutlich minimieren."
+   ]
+  },
+  {
+   "n": 7,
+   "key": "konstruktionsfuhrer",
+   "url": "https://konstruktionsfuhrer.de/haushaltsplane/barrierefreies-bad-kosten/",
+   "title": "konstruktionsfuhrer.de: Barrierefreies Bad Kosten 2026 (Live-Abruf 17.11.2026; Seite selbst nennt Stand Oktober 2026)",
+   "evidence": "research/evidence/badumbau-kosten-171126/konstruktionsfuhrer.txt",
+   "quotes": [
+    "Die Spanne ist groß. Ein paar Haltegriffe sind für wenige hundert Euro montiert, eine bodengleiche Dusche kostet meist 3.000 bis 7.000 Euro, und ein komplettes Bad nach DIN 18040-2 liegt eher bei 15.000 bis 25.000 Euro. Die meisten landen mit einem Teilumbau irgendwo dazwischen.",
+    "Die meisten landen mit einem Teilumbau bei 8.000 bis 15.000 Euro.",
+    "Alle Preise sind unverbindliche Richtwerte (Stand Oktober 2026, Angaben ohne Gewähr).",
+    "Wir vermitteln keine Handwerksbetriebe, beantworten aber gern Fragen zu Kosten und Ablauf.",
+    "Die Reihenfolge ist entscheidend: erst den Antrag bei der Pflegekasse stellen, mit Kostenvoranschlag, dann die Zusage abwarten, und erst danach den Auftrag unterschreiben. Wer vorher beauftragt, riskiert eine Ablehnung."
+   ]
+  },
+  {
+   "n": 8,
+   "key": "kostenwelt",
+   "url": "https://kostenwelt.de/barrierefreies-bad-kosten/",
+   "title": "kostenwelt.de: Barrierefreies Bad Kosten (Live-Abruf 17.11.2026)",
+   "evidence": "research/evidence/badumbau-kosten-171126/kostenwelt.txt",
+   "quotes": [
+    "Für ein durchschnittliches Bad von 6 bis 8 Quadratmetern liegen die Gesamtkosten für einen kompletten barrierefreien Umbau 2026 meist zwischen 15.000 € und 25.000 €.",
+    "Je nach Anbieter und Region können die Werte um bis zu 20 Prozent nach oben oder unten abweichen, weshalb ein detaillierter Kostenvoranschlag unverzichtbar ist.",
+    "Bodengleiche Dusche 3.000 – 6.000 €",
+    "Im Altbau dagegen ist oft eine Bodenabsenkung nötig, was zusätzlich 1.000 € bis 2.500 € kosten kann.",
+    "Setze auf Standardgrößen bei Duschen und Waschtischen statt Sonderanfertigungen, die oft deutlich teurer sind"
+   ]
+  },
+  {
+   "n": 9,
+   "key": "pflege_panorama",
+   "url": "https://www.pflege-panorama.de/ratgeber/bad-seniorengerecht-renovieren/",
+   "title": "pflege-panorama.de: Bad seniorengerecht renovieren 2026 - Reihenfolge & Kosten (Live-Abruf 17.11.2026; nennt Aroundhome-Vermittlung namentlich)",
+   "evidence": "research/evidence/badumbau-kosten-171126/pflege-panorama.txt",
+   "quotes": [
+    "Kosten: Light-Umbau ab 8.000 Euro, Komfort-Variante 18.000 bis 25.000 Euro, Luxus-Lösung über 40.000 Euro.",
+    "Haltegriffe an Dusche, WC und Wanne kosten 60 bis 180 Euro pro Stück inklusive Montage.",
+    "Bedarfsanalyse, Pflegegrad-Antrag, Kostenvoranschläge, Förderanträge und erst dann Baubeginn.",
+    "Asbest in Altfliesen vor 1995 verlangt fachgerechte Entsorgung (Mehrkosten 800 bis 2.500 Euro)",
+    "Aroundhome vermittelt typischerweise innerhalb von sieben Werktagen drei Vergleichsangebote von geprüften regionalen Fachfirmen."
+   ]
+  },
+  {
+   "n": 10,
+   "key": "bauguru",
+   "url": "https://www.bauguru24.de/kosten/barrierefreies-bad",
+   "title": "bauguru24.de: Barrierefreies Bad Kosten - Umbau-Preise im Überblick (Live-Abruf 17.11.2026)",
+   "evidence": "research/evidence/badumbau-kosten-171126/bauguru.txt",
+   "quotes": [
+    "ca. 13.000–28.000 € für den barrierefreien Umbau eines Bads mit 6–8 m²",
+    "Sanitär-Rohinstallation inkl. Bodenablauf pauschal 2.500–5.500 €",
+    "Gegenüber einer normalen Badsanierung kommen vor allem der Bodenablauf, die breitere Tür und die Ausstattung für Halt und Sitzen hinzu."
+   ]
+  },
+  {
+   "n": 11,
+   "key": "badklar",
+   "url": "https://badklar.de/ratgeber/was-kostet-komplette-badsanierung",
+   "title": "badklar.de: Badsanierung Kosten - 12 Praxis-Beispiele (Live-Abruf 17.11.2026; Thema Badsanierung allgemein, nicht spezifisch barrierefrei)",
+   "evidence": "research/evidence/badumbau-kosten-171126/badklar.txt",
+   "quotes": [
+    "Eine komplette Badsanierung kostet in Deutschland meist zwischen 12.000 und 25.000 €.",
+    "Ein kleines Bad bis 6 m² ist oft ab etwa 10.000 € machbar, ein großes oder hochwertig ausgestattetes Bad kann 30.000 € und mehr kosten."
+   ]
+  },
+  {
+   "n": 12,
+   "key": "pflegekompass",
+   "url": "https://pflegekompass.de/magazin/ratgeber/kosten-badumbau",
+   "title": "pflegekompass.de: Kosten Badumbau - Was den Preis bestimmt und wer zahlt (18.10.2026, Live-Abruf 17.11.2026)",
+   "evidence": "research/evidence/badumbau-kosten-171126/pflegekompass.txt",
+   "quotes": [
+    "Einen Festpreis für den Badumbau gibt es nicht; Umfang, Boden, Leitungen und Ausstattung bestimmen die Kosten. Ein Kostenvoranschlag mit Einzelpositionen und getrennten Arbeitskosten ist die Grundlage für Antrag und Steuer.",
+    "So rechnen Sie den Eigenanteil: Summe laut Angebot minus Zuschuss der Pflegekasse. Liegt das Angebot unter 4.180 Euro, zahlt die Kasse den tatsächlichen Betrag, nicht mehr. Leben zwei Menschen mit Pflegegrad in der Wohnung und hilft der Umbau beiden, sind bis zu 8.360 Euro möglich, bei vier Personen bis zu 16.720 Euro.",
+    "Arbeitskosten von Handwerkern mindern die Einkommensteuer um 20 Prozent, höchstens um 1.200 Euro im Jahr (§ 35a Abs. 3 EStG). Den Höchstbetrag erreichen Sie bei 6.000 Euro Arbeitskosten im Jahr. Materialkosten zählen nicht.",
+    "Hilfsmittel wie ein Duschhocker, ein Duschstuhl oder ein Badewannenlift gehen nicht vom Zuschuss ab.",
+    "Manchmal reichen Haltegriffe und ein Duschhocker; manchmal ist die Dusche statt der Wanne der richtige Schritt, dann aber gleich mit allem, was dazugehört, in einem Antrag."
+   ]
+  }
+ ],
+ "absences": [
+  {"source": "konstruktionsfuhrer", "pattern": "zinsverbilligt", "expected": 0, "note": "nennt §35a-Steuerbonus (20% von 3.600 Euro) ohne die Satz-2-Förder-Ausnahme"},
+  {"source": "badumbau-ratgeber", "pattern": "35a", "expected": 0, "note": "kein Steuerabsatz in der Kosten-Übersicht"},
+  {"source": "kostenwelt", "pattern": "35a", "expected": 0, "note": "kein Steuerabsatz"},
+  {"source": "bauguru", "pattern": "35a", "expected": 0, "note": "kein Steuerabsatz"},
+  {"source": "badklar", "pattern": "35a", "expected": 0, "note": "kein Steuerabsatz"},
+  {"source": "vz-handwerker", "pattern": "Badumbau", "expected": 0, "note": "VZ deckt die Handwerker-Mechanik generisch - kein badumbau-spezifischer Kosten-Ratgeber (institutionelle Lücke)"},
+  {"source": "sgb11-40", "pattern": "automatisch", "expected": 0, "note": "Pflegekasse gibt es ohne Antrag nicht - Ermessensleistung im Gesetz (Abs. 4: 'können subsidiär')"}
+ ],
+ "arithmetic": [
+  {"expr": "18000 - 4180", "expected": 13820, "note": "Beispielrechnung Eigenanteil (fiktiv deklariert; 18.000 liegt in der Komplett-Spanne 15.000-25.000 von konstruktionsfuhrer/kostenwelt bzw. pflege-panorama-Komfort 18.000-25.000)"},
+  {"expr": "6000 * 0.20", "expected": 1200.0, "note": "§35a-Rechenweg: 20% von 6.000 Euro Arbeitskosten = Höchstbetrag"},
+  {"expr": "4180 * 2", "expected": 8360, "note": "zwei Pflegebeduerftige (pflegekompass-Angabe konsistent)"},
+  {"expr": "4180 * 4", "expected": 16720, "note": "vier Pflegebeduerftige = 16.720 (§ 40 Abs. 4 Satz 4)"}
+ ]
+}
