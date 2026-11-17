@@ -29,7 +29,7 @@ Evidenz: `research/evidence/badumbau-kosten-171126/` (Extrakte + Scan-Skripte co
 - Mobile 390 px: **0 px Overflow**.
 
 ## Deploy / Live-Readback / IndexNow
-(siehe launch-state-Eintrag — Commit, CI, öffentlicher Readback, IndexNow nach Deployment)
+**Commit `6f454a2` (voll 6f454a2c6696202ed6897a99bee60a2cf8527311), CI-Run 44050727181 completed success, Live-Readback 37/37 ALL PASS auf der öffentlichen URL** (`research/verify_badumbau_live_171126.py`: Poll bis 200, robots index,follow + Canonical, Title/H1, 2 Lead-Absätze, 12 Kernzahl-Wortlaute, Related-Reihenfolge, Early-CTA, Absenzen 0× awin/sponsored, SVG 200, Sitemap exakt 52 locs inkl. Artikel, RSS 39, Homepage, llms), **IndexNow HTTP 200** (2 URLs, Skript committed).
 
 ## Refresh-Trigger
 - KfW 455-B: 2027-Wiederaufnahme nur conditional — beim Bundeshaushalt-2027-Abschluss/KfW-News re-prüfen (bestehender Trigger, gilt jetzt auch für diesen Artikel).
