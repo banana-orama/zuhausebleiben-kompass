@@ -2,14 +2,16 @@
 
 Quelle: Postfach-Verlauf, Belege `research/evidence/aroundhome-161126/` (Roh-Mail 11234).
 
-## Verlauf (3 Nachrichten)
+## Verlauf (5 Nachrichten)
 
 1. **13.11. 08:25 (ID 11233, Katharina Folker, Artefact):** Antwort auf die Bewerbung mit vier Qualifizierungsfragen (Volumen, Kanäle, Integration, Sitz). Unsere Antwort am 13.11. (Sent 1024): ehrliche Volumenangabe (neues Portal, keine erfundenen Leadzahlen), 100 % organisch, Präferenz **Textlinks über Awin** (deeplinks via cread.php auf Badezimmer-Kategorie), **„Kein iFrame, keine API-Leadübernahme — aus Überzeugung: Wir sammeln auf unserer Seite bewusst keinerlei Interessentendaten"**, DE-Sitz (Kleingewerbe Tobias Batke, Nümbrecht), Hinweis „Bewerbung auf Advertiser 68536 ist im Netzwerk eingereicht".
 2. **16.11. 07:31 (ID 11234, Katharina Folker):** **Einladung zum Test**: „Dann lass uns das gerne testen, am Besten über Awin. Hier unser Profillink: https://ui.awin.com/merchant-profile/68536". Kernfakten wörtlich:
    - „Wir haben dort sowohl Banner, Textlinks als auch iFrames. Die iFrames konvertieren mit Abstand am Besten. Dort sind die Aroundhome-Fragebögen eingebunden, und der Kunde kann direkt auf deiner Seite alles ausfüllen und abschicken.  Deeplinking ist nicht freigeschaltet."
    - „Über Awin erhältst du einen Umsatzanteil von 30 %." (Revenue Share: Partner liefert Leads → Aroundhome qualifiziert intern im Callcenter → „sofern Kundenwünsche und Partner zueinander passen, wird dieser Lead gematcht. Die gematchten Leads führen zu einem direkten Umsatz, der zu fairen Sharings mit den Affiliate-Partnern geteilt wird.")
    - Frage: „Was meinst du, passt das so für dich?"
-3. **16.11. (dieser Lauf, Sent 1026):** Antwort gesendet: Test über Awin bestätigt (Bewerbung liegt bereits vor, Freigabe im Netzwerk genügt), **Textlink-Start**, iFrame abgelehnt (Grundsatz aus Sent 1024 bekräftigt), drei offene Fragen gestellt: (a) erlaubte Zielseiten für Textlinks ohne Deeplink-Freischaltung (z. B. feste Badezimmer-Landingpage?), (b) Matching-Kriterien des Callcenters, (c) sinnvoller Testzeitraum.
+3. **16.11. (Sent 1026):** Antwort gesendet: Test über Awin bestätigt (Bewerbung liegt bereits vor, Freigabe im Netzwerk genügt), **Textlink-Start**, iFrame abgelehnt (Grundsatz aus Sent 1024 bekräftigt), drei offene Fragen gestellt: (a) erlaubte Zielseiten für Textlinks ohne Deeplink-Freischaltung (z. B. feste Badezimmer-Landingpage?), (b) Matching-Kriterien des Callcenters, (c) sinnvoller Testzeitraum.
+4. **17.11. 08:45 (ID 11236, Katharina Folker; Roh-Mail `research/evidence/partner-terms-171126/aroundhome-publisher-id-11236.txt`):** „schick uns bitte einmal deine Publisher id. Leider kann ich deine Bewerbung nicht bei uns finden." — **die bislang als „eingereicht" geführte Bewerbung ist auf Agency-Seite nicht auffindbar.** Keine Beantwortung der drei offenen Fragen.
+5. **17.11. (Sent 1027, Entwurf `operations/aroundhome-reply-171126.eml`):** Publisher-ID **3124891** (Account Tobias Batke, Portal zuhausebleiben-kompass.de) nachgereicht mit Bitte um direkte Freischaltung über die ID, falls die Bewerbung nicht auftaucht; Hinweis, dass die drei offenen Fragen (Zielseite, Matching, Zeitraum) parallel geklärt werden können.
 
 ## Bedeutung für den Partnerblocker
 

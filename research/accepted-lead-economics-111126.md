@@ -5,6 +5,31 @@ verbatim geprüft — `sources.py`/`research/verify_partner_terms_111126.py`; Ev
 `research/evidence/partner-terms-111126/`). Kein Login-Zugang genutzt; Bewerbungs-**Status** bleibt
 login-pflichtig. Keine Freigabe-Unterschreibung, kein Versand in diesem Lauf.
 
+## Update 17.11.: Malteser-Terms per Direktkontakt beantwortet (Mail ID 11235, 16.11.)
+
+Die Fragemail vom 11.11. (Affiliate-Kontakt) wurde 16.11. von Dr. Marco Rizzo (Senior Online
+Marketing Manager, Cc paidmedia@malteser.org) beantwortet — Roh-Mail:
+`research/evidence/partner-terms-171126/malteser-terms-antwort-11235.txt`. Kernaussagen:
+
+- **Infomaterial bleibt vergütet:** „Für Premium-Partner wie Sie vergüten wir die Anforderung von
+  Informationsmaterial jedoch weiterhin mit 0,25 € CPL. Diese Kondition ist für Sie bereits
+  entsprechend in unserem Programm hinterlegt." — löst die offene Frage „post-window
+  undokumentiert" aus Abschnitt 1: das Placement `malteser_info_material` läuft mit 0,25 € CPL
+  weiter. **Quellenklasse: Partnerangabe im Mail-Verlauf** (Kommissionliste nur im Awin-Login
+  prüfbar; kein öffentlicher Beleg, also kein Profil-Verbatim).
+- **Zahlerleistung unverändert 10 €**, Auslösepunkt = tatsächlich **wahrgenommener**
+  Beratungstermin (nicht die Buchung); Lead-Validierung mit Frist **bis 60 Tage**, in der Regel
+  ~30 Tage; nicht wahrgenommene/nicht valide Termine ablehnbar. Deckt sich mit dem Profil-Verbatim
+  „10€ CPL für wahrgenommenen Vor-Ort-Beratungstermin" [1].
+- **Aktion-Auslauf bestätigt** zum 31.10.2026 (Hintergrund lt. Mail: missbräuchliche/nicht valide
+  Anfragen) — die Profilzeile „nur noch bis einschließlich 31.10.2026: 1€ CPL" ist historisch.
+- **Kanalbestätigung:** organisch + klar gekennzeichnet + ohne Incentivierung „passt grundsätzlich
+  sehr gut zu unserem Qualitätsansatz"; Bedingung: keine Anreizsysteme, Awin- + Programm-Bedingungen.
+- **Perspektive:** bei positiver Lead-Entwicklung weitere/individuellere Vergütungsmodelle möglich.
+- Konsequenz fürs Funnel-Audit: **keine Seitenänderung** — Reihenfolge/Funnel bleibt korrekt; die
+  0,25-€-Nuance ändert nichts am zahlpflichtigen Primär-Placement (10-€-Event dominiert).
+
+
 ## 1) Live-Route Malteser (Awin 112616, approved seit 02.11., 2 Placements live)
 
 - **Zahlerleistung heute bestätigt:** „10€ CPL für wahrgenommenen Vor-Ort-Beratungstermin" mit
