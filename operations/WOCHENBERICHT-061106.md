@@ -39,6 +39,8 @@ Erstellt: 06.11.2026, 16:48 CET (Cron). Alle Zahlen mit Abrufdatum; fehlende Met
 2. **Awin-Login** (einmalige Nutzer-Session oder Vault-Eintrag, geschützter Dialog) — löst: Malteser-Lead-Readback, Lifta-40988-Status, Aroundhome-68536-Absendung.
 3. **Keychain-/Session-Freigabe** — Liftstar-Follow-up senden (fällig seit 22.10., Draft 03.11. aktualisiert) + Posteingang prüfen.
 
+- Betriebsnotiz: CI auf 13a622f (docs-only) — build success, deploy-pages transient failure; Retry-Commit ff601ef (Run 42249450910) **success**, Live-Site währenddessen durchgehend 200. Deploy-Failures von GitHub Pages @v4 sind einzeln wiederholbar, kein Inhaltsfehler.
+
 ## Nächste Priorität
 
 1. ADCELL-GO → beide Programme frei → Treppenlift-Cluster erstmals über HIRO monetarisierbar.
