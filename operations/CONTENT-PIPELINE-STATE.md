@@ -1,6 +1,14 @@
 # Content-Pipeline-State — ZuhauseBleiben Kompass
 
-Letzte Aktualisierung: 2026-11-18 (Batch 26 — Money-Page-Refresh: treppenlift-zuschuss Förderstatus-Tabelle + Inline-Region-Links, blitz-seo Phase 1). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+Letzte Aktualisierung: 2026-11-18 (Batch 27 — blitz-seo Phase 2: interne Money-Anchor-Links + unslop-Pass auf treppenlift-zuschuss/kosten/mieten/finanzierung/angebote-vergleichen/steuerlich-absetzen). Diese Datei ist das Produktionslog der Content-Pipeline. Sie ersetzt keine Freigabe; Launch-Modus ist aktiv (index), Formular bleibt deaktiviert.
+
+### Batch 27 (2026-11-18, Cron-Lauf 14:23) — blitz-seo Phase 2: Money-Anchor-Links + unslop
+
+1. **Kein neuer Artikel (39 unverändert), Phase 2 des blitz-seo-Plans umgesetzt:** (a) **Interne Link-Verstärkung** — treppenlift-kosten §5 mit Inline-Anchor „4.180 Euro je Maßnahme" → zuschuss, treppenlift-mieten Pflegekassen-FAQ mit „der aktuelle Förderstatus" → zuschuss (Renderer-Feature aus Batch 26, Whitelist +1 `/treppenlift-zuschuss.html`); specialMap-Variation: finanzierung „Zuschuss bis 4.180 Euro zuerst prüfen", angebote-vergleichen „Zuschuss-Förderstatus prüfen", steuerlich-absetzen „Pflegekassen-Zuschuss prüfen" — das identische CTA-Duplikat-Paar „Förderung prüfen" aufgelöst, 5 distinkte Money-Anchor auf die Money-Page. (b) **Unslop-Pass** (Skill unslop-seo) auf treppenlift-zuschuss: Meta-Description + 3 Statuszellen em-dash-frei („ — " → „: "), kein Zahlen-/Inhalts-Change; Struktur-Check (Direct-Answer Satz 1, Question-Heading §2, 6 FAQs) bereits erfüllt. Quellen deutsche Anführungszeichen („…") = Verbatim-Zitate und En-Dashes in Quellentiteln = Zitierkonvention bewusst NICHT angefasst. Anchor-Audit vorher: 44× „Förderung" = sitewide Nav (unangetastet), Related-Links = h1 (`research/audit_zuschuss_anchors_181126.py`).
+2. **Same-Commit-Gate-Rework:** verify_zuschuss_refresh_content/live (Zellen-Needles), verify_finanzierung_content/live + verify_steuer_content (CTA-Label-Needles) an die neuen Texte angepasst.
+3. **Neue Gates:** `research/verify_zuschuss_phase2_181126.py` (**23/23**, LAUNCH-dist: Description, 3 Zellen + alte 0×, Inline-Anchor absolut, 3 CTA-Labels + Ziel + alte 0×, Artikel-JSON 0× Em-Dash — Template-Chrome sitewide ausgenommen) + `verify_zuschuss_phase2_mobile_181126.py` (6 Seiten 390 px **0 px Overflow**, Screenshots `research/evidence/zuschuss-phase2-181126/`).
+4. **Teststand:** npm test EXIT 0 (Playwright 21, Partner A–F), build:launch → alle Gates grün. Deploy/Live-Readback/IndexNow: siehe launch-state 18.11. (Commit `1226382`, CI 44315045849, Live 20/20 Poll 1, IndexNow 200/6 URLs).
+5. **Blitz-Plan-Stand:** Phase 1 komplett + Phase 2 zu 2/3 (FAQ-GSC-Queries sitzungs-blockiert); Phase 3 offen (Gist Januar-2027, gutefrage P0-3, Presse-Follow-up). Success-Metrik unverändert: GSC-Position ≤10 für 3 Money-Queries oder erste validierte Leads.
 
 ### Batch 26 (2026-11-18, Cron-Lauf) — Money-Page-Refresh: treppenlift-zuschuss
 
