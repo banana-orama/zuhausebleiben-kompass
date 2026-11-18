@@ -69,9 +69,9 @@ check('related count 3', len(rel_links) == 3, str(rel_links))
 check('related all lift cluster', all('/treppenlift-' in u for u in rel_links), str(rel_links))
 check('related not self', all('treppenlift-finanzierung' not in u for u in rel_links), str(rel_links))
 
-# 5. Early-CTA: Förderung zuerst prüfen → treppenlift-zuschuss (specialMap) + kein Partner-Marker
+# 5. Early-CTA: Zuschuss bis 4.180 Euro zuerst prüfen → treppenlift-zuschuss (specialMap) + kein Partner-Marker
 check('early CTA zuschuss', 'href="https://zuhausebleiben-kompass.de/treppenlift-zuschuss.html" data-cta-id="compare_top"' in html_raw)
-check('CTA-Label Förderung zuerst', 'Förderung zuerst prüfen' in html_raw)
+check('CTA-Label Zuschuss bis 4.180 Euro', 'Zuschuss bis 4.180 Euro zuerst prüfen' in html_raw)
 check('kein Partner-Marker', 'data-partner-placement' not in html_raw)
 check('kein awin Tracker', 'awin1.com' not in html_raw)
 

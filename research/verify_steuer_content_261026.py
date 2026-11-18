@@ -61,9 +61,9 @@ used = set(int(n) for n in re.findall(r'\[(\d)\]', json.dumps(a['sections']) + j
 check('citations used ⊆ sources', used <= set(range(1, len(a['sources']) + 1)), str(sorted(used)))
 check('all 4 sources cited', used == set(range(1, 5)), str(sorted(used)))
 
-# 4. CTA-Ziele: Early-CTA compare_top → treppenlift-zuschuss ("Förderung prüfen")
+# 4. CTA-Ziele: Early-CTA compare_top → treppenlift-zuschuss ("Pflegekassen-Zuschuss prüfen")
 cta = re.search(r'data-cta-id="compare_top"[^>]*>([^<]+)<', html)
-check('early CTA compare_top → Förderung prüfen', bool(cta) and 'Förderung prüfen' in cta.group(1), cta.group(1) if cta else 'missing')
+check('early CTA compare_top → Pflegekassen-Zuschuss prüfen', bool(cta) and 'Pflegekassen-Zuschuss prüfen' in cta.group(1), cta.group(1) if cta else 'missing')
 check('early CTA target = treppenlift-zuschuss', 'treppenlift-zuschuss.html' in html[html.index('data-cta-id="compare_top"') - 200:html.index('data-cta-id="compare_top"') + 80])
 # Related-Links: alle im Lift-/Förder-Cluster, keine Care-/Bad-Funnel
 seg = html[html.index('class="related">'):html.index('class="related">') + 1200]

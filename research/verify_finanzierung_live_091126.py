@@ -44,7 +44,7 @@ if status == 200:
                    "20. November 2026", "159,17", "356d BGB", "unentgeltlichen Darlehensvertrag",
                    "09.11.2026", "KI-unterstützt"]:
         check(f"live enthält '{needle}'", needle in html)
-    check("CTA Förderung zuerst", "Förderung zuerst prüfen" in html)
+    check("CTA Zuschuss bis 4.180 Euro", "Zuschuss bis 4.180 Euro zuerst prüfen" in html)
     check("CTA-Ziel zuschuss", "href=\"https://zuhausebleiben-kompass.de/treppenlift-zuschuss.html\"" in html)
     check("kein awin-Tracker", "awin1.com" not in html)
     check("SVG-Pfad referenziert", "assets/images/treppenlift-finanzierung-wegweiser.svg" in html)

@@ -9,9 +9,9 @@ Phase 1 (Woche 1-2, ab GSC-Rankings sichtbar):
 - [ ] Titel/Intro-Matching auf reale Query-Formulierungen (Skill: seo-title-optimization, noch nicht importiert)
 - [x] Proof-Upgrade: ampel-Tabelle Antragswege (Pflegekasse vs KfW-Stopp) mit Abrufdatum — umgesetzt 18.11.: Sektion 2 „Foerderstatus heute" mit 4-Wege-Tabelle (Pflegekasse offen/455-B gestoppt mit KfW-Wortlaut/159 offen/Landesprogramme NRW+Bayern), Ledger 22/22, Content-Gate 44/44, Commit siehe launch-state 18.11.
 Phase 2 (Woche 2-3):
-- [ ] interner-Link-Verstaerkung: zuschuss-CTA-Text in kosten/mieten/finanzierung auf exakte Money-Anchor variieren
-- [ ] FAQ-Erweiterung um 2 reale GSC-Queries
-- [ ] unslop-Pass auf genau dieser Seite (Skill: unslop-seo)
+- [x] interner-Link-Verstaerkung: zuschuss-CTA-Text in kosten/mieten/finanzierung auf exakte Money-Anchor variieren — umgesetzt 18.11.: Inline-Links in kosten ("4.180 Euro je Maßnahme", §5) + mieten ("der aktuelle Förderstatus", Pflegekasse-FAQ), specialMap-Variation finanzierung "Zuschuss bis 4.180 Euro zuerst prüfen" + angebote-vergleichen "Zuschuss-Förderstatus prüfen" + steuerlich-absetzen "Pflegekassen-Zuschuss prüfen" (Duplikat-Paar 'Förderung prüfen' aufgelöst); Whitelist +1 (/treppenlift-zuschuss.html); Gate verify_zuschuss_phase2_181126.py 23 Checks.
+- [ ] FAQ-Erweiterung um 2 reale GSC-Queries (GSC-Sitzung noetig)
+- [x] unslop-Pass auf genau dieser Seite (Skill: unslop-seo) — umgesetzt 18.11.: 4 Em-Dashes entfernt (Meta-Desc + 3 Statuszellen → ':'); Direct-Answer-im-ersten-Satz + Frage-Headings + 6 FAQs bereits erfüllt (Struktur-Pass dokumentiert im Batch-Protokoll); Em-Dash-Gate pinnt jetzt das Artikel-JSON (Template-Chrome sitewide bewusst ausgenommen: Titel-Suffix, „ — geprüft"-Quellenzeile).
 Phase 3 (Woche 3-4):
 - [ ] Autoritaet: Gist-Tracker bleibt aktualisiert (Januar-2027-Pruefung), 1x gutefrage-Antwort mit quellenbelegter
       Zuschuss-Erwaehnung (P0-3), 1x Oberberg-Presse-Follow-up falls Thema passt
