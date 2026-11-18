@@ -14,6 +14,44 @@
       ]
     },
     {
+      "heading": "Förderstatus heute: Was ist beantragbar?",
+      "paragraphs": [
+        "Förderstatus ist zeitgebunden. Diese Übersicht zeigt, was beim direkten Abruf der verlinkten offiziellen Seiten am 18. November 2026 dort stand. Neben den drei Bundeswegen haben einzelne Bundesländer eigene Programme für die Wohnraumanpassung; für Nordrhein-Westfalen [NRW-Ratgeber ansehen](/region/nordrhein-westfalen.html) und Bayern [Bayern-Ratgeber ansehen](/region/bayern.html) haben wir vertiefte Ratgeber recherchiert, weitere Bundesländer folgen."
+      ],
+      "table": {
+        "headers": [
+          "Weg",
+          "Status am 18.11.2026",
+          "Was das für Ihre Planung bedeutet"
+        ],
+        "rows": [
+          [
+            "Pflegekasse (§ 40 Abs. 4 SGB XI)",
+            "Offen — Anträge sind jederzeit möglich",
+            "Ermessensleistung: Höchstbetrag 4.180 Euro je Maßnahme, kein automatischer Anspruch. Besprechen Sie das Vorhaben vor dem Auftrag.[1]"
+          ],
+          [
+            "KfW 455-B Investitionszuschuss",
+            "Gestoppt — keine neuen Anträge",
+            "KfW-Wortlaut: „Diesen Zuschuss können Sie nicht mehr beantragen“. Laufende Anträge und erteilte Zusagen bleiben unberührt; ein Neustart 2027 ist nicht zugesagt.[2]"
+          ],
+          [
+            "KfW 159 Kredit",
+            "Offen — Kredit über einen Finanzierungspartner",
+            "Kein Zuschuss: Rückzahlung, Fachunternehmen, Antrag vor dem Abschluss von Lieferungs- oder Leistungsverträgen, Vorbehalt verfügbarer Haushaltsmittel.[3]"
+          ],
+          [
+            "Landesprogramme der Bundesländer",
+            "Je Bundesland unterschiedlich",
+            "Beispiel NRW: zinsgünstige Darlehen bis 220.000 Euro. Beispiel Bayern: leistungsfreies Baudarlehen bis 10.000 Euro. Beide Wege haben eigene Voraussetzungen, Zuständigkeiten und Antragswege.[6][7]"
+          ]
+        ]
+      },
+      "paragraphs_after": [
+        "Die Region-Ratgeber nennen die offiziellen Programmseiten, Einkommensgrenzen und die zuständigen Behörden mit Prüfdatum. Für Bundesländer ohne eigenen Ratgeber ist der bundesweite Weg über die Pflegekasse der verlässliche Startpunkt."
+      ]
+    },
+    {
       "heading": "Entscheidungshilfe: Welchen Weg sollten Sie zuerst prüfen?",
       "paragraphs": [
         "Diese Tabelle ordnet Gesprächswege, nicht Ansprüche. Sie hilft Ihnen, Zuschuss, Kredit und bereits bewilligte Förderung auseinanderzuhalten. Fragen Sie nicht nur, welcher Betrag möglich ist, sondern auch, welche Kosten anerkannt werden und wann ein Auftrag geschlossen werden darf."
@@ -69,7 +107,7 @@
     {
       "heading": "KfW 455-B: Neue Anträge derzeit nicht möglich",
       "paragraphs": [
-        "Die KfW-Produktseite wurde am 16. November 2026 direkt im Browser geprüft. Sie meldet, dass die Fördermittel für Barrierereduzierung ausgeschöpft sind und keine neuen Anträge mehr gestellt werden können.[2] Wir übernehmen keinen unbelegten Stichtag für den Beginn des Stopps. Maßgeblich ist der beim Abruf sichtbare aktuelle Status, nicht eine ältere Suchbeschreibung.",
+        "Die KfW-Produktseite wurde am 18. November 2026 direkt abgerufen und geprüft. Sie meldet, dass die Fördermittel für Barrierereduzierung ausgeschöpft sind und keine neuen Anträge mehr gestellt werden können.[2] Wir übernehmen keinen unbelegten Stichtag für den Beginn des Stopps. Maßgeblich ist der beim Abruf sichtbare aktuelle Status, nicht eine ältere Suchbeschreibung.",
         "Bereits eingereichte Anträge werden laut KfW weiter bearbeitet. Wer die Voraussetzungen erfüllt, erhält eine Zusage; mit einer erteilten Zusage ist der Zuschuss reserviert und wird nach Nachweis der Fördervoraussetzungen ausgezahlt.[2] Ein vorhandener Antrag ist deshalb anders zu behandeln als die Absicht, heute erstmals einen Antrag zu stellen.",
         "Eine neue Antragstellung wäre nach Aussage der KfW wieder möglich, falls 2027 erneut Bundesmittel bereitgestellt werden.[2] Das ist keine bestätigte Wiederöffnung. Warten Sie nicht auf Grundlage einer solchen Hoffnung mit einer notwendigen Lösung und planen Sie den unbewilligten Zuschuss nicht fest ein. Besprechen Sie tragbare Alternativen mit Ihren Ansprechpartnern und prüfen Sie den Status erneut, bevor Sie handeln."
       ]
@@ -172,7 +210,7 @@
     },
     {
       "question": "Kann ich 455-B jetzt neu beantragen?",
-      "answer": "Beim direkten Abruf am 16. November 2026 lautete die KfW-Aussage: keine neuen Anträge wegen ausgeschöpfter Fördermittel. Laufende Anträge und erteilte Zusagen sind nicht vom Antragstopp betroffen; ein möglicher Neustart 2027 hängt von neuen Bundesmitteln ab.[2]"
+      "answer": "Beim direkten Abruf am 18. November 2026 lautete die KfW-Aussage: keine neuen Anträge wegen ausgeschöpfter Fördermittel. Laufende Anträge und erteilte Zusagen sind nicht vom Antragstopp betroffen; ein möglicher Neustart 2027 hängt von neuen Bundesmitteln ab.[2]"
     },
     {
       "question": "Kann ich Pflegekassenzuschuss und KfW-159-Kredit für denselben Lift kombinieren?",
@@ -187,17 +225,17 @@
     {
       "title": "[1] § 40 SGB XI – insbesondere Absatz 4",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
-      "checked_at": "2026-11-16"
+      "checked_at": "2026-11-18"
     },
     {
       "title": "KfW 455-B – aktueller Antragstatus (Barrierereduzierung)",
       "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/Förderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
-      "checked_at": "2026-11-16"
+      "checked_at": "2026-11-18"
     },
     {
       "title": "[3] KfW 159 – Altersgerecht Umbauen, Kredit",
       "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Förderprodukte/Altersgerecht-Umbauen-(159)/",
-      "checked_at": "2026-11-16"
+      "checked_at": "2026-11-18"
     },
     {
       "title": "[4] BMG – Zuschüsse zur Wohnungsanpassung",
@@ -208,6 +246,16 @@
       "title": "[5] § 554 BGB – bauliche Veränderungen in der Mietwohnung",
       "url": "https://www.gesetze-im-internet.de/bgb/__554.html",
       "checked_at": "2026-10-19"
+    },
+    {
+      "title": "[6] NRW.BANK – Barrierefrei umbauen (Eigentumsförderung – Modernisierung, Wohnraumförderung des Landes NRW)",
+      "url": "https://www.nrwbank.de/de/privatpersonen/wohneigentum-gestalten/barrierefrei-umbauen",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "title": "[7] Bayerisches Staatsministerium für Wohnen, Bau und Verkehr – Barrierefreies Wohnen (leistungsfreies Baudarlehen bis 10.000 Euro)",
+      "url": "https://www.stmb.bayern.de/wohnen/wohnraum_nutzen/barrierefreieswohnen/",
+      "checked_at": "2026-11-18"
     }
   ],
   "image": {

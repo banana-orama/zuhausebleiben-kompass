@@ -1,6 +1,8 @@
 import {readFileSync,readdirSync} from 'node:fs';
 import {join} from 'node:path';
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+// Inline-Links in Artikeldaten ([Label](/pfad.html)): nur whitelisted-intern, unbekannte Ziele brechen den Build.
+const INLINE_LINK_HREFS=['/region/nordrhein-westfalen.html','/region/bayern.html'];
 const safeJson=d=>JSON.stringify(d).replace(/</g,'\\u003c');
 function loadPartnerConfig(root){
  const p=process.env.PARTNER_LINKS_CONFIG||join(root,'data/partner-links.json');
@@ -58,7 +60,11 @@ export function renderArticles(root,base,closing){
   for(const t of targets)if(t===src||!slugs.has(t))throw Error('Cross-links config invalid target '+src+' -> '+t);
  }
  return articles.map(a=>{
-  const txt=s=>esc(s).replace(/\[(\d+)\]/g,(m,n)=>{
+  const txt=s=>esc(s).replace(/\[([^\[\]]+)\]\((\/[a-z0-9\/\-]+\.html)\)/g,(m,label,href)=>{
+   if(/^\d+$/.test(label))throw Error('Citation-style label in inline link '+a.slug+':'+m);
+   if(!INLINE_LINK_HREFS.includes(href))throw Error('Unallowed inline link target '+a.slug+':'+href);
+   return `<a href="${url(href)}">${label}</a>`;
+  }).replace(/\[(\d+)\]/g,(m,n)=>{
    if(!a.sources[Number(n)-1])throw Error('Missing citation '+a.slug+':'+n);
    return `<sup class="cite"><a href="#source-${n}" aria-label="Quelle ${n}">[${n}]</a></sup>`;
   });

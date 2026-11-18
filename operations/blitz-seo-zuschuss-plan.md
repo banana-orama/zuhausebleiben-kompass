@@ -7,7 +7,7 @@ alle 16 Lift-Artikel verlinken rein (0 fehlend), SVG foerderablauf live, Gist-Kf
 Phase 1 (Woche 1-2, ab GSC-Rankings sichtbar):
 - [ ] GSC-Query-Extrakt: welche Queries zeigen Seite 2-3? (Desktop-Fenster/Google-Login noetig)
 - [ ] Titel/Intro-Matching auf reale Query-Formulierungen (Skill: seo-title-optimization, noch nicht importiert)
-- [ ] Proof-Upgrade: ampel-Tabelle Antragswege (Pflegekasse vs KfW-Stopp) mit Abrufdatum
+- [x] Proof-Upgrade: ampel-Tabelle Antragswege (Pflegekasse vs KfW-Stopp) mit Abrufdatum — umgesetzt 18.11.: Sektion 2 „Foerderstatus heute" mit 4-Wege-Tabelle (Pflegekasse offen/455-B gestoppt mit KfW-Wortlaut/159 offen/Landesprogramme NRW+Bayern), Ledger 22/22, Content-Gate 44/44, Commit siehe launch-state 18.11.
 Phase 2 (Woche 2-3):
 - [ ] interner-Link-Verstaerkung: zuschuss-CTA-Text in kosten/mieten/finanzierung auf exakte Money-Anchor variieren
 - [ ] FAQ-Erweiterung um 2 reale GSC-Queries
