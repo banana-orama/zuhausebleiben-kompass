@@ -1,8 +1,10 @@
-# Aroundhome DE (Awin 68536) — formale Bewerbung abgeschickt
+# Aroundhome DE (Awin 68536) — Ablehnung + Fix + Cooldown (Stand 19.11.)
 
-**Datum:** 17.11.2026 (Abend)
-**Kontext:** Direktaustausch mit Artefact (Katharina Folker) seit 12.11.; sie konnte die Bewerbung im Panel nicht finden (17.11.) — tatsächlich war der Netzwerk-Dialog nie abgeschlossen.
-**Aktion:** Im Awin-Panel (Publisher 3124891): „Bei Programm bewerben" → Promotion „Content" → Bewerbungstext (34 Ratgeber, organisch, kein SEM, keine Datenerhebung, Malteser-Referenz, Artefact-Bezug, Betreiber Nümbrecht) → AGB gecheckt → Absenden. **Readback: „Bewerbung offen".**
-**Info-Mail an Artefact:** katharina.folker@ (CC leidloff/frank/babajeva) — Freigabe-Anstoß, 17.11., SMTP 250.
-**Konditionen (aus dem Dialog + Artefact-Mails):** 30 % Revenue Share auf gematchte Leads (Regelfall), Cookie 30 Tage, Autobestätigung 30 Tage, Validierung ~8 Tage (Profilangabe), Risikostufe 2. Test via Awin vereinbart; Start mit Textlinks (kein Deeplinking freigeschaltet — Zielseiten-Absprache offen).
-**Nächster Schritt:** Nach Freigabe → Tracker bauen → data/partner-links.json (approved, placements auf Badumbau-Cluster) → test:partner → Deploy → Readback.
+**19.11. Ablehnung:** Grund laut Panel: „Kein vollständiges Impressum (USt-IdNr. bzw. Kleinunternehmer-Status fehlen)".
+**Fix 19.11. (live, CI 44533904631):** Impressum um USt-IdNr. DE305157036 (§ 27a UStG) ergänzt (Nutzer-Angabe 19.11., Widget-Antwort);
+veraltete Aussage „Angebotsvermittlung ist noch nicht eingerichtet" aus Impressum + Footer + 40 Artikel-Leadzeilen entfernt
+(ersetzt durch korrekte Affiliate-Kennzeichnungs-Angabe). Wichtig: neues Impressum-Wording ohne rohes rel="sponsored"-Attribut
+(Partner-Marker-Gate). Cooldown im Panel: erneute Bewerbung erst **20.12.2026**.
+**Artefact-Kommunikation:** Impressum-Fix-Mail 19.11. (SMTP 250) + Invite-Bitte (Programm-Einladung an PID 3124891 umgeht
+die Sperrfrist) 19.11. (SMTP 250, CC Leidloff/Frank/Babajeva).
+**Plan A:** Artefact lädt ein → sofort Platzierungen (partner-links.json Gate). **Plan B:** Re-Apply 20.12. mit Traffic-Update.
