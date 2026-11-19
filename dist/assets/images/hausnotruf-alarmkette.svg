@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Hausnotruf-Alarmkette: vom Knopfdruck bis zur organisierten Hilfe</title>
+<desc id="desc">Schematische Alarmkette ohne Personen und ohne konkretes Anbieterprodukt: Schritt 1 Knopf druecken (Armband, Kette oder Basisstation, oder automatisch durch Sturzerkennung), Schritt 2 die rund um die Uhr besetzte Zentrale nimmt den Alarm ab und sieht die hinterlegten Daten, Schritt 3 Sprechkontakt ueber den Freisprecher der Basisstation. Dann verzweigt der Ablauf: bei erkennbarem medizinischem Notfall kommt der Rettungsdienst, sonst greift der vereinbarte Alarmplan mit Angehoerigen, Schlüsselkontakt oder Bereitschaftsdienst. Hinweis auf stillen Alarm: antwortet niemand, alarmiert die Zentrale trotzdem. Fussnote: Ablaeufe unterscheiden sich je nach Anbieter und Vertrag.</desc>
+<rect width="1200" height="800" fill="#f7f5ef"/>
+<text x="44" y="48" fill="#245b47" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">HAUSNOTRUF · ALARMKETTE</text>
+<text x="44" y="106" fill="#243b35" font-family="Georgia,'Times New Roman',serif" font-size="42">Was nach dem Knopfdruck passiert</text>
+
+<rect x="44" y="170" width="340" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<circle cx="84" cy="212" r="26" fill="#b3402e"/>
+<text x="84" y="220" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">1</text>
+<text x="124" y="220" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Knopf drücken</text>
+<text x="68" y="256" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Armband oder Kette — oder</text>
+<text x="68" y="284" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">automatisch: Sturzerkennung</text>
+
+<rect x="430" y="170" width="340" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<circle cx="470" cy="212" r="26" fill="#245b47"/>
+<text x="470" y="220" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">2</text>
+<text x="510" y="220" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Zentrale nimmt ab</text>
+<text x="454" y="256" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">rund um die Uhr besetzt;</text>
+<text x="454" y="284" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">hinterlegte Daten erscheinen</text>
+
+<rect x="816" y="170" width="340" height="150" rx="14" fill="#ffffff" stroke="#245b47" stroke-width="3"/>
+<circle cx="856" cy="212" r="26" fill="#245b47"/>
+<text x="856" y="220" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">3</text>
+<text x="896" y="220" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600">Sprechkontakt</text>
+<text x="840" y="256" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Freisprecher der Basisstation,</text>
+<text x="840" y="284" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">auch aus angrenzenden Räumen</text>
+
+<path d="M386 245 H424" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round"/>
+<path d="M418 237 l10 8 -10 8" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M772 245 H810" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round"/>
+<path d="M804 237 l10 8 -10 8" fill="none" stroke="#245b47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+<path d="M986 322 V344 H317 V374" fill="none" stroke="#b3402e" stroke-width="3" stroke-linecap="round"/>
+<path d="M311 366 l6 10 6 -10" fill="none" stroke="#b3402e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M986 322 V358 H883 V374" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round"/>
+<path d="M877 366 l6 10 6 -10" fill="none" stroke="#245b47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect x="44" y="380" width="546" height="180" rx="14" fill="#fbeeea" stroke="#b3402e" stroke-width="3"/>
+<circle cx="84" cy="432" r="26" fill="#b3402e"/>
+<text x="84" y="440" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">4</text>
+<text x="124" y="440" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">Medizinischer Notfall erkennbar</text>
+<text x="68" y="476" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">die Zentrale alarmiert sofort</text>
+<text x="68" y="504" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">den Rettungsdienst; möglich sind</text>
+<text x="68" y="532" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">auch Feuerwehr oder Polizei</text>
+
+<rect x="610" y="380" width="546" height="180" rx="14" fill="#eef3ec" stroke="#245b47" stroke-width="3"/>
+<circle cx="650" cy="432" r="26" fill="#245b47"/>
+<text x="650" y="440" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">5</text>
+<text x="690" y="440" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">Kein erkennbarer Notfall</text>
+<text x="634" y="476" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">der vereinbarte Alarmplan greift:</text>
+<text x="634" y="504" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Angehörige oder Schlüsselkontakt,</text>
+<text x="634" y="532" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Bereitschaftsdienst vor Ort</text>
+
+<rect x="44" y="600" width="1112" height="118" rx="14" fill="#eae4d5" stroke="#d8dfd6" stroke-width="2"/>
+<circle cx="100" cy="646" r="26" fill="#243b35"/>
+<text x="100" y="654" fill="#ffffff" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle">6</text>
+<text x="142" y="654" fill="#243b35" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">Stiller Alarm und Fehlalarm</text>
+<text x="142" y="684" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Kein Sprechkontakt: die Zentrale alarmiert in jedem Fall Bereitschafts- oder Rettungsdienst.</text>
+<text x="142" y="710" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="19">Fehlalarm: Verbindung abwarten, kurz erklären — laut BMG-Portal kein Problem.</text>
+
+<path d="M44 742 H1156" fill="none" stroke="#d8dfd6" stroke-width="2"/>
+<text x="44" y="764" fill="#53655e" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="17">Ablauf und Einsatzregeln unterscheiden sich je nach Anbieter und Vertrag — maßgeblich ist Ihr Vertrag.</text>
+<text x="44" y="788" fill="#8a958f" font-family="'Avenir Next','Segoe UI',Arial,sans-serif" font-size="17">Grafik: ZuhauseBleiben Kompass · KI-unterstützt · schematisch nach Portal- und Herstellerangaben (Stand 13.11.2026)</text>
+</svg>

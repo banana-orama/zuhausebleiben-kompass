@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 760" width="980" height="760" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Smartwatch oder Handy statt Hausnotruf: drei Wege im Vergleich</title>
+  <desc id="gdesc">Drei Wege zum Notruf im Vergleich. Weg 1 klassischer Hausnotruf mit Zentrale: Knopf druecken, die besetzte Zentrale nimmt ab und organisiert die weitere Hilfe, Akku ueberbrueckt 10 bis 20 Stunden Stromausfall, meist 27 bis 40 Euro monatlich laut Verbraucherzentrale, Grenze bei Demenz weniger geeignet. Weg 2 Smartwatch mit Sturzerkennung: Sturzsensor im Armband, Apple Watch, Galaxy Watch oder Senioren-Smartwatch, eigene SIM oder Kopplung ans Handy mit eventuellen Mobilfunkkosten, einmalig ab 50 Euro bis mehrere hundert Euro laut Portalangabe, Grenze keine Zentrale und taegliche Lade-Routine. Weg 3 Handy mit Notruf-App: Geraet meist vorhanden, Ausloesung selbst konfiguriert, keine Euro-Angabe in den geprueften Quellen, Grenze niemand organisiert die Hilfe wenn die hinterlegten Kontakte besetzt sind. Prueffrage vor jedem Kauf: wer nimmt im Notfall ab. Bei Demenz sind beide Ersetzungs-Wege primaer nicht geeignet. Stand 16.11.2026.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .step{font-size:17px;font-weight:700;fill:#194533}
+    .d{font-size:13.5px;fill:#243b35}
+    .d2{font-size:13.5px;fill:#53655e}
+    .num{font-size:16px;font-weight:700;fill:#ffffff}
+    .cost{font-size:12.5px;font-weight:700;fill:#194533}
+    .g{font-size:12.5px;font-weight:700;fill:#8a4a12}
+    .gl{font-size:12.5px;fill:#5c4a35}
+    .card{fill:#f4f7f5;stroke:#d8e2dc;stroke-width:1.5}
+    .chip{fill:#e4efe9;stroke:#bcd3c6;stroke-width:1}
+    .band{fill:#eef4f0;stroke:#c9dcd0;stroke-width:1.5}
+    .bh{font-size:18px;font-weight:700;fill:#194533}
+    .fine{font-size:11.5px;fill:#53655e}
+  </style>
+
+  <text class="h" x="60" y="48">Smartwatch oder Handy statt Hausnotruf?</text>
+  <text class="sub" x="60" y="74">Drei Wege im Vergleich — die belegten Angaben und die Grenze, die alle Wege teilen.</text>
+
+  <rect class="card" x="60" y="96" width="260" height="400" rx="10"/>
+  <circle cx="84" cy="122" r="14" fill="#194533"/>
+  <text class="num" x="84" y="128" text-anchor="middle">1</text>
+  <text class="step" x="108" y="128">Klassisch mit Zentrale</text>
+  <text class="d" x="76" y="158">Knopf drücken: die besetzte</text>
+  <text class="d" x="76" y="178">Zentrale nimmt ab und</text>
+  <text class="d" x="76" y="198">organisiert die Hilfe[1][5]</text>
+  <text class="d" x="76" y="226">Akku überbrückt 10 bis 20</text>
+  <text class="d" x="76" y="246">Stunden Stromausfall[1]</text>
+  <text class="d" x="76" y="274">Fehlersignale bei Störung</text>
+  <text class="d" x="76" y="294">gefordert (ADAC)[3]</text>
+  <rect class="chip" x="76" y="314" width="228" height="44" rx="7"/>
+  <text class="cost" x="88" y="332">meist 27 bis 40 Euro/Monat,</text>
+  <text class="cost" x="88" y="349">Zusatzleistungen +30 bis 80 (VZ)[1]</text>
+  <text class="g" x="76" y="386">Grenze: bei Demenz weniger</text>
+  <text class="gl" x="76" y="404">geeignet — Knopf wird oft nicht</text>
+  <text class="gl" x="76" y="422">gezielt ausgelöst[1][4]</text>
+  <text class="d2" x="76" y="468">Pflegekasse: bis zu 27 Euro/Monat,</text>
+  <text class="d2" x="76" y="486">seit 1. April 2026, mit Voraussetzungen[1][3]</text>
+
+  <rect class="card" x="360" y="96" width="260" height="400" rx="10"/>
+  <circle cx="384" cy="122" r="14" fill="#194533"/>
+  <text class="num" x="384" y="128" text-anchor="middle">2</text>
+  <text class="step" x="408" y="128">Smartwatch mit Sensor</text>
+  <text class="d" x="376" y="158">Sturzsensor im Armband[6]</text>
+  <text class="d" x="376" y="178">Apple Watch, Galaxy Watch,</text>
+  <text class="d" x="376" y="198">Senioren-Smartwatches[6]</text>
+  <text class="d" x="376" y="226">eigene SIM oder Kopplung</text>
+  <text class="d" x="376" y="246">ans Handy; Mobilfunk</text>
+  <text class="d" x="376" y="266">kostet ggf. extra[6]</text>
+  <text class="d" x="376" y="294">Nachteile laut pflege.de:</text>
+  <text class="d" x="376" y="314">tägliches Laden, Fehlalarm[6]</text>
+  <rect class="chip" x="376" y="334" width="228" height="44" rx="7"/>
+  <text class="cost" x="388" y="352">einmalig ab 50 Euro bis mehrere</text>
+  <text class="cost" x="388" y="369">hundert Euro (Portalangabe)[6]</text>
+  <text class="g" x="376" y="406">Grenze: keine Zentrale —</text>
+  <text class="gl" x="376" y="424">Hilfe hängt an der Konfiguration[5]</text>
+  <text class="gl" x="376" y="442">„Geeignet für technisch</text>
+  <text class="gl" x="376" y="460">versierte Nutzer“ (pflege.de)[6]</text>
+  <text class="d2" x="376" y="486">Kassen-Anerkennung: Einzelfall[1]</text>
+
+  <rect class="card" x="660" y="96" width="260" height="400" rx="10"/>
+  <circle cx="684" cy="122" r="14" fill="#194533"/>
+  <text class="num" x="684" y="128" text-anchor="middle">3</text>
+  <text class="step" x="708" y="128">Handy mit Notruf-App</text>
+  <text class="d" x="676" y="158">Notruf-App auf dem eigenen</text>
+  <text class="d" x="676" y="178">Smartphone[2]</text>
+  <text class="d" x="676" y="206">Gerät ist meist schon vorhanden</text>
+  <text class="d" x="676" y="234">Auslösung und Meldeweg</text>
+  <text class="d" x="676" y="254">konfiguriert man selbst[2]</text>
+  <text class="d" x="676" y="282">ADAC-Maßstab für Notrufgeräte:</text>
+  <text class="d" x="676" y="302">einfacher als ein Handy[3]</text>
+  <rect class="chip" x="676" y="322" width="228" height="44" rx="7"/>
+  <text class="cost" x="688" y="340">keine Euro-Angabe in den</text>
+  <text class="cost" x="688" y="357">geprüften Quellen</text>
+  <text class="g" x="676" y="394">Grenze: niemand organisiert</text>
+  <text class="gl" x="676" y="412">die Hilfe, wenn die hinterlegten</text>
+  <text class="gl" x="676" y="430">Kontakte besetzt sind[5]</text>
+  <text class="d2" x="676" y="458">Telefon „nicht immer rechtzeitig</text>
+  <text class="d2" x="676" y="476">erreichbar“ in Notsituationen[2]</text>
+
+  <rect class="band" x="60" y="524" width="860" height="150" rx="10"/>
+  <text class="bh" x="88" y="560">Die Prüffrage vor jedem Kauf: Wer nimmt im Notfall ab?</text>
+  <text class="d" x="88" y="588">Mit Zentrale organisiert ein Dienst die Hilfe; ohne Zentrale hängt alles an erreichbaren Kontakten — bei allen drei Wegen.[5]</text>
+  <text class="d" x="88" y="612">Bei Demenz sind alle Knopf- und Touch-Wege primär nicht geeignet (VZ „weniger geeignet“, VdK „ungeeignet“);[1][4]</text>
+  <text class="d" x="88" y="636">Ausnahme-Pfad laut gesund.bund.de: mobiles System mit Ortung und automatischer Sturzerkennung, im Einzelfall.[2]</text>
+
+  <text class="fine" x="60" y="712">Quellen: Verbraucherzentrale, gesund.bund.de, ADAC (13.10.2026), VdK Hamburg, Deutsche Alzheimer Gesellschaft, pflege.de — geprüft 16.11.2026.</text>
+  <text class="fine" x="60" y="732">Grafik: ZuhauseBleiben Kompass, eigene Darstellung, KI-unterstützt. Allgemeine Orientierung, keine Produktberatung.</text>
+</svg>

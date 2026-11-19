@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 570" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Ablauf vom Aufmaß-Termin zum Festpreis</title>
+  <desc id="d1">Fuenf Baender in Schrittfolge: Band 1 Termin vereinbaren (erster Kontakt unverbindlich, kein Kaufabschluss), Band 2 Aufmass vor Ort (Treppe ausmessen, Schiene sitzt auf den Stufen, nicht an der Wand), Band 3 Festpreis-Angebot (schriftlich mit Modell, Hersteller, Lieferzeit, Einbaudauer, Wartung), Band 4 Bedenkzeit und Vergleich (nur gleichartige Angebote vergleichen, zwei bis drei Aufmasse einholen, keine Unterschrift am Termin noetig), Band 5 Bestellung mit Widerrufsrecht (14 Tage bei Abschluss in Wohnung oder am Telefon, ohne Belehrung 12 Monate und 14 Tage). Stand 12.11.2026.</desc>
+  <rect width="780" height="570" fill="#f4f7f5"/>
+  <rect width="780" height="64" fill="#1e5f4b"/>
+  <text x="24" y="40" font-size="21" font-weight="700" fill="#ffffff">Vom Aufmaß-Termin zum Festpreis</text>
+  <rect x="24" y="72" width="732" height="2" fill="#d8e2dc"/>
+
+  <!-- Band 1: Termin vereinbaren -->
+  <rect x="24" y="88" width="732" height="84" rx="12" fill="#ffffff" stroke="#d8e2dc"/>
+  <circle cx="52" cy="120" r="12" fill="#1e5f4b"/>
+  <text x="52" y="125" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="76" y="122" font-size="14.5" font-weight="700" fill="#243b35">Termin vereinbaren</text>
+  <text x="76" y="146" font-size="12.5" fill="#53655e">Erster Kontakt unverbindlich — kein Kaufabschluss</text>
+
+  <!-- Band 2: Aufmaß vor Ort -->
+  <rect x="24" y="184" width="732" height="84" rx="12" fill="#ffffff" stroke="#d8e2dc"/>
+  <circle cx="52" cy="216" r="12" fill="#1e5f4b"/>
+  <text x="52" y="221" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="76" y="218" font-size="14.5" font-weight="700" fill="#243b35">Aufmaß vor Ort</text>
+  <text x="76" y="242" font-size="12.5" fill="#53655e">Treppe ausmessen; Schiene sitzt auf den Stufen, nicht an der Wand</text>
+
+  <!-- Band 3: Festpreis-Angebot -->
+  <rect x="24" y="280" width="732" height="84" rx="12" fill="#ffffff" stroke="#d8e2dc"/>
+  <circle cx="52" cy="312" r="12" fill="#1e5f4b"/>
+  <text x="52" y="317" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="76" y="314" font-size="14.5" font-weight="700" fill="#243b35">Festpreis-Angebot</text>
+  <text x="76" y="338" font-size="12.5" fill="#53655e">Schriftlich: Modell, Hersteller, Lieferzeit, Einbaudauer, Wartung</text>
+
+  <!-- Band 4: Bedenkzeit und Vergleich -->
+  <rect x="24" y="376" width="732" height="84" rx="12" fill="#ffffff" stroke="#d8e2dc"/>
+  <circle cx="52" cy="408" r="12" fill="#3a7d5c"/>
+  <text x="52" y="413" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="76" y="410" font-size="14.5" font-weight="700" fill="#243b35">Bedenkzeit und Vergleich</text>
+  <text x="76" y="432" font-size="12.5" fill="#53655e">Nur gleichartige Angebote vergleichen — 2–3 Aufmaße einholen</text>
+  <rect x="76" y="438" width="236" height="20" rx="10" fill="#faf3e3" stroke="#77521c"/>
+  <text x="86" y="452" font-size="11.5" font-weight="600" fill="#77521c">Keine Unterschrift am Termin nötig</text>
+
+  <!-- Band 5: Bestellung mit Widerrufsrecht -->
+  <rect x="24" y="472" width="732" height="84" rx="12" fill="#ffffff" stroke="#d8e2dc"/>
+  <circle cx="52" cy="504" r="12" fill="#3a7d5c"/>
+  <text x="52" y="509" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="76" y="506" font-size="14.5" font-weight="700" fill="#243b35">Bestellung — mit Widerrufsrecht</text>
+  <text x="76" y="530" font-size="12.5" fill="#53655e">14 Tage Widerruf (Wohnung/Telefon); ohne Belehrung 12 Monate + 14 Tage</text>
+</svg>

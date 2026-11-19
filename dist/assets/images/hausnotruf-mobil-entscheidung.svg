@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 760" width="980" height="760" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Mobiler Hausnotruf: der Entscheidungsweg in sechs Schritten</title>
+  <desc id="gdesc">Ablaufschema: Schritt 1 Alltagsfrage klaeren: ueberwiegend Zuhause, regelmaessig allein unterwegs oder beides. Schritt 2 Reichweite konkret pruefen: stationaer reichen Portalangaben zufolge 30 bis 50 Meter, 50 bis 100 Meter oder bis 150 Meter, mobil gilt Netzabdeckung an den eigenen Orten. Schritt 3 Notrufzentrale rund um die Uhr sichern, nicht nur App oder Uhr: eine leere Uhr schuetzt nicht. Schritt 4 Kosten in Bausteinen aufschluesseln: Grundgebuehr, GPS-Aufpreis 10 bis 25 Euro je Portal beziehungsweise 30 bis 80 Euro Zusatz laut Verbraucherzentrale, Sturzerkennung rund 5 bis 10 Euro, einmalige Einrichtung. Schritt 5 Pflegekasse fragen: Basistarif bis 27 Euro bei Pflegegrad unter Voraussetzungen, Anbieter muss Vertragspartner sein, Hilfsmittel-Weg mit Position 52.40.01, Zuzahlung zehn Prozent hoechstens 25 Euro, Entscheidung in drei bis fuenf Wochen. Schritt 6 Alltag sichern: Lade-Routine einplanen, bei Ortung oder Demenz Zustimmung und Vorsorgevollmacht klaeren, Geofencing gezielt anfragen. Stand 04.11.2026.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .step{font-size:17px;font-weight:700;fill:#194533}
+    .d{font-size:13.5px;fill:#243b35}
+    .d2{font-size:13.5px;fill:#53655e}
+    .num{font-size:18px;font-weight:700;fill:#ffffff}
+    .fine{font-size:12.5px;fill:#53655e}
+    .conn{stroke:#8aa094;stroke-width:2.5}
+  </style>
+
+  <rect width="980" height="760" fill="#ffffff"/>
+  <text class="h" x="60" y="58">Mobiler Hausnotruf: der Entscheidungsweg in sechs Schritten</text>
+  <text class="sub" x="60" y="84">Stationaer oder mobil mit GPS. Allgemeine Orientierung, keine Produkt- oder Rechtsberatung.</text>
+
+  <!-- Schritt 1 -->
+  <circle cx="92" cy="148" r="22" fill="#194533"/>
+  <text class="num" x="92" y="155" text-anchor="middle">1</text>
+  <text class="step" x="136" y="142">Alltagsfrage klaeren: Wo sind Sie tagsueber?</text>
+  <text class="d" x="136" y="164">Ueberwiegend Zuhause: stationaer reicht meist. Regelmaessig allein unterwegs: mobil mit GPS.</text>
+  <text class="d2" x="136" y="184">Beides: Kombi-Loesung beim Anbieter erfragen — Portal-Einschaetzung: ohne draussen-Mehrwert sparen.</text>
+
+  <line class="conn" x1="92" y1="170" x2="92" y2="236"/>
+
+  <!-- Schritt 2 -->
+  <circle cx="92" cy="258" r="22" fill="#194533"/>
+  <text class="num" x="92" y="265" text-anchor="middle">2</text>
+  <text class="step" x="136" y="252">Reichweite konkret pruefen</text>
+  <text class="d" x="136" y="274">Stationaer: Portalangaben 30–50 m, 50–100 m oder bis 150 m — fuer Ihr Haus samt Garten erfragen.</text>
+  <text class="d2" x="136" y="294">Mobil: Netzabdeckung an Ihren Aufenthaltsorten pruefen; vor Reisen Erreichbarkeit der Zentrale klaeren.</text>
+
+  <line class="conn" x1="92" y1="280" x2="92" y2="346"/>
+
+  <!-- Schritt 3 -->
+  <circle cx="92" cy="368" r="22" fill="#194533"/>
+  <text class="num" x="92" y="375" text-anchor="middle">3</text>
+  <text class="step" x="136" y="362">Notrufzentrale rund um die Uhr sichern</text>
+  <text class="d" x="136" y="384">Professionelle 24/7-Zentrale ist die Basis — Notruf-App, Uhr oder Handy ersetzen sie nicht.</text>
+  <text class="d2" x="136" y="404">„Eine leere Uhr schuetzt nicht“: Display-Geraete muessen taeglich geladen werden.</text>
+
+  <line class="conn" x1="92" y1="390" x2="92" y2="456"/>
+
+  <!-- Schritt 4 -->
+  <circle cx="92" cy="478" r="22" fill="#194533"/>
+  <text class="num" x="92" y="485" text-anchor="middle">4</text>
+  <text class="step" x="136" y="472">Kosten in Bausteinen aufschluesseln</text>
+  <text class="d" x="136" y="494">GPS-Aufpreis 10–25 €/Monat (Portal) bzw. 30–80 € Zusatz (VZ); Sturzerkennung rund 5–10 €/Monat.</text>
+  <text class="d2" x="136" y="514">Gesamt-Spannen je Quelle 30–50 € oder 35–70 €/Monat — einzelnen Angebotstext verlangen.</text>
+
+  <line class="conn" x1="92" y1="500" x2="92" y2="566"/>
+
+  <!-- Schritt 5 (hervorgehoben) -->
+  <rect x="60" y="552" width="860" height="80" rx="10" fill="#fdf6e3" stroke="#e3d9b8"/>
+  <circle cx="92" cy="596" r="22" fill="#194533"/>
+  <text class="num" x="92" y="603" text-anchor="middle">5</text>
+  <text class="step" x="136" y="590">Pflegekasse fragen: Basistarif oder Hilfsmittel-Weg</text>
+  <text class="d" x="136" y="610">Basistarif bis 27 €/Monat bei Pflegegrad unter Voraussetzungen (Vertragspartner-Anbieter, MD-Pruefung).</text>
+  <text class="d2" x="136" y="630">Hilfsmittelverzeichnis 52.40.01 mit mobilen Geraeten; Zuzahlung 10 %, max. 25 €; Entscheidung in 3–5 Wochen.</text>
+
+  <line class="conn" x1="92" y1="632" x2="92" y2="676"/>
+
+  <!-- Schritt 6 -->
+  <circle cx="92" cy="698" r="22" fill="#194533"/>
+  <text class="num" x="92" y="705" text-anchor="middle">6</text>
+  <text class="step" x="136" y="692">Alltag sichern: Laden-Routine und Zustimmung</text>
+  <text class="d" x="136" y="712">Akku 1–7 Tage (je Quelle): Ladeplatz + Routine festlegen; leerer Knopf schuetzt nicht.</text>
+  <text class="d2" x="136" y="732">Bei Ortung/Demenz: Zustimmung einholen, Vorsorgevollmacht klaeren, Geofencing gezielt anfragen.</text>
+
+  <text class="fine" x="60" y="752">Stand 04.11.2026 · Quellen und Spannen mit Belegen im Ratgeber · eigene Darstellung, KI-unterstuetzt · keine Rechts- oder Produktberatung</text>
+</svg>

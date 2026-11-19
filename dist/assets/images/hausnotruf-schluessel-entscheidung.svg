@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 840" width="980" height="840" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Schluesselfrage beim Hausnotruf: vier Wege im Vergleich</title>
+  <desc id="gdesc">Vier Wege zur Schluesselhinterlegung: Weg 1 Zweitschluessel bei Angehoerigen oder Nachbarn, schnell, aber mit Erreichbarkeits-Luecke nachts, im Urlaub oder bei Krankheit, ohne Miete. Weg 2 Verwahrung beim Hausnotruf-Dienst, Malteser nennt als Herstellerangabe 365 Tage und 24 Stunden Bereitschaft, Portalangabe etwa 15 Euro monatlich. Weg 3 Pflegedienst oder Wohlfahrtsverband oeffnet selbst, meist gekoppelte Zusatzleistung, keine Zahl bei den geprueften Quellen. Weg 4 Schluesseltresor mit Zahlencode, Leitstelle gibt Code an Einsatzkraefte weiter, einmalig 30 bis 100 Euro mit streuenden Portalangaben. Praxis-Empfehlung: zwei Wege kombinieren. Ohne hinterlegten Schluessel bleibt nur die Tueroeffnung durch Feuerwehr oder Schluesseldienst mit unterschiedlich hohen Kosten. Stand 06.11.2026.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .step{font-size:17px;font-weight:700;fill:#194533}
+    .d{font-size:13.5px;fill:#243b35}
+    .d2{font-size:13.5px;fill:#53655e}
+    .num{font-size:18px;font-weight:700;fill:#ffffff}
+    .cost{font-size:12.5px;font-weight:700;fill:#194533}
+    .costsub{font-size:12px;fill:#53655e}
+    .chip{fill:#e8f0ec;stroke:#b9cdc2}
+    .fine{font-size:12.5px;fill:#53655e}
+    .foot{font-size:13.5px;font-weight:700;fill:#7a3b2e}
+    .footsub{font-size:13px;fill:#53655e}
+  </style>
+
+  <rect width="980" height="840" fill="#ffffff"/>
+  <text class="h" x="60" y="58">Schluesselfrage beim Hausnotruf: vier Wege im Vergleich</text>
+  <text class="sub" x="60" y="84">Belegte Portal- und Herstellerangaben, Stand 06.11.2026. Allgemeine Orientierung, keine Produkt- oder Rechtsberatung.</text>
+
+  <!-- Weg 1 -->
+  <rect x="60" y="110" width="860" height="108" rx="10" fill="#f4f7f5"/>
+  <circle cx="104" cy="164" r="22" fill="#194533"/>
+  <text class="num" x="104" y="171" text-anchor="middle">1</text>
+  <text class="step" x="148" y="146">Zweitschluessel: Kind, Enkelin, Nachbarin</text>
+  <text class="d" x="148" y="170">Schnell vor Ort, wenn die Person erreichbar ist. Luecke: nachts, im Urlaub, bei Krankheit.</text>
+  <text class="d2" x="148" y="192">Vorher abstimmen, wer im Ernstfall angerufen wird — und wer Bescheid weiss.</text>
+  <rect class="chip" x="716" y="134" width="190" height="52" rx="8"/>
+  <text class="cost" x="811" y="156" text-anchor="middle">keine Miete</text>
+  <text class="costsub" x="811" y="176" text-anchor="middle">Verlaesslichkeit entscheidet</text>
+
+  <!-- Weg 2 -->
+  <rect x="60" y="230" width="860" height="108" rx="10" fill="#ffffff"/>
+  <circle cx="104" cy="284" r="22" fill="#194533"/>
+  <text class="num" x="104" y="291" text-anchor="middle">2</text>
+  <text class="step" x="148" y="266">Verwahrung beim Hausnotruf-Dienst</text>
+  <text class="d" x="148" y="290">Malteser (Herstellerangabe): Bereitschaft 365 Tage, 24 Stunden — Schluessel „auf Wunsch“.</text>
+  <text class="d2" x="148" y="312">Grenze: Rettungsdienst kann eher eintreffen als der Dienst, der den Schluessel liefert.</text>
+  <rect class="chip" x="716" y="254" width="190" height="52" rx="8"/>
+  <text class="cost" x="811" y="276" text-anchor="middle">ca. 15 EUR/Monat</text>
+  <text class="costsub" x="811" y="296" text-anchor="middle">Portalangabe (Zentrale)</text>
+
+  <!-- Weg 3 -->
+  <rect x="60" y="350" width="860" height="108" rx="10" fill="#f4f7f5"/>
+  <circle cx="104" cy="404" r="22" fill="#194533"/>
+  <text class="num" x="104" y="411" text-anchor="middle">3</text>
+  <text class="step" x="148" y="386">Pflegedienst oder Wohlfahrtsverband</text>
+  <text class="d" x="148" y="410">Wird per Notruf informiert und oeffnet selbst — kundig, meist gekoppelte Zusatzleistung.</text>
+  <text class="d2" x="148" y="432">Laut Portalangabe nicht im Basistarif enthalten; bei den Quellen keine Preiszahl.</text>
+  <rect class="chip" x="716" y="374" width="190" height="52" rx="8"/>
+  <text class="cost" x="811" y="396" text-anchor="middle">keine Portal-Zahl</text>
+  <text class="costsub" x="811" y="416" text-anchor="middle">Preis im Angebot erfragen</text>
+
+  <!-- Weg 4 -->
+  <rect x="60" y="470" width="860" height="120" rx="10" fill="#ffffff"/>
+  <circle cx="104" cy="530" r="22" fill="#194533"/>
+  <text class="num" x="104" y="537" text-anchor="middle">4</text>
+  <text class="step" x="148" y="506">Schluesseltresor mit Zahlencode</text>
+  <text class="d" x="148" y="530">Leitstelle gibt den Code im Notfall an Einsatzkraefte weiter — unabhaengig erreichbar.</text>
+  <text class="d2" x="148" y="552">Code-Kreis klein halten (nahestehende Personen, Leitstelle); nach Schlosswechsel pruefen.</text>
+  <text class="d2" x="148" y="572">Im Mehrfamilienhaus Montageort vorab mit Verwaltung oder Vermieter klaeren.</text>
+  <rect class="chip" x="716" y="502" width="190" height="56" rx="8"/>
+  <text class="cost" x="811" y="524" text-anchor="middle">einmalig 30–100 EUR</text>
+  <text class="costsub" x="811" y="544" text-anchor="middle">Portalangaben streuen</text>
+
+  <!-- Praxis -->
+  <rect x="60" y="606" width="860" height="64" rx="10" fill="#e8f0ec"/>
+  <text class="step" x="88" y="632">Praxis: zwei Wege kombinieren</text>
+  <text class="d" x="88" y="654">Zum Beispiel Nachbar fuer den schnellen Fall plus Tresor als Absicherung, wenn niemand ans Telefon geht.</text>
+
+  <!-- Footer -->
+  <rect x="60" y="690" width="860" height="96" rx="10" fill="#fbf1ee" stroke="#e5c9c0"/>
+  <text class="foot" x="88" y="718">Ohne hinterlegten Schluessel: nur noch Tueroeffnung</text>
+  <text class="footsub" x="88" y="742">Feuerwehr: Kernrettung aus akuter Gefahr laut Faustregel kostenlos — Gebuehren je Kommune unterschiedlich.</text>
+  <text class="footsub" x="88" y="764">Schluesseldienst: Kosten variieren stark nach Region und Tageszeit — seriösen Dienst vorab recherchieren.</text>
+
+  <text class="fine" x="60" y="816">Quellen: Portal- und Herstellerangaben vom 06.11.2026. Grafik: ZuhauseBleiben Kompass, KI-unterstützt.</text>
+</svg>
