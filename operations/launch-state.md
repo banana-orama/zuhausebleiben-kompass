@@ -1,6 +1,21 @@
 # Launch-State: ZuhauseBleiben Kompass
 
-Aktualisiert: 2026-11-18 (Cron 14:23: **blitz-seo Phase 2 auf der Money-Page — interne Money-Anchor-Links + unslop-Pass live**; Details unten) · (Cron 09:23: **Money-Page-Refresh treppenlift-zuschuss — Förderstatus-Tabelle + erste Inline-Region-Links live**; Details unten) · (2026-11-17: **Briefing 28 live: badumbau-kosten — 39. Ratgeber**; Partner-Lauf: Malteser-Terms beantwortet + Aroundhome-Bewerbungsproblem gelöst-angestoßen; Details unten) · Verifizierte Tatsachen mit Datum; Offenes markiert.
+Aktualisiert: 2026-11-19 (Cron 14:23: **Aroundhome-Aktivierung vollständig vortestet — Tracker ohne Deeplink bewiesen, Dry-Run 22/22 PASS, Aktivierung = 1 Commit mit 2 Dateien**; Details unten) · (2026-11-18, Cron 14:23: **blitz-seo Phase 2 auf der Money-Page — interne Money-Anchor-Links + unslop-Pass live**; Details unten) · (Cron 09:23: **Money-Page-Refresh treppenlift-zuschuss — Förderstatus-Tabelle + erste Inline-Region-Links live**; Details unten) · (2026-11-17: **Briefing 28 live: badumbau-kosten — 39. Ratgeber**; Partner-Lauf: Malteser-Terms beantwortet + Aroundhome-Bewerbungsproblem gelöst-angestoßen; Details unten) · Verifizierte Tatsachen mit Datum; Offenes markiert.
+
+## 2026-11-19 (Cron 14:23): Aroundhome-Aktivierungs-Playbook textfertig + vortestet (Blocker-Vorbereitung für den 23.11.)
+
+**Was passiert ist:** Die Agency (Artefact, Rückkehr 23.11., Mail 11237) kann die Bewerbung 68536 nach der Publisher-ID-Nachreichung (Sent 1027) freischalten. Damit der Freischalttag keine Explorationszeit kostet, wurde die komplette Aktivierung heute **ohne Live-Änderung** vortestet:
+
+1. **Profil-Drift-Check 19.11. (öffentlich, kein Login):** Awin-Profil 68536 weiterhin „Umsatzbeteiligung 30%“ + „Cookie-Laufzeit: 30 Tage“ — kein Drift zu 23.10./16.11. (`research/evidence/aroundhome-191126/evidence-notes.md`).
+2. **Technischer Kernbefund — Tracker funktioniert ohne Deeplink:** `cread.php?awinmid=68536&awinaffid=3124891` (KEIN ued) → **HTTP 302** auf Aroundhomes eigenen Eclick-Einstieg **mit vollständiger Attribution** (`awc=68536_<ts>_<hash>`). Die offene Agency-Frage „erlaubte Zielseite ohne Deeplink“ blockiert die Aktivierung damit NICHT: Homepage-Einstieg ist der Default, eine spätere Zielseite wäre eine Ein-Zeilen-Änderung. Probe ist Format-Nachweis — Links bleiben bis zum Freischalt-Readback unpublished (Approved-Sites-Klausel).
+3. **DSE_META-Basis verifiziert:** `https://www.aroundhome.de/datenschutzerklaerung/` → 200 (die Varianten /datenschutz und /datenschutz.html sind 404 — nur die eine URL verwenden).
+4. **Dry-Run 22/22 PASS** (`research/verify_aroundhome_activation_dryrun_191126.py`): Aktivierungszustand (approved=true + 2 Textlink-Placements auf badumbau-angebote-vergleichen, bad-umbau-barrierefrei, badumbau-kosten, wanne-zur-dusche, bodengleiche-dusche-altbau) baut grün; **ohne DSE_META.aroundhome bricht der Build kontrolliert ab** (Same-Commit-Gate scharf), Teilaktivierung (approved ohne Placement) bricht ab, CTA rendert nur auf den 5 adressierten Artikeln (rel=sponsored noopener, Anzeige-Kennzeichnung, escapete Tracker-URL), alle anderen Artikel 0 Marker, Malteser-Placements unverändert, datenschutz.html spiegelt Aroundhome (Cookie 30 Tage + verifizierte DSE-URL), JSON-LD bleibt parse-valide, Sitemap-Umfang identisch zum Produktionsbuild, generate.mjs sauber restored (Dry-Run hinterlässt keinen Code-Diff).
+
+**Artefakte:** `operations/aroundhome-activation-prep.md` (exakter 2-Dateien-Commit + Acceptance-Reihenfolge + Verbote), `research/verify_aroundhome_activation_dryrun_191126.py`, `research/evidence/aroundhome-191126/` (Notes + Fixtures; Roh-HTML uncommitted). AFFILIATE-LINK-STATUS.md auf 19.11.-Stand.
+
+**Mailbox 19.11.:** Keine neue substanzielle Partner-Antwort seit 17.11. (neueste Mail = OOO-Autoreply 11237, Rückkehr 23.11.). Kein Versand erfolgt (Versand bleibt an konkrete Freigabe gebunden).
+
+**Nächste Einheit:** Nach Agency-Freischaltung ≥ 23.11. → Freischalt-Readback (Agency-Mail oder Awin-Login) → Aktivierungs-Commit nach Playbook (Config + DSE_META im selben Commit) → Gates + Live-Readback. Parallel offen (unverändert): ADCELL-GO (Betreiber-Akt), Awin-Login (Status-Readback Lifta/Malteser/Aroundhome), GSC-Sitzung.
 
 ## 2026-11-18 (Cron 14:23): blitz-seo Phase 2 — interne Money-Anchor-Links + unslop-Pass (Money-Page)
 
