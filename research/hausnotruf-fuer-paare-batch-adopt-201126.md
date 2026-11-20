@@ -43,4 +43,17 @@ pflege-panorama, 90prozent, PHMV, SVG-Screenshots `svg-in-page-201126.png`,
 CI/deploy löscht dist NICHT vor dem Build — ein versehentlich committetes dist/HTML kann
 also als stale Datei überleben und live gehen, obwohl die Quelle fehlt. Dist-Commits sind
 deshalb weiter verboten; beim nächsten Renderer-Einarbeiten prüfen, ob `generate.mjs`
-besser mit leerem dist-Verzeichnis baut ( renderer-entscheidung, separater Lauf).
+besser mit leerem dist-Verzeichnis baut (renderer-entscheidung, separater Lauf).
+
+## Live-Readback (nach 2fafb93, CI 44704309239 success)
+
+13/13 PASS: frischer Deploy bewiesen über neuen [7]-Satz; robots index,follow; in
+Sitemap, RSS, llms.txt, Homepage; Related-Links auf paare zu allen 3 Cluster-Zielen;
+27,00 EUR + 54-Euro-Kontrast live; 8 Quellen; SVG + absoluter Canonical. IndexNow
+HTTP 200 mit 5 URLs (`research/indexnow_submit_paare_201126.py`).
+
+Erkenntnis Related-Pool: `article-renderer.mjs` cappt „Passend dazu" auf 3 Links
+(crossSlugs zuerst, dann Cluster-Pool in Glob-Reihenfolge) — neue Artikel bekommen
+KEINE Rücklinks von den Hub-Seiten, außer der Zufall trifft es (alarm-ablauf). Ist
+bestehendes Designverhalten je Batch, kein Defekt; gewünschte Rückverlinkung wäre
+als crossSlugs-Eintrag DES Zielartikels zu modellieren, nicht als Pool-Änderung.
