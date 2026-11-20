@@ -448,6 +448,18 @@ Recherche-Dokumente:
 - Keine Gesundheitsdatenabfragen, keine Formulare, keine Partnerzusage im Text.
 - Bilder: eigene schematische SVGs mit KI-Label, title/desc, Grenztext, viewBox für Renderer-Dimensionserkennung.
 
+## Batch: hausnotruf-fuer-paare (Adoption gestrandeter 19.11.-Batch, 2026-11-20)
+
+- 40. Ratgeber live/indexierbar: Hausnotruf für Paare — Bundesvertrag (in Kraft 01.04.2026,
+  27,00 EUR netto, mehrkostenfrei, kein Paartarif im Vertragstext), Pflegekassen-Zuschuss je
+  Person bei Allein-Bedingung, vier Paar-Konstellationen, zweiter Sender als Nachfrage,
+  Kontrastbeleg gegen das Portal-Märchen „Paartarif bis 54 Euro". 8 Quellen, 35/35 Zitate
+  verbatim (`research/paare-191126-ledger.json`), Beweisdateien `research/evidence/paare-191126/`.
+- Adoption: Quelle lag nicht im Repo (nur versehentlich committetes dist-HTML aus 1a1a712,
+  live als Orphan ohne Sitemap/RSS). Dieser Commit setzt die Quelle ab; Fix: Quelle 7
+  (Johanniter) jetzt im Fließtext zitiert. Gates: test_articles=40, RSS=40, keys-gate,
+  SVG-Geometrie+Sichtprüfung, Mobil 0 px Overflow.
+
 ## Batch: hilfsmittel-dusch-wc-uebernahme (Briefing 9, 2026-10-21)
 
 - Artikel live/indexierbar (Commit siehe git log): Dusch-WC — Krankenkassen-Route über gelistete

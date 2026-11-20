@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Wait for CI run of commit 80501f7415cd1e8f13f614349729a98e3dacf10d (gh CLI, head-sha match)."""
+"""Wait for CI run of commit 37b1e64 (gh CLI, head-sha match)."""
 import subprocess
 import sys
 import time
 
-SHA = "80501f7415cd1e8f13f614349729a98e3dacf10d"
+SHA = "37b1e64d0e8060396031256b8c8109701fa37639"
 DEADLINE = time.time() + 480
 last = None
 while time.time() < DEADLINE:

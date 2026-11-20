@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800" role="img" aria-labelledby="gtitle gdesc">
+  <title id="gtitle">Hausnotruf für Paare: vier Konstellationen und drei Prüffragen</title>
+  <desc id="gdesc">Ein Hausnotruf für zwei Personen: vier typische Konstellationen. Konstellation 1, Partner tagsueber berufstaetig abwesend: eine Person mit Pflegegrad, die andere oft und laenger ausser Haus, das Zusammenleben schadet nicht und die Allein-Bedingung kann erfuellt sein, die Pflegekasse zahlt unter Voraussetzungen, entscheidend ist der Nachweis der Allein-Zeiten. Konstellation 2, beide mit Pflegegrad und oft gleichzeitig allein: jede Person hat einen eigenen Anspruch nach Paragraf 40 SGB XI, ein System deckt eine Versorgung ab, offene Frage ist ob die Kasse zwei Ansprueche auf ein Geraet anwendet. Konstellation 3, beide den ganzen Tag zusammen: die Allein-Bedingung ist meist nicht erfuellt, der Zuschuss faellt in der Regel weg, ein privater Dienst bleibt moeglich, meist 27 bis 40 Euro monatlich laut Verbraucherzentrale, Sozialamt als Ausweichweg. Konstellation 4, Partner mit Demenz: der Knopf muss gezielt betaetigt werden koennen, bei Demenz oft nicht der Fall, daher Beratung vor dem Vertrag. Drei Prueffragen vor dem Antrag: Ist ein zweiter Sender fuer die zweite Person im Paket oder kostet Aufzahlung? Ist der Anbieter Vertragspartner der Pflegekasse? Ist ein Massnahmenplan je Person hinterlegt? Stand 19.11.2026.</desc>
+  <style>
+    .t{font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#243b35}
+    .h{font-size:26px;font-weight:700;fill:#194533}
+    .sub{font-size:14px;fill:#53655e}
+    .k{font-size:17px;font-weight:700;fill:#194533}
+    .d{font-size:13.5px;fill:#243b35}
+    .d2{font-size:13.5px;fill:#53655e}
+    .num{font-size:16px;font-weight:700;fill:#ffffff}
+    .bh{font-size:18px;font-weight:700;fill:#194533}
+    .chip{fill:#e4efe9;stroke:#bcd3c6;stroke-width:1}
+    .chipt{font-size:13px;font-weight:700;fill:#194533}
+    .card{fill:#f4f7f5;stroke:#d8e2dc;stroke-width:1.5}
+    .band{fill:#eef4f0;stroke:#c9dcd0;stroke-width:1.5}
+    .fine{font-size:11.5px;fill:#53655e}
+  </style>
+
+  <text class="h" x="60" y="48">Hausnotruf für Paare: reicht ein System für beide?</text>
+  <text class="sub" x="60" y="74">Vier Konstellationen nach geprüften Quellen (Stand 19.11.2026) — keine Bewilligungszusage.</text>
+
+  <rect class="card" x="60" y="96" width="420" height="210" rx="10"/>
+  <circle cx="88" cy="126" r="14" fill="#194533"/>
+  <text class="num" x="88" y="132" text-anchor="middle">1</text>
+  <text class="k" x="112" y="132">Partnerin/Partner tagsüber außer Haus</text>
+  <text class="d" x="80" y="164">Eine Person mit Pflegegrad, die zweite ist oft</text>
+  <text class="d" x="80" y="186">und länger abwesend, zum Beispiel wegen Arbeit.</text>
+  <text class="d" x="80" y="208">Das Zusammenleben schadet nicht: die Allein-</text>
+  <text class="d" x="80" y="230">Bedingung kann trotzdem erfüllt sein.[2]</text>
+  <text class="d2" x="80" y="260">Entscheidend: Nachweis der tatsächlichen</text>
+  <text class="d2" x="80" y="282">Allein-Zeiten; der Medizinische Dienst prüft.[2]</text>
+
+  <rect class="card" x="520" y="96" width="420" height="210" rx="10"/>
+  <circle cx="548" cy="126" r="14" fill="#194533"/>
+  <text class="num" x="548" y="132" text-anchor="middle">2</text>
+  <text class="k" x="572" y="132">Beide mit Pflegegrad, oft gleichzeitig allein</text>
+  <text class="d" x="540" y="164">Jede Person hat ihren eigenen Anspruch</text>
+  <text class="d" x="540" y="186">nach § 40 Abs. 1 und Abs. 3 SGB XI.[1]</text>
+  <text class="d" x="540" y="208">Ein System deckt eine Versorgung ab:</text>
+  <text class="d" x="540" y="230">ein Gerät plus ein Funksender.[1]</text>
+  <text class="d2" x="540" y="260">Offen: Wendet Ihre Kasse zwei Ansprüche</text>
+  <text class="d2" x="540" y="282">auf ein gemeinsames System an? Kein Paartarif im Vertrag.[1]</text>
+
+  <rect class="card" x="60" y="330" width="420" height="210" rx="10"/>
+  <circle cx="88" cy="360" r="14" fill="#194533"/>
+  <text class="num" x="88" y="366" text-anchor="middle">3</text>
+  <text class="k" x="112" y="366">Beide den ganzen Tag zusammen zu Hause</text>
+  <text class="d" x="80" y="398">„Fast den ganzen Tag allein“ ist dann meist</text>
+  <text class="d" x="80" y="420">nicht erfüllt: der Zuschuss fällt in der Regel weg.[2]</text>
+  <text class="d" x="80" y="442">Ein privater Dienst bleibt möglich,[2] meist</text>
+  <text class="d" x="80" y="464">27 bis 40 Euro monatlich (Verbraucherzentrale).[2]</text>
+  <text class="d2" x="80" y="494">Bei Ablehnung: eventuell Unterstützung</text>
+  <text class="d2" x="80" y="516">durch das Sozialamt.[2]</text>
+
+  <rect class="card" x="520" y="330" width="420" height="210" rx="10"/>
+  <circle cx="548" cy="360" r="14" fill="#194533"/>
+  <text class="num" x="548" y="366" text-anchor="middle">4</text>
+  <text class="k" x="572" y="366">Partnerin/Partner mit Demenz</text>
+  <text class="d" x="540" y="398">Der Knopf muss gezielt betätigt werden können.</text>
+  <text class="d" x="540" y="420">Bei Demenz ist der Hausnotruf oft weniger</text>
+  <text class="d" x="540" y="442">geeignet.[2] Die gesunde Person könnte den</text>
+  <text class="d" x="540" y="464">Knopf der anderen sonst überwachen müssen.</text>
+  <text class="d2" x="540" y="494">Pflegeberatung nutzen, bevor ein Vertrag</text>
+  <text class="d2" x="540" y="516">geschlossen wird.</text>
+
+  <rect class="band" x="60" y="566" width="880" height="130" rx="10"/>
+  <text class="bh" x="84" y="600">Drei Fragen vor dem Antrag</text>
+  <rect class="chip" x="84" y="620" width="264" height="54" rx="8"/>
+  <text class="chipt" x="100" y="641">Ist ein zweiter Sender für die</text>
+  <text class="chipt" x="100" y="661">zweite Person enthalten oder Aufzahlung?[1]</text>
+  <rect class="chip" x="368" y="620" width="264" height="54" rx="8"/>
+  <text class="chipt" x="384" y="641">Ist Ihr Anbieter Vertragspartner</text>
+  <text class="chipt" x="384" y="661">der Pflegekasse (mehrkostenfrei)?[2]</text>
+  <rect class="chip" x="652" y="620" width="264" height="54" rx="8"/>
+  <text class="chipt" x="668" y="641">Ist ein Maßnahmenplan je Person</text>
+  <text class="chipt" x="668" y="661">mit eigenen Daten hinterlegt?[2]</text>
+
+  <text class="fine" x="60" y="730">Stand 19.11.2026. Quellen: GKV-Hausnotrufvertrag (AC/TK 19/00/452, in Kraft 01.04.2026), Verbraucherzentrale, DRK-Bundesverband, Malteser.</text>
+  <text class="fine" x="60" y="752">Allgemeine Orientierung, keine Produktberatung und keine Bewilligungszusage. ZuhauseBleiben Kompass, eigene Darstellung.</text>
+</svg>

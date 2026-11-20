@@ -1,0 +1,439 @@
+
+Hausnotruf – Wikipedia
+Zum Inhalt springen
+Hauptmenü
+Hauptmenü
+In die Seitenleiste verschieben
+Verbergen
+ Navigation
+Hauptseite
+Themenportale
+Zufälliger Artikel
+Spezialseiten
+ Mitmachen
+Artikel verbessern
+Neuen Artikel anlegen
+Autorenportal
+Hilfe
+Letzte Änderungen
+Kontakt
+Suche
+Suchen
+Erscheinungsbild
+Jetzt spenden
+Benutzerkonto erstellen
+Anmelden
+Meine Werkzeuge
+Jetzt spenden
+Benutzerkonto erstellen
+Anmelden
+Inhaltsverzeichnis
+In die Seitenleiste verschieben
+Verbergen
+(Anfang)
+1
+Technik
+2
+Mobiler Notruf
+3
+Funktionsweise
+Unterabschnitt Funktionsweise umschalten
+3.1
+Aktiver Hilferuf
+3.2
+Passiver Hilferuf
+3.3
+Ruf in Nicht-Notfallsituationen
+4
+Notruf im internationalen Vergleich
+Unterabschnitt Notruf im internationalen Vergleich umschalten
+4.1
+Hausnotruf in Deutschland
+4.2
+Notruf in der Schweiz
+5
+Finanzierung
+Unterabschnitt Finanzierung umschalten
+5.1
+Grundgebühr
+5.2
+Einsatzkosten
+5.3
+Kostenersatz
+6
+Literatur
+7
+Weblinks
+8
+Einzelnachweise
+Inhaltsverzeichnis umschalten
+Hausnotruf
+6 weitere Sprachen
+العربية
+English
+Français
+Русский
+Українська
+粵語
+Links bearbeiten
+Artikel
+Diskussion
+Deutsch
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+Speichern
+Werkzeuge
+Werkzeuge
+In die Seitenleiste verschieben
+Verbergen
+ Aktionen
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+Speichern
+ Allgemein
+Links auf diese Seite
+Änderungen an verlinkten Seiten
+Permanenter Link
+Seiten­­informationen
+Artikel zitieren
+Kurzlink
+Zum Legacy-Parser wechseln
+ Drucken/​exportieren
+Als PDF herunterladen
+Druckversion
+ In anderen Projekten
+Commons
+Wikidata-Datenobjekt
+Erscheinungsbild
+In die Seitenleiste verschieben
+Verbergen
+aus Wikipedia, der freien Enzyklopädie
+Unter 
+Hausnotruf
+ (auch: 
+Rufhilfe
+, 
+Heimnotruf
+ (Österreich), 
+Notruf-System
+ (Schweiz), 
+Seniorenalarm
+, 
+Seniorennotruf
+) versteht man ein auf der Telefontechnik basierendes System, das es alleinstehenden alten oder behinderten Menschen erleichtert, bei einem Notfall unkompliziert selbstständig und direkt Hilfe anzufordern. Den Betroffenen wird dadurch ermöglicht, länger in ihrer Wohnung zu leben und dennoch die Sicherheit zu haben, notfalls nicht auf rasche 
+Hilfe
+ verzichten zu müssen. Auslöser des Alarms ist üblicherweise ein tragbarer Notrufsender, kann aber etwa auch ein 
+Sensor
+ sein, der auf Sturz reagiert. Nach Angaben des 
+Bundesverbandes Hausnotruf
+ gab es 2006 in ca. 350 deutschen Städten solche Anbieter, die auf eines der ca. 180 
+Callcenter
+ aufgeschaltet sind. Damit wurden ca. 1,2 Mio. Nutzer versorgt (2024).
+[
+1
+]
+ In der Schweiz gehen Schätzungen davon aus, dass rund 50'000 Notruf-Geräte im Einsatz sind.
+[
+2
+]
+Technik
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Modernes GSM-Hausnotrufgerät mit Armbandsender
+Das Rufhilfe-System besteht aus
+einem Notruf
+sender
+, der wie eine Armbanduhr am Handgelenk oder als Medaillon um den Hals getragen wird und mit einer Taste als Auslöser für den Gesprächsverbindungsaufbau versehen ist. Dieser Geräteteil wird auch 
+Funkfinger, FuFi, Handsender oder HaSe
+ genannt.
+und
+einer Basisstation, die an das 
+Telefon
+ oder einen Router angeschlossen ist oder über eine integrierte SIM-Karte verfügt und eine äußerst empfindliche Freisprecheinrichtung enthält.
+Die Geräte sind dabei so ausgelegt, dass bestehende Telefongespräche oder Verbindungen unterbrochen werden und ein Notruf über das Gerät unverzüglich und automatisch abgesetzt werden kann. Dabei werden zuvor einprogrammierte Telefonnummern in einer festgelegten Reihenfolge angewählt. Durch die Freisprecheinrichtung wird erreicht, dass auch die entfernt vom Basisgerät gestürzte Person mit dem Gesprächspartner (Angehörige, Notruf-Zentrale) ohne Telefonhörer oder Handy sprechen kann.
+Neben der Handtaste (Notrufsender) gibt es auch verschiedene andere Auslösearten (Fallsensor, Rauchmelder, Bewegungsmelder, Spracherkennung).
+Es ist eine Vielzahl von Geräten erhältlich, die über 
+analoge Anschlüsse
+, 
+digitale ISDN-Anschlüsse
+ oder 
+IP-Telefonie
+ angeschlossen werden können. Es gibt auch Geräte mit integriertem 
+GSM
+-Modul, die unabhängig von einem Festnetzanschluss funktionieren. Teilweise sind die Geräte mit Akkus ausgestattet, um auch bei Stromausfall zu funktionieren.
+Mittlerweile sind die Entwicklungen von Notrufsystemen für Senioren schon deutlich vorangeschritten und dem aktiveren Lebensstil von Benutzern angepasst. Diese neuen Systeme funktionieren meist über das 
+Mobilfunknetz
+ und haben moderne Funktionalitäten wie automatische Notfallerkennung oder Notfallortungen über 
+GPS
+ integriert. Neuere Geräte bieten häufig auch die Möglichkeit, in eine bestehende SmartHome-Umgebung eingebunden zu werden. So können bspw. Geräuschquellen wie Fernseher oder Radios bei Auslösung eines aktiven Notrufs über eine SmartHome-Steckdose deaktiviert werden, um die Sprachverständigung zu verbessern.
+Moderne Geräte bieten häufig zusätzliche Funktionen, wie bspw. eine Trinkerinnerung oder eine CO
+2
+-Ampel, die ans Lüften erinnert, um Kopfschmerzen vorzubeugen.
+Ein Hausnotrufgerät kann sowohl auf eine Hausnotrufzentrale einer Hilfsorganisation als auch auf private Handynummern aufgeschaltet werden. Hierbei ist es wichtig zu verstehen, dass ein Hausnotrufgerät technisch nicht in der Lage ist, zu unterscheiden, ob eine hinterlegte Kontaktperson den Notruf entgegengenommen hat oder ob bspw. ein Anrufbeantworter den Ruf annimmt. So ist durch die Aufschaltung eines Hausnotrufgerätes auf eine private Handynummer eines Angehörigen nicht ratsam, da eine Sichere Entgegennahme des Notrufes nicht garantiert werden kann. Stattdessen ist die Aufschaltung des Gerätes auf eine Hausnotrufzentrale ratsam, die 24/7 für die Entgegennahme von Notrufen besetzt ist. Einige Anbieter bieten hier einen Notrufzentralenverbund, der mit redundanten Notrufzentralen eine weitere Ausfallsicherheit bieten.
+Mobiler Notruf
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Neben dem Hausnotruf werden häufig auch mobile Notrufgeräte wie bspw. Notruf-Uhren oder Kombi-Gerät angeboten. Hierbei wird dann der klassische Hausnotruf um ein Mobilteil erweitert oder ein mobiles Gerät ersetzt den Hausnotruf komplett.
+Hierbei handelt es sich in der Regel um ein kleines Gerät, welches über eine Gegensprechfunktion, einen Akku und eine Auslösetaste verfügt. Über die integrierte SIM-Karte stellt das Gerät eine Verbindung zu den Hinterlegten Ansprechpartnern oder einer Hausnotrufzentrale her. Beim Auslösen eines Notrufes wird dann, wie beim normalen Hausnotruf auch, eine Sprechverbindung hergestellt, zusätzlich wird die GPS-Position des Notfallortes an eine Zentrale weitergeleitet. Wird der Notruf an eine Hausnotrufzentrale geleitet, so kann diese den GPS-Standort einsehen, wird der Notruf an eine Kontaktperson (bspw. Angehörige) auf eine Telefonnummer geleitet, so können die Angehörigen in den meisten Fällen über eine App auf den GPS-Standort des Notfallortes zugreifen oder erhalten diesen per SMS.
+Funktionsweise
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Aktiver Hilferuf
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Im Notfall, beispielsweise nach einem Sturz oder bei plötzlich auftretenden Beschwerden, kann der Benutzer durch einfachen Druck auf den 
+Notrufknopf
+ einen Hilferuf absetzen, ohne das Telefon erreichen zu müssen.
+In der 
+Leitstelle
+ des Rufhilfe-Betreibers (
+Hilfs-
+ oder 
+Rettungsorganisationen
+ sowie private Anbieter) geht daraufhin ein Notruf ein und die Daten des Betroffenen (Adresse, Vorerkrankungen, Angehörige) werden angezeigt. Durch die Freisprecheinrichtung in der Basisstation kann der Mitarbeiter des Rufhilfe-Betreibers mit dem Benutzer sprechen, um die Art und Schwere des Notfalles abzuklären und weitere Maßnahmen zu besprechen.
+Dediziertes Einsatzfahrzeug für den Hausnotruf (PKW)
+Je nach Organisation des Dienstes und Art der erforderlichen Hilfeleistung können nun Angehörige oder Nachbarn informiert werden. Ist kurzfristig kein vertrauter Mensch erreichbar, wird bei vielen Hausnotrufanbietern ein eigener Bereitschaftsdienst gerufen. Sofern erforderlich werden auch Pflegedienste oder Hausarzt etc. benachrichtigt, der 
+Rettungsdienst
+ oder der ärztliche Bereitschaftsdienst alarmiert.
+In der Regel ist beim Hausnotrufbetreiber oder bei einem Nachbarn ein Schlüssel hinterlegt, so dass ein Betreten der Wohnung auch dann möglich ist, wenn der Bewohner selbst nicht öffnen kann. Die Schlüssel werden in einem Tresor aufbewahrt und sind nur mit Nummern gekennzeichnet, so dass ein Missbrauch ausgeschlossen ist.
+Passiver Hilferuf
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Zusätzlich zu diesem „aktiven Alarm“ gibt es noch die Möglichkeit des „Passivalarms“ (auch „Sicherheitsuhr“ oder „Tagestaste“ genannt), nach dem Prinzip einer sogenannten 
+Totmanneinrichtung
+: An der Basisstation befindet sich eine Taste, die vom Benutzer regelmäßig betätigt wird. Er bestätigt damit, dass es ihm gut geht. Sollte diese Bestätigung über einen längeren Zeitraum (meist 12 oder 24 Stunden) ausbleiben, wird telefonisch Kontakt aufgenommen und bei Nichterreichen in der Wohnung nachgesehen, ob alles in Ordnung ist.
+Ruf in Nicht-Notfallsituationen
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Je nach Anbieter ist das System nicht nur für Notfälle gedacht, sondern wird auch dafür genutzt, Einkaufs- oder Putzhilfen bequem per Knopfdruck zu rufen.
+Notruf im internationalen Vergleich
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Hausnotruf in Deutschland
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Konzipiert und entwickelt wurde das Hausnotrufsystem Anfang der 1970er Jahre von Wilhelm Hormann, mit dem Ziel, neue umfassende Strukturen in der ambulanten und stationären Versorgung und Betreuung Kranker, Alter, Alleinlebender und Behinderter zeitgerecht zu schaffen. Der Begriff Hausnotruf in seiner ursprünglichen Form ist daher umfassender, d. h. einschließlich der Übermittlung biomedizinischer Daten und der sozialen Kommunikation zu sehen, und soll sich nicht nur auf den Seniorenalarm beschränken. Dies wird in dem entsprechenden Forschungsbericht über den Hausnotruf ausführlich dargelegt.
+Die technische Umsetzung erfolgte mit Hilfe von 
+AEG
+-
+Telefunken
+ Backnang GmbH und wurde im Frühjahr 1980 der internationalen Öffentlichkeit vorgestellt. Der Hausnotruf wurde 1982 mit dem Frankfurter Innovationspreis der deutschen Wirtschaft des Wirtschaftsclubs Rhein Main e. V. in Frankfurt am Main ausgezeichnet.
+Die 
+Deutsche Telekom
+ und das 
+Deutsche Rote Kreuz
+ haben im Herbst 2012 zur 
+MEDICA
+ eine neue Technologie in einer Uhr eingeführt, die auch außerhalb der Wohnung funktioniert.
+[
+3
+]
+Notruf in der Schweiz
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Auf dem Schweizer Markt dominieren fünf Gerätearten (stationäres Hausnotruf-Gerät, mobiles Hausnotruf-Gerät, Festnetz-Telefon, Handy und Uhr). Das stationäre Hausnotruf-Gerät zeichnet sich durch eine einfache Bedienung aus, eignet sich jedoch nicht für Menschen, die oft unterwegs sind.
+Die meisten Geräte funktionieren mit einem Funksender. Dies ist meist ein Knopf, der um das Handgelenk oder den Hals getragen wird. Stürzt die betagte Person, kann sie via Knopfdruck Hilfe anfordern. Je nach Anbieter wählt das Gerät vorprogrammierte Nummern oder verbindet mit einer Notruf-Zentrale.
+1983 wurde das Notrufsystem in der Schweiz erstmals durch das 
+Schweizerische Rote Kreuz
+ eingesetzt, 20 Geräte boten die Rotkreuzsektionen Zürich und Basel damals an. Seit 1991 wird der Notruf auf nationaler Ebene umgesetzt und weiterentwickelt. 2013 übernimmt das Schweizerische Rote Kreuz Curena und verfügt über eine eigene Notrufzentrale. Auf nationaler Ebene ist das SRK die größte Notrufsystem-Anbieterin, gefolgt von SmartLife Care, einem Gemeinschaftsunternehmen von 
+Swisscom
+ und den 
+Helvetia Versicherungen
+. Zusätzlich gibt es regionale und kantonale Anbieter wie private Firmen und Nonprofit-Organisationen.
+Heute gehen Schätzungen davon aus, dass bis zu 50'000 Geräte im Einsatz sind.
+[
+2
+]
+Finanzierung
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Sofern in einer Region mehrere Anbieter existieren, sollten vor Vertragsabschluss Preisvergleiche angestellt werden, die identische und typische Nutzungsverhalten zugrunde legen, da die Kalkulationen je nach Region und Anbieter zum Teil recht unterschiedlich sein können.
+Grundgebühr
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Zunächst können einmalige Gebühren für die Einrichtung der Anlage verlangt werden. Zum Teil sind diese Kosten jedoch in die monatliche Grundgebühr eingerechnet, die für die Gerätemiete und die Bereitschaft zur Anrufannahme und -weiterleitung erhoben werden.
+Einsatzkosten
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Darüber hinaus können Kosten pro Einsatz (Hausbesuch) anfallen, die die Anfahrt mit Wohnungsschlüssel und Hilfeleistungen (beispielsweise beim Aufstehen und einen eventuellen Transport in die Arztpraxis) o. Ä. umfassen. Diese Kosten unterscheiden sich je nach Qualifikation des einzusetzenden Personals, seiner Fahrzeuge, Anfahrtsdauer und der Kostenstruktur des Anbieters. Mitunter sind die Einsatzkosten auch pauschal in der Grundgebühr enthalten.
+Des Weiteren fallen die Telefonkosten zum Callcenter an (bei Notrufen, aber auch beim Betätigen der Passivtaste sowie durch automatisch aufgebaute Verbindungen wie tägliche Verbindungstests etc.).
+Kostenersatz
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Wenn durch diese Anlage ein Pflegeheimaufenthalt vermieden werden kann und der Verbleib in der gewohnten Umgebung gesichert wird, können sich Krankenversicherungen an den Kosten beteiligen. Da der Hausnotruf ein anerkanntes Hilfsmittel für Pflegebedürftige darstellt, ist es möglich, dass die 
+Pflegeversicherung
+ bzw. das 
+Sozialamt
+ die Kosten übernimmt.
+Literatur
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Benjamin Homberg: 
+Selbstbestimmt, aber nicht allein?
+ Dortmunder Sozialwissenschaftler untersucht Hausnotruf-Dienste. Pressestelle der Universität Dortmund.
+Wilhelm Hormann: 
+hausnot-ruf
+. Forschungsbericht 1. April 1979 bis 31. Dezember 1982
+Analyse zur Einführung des Hausnot-Rufs
+ – 
+Zielgruppenanalyse 1975 / 2006
+ – 
+Ermittlung optimaler Krankenhausbetriebsgröße
+ – 
+Vernetzung Hausnot-Ruf und Krankenhaus
+Clemens Adam: 
+Hausnotruf-Dienste in Nordrhein-Westfalen
+. 1995
+Michael Schnepel: 
+Soziale Call Center – vernetzte Dienstleistungen im 24-Stunden-Service
+. 2001
+Elisabeth Wetzel, Jürgen Constien: 
+Hausnotruf ermöglicht mehr Sicherheit zu Hause.
+ In: 
+Pro Alter.
+ 01/2002, 
+Kuratorium Deutsche Altershilfe
+, Köln
+Mario Wüthrich: 
+Notrufsystem – Lebensgestaltung
+. Einfluss der Nutzung des Rotkreuz-Notrufs auf die Lebensgestaltung, 2012.
+Der Mensch im Mittelpunkt
+. Tipps und Anregungen im Umgang mit der Kundschaft des Rotkreuz-Notrufsystems und deren Angehörigen, 2008.
+Sozialgerontologische Alterstheorien und Altersbilder, in Bezug gesetzt zur Dienstleistung Rotkreuz-Notruf
+. 2008.
+Weblinks
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+Commons
+: Bilder von Rufhilfegeräten
+– Sammlung von Bildern, Videos und Audiodateien
+Einzelnachweise
+[
+Bearbeiten
+ | 
+Quelltext bearbeiten
+]
+↑
+Der Bundesverband.
+In:
+Bundesverband Hausnotruf.
+Abgerufen am 9.
+Juli 2026
+.
+1
+2
+Gesundheit - Nottelefone teils untauglich und überteuert.
+Abgerufen am 9.
+Juli 2026
+.
+↑
+Video 
+Neues von der Medica (15. November 2012)
+in der 
+ZDFmediathek
+,
+abgerufen am 23.
+November 2012.
+(offline)
+Normdaten
+(Sachbegriff): 
+GND
+: 
+4196822-0
+ (
+GND Explorer
+, 
+lobid
+, 
+OGND
+, 
+AKS
+)
+Abgerufen von „
+https://de.wikipedia.org/w/index.php?title=Hausnotruf&oldid=268631518
+“
+Kategorien
+: 
+Einrichtung des Rettungsdienstes
+Gerontologie
+Mobilfunk
+Notruf
+ Diese Seite wurde zuletzt am 9. Juli 2026 um 10:20 Uhr bearbeitet.
+Die Seite wurde mit 
+Parsoid
+ gerendert.
+Abrufstatistik
+ · 
+Autoren
+Der Text ist unter der Lizenz 
+„Creative-Commons Namensnennung – Weitergabe unter gleichen Bedingungen“
+ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den 
+Nutzungsbedingungen
+ und der 
+Datenschutzrichtlinie
+ einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+Datenschutz
+Über Wikipedia
+Haftungsausschluss
+Impressum / Sicherheit
+Verhaltenskodex
+Entwickler
+Statistiken
+Stellungnahme zu Cookies
+Mobile Ansicht
+Suche
+Suchen
+Inhaltsverzeichnis umschalten
+Hausnotruf
+6 weitere Sprachen
+Abschnitt hinzufügen

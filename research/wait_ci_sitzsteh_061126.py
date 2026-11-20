@@ -4,7 +4,7 @@ import json
 import time
 import urllib.request
 
-SHA = "f45f50fe679e5af5e814d9bb64a20c609fec67d2"
+SHA = "e937a98e69c023f9a6c131624242798874715e0a"
 URL = f"https://api.github.com/repos/banana-orama/zuhausebleiben-kompass/actions/runs?head_sha={SHA}"
 deadline = time.time() + 540
 last = None

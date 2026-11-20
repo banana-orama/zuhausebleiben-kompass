@@ -39,7 +39,7 @@ for needle in ["Mindestbreite von 80 cm", "Mindestens 55 cm", "etwa 4.000 Euro",
                "06.11.2026", "Angebots-Checkliste: die Fragen vor dem Aufmaß",
                "Anbieter für Sitz- und Stehlifte vergleichen"]:
     check(f"live enthält '{needle}'", needle in html)
-check("SVG live", 'src="/assets/images/treppenlift-sitzsteh-entscheidung.svg"' in html)
+check("SVG live", 'src="https://zuhausebleiben-kompass.de/assets/images/treppenlift-sitzsteh-entscheidung.svg"' in html)
 check("Quellen-Lifta-Stehlift", "lifta.de/treppenlift/stehlift" in html)
 check("Quellen-VZ", "verbraucherzentrale.de" in html)
 check("kein Partner-Marker", "data-partner-placement" not in html)
