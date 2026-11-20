@@ -1,6 +1,6 @@
 # ADCELL-GO-Pack: Ein GO schaltet zwei Partnerprogramme frei
 
-Stand: 06.11.2026 (beide Programmseiten + Registrierungsseite heute ohne Login frisch re-verifiziert, Evidenz: `research/evidence/adcell-refresh-061126/`)
+Stand: 20.11.2026 (Refresh ohne Login: beide Programmseiten + Signup-Formular heute re-verifiziert — **0 Drift zu 06.11**; HIRO 50,00 €/Lead, 90 T. Cookie, Freigabe 56/56, incentivierter Traffic nicht erlaubt, SEM nur auf Anfrage, Direct Linking erlaubt; Pflegehase 25,00 €, Lead = Pflegekasse-genehmigter Antrag, offen „Nach Ihrer Anmeldung können Sie direkt loslegen"; beide Checkbox-Wortlaute (AGB/DSE + Joint Controller) live unverändert, Kanal „Webseite (Content, Blog, SEO)" vorhanden. Evidenz: `research/evidence/adcell-refresh-201126/`; Vorheriger Stand: `research/evidence/adcell-refresh-061126/`)
 Autor: milo (agentenseitig vorbereitet; Registrierung selbst = Betreiber-Akt)
 
 ## Was das eine GO umfasst (drei Akte in einem Durchgang)

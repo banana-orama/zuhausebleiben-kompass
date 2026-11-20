@@ -1,8 +1,14 @@
-import {readFileSync,writeFileSync,mkdirSync,copyFileSync,cpSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync,copyFileSync,cpSync,rmSync} from 'node:fs';
 import {renderArticles} from './article-renderer.mjs';
 import {join,dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 const ROOT=dirname(fileURLToPath(import.meta.url)), OUT=join(ROOT,process.env.DIST_DIR||'dist');
+// Dist-Clean (2026-11-20, paare-Orphan-Incident): CI und lokale Builds räumen dist/ nicht
+// vorher leer — ein versehentlich committetes dist-HTML überlebte den CI-Build dadurch und
+// ging als Orphan live, obwohl die Quelle im Repo fehlte. Der Build startet deshalb jetzt
+// mit leerem Ausgabeverzeichnis: dist = exakt dieser Build.
+if(join(OUT)===join(ROOT))throw new Error('DIST_DIR darf nicht das Repo-Root sein — Abbruch vor rm.');
+rmSync(OUT,{recursive:true,force:true});
 const C=JSON.parse(readFileSync(join(ROOT,'data/content.json'),'utf8')), B=C.brand;
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const safeJson=d=>JSON.stringify(d).replace(/</g,'\\u003c');
