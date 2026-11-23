@@ -69,6 +69,7 @@ SUMMARIES = {
     "badumbau-kosten": "Badumbau-Kosten verstehen: Warum die Portal-Zahlen zwischen 8.000 und über 40.000 Euro auseinanderliegen, welche Kostenbausteine in Angeboten stehen, wie der Eigenanteil mit Pflegekasse (Ermessen, bis 4.180 Euro je Maßnahme), Steuerermäßigung (20 Prozent der Arbeitskosten, Förder-Ausnahme) und KfW (Kredit 159 aktiv, Zuschuss 455-B gestoppt) entsteht — mit fiktiver Beispielrechnung und Budget-Checkliste.",
     "treppenlift-unserioese-anbieter": "Unseriöse Treppenlift-Anbieter erkennen: die dokumentierten Verkaufs-Tricks (Zeitdruck, unterschobener Widerrufs-Verzicht, Anzahlung ohne Voranschlag, Kaltakquise, intransparente Portale), die VZ-Betroffenen-Umfrage, die Verbandsklage gegen 18 Vertragsklauseln (I-13 UKl 17/26) und Ihre Rechte aus §§ 4a/5a/7 UWG und § 312g BGB.",
     "treppenlift-foerderung-ohne-pflegegrad": "Treppenlift-Förderung ohne Pflegegrad: die drei realen Wege mit gesetzlicher Grundlage — Eingliederungshilfe (Leistungen für Wohnraum, §§ 113/77 SGB IX), Unfallversicherung (§ 26 SGB VII), Sozialamt/Hilfe zur Pflege (§ 64e SGB XII) — plus Einkommens- und Vermögensregeln (§§ 135 ff.), Antragsweg und die Grenzen von Rentenversicherung und Krankenkasse.",
+    "treppenlift-eigentumswohnung-weg": "Treppenlift in der Eigentumswohnung: der Weg zum Beschluss nach § 20 WEG (privilegierter Anspruch, einfache Stimmenmehrheit), die beiden BGH-Urteile vom 9. Februar 2024 (V ZR 244/22 und V ZR 33/23, kein ärztliches Attest nötig), Kosten und Nutzungen nach § 21 WEG, der Weg über Verwaltung und Versammlung inkl. Beschlussersetzungsklage (§ 44 WEG) und eine Beschlussantrag-Checkliste.",
 }
 
 # NOTE (2026-11-03, audit #9): the legacy entry page pflegegrad-beantragen was folded
@@ -78,7 +79,7 @@ SUMMARIES = {
 SECTION_MAP = [
     ("Treppenlift", ["treppenlift-kosten", "treppenlift-angebote-vergleichen", "treppenlift-firmen-vergleich", "treppenlift-gebraucht-oder-neu",
                      "treppenlift-mieten", "treppenlift-mietwohnung", "treppenlift-zuschuss", "treppenlift-steuerlich-absetzen",
-                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift", "treppenlift-sitzlift-oder-stehlift", "treppenlift-finanzierung", "treppenlift-unserioese-anbieter", "treppenlift-foerderung-ohne-pflegegrad", "treppenlift-aufmass-termin"]),
+                     "treppenlift-schmale-treppe", "treppenlift-maximalgewicht", "treppenlift-aussentreppen-aussenlift", "treppenlift-plattformlift-rollstuhllift", "treppenlift-sitzlift-oder-stehlift", "treppenlift-finanzierung", "treppenlift-unserioese-anbieter", "treppenlift-foerderung-ohne-pflegegrad", "treppenlift-aufmass-termin", "treppenlift-eigentumswohnung-weg"]),
     ("Bad barrierefrei umbauen", ["bad-umbau-barrierefrei", "badumbau-kosten", "badumbau-angebote-vergleichen",
                                   "bodengleiche-dusche-altbau", "wanne-zur-dusche"]),
     # pflegegrad-beantragen is NOT listed: the thin legacy stub was folded into the

@@ -478,3 +478,20 @@ Recherche-Dokumente:
   via Slug-Präfix. test_articles-Zähler 18→19 im selben Commit.
 - Nicht Teil des Batches: In-Flight-Arbeiten anderer Läufe (RSS-Feed, Checklisten-Build, llms.txt,
   Growth-Dokumente) bleiben unangetastet/uncommittet.
+
+## Batch: treppenlift-eigentumswohnung-weg (Briefing 29, 2026-11-23)
+
+- 41. Ratgeber live/indexierbar: Treppenlift in der Eigentumswohnung — Beschlussweg § 20 WEG
+  (privilegierter Anspruch, einfache Stimmenmehrheit), BGH-Urteile 09.02.2024 (V ZR 244/22 +
+  V ZR 33/23, offizielle PDFs; kein Attest nötig, Rn. 18 „ohne Belang"), Kosten § 21 WEG
+  (Abs. 1 Kosten+Nutzen beim Verlangenden, Abs. 2 Ausnahmen, Abs. 5), Grundlagen-/Ausführungs-Split,
+  Beschlussersetzungsklage § 44, Beschlussantrag-Checkliste, Mieter-Pfad-Abgrenzung.
+- 14 Quellen (woeigg §§ 20/21/44, 2 BGH-PDFs, PM 026/2024, Lifta/HIRO/TKE als Herstellerangaben,
+  VZ 20.01.2026, checkfox/weg-wissen/siemer/nullbarriere mit Interessenkennzeichnung), 60 Zitate
+  verbatim (35 legal + 25 market Ledger, Eltern-Verifikation gegen Live-Originale).
+- Renderer: specialMap +1 (Early-CTA → treppenlift-firmen-vergleich „Anbieter für den Einbau
+  vergleichen"); **table.note-Fix** (Artikel-Renderer renderte Tabellen-Notes nicht — Fehlerklasse
+  geschlossen, Gate assertet die Note); test_articles-Zähler 40→41; cross-links +1 (mietwohnung,
+  wohnumfeldverbesserung [Care-Cross whitelistet], kosten); llms.txt SUMMARIES + SECTION_MAP +1.
+- Gates: Content-Gate 130/130, SVG text+Box-Pairwise 0/0 + 2× Vision, Mobile 0 px, npm test Exit 0.
+- Protokoll: research/treppenlift-weg-231126-batch.md; Evidenz research/evidence/weg-231126/.

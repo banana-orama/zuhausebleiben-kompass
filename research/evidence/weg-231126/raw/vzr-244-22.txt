@@ -1,0 +1,916 @@
+              BUNDESGERICHTSHOF
+                   IM NAMEN DES VOLKES
+
+                                 URTEIL
+V ZR 244/22                                                    Verkündet am:
+                                                               9. Februar 2024
+                                                               Rinke
+                                                               Justizangestellte
+                                                               als Urkundsbeamtin
+                                                               der Geschäftsstelle
+                              in dem Rechtsstreit
+Nachschlagewerk:       ja
+
+BGHZ:               nein
+
+BGHR:                  ja
+
+
+WEG § 20 Abs. 1, § 21 Abs. 1 Satz 2
+
+
+Die Wohnungseigentümer können nach dem seit dem 1. Dezember 2020 gel-
+tenden Wohnungseigentumsrecht eine bauliche Veränderung grundsätzlich
+auch dann beschließen, wenn die Beschlussfassung die Zuweisung einer aus-
+schließlichen Nutzungsbefugnis an dem dafür vorgesehenen Gemeinschafts-
+eigentum zur Folge hat; einer Vereinbarung der Wohnungseigentümer bedarf
+es hierfür nicht mehr (Abgrenzung zu Senat, Urteil vom 13. Januar 2017
+- V ZR 96/16, ZWE 2017, 224 Rn. 30 ff.).
+
+WEG § 20 Abs. 2 Satz 1 Nr. 1 bis 4
+
+a) Eine bauliche Veränderung, die einem der in § 20 Abs. 2 Satz 1 Nr. 1 bis 4
+   WEG aufgeführten Zwecke dient, ist regelmäßig angemessen. Die Ange-
+   messenheit ist nur ausnahmsweise aufgrund außergewöhnlicher baulicher
+   Gegebenheiten oder eines außergewöhnlichen Begehrens zu verneinen,
+   wenn die bauliche Veränderung bei der Gesamtheit der Wohnungseigentü-
+   mer zu Nachteilen führt, die bei wertender Betrachtung außer Verhältnis zu
+   ihrem Zweck stehen. Nachteile, die typischerweise aufgrund einer privile-
+   gierten baulichen Veränderung eintreten, begründen regelmäßig nicht de-
+   ren Unangemessenheit.
+
+
+
+ECLI:DE:BGH:2024:090224UVZR244.22.0
+                                     -2-
+
+
+
+b) Die Darlegungs- und Beweislast für die tatsächlichen Umstände der Ange-
+   messenheit einer baulichen Veränderung i.S.d. § 20 Abs. 2 Satz 1 Nr. 1 bis
+   4 WEG trägt der klagende Wohnungseigentümer; verlangt ein Wohnungs-
+   eigentümer gemäß § 20 Abs. 2 Satz 1 Nr. 1 bis 4 WEG die Ersetzung eines
+   Grundlagenbeschlusses, muss er zur Begründung des Anspruchs darle-
+   gen, dass die bauliche Veränderung einem der gesetzlich privilegierten
+   Zwecke dient. Beruft sich die Gemeinschaft auf die Unangemessenheit der
+   Maßnahme, trifft sie eine sekundäre Darlegungslast für nachteilige Um-
+   stände, die sich nicht bereits aus dem Begehren selbst ergeben.
+
+WEG § 20 Abs. 4 Halbs. 1 Alt. 1
+
+Eine grundlegende Umgestaltung der Wohnanlage ist bei einer Maßnahme,
+die der Verwirklichung eines Zweckes i.S.d. § 20 Abs. 2 Satz 1 WEG dient,
+zumindest typischerweise nicht anzunehmen; der von dem Gesetzgeber im
+gesamtgesellschaftlichen Interesse erstrebten Privilegierung bestimmter Ka-
+tegorien von Maßnahmen ist bei der Prüfung, ob eine grundlegende Umge-
+staltung vorliegt, im Sinne eines Regel-Ausnahme-Verhältnisses Rechnung zu
+tragen.
+
+WEG § 20 Abs. 4 Halbs. 1 Alt. 2
+
+Eine unbillige Benachteiligung eines Wohnungseigentümers setzt voraus,
+dass die beabsichtigte Maßnahme bei wertender Betrachtung und in Abwä-
+gung mit den mit der baulichen Veränderung verfolgten Vorteilen einem ver-
+ständigen Wohnungseigentümer in zumutbarer Weise nicht abverlangt werden
+dürfte (Fortführung von Senat, Urteil vom 15. Mai 2020 - V ZR 64/19, NJW-RR
+2020, 1022 Rn. 14).
+
+BGH, Urteil vom 9. Februar 2024 - V ZR 244/22 - LG München I
+                                                AG München
+                                         -3-
+
+
+
+    Der V. Zivilsenat des Bundesgerichtshofs hat auf die mündliche Verhandlung
+    vom 8. Dezember 2023 durch die Vorsitzende Richterin Dr. Brückner, die Richter
+    Dr. Göbel und Dr. Malik und die Richterinnen Laube und Dr. Grau
+
+
+    für Recht erkannt:
+
+
+          Die Revision gegen das Urteil des Landgerichts München I
+          - 36. Zivilkammer - vom 8. Dezember 2022 wird auf Kosten der
+          Beklagten zurückgewiesen.
+
+
+          Der Streitwert wird für die Revisionsinstanz auf 200.000 € und in
+          Abänderung der Wertfestsetzungen in dem oben genannten Urteil
+          und in dem Urteil des Amtsgerichts München vom 10. Februar 2022
+          für die erste und die zweite Instanz ebenfalls auf jeweils 200.000 €
+          festgesetzt.
+
+
+                                  Von Rechts wegen
+
+
+                                     Tatbestand:
+
+
+1         Die Kläger sind Mitglieder der beklagten Gemeinschaft der Wohnungsei-
+    gentümer (GdWE). Die Anlage besteht aus zwei zwischen 1911 und 1912 im
+    Jugendstil errichteten Wohnhäusern und steht unter Denkmalschutz. Das Vor-
+    derhaus erhielt im Jahr 1983 den Fassadenpreis der Stadt München. Vorder- und
+    Hinterhaus wurden nachträglich auf der Höhe des Hochparterres mit einem
+    Durchgang verbunden. Zwischen den Häusern befindet sich ein etwa 100 qm
+    großer Innenhof. Dort stehen die Mülltonnen, und es werden von den Bewohnern
+    Fahrräder und Motorräder sowie Kinderwagen abgestellt. Die Wohneinheiten der
+                                          -4-
+
+
+
+    Kläger liegen im dritten und vierten Obergeschoss des Hinterhauses. Bei diesem
+    handelt es sich um das ehemalige „Gesindehaus“. Dessen Fassade und das im
+    Bereich zwischen Erdgeschoss und erstem Obergeschoss weniger als ein Meter
+    breite Treppenhaus sind im Vergleich zum Vorderhaus eher schlicht gehalten.
+    Ein Personenaufzug ist nur für das Vorderhaus vorhanden. In der Eigentümerver-
+    sammlung vom 26. Juli 2021 beantragten die nicht gehbehinderten Kläger erfolg-
+    los, die Verwaltung mit der Planung eines allgemein zugänglichen Personenauf-
+    zugs für das Hinterhaus zu beauftragen. Ein weiterer Antrag, ihnen hilfsweise
+    und auf eigene Kosten die Errichtung eines Außenaufzugs am Treppenhaus des
+    Hinterhauses als Zugang für Menschen mit Behinderungen zu gestatten, wurde
+    ebenfalls abgelehnt.
+
+
+2         Die Kläger haben mit ihrer Klage, soweit von Interesse, beantragt, einen
+    Beschluss über die Errichtung eines Aufzugs für das Hinterhaus gerichtlich zu
+    ersetzen. Das Amtsgericht hat die Klage abgewiesen. Auf die Berufung der Klä-
+    ger hat das Landgericht entschieden, dass auf Verlangen der Kläger beschlossen
+    ist, dass am Hinterhaus auf der zum Innenhof gelegenen Seite ein Personenauf-
+    zug zu errichten ist. Dagegen wendet sich die Beklagte mit der von dem Landge-
+    richt zugelassenen Revision, deren Zurückweisung die Kläger beantragen.
+
+
+
+
+                                 Entscheidungsgründe:
+
+
+                                            I.
+
+
+3         Das Berufungsgericht, dessen Entscheidung unter anderem in NZM 2023,
+    164 veröffentlicht ist, meint, den Klägern stehe ein Anspruch auf Errichtung eines
+                                          -5-
+
+
+
+    Personenaufzugs für das Hinterhaus gemäß § 20 Abs. 2 Satz 1 WEG zu. Des-
+    halb sei ein entsprechender Grundlagenbeschluss gerichtlich zu ersetzen. Die
+    Entscheidung über die konkrete Durchführung der Errichtung einschließlich der
+    Ausführungsgestaltung und der Frage, wer den Aufzug errichten soll, verbleibe
+    gemäß § 20 Abs. 2 Satz 2 WEG bei den Wohnungseigentümern. Die Errichtung
+    eines Personenaufzugs diene dem Gebrauch durch Menschen mit Behinderun-
+    gen im Sinne von § 20 Abs. 2 Satz 1 Nr. 1 WEG und stelle eine angemessene
+    Maßnahme dar. Mit dem Merkmal der Angemessenheit habe der Gesetzgeber
+    bezweckt, im Einzelfall unangemessene Forderungen eines Wohnungseigentü-
+    mers zurückweisen zu können. Die Unangemessenheit sei daher von der beklag-
+    ten GdWE darzulegen und zu beweisen. Eine privilegierte Maßnahme unter Be-
+    rufung auf deren Unangemessenheit vollständig zu versagen, komme lediglich in
+    atypischen Ausnahmefällen in Betracht, woran es hier fehle. Die Kosten stünden
+    der Angemessenheit grundsätzlich nicht entgegen, und die von der Beklagten
+    gegen die Errichtung des Aufzugs vorgebrachten Nutzungseinschränkungen, op-
+    tischen Veränderungen und baurechtlichen Erwägungen seien wegen der Viel-
+    zahl der Gestaltungsvarianten nicht auf erster Stufe bei der Frage des „Ob“, son-
+    dern erst auf der zweiten Stufe bei der Frage des „Wie“ zu berücksichtigen. Etwas
+    anderes könne zwar gelten, wenn in jedem Fall öffentlich-rechtliche Vorgaben
+    verletzt würden. Dies habe die Beklagte aber nicht vorgetragen.
+
+
+4         Die Errichtung eines Personenaufzugs für das Hinterhaus gestalte die
+    Wohnanlage auch nicht grundlegend um im Sinne von § 20 Abs. 4 WEG. Der
+    Begriff der grundlegenden Umgestaltung sei eng auszulegen und erfordere mehr
+    als eine Änderung der Eigenart der Wohnanlage im Sinne von § 22 Abs. 2 Satz 1
+    WEG aF. Ausgehend von einem objektiven Vorher-Nachher-Vergleich und unter
+    Berücksichtigung aller Umstände des Einzelfalls müsse die Umgestaltung der
+    ganzen Anlage ein neues Gepräge geben. Davon sei hier nicht auszugehen.
+                                            -6-
+
+
+
+    Denn die Errichtung des Aufzugs für das eher schlicht gehaltene Hinterhaus be-
+    treffe lediglich einen Teilbereich der Anlage, deren Charakter deutlich stärker
+    durch das herrschaftliche Vorderhaus geprägt werde.
+
+
+5             Es sei schließlich keine unbillige Benachteiligung eines Wohnungseigen-
+    tümers gemäß § 20 Abs. 4 WEG gegeben. Durch die bauliche Veränderung
+    werde keinem Wohnungseigentümer ein erhebliches Sonderopfer auferlegt. Eine
+    mit der Errichtung eines Personenaufzugs im Innenhof verbundene Verschattung
+    von Wohnungen sowie etwaige Lärmstörungen seien bis zu einem gewissen
+    Grad bei der Entscheidung über die Durchführung der Maßnahme steuerbar. Es
+    fehle auch an der Erheblichkeit der Beeinträchtigung. Aufgrund der baulichen
+    Gegebenheiten wirke sich eine Verschattung durch die Errichtung eines Außen-
+    aufzugs vor allem bei den oberen und im Sondereigentum der Kläger stehenden
+    Wohnungen aus. Die Wohnungen im Erdgeschoss und im ersten Obergeschoss
+    des Hinterhauses seien wegen der Lage unter bzw. neben dem Durchgang be-
+    reits vorbelastet. Bei der Wohnung im zweiten Obergeschoss des Hinterhauses
+    werde zwar eine zusätzliche Verschattung eintreten. Diese sei aber nicht erheb-
+    lich.
+
+                                             II.
+
+
+6             Diese Ausführungen halten rechtlicher Nachprüfung stand. Das Beru-
+    fungsgericht bejaht zu Recht einen Anspruch der Kläger auf eine Beschlussfas-
+    sung über die Errichtung eines Personenaufzugs gemäß § 20 Abs. 2 Satz 1 Nr. 1
+    WEG.
+
+
+7             1. Zutreffend ist zunächst der rechtliche Ausgangspunkt des Berufungsge-
+    richts.
+                                          -7-
+
+
+
+8          a) Die Beschlussersetzungsklage gemäß § 44 Abs. 1 Satz 2 WEG ist be-
+     gründet, wenn der klagende Wohnungseigentümer zum Zeitpunkt der letzten
+     mündlichen Tatsachenverhandlung einen Anspruch auf den seinem Rechts-
+     schutzziel entsprechenden Beschluss hat, weil nur eine Beschlussfassung ord-
+     nungsmäßiger Verwaltung entspricht. Das erfordert nicht, dass ein Anspruch auf
+     Durchführung einer mit der Klage konkret verlangten Maßnahme besteht. Es ist
+     regelmäßig ausreichend, wenn die Voraussetzungen für die Ersetzung eines so
+     genannten Grundlagenbeschlusses vorliegen, mit dem zunächst nur über das
+     „Ob“ der Maßnahme entschieden werden soll, während das „Wie“ der Ausgestal-
+     tung durch die Wohnungseigentümer vorbehalten bleibt (vgl. zum Ganzen Senat,
+     Urteil vom 16. September 2022 - V ZR 69/21, NJW 2023, 63 Rn. 8 f.).
+
+
+9          b) Hiervon ausgehend nimmt das Berufungsgericht rechtsfehlerfrei an,
+     dass entsprechend dem Rechtsschutzziel der Kläger allein über die Ersetzung
+     eines Grundlagenbeschlusses gemäß § 20 Abs. 1 WEG zu entscheiden ist. Nach
+     dieser Vorschrift können Maßnahmen, die über die ordnungsmäßige Erhaltung
+     des gemeinschaftlichen Eigentums hinausgehen (bauliche Veränderungen), be-
+     schlossen oder einem Wohnungseigentümer durch Beschluss gestattet werden.
+
+
+10         aa) Mit einem Grundlagenbeschluss wird eine verbindliche Regelung über
+     die von den Klägern begehrte Errichtung des Personenaufzuges für das Hinter-
+     haus begründet und die spätere Durchführung legitimiert. Die Klage ist begrün-
+     det, wenn der geltend gemachte Anspruch gemäß § 20 Abs. 2 Satz 1 Nr. 1 WEG
+     auf eine Beschlussfassung besteht. Das setzt voraus, dass es sich um eine pri-
+     vilegierte Maßnahme gemäß § 20 Abs. 2 Satz 1 WEG handelt und nach § 20
+     Abs. 4 WEG die Grenzen einer zulässigen baulichen Veränderung eingehalten
+     werden. Sind diese Voraussetzungen gegeben, ist die bauliche Veränderung je-
+     denfalls dem Grunde nach zu beschließen, ohne dass insoweit ein Beurteilungs-
+                                           -8-
+
+
+
+     oder Ermessensspielraum der Wohnungseigentümer besteht (vgl. BT-Drucks.
+     19/18791 S. 63). Die Beschlussfassung erfolgt aber auch in diesem Fall auf der
+     Grundlage von § 20 Abs. 1 WEG. Denn durch die Regelungen in § 20 Abs. 2
+     Satz 1 WEG - und § 20 Abs. 3 WEG - wird den einzelnen Wohnungseigentümern
+     lediglich ein Anspruch auf eine Beschlussfassung gewährt, ohne dass eine
+     eigenständige Beschlusskompetenz begründet wird (vgl. BT-Drucks. 19/18791
+     S. 66). Die (weitere) Entscheidung über die konkrete Durchführung der baulichen
+     Veränderung - also über das „Wie“ - ist dagegen gemäß § 20 Abs. 2 Satz 2 WEG
+     grundsätzlich den Wohnungseigentümern vorbehalten; ein Anspruch des verlan-
+     genden Wohnungseigentümers auf eine bestimmte Durchführung der baulichen
+     Veränderung besteht bei Maßnahmen des § 20 Abs. 2 WEG aufgrund des ver-
+     bleibenden Ausführungsermessens der Wohnungseigentümer regelmäßig nicht
+     (vgl. etwa BT-Drucks. 19/18791 S. 65).
+
+
+11         bb) Entgegen der Auffassung des Berufungsgerichts wird allerdings auch
+     dann, wenn es sich „nur“ um einen Grundlagenbeschluss handelt, in aller Regel
+     darüber zu entscheiden sein, ob dem verlangenden Wohnungseigentümer die
+     Durchführung der Maßnahme gestattet wird oder ob die GdWE die bauliche Ver-
+     änderung auf Kosten des Wohnungseigentümers (vgl. § 21 Abs. 1 Satz 1 WEG)
+     vornehmen soll. Insoweit spricht viel dafür, dass es bei der Errichtung eines Auf-
+     zugs wegen des massiven konstruktiven Eingriffs in den Baukörper und der in-
+     soweit bestehenden Haftungsrisiken (vgl. dazu Senat, Urteil vom 13. Januar 2017
+     - V ZR 96/16, ZWE 2017, 224 Rn. 26 f.) im Rahmen einer Beschlussersetzung
+     eher ordnungsmäßiger Verwaltung entsprechen dürfte, die GdWE mit der Durch-
+     führung der Maßnahme zu betrauen, wie dies dem von den Klägern in der Eigen-
+     tümerversammlung vom 26. Juli 2021 gestellten Hauptantrag entspricht. Diese
+                                          -9-
+
+
+
+     Fragen bedürfen aber keiner Vertiefung, weil die Beklagte dadurch, dass das Be-
+     rufungsgericht den Klägern möglicherweise zu wenig zugesprochen hat, nicht
+     beschwert ist und die Kläger keine Anschlussrevision eingelegt haben.
+
+
+12         c) Aufgrund der eindeutigen Regelung in § 20 Abs. 1 WEG bestehen keine
+     Bedenken gegen die Beschlusskompetenz, wovon das Berufungsgericht - wenn
+     auch unausgesprochen - ebenfalls ausgeht.
+
+
+13         aa) Allerdings hat der Senat auf der Grundlage des Wohnungseigentums-
+     gesetzes in der bis zum 30. November 2020 geltenden Fassung angenommen,
+     dass die Beschlusskompetenz fehlt, wenn - wie hier - die zu beschließende bau-
+     liche Veränderung (z.B. ein Personenaufzug) nur einzelnen bau- und zahlungs-
+     willigen Wohnungseigentümern zur Verfügung stehen soll. Dies beruhte auf der
+     Überlegung, dass den begünstigten Wohnungseigentümern durch einen solchen
+     Beschluss ein Sondernutzungsrecht eingeräumt wird und die übrigen Wohnungs-
+     eigentümer insoweit entgegen § 13 Abs. 2 Satz 1 WEG aF (jetzt § 16 Abs. 1
+     Satz 3 WEG) von dem Gebrauch des gemeinschaftlichen Eigentums ausge-
+     schlossen werden. Eine solche bauliche Veränderung bedurfte daher einer Ver-
+     einbarung der Wohnungseigentümer und konnte deshalb nicht Gegenstand einer
+     den Beschluss ersetzenden Entscheidung des Gerichts sein (vgl. Senat, Urteil
+     vom 13. Januar 2017 - V ZR 96/16, ZWE 2017, 224 Rn. 30 ff. mwN; vgl. auch
+     Senat, Beschluss vom 20. September 2000 - V ZB 58/99, BGHZ 145, 158, 163).
+
+
+14         bb) An dieser Rechtsprechung kann nach der Neufassung der Regelun-
+     gen über bauliche Veränderungen in §§ 20, 21 WEG durch das Wohnungseigen-
+     tumsmodernisierungsgesetz nicht festgehalten werden. Nach dem seit dem
+     1. Dezember 2020 geltenden Wohnungseigentumsrecht können vielmehr die
+                                          - 10 -
+
+
+
+     Wohnungseigentümer eine bauliche Veränderung grundsätzlich auch dann be-
+     schließen, wenn die Beschlussfassung die Zuweisung einer ausschließlichen
+     Nutzungsbefugnis an dem dafür vorgesehenen Gemeinschaftseigentum zur
+     Folge hat; einer Vereinbarung der Wohnungseigentümer bedarf es hierfür nicht
+     mehr.
+
+
+15           (1) Die Zuweisung einer ausschließlichen Nutzungsbefugnis ist nunmehr
+     regelmäßige Folge eines seit dem 1. Dezember 2020 gefassten Beschlusses
+     über bauliche Veränderungen nach § 20 Abs. 1 WEG. Dies ergibt sich aus § 21
+     WEG und den in dieser Vorschrift enthaltenen Regelungen über die Kosten und
+     Nutzungen bei baulichen Veränderungen. Wird einem Wohnungseigentümer
+     eine bauliche Veränderung gestattet oder diese auf sein Verlangen nach § 20
+     Abs. 2 WEG durch die GdWE durchgeführt, hat er gemäß § 21 Abs. 1 Satz 1
+     WEG die Kosten allein zu tragen, und nur ihm gebühren nach § 21 Abs. 1 Satz 2
+     WEG die Nutzungen (§ 100 BGB), sofern ein ausschließlicher Gebrauch des
+     baulich veränderten Gemeinschaftseigentums möglich ist (vgl. dazu BT-Drucks.
+     19/18791 S. 67; Beispiele bei Greiner, Wohnungseigentumsrecht, § 4 Rn. 71 f.).
+     In den übrigen Fällen haben regelmäßig allein diejenigen Wohnungseigentümer
+     die Kosten einer baulichen Veränderung zu tragen, die sie beschlossen haben
+     (§ 21 Abs. 3 Satz 1 WEG); nur ihnen gebühren dann nach § 21 Abs. 3 Satz 2
+     WEG auch die Nutzungen. In diesen Regelungen kommt zum Ausdruck, dass
+     mit der Reform des Wohnungseigentumsrechts eine Beschlussfassung über bau-
+     liche Veränderungen gerade auch dann ermöglicht werden sollte, wenn dies eine
+     ausschließliche Nutzungsbefugnis zur Folge hat; hierin bestand ein erklärtes Ziel
+     der Reform des Wohnungseigentumsrechts (vgl. Abschlussbericht der Bund-
+     Länder-Arbeitsgruppe zur Reform des Wohnungseigentumsgesetzes, ZWE
+     2019, 429, 445). Die Schaffung außerhalb des Grundbuchs bestehender Nut-
+     zungsbefugnisse von einzelnen Wohnungseigentümern (§ 21 Abs. 1 Satz 2
+                                          - 11 -
+
+
+
+     WEG) oder Gruppen von Wohnungseigentümern (§ 21 Abs. 3 Satz 2 WEG) be-
+     ruht damit, auch wenn sich dies der Gesetzesbegründung nicht ausdrücklich ent-
+     nehmen lässt, auf der bewussten Entscheidung des Gesetzgebers, die bis zum
+     30. November 2020 geltende Rechtslage zu ändern (vgl. auch LG Düsseldorf,
+     ZWE 2023, 214 Rn. 22; Bärmann/Dötsch, WEG, 15. Aufl., § 21 Rn. 63;
+     BeckOGK/Kempfle, WEG [1.12.2023], § 20 Rn. 104 f.).
+
+
+16           (2) Ob die Wohnungseigentümer überhaupt - und wenn ja unter welchen
+     weiteren Voraussetzungen - eine bauliche Veränderung auch dann beschließen
+     können, wenn mit der baulichen Veränderung entgegen einer vereinbarten Ge-
+     brauchsregelung eine bestimmte Nutzung ermöglicht bzw. ausgeschlossen wer-
+     den soll (dagegen etwa BeckOK WEG/Elzer [2.10.2023], § 20 Rn. 59; Suilmann,
+     ZWE 2022, 268, 269 f.; aA NK-BGB/Brücher/Schultzky, § 20 WEG Rn. 27; Häub-
+     lein/Jacoby/Lehmann-Richter/Wobst, ZWE 2021, 27, 28; ausführlich auch
+     Bärmann/Dötsch, WEG, 15. Aufl., § 21 Rn. 38 ff. mwN), braucht nicht entschie-
+     den zu werden. An einer solchen Gebrauchsregelung fehlt es hier.
+
+
+17           2. Die Annahme des Berufungsgerichts, dass die von den Klägern er-
+     strebte Errichtung eines Personenaufzugs eine angemessene bauliche Verände-
+     rung darstellt, die dem Gebrauch durch Menschen mit Behinderungen dient
+     (§ 20 Abs. 2 Satz 1 Nr. 1 WEG), erweist sich jedenfalls im Ergebnis als zutref-
+     fend.
+
+
+18           a) Dem Gebrauch durch Menschen mit Behinderungen dienen alle bauli-
+     chen Veränderungen, die für die Nutzung durch körperlich oder geistig einge-
+     schränkte Personen erforderlich oder auch nur förderlich sind. Dafür ist es ohne
+     Belang, ob und in welchem Umfang der Wohnungseigentümer oder einer seiner
+     Angehörigen auf die Maßnahme angewiesen ist (vgl. BT-Drucks. 19/18791
+                                          - 12 -
+
+
+
+     S. 63). Das Gesetz trägt mit der Privilegierung der in § 20 Abs. 2 Satz 1 WEG
+     aufgeführten Veränderungen der Anlage einem gesamtgesellschaftlichen Be-
+     dürfnis Rechnung und dient nicht nur dem besonderen Interesse des einzelnen
+     Wohnungseigentümers (vgl. Lehmann-Richter/Wobst, WEG-Reform 2020,
+     Rn. 967). Hiervon ausgehend legt das Berufungsgericht seiner Entscheidung zu-
+     treffend und von der Revision unbeanstandet zugrunde, dass die Errichtung ei-
+     nes Personenaufzugs für das Hinterhaus den Zugang zu den dort gelegenen Ein-
+     heiten für körperlich eingeschränkte Personen jedenfalls erleichtert. Dass die
+     Kläger nach den für den Senat nach § 559 Abs. 1 ZPO maßgeblichen Feststel-
+     lungen des Berufungsgerichts selbst nicht gehbehindert sind, ist unerheblich.
+
+
+19         b) Die Errichtung eines Personenaufzugs ist auch „angemessen“ im Sinne
+     des § 20 Abs. 2 Satz 1 WEG.
+
+
+20         aa) Das Kriterium der Angemessenheit einer baulichen Veränderung ge-
+     mäß § 20 Abs. 2 Satz 1 WEG dient nach dem Willen des Gesetzgebers dazu, im
+     konkreten Einzelfall objektiv unangemessene Forderungen eines Wohnungsei-
+     gentümers zurückweisen zu können. Die Umstände des jeweiligen Einzelfalls
+     sind zu berücksichtigen (vgl. BT-Drucks. 19/18791 S. 63). Die Beurteilung ist da-
+     mit in erster Linie Sache des Tatrichters, der alle in Betracht kommenden Um-
+     stände einzubeziehen und eine Gesamtwürdigung vorzunehmen hat. Die revisi-
+     onsrechtliche Nachprüfung beschränkt sich darauf, ob das Berufungsgericht den
+     unbestimmten Rechtsbegriff der Angemessenheit zutreffend erfasst und ausge-
+     legt sowie alle für die Beurteilung wesentlichen Umstände berücksichtigt und die
+     Denkgesetze und Erfahrungssätze beachtet hat (vgl. Senat, Urteil vom
+     23. März 2018 - V ZR 307/16, NJW-RR 2018, 1227 Rn. 12).
+                                          - 13 -
+
+
+
+21         bb) Das Berufungsgericht erfasst den Begriff der Angemessenheit zutref-
+     fend und legt entgegen der Ansicht der Revision bei der Auslegung keinen zu
+     engen rechtlichen Maßstab an. Eine bauliche Veränderung, die einem der in § 20
+     Abs. 2 Satz 1 Nr. 1 bis 4 WEG aufgeführten Zwecke dient, ist regelmäßig ange-
+     messen. Die Angemessenheit ist nur ausnahmsweise aufgrund außergewöhnli-
+     cher baulicher Gegebenheiten oder eines außergewöhnlichen Begehrens zu ver-
+     neinen, wenn die bauliche Veränderung bei der Gesamtheit der davon betroffe-
+     nen Wohnungseigentümer zu Nachteilen führt, die bei wertender Betrachtung au-
+     ßer Verhältnis zu ihrem Zweck stehen. Nachteile, die typischerweise aufgrund
+     einer privilegierten baulichen Veränderung eintreten, begründen regelmäßig
+     nicht deren Unangemessenheit.
+
+
+22         (1) Aus der in § 20 Abs. 2 Satz 1 WEG enthaltenen und verfassungsrecht-
+     lich unbedenklichen Wertentscheidung des Gesetzgebers lässt sich ableiten, wo-
+     von das Berufungsgericht zu Recht ausgeht, dass die Versagung einer privile-
+     gierten Maßnahme aufgrund ihrer Unangemessenheit nur in atypischen Ausnah-
+     mefällen in Betracht kommt (vgl. Bärmann/Dötsch, WEG, 15. Aufl., § 20 Rn. 200;
+     jurisPK-BGB/Kallenborn, 10. Aufl., § 20 WEG Rn. 52; Staudinger/Jacoby, BGB
+     [2023], § 20 WEG Rn. 178; Lehmann-Richter/Wobst, WEG-Reform 2020,
+     Rn. 1184; ähnlich Hogenschurz in Jennißen, WEG, 8. Aufl., § 20 Rn. 45).
+     Voraussetzung ist, dass - entgegen der typisierenden Betrachtung des Gesetz-
+     gebers - im konkreten Einzelfall Nachteile aufgrund der baulichen Veränderung
+     entstehen, welche deren Vorteile überwiegen (vgl. etwa Bärmann/Dötsch, WEG,
+     15. Aufl., § 20 Rn. 200; BeckOGK/Kempfle, WEG [1.12.2023], § 20 Rn. 140;
+     Hogenschurz in Jennißen, WEG, 8. Aufl., § 20 Rn. 45). Es muss sich um Nach-
+     teile handeln, die über die Folgen hinausgehen, die typischerweise mit der Durch-
+     führung einer privilegierten baulichen Veränderung einhergehen. Zu Recht stellt
+                                         - 14 -
+
+
+
+     das Berufungsgericht insoweit darauf ab, dass sich solche Nachteile aus außer-
+     gewöhnlichen baulichen Gegebenheiten oder außergewöhnlichen Begehren er-
+     geben können (vgl. Lehmann-Richter/Wobst, WEG-Reform 2020, Rn. 1184).
+     Typischerweise eintretende Nachteile wie erforderliche Eingriffe in die Bausub-
+     stanz, übliche Nutzungseinschränkungen des Gemeinschaftseigentums und op-
+     tische Veränderungen der Anlage etwa aufgrund von Anbauten können die Un-
+     angemessenheit daher regelmäßig nicht begründen. Die Errichtung eines Auf-
+     zugs ist zwar mit Nachteilen verbunden (vgl. Senat, Urteil vom 13. Januar 2017
+     - V ZR 96/16, ZWE 2017, 224 Rn. 25 ff.). Diese sollen aber nach dem ausdrück-
+     lichen Willen des Gesetzgebers als Maßnahme zur Barrierereduzierung hinzu-
+     nehmen sein (vgl. BT-Drucks. 19/18791 S. 25). Dementsprechend sind die Platz-
+     beeinträchtigungen, die unmittelbar auf der Errichtung eines Aufzugs beruhen,
+     für die Beurteilung der Angemessenheit bzw. Unangemessenheit unerheblich.
+
+
+23         (2) Richtig ist auch die weitere Annahme des Berufungsgerichts, dass bei
+     der Abwägung regelmäßig nur solche Folgen der baulichen Veränderung rele-
+     vant sind, die sich für die Gesamtheit der Wohnungseigentümer negativ auswir-
+     ken. Dies beruht darauf, dass das Gesetz Beeinträchtigungen einzelner Woh-
+     nungseigentümer bei der Veränderungssperre des § 20 Abs. 4 Halbs. 1 Alt. 2
+     WEG (unbillige Benachteiligung eines Wohnungseigentümers) berücksichtigt;
+     solche individuellen Nachteile können daher nicht zugleich die Angemessenheit
+     einer privilegierten baulichen Veränderung beseitigen (vgl. Bärmann/Dötsch,
+     WEG, 15. Aufl., § 20 Rn. 200; BeckOGK/Kempfle, WEG [1.12.2023], § 20
+     Rn. 139; Hogenschurz in Jennißen, WEG, 8. Aufl., § 20 Rn. 45). Es muss sich
+     zudem um Nachteile handeln, die unabhängig von der weiteren Entscheidung
+     der Wohnungseigentümer über die Art und Weise der Bauausführung einschließ-
+                                          - 15 -
+
+
+
+     lich der konkreten baulichen Details eintreten und nicht durch bestimmte Bedin-
+     gungen und Auflagen gemäß § 20 Abs. 2 Satz 2 WEG beseitigt bzw. abgemildert
+     werden können.
+
+
+24         (3) Die Kosten der baulichen Veränderung sind dagegen grundsätzlich
+     ohne Bedeutung für das Bestehen eines Anspruchs nach § 20 Abs. 2 Satz 1
+     WEG; sie sind gemäß § 21 Abs. 1 Satz 1 WEG von dem verlangenden Woh-
+     nungseigentümer zu tragen und können daher die Angemessenheit der Maß-
+     nahme nicht entfallen lassen. Dies gilt im Grundsatz auch für Folgekosten des
+     Gebrauchs und der Erhaltung des baulich veränderten Gemeinschaftseigentums,
+     die etwa durch erhöhte Versicherungsprämien, die Wahrnehmung von Kontroll-
+     und Überwachungspflichten oder die Wartung und Reparatur entstehen. Denn
+     der Begriff der Kosten in § 21 WEG ist weit auszulegen und erfasst auch derartige
+     Folgekosten (vgl. BT-Drucks. 19/18791 S. 68; siehe zu § 16 Abs. 6 WEG aF auch
+     Senat, Urteil vom 15. Mai 2020 - V ZR 64/19, NJW-RR 2020, 1022 Rn. 24 mwN).
+     Drohen besonders hohe Folgekosten, kann der Wohnungseigentümer eine
+     Sicherheit stellen, um das Haftungsrisiko auszuräumen (vgl. hierzu Lehmann-
+     Richter/Wobst, WEG-Reform 2020, Rn. 1185).
+
+
+25         (4) Das Berufungsgericht nimmt ebenfalls zutreffend an, dass die Ange-
+     messenheit einer baulichen Veränderung gemäß § 20 Abs. 2 Satz 1 WEG nicht
+     wegen einer fehlenden körperlichen Behinderung des verlangenden Wohnungs-
+     eigentümers oder einer seiner Angehörigen verneint werden kann. Die negativen
+     Folgen der Maßnahme sind aufgrund des vom Gesetzgeber zugrunde gelegten
+     gesamtgesellschaftlichen Interesses an den privilegierten Maßnahmen dem ob-
+     jektiven Nutzen der baulichen Veränderung für die Erreichung des gesetzlich ver-
+     folgten Zwecks gegenüberzustellen (vgl. BeckOGK/Kempfle, WEG [1.12.2023],
+                                          - 16 -
+
+
+
+     § 20 Rn. 140). Besteht dagegen, anders als es nach den Feststellungen des Be-
+     rufungsgerichts hier der Fall ist, ein konkretes Bedürfnis des verlangenden Woh-
+     nungseigentümers nach Maßnahmen der Barrierereduzierung, sind von den üb-
+     rigen Wohnungseigentümern im konkreten Einzelfall ggf. auch erhebliche Nach-
+     teile eher hinzunehmen (vgl. Bärmann/Dötsch, WEG, 15. Aufl., § 20 Rn. 204).
+
+
+26         (5) Einen zu engen rechtlichen Maßstab legt das Berufungsgericht entge-
+     gen der Ansicht der Revision schließlich nicht durch seine Annahme an, dass es
+     bei der Prüfung der Angemessenheit in der Regel nur darum gehen könne, den
+     Bauwilligen auf Alternativen zu verweisen, mit denen er den verfolgten Zweck in
+     ähnlicher Weise erreichen kann (vgl. dazu Staudinger/Jacoby, WEG [2023], § 20
+     Rn. 174; Lehmann-Richter/Wobst, WEG-Reform 2020, Rn. 1184). Ob die Ange-
+     messenheit weiter voraussetzt, dass es zu der von dem Wohnungseigentümer
+     verlangten baulichen Veränderung kein milderes Mittel im engeren Sinne gibt,
+     bedarf hier keiner Entscheidung. Auf der Grundlage der Feststellungen des Be-
+     rufungsgerichts gibt es ein solch milderes Mittel nämlich nicht. Der Einbau eines
+     Treppenlifts anstelle des Personenaufzugs scheidet im Hinblick auf die geringe
+     Breite des Treppenhauses von weniger als einem Meter von vornherein aus. Der
+     Hinweis in der Revisionsbegründung, angesichts des bereits im Hochparterre be-
+     stehenden Übergangs zwischen Vorder- und Hinterhaus liege die Herstellung
+     eines zweiten Übergangs im dritten oder vierten Obergeschoss nahe, der unter
+     Nutzung des Aufzugs des Vorderhauses ebenfalls ein barriereärmeres Erreichen
+     der oberen Wohnungen des Hinterhauses ermögliche, ist bereits aus prozessu-
+     alen Gründen unbeachtlich (§ 559 Abs. 1 ZPO). Dass die Beklagte diesen Vortrag
+     bereits in den Tatsacheninstanzen gehalten hat, macht sie nicht geltend.
+                                          - 17 -
+
+
+
+27         cc) Anders als die Beklagte meint, mussten die Kläger in tatsächlicher Hin-
+     sicht nicht mehr vortragen, um die Angemessenheit der von ihnen beabsichtigten
+     Maßnahme darzulegen.
+
+
+28         (1) Allerdings trägt entgegen der Auffassung des Berufungsgerichts die
+     Darlegungs- und Beweislast für die tatsächlichen Umstände der Angemessenheit
+     einer baulichen Veränderung i.S.d. § 20 Abs. 2 Satz 1 Nr. 1 bis 4 WEG der kla-
+     gende Wohnungseigentümer. Dieser Rechtsfehler verhilft der Revision aber nicht
+     zum Erfolg, weil er sich nicht ausgewirkt hat. Verlangt ein Wohnungseigentümer
+     die Ersetzung eines Grundlagenbeschlusses, muss er zur Begründung des An-
+     spruchs einschließlich der Angemessenheit der Maßnahme darlegen, dass die
+     bauliche Veränderung einem der gesetzlich privilegierten Zwecke dient. Beruft
+     sich die Gemeinschaft auf die Unangemessenheit der Maßnahme, trifft sie eine
+     sekundäre Darlegungslast für nachteilige Umstände, die sich nicht bereits aus
+     dem Begehren selbst ergeben.
+
+
+29         (2) Die Frage, wer die Darlegungs- und Beweislast für die tatsächlichen
+     Umstände zu der Prüfung der Angemessenheit einer baulichen Veränderung
+     trägt, wird unterschiedlich beurteilt. Zum Teil wird angenommen, nach allgemei-
+     nen Grundsätzen müsse der klagende Wohnungseigentümer die Anspruchsvo-
+     raussetzungen einschließlich der Angemessenheit seines Verlangens vortragen
+     und ggf. beweisen (vgl. Bärmann/Dötsch, WEG, 15. Aufl., § 20 Rn. 311; Krug,
+     ZMR 2023, 958, 961). Nach der Gegenauffassung ist die Angemessenheit der
+     begehrten baulichen Veränderungen nicht von dem verlangenden Wohnungsei-
+     gentümer vorzutragen; darlegungs- und beweisbelastet sei die GdWE, soweit sie
+     sich auf die Unangemessenheit der Maßnahme berufe (vgl. BeckOGK/Kempfle,
+     [1.12.2023], § 20 WEG Rn. 135; BeckOK WEG/Elzer [2.10.2023], § 20 Rn. 115;
+     jurisPK-BGB/Kallenborn, 10. Aufl., § 20 WEG Rn. 53).
+                                         - 18 -
+
+
+
+30         (3) Richtig ist im Ausgangspunkt die zuerst genannte Auffassung. Nach
+     dem Wortlaut des § 20 Abs. 2 Satz 1 WEG kann ein Wohnungseigentümer nur
+     angemessene bauliche Veränderungen verlangen. Damit ist die Angemessenheit
+     ein Tatbestandsmerkmal der Vorschrift, das nach allgemeinen Grundsätzen der
+     Anspruchsteller darzulegen und zu beweisen hat. Hiervon geht auch die Geset-
+     zesbegründung aus (vgl. BT-Drucks. 19/18791 S. 62). Allerdings besteht nach
+     dem der Vorschrift zugrundeliegenden Regel-Ausnahme-Verhältnis der An-
+     spruch eines Wohnungseigentümers regelmäßig schon dann, wenn die verlangte
+     bauliche Veränderung einem der gesetzlich privilegierten Zwecke dient, und er
+     ist nur ausgeschlossen, wenn sich die verlangte Maßnahme ausnahmsweise als
+     unangemessen darstellt. Damit obliegt dem Wohnungseigentümer der Sache
+     nach die Darlegung einer negativen Tatsache, nämlich des Fehlens atypischer
+     Umstände, worauf die Erwiderung zutreffend hinweist. Dies rechtfertigt es - wie
+     bei negativen Tatbestandsmerkmalen im engeren Sinne -, die Grundsätze der
+     sekundären Darlegungslast anzuwenden. Die Schwierigkeiten, die sich bei dem
+     Nachweis einer negativen Tatsache ergeben, mildert der Bundesgerichtshof in
+     ständiger Rechtsprechung dadurch ab, dass er Erleichterungen nach den
+     Grundsätzen zur sekundären Darlegungslast gewährt. Die beweispflichtige Par-
+     tei muss nicht jede theoretisch denkbare Möglichkeit ausräumen, dass der strei-
+     tige Umstand doch gegeben ist. Vielmehr hat sie in der Regel nur diejenigen Um-
+     stände zu widerlegen, die nach dem Vortrag der Gegenseite das Tatbestands-
+     merkmal ausschließen (vgl. für das Fehlen eines rechtlichen Grundes im Rahmen
+     eines Bereicherungsanspruchs BGH, Urteil vom 28. Juli 2015 - XI ZR 434/14,
+     BGHZ 206, 305 Rn. 21; siehe zu einem Negativbeweis auch BGH, Urteil vom
+     9. März 2023 - III ZR 80/22, BGHZ 236, 246 Rn. 31 mwN; Senat, Urteil vom
+     6. März 2020 - V ZR 2/19, VersR 2020, 1112 Rn. 10). Hieraus folgt im vorliegen-
+     den Zusammenhang, dass der GdWE die Darlegung obliegt, warum ein atypi-
+     scher Fall vorliegt, der zur Unangemessenheit der Maßnahme führt. Erst wenn
+                                          - 19 -
+
+
+
+     sie dem nachgekommen ist, hat der den Anspruch geltend machende Woh-
+     nungseigentümer das Vorbringen der GdWE zu widerlegen.
+
+
+31         (4) Hiervon ausgehend muss der klagende Wohnungseigentümer - hier
+     die Kläger - für die gebotene Abwägung der Umstände des Einzelfalls nicht von
+     vornherein zu solchen Folgen seines Begehrens vortragen, die den Anspruch
+     ausschließen können. Sofern sich die Unangemessenheit nicht ausnahmsweise
+     bereits aus der Außergewöhnlichkeit seines Begehrens selbst ergibt, ist der Kla-
+     gevortrag schon dann ausreichend, wenn er - wie hier - Tatsachen enthält, nach
+     denen die bauliche Veränderung einem der gesetzlich privilegierten Zwecke
+     dient. Entgegen der von der Prozessbevollmächtigten der Beklagten in der münd-
+     lichen Verhandlung vor dem Senat vertretenen Auffassung haben sich die Kläger
+     nicht auf die bloße Wiedergabe des Gesetzeswortlauts beschränkt, sondern die
+     von ihnen beabsichtigte bauliche Veränderung zumindest so weit konkretisiert,
+     dass die Beklagte in die Lage versetzt wurde, dazu vorzutragen, warum ein aty-
+     pischer Ausnahmefall vorliegt. Insoweit hat sich die Beklagte insbesondere auf
+     Nutzungseinschränkungen im Hof, im Durchgang und im Treppenhaus sowie auf
+     optische Veränderungen und finanzielle Belastungen berufen, die erheblich
+     seien. Mit diesen Umständen hat sich das Berufungsgericht auseinandergesetzt
+     und sie aus Rechtsgründen als nicht ausreichend angesehen, um die Maßnahme
+     als unangemessen zu qualifizieren. Über die von dem Berufungsgericht erörter-
+     ten Umstände hinaus hat die Beklagte keine negative Folgen aufgrund der Er-
+     richtung eines Personenaufzugs im Innenhof vorgetragen, die über typischer-
+     weise eintretende Beeinträchtigungen - wie die Verringerung der nutzbaren Flä-
+     che des Innenhofs - hinausgehen und unabhängig von den durch die Kläger vor-
+     geschlagenen Ausführungsvarianten und der noch zu treffenden Auswahlent-
+     scheidung nach § 20 Abs. 2 Satz 2 WEG bei den Wohnungseigentümern in je-
+     dem Fall eintreten werden. Bei dieser Sachlage fehlt es an einem erheblichen
+                                           - 20 -
+
+
+
+     Vortrag der Beklagten zu der Unangemessenheit, den die Kläger hätten widerle-
+     gen müssen. Auf die Einhaltung öffentlich-rechtlicher Vorschriften kommt es in-
+     soweit nicht an (dazu unten Rn. 32 ff.).
+
+
+32         dd) Der weitere Einwand der Revision, von einer Angemessenheit der von
+     den Klägern beanspruchten Maßnahme könne auch deshalb nicht ausgegangen
+     werden, weil die Kläger nicht hinreichend vortrügen, dass bei der Durchführung
+     sämtliche öffentlich-rechtliche Vorschriften eingehalten würden, geht bereits im
+     Ausgangspunkt fehl. Die Einhaltung öffentlich-rechtlicher Vorgaben stellt nämlich
+     keine Frage der Angemessenheit gemäß § 20 Abs. 2 Satz 1 WEG dar, sondern
+     betrifft die ordnungsmäßige Verwaltung i.S.d. § 18 Abs. 2 WEG.
+
+
+33         (1) Ein von den Wohnungseigentümern auf der Grundlage von § 20 Abs. 1
+     WEG gefasster Beschluss muss, auch wenn dies - anders als etwa in § 19 Abs. 1
+     WEG - im Wortlaut des Gesetzes keine besondere Erwähnung findet, ordnungs-
+     mäßiger Verwaltung im Sinne von § 18 Abs. 2 WEG entsprechen (vgl. BT-
+     Drucks. 19/18791 S. 66; Hogenschurz in Jennißen, WEG, 8. Aufl., § 20 Rn. 39;
+     Lehmann-Richter/Wobst, WEG-Reform 2020, Rn. 1034). Dazu gehört nach der
+     Rechtsprechung des Senats die Einhaltung der das Gemeinschaftseigentum be-
+     treffenden öffentlich-rechtlichen Vorschriften (vgl. etwa Senat, Urteil vom 15. Ok-
+     tober 2021 - V ZR 225/20, NJW 2022, 326 Rn. 16; Urteil vom 23. Juni 2017
+     - V ZR 102/16, NZM 2017, 677 Rn. 8 mwN). Ist ein unter § 20 Abs. 2 Satz 1 WEG
+     fallendes Verlangen eines Wohnungseigentümers etwa bauordnungsrechtlich
+     unzulässig, widerspricht dieses regelmäßig auch ordnungsmäßiger Verwaltung.
+     Ein Anspruch auf Beschlussfassung kann dann bereits aus diesem Grund aus-
+     geschlossen sein, ohne dass es auf die Angemessenheit der baulichen Verän-
+     derung ankommt (vgl. auch Bärmann/Dötsch, WEG, 15. Aufl., § 20 Rn. 201, 361).
+                                          - 21 -
+
+
+
+34         (2) Im Rahmen von § 20 Abs. 2 Satz 1 WEG ist die Einhaltung der das
+     Gemeinschaftseigentum betreffenden öffentlich-rechtlichen Vorschriften aller-
+     dings regelmäßig (noch) nicht von Bedeutung. Zwar ist eine Beschlusser-
+     setzungsklage gemäß § 44 Abs. 1 Satz 2 WEG nur dann begründet, wenn ein
+     Anspruch auf den begehrten Beschluss besteht, weil nur eine Beschlussfassung
+     ordnungsmäßiger Verwaltung entspricht (vgl. oben Rn. 8). Das Berufungsgericht
+     nimmt aber zutreffend an, dass es für den Anspruch nach § 20 Abs. 2 Satz 1
+     WEG regelmäßig ausreichend ist, die Einhaltung öffentlich-rechtlicher Vorschrif-
+     ten der späteren Prüfung im Zusammenhang mit der Beschlussfassung über die
+     Durchführung der Maßnahme (§ 20 Abs. 2 Satz 2 WEG) vorzubehalten. Dies gilt
+     jedenfalls dann, wenn es sich um umfangreiche bauliche Veränderungen wie die
+     Errichtung eines Personenaufzugs handelt und - wie hier - zunächst die Erset-
+     zung eines Grundlagenbeschlusses gemäß § 20 Abs. 2 Satz 1 WEG begehrt
+     wird. Denn die Entscheidung der Wohnungseigentümer über die Art und Weise
+     der Bauausführung und der baulichen Details erfordert insbesondere bei geneh-
+     migungspflichtigen Bauvorhaben eine konkrete Fachplanung (z.B. Entwurfs- und
+     Genehmigungsplanung; vgl. etwa Bärmann/Dötsch, WEG, 15. Aufl., § 20
+     Rn. 191). Dabei sind unter anderem die Alternativen der Bauausführung auch im
+     Hinblick auf die einzuhaltenden öffentlich-rechtlichen Vorgaben zu ermitteln, an
+     denen die Durchführung einer privilegierten Maßnahme aber regelmäßig nicht
+     scheitern wird (vgl. Bärmann/Dötsch, WEG, 15. Aufl., § 20 Rn. 201).
+
+
+35         (3) Ein Grundlagenbeschluss darf allerdings dann nicht gefasst oder er-
+     setzt werden, wenn ausnahmsweise bereits bei der Entscheidung, ob die bauli-
+     che Veränderung dem Grunde nach durchgeführt werden soll, feststeht, dass das
+     Begehren in jedem Fall und bei jeder in Betracht kommenden Ausführung gegen
+     öffentlich-rechtliche Vorschriften verstößt. Dann wäre der Anspruch nach § 20
+     Abs. 2 Satz 1 WEG nämlich auf eine (rechtlich) unmögliche Leistung im Sinne
+                                           - 22 -
+
+
+
+     des § 275 Abs. 1 BGB gerichtet. Dass es sich hier so verhält, hat die für das
+     Vorliegen einer Unmöglichkeit darlegungs- und beweisbelastete Beklagte aber
+     nicht dargelegt.
+
+
+36         3. § 20 Abs. 4 WEG, wonach bauliche Veränderungen, die die Wohnan-
+     lage grundlegend umgestalten oder einen Wohnungseigentümer ohne sein Ein-
+     verständnis gegenüber anderen unbillig benachteiligen, nicht beschlossen und
+     gestattet und auch nicht verlangt werden können, steht dem Anspruch der Kläger
+     auf Beschlussersetzung nicht entgegen.
+
+
+37         a) Das Berufungsgericht verneint jedenfalls im Ergebnis zu Recht eine
+     grundlegende Umgestaltung der Wohnanlage im Sinne von § 20 Abs. 4 Halbs. 1
+     Alt. 1 WEG.
+
+
+38         aa) Ob eine grundlegende Umgestaltung der Wohnanlage anzunehmen
+     ist, kann nur im Einzelfall unter Berücksichtigung aller Umstände entschieden
+     werden (vgl. BT-Drucks. 19/18791 S. 66). Die Beurteilung ist damit in erster Linie
+     Sache des Tatrichters, der alle in Betracht kommenden Umstände einzubeziehen
+     und eine Gesamtwürdigung vorzunehmen hat. Die revisionsrechtliche Nachprü-
+     fung beschränkt sich darauf, ob das Berufungsgericht den unbestimmten Rechts-
+     begriff der „grundlegenden Umgestaltung“ zutreffend erfasst und ausgelegt sowie
+     alle für die Beurteilung wesentlichen Umstände berücksichtigt und die Denkge-
+     setze und Erfahrungssätze beachtet hat (vgl. Senat, Urteil vom 23. März 2018
+     - V ZR 307/16, NJW-RR 2018, 1227 Rn. 12).
+
+
+39         bb) Hier erkennt das Berufungsgericht zunächst richtig, dass nicht jede
+     bauliche Veränderung, die nach § 22 Abs. 2 Satz 1 WEG aF die Eigenart der
+     Wohnanlage änderte, auch zu einer grundlegenden Umgestaltung im Sinne des
+                                          - 23 -
+
+
+
+     neuen § 20 Abs. 4 Halbs. 1 Alt. 1 WEG führt. Der Begriff der grundlegenden
+     Umgestaltung ist vielmehr enger zu verstehen als der Begriff der Änderung der
+     Eigenart im bisherigen Recht (vgl. BT-Drucks. 19/18791 S. 66).
+
+
+40          cc) Unter welchen Voraussetzungen im Einzelnen eine bauliche Verände-
+     rung zu einer grundlegenden Umgestaltung der Wohnanlage führt und ob die von
+     dem Berufungsgericht vorgenommene Konkretisierung zutrifft, muss nicht allge-
+     mein entschieden werden. Der Vorstellung des Gesetzgebers entsprechend ist
+     eine grundlegende Umgestaltung der Wohnanlage jedenfalls bei einer Maß-
+     nahme, die der Verwirklichung eines Zwecks i.S.d. § 20 Abs. 2 Satz 1 WEG dient,
+     zumindest typischerweise nicht anzunehmen (so ausdrücklich BT-Drucks.
+     19/18791 S. 66). Wie der Senat mit Urteil vom heutigen Tage entschieden hat
+     (V ZR 33/23, Rn. 15, zur Veröffentlichung bestimmt), gilt dies unabhängig davon,
+     ob die Anspruchsvoraussetzungen des § 20 Abs. 2 WEG im Einzelnen vorliegen
+     und ob die bauliche Veränderung insbesondere angemessen ist; der von dem
+     Gesetzgeber im gesamtgesellschaftlichen Interesse erstrebten Privilegierung be-
+     stimmter Kategorien von Maßnahmen - unter anderem zur Förderung der Barri-
+     erefreiheit - ist bei der Prüfung, ob eine grundlegende Umgestaltung vorliegt, im
+     Sinne eines Regel-Ausnahme-Verhältnisses Rechnung zu tragen. Erst recht
+     scheidet eine grundlegende Umgestaltung jedenfalls typischerweise aus, wenn
+     feststeht, dass die in § 20 Abs. 2 WEG genannten Anspruchsvoraussetzungen
+     erfüllt sind.
+
+
+41          dd) Unter Beachtung dieser Grundsätze wird die Wohnanlage durch den
+     Einbau eines Außenaufzugs an dem Hinterhaus nicht grundlegend umgestaltet.
+     Wie ausgeführt, handelt es sich nach den nicht zu beanstandenden Feststellun-
+     gen des Berufungsgerichts um eine angemessene bauliche Veränderung, die
+     dem Gebrauch durch Menschen mit Behinderung dient (§ 20 Abs. 2 Satz 1 Nr. 1
+                                          - 24 -
+
+
+
+     WEG). Außergewöhnliche Umstände, die eine Ausnahme von der von dem Ge-
+     setzgeber aufgestellten Regel begründen könnten, hat das Berufungsgericht
+     nicht festgestellt. Im Gegenteil: Nach seinen Feststellungen wird die gesamte
+     Wohnanlage deutlich stärker durch das „herrschaftliche“ Vorderhaus („Stuckalt-
+     bau“) als durch das Hinterhaus geprägt, und der Charakter der gesamten Wohn-
+     anlage bleibt auch nach der Errichtung eines Personenaufzugs für das Hinter-
+     haus erhalten.
+
+
+42         b) Ohne Rechtsfehler verneint das Berufungsgericht schließlich eine un-
+     billige Benachteiligung eines Wohnungseigentümers im Sinne von § 20 Abs. 4
+     Halbs. 1 Alt. 2 WEG.
+
+
+43         aa) Mit dem Verbot, einen Wohnungseigentümer ohne sein Einverständnis
+     gegenüber anderen unbillig zu benachteiligen, knüpft das Gesetz an die Rege-
+     lung in § 22 Abs. 2 Satz 1 WEG aF zu den Grenzen der Zulässigkeit von Moder-
+     nisierungsmaßnahmen an. Lediglich der bisher verwendete Begriff der Beein-
+     trächtigung wurde aus sprachlichen Gründen durch den Begriff der Benachteili-
+     gung ersetzt (vgl. BT-Drucks. 19/18791 S. 66). Für die Auslegung des § 20 Abs. 4
+     Halbs. 1 Alt. 2 WEG kann damit insoweit die bisherige Rechtsprechung des
+     Senats zu § 22 Abs. 2 WEG aF herangezogen werden (vgl. Bärmann/Dötsch,
+     WEG 15. Aufl., § 29 Rn. 370 ff.; BeckOGK/Kempfle, WEG [1.12.2023], § 20
+     Rn. 234; jurisPK-BGB/Kallenborn, 10. Aufl., § 20 WEG Rn. 210).
+
+
+44         bb) Für die Annahme eines unbilligen Nachteils genügt es demnach nicht
+     schon, dass sich ein verständiger Durchschnittseigentümer nach der Verkehrs-
+     anschauung nachvollziehbar beeinträchtigt fühlen kann. Auch Umstände, die
+     zwangsläufig mit der Maßnahme verbunden sind, können für sich alleine nicht
+     zur Bejahung eines unbilligen Nachteils führen. Eine unbillige Benachteiligung
+                                          - 25 -
+
+
+
+     setzt vielmehr weiterhin voraus, dass die beabsichtigte Maßnahme bei wertender
+     Betrachtung und in Abwägung mit den mit der baulichen Veränderung verfolgten
+     Vorteilen einem verständigen Wohnungseigentümer in zumutbarer Weise nicht
+     abverlangt werden dürfte (vgl. Senat, Urteil vom 15. Mai 2020 - V ZR 64/19, NJW-
+     RR 2020, 1022 Rn. 14; Urteil vom 20. Juli 2018 - V ZR 56/17, NJW-RR 2018,
+     1165 Rn. 29; jeweils zu § 22 Abs. 2 WEG aF; BT-Drucks. 19/18791 S. 66).
+
+
+45         cc) Im Rahmen der Abwägung sind auch die weiteren in §§ 20, 21 WEG
+     enthaltenen Wertentscheidungen des Gesetzgebers zu berücksichtigen. Dass
+     ein überstimmter Wohnungseigentümer von der Nutzung des baulich veränder-
+     ten Gemeinschaftseigentums ausgeschlossen wird (§ 21 Abs. 3 Satz 1 WEG),
+     stellt eine regelmäßige Folge eines Beschlusses nach § 20 Abs.1 WEG dar (vgl.
+     oben Rn. 15) und begründet daher keinen erheblichen Nachteil. Der Gesetzge-
+     ber hat zudem in § 20 Abs. 2 Satz 1 WEG bestimmte Maßnahmen im gesamtge-
+     sellschaftlichen Interesse privilegiert. Dient eine bauliche Veränderung - wie
+     hier - einem der gesetzlich privilegierten Zwecke, bedarf es einer besonders
+     schweren Benachteiligung (vgl. Lehmann-Richter/Wobst, WEG-Reform 2020,
+     Rn. 1031); ohne Bedeutung ist, dass andere als der verlangende Wohnungsei-
+     gentümer erst aufgrund einer Beschlussfassung nach § 21 Abs. 4 Satz 1 bzw.
+     § 21 Abs. 5 Satz 1 WEG von der Maßnahme Gebrauch machen dürfen (vgl. etwa
+     Hogenschurz, ZfIR 2021, 419, 420).
+
+
+46         dd) Von diesen Grundsätzen geht das Berufungsgericht in nicht zu bean-
+     standender tatrichterlicher Würdigung aus. Es nimmt an, dass die mit der Errich-
+     tung eines Personenaufzugs im Innenhof verbundene Verschattung von Woh-
+     nungen sowie etwaige Lärmstörungen nicht zu einem erheblichen Nachteil für
+     einen oder mehrere Wohnungseigentümer führt. Dabei stellt es maßgeblich auf
+     die konkreten baulichen Gegebenheiten und wegen der Verschattung einzelner
+                                          - 26 -
+
+
+
+     Wohnungen auf eine bestehende Vorbelastung ab. Soweit sich die Revision hier-
+     gegen wendet, zeigt sie keinen Rechtsfehler auf, sondern setzt lediglich ihre
+     eigene Beurteilung an die Stelle der tatrichterlichen Würdigung. Dass das Beru-
+     fungsgericht bei seiner wertenden Beurteilung nur solche Nachteile berücksich-
+     tigt, die in jedem Fall eintreten werden, ist ebenfalls nicht zu beanstanden. Es
+     liegt auf der Hand, dass Verschattungen- und Lärmbeeinträchtigungen etwa
+     durch den konkreten Standort der Aufzugsanlage, durch die Größe sowie die
+     bauliche Gestaltung des Aufzugs einschließlich der verwendeten Materialien bis
+     zu einem gewissen Grad noch bei der Entscheidung über die Art und Weise der
+     Durchführung (§ 20 Abs. 2 Satz 2 WEG) steuerbar sind.
+
+
+
+
+                                            III.
+
+
+47         1. Die Kostenentscheidung folgt aus § 97 Abs. 1 ZPO.
+
+
+48         2. Der Streitwert für das Revisionsverfahren bestimmt sich nach § 49 GKG
+     und beträgt 200.000 €. Hierbei handelt es sich um die - nach der Schätzung des
+     Amtsgerichts - voraussichtlichen Gesamtkosten der Errichtung eines Aufzugs.
+     Insoweit ist das Einzelinteresse der Kläger, die die Kosten der Maßnahme tragen
+     müssen (§ 21 Abs.1 Satz 1 WEG), und das Gesamtinteresse aller Wohnungsei-
+     gentümer, in das das Einzelinteresse der Kläger einfließt, identisch. Das Inte-
+     resse ist nicht deshalb geringer zu gewichten, weil es sich „nur“ um einen Grund-
+     lagenbeschluss handelt (vgl. Senat, Beschluss vom 15. Juni 2023 - ZWE 2023,
+     336 Rn. 3). Entgegen der von dem Prozessbevollmächtigten der Kläger in der
+     mündlichen Verhandlung vor dem Senat vertretenen Auffassung ist der Streitwert
+     auch nicht deshalb geringer festzusetzen, weil es sich um ein Rechtsmittel der
+     Beklagten handelt. Der Wert der Anträge des Rechtsmittelführers (§ 47 Abs. 1
+                                           - 27 -
+
+
+
+     GKG) ist bei Beschlussklagen auch dann nach § 49 GKG zu bestimmen, wenn
+     - wie hier - Rechtsmittelführer die beklagte Partei ist (vgl. Senat, Beschluss vom
+     18. Januar 2018 - V ZR 71/17, NJW-RR 2018, 775 Rn. 3 zu § 49a GKG aF). Die
+     Grenzen des § 49 Satz 2 GKG sind eingehalten.
+
+49         3. Die Änderung des Streitwerts für das erst- und zweitinstanzliche Ver-
+     fahren auf einen Betrag von ebenfalls jeweils 200.000 € anstelle der dort festge-
+     setzten 30.000 € beruht auf § 63 Abs. 3 Satz 1 Nr. 2 GKG. Dass die Kläger in
+     den Vorinstanzen neben der Beschlussersetzungsklage die in der Eigentü-
+     merversammlung vom 26. Juli 2021 gefassten Negativbeschlüsse angefochten
+     haben, führt zu keiner Streitwerterhöhung. Bei der Verbindung einer Anfech-
+     tungsklage gegen einen Negativbeschluss mit einer Beschlussersetzungsklage
+     scheidet eine Zusammenrechnung beider Werte wegen wirtschaftlicher Identität
+     aus (vgl. Senat, Urteil vom 23. Juni 2023 - V ZR 158/22, juris Rn. 32).
+
+
+     Brückner                              Göbel                                Malik
+
+                         Laube                                Grau
+
+
+     Vorinstanzen:
+
+     AG München, Entscheidung vom 10.02.2022 - 1294 C 13970/21 WEG -
+     LG München I, Entscheidung vom 08.12.2022 - 36 S 3944/22 WEG -
+

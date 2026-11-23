@@ -1,6 +1,6 @@
 # Affiliate-Link-Status: Partnerprogramme-Übersicht
 
-Stand: 19.11.2026 (17.11-Stand: Malteser-Terms beantwortet 16.11. — **Infomaterial für Premium-Partner mit 0,25 € CPL weiter vergütet**, siehe Malteser-Sektion; Aroundhome: **Agency kann die Bewerbung nicht finden** → Publisher-ID 3124891 nachgereicht 17.11., Sent 1027; Malteser seit 02.11. approved + live. **19.11.: Aroundhome-Aktivierung vollständig vortestet** — Tracker ohne Deeplink bewiesen (302 + awc-Attribution), Profil ohne Drift (30 %/30 Tage), Datenschutz-URL verifiziert, Dry-Run 22/22 PASS → Aktivierung am Freischalttag = ein Commit mit 2 Dateien, Playbook: `operations/aroundhome-activation-prep.md`)
+Stand: 23.11.2026 (19.11-Stand: Aktivierung vortestet. **Neu 20.–23.11.: formale Bewerbung 68536 im Awin-Panel ABGELEHNT (Impressum ohne USt-IdNr.) → USt-IdNr. DE305157036 live im Impressum, Agency informiert (Sent 1030), Sperrfrist Reapply bis 20.12. → Programm-Einladung an PID 3124891 angefragt (Sent 1031, CC Torsten/Nela/Anna); 23.11. (Agency-Rückkehr-Tag): kurzer Check vor der Thanksgiving-Woche nachgeschoben (Sent 1032)**; Malteser seit 02.11. approved + live.)
 
 ## Kurze Antwort
 Nein — **Awin-Erlaubnis ist pro Programm nötig**. Ein Publisher-Konto allein reicht nicht; jeder Advertiser muss die Bewerbung freigeben, erst dann erzeugt Awin Tracker/Links für uns. Vorzeitige Direktlinks ohne Freigabe würden weder tracken noch vergütet werden und verstoßen gegen Liftas Bedingungen (Historie: nur freigegebene Websites, SEM-Verbot; Verstoß = Ausschluss + Storno).

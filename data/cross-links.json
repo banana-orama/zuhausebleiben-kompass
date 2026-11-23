@@ -19,7 +19,8 @@
     "treppenlift-aufmass-termin": ["treppenlift-angebote-vergleichen", "treppenlift-unserioese-anbieter", "treppenlift-schmale-treppe"],
     "wanne-zur-dusche": ["badumbau-angebote-vergleichen"],
     "badumbau-kosten": ["badumbau-angebote-vergleichen", "wohnumfeldverbesserung-beantragen", "wanne-zur-dusche"],
-    "hausnotruf-fuer-paare": ["hausnotruf-kosten-anbieter-vergleich", "hausnotruf-alarm-ablauf", "hausnotruf-angehoerige-einrichten"]
+    "hausnotruf-fuer-paare": ["hausnotruf-kosten-anbieter-vergleich", "hausnotruf-alarm-ablauf", "hausnotruf-angehoerige-einrichten"],
+    "treppenlift-eigentumswohnung-weg": ["treppenlift-mietwohnung", "wohnumfeldverbesserung-beantragen", "treppenlift-kosten"]
   },
   "rationale": {
     "pflegegrad-antrag-ablauf-fristen": "Entlastungs-Pfad nach Bescheid (verhinderungspflege-ueberblick) + Wohnraumanpassung nach Pflegegrad (tuerbreiten): natürliche Anschlussfragen",
@@ -39,6 +40,7 @@
     "treppenlift-foerderung-ohne-pflegegrad": "Foerderungs-Thema ohne Pflegegrad: Pflegekassen-Route als Schritt 0 (zuschuss), Finanzierungsbausteine falls kein Titel greift (finanzierung), Gebrauchtkauf als Kostenhebel (gebraucht-oder-neu) — lift-intern, kein Cross-Cluster",
     "treppenlift-aufmass-termin": "Aufmass-Journey: Angebot nach dem Termin Position fuer Position vergleichen (angebote-vergleichen), Druckmuster und Warnzeichen am Termin erkennen (unserioese), Treppe vor dem Termin selbst pruefen (schmale-treppe) — lift-intern, kein Cross-Cluster",
     "badumbau-kosten": "Kosten-Architektur des Bad-Clusters: Portal-Spannen einordnen und Streuung erklären, Kostenbausteine mit Quellen-Ankern, Eigenanteil-Mechanik (Pflegekasse Ermessen, Steuer mit Förder-Ausnahme, KfW-Stand), fiktive Beispielrechnung und Budget-Checkliste — Angebotsvergleich als nächster Schritt (Cluster-intern, Förderantrags-Strecke als bewusster Care-Cross)",
-    "hausnotruf-fuer-paare": "Paar-Anschluss: Kosten/Anbieter-Hub (Vertragsanbieter-Zuschuss), Alarmkette fuer zwei Personen, Massnahmenplan/Einrichtung mit Angehoerigen — care-intern."
+    "hausnotruf-fuer-paare": "Paar-Anschluss: Kosten/Anbieter-Hub (Vertragsanbieter-Zuschuss), Alarmkette fuer zwei Personen, Massnahmenplan/Einrichtung mit Angehoerigen — care-intern.",
+    "treppenlift-eigentumswohnung-weg": "Wohnsituation-Zwilling fuer Eigentümer: Mieter-Pfad im Schwester-Ratgeber (mietwohnung), Pflegekassen-Antragsstrecke als Care-Cross (wohnumfeldverbesserung, whitelistet) und der Kosten-/Angebots-Pfad (kosten) nach dem Beschluss."
   }
 }

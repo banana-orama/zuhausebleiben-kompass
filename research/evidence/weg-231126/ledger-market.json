@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "topic": "Treppenlift & bauliche Veraenderungen in der Eigentumswohnung (WEG) - market/practical layer",
+    "research_date": "2026-11-23",
+    "quote_discipline": "verbatim, fragments marked with [...] ellipses; typographic quotes as in source",
+    "raw_files": "research/evidence/weg-231126/raw/market/"
+  },
+  "quotes": [
+    {
+      "source_id": "checkfox-weg-01",
+      "url": "https://checkfox.de/ratgeber/treppenlift-im-weg-recht",
+      "title": "Treppenlift in der WEG: Anspruch, Beschluss & Kosten (Geaendert am 16.11.2026, Stand: Oktober 2026)",
+      "quote": "Die maßgebliche Entscheidung zu den privilegierten Maßnahmen ist BGH, Urteil vom 9. Februar 2024 (V ZR 244/22). [...] Eine persönliche Angewiesenheit muss nicht dargelegt werden. Die antragstellende Person muss nicht beweisen, dass sie ohne die Maßnahme nicht zurechtkommt.",
+      "context_note": "checkfox dokumentiert BGH 2024 mit Aktenzeichen und der Kernlinie; stärkste rechtliche Competitor-Seite im Feld."
+    },
+    {
+      "source_id": "checkfox-weg-02",
+      "url": "https://checkfox.de/ratgeber/treppenlift-im-weg-recht",
+      "title": "Treppenlift in der WEG: Anspruch, Beschluss & Kosten",
+      "quote": "Nach BGH, Urteil vom 17. März 2023 (V ZR 140/22) besteht ein Beschlusszwang: Wer baulich verändern will, braucht vorher einen positiven Gestattungsbeschluss.",
+      "context_note": "Beschluss-Praxis: erst beschließen, dann bauen; Unterlassung/Rückbau ohne Beschluss."
+    },
+    {
+      "source_id": "checkfox-weg-03",
+      "url": "https://checkfox.de/ratgeber/treppenlift-im-weg-recht",
+      "title": "Treppenlift in der WEG: Anspruch, Beschluss & Kosten",
+      "quote": "Wer verlangt, zahlt – und nutzt. Nach § 21 Abs. 1 WEG trägt die Kosten der Eigentümer, dem die Veränderung gestattet wurde oder der sie verlangt hat. Und: Nur ihm gebühren die Nutzungen.",
+      "context_note": "Kosten-Tragung + Nutzungszuordnung; checkfox zitiert Abs. 1 (weg-wissen sagt Abs. 2 - Norm-Drift, vom Legal-Spine-Agenten klären lassen)."
+    },
+    {
+      "source_id": "checkfox-weg-04",
+      "url": "https://checkfox.de/ratgeber/treppenlift-im-weg-recht",
+      "title": "Treppenlift in der WEG: Anspruch, Beschluss & Kosten",
+      "quote": "Folgekosten – Wartung, Strom, Reparatur – gehören zu den Kosten, die der antragstellende Eigentümer trägt. Rechnen Sie mit 150 bis 300 Euro Wartung im Jahr.",
+      "context_note": "Einzige quantifizierte Folgekosten-Angabe im Wettbewerbsfeld; für unsere Kosten-Sektion als Benchmark."
+    },
+    {
+      "source_id": "checkfox-weg-05",
+      "url": "https://checkfox.de/ratgeber/treppenlift-im-weg-recht",
+      "title": "Treppenlift in der WEG: Anspruch, Beschluss & Kosten",
+      "quote": "Der KfW-Zuschuss „Altersgerecht Umbauen – Barrierereduzierung\" ist seit Ende Juli 2026 gestoppt, weil die Bundesmittel für 2026 erschöpft sind. Rechnen Sie ihn nicht ein; die oft genannten 6.250 Euro galten ohnehin nur für den Komplettumbau.",
+      "context_note": "Aktueller KfW-Stand; deckt sich mit Repo-Foerder-Evidence (foerder-231126-kfw-*). Kredit 159 (50.000 EUR) bleibt laut Seite verfügbar."
+    },
+    {
+      "source_id": "checkfox-weg-06",
+      "url": "https://checkfox.de/ratgeber/treppenlift-im-weg-recht",
+      "title": "Treppenlift in der WEG: Anspruch, Beschluss & Kosten",
+      "quote": "Ob die Voraussetzungen des § 20 Abs. 2 oder Abs. 3 WEG tatsächlich vorlagen, ist für die Anfechtung eines positiven Beschlusses unerheblich (BGH, 09.02.2024 – V ZR 33/23).",
+      "context_note": "Zweites BGH-2024-Urteil mit Aktenzeichen dokumentiert; Anti-Anfechtungssicherheit eines positiven Beschlusses."
+    },
+    {
+      "source_id": "checkfox-weg-07",
+      "url": "https://checkfox.de/ratgeber/treppenlift-im-weg-recht",
+      "title": "Treppenlift in der WEG: Anspruch, Beschluss & Kosten",
+      "quote": "In einem Mietrechtsverfahren hat der Bundesgerichtshof Betriebsgeräusche eines Treppenlifts von bis zu 70 dB als nicht unzumutbar angesehen (Beschluss vom 24.09.2024 – VIII ZR 234/23).",
+      "context_note": "Treppenlift-spezifischer Laerm-Beschluss mit AZ; nur checkfox hat ihn -Unsere Seite kann ihn in die Einwände-Sektion integrieren."
+    },
+    {
+      "source_id": "nullbarriere-weg-01",
+      "url": "https://www.nullbarriere.de/barrierefreier-umbau-in-der-weg.htm",
+      "title": "Barrierefreier Umbau in der WEG: Anspruch, Kosten, Förderung (02.11.26, Matera-Partnerseite)",
+      "quote": "In seinem Urteil vom 9. Februar 2024 (VZR 244/22) ging es um einen Außenaufzug im Innenhof eines Münchner Jugendstilhauses.",
+      "context_note": "Nennt BGH 2024 mit AZ (aber 'VZR' ohne Leerzeichen, ohne Urteilsdatum); Sachverhaltsbeschreibung weicht von checkfox-Zwischenpodest-Version ab - für Legal-Spine-Agenten als Diskrepanz notiert, nicht adjudiziert."
+    },
+    {
+      "source_id": "nullbarriere-weg-02",
+      "url": "https://www.nullbarriere.de/barrierefreier-umbau-in-der-weg.htm",
+      "title": "Barrierefreier Umbau in der WEG: Anspruch, Kosten, Förderung",
+      "quote": "Die Gemeinschaft der Wohnungseigentümer gestattet dem Eigentümer der Wohnung Nr. [X], auf eigene Kosten einen Treppenlift im Treppenhaus zwischen Erdgeschoss und [Geschoss] gemäß Angebot der Firma [Name] vom [Datum] einbauen zu lassen. Der Einbau erfolgt durch einen Fachbetrieb unter Beachtung der brandschutzrechtlichen Vorgaben. Der Eigentümer trägt die Kosten für Einbau, Wartung, Versicherung und einen etwaigen Rückbau.",
+      "context_note": "Der einzige vollstaendige Muster-Beschlussantrag (Treppenlift-spezifisch) im Feld; inkl. Versicherung+Rueckbau-Klausel - Leitplanke fuer unseren Mustertext (mit BGH-2024-Standards erweitern)."
+    },
+    {
+      "source_id": "nullbarriere-weg-03",
+      "url": "https://www.nullbarriere.de/barrierefreier-umbau-in-der-weg.htm",
+      "title": "Barrierefreier Umbau in der WEG: Anspruch, Kosten, Förderung",
+      "quote": "Die Kosten trägt grundsätzlich, wer die Maßnahme verlangt (§ 21 Abs. 1 WEG). Das gilt auch für spätere Wartung, Versicherung und Instandhaltung, etwa beim Treppenlift.",
+      "context_note": "Treppenlift-Versicherung wird hier (und nur hier im Feld) als Kosten-/Beschlusspunkt explizit genannt."
+    },
+    {
+      "source_id": "nullbarriere-weg-04",
+      "url": "https://www.nullbarriere.de/barrierefreier-umbau-in-der-weg.htm",
+      "title": "Barrierefreier Umbau in der WEG: Anspruch, Kosten, Förderung",
+      "quote": "Liegt die Wohnung in einer WEG und betrifft die Veränderung das Gemeinschaftseigentum, braucht der Vermieter zusätzlich einen Beschluss der Eigentümerversammlung.",
+      "context_note": "Mieter-in-Eigentumswohnung-Kette (Mieter->554 BGB->Vermieterseite->WEG-Beschluss); nur als Einzelsatz, kein eigener Pfad - Gap-Punkt 4."
+    },
+    {
+      "source_id": "wegwissen-bf-01",
+      "url": "https://weg-wissen.de/barrierefreiheit-in-der-weg/",
+      "title": "Barrierefreiheit in der WEG: Tipps für Eigentümer (Zuletzt aktualisiert am 27.10.2026)",
+      "quote": "Einzelne Eigentümer können barrierefreie Umbauten in ihrer WEG grundsätzlich durchsetzen. Die Gemeinschaft darf nur in Ausnahmefällen ablehnen.",
+      "context_note": "Generic Reform-Aussage; Seite bleibt ohne BGH-Zitat/AZ - Rechtsprechungs-Beweislast fehlt komplett."
+    },
+    {
+      "source_id": "wegwissen-bf-02",
+      "url": "https://weg-wissen.de/barrierefreiheit-in-der-weg/",
+      "title": "Barrierefreiheit in der WEG: Tipps für Eigentümer",
+      "quote": "Weisen Sie die Notwendigkeit der Barrierefreiheit mit ärztlichen Attesten oder Gutachten nach. Eine belastbare Dokumentation stärkt Ihre Position gegenüber der Gemeinschaft erheblich.",
+      "context_note": "STALE-SIGNAL: Empfehlung kollidiert mit BGH 09.02.2024 (V ZR 244/22: persoenliche Angewiesenheit nicht darzulegen) trotz Update-Datum; Anpassung durch Legal-Spine-Agent bestaetigen lassen."
+    },
+    {
+      "source_id": "herfurtner-weg-01",
+      "url": "https://kanzlei-herfurtner.de/wohnungseigentum-barrierefreier-umbau/",
+      "title": "Wohnungseigentum: barrierefreier Umbau rechtssicher planen (17.08.2026, RA Herfurtner)",
+      "quote": "Das größte Risiko besteht darin, dass Eigentümer die Gestattung der Maßnahme und die Kostenverteilung vermischen.",
+      "context_note": "Kanzlei-Seite ohne ein einziges BGH-Zitat/AZ; dieser Gestattung-vs-Kosten-Point ist ihr stärkster Satz und deckt sich mit unserem Beschluss-Aufbau."
+    },
+    {
+      "source_id": "herfurtner-weg-02",
+      "url": "https://kanzlei-herfurtner.de/wohnungseigentum-barrierefreier-umbau/",
+      "title": "Wohnungseigentum: barrierefreier Umbau rechtssicher planen",
+      "quote": "Wird einem einzelnen Wohnungseigentümer eine bauliche Veränderung gestattet oder wird eine privilegierte Maßnahme auf sein Verlangen durch die Gemeinschaft durchgeführt, trägt dieser Eigentümer grundsätzlich die Kosten.",
+      "context_note": "Normgerechte Kostenlinie, aber Treppenlift nur Beispiel neben Wallbox/Balkonverglasung; keine Foerderung, keine Treppenlift-Praxis."
+    },
+    {
+      "source_id": "lifta-weg-01",
+      "url": "https://www.lifta.de/treppenlift/mehrfamilienhaus/weg",
+      "title": "Treppenlift in der WEG: Beschluss & Rechte | Lifta (undatiert)",
+      "quote": "Auch wenn der Treppenlift als privilegierte Maßnahme gilt, muss er in der Eigentümerversammlung beschlossen werden. Der Antrag muss als Tagesordnungspunkt eingereicht sein. Ohne Beschluss darf nicht gebaut werden.",
+      "context_note": "Hersteller-Seite bestaetigt WEG-Consent-Pflicht explizit; Stärke: Prozess-Naehe, Schwaeche: Marketing-Genauigkeit (s. lifta-weg-02)."
+    },
+    {
+      "source_id": "lifta-weg-02",
+      "url": "https://www.lifta.de/treppenlift/mehrfamilienhaus/weg",
+      "title": "Treppenlift in der WEG: Beschluss & Rechte | Lifta",
+      "quote": "Vor der Reform war für bauliche Veränderungen die Zustimmung aller Eigentümer nötig. Heute reicht eine einfache Mehrheit der anwesenden Stimmen in der Eigentümerversammlung. Ein Veto einzelner Miteigentümer greift nicht mehr.",
+      "context_note": "'der anwesenden Stimmen' ist unpraezise (Gesetz: abgegebene Stimmen); Seite fordert zudem 'Zweidrittel-Mehrheit' fuer anteilige Verteilung - Differenzierungsmaterial, Legal-Spine pruefen lassen."
+    },
+    {
+      "source_id": "lifta-weg-03",
+      "url": "https://www.lifta.de/treppenlift/mehrfamilienhaus/weg",
+      "title": "Treppenlift in der WEG: Beschluss & Rechte | Lifta",
+      "quote": "Der Treppenlift kann beim Verkauf übergeben werden, wenn der Käufer zustimmt. Alternativ kann er abgebaut werden. Lifta organisiert auf Wunsch eine Wertermittlung und den fachgerechten Rückbau.",
+      "context_note": "Verkauf/Rueckbau-Pfad aus Herstellersicht; ergaenzt checkfox-FAQ ('Das hängt am Beschluss') um die Praxisseite."
+    },
+    {
+      "source_id": "hiro-ge-01",
+      "url": "https://hiro.de/treppenlift-im-gemeinschaftseigentum/",
+      "title": "Ein Treppenlift im Gemeinschaftseigentum – was ist zu beachten? (undatiert; basiert auf DDIVaktuell 06/2017)",
+      "quote": "Von einem zivilrechtlichen Standpunkt aus betrachtet, zählt der Einbau als Veränderung im Sinne des Wohnungseigentumsgesetzes. Daher muss hierfür die Erlaubnis der Eigentümergemeinschaft eingeholt werden.",
+      "context_note": "Die gesuchte Hersteller-Aussage: Treppenlift an gemeinsamer Treppe = Erlaubnis der Eigentuemergemeinschaft erforderlich."
+    },
+    {
+      "source_id": "hiro-ge-02",
+      "url": "https://hiro.de/treppenlift-im-gemeinschaftseigentum/",
+      "title": "Ein Treppenlift im Gemeinschaftseigentum – was ist zu beachten?",
+      "quote": "Ein Anspruch auf Zustimmung der Miteigentümer besteht dabei grundsätzlich nicht. Beeinträchtigt der Lift die Miteigentümer jedoch nicht „über das unvermeidliche Maß hinaus“, muss der Einbau in der Regel geduldet werden (so z.B. ein Urteil des OLG München vom 22.02.2008).",
+      "context_note": "Pre-Reform-Rechtsstand (OLG 2008, 'kein Anspruch'); Seite nie auf WEG-Reform 2020 aktualisiert - STALE-SIGNAL Nr. 1 im Herstellerfeld."
+    },
+    {
+      "source_id": "hiro-ge-03",
+      "url": "https://hiro.de/treppenlift-im-gemeinschaftseigentum/",
+      "title": "Ein Treppenlift im Gemeinschaftseigentum – was ist zu beachten?",
+      "quote": "Dieser Beitrag basiert auf dem Artikel „Einfach stufenlos“ von unserem Autor und Vertriebskoordinator Wolfgang Zeferer. Dieser ist im Fachmagazin für Immobilienverwalter, DDIVaktuell, Ausgabe 06/2017 erschienen.",
+      "context_note": "Provenienz-Fussnote: Content-Stand 2017; fuer Artikel-Differenzierung ('aktuell geprueft' vs. Herstellerrblogger) verwertbar."
+    },
+    {
+      "source_id": "tke-mf-01",
+      "url": "https://www.tke-homesolutions.de/ratgeber/lift-mehrfamilienhaus/",
+      "title": "Treppenlift im Mehrfamilienhaus - TK Home Solutions (FAQ-Stempel 2026-07-28)",
+      "quote": "Das Treppenhaus zählt zum Gemeinschaftseigentum. Ist der Vermieter gleichzeitig Alleineigentümer des Gebäudes, kann er allein entscheiden. Gehört das Haus einer Wohnungseigentümergemeinschaft (WEG), ist ein WEG-Beschluss erforderlich.",
+      "context_note": "Zweite Hersteller-Aussage zur WEG-Consent-Pflicht; TKE nennt § 20 WEG, BGH aber ohne Aktenzeichen."
+    },
+    {
+      "source_id": "tke-vor-01",
+      "url": "https://www.tke-homesolutions.de/treppenlifte/treppenlift-einbau-und-voraussetzungen/",
+      "title": "Treppenlift Voraussetzungen | TK Home Solutions (Update 2026-05-04, WEG-Abschnitt 2025-04-08)",
+      "quote": "Nach § 22 WEG sind bauliche Maßnahmen zu dulden, wenn sie andere Eigentümer nicht über das hinzunehmende Maß hinaus beeinträchtigen.",
+      "context_note": "STALE-SIGNAL: § 22 WEG ist die alte Norm vor der Reform 2020 (heute § 20); Vom Legal-Spine-Agenten gegen unsere Verweise abgleichen."
+    },
+    {
+      "source_id": "siemer-weg-01",
+      "url": "https://www.siemer-treppenlifte.de/ratgeber/mobil-im-alter/treppenlift-weg-gesetz/",
+      "title": "Treppenlift & WEG-Gesetz: Beschluss, Rechte & Kosten (Zuletzt aktualisiert 23.10.2026, Detlev Siemer)",
+      "quote": "Der Tenor der Rechtsprechung lautet: Die WEG muss den Lift dulden, hat aber einen „Gestaltungsspielraum“. Das bedeutet, die Gemeinschaft darf verlangen, dass der Lift das Treppenhaus optisch nicht extrem entstellt (z. B. durch sehr grelle Farben) und dass die Nutzbarkeit der Treppe für alle anderen Bewohner sicher erhalten bleibt.",
+      "context_note": "Praxisnahe Optik-/Gestaltungsspielraum-Formulierung ohne BGH-AZ; gut fuer unsere Einwände-Sektion (mit checkfox-Linie zu V ZR 22/24 absichern)."
+    },
+    {
+      "source_id": "vz-treppenlift-01",
+      "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflege-zu-hause/treppenlifte-das-muessen-sie-ueber-planung-und-umsetzung-wissen-10711",
+      "title": "Treppenlifte: Das müssen Sie über Planung und Umsetzung wissen (Stand: 20. Januar 2026)",
+      "quote": "Wenn Sie in einem Mehrparteienhaus wohnen, kann es sein, dass Sie die Zustimmung der Miteigentümer:innen oder des Vermieters brauchen. Je nach Bundesland ist auch eine Baugenehmigung nötig.",
+      "context_note": "Einzelne VZ-WEG/Vermieter-Mention (Archivkopie: research/evidence/vz-treppenlifte-miete.html); bewusst schwach ('kann es sein') - VZ behandelt keine WEG-Prozedur."
+    }
+  ]
+}
