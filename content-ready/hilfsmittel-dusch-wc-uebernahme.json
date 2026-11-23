@@ -48,7 +48,7 @@
     {
       "heading": "Weg 1: Krankenkasse – die Indikation entscheidet",
       "paragraphs": [
-        "Für Hilfsmittel der gesetzlichen Krankenversicherung gilt der Anspruch des § 33 SGB V: Versicherte haben Anspruch auf Versorgung mit Hilfsmitteln, „die im Einzelfall erforderlich sind, um den Erfolg der Krankenbehandlung zu sichern, einer drohenden Behinderung vorzubeugen oder eine Behinderung auszugleichen“ – soweit die Produkte keine allgemeinen Gebrauchsgegenstände des täglichen Lebens sind.[2] Der Weg läuft über die ärztliche Verordnung (Hilfsmittelrezept) und den Fachhandel; an den Anbieter zahlen Volljährige eine Zuzahlung von 10 Prozent – mindestens 5, höchstens 10 Euro.[3][6]",
+        "Für Hilfsmittel der gesetzlichen Krankenversicherung gilt der Anspruch des § 33 SGB V: Versicherte haben Anspruch auf Versorgung mit Hilfsmitteln, „die im Einzelfall erforderlich sind, um den Erfolg der Krankenbehandlung zu sichern, einer drohenden Behinderung vorzubeugen oder eine Behinderung auszugleichen“ – soweit die Produkte keine allgemeinen Gebrauchsgegenstände des täglichen Lebens sind.[2] Der Weg läuft über die ärztliche Verordnung (Hilfsmittelrezept) und den Fachhandel; an den Anbieter zahlen Volljährige eine Zuzahlung von 10 Prozent – mindestens 5, höchstens 10 Euro.[3][6] Zum 1. Januar 2027 hebt das GKV-Beitragssatzstabilisierungsgesetz (BGBl. 2026 I Nr. 228) beide Beträge an: dann mindestens 7,50 und höchstens 15 Euro.[9]",
         "Die entscheidende – und von Shop-Werbung meist verschwiegene – Hürde steht in der Indikation der Produktart 33.40.05.0. Danach dient der Aufsatz „zur selbständigen Reinigung des Intim- und Analbereiches nach dem Toilettengang“ bei wesentlichen Einschränkungen, und zwar aufgrund „erheblicher funktioneller Schädigung der oberen Extremitäten, die funktionell einer Ohnhändigkeit gleichkommt“ oder „einer wesentlichen oder aufgehobenen Halt- oder Greiffunktion der oberen Extremitäten bei neuromuskuloskeletaler Schädigung“.[4] In klaren Worten: Die Kasse denkt diese Produkte als Ersatz für fehlende Arm- und Handfunktion – etwa bei schwerer Rheuma-, MS- oder Querschnittssituation. Alter, Sturzrisiko oder „Komfort“ allein begründen sie nicht.",
         "Wer diese Voraussetzung erfüllt, für den ist der Weg aussichtsreich und einfach: Verordnung vom Arzt, Kostenvoranschlag vom Fachhandel, Antrag bei der Krankenkasse. Die Leistungspflicht umfasst bei Toilettenhilfen laut Verzeichnis auch „den behinderungsbedingten Mehraufwand einschließlich der Montage“.[4] Der Fachhandel muss eine mehrkostenfreie Versorgung anbieten und beraten; Mehrkosten für ein über das Notwendige hinausgehendes Modell tragen Sie selbst – das ist im Verzeichnis als Beratungs- und Dokumentationspflicht des Anbieters festgeschrieben.[4] Passt Ihre Arm- und Handfunktion dagegen nicht zur Indikation, ist die Ablehnung wahrscheinlich – dann führt kein Weg an den anderen beiden Möglichkeiten vorbei."
       ]
@@ -102,7 +102,7 @@
             "Aufsatz mit Wascheinrichtung",
             "Krankenkasse",
             "Gelistetes Produkt (33.40.05) + ärztliche Verordnung + Arm-/Hand-Indikation[2][4]",
-            "Sachleistung; Zuzahlung 10 %, min. 5 €, max. 10 €[3][6]"
+            "Sachleistung; Zuzahlung 10 %, min. 5 €, max. 10 € (ab 2027: 7,50 €/15 €)[3][6][9]"
           ],
           [
             "Komplette Anlage / WC-Ersatz",
@@ -137,7 +137,7 @@
     },
     {
       "question": "Übernimmt die Krankenkasse einen Dusch-WC-Aufsatz?",
-      "answer": "Ja, wenn drei Bedingungen zusammenkommen: Das Produkt ist in der Produktart 33.40.05.0 gelistet, es liegt eine ärztliche Verordnung vor, und die amtliche Indikation passt – eine erhebliche Schädigung der Arme oder Hände, die etwa einer Ohnhändigkeit gleichkommt oder die Halt- und Greiffunktion wesentlich beeinträchtigt.[2][4] Dann ist der Aufsatz eine Sachleistung; Volljährige zahlen 10 Prozent, mindestens 5, höchstens 10 Euro an der Abgabestelle.[3][6]"
+      "answer": "Ja, wenn drei Bedingungen zusammenkommen: Das Produkt ist in der Produktart 33.40.05.0 gelistet, es liegt eine ärztliche Verordnung vor, und die amtliche Indikation passt – eine erhebliche Schädigung der Arme oder Hände, die etwa einer Ohnhändigkeit gleichkommt oder die Halt- und Greiffunktion wesentlich beeinträchtigt.[2][4] Dann ist der Aufsatz eine Sachleistung; Volljährige zahlen 10 Prozent, mindestens 5, höchstens 10 Euro an der Abgabestelle.[3][6] Ab dem 1. Januar 2027: mindestens 7,50, höchstens 15 Euro.[9]"
     },
     {
       "question": "Ich habe nur Mobilitätsprobleme, aber volle Armfunktion – habe ich dann keine Chance?",
@@ -149,7 +149,7 @@
     },
     {
       "question": "Was kostet mich ein gelisteter Aufsatz über die Krankenkasse?",
-      "answer": "An der Abgabestelle zahlen Volljährige 10 Prozent des Abgabepreises – mindestens 5, höchstens 10 Euro; nie mehr als die Kosten des Produkts.[3][6] Wählen Sie ein teureres Modell als das für Ihre Versorgung notwendige, tragen Sie die Mehrkosten selbst. Der Fachhandel muss Ihnen eine hinreichende Auswahl mehrkostenfreier Modelle anbieten und das dokumentieren.[4]"
+      "answer": "An der Abgabestelle zahlen Volljährige 10 Prozent des Abgabepreises – mindestens 5, höchstens 10 Euro; nie mehr als die Kosten des Produkts.[3][6] Ab dem 1. Januar 2027 gelten mindestens 7,50 und höchstens 15 Euro.[9] Wählen Sie ein teureres Modell als das für Ihre Versorgung notwendige, tragen Sie die Mehrkosten selbst. Der Fachhandel muss Ihnen eine hinreichende Auswahl mehrkostenfreier Modelle anbieten und das dokumentieren.[4]"
     },
     {
       "question": "Was tun, wenn die Kasse ablehnt?",
@@ -170,7 +170,7 @@
     {
       "title": "§ 61 SGB V – Zuzahlungen (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_5/__61.html",
-      "checked_at": "2026-10-21"
+      "checked_at": "2026-11-23"
     },
     {
       "title": "GKV-Spitzenverband: Fortschreibung der Produktgruppe 33 „Toilettenhilfen“ vom 11.12.2025 (PDF, Produktart 33.40.05.0 inkl. Indikation und Leistungsrecht)",
@@ -196,6 +196,11 @@
       "title": "§ 84 SGG – Widerspruchsverfahren (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgg/__84.html",
       "checked_at": "2026-10-21"
+    },
+    {
+      "title": "Bundesgesetzblatt Teil I: GKV-Beitragssatzstabilisierungsgesetz vom 24. Juli 2026 (BGBl. 2026 I Nr. 228, Art. 1 Nr. 23 – neuer § 61 SGB V)",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/228/VO.html",
+      "checked_at": "2026-11-23"
     }
   ],
   "image": {

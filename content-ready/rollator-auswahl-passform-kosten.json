@@ -77,7 +77,7 @@
     {
       "heading": "Kosten: Wer zahlt – Pflege- oder Krankenkasse?",
       "paragraphs": [
-        "Die Zuständigkeit hängt vom Zweck ab. Gehhilfen sind nach Auskunft des Bundesgesundheitsministeriums Hilfsmittel, die – ärztlich verordnet – von den Krankenkassen getragen werden, wenn sie der Krankenbehandlung dienen, einer drohenden Behinderung vorbeugen oder eine Behinderung ausgleichen.[2] Für von der Krankenkasse versorgte Hilfsmittel gilt bei Volljährigen eine Zuzahlung von 10 Prozent des Abgabepreises, mindestens 5 Euro und höchstens 10 Euro – jeweils nicht mehr als die Kosten des Mittels.[3] In der Regel ist dafür eine ärztliche Verordnung erforderlich, bei einer Erstversorgung immer.[5] Welche Produkte in Frage kommen, ordnet das Hilfsmittelverzeichnis in Produktgruppen mit definierten Qualitätsanforderungen.[6]",
+        "Die Zuständigkeit hängt vom Zweck ab. Gehhilfen sind nach Auskunft des Bundesgesundheitsministeriums Hilfsmittel, die – ärztlich verordnet – von den Krankenkassen getragen werden, wenn sie der Krankenbehandlung dienen, einer drohenden Behinderung vorbeugen oder eine Behinderung ausgleichen.[2] Für von der Krankenkasse versorgte Hilfsmittel gilt bei Volljährigen eine Zuzahlung von 10 Prozent des Abgabepreises, mindestens 5 Euro und höchstens 10 Euro – jeweils nicht mehr als die Kosten des Mittels.[3] Ab dem 1. Januar 2027 gilt mindestens 7,50 und höchstens 15 Euro.[3][11] In der Regel ist dafür eine ärztliche Verordnung erforderlich, bei einer Erstversorgung immer.[5] Welche Produkte in Frage kommen, ordnet das Hilfsmittelverzeichnis in Produktgruppen mit definierten Qualitätsanforderungen.[6]",
         "Über die Pflegekasse laufen dagegen Pflegehilfsmittel nach § 40 SGB XI, etwa ein Pflegebett oder ein Hausnotrufsystem;[1] deren Logik – Eigenanteil 10 Prozent, höchstens 25 Euro je Hilfsmittel – behandelt unser Ratgeber zu den Hilfsmitteln der Pflegekasse. Für welchen Kostenträger Ihr Rollator gedacht ist, entscheidet die Abgrenzung im Einzelfall; fragen Sie vor der Beschaffung bei Pflegekasse und Krankenkasse nach, wer in Ihrer Situation zuständig ist.[2]",
         "Beim Bezug gilt: Wenn Kasse oder Pflegekasse die Kosten übernehmen sollen, gibt in der Regel der Kostenträger vor, über welchen Anbieter die Versorgung abläuft.[10] Ein Onlinekauf ohne Anpassung ist mit Vorsicht zu genießen – die Verbraucherzentrale weist darauf hin, dass viele medizinische Hilfsmittel individuell angepasst werden müssen und bei Internetbestellung oft kein Widerrufsrecht besteht.[10] Rezeptfreie Artikel können online durchaus günstiger sein; für ein angepasstes Gehhilfensystem gilt das nicht pauschal.[10]"
       ]
@@ -126,7 +126,7 @@
     },
     {
       "question": "Übernimmt die Krankenkasse die Kosten für einen Rollator?",
-      "answer": "Nach Auskunft des Bundesgesundheitsministeriums tragen die Krankenkassen die Kosten, wenn Rollstühle oder Gehhilfen ärztlich verordnet werden und die Hilfsmittel-Voraussetzungen vorliegen.[2] Bei Volljährigen beträgt die Zuzahlung 10 Prozent, mindestens 5 Euro, höchstens 10 Euro – nicht mehr als die Kosten des Mittels.[3] Ob Ihr Fall darunter fällt, klärt die Kasse vor der Beschaffung."
+      "answer": "Nach Auskunft des Bundesgesundheitsministeriums tragen die Krankenkassen die Kosten, wenn Rollstühle oder Gehhilfen ärztlich verordnet werden und die Hilfsmittel-Voraussetzungen vorliegen.[2] Bei Volljährigen beträgt die Zuzahlung 10 Prozent, mindestens 5 Euro, höchstens 10 Euro – nicht mehr als die Kosten des Mittels.[3] Ab 1. Januar 2027: mindestens 7,50, höchstens 15 Euro.[11] Ob Ihr Fall darunter fällt, klärt die Kasse vor der Beschaffung."
     },
     {
       "question": "Ist ein Rollator ein Pflegehilfsmittel?",
@@ -155,7 +155,7 @@
     {
       "title": "§ 61 SGB V – Zuzahlungen (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_5/__61.html",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-11-23"
     },
     {
       "title": "Verbraucherzentrale: Mobilitätshilfen – Welche Hilfsmittel für mehr Mobilität gibt es?",
@@ -191,6 +191,11 @@
       "title": "Verbraucherzentrale: Hilfsmittel kaufen – im Internet günstiger?",
       "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/hilfsmittel-kaufen-im-internet-guenstiger-6909",
       "checked_at": "2026-10-16"
+    },
+    {
+      "title": "Bundesgesetzblatt Teil I: GKV-Beitragssatzstabilisierungsgesetz vom 24. Juli 2026 (BGBl. 2026 I Nr. 228, Art. 1 Nr. 23 – neuer § 61 SGB V)",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/228/VO.html",
+      "checked_at": "2026-11-23"
     }
   ],
   "image": {

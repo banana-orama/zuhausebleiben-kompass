@@ -109,7 +109,7 @@
       "heading": "Abgrenzung: Hausnotruf, Wohnumfeld und Krankenkasse",
       "paragraphs": [
         "Drei Nachbarrunden gehören zur Orientierung. Erstens der Hausnotruf: Notrufsysteme nennt das BMG ausdrücklich als Beispiel technischer Pflegehilfsmittel;[4] seit dem 1. April 2026 übernimmt die Pflegekasse laut Verbraucherzentrale bis zu 27 Euro monatlich für den Basistarif, wenn unter anderem Pflegegrad, weitgehendes Alleinsein und fehlende Möglichkeit vorliegen, per handelsüblichem Telefon Hilfe zu rufen.[8] Unser Hausnotruf-Ratgeber behandelt die Voraussetzungen im Detail. Beim Hilfsmittel-Antrag spielt das eine praktische Rolle: Der monatliche Grundbeitrag eines notrufsystems übersteigt meist die 42-Euro-Verbrauchsgrenze; der Anspruch läuft über die technische-Hilfsmittel-Logik mit der 27-Euro-Förderregel, nicht über die Verbrauchspauschale.",
-        "Zweitens der Wohnraum: Werden Gegenstände fest mit der Bausubstanz verbunden, sind es nach Verbraucherzentrale keine Hilfsmittel mehr, sondern Maßnahmen zur Wohnraumanpassung, die die Pflegeversicherung gesondert bezuschussen kann – bis 4.180 Euro je Maßnahme nach § 40 Abs. 4 SGB XI.[3][5] Ein angeschraubter Haltegriff bleibt dabei laut Verbraucherzentrale noch Hilfsmittel.[5] Drittens die Krankenkasse: Bei Behandlungsbedarf wie Rollator oder Gehhilfe mit ärztlicher Verordnung ist nicht die Pflege-, sondern die Krankenkasse am Zug; deren Zuzahlung liegt bei 10 Prozent, mindestens 5 und höchstens 10 Euro.[4][9]"
+        "Zweitens der Wohnraum: Werden Gegenstände fest mit der Bausubstanz verbunden, sind es nach Verbraucherzentrale keine Hilfsmittel mehr, sondern Maßnahmen zur Wohnraumanpassung, die die Pflegeversicherung gesondert bezuschussen kann – bis 4.180 Euro je Maßnahme nach § 40 Abs. 4 SGB XI.[3][5] Ein angeschraubter Haltegriff bleibt dabei laut Verbraucherzentrale noch Hilfsmittel.[5] Drittens die Krankenkasse: Bei Behandlungsbedarf wie Rollator oder Gehhilfe mit ärztlicher Verordnung ist nicht die Pflege-, sondern die Krankenkasse am Zug; deren Zuzahlung liegt bei 10 Prozent, mindestens 5 und höchstens 10 Euro; ab dem 1. Januar 2027 gilt die Neufassung des § 61 SGB V (GKV-Beitragssatzstabilisierungsgesetz), dann mindestens 7,50 und höchstens 15 Euro.[4][9][11]"
       ]
     },
     {
@@ -168,7 +168,7 @@
     {
       "title": "§ 33 SGB XI – Leistungsvoraussetzungen (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__33.html",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-11-23"
     },
     {
       "title": "§ 84 SGG – Widerspruchsverfahren (gesetze-im-internet.de)",
@@ -208,12 +208,17 @@
     {
       "title": "§ 61 SGB V – Zuzahlungen der Krankenkasse (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_5/__61.html",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-11-23"
     },
     {
       "title": "§ 30 SGB XI – Dynamisierung der Leistungsbeträge (gesetze-im-internet.de)",
       "url": "https://www.gesetze-im-internet.de/sgb_11/__30.html",
       "checked_at": "2026-10-19"
+    },
+    {
+      "title": "Bundesgesetzblatt Teil I: GKV-Beitragssatzstabilisierungsgesetz vom 24. Juli 2026 (BGBl. 2026 I Nr. 228, Art. 1 Nr. 23 – neuer § 61 SGB V)",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/228/VO.html",
+      "checked_at": "2026-11-23"
     }
   ],
   "image": {
