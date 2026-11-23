@@ -12,7 +12,7 @@ Aktualisiert: 2026-11-23 (Cron 14:23: **Briefing 29 live: treppenlift-eigentumsw
 
 **Aroundhome (P1):** Agency-Rückkehr-Tag (OOO bis 23.11.) — Inbox bis dahin ohne Antwort; **Invite-Nudge gesendet (Sent 1032, `operations/aroundhome-nudge-231126.eml`)**, CC Torsten/Nela/Anna, mit Hinweis auf die Thanksgiving-gekürzte Woche und Reapply-Fallback 20.12. Impressum-USt-IdNr. live verifiziert vor dem Versand (200 + DE305157036 wörtlich). Nächste Einheit: Antwort/Aktivierung nach Playbook (Dry-Run 22/22 liegt bereit).
 
-**Deploy verifiziert:** Commit `<SHA>`, CI-Run `<RUN>` success, Live-Readback `<N>/<N> ALL PASS` (`research/verify_weg_live_231126.py`), IndexNow `<STATUS>`.
+**Deploy verifiziert:** Commit `e68a9d6` (volle SHA e68a9d6aefd2c51dba7fc82d1a24b7c370718705), Push e415497..e68a9d6 fast-forward, **CI-Run 45191006551 success** (wait_ci, voller SHA), **Live-Readback 34/34 ALL PASS auf der öffentlichen URL** (`research/verify_weg_live_231126.py`: Artikel-URL 200 ab Poll 1 mit robots index,follow, Canonical, Kernwortlauten inkl. BGH-Verbatim, Related-Reihenfolge, CTA → firmen-vergleich, SVG 200, Sitemap exakt 54 locs, RSS 41, llms.txt, Homepage-Verlinkung, Absenzen live 0×, Impressum-USt-IdNr. live), **IndexNow 200** (2 URLs: Artikel + Homepage, `research/indexnow_submit_weg_231126.py`).
 
 ## 2026-11-23 (Cron 09:23): Hilfsmittel-Zuzahlung 2027 — verifiziert + eingearbeitet (Refresh-Kandidat aus Batch 25)
 

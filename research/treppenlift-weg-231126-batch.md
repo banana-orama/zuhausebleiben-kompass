@@ -54,4 +54,4 @@ Zwei Subagents (legal + market), Evidenz `research/evidence/weg-231126/`:
 
 ## Deploy
 
-Nachtrag nach CI/Live-Readback (siehe launch-state.md).
+Commit `e68a9d6` (volle SHA e68a9d6aefd2c51dba7fc82d1a24b7c370718705), Push e415497..e68a9d6 fast-forward, **CI-Run 45191006551 success**, **Live-Readback 34/34 ALL PASS** auf der öffentlichen URL (`research/verify_weg_live_231126.py`: 200 ab Poll 1, robots index,follow, Canonical, Kernwortlaute inkl. BGH-Verbatim live, Related-Reihenfolge mietwohnung→wohnumfeld→kosten, CTA → treppenlift-firmen-vergleich, SVG 200 mit „WEG-Beschluss nach § 20", Sitemap exakt 54 locs inkl. Artikel, RSS 41, llms.txt, Homepage-Verlinkung, Absenzen 0× (V ZR 140/VIII ZR/4.180/6.250/Partner-Marker/Entwurf-Prosa), Impressum-USt-IdNr. live), **IndexNow HTTP 200** (2 URLs: Artikel + Homepage).
