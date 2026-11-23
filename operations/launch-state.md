@@ -10,7 +10,9 @@ Aktualisiert: 2026-11-23 (Cron 09:23: **Hilfsmittel-Zuzahlung 2027 verifiziert u
 
 **Umsetzung (datierte Vorlauf-Notiz, KEIN Zahlenwechsel):** 3 Artikel ergänzt — hilfsmittel-dusch-wc (4 Stellen inkl. Tabellenzelle „(ab 2027: 7,50 €/15 €)"), hilfsmittel-pflegekasse (Krankenkassen-Absatz), rollator (Absatz + FAQ); je neue Quelle BGBl (recht.bund.de/bgbl/1/2026/228/VO.html, 200); checked_at: § 61 ×3 → 23.11., § 33 SGB XI (heute live verifiziert) → 23.11. **Gates:** npm test EXIT 0; neues Dauer-Gate `verify_hilfsmittel_zuzahl_231126.py` 0 FAILS (11 verbatim + 18 Struktur/HTML-Checks); bestehendes duschwc-Content-Gate 0 FAILS; verify_checklists_build ALL PASS; Mobile 3×390 px 0 px Overflow + Vision sauber. Protokoll mit Verwerfen-Begründungen: `research/hilfsmittel-zuzahl-231126-batch.md`.
 
-**Refresh-Trigger hart datiert:** am 01.01.2027 müssen die 3 Artikel auf Gegenwartsform (7,50/15 € als aktuelle Werte) umgestellt werden; mitlesen: stationäre Maßnahmen 15 €/Tag, Heilmittel 15 € je Verordnung. Deploy/Live-Readback: dieser Eintrag wird nach Push ergänzt (Commit unten).
+**Refresh-Trigger hart datiert:** am 01.01.2027 müssen die 3 Artikel auf Gegenwartsform (7,50/15 € als aktuelle Werte) umgestellt werden; mitlesen: stationäre Maßnahmen 15 €/Tag, Heilmittel 15 € je Verordnung.
+
+**Deploy verifiziert:** Commit `585eded` (volle SHA 585eded397aae6f7bfd9023e4e100a99cac42cd9), Push d4c2dfa..585eded fast-forward, **CI-Run 45141118028 success** (wait_ci_zuzahl_231126, voller SHA), **Live-Readback 0 FAILS auf der öffentlichen URL** (`research/verify_zuzahl_live_231126.py`: 3 Artikel 200 index,follow + Canonical mit allen Needles — 7,50/15 Euro/1. Januar 2027/BGBl. 2026 I Nr. 228/„7,50 €/15 €"-Zelle/„Neufassung des § 61 SGB V"/pflegekasse „Quellenstand: 2026-11-23" — live ab Poll 1, Sitemap exakt 53 locs, RSS 40, Homepage index,follow, llms.txt 200), **IndexNow 200** (4 URLs: 2× Hilfsmittel + Rollator + Homepage).
 
 ## 2026-11-20 (Cron 14:23, Nachmittag): dist-Clean im Build (paare-Orphan-Fehlerklasse geschlossen) + ADCELL-GO-Refresh
 
