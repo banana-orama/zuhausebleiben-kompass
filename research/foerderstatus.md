@@ -25,7 +25,9 @@
 
 **Geänderte Dateien:** 20 × `content-ready/*.json` — 38 `checked_at` → 2026-11-23 (Scope: §40, §35a, 455-B, 159, BMG, NRW.BANK, StMB; **bewusst nicht** hochgesetzt: §554 BGB „2026-10-19", GKV-PDFs, pflege.net/rehadat/recht.bund (heute nur WAF/503-Klassifikation), Gesamtdisclaimer „Stand: 2. November 2026" in wohnumfeldverbesserung, BGB-Stichtage „19./20. November 2026" in finanzierung (Rechtsdaten), konstruktionsfuhrer-Eigenstand „Oktober 2026") + 9 sichtbare KfW-Abrufdaten → „23. November 2026" (bad-umbau ×2, bodengleiche ×2, wanne ×1, money-page ×3 + Ampel-Header „Status am 23.11.2026" ×1; alle durch heutigen curl+Browser-Check gedeckt). `data/content.json` unangetastet (Altentwürfe, Renderer überschreibt).
 
-**Build/Deploy:** build:launch + test_site.py + test_articles.py + test_partner_links.py — Ergebnis siehe folgender Absatz nach dem Lauf. Commit + CI + Live-Readback werden direkt nach dem Push ergänzt.
+**Build/Deploy:** build:launch (60 Seiten, Mode: LAUNCH index) + test_site.py (65 HTML, Sitemap 53 locs) + test_articles.py (40 Artikel) + test_partner_links.py PASS; `npm test` exit 0. Commit `39c084c` gepusht (40 Dateien: 20 content-ready + 20 research; Parallel-Run-dist-Churn unberührt), CI-Run 45132605115 **success** (voller-SHA-Wait über ci_wait_031126.py). **Live-Readback** (`research/live_readback_231126.log`): **24/24 PASS** — Deploy nach 1 Poll live: money-page „23. November 2026" ×3+ / „Status am 23.11.2026" ×1 / 0× 18-November / geprüft-2026-11-23 ×6 / Ampel 220.000+10.000 unverändert / 455-B-Verbatim ×1; bad-umbau/bodengleiche/wanne je neues Datum ≥ Erwartung, 0× 16-November, geprüft-2026-11-23 ×4; angehoerige neue VZ-URL ×1, tote Event-URL 0×, Paraphrase ohne Alt-Zitat; robots aller Seiten `index,follow`.
+
+**Lesson (Readback-Design):** Der Renderer spiegelt FAQ-Answers ins JSON-LD — jedes Prosa-Datum kann 2× im HTML stehen (bad-umbau live 3× trotz 2× Prosa). Exakte Gleichheits-Assertions gegen Prosa-Zählungen falschen daher; verbindlich sind ≥-Neu- und ==0-Alt-Checks. Die 3 Erstlauf-FAILs waren Readback-Erwartungsfehler, kein Content-Fehler (Ground-Truth: JSON-Quellen + Live-Counts gegengeprüft).
 
 ---
 

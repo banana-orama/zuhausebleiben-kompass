@@ -1,0 +1,29 @@
+Deploy-Live nach 1 Poll(s).
+PASS  money-page HTTP+robots index,follow
+PASS  money-page 23. November 2026 x3+ (Intro/Sektion/FAQ)
+PASS  money-page Status am 23.11.2026 x1
+PASS  money-page 0x 18. November / Status am 18.11
+PASS  money-page geprüft 2026-11-23 x6 (7 Quellen, §554 bleibt alt)
+PASS  money-page Ampel-Rows unverändert: 220.000 x1, 10.000 x1
+PASS  money-page 455-B-Verbatim „Diesen Zuschuss können Sie nicht mehr beantragen" x1+ (Renderer dupliziert FAQ-Answers ins JSON-LD — exakte Prosa-Gleichheit gilt nicht)
+PASS  money-page §40-Zahlen: 4.180/16.720
+PASS  /bad-umbau-barrierefrei.html: robots index,follow
+PASS  /bad-umbau-barrierefrei.html: 23. November 2026 >= 2 (JSON-LD-Duplikate möglich)
+PASS  /bad-umbau-barrierefrei.html: 0x 16. November
+PASS  /bad-umbau-barrierefrei.html: geprüft 2026-11-23 x4
+PASS  /bodengleiche-dusche-altbau.html: robots index,follow
+PASS  /bodengleiche-dusche-altbau.html: 23. November 2026 >= 2 (JSON-LD-Duplikate möglich)
+PASS  /bodengleiche-dusche-altbau.html: 0x 16. November
+PASS  /bodengleiche-dusche-altbau.html: geprüft 2026-11-23 x4
+PASS  /wanne-zur-dusche.html: robots index,follow
+PASS  /wanne-zur-dusche.html: 23. November 2026 >= 1 (JSON-LD-Duplikate möglich)
+PASS  /wanne-zur-dusche.html: 0x 16. November
+PASS  /wanne-zur-dusche.html: geprüft 2026-11-23 x4
+PASS  angehoerige: robots index,follow
+PASS  angehoerige: neue VZ-URL /vorsorgevollmacht im Quellenblock
+PASS  angehoerige: 0x tote Veranstaltungs-URL
+PASS  angehoerige: Paraphrase „ausdrücklichen Vollmacht" ohne Anführungszeichen-Zitat
+PASS  angehoerige: VZ-Quelle geprüft 2026-11-23 (Restquelle 11-10 bleibt)
+PASS  Homepage robots index,follow
+======================================================================
+ERGEBNIS: alle 24 Checks PASS — Deploy live verifiziert.
