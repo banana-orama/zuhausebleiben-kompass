@@ -104,6 +104,20 @@ const CHECKLISTS = [
     ]
   },
   {
+    slug: 'badumbau-kosten',
+    pageTitle: 'Checkliste: Badumbau-Budget',
+    pageDesc: 'Badumbau-Budget planen: 10 Schritte, Kostenbausteine fürs Angebot und eine Eigenanteil-Rechnung zum Eintragen — von der Idee bis zur Abrechnung.',
+    kind: 'Badumbau-Budget',
+    checklistTitle: 'Checkliste: Badumbau-Budget planen (10 Schritte + Kostenbausteine)',
+    intro: 'Vom Bedarf bis zur Förderabrechnung: Diese Budget-Checkliste begleitet den Badumbau in zehn Schritten — mit den Kostenbausteinen für Angebote und einer Rechenzeile für den Eigenanteil.',
+    howto: 'Arbeiten Sie die zehn Schritte in dieser Reihenfolge ab. Prüfen Sie mit der Bausteine-Tabelle, was in jedem Angebot stehen muss, und rechnen Sie den Eigenanteil mit eigenen Zahlen durch.',
+    blocks: [
+      {t: 'ol', sec: 6, title: 'In dieser Reihenfolge: das Budget schützen'},
+      {t: 'table', sec: 2, title: 'Kostenbausteine: was in einem Angebot ausgewiesen sein muss'},
+      {t: 'table', sec: 4, title: 'Eigenanteil rechnen: Beispielwerte durch eigene Zahlen ersetzen'}
+    ]
+  },
+  {
     slug: 'hausnotruf-kuendigen',
     pageTitle: 'Checkliste: Hausnotruf kündigen',
     pageDesc: 'Vertragslage prüfen, Kündigungsschreiben mit sieben Bausteinen, Absenden-Check: Hausnotruf-Vertrag geordnet beenden.',
@@ -245,7 +259,7 @@ ${checkFooter(a)}`;
   const body = `
 <p class="no-print"><a class="fine" href="${url('/')}">Startseite</a> / Checklisten</p>
 <h1>Checklisten zum Ausdrucken.</h1>
-<div class="check-hero"><p class="lead">Sieben Arbeitsblätter aus unseren Ratgebern: zum Abhaken, Eintragen und Mitnehmen zum Gespräch — mit Pflegekasse, Handwerker oder Anbieter. Kostenlos, ohne Kontaktformular, ohne Anmeldung.</p></div>
+<div class="check-hero"><p class="lead">Acht Arbeitsblätter aus unseren Ratgebern: zum Abhaken, Eintragen und Mitnehmen zum Gespräch — mit Pflegekasse, Handwerker oder Anbieter. Kostenlos, ohne Kontaktformular, ohne Anmeldung.</p></div>
 <button class="print-button no-print" type="button" onclick="window.print()">Diese Übersicht drucken</button>
 <ul class="check-grid">
 ${CHECKLISTS.map(cfg => {
@@ -254,8 +268,8 @@ ${CHECKLISTS.map(cfg => {
 </ul>
 <div class="check-block no-print"><h2>Warum es diese Checklisten gibt</h2><p>Gute Entscheidungen brauchen Vorbereitung — und Vorbereitung braucht etwas zum Anfassen. Jede Checkliste stammt aus einem ausführlichen Ratgeber auf dieser Website und bündelt dessen prüfenden Fragen, Fristen und Vergleichspunkte. Alle Inhalte sind allgemeine Orientierung; maßgeblich bleiben die Auskünfte der zuständigen Stellen und Betriebe.</p><p>Sie möchten die Zusammenhänge verstehen, bevor Sie abhaken? Jede Checkliste verlinkt auf den vollständigen Ratgeber mit Quellen und Erläuterungen.</p></div>
 ${checkFooter({slug: '', h1: 'Checklisten-Übersicht', sources: [{checked_at: today()}]})}
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"Checklisten zum Ausdrucken","description":"Sieben druckbare Checklisten zu Pflegegrad-Antrag, Hilfsmittel, Hausnotruf, Hausnotruf kündigen, Treppenlift, Türen und Badumbau.","url":"${url('/checklisten/index.html')}","inLanguage":"de","isPartOf":{"@type":"WebSite","name":"ZuhauseBleiben Kompass","url":"${url('/')}"}},{"@type":"ItemList","itemListElement":[${CHECKLISTS.map((cfg, i) => `{"@type":"ListItem","position":${i + 1},"name":"${esc(cfg.checklistTitle.replace(/^Checkliste: /, ''))}","url":"${url('/checklisten/' + cfg.slug + '.html')}"}`).join(',')}]}]}</script>`;
-  pages.push({file: join(OUT, 'index.html'), html: shell({title: 'Checklisten zum Ausdrucken — ZuhauseBleiben Kompass', desc: 'Sieben kostenlose druckbare Checklisten: Pflegegrad-Antrag, Hilfsmittel, Hausnotruf, Kündigung, Treppenlift, Tür-Messbogen und Badumbau — ohne Anmeldung.', path: '/checklisten/index.html', body})});
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"Checklisten zum Ausdrucken","description":"Acht druckbare Checklisten zu Pflegegrad-Antrag, Hilfsmittel, Hausnotruf, Hausnotruf kündigen, Treppenlift, Türen, Badumbau-Angebot und Badumbau-Budget.","url":"${url('/checklisten/index.html')}","inLanguage":"de","isPartOf":{"@type":"WebSite","name":"ZuhauseBleiben Kompass","url":"${url('/')}"}},{"@type":"ItemList","itemListElement":[${CHECKLISTS.map((cfg, i) => `{"@type":"ListItem","position":${i + 1},"name":"${esc(cfg.checklistTitle.replace(/^Checkliste: /, ''))}","url":"${url('/checklisten/' + cfg.slug + '.html')}"}`).join(',')}]}]}</script>`;
+  pages.push({file: join(OUT, 'index.html'), html: shell({title: 'Checklisten zum Ausdrucken — ZuhauseBleiben Kompass', desc: 'Acht kostenlose druckbare Checklisten: Pflegegrad-Antrag, Hilfsmittel, Hausnotruf, Kündigung, Treppenlift, Tür-Messbogen und Badumbau-Budget — ohne Anmeldung.', path: '/checklisten/index.html', body})});
 }
 
 mkdirSync(OUT, {recursive: true});

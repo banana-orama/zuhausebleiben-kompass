@@ -34,13 +34,13 @@ sm = (dist / "sitemap.xml").read_text()
 ET.fromstring(sm)
 locs = re.findall(r"<loc>([^<]+)</loc>", sm)
 check_urls = [u for u in locs if "/checklisten/" in u]
-check("sitemap has 8 checklist URLs", len(check_urls) == 8, str(len(check_urls)))
+check("sitemap has 9 checklist URLs", len(check_urls) == 9, str(len(check_urls)))
 check("sitemap checklist URLs unique", len(set(check_urls)) == len(check_urls))
 expected = {"/checklisten/index.html"} | {f"/checklisten/{s}.html" for s in [
     "pflegegrad-antrag-ablauf-fristen", "hilfsmittel-pflegekasse-uebernahme",
     "hausnotruf-kosten-anbieter-vergleich", "treppenlift-firmen-vergleich",
     "tuerbreiten-schwellen-schnellcheck", "badumbau-angebote-vergleichen",
-    "hausnotruf-kuendigen"]}
+    "badumbau-kosten", "hausnotruf-kuendigen"]}
 have = {u.replace("https://zuhausebleiben-kompass.de", "") for u in check_urls}
 check("sitemap checklist set exact", have == expected, str(have ^ expected))
 check("promoted briefing-1 article in sitemap", any("treppenlift-angebote-vergleichen" in u for u in locs))
@@ -52,14 +52,14 @@ ld = json.loads(ld_text)
 check("JSON-LD context", ld.get("@context") == "https://schema.org", str(ld.get("@context")))
 graph = ld.get("@graph", [])
 check("JSON-LD CollectionPage+ItemList", [n.get("@type") for n in graph] == ["CollectionPage", "ItemList"])
-check("JSON-LD 7 items", len(graph[1].get("itemListElement", [])) == 7)
+check("JSON-LD 8 items", len(graph[1].get("itemListElement", [])) == 8)
 
 # RSS: valid, new description, per-article items, no draft
 rss = ET.parse(dist / "rss.xml")
 items = rss.findall(".//item")
 desc = rss.find(".//channel/description").text
 check("rss new description", "im Aufbau. Noch keine" not in desc, desc[:50])
-check("rss has 40 article items", len(items) == 40, str(len(items)))
+check("rss has 41 article items", len(items) == 41, str(len(items)))
 check("rss includes promoted briefing-1 article", any("treppenlift-angebote-vergleichen" in (i.find("link").text or "") for i in items))
 titles = [i.find("title").text for i in items]
 check("rss includes briefing 9", any("Dusch-WC" in t for t in titles), str(len(titles)))
@@ -78,7 +78,7 @@ check("llms includes promoted briefing-1 article", "/treppenlift-angebote-vergle
 for s in ["index", "pflegegrad-antrag-ablauf-fristen", "hilfsmittel-pflegekasse-uebernahme",
           "hausnotruf-kosten-anbieter-vergleich", "treppenlift-firmen-vergleich",
           "tuerbreiten-schwellen-schnellcheck", "badumbau-angebote-vergleichen",
-          "hausnotruf-kuendigen"]:
+          "badumbau-kosten", "hausnotruf-kuendigen"]:
     html = (dist / "checklisten" / f"{s}.html").read_text()
     ok = ("window.gtag('consent', 'default'" in html
           and 'src="/assets/consent.mjs"' in html
@@ -96,6 +96,7 @@ blocks_cfg = {
     "treppenlift-firmen-vergleich": [["table", 6], ["ol", 7], ["ul", 4]],
     "tuerbreiten-schwellen-schnellcheck": [["ul", 0], ["table", 2], ["ul", 6]],
     "badumbau-angebote-vergleichen": [["table", 2], ["ol", 7], ["ul", 0]],
+    "badumbau-kosten": [["ol", 6], ["table", 2], ["table", 4]],
     "hausnotruf-kuendigen": [["table", 1], ["ul", 4], ["ul", 7]],
 }
 
