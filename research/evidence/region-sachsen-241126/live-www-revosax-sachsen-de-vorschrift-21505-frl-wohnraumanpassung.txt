@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="index, follow" name="robots">
+<meta content="revosax" name="search-topic">
+<meta content="Sächsisches Landesrecht Förderrichtlinie: Förderrichtlinie des Sächsischen Staatsministeriums für Infrastruktur und Landesentwicklung zur Anpassung von Wohnraum an Belange von Menschen mit Mobilitätseinschränkungen" name="description">
+<meta content="Sächsisches Landesrecht;revosax;Förderrichtlinie;Anpassung von Wohnraum, Menschen mit Mobilitätseinschränkungen, FRL;Wohnraumanpassung, FRL;Menschen mit Mobilitätseinschränkungen, Wohnraumanpassung, FRL" name="keywords">
+<link href="http://www.revosax.sachsen.de/vorschrift/21505-FRL-Wohnraumanpassung" rel="canonical">
+<title>
+REVOSax Landesrecht Sachsen
+- FRL Wohnraumanpassung – FRL WRA
+
+</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0SButVLIfKXWfT9Jgi1QSWaS7szIjupQVORAVlOa8d2YKMSNkQPN-hRw8d59h9W7mU0Oj2HbrMDIMhGjwNogNA" />
+<link rel="icon" type="image/x-icon" href="/assets/favicon-95cf5c6a8e4868b6f9647ec54ba862e534f215d2fadc25a1350e1819a4a908de.ico" />
+<link href="/styleguide/2.26.3/css/vendor.css" media="all" rel="stylesheet">
+<link href="/styleguide/2.26.3/themes/green/css/chrome.css" media="all" rel="stylesheet">
+<link href="/styleguide/2.26.3/_navigation/css/navigation.green.css?_v=2.26.3" media="all" rel="stylesheet">
+<link href="/styleguide/2.26.3/css/print.css" media="print" rel="stylesheet">
+<script src="/assets/add_jquery-78518f7ce1ec730b86eb8513cfac2899d89f7b02f8b7f17c179815c026ca7568.js"></script>
+
+<link rel="stylesheet" href="/assets/application-4a7b0c2b8b7b49dd56b683fa0191f54bc51f72b71fd65aaa53b0a3ec30c1fe50.css" media="all" data-turbo-track="reload" />
+<script src="/assets/application-7316e86d48941ca99c63dec43a2926ca1c978f6e267b7545cb7f112222d4b223.js" data-turbo-track="reload" defer="defer"></script>
+</head>
+<body>
+<ul class="list-links list-down list-links-focus">
+<li><a id="firstListElement" class="sr-only sr-only-focusable" href="#a-navigation">Zur Portalnavigation</a></li>
+<li><a class="sr-only sr-only-focusable" href="#a-inhaltsbereich">Zum Hauptinhalt</a></li>
+<li><a class="sr-only sr-only-focusable" href="#a-footer">Zum Footer-Bereich</a></li>
+</ul>
+<header class="glohea glohea-theme-xs-slides glohea-theme-sm-slides glohea-theme-md-dropdown glohea-theme-lg-dropdown glohea-no-portalnav" id="header">
+<div class="container glohea-container">
+<div class="row">
+<a title="sachsen.de" class="navbar-brand glohea-brand" href="https://www.sachsen.de/"><img alt="Zur Startseite von www.sachsen.de" class="logo svg-img" src="/styleguide/2.26.3/img/symbols/svg/logo-sachsen.svg">
+</a><button aria-controls="collapse-search-slider" aria-expanded="false" aria-haspopup="true" class="sn_glohea__button sn_glohea__button--toggle-search sn_glohea__button--last" data-target="#collapse-search-slider" data-toggle="collapse" id="glohea-btn-search" title="Suche öffnen" type="button">
+<i aria-label="Suche öffnen" class="sn-icon sn-icon-search-white sn-icon-center"></i>
+</button>
+<form class="glohea-form" role="search" data-turbo="false" action="/suche" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="OJ25E5kjiIhM18__d7f6xvOt5LwDI3Ym7_TNB1FIR-ib8oSSvas2BlyNsH7zqNwxOgQiwaaHhruS0TEmQ17Zvg" autocomplete="off" /><input type="hidden" name="search_request[mode]" id="header_search_mode" value="quicksearch" autocomplete="off" />
+<div aria-labelledby="glohea-btn-search" class="collapse collapse-small collapse-search" id="collapse-search-slider">
+<div class="form-group">
+<label class="sr-only" for="header-search">Suchbegriff</label>
+<input type="text" name="search_request[search_text]" id="header-search" class="form-control input-search" placeholder="Vorschrift suchen" autocomplete="off" title="Suchbegriff" />
+</div>
+<button class="btn btn-search-submit sn-icon sn-icon-search-white sn-icon-center" title="Suche starten" type="submit">
+<span class="sr-only">Suche starten</span>
+</button>
+</div>
+</form></div>
+<div class="row glohea-deko-row">
+<div class="portal-link glohea-deko-left" id="portal-title">
+<span class="sr-only">Portal:</span>
+<a class="sn-icon sn-icon-home icon-home" href="/">REVOSax – Landesrecht Sachsen</a>
+</div>
+</div>
+</div>
+</header>
+<div class="only_print" id="header_print">
+<p>REVOSax – Landesrecht Sachsen</p>
+</div>
+
+<div class="main main-layout-1-2-1" id="main">
+<div class="main-container">
+<div class="row">
+<div class="sidebar sidebar-left" id="main-sidebar-left">
+<div class="row">
+<div class="col">
+<div class="box box-nav-portal" id="contentnav-portal">
+<a class="sr-only" id="a-navigation">Portalnavigation</a>
+<div class="box-header">
+<a class="portal" href="/">REVOSax</a>
+</div>
+<div class="box-body">
+<nav aria-labelledby="a-navigation" class="nav nav-portal" data-element="nav-portal">
+<ul class="list-links">
+<li><a class="law_version_link" href="/vorschrift/21505.1">Vorschrift</a></li>
+<li class="active" aria-current="page"><span class="active-label"><strong style="font-weight: normal;">Aktuelle Fassung</strong></span></li>
+<li><a href="/law_versions/49515/impacts">Normenhistorie</a></li>
+<li class="ancestor" id="historic">
+<a aria-controls="historic-versions" aria-expanded="false" href="#">Historische Fassungen</a>
+<ul class="list-links" data-controller="expandable-list" id="historic-versions">
+<li aria-current="page" class="active">
+<a class="law_version_link" href="/vorschrift/21505.1">18.03.2026 – 30.12.2032</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="content-wrapper" id="main-content-wrapper">
+<div class="row">
+<main class="content" id="main-content">
+<a class="sr-only" id="a-inhaltsbereich">Hauptinhalt</a>
+
+
+<div class="law_show" data-controller="law-version">
+<h1 id="page-title">FRL Wohnraumanpassung</h1><p class="vollzitat">Vollzitat: FRL Wohnraumanpassung vom 26.&nbsp;Februar&nbsp;2026 (SächsABl. S.&nbsp;321)</p>
+<article class="spalte1-b1 spalte2-b1 spalte3-b2" id="lesetext" data-bundesgesetze="inline">
+      <header title="Eingangsformel" data-anchor="1000" data-level="1" data-link="ef" id="ef">
+        <h3 class="centre">
+          Förderrichtlinie
+          <br>
+          des Sächsischen Staatsministeriums
+          <br>
+          für Infrastruktur und Landesentwicklung
+          <br>
+          zur Anpassung von Wohnraum an Belange von
+          <br>
+          Menschen mit Mobilitätseinschränkungen
+          <br>
+          (FRL Wohnraumanpassung – FRL WRA)
+        </h3>
+        <p class="centre"><b>Vom 26. Februar 2026</b></p>
+      </header>
+      <div id="_idContainer000" class="Einfacher-Textrahmen">
+        <section data-anchor="1" data-level="1" title="I. Zuwendungszweck, Rechtsgrundlagen" data-link="romI" id="romI">
+          <h4 class="centre">
+            I.
+            <br>
+            Zuwendungszweck, Rechtsgrundlagen
+          </h4>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_1">1.</dt>
+            <dd class="last">
+              Zuwendungszweck:
+              <br>
+              Der Freistaat Sachsen gewährt nach Maßgabe dieser Richtlinie sowie der unter Nummer 2 aufgeführten Rechtsgrundlagen Zuwendungen für die Anpassung von Wohnraum an den Bedarf von Menschen mit Mobilitätseinschränkungen.
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">2.</dt>
+            <dd class="last">
+              Rechtsgrundlagen:
+              <br>
+              Die Zuwendungen werden nach Maßgabe und unter Einhaltung der Voraussetzungen der folgenden Bestimmungen oder deren Nachfolgebestimmungen in der jeweils geltenden Fassung gewährt:
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">–</dd>
+            <dd class="last">§§ 23, 44 und 44a der <a href="/vorschrift/4270#p23" title="SäHO" target="_blank">Sächsischen Haushaltsordnung</a> in der Fassung der Bekanntmachung vom 10. April 2001 (SächsGVBl. S. 153), die zuletzt durch Artikel 1 des Gesetzes vom 27. Juni 2025 (SächsGVBl. S. 285) geändert worden ist; </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">–</dd>
+            <dd class="last">
+<a href="/vorschrift/21484" title="VwV-SäHO" target="_blank">Verwaltungsvorschriften des Sächsischen Staatsministeriums der Finanzen zur Sächsischen Haushaltsordnung</a> vom 11. Dezember 2025 (SächsABl. SDr. 2026 S. S 230). </dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">3.</dt>
+            <dd class="last">Ein Anspruch des Antragsstellers auf die Gewährung der Zuwendung besteht nicht. Vielmehr entscheidet die Bewilligungsstelle auf Grund ihres pflichtgemäßen Ermessens im Rahmen der verfügbaren Haushaltsmittel.</dd>
+          </dl>
+        </section>
+        <section data-anchor="2" data-level="1" title="II. Gegenstand der Förderung" data-link="romII" id="romII">
+          <h4 class="centre">
+            II.
+            <br>
+            Gegenstand der Förderung
+          </h4>
+          <p class="FLIESSTEXT ParaOverride-1">Gefördert werden Vorhaben</p>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_1 ParaOverride-2">–</dt>
+            <dd class="last">zum rollstuhlgerechten Wohnraumumbau, </dd>
+            <dt class="td_1" data-orig-class="EINZUG_1-ohne-LZ">–</dt>
+            <dd class="last">zum barrierefreien Wohnraumumbau </dd>
+          </dl>
+          <p class="FLIESSTEXT-Fortsetzung">innerhalb der Wohnung.</p>
+          <p class="FLIESSTEXT ParaOverride-1">Außerhalb der Wohnung sind förderfähig:</p>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_1 ParaOverride-2">–</dt>
+            <dd class="last">abschließbare Boxen zur Unterbringung von Rollstühlen und Rollatoren vor dem Gebäude, sofern die Nutzungseinschränkungen innerhalb der Wohnung beseitigt sind oder im Rahmen des Vorhabens beseitigt werden; </dd>
+            <dt class="td_1" data-orig-class="EINZUG_1-ohne-LZ">–</dt>
+            <dd class="last">bei vom Zuwendungsempfänger als Eigentümer oder Erbbauberechtigtem selbstgenutzten Wohngebäuden mit bis zu zwei Wohnungen: barrierereduzierende Maßnahmen außerhalb der Wohnung im Gebäude und außerhalb des Gebäudes auf der Zuwegung von der Grundstücksgrenze bis zu einer Hauseingangstür, sofern dies zum Erreichen des Wohnraums erforderlich ist und die Nutzungseinschränkungen innerhalb der Wohnung beseitigt sind oder im Rahmen des Vorhabens beseitigt werden. </dd>
+          </dl>
+        </section>
+        <section data-anchor="3" data-level="1" title="III. Zuwendungsempfänger" data-link="romIII" id="romIII">
+          <h4 class="centre">
+            III.
+            <br>
+            Zuwendungsempfänger
+          </h4>
+          <p class="FLIESSTEXT">Zuwendungen können gewährt werden an natürliche Personen.</p>
+        </section>
+        <section data-anchor="4" data-level="1" title="IV. Zuwendungsvoraussetzungen" data-link="romIV" id="romIV">
+          <h4 class="centre">
+            IV.
+            <br>
+            Zuwendungsvoraussetzungen
+          </h4>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_1">1.</dt>
+            <dd class="last">
+              Zuwendungsempfängerbezogene Voraussetzungen
+              <br>
+              Zuwendungen werden für Zuwendungsempfänger gewährt, die folgende Anforderungen erfüllen:
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">a)</dd>
+            <dd class="last">Der Zuwendungsempfänger muss Eigentümer einer selbstgenutzten Wohnung, Eigentümer oder Erbbauberechtigter eines selbstgenutzten Wohngebäudes mit bis zu zwei Wohnungen oder der gegenwärtige oder zukünftige, bereits rechtlich gebundene Mieter beziehungsweise Nutzer einer Wohnung oder eines Einfamilienhauses sein. </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">b)</dd>
+            <dd class="last">Der Zuwendungsempfänger oder ein in seinem Haushalt lebender Angehöriger muss voraussichtlich dauerhaft in der Mobilität innerhalb des Wohnraums eingeschränkt sein. Ein Umbaubedarf im Sinne von Ziffer I Nummer 1 liegt vor, wenn aufgrund Mobilitätseinschränkungen die Wohnung ohne einen Umbau nicht mehr uneingeschränkt nutzbar ist oder aufgrund erfahrungsgemäß erwartbarer Krankheitsverläufe innerhalb von zwei Jahren sein wird. Die Einschränkung der Mobilität innerhalb des Wohnraums und der daher notwendige Bedarf der Wohnraumanpassung sind glaubhaft zu machen. Dies erfolgt durch Vorlage geeigneter Unterlagen im Antragsverfahren gemäß Ziffer VI Nummer 1 Buchstabe b.</dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">c)</dd>
+            <dd class="last">
+              begrenzte finanzielle Leistungsfähigkeit:
+              <br><span>                Eine Zuwendung kann nur erhalten, wem die Finanzierung der Maßnahme aus eigenem Einkommen nicht zugemutet werden kann. Dies ist der Fall, wenn die Summe der positiven Einkünfte des Haushalts eines Jahres gemäß § 2 Absatz 2 <a href="/federal_laws/157/redirect" class="bundesgesetz" target="_blank" title="Einkommensteuergesetz" data-name="EStG" data-id="157">Einkommensteuergesetz</a>              </span>
+</dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">aa)</dd>
+            <dd class="last">bei Haushalten mit einem Erwachsenen 40 000 Euro,</dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">bb)</dd>
+            <dd class="last">bei Haushalten mit zwei Erwachsenen 60 000 Euro </dd>
+          </dl>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_2-Fortsetzung"></dt>
+            <dd class="td_2"></dd>
+            <dd class="last">
+              nicht übersteigt; die Beträge erhöhen sich für jede weitere zum Haushalt rechnende Person um 10 000 Euro.
+              <br><span><span><span>                Maßgeblich für die Feststellung der Höhe der Einkünfte sind die Einkommensteuerbescheide der Haushaltsangehörigen des gegenüber dem Jahr der Antragstellung letzten Jahres, sofern noch nicht vorliegend des vorletzten Jahres. Kann die Höhe der Einkünfte nicht mit steuerlichen Unterlagen belegt werden, so sind die Daten der Rentenbescheide, der Lohn-/Gehaltsabrechnungen oder hilfsweise der Selbstauskunft abzüglich der Werbungskostenpauschale maßgeblich. Die Einhaltung der Einkommensgrenze gilt als erfüllt, wenn der Zuwendungsempfänger selbst oder als Mitglied einer Bedarfsgemeinschaft zum Antragszeitpunkt Leistungen nach dem <a href="/federal_laws/348/redirect" class="bundesgesetz" target="_blank" title="Sozialgesetzbuch (SGB) Zweites Buch (II) - Grundsicherung für Arbeitsuchende -" data-name="SGB II" data-id="348">Zweiten Buch Sozialgesetzbuch</a> oder nach dem Dritten oder Vierten Kapitel des </span><a href="/federal_laws/358/redirect" class="bundesgesetz" target="_blank" title="Sozialgesetzbuch (SGB) Zwölftes Buch (XII) - Sozialhilfe - " data-name="SGB XII" data-id="358">Zwölften Buches Sozialgesetzbuch</a> oder Wohngeld nach dem </span><a href="/federal_laws/440/redirect" class="bundesgesetz" target="_blank" title="Wohngeldgesetz" data-name="WoGG" data-id="440">Wohngeldgesetz</a> bezieht.                </span><br>
+              Der Zuwendungsempfänger bestätigt die Einhaltung der Einkommensgrenze durch Selbstauskunft im Rahmen der Antragstellung. Die Bewilligungsstelle kann die Vorlage geeigneter Nachweise verlangen.
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">d)</dd>
+            <dd class="last">Eine Förderung nach dieser Richtlinie ist grundsätzlich ausgeschlossen, sofern der Antragsteller für den Wohnraum bereits eine Förderung für Maßnahmen nach dieser Richtlinie erhalten hat. Als Ausnahme gilt der erstmalige Antrag auf Herstellung von barrierefreiem und uneingeschränkt mit dem Rollstuhl nutzbarem Wohnraum gemäß DIN 18040-2 mit dem Kennzeichen „R“, sofern sich der notwendige Bedarf der Wohnraumanpassung gegenüber dem bereits bewilligten Vorhaben deutlich verändert hat.</dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">2.</dt>
+            <dd class="last">
+              Vorhabensbezogene Voraussetzungen
+              <br>
+              Zuwendungen werden für Vorhaben gewährt, die folgende Anforderungen erfüllen:
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">a)</dd>
+            <dd class="last">Gefördert werden nur Maßnahmen, die geeignet sind, die bestehenden Nutzungseinschränkungen des Wohnraums zu beseitigen. Voraussetzung für eine Förderung ist, dass der selbstständige Zugang zum Gebäude und zur Wohnung trotz der Mobilitätseinschränkung bereits besteht oder innerhalb des Bewilligungszeitraums, spätestens jedoch bis zur Vorlage des Verwendungsnachweises hergestellt wird.</dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">b)</dd>
+            <dd class="last"><span>Bei Vorliegen eines Mietverhältnisses oder eines dinglichen Nutzungsrechts (Wohnungsrechts, Nießbrauch) erfolgt eine Förderung von Baumaßnahmen zum Umbau von Wohnraum nur dann, wenn die Zustimmung des Vermieters oder Eigentümers zu den zu fördernden Umbaumaßnahmen sowie eine Erklärung des Vermieters oder Eigentümers vorliegt, dass bei Auszug des Mieters oder Nutzungsberechtigten ein Rückbau der geförderten Umbaumaßnahmen nicht erforderlich ist (Vermieterbestätigung). Auf § 554 des <a href="/federal_laws/94/redirect" class="bundesgesetz" target="_blank" title="Bürgerliches Gesetzbuch" data-name="BGB" data-id="94">Bürgerlichen Gesetzbuches</a> wird hingewiesen.</span></dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">c)</dd>
+            <dd class="last">Die Umsetzung der Maßnahmen nach Ziffer II ist an den technischen Regeln des Kapitels 5 der DIN 18040-2 zu orientieren. Kann der Zuwendungsweck im konkreten Fall durch alternative Ausführungen einfacher erreicht werden, sind diese förderfähig.</dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">d)</dd>
+            <dd class="last">Dem Vorhaben dürfen keine öffentlich-rechtlichen Vorschriften entgegenstehen. </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">e)</dd>
+            <dd class="last">
+              Eine Zuwendung kann nur gewährt werden, wenn das Vorhaben zum Zeitpunkt der Antragstellung noch nicht begonnen worden ist. Als Zeitpunkt der Antragstellung gilt das Datum der elektronischen Eingangsbestätigung im Förderportal oder der Posteingang des Antrags bei der Bewilligungsstelle beziehungsweise der zuständigen Fachstelle (vgl. Ziffer VI Nummer 1 Buchstabe a).
+              <br>
+              Als Vorhabensbeginn ist nach Nummer 1.4.1 der <a href="/vorschrift/21484#p44" title="VwV-SäHO" target="_blank">Verwaltungsvorschriften zu § 44 der Sächsischen Haushaltsordnung</a> grundsätzlich der Baubeginn oder der Abschluss eines der Ausführung zuzurechnenden Lieferungs- und Leistungsvertrages zu werten.
+            </dd>
+          </dl>
+        </section>
+        <section data-anchor="5" data-level="1" title="V. Art und Umfang, Höhe der Zuwendung" data-link="romV" id="romV">
+          <h4 class="centre">
+            V.
+            <br>
+            Art und Umfang, Höhe der Zuwendung
+          </h4>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_1">1.</dt>
+            <dd class="last">Zuwendungsart:</dd>
+			<dt class="td_1"></dt>
+			<dd class="last">Projektförderung</dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">2.</dt>
+            <dd class="last">Finanzierungsform:</dd>
+			<dt class="td_1"></dt>
+			<dd class="last">Zuschuss</dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">3.</dt>
+            <dd class="last">Finanzierungsart: </dd>
+          <dt class="td_1"></dt>
+          <dd class="last">Anteilfinanzierung</dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">4.</dt>
+            <dd class="last">Höhe der Zuwendung: </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">a)</dd>
+            <dd class="last">Zuwendungsfähig sind die unmittelbar für die förderfähigen Maßnahmen entstandenen Ausgaben einschließlich der Baunebenkosten (zuwendungsfähige Ausgaben). </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">b)</dd>
+            <dd class="last">Die Förderung ist nachrangig gegenüber Leistungen Dritter. Leistungen von Krankenkassen, Pflegekassen, Versicherungen und sonstigen Förderprogrammen, auf die der Zuwendungsempfänger oder ein im Haushalt lebender Angehöriger Anspruch hat, reduzieren die zuwendungsfähigen Ausgaben.</dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">c)</dd>
+            <dd class="last">Die zuwendungsfähigen Ausgaben werden grundsätzlich zu 80 Prozent, maximal mit einem Betrag von 4 000 Euro, beim Herstellen von barrierefreiem und uneingeschränkt mit dem Rollstuhl nutzbarem Wohnraum gemäß DIN 18040-2 mit dem Kennzeichen „R“ maximal mit einem Betrag von 10 000 Euro gefördert.</dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">d)</dd>
+            <dd class="last"><span><span>besondere Förderung einkommensschwacher Haushalte: Abweichend von Buchstabe c werden die zuwendungsfähigen Ausgaben zu 100 Prozent, maximal mit einem Betrag von 5 000 Euro, beim Herstellen von barrierefreiem und uneingeschränkt mit dem Rollstuhl nutzbarem Wohnraum gemäß DIN 18040-2 mit dem Kennzeichen „R“ maximal mit einem Betrag von 12 500 Euro gefördert, wenn der Zuwendungsempfänger selbst oder als Mitglied einer Bedarfsgemeinschaft Leistungen nach dem <a href="/federal_laws/348/redirect" class="bundesgesetz" target="_blank" title="Sozialgesetzbuch (SGB) Zweites Buch (II) - Grundsicherung für Arbeitsuchende -" data-name="SGB II" data-id="348">Zweiten Buch Sozialgesetzbuch</a> oder nach dem Dritten oder Vierten Kapitel des </span><a href="/federal_laws/358/redirect" class="bundesgesetz" target="_blank" title="Sozialgesetzbuch (SGB) Zwölftes Buch (XII) - Sozialhilfe - " data-name="SGB XII" data-id="358">Zwölften Buches Sozialgesetzbuch</a> bezieht. </span></dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">e)</dd>
+            <dd class="last">Die Höhe der Zuwendung muss mindestens 1 500 Euro betragen.</dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">f)</dd>
+            <dd class="last">Sofern im Ausnahmefall gemäß Ziffer IV Nummer 1 Buchstabe d eine erneute Förderung für den Zuwendungsempfänger und den Wohnraum nach dieser Richtlinie zulässig ist, ist bei der Ermittlung der Zuwendungshöhe die bisherige Förderung nach dieser Richtlinie auf die Höhe der Zuwendung anzurechnen.</dd>
+          </dl>
+        </section>
+        <section data-anchor="6" data-level="1" title="VI. Verfahren" data-link="romVI" id="romVI">
+          <h4 class="centre">
+            VI.
+            <br>
+            Verfahren
+          </h4>
+          <p class="FLIESSTEXT">Das Förderverfahren (Antragstellung, (Teil-)Verwendungsnachweisführung beziehungsweise Auszahlungsanträge sowie die mit diesen Schritten verbundene Einreichung von Unterlagen) erfolgt grundsätzlich elektronisch über das Förderportal Sachsen. Eine Antragstellung ist hilfsweise auch mittels der unter <a role="[Benutzerdefinierte Rolle]" aria-label="www.sab.sachsen.de" href="https://www.sab.sachsen.de" title="Sächsische Aufbaubank - SAB - sab.sachsen.de">www.sab.sachsen.de</a> hinterlegten Vordrucks zulässig. In diesem Fall können auch die (Teil-)Verwendungsnachweisführung beziehungsweise Auszahlungsanträge mittels Vordruck erfolgen.</p>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_1">1.</dt>
+            <dd class="last">
+              Antrags- und Bewilligungsverfahren:
+              <br>
+              Bewilligungsstelle ist die Sächsische Aufbaubank – Förderbank – (SAB).
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">a)</dd>
+            <dd class="last">
+              Beteiligung Fachstelle:
+              <br>
+              Die Auswahl geeigneter Anträge erfolgt durch die Bewilligungsstelle unter Einbeziehung einer hierfür vom Staatsministerium für Infrastruktur und Landesentwicklung beauftragten Stelle (Beratungs- und Fachstelle) als Fachstelle. Die Fachstelle muss beurteilen, ob eine voraussichtlich dauerhafte Einschränkung der Mobilität innerhalb des Wohnraums vorliegt (Ziffer I und Ziffer IV Nummer 1 Buchstabe b), die selbstständige Erreichbarkeit der Wohnung gegeben ist und die beantragten Maßnahmen geeignet sind, die daraus resultierenden Nutzungseinschränkungen des bestehenden Wohnraums zu beseitigen (Ziffer II und Ziffer IV Nummer 2 Buchstabe a).
+              <br>
+              Die Liste der regional zuständigen beauftragten Stellen wird im Internet unter <a role="[Benutzerdefinierte Rolle]" aria-label="www.bauen-wohnen.sachsen.de/32418.htm" href="https://www.bauen-wohnen.sachsen.de/32418.htm" title="www.bauen-wohnen.sachsen.de">www.bauen-wohnen.sachsen.de/32418.htm</a> sowie von der SAB unter <a role="[Benutzerdefinierte Rolle]" aria-label="https://www.sab.sachsen.de/wohnraumanpassung" href="https://www.sab.sachsen.de/wohnraumanpassung" title="Wohnraumanpassung - sab.sachsen.de">https://www.sab.sachsen.de/wohnraumanpassung</a> bekanntgegeben. Maßgebend für die regionale Zuordnung ist die Lage des umzubauenden Wohnraums.
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_2"></dt>
+            <dd class="td_2">b)</dd>
+            <dd class="last">
+              Antragsunterlagen:
+              <br>
+              Mit dem Antrag sind für die Bewilligungsstelle folgende Unterlagen einzureichen:
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last">Kopie des gültigen Personalausweises des Antragstellers, sofern keine elektronische Legitimation erfolgt, </dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last"><span><span><span>gegebenenfalls Belege zum aktuellen Bezug von Leistungen nach dem <a href="/federal_laws/348/redirect" class="bundesgesetz" target="_blank" title="Sozialgesetzbuch (SGB) Zweites Buch (II) - Grundsicherung für Arbeitsuchende -" data-name="SGB II" data-id="348">Zweiten Buch Sozialgesetzbuch</a> oder nach dem Dritten oder Vierten Kapitel des </span><a href="/federal_laws/358/redirect" class="bundesgesetz" target="_blank" title="Sozialgesetzbuch (SGB) Zwölftes Buch (XII) - Sozialhilfe - " data-name="SGB XII" data-id="358">Zwölften Buches Sozialgesetzbuch</a> oder von Wohngeld nach dem </span><a href="/federal_laws/440/redirect" class="bundesgesetz" target="_blank" title="Wohngeldgesetz" data-name="WoGG" data-id="440">Wohngeldgesetz</a>,</span></dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last">bei Mietern die Vermieterbestätigung für die geplante Umbaumaßnahme,</dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last">Angebote der Fachfirmen,</dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last">fachliche Bestätigung der Beratungs- und Fachstelle zum Antrag, falls bereits eingeholt</dd>
+          </dl>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_2-Fortsetzung"></dt>
+            <dd class="td_2"></dd>
+            <dd class="last">Mit dem Antrag sind für die Beratungs- und Fachstelle zusätzlich folgende Unterlagen einzureichen:</dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last">Wohnungs- oder Gebäudegrundriss,</dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last">Unterlagen zu den Umbauplanungen,</dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last">bei Mietern der Wohnungsmietvertrag,</dd>
+            <dt class="td_1" data-orig-class="EINZUG_3"></dt>
+			<dd class="td_2"></dd>
+            <dd class="td_3">–</dd>
+            <dd class="last">Unterlagen zur Glaubhaftmachung der voraussichtlich dauerhaften Mobilitätseinschränkung, wie zum Beispiel der Schwerbehindertenausweis mit entsprechendem Merkzeichen, ein Bescheid über die Zuerkennung eines Pflegegrades, Befunde, Verordnungen, Auszug aus dem Pflegegutachten oder ähnliches.</dd>
+          </dl>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_2-Fortsetzung"></dt>
+            <dd class="td_2"></dd>
+            <dd class="last">In Abhängigkeit vom konkreten Einzelfall können im Nachgang zur Antragstellung weitere Unterlagen erforderlich sein. </dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">2.</dt>
+            <dd class="last">
+              Auszahlungsverfahren:
+              <br>
+              Es kommt das Auszahlungsverfahren nach Nummer 7.6 der <a href="/vorschrift/21484#p44" title="VwV-SäHO" target="_blank">Verwaltungsvorschrift zu § 44 der Sächsischen Haushaltsordnung</a> zur Anwendung. Soweit der Zuwendungsempfänger im Einzelfall zusammen mit einem Teilverwendungsnachweis glaubhaft macht, dass ihm eine vollständige Vorfinanzierung bis zur Vorlage des Verwendungsnachweises nicht möglich ist, kann analog zu Nummer 7.5 der <a href="/vorschrift/21484#p44" title="VwV-SäHO" target="_blank">Verwaltungsvorschrift zu § 44 der Sächsischen Haushaltsordnung</a> eine Abschlagszahlung nach anteiligem Maßnahmefortschritt in erforderlicher Höhe geleistet werden, maximal in Höhe von 90 Prozent des bewilligten Betrags.
+            </dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">3.</dt>
+            <dd class="last">
+              Verwendungsnachweisverfahren:
+              <br>
+              Abweichend von Nummer 6.1 der <a href="/vorschrift/21484#anl2" title="ANBest-P" target="_blank">ANBest-P</a> ist der Verwendungsnachweis innerhalb von zwei Monaten nach Ende des Bewilligungszeitraums einzureichen.
+            </dd>
+          </dl>
+        </section>
+        <section data-anchor="7" data-level="1" title="VII. Inkrafttreten, Außerkrafttreten" data-link="romVII" id="romVII">
+          <h4 class="centre">
+            VII.
+            <br>
+            Inkrafttreten, Außerkrafttreten
+          </h4>
+          <dl class="cf">
+            <dt class="td_1" data-orig-class="EINZUG_1">1.</dt>
+            <dd class="last">Diese Förderrichtlinie tritt am 18. März 2026 in Kraft. Gleichzeitig tritt die <a href="/vorschrift/17278" title="RL WRA" target="_blank">RL Wohnraumanpassung</a> vom 17. Mai 2017 (SächsABl. S. 758), die zuletzt durch Ziffer I der Richtlinie vom 7. Juli 2023 (SächsABl. S. 1062) geändert worden ist, zuletzt enthalten in der Verwaltungsvorschrift vom 5. Dezember 2025 (SächsABl. SDr. S. S 286), außer Kraft.</dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">2.</dt>
+            <dd class="last">Anträge, die vor Inkrafttreten dieser Förderrichtlinie eingegangen und noch nicht bewilligt sind, sind nach der RL Wohnraumanpassung zu bewilligen, wenn die resultierende Zuwendung höher wäre, als sich nach dieser Förderrichtlinie ergäbe. </dd>
+            <dt class="td_1" data-orig-class="EINZUG_1">3.</dt>
+            <dd class="last">Diese Förderrichtlinie tritt am 30. Dezember 2032 außer Kraft.</dd>
+          </dl>
+          <p>Dresden, den 26. Februar 2026</p>
+          <p class="centre">
+            Die Staatsministerin für Infrastruktur und Landesentwicklung
+            <br>
+            Regina Kraushaar
+          </p>
+        </section>
+      </div>
+    </article>
+</div>
+
+<a class="link-scroll-to-top" data-action="click-&gt;scroll-to-top#scrollToTop" data-controller="scroll-to-top" href="#header" title="zurück zum Seitenanfang">
+<img alt="zurück zum Seitenanfang" class="svg-img" src="/styleguide/2.26.3/themes/white/img/svg/icon-totop.svg">
+</a>
+
+</main>
+<div class="sidebar sidebar-right" id="main-sidebar-right">
+<div class="row">
+<div class="col">
+<div class="box" id="bundesgesetze">
+<div class="box-header">Verweis auf Bundesgesetze</div>
+<div class="box-body">
+<ul class="list-links" data-action="revosax:list-changed-&gt;expandable-list#refresh" data-controller="expandable-list" id="bundesgesetze-links"></ul>
+</div>
+</div>
+
+<div class="box">
+<div class="box-header">Fundstelle und systematische Gliederungsnummer</div>
+<div class="box-body">
+<p>
+SächsABl. 2026 Nr. 11, S. 321
+<br>
+Fsn-Nr.: 554
+</p>
+</div>
+</div>
+
+<div class="box">
+<div class="box-header">Gültigkeitszeitraum</div>
+<div class="box-body">
+<p>
+Fassung gültig ab: 18. März 2026
+</p>
+<p>
+Vorschrift außer Kraft mit Ablauf des:
+<br>
+30. Dezember 2032
+</p>
+</div>
+</div>
+
+<div class="box" id="print_save_box">
+<div class="box-header">Drucken/Speichern </div>
+<div class="box-body">
+<ul class="list-downloads">
+<li><a target="_blank" rel="noopener" href="/vorschrift_gesamt/21505/49515.html">HTML-Gesamtansicht</a></li>
+<li><a target="_blank" rel="noopener" href="/vorschrift_gesamt/21505/49515.pdf">Vorschrift als PDF</a></li>
+<li class="print" style="display: none">
+<a href="javascript:print()" title="Druck der einzelnen ausgeklappten Sektion">Einzeldruck</a>
+<span class="small">
+<a title="FAQ zur Druckvorschau" href="/faq#drucken">Hilfe</a>
+</span>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="box">
+<div class="box-header">Hilfe</div>
+<div class="box-body">
+<ul class="list-links">
+<li><a href="/hilfe#law_version">Hilfe zum Vorschriftentext</a></li>
+<li><a href="/faq">Fragen und Antworten</a></li>
+<li><a href="/barriere_doc">Barrierefreiheit</a></li>
+</ul>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer" id="footer">
+<a class="sr-only" id="a-footer">Footer-Bereich</a>
+<div class="footer-content container">
+<div aria-labelledby="a-footer" class="row panel-group" id="accordion-footer">
+<div class="footer-col panel panel-default col-sm-40">
+<div class="panel-heading" id="headingFooter1">
+<div class="hdl-4 panel-title">
+<h2 class="hidden-xs h4">Herausgeber</h2>
+<button aria-controls="collapseFooter1" aria-expanded="true" class="visible-xs btn btn-footer" data-parent="#accordion-footer" data-target="#collapseFooter1" data-toggle="collapse" type="button">Herausgeber</button>
+</div>
+</div>
+<div aria-labelledby="headingFooter1" class="panel-collapse collapse in" id="collapseFooter1">
+<div class="panel-body">
+<div class="media owner vcard">
+<div class="pull-left owner-img">
+<img alt="Wappen vom Freistaat Sachsen" class="svg-img" src="/styleguide/2.26.3/img/symbols/svg/logo-sachsen-emblem.svg">
+</div>
+<address class="media-body owner-text">
+<p class="owneradress">
+<a class="url fn org" href="https://www.sk.sachsen.de/">Sächsische Staatskanzlei</a>
+<span class="adr">
+<span class="postal-code">01095</span>
+<span class="locality">Dresden</span>
+</span>
+</p>
+<table class="table-unstyled" role="none presentation">
+<tbody>
+<tr class="tel">
+<td class="type">Telefon:&nbsp;</td>
+<td class="value">
+<span class="nobr">
+<a href="tel:+493515640">+49 351 564-0</a>
+</span>
+</td>
+</tr>
+<tr>
+<td>E-Mail:&nbsp;</td>
+<td>
+<a class="email" href="mailto:info@sk.sachsen.de">info@sk.sachsen.de</a>
+</td>
+</tr>
+</tbody>
+</table>
+</address>
+</div>
+</div>
+</div>
+<div class="col-wing col-wing-link-to-top visible-sm"></div>
+</div>
+<div class="clearfix visible-sm"></div>
+<div class="footer-col panel panel-default">
+<div class="panel-heading" id="headingFooter2">
+<div class="hdl-4 panel-title">
+<h2 class="hidden-xs h4">Service</h2>
+<button aria-controls="collapseFooter2" aria-expanded="true" class="visible-xs btn btn-footer" data-parent="#accordion-footer" data-target="#collapseFooter2" data-toggle="collapse" type="button">Service</button>
+</div>
+</div>
+<div aria-labelledby="headingFooter2" class="panel-collapse collapse in" id="collapseFooter2">
+<div class="panel-body">
+<ul class="list-links">
+<li><a href="/hilfe">Hilfe</a></li>
+<li><a href="/faq">Fragen und Antworten</a></li>
+<li><a href="/abkuerzungsverzeichnis">Abkürzungsverzeichnis</a></li>
+<li><a href="/barriere_doc">Barrierefreiheit</a></li>
+<li><a href="/kontakt">Kontakt</a></li>
+<li><a href="/impressum">Impressum</a></li>
+<li><a href="https://www.sachsen.de/datenschutz.html">Datenschutz</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-col panel panel-default">
+<div class="panel-heading" id="headingFooter3">
+<div class="hdl-4 panel-title">
+<h2 class="hidden-xs h4">Verwandte Portale</h2>
+<button aria-controls="collapseFooter3" aria-expanded="true" class="visible-xs btn btn-footer" data-parent="#accordion-footer" data-target="#collapseFooter3" data-toggle="collapse" type="button">Verwandte Portale</button>
+</div>
+</div>
+<div aria-labelledby="headingFooter3" class="panel-collapse collapse in" id="collapseFooter3">
+<div class="panel-body">
+<ul class="list-links">
+<li><a href="https://www.medienservice.sachsen.de/">Medienservice</a></li>
+<li><a href="https://www.publikationen.sachsen.de/">Publikationen</a></li>
+<li><a href="https://amt24.sachsen.de/">Amt24</a></li>
+<li><a href="https://www.foerderung.sachsen.de/">FÖMISAX Fördermitteldatenbank</a></li>
+<li><a href="https://www.karriere.sachsen.de/">Karriereportal</a></li>
+<li><a title="Sächsischer Landtag" href="https://edas.landtag.sachsen.de/">EDAS</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-col panel panel-default">
+<div class="panel-heading" id="headingFooter4">
+<div class="hdl-4 panel-title">
+<h2 class="hidden-xs h4" title="Revosax R2.3.39-525 2026-11-10T07:37:18+01:00 master(f39b2f82)">Projektentwicklung</h2>
+<button aria-controls="collapseFooter4" aria-expanded="true" class="visible-xs btn btn-footer" data-parent="#accordion-footer" data-target="#collapseFooter4" data-toggle="collapse" title="Revosax R2.3.39-525 2026-11-10T07:37:18+01:00 master(f39b2f82)" type="button">Projektentwicklung</button>
+</div>
+</div>
+<div aria-labelledby="headingFooter4" class="panel-collapse collapse in" id="collapseFooter4">
+<div class="panel-body">
+<p>
+Ein Service der Sächsischen Staatsregierung in Kooperation mit der:
+</p>
+<ul class="list-links">
+<li><a target="_blank" rel="noopener" href="https://www.saxonia-verlag.de/">SV SAXONIA Verlag GmbH</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="only_print" id="footer_print">
+<p>
+Quelle: REVOSax
+https://www.revosax.sachsen.de/vorschrift/21505-FRL-Wohnraumanpassung
+Stand vom
+24.11.2026
+</p>
+<p>Herausgeber: Sächsische Staatskanzlei https://www.sk.sachsen.de/</p>
+</div>
+
+<script src="/styleguide/2.26.3/js/skriptVendor.js"></script>
+
+</body>
+</html>

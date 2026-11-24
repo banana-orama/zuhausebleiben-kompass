@@ -1,0 +1,176 @@
+{
+  "slug": "sachsen",
+  "name": "Sachsen",
+  "teaser": "Dritte ausführlich recherchierte Region: SAB-Zuschuss bis 10.000 € mit ausdrücklicher Treppenlift-Klausel, Eingliederungshilfe der Landkreise, Einkommensgrenzen und der KfW-Stand.",
+  "title": "Umbau-Förderung in Sachsen: vier Wege",
+  "description": "Vier Förderwege in Sachsen: SAB-Zuschuss mit Treppenlift-Klausel, Eingliederungshilfe der Landkreise, Pflegekasse und KfW-Stand — geprüft am 24.11.2026.",
+  "h1": "Umbau und Förderung in Sachsen",
+  "leads": [
+    "Wenn in Sachsen ein Treppenlift, ein barrierearmes Bad oder eine Stufe im Alltag zum Problem wird, laufen mehrere Förderwege parallel: die Pflegekasse, das SAB-Landesprogramm „Wohnraumanpassung“, die Eingliederungshilfe der Landkreise und kreisfreien Städte — und die KfW, deren Zuschuss für Barrierereduzierung 2026 ausgeschöpft ist. Diese Seite ordnet die vier Wege für Sachsen — ohne Garantien und ohne Vermittlungsinteresse.",
+    "Alle Angaben wurden am 24.11.2026 aus den verlinkten offiziellen Seiten geprüft — die maßgebliche Rechtsgrundlage ist die Förderrichtlinie Wohnraumanpassung vom 26. Februar 2026 (Sächsisches Amtsblatt Nr. 11/2026), abrufbar über das Sächsische Rechtsportal REVOSax. Förderbedingungen ändern sich häufig; im Einzelfall entscheidet immer die zuständige Stelle. Diese Seite wurde mit KI-Unterstützung erstellt und redaktionell gegen die Quellen geprüft."
+  ],
+  "sections": [
+    {
+      "h2": "Die vier Förderwege im Überblick",
+      "p": [
+        "Nicht jeder Weg passt zu jedem Haushalt. Die Tabelle zeigt, wer jeweils entscheidet und was Sie vorher klären sollten. Die ausführlichen Antragsstrecken behandeln unsere Ratgeber; die Links dazu finden Sie auf dieser Seite."
+      ],
+      "table": {
+        "head": ["Weg", "Zuständig", "Was infrage kommt", "Vorher klären"],
+        "rows": [
+          ["1. Wohnumfeld-Zuschuss", "Ihre Pflegekasse", "Zuschuss zu wohnumfeldverbessernden Maßnahmen (Ermessensleistung)", "Antrag vor der Beauftragung; Bescheid abwarten"],
+          ["2. SAB-Zuschuss „Wohnraumanpassung“", "Sächsische Aufbaubank (SAB), Antrag im Förderportal Sachsen; Votum einer von drei beauftragten Fachstellen", "Zuschuss zu 80 %, max. 4.000 € — bei rollstuhlgerechtem Umbau (Kennzeichen „R“) max. 10.000 €; Treppenlift ausdrücklich eingeschlossen", "Einkommensgrenzen; Antrag vor Vorhabensbeginn; Pflegekasse zuerst klären (Nachrangigkeit)"],
+          ["3. Leistungen für Wohnraum (Eingliederungshilfe)", "der Landkreis bzw. die kreisfreie Stadt, in der Sie wohnen", "Beschaffung, Umbau, Ausstattung und Erhaltung behinderungsgerechten Wohnraums (Einzelfallentscheidung)", "Antrag bei der zuständigen Stelle (auch formlos per E-Mail); Gesamtplanverfahren"],
+          ["4. KfW-Programme", "KfW (bundesweit)", "Kredit „Altersgerecht Umbauen“ (159); der Zuschuss 455-B ist derzeit gestoppt", "Aktuellen Programmstand direkt bei der KfW prüfen"]
+        ]
+      }
+    },
+    {
+      "h2": "Weg 1: Pflegekasse — zuerst prüfen",
+      "p": [
+        "Der Wohnumfeld-Zuschuss ist eine bundesweite Leistung: Bei Pflegebedürftigkeit kann die Pflegekasse Maßnahmen zur Verbesserung des Wohnumfeldes subsidiär fördern — als Ermessensleistung, nicht als automatischen Anspruch. In Sachsen gelten dafür keine abweichenden Regeln.",
+        "Entscheidend ist die Reihenfolge — doppelt in Sachsen: Der Antrag gehört vor der Beauftragung, und der Bescheid sollte abgewartet werden. Außerdem ist die SAB-Förderung ausdrücklich nachrangig: Leistungen der Pflegekasse reduzieren bei der SAB die förderfähigen Ausgaben (siehe Weg 2). Beträge, Fristen und die Genehmigungsfiktion behandeln unsere Ratgeber — dort finden Sie auch den Verweis auf das Gesetz im Original."
+      ],
+      "cta": {"label": "Wohnumfeld-Zuschuss richtig beantragen: Beträge, Fristen, Form", "slug": "wohnumfeldverbesserung-beantragen"}
+    },
+    {
+      "h2": "Weg 2: SAB-Zuschuss „Wohnraumanpassung“ — der Treppenlift ist ausdrücklich eingeschlossen",
+      "p": [
+        "Der Freistaat fördert über die Sächsische Aufbaubank (SAB) den Umbau von Wohnraum für mobilitätseingeschränkte Menschen mit einem Zuschuss. Rechtsgrundlage ist die Förderrichtlinie Wohnraumanpassung vom 26. Februar 2026 (veröffentlicht im Sächsischen Amtsblatt Nr. 11/2026, in Kraft seit dem 18. März 2026, außer Kraft zum 30. Dezember 2032); die Richtlinie ist über das Rechtsportal REVOSax frei abrufbar. Sie schreibt als Rahmen fest: „Die zuwendungsfähigen Ausgaben werden grundsätzlich zu 80 Prozent, maximal mit einem Betrag von 4 000 Euro, beim Herstellen von barrierefreiem und uneingeschränkt mit dem Rollstuhl nutzbarem Wohnraum gemäß DIN 18040-2 mit dem Kennzeichen „R“ maximal mit einem Betrag von 10 000 Euro gefördert.“",
+        "Für Treppenlifte gibt es eine klare, positive Aussage der Bewilligungsstelle selbst: Die offizielle SAB-FAQ zum Programm (Stand 02/2026, gültig ab 18.03.2026) antwortet auf die Frage „Sind Treppenlifte förderfähig?“: „Treppenlifte sind innerhalb der Mietwohnung bzw. eines Einfamilienhauses förderfähig.“ Die Grenze liegt außen: „Außerhalb von Wohnungen (im Treppenhaus oder im Zugangsbereich) ist die Förderung nur bei vom Zuwendungsempfänger als Eigentümer oder Erbbauberechtigtem selbstgenutzten Wohngebäuden mit bis zu zwei Wohnungen möglich (Einfamilien-, Zweifamilien-, Reihenhaus).“ Bei Nießbrauch oder lebenslangem Wohnrecht gilt das nach SAB-Angabe im Zweifamilienhaus ebenso; die Richtlinie verlangt in solchen Fällen die Zustimmung des Vermieters. Bemerkenswert zur Einordnung: Im Maßnahmenkatalog der Richtlinie selbst taucht das Wort Treppenlift nicht auf — die namentliche Nennung steht auf der Programmseite und in der FAQ der Bewilligungsstelle. Im Zweifel vor dem Antrag bei der SAB nachfragen.",
+        "Außerhalb der Wohnung sind über die Wohnung hinaus außerdem förderfähig: abschließbare Boxen für Rollstühle und Rollatoren vor dem Gebäude sowie barrierereduzierende Maßnahmen auf der Zuwegung „von der Grundstücksgrenze bis zu einer Hauseingangstür“ — bei selbstgenutzten Gebäuden mit bis zu zwei Wohnungen (Richtlinie).",
+        "Der Antrag läuft anders als in den meisten anderen Bundesländern nicht über das Landratsamt, sondern direkt über die SAB: „Bewilligungsstelle ist die Sächsische Aufbaubank – Förderbank – (SAB)“ (Richtlinie); der Antrag wird grundsätzlich elektronisch im Förderportal Sachsen gestellt, hilfsweise per Vordruck. Zwingend ist vorher das Votum einer von drei beauftragten Fachstellen (siehe Abschnitt Beratung). Und die harteste Frist: Der Vorhabensbeginn — laut FAQ „Auftragserteilung an eine Fachfirma“ — darf nicht vor dem Antragseingang liegen; Maßnahmen, die schon begonnen oder beauftragt wurden, sind nicht förderfähig. Die SAB gibt als Bearbeitungsdauer „ca. 4 bis max. 12 Wochen“ an; auf der Programmseite standen am 16.11.2026 als aktueller Stand: bewilligt werden Neuanträge bis Eingang 24.09.2026, ausgezahlt bis Eingang 05.11.2026."
+      ],
+      "table": {
+        "head": ["Vorhaben", "Förderung (Richtlinie)"],
+        "rows": [
+          ["Barrierereduzierter Umbau (Standard)", "80 % der förderfähigen Ausgaben, max. 4.000 €"],
+          ["Barrierefreier, uneingeschränkt rollstuhlgerechter Wohnraum (DIN 18040-2, Kennzeichen „R“)", "80 % der förderfähigen Ausgaben, max. 10.000 €"],
+          ["Wie oben, wenn der Haushalt SGB II, SGB XII (3./4. Kapitel) oder Wohngeld bezieht", "100 % der förderfähigen Ausgaben, max. 5.000 € — mit Kennzeichen „R“ max. 12.500 €"]
+        ],
+        "note": "Wörtliche Grundlage: FRL Wohnraumanpassung vom 26.02.2026 (REVOSax), Ziffer V Nr. 4 — „mindestens 1 500 Euro“ Mindestförderhöhe; Darstellung mit Tausenderpunkt, die Richtlinie schreibt „4 000 Euro“. Hinweis der SAB-FAQ zur Pflegekasse: deren Zuschuss („i. d. R. 4.180,00 EUR“) wird auf die förderfähigen Ausgaben angerechnet. Stand: 24.11.2026."
+      },
+      "bullets": [
+        "Nachrangigkeit aus der Richtlinie, wörtlich: „Die Förderung ist nachrangig gegenüber Leistungen Dritter. Leistungen von Krankenkassen, Pflegekassen, Versicherungen und sonstigen Förderprogrammen, auf die der Zuwendungsempfänger oder ein im Haushalt lebender Angehöriger Anspruch hat, reduzieren die zuwendungsfähigen Ausgaben.“ → Reihenfolge beachten: zuerst Pflegekasse, dann SAB.",
+        "Antragsteller ist immer die mobilitätseingeschränkte Person selbst — die SAB weist ausdrücklich darauf hin, dass der Vollmachtnehmer nicht gleichzeitig Antragsteller sein darf („Achtung bei Vollmachten“).",
+        "Die Richtlinie orientiert sich an DIN 18040-2, lässt aber ausdrücklich auch einfachere Ausführungen zu; maßgeblich ist die Beseitigung der individuellen Nutzungseinschränkung.",
+        "Keine Doppel-Förderung für denselben Wohnraum — ausdrückliche Ausnahme: ein erstmaliger Antrag auf Herstellung des rollstuhlgerechten Standards („R“) unter Anrechnung einer früheren Förderung.",
+        "Auszahlung grundsätzlich in einem Betrag; im Ausnahmefall maximal zwei Auszahlungen (Abschlag höchstens 90 %), Verwendungsnachweis binnen zwei Monaten nach Ende des Bewilligungszeitraums (Richtlinie/FAQ)."
+      ]
+    },
+    {
+      "h2": "Einkommensgrenzen und Zielgruppe",
+      "p": [
+        "Seit den neuen Bedingungen für Anträge ab dem 18.03.2026 entscheidet das Einkommen statt der Wohnfläche: Die Richtlinie setzt als Grenze die „Summe der positiven Einkünfte des Haushalts eines Jahres gemäß § 2 Absatz 2 Einkommensteuergesetz“ — bei Haushalten mit einem Erwachsenen 40 000 Euro, bei zwei Erwachsenen 60 000 Euro, je weitere zum Haushalt rechnende Person plus 10 000 Euro. Eine Wohnflächenbegrenzung gibt es nach SAB-Angabe ab 18.03.2026 nicht mehr. Einfacher wird es, wer ohnehin Sozialleistungen bezieht: „Die Einhaltung der Einkommensgrenze gilt als erfüllt“, wenn der Zuwendungsempfänger oder ein Mitglied seiner Bedarfsgemeinschaft zum Antragszeitpunkt SGB II, SGB XII (3./4. Kapitel) oder Wohngeld bezieht — genau diese Haushalte erhalten zugleich den erweiterten Rahmen von 100 %/5.000 € bzw. 12.500 € (Kennzeichen „R“).",
+        "Wer beantragen kann: Eigentümerinnen und Eigentümer selbstgenutzten Wohnraums sowie — das ist in Sachsen ausdrücklich so vorgesehen — gegenwärtige Mieterinnen und Mieter einer Wohnung oder eines Einfamilienhauses; auch künftige Mieter sind adressiert, wenn die vertragliche Bindung zum Antragszeitpunkt besteht (SAB-Programmseite). Mieter brauchen zusätzlich eine Vermieterbestätigung; die Richtlinie verweist dafür auf § 554 BGB (siehe Abschnitt Mieter)."
+      ],
+      "table": {
+        "head": ["Haushalt", "Einkommensgrenze (positive Einkünfte p. a.)"],
+        "rows": [
+          ["Ein Erwachsener", "40.000 €"],
+          ["Zwei Erwachsene", "60.000 €"],
+          ["Je weitere zum Haushalt rechnende Person", "+ 10.000 €"]
+        ],
+        "note": "FRL Wohnraumanpassung vom 26.02.2026 (REVOSax), Ziffer IV — Anknüpfungspunkt sind die positiven Einkünfte nach § 2 Abs. 2 EStG, nicht das zu versteuernde Einkommen. Erfüllung der Grenze auch durch Bezug von SGB II, SGB XII oder Wohngeld. Abruf: 24.11.2026."
+      }
+    },
+    {
+      "h2": "Weg 3: Eingliederungshilfe — Leistungen für Wohnraum der Landkreise",
+      "p": [
+        "Bundesrechtliche Grundlage ist das SGB IX: Zu den Leistungen zur sozialen Teilhabe gehören ausdrücklich „Leistungen für Wohnraum“ (§ 113 Abs. 2 Nr. 1). § 77 SGB IX beschreibt sie so: Sie werden erbracht, um Menschen mit Behinderungen zu Wohnraum zu verhelfen, der zur Führung eines möglichst selbstbestimmten, eigenverantwortlichen Lebens geeignet ist — umfasst sind die Beschaffung, der Umbau, die Ausstattung und die Erhaltung von Wohnraum, der den besonderen Bedürfnissen entspricht.",
+        "Die sächsische Besonderheit gegenüber NRW und Bayern: Es gibt weder Landschaftsverbände noch Bezirke als Träger. Nach dem offiziellen Amt24-Portal werden die Leistungen „grundsätzlich von den Landkreisen und den Kreisfreien Städten erbracht“; der Kommunale Sozialverband Sachsen (KSV) ist nur für Menschen über 18 in einer besonderen Wohnform oder Tageseinrichtung zuständig. Der Antrag kann nach Amt24 nach Terminvereinbarung, schriftlich per Post oder Fax „oder auch formlos per E-Mail“ gestellt werden; der Träger prüft im Gesamtplanverfahren (§ 117 SGB IX).",
+        "Zum Leistungsumfang: Anders als die SAB-Zuschüsse gibt es hier kein Prozent- und Höchstbetrags-Schema — Höhe und Umfang richten sich nach dem Einzelfall, insbesondere nach Bedarf sowie Einkommen und Vermögen, und werden erst im Bescheid festgelegt. Relevant ist dieser Weg vor allem, wenn die SAB-Zielgruppe (Mobilitätseinschränkung, Einkommensgrenzen) nicht passt — etwa bei anderen Behinderungsarten oder wenn ein Behindertengrad nachweispflichtig im Raum steht."
+      ],
+      "cta": {"label": "Förderung ohne Pflegegrad: welche Wege real offen sind", "slug": "treppenlift-foerderung-ohne-pflegegrad"}
+    },
+    {
+      "h2": "Weg 4: KfW — Zuschuss gestoppt, Kredit verfügbar (Stand 24.11.2026)",
+      "p": [
+        "Der KfW-Zuschuss „Altersgerecht Umbauen – Barrierereduzierung“ (455-B) kann derzeit nicht beantragt werden. Die KfW schreibt auf der Produktseite: „Wegen der hohen Nachfrage sind die Fördermittel für Maßnahmen zur Barrierereduzierung bereits ausgeschöpft. Ab sofort können Sie daher keine Anträge mehr im Produkt „Altersgerecht Umbauen – Barrierereduzierung“ (455-B) stellen.“ Laufende Anträge sind nicht betroffen. Für 2027 bleibt eine Wiederaufnahme möglich, aber nicht zugesagt.",
+        "Verfügbar ist nach KfW-Angabe der zinsverbilligte Kredit „Altersgerecht Umbauen“ (159) — ein Darlehen bis zu 50.000 Euro je Wohneinheit, das zurückgezahlt werden muss (bis zu 30 Jahre Laufzeit, bis zu 10 Jahre Zinsbindung, Vorbehalt verfügbarer Haushaltsmittel). Der Maßnahmenkatalog nennt Treppenlifte ausdrücklich. Zur Kombination mit der Pflegekasse hält die KfW selbst fest: „Wird eine Maßnahme (z. B. Badumbau) mit dem Zuschuss der Pflegeversicherung gefördert, können andere Maßnahmen (z. B. Treppenlift) mit dem Kredit der KfW gefördert werden.“",
+        "Zinssätze listen wir bewusst nicht auf dieser Seite: Sie schwanken im Wochenrhythmus und werden bei Zusage durch die KfW festgelegt. Den aktuellen Stand lesen Sie vor jeder Planung im KfW-Konditionen-Anzeiger und auf der Produktseite."
+      ],
+      "bullets": [
+        "Achtung Doppelantrags-Falle in Sachsen: Die SAB-Förderung ist auch gegenüber der KfW nachrangig. Wer 455-B-Mittel hätte oder den 159-Kredit nutzt, rechnet diese Leistungen vor der SAB-Berechnung ab — die Kombination lohnt sich nur mit geplanter Reihenfolge."
+      ]
+    },
+    {
+      "h2": "Beratung vor dem Antrag: Fachstellen, PflegeNetz statt Pflegestützpunkte",
+      "p": [
+        "Für den SAB-Antrag ist das Fachstellen-Votum Pflicht — die beauftragten Stellen beraten auch vorher zum Vorhaben („Mögliche Beratung zum Vorhaben durch die Beratungsstellen und die SAB“). Die Zuordnung richtet sich nach dem Wohnort (SAB-Programmseite): Für Chemnitz, Erzgebirgskreis, Mittelsachsen, Zwickau und Vogtland ist der Sozialverband VdK Sachsen in Chemnitz zuständig; für Dresden, Bautzen, Görlitz, Meißen und Sächsische Schweiz-Osterzgebirge die Landesarbeitsgemeinschaft Selbsthilfe Sachsen in Dresden; für Leipzig, Nordsachsen und den Landkreis Leipzig der Behindertenverband Leipzig. Die vollständigen Kontaktdaten listet die SAB-Programmseite; das Staatsministerium für Infrastruktur und Verkehr fasst das Programm zusätzlich auf bauen-wohnen.sachsen.de zusammen — dort werden als Beispielmaßnahmen etwa ebenerdige Dusche, Schwellen, Türen und Bad genannt, ein Treppenlift allerdings nicht; für die Treppenlift-Förderfähigkeit gelten die SAB-Angaben (Weg 2).",
+        "Für die Pflegeberatung nutzt Sachsen — anders als die meisten anderen Bundesländer — das Label „Pflegestützpunkt“ nicht. Erstkontakt läuft über das PflegeNetz Sachsen des Sozialministeriums; daneben verweisen das Land und die Wohlfahrtsverbände auf die Pflegekassen, Sozialämter und Beratungsangebote der Verbände. Ein bundesweit geregeltes Recht bleibt davon unberührt: Wenn Sie einen Antrag auf Pflegeleistungen stellen, „ist die Pflegekasse verpflichtet, Ihnen innerhalb von zwei Wochen aktiv eine Pflegeberatung anzubieten. Diese Beratung ist kostenfrei.“ (PflegeNetz Sachsen)."
+      ]
+    },
+    {
+      "h2": "Mieter in Sachsen: Vermieterbestätigung gehört zum Antrag",
+      "p": [
+        "Das Mietrecht ist bundesweit geregelt — für Mieterinnen und Mieter in Sachsen gelten also keine abweichenden Regeln. Barrierereduzierende Maßnahmen sind im BGB seit der Neufassung des § 554 als „Barrierereduzierung, E-Mobilität, Einbruchsschutz und Steckersolargeräte“ geregelt: Der Mieter kann verlangen, dass ihm der Vermieter bauliche Veränderungen der Mietsache erlaubt, die dem Gebrauch durch Menschen mit Behinderungen dienen. Der Anspruch besteht nicht, wenn die bauliche Veränderung dem Vermieter auch unter Würdigung der Interessen des Mieters nicht zugemutet werden kann; eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam (§ 554 BGB).",
+        "Zwei sächsische Besonderheiten kommen dazu: Erstens richtet sich der SAB-Zuschuss ausdrücklich auch an Mieter — eine Vermieterbestätigung gehört nach SAB-Angabe zu den Antragsunterlagen, und die Richtlinie verweist dafür selbst auf § 554 BGB. Zweitens gilt für Treppenlifte außerhalb der eigenen Wohnung die Zwei-Wohnungen-Grenze (siehe Weg 2) — in einem Mietshaus mit mehr Wohnungen läuft die Förderung folglich über den Lift innerhalb der Mietwohnung. Unser Ratgeber zum Treppenlift in der Mietwohnung behandelt die Route im Detail, einschließlich Vermieter-Zustimmung und Kostenverteilung."
+      ]
+    },
+    {
+      "h2": "Reihenfolge für Ihren Antrag in Sachsen",
+      "p": [
+        "Diese Reihenfolge vermeidet die häufigsten Umwege: abgelehnte Anträge wegen vorzeitiger Beauftragung und förderfähige Kosten, die durch falsche Reihenfolge verloren gehen."
+      ],
+      "bullets": [
+        "Pflegegrad bzw. bestehende Leistungsansprüche klären — der Bescheid ist die Grundlage für mehrere Wege.",
+        "Wohnumfeld-Antrag bei der Pflegekasse stellen, bevor ein Auftrag unterschrieben wird — wegen der Nachrangigkeit der SAB-Förderung zählt dieser Zuschuss später ohnehin in die Kalkulation.",
+        "Einkommensgrenze gegenrechnen: positive Einkünfte des Haushalts (40.000/60.000 €, +10.000 € je Person) oder SGB-II/XII-/Wohngeld-Bezug — im zweiten Fall springt der erweiterte Rahmen (100 %, 5.000/12.500 €).",
+        "Antrag IMMER vor der Beauftragung: Vorhabensbeginn vor Antragseingang macht die Maßnahme unförderfähig (SAB-FAQ). Zuerst Fachstelle kontaktieren (Votum ist Pflicht), dann Antrag im Förderportal Sachsen.",
+        "Bei Treppenlift-Wünschen die Zwei-Wohnungen-Regel gegenprüfen: innerhalb der Mietwohnung/eines Einfamilienhauses förderfähig, außerhalb nur bei selbstgenutzten Gebäuden mit bis zu zwei Wohnungen.",
+        "Bei Behinderung im Sinne des SGB IX, die über Mobilität hinausgeht: Eingliederungshilfe-Antrag beim Landkreis bzw. der kreisfreien Stadt — auch formlos per E-Mail möglich.",
+        "Vor jedem KfW-Bezug den aktuellen Programmstand auf der KfW-Produktseite prüfen; der Zuschuss 455-B ist derzeit nicht beantragbar, der Kredit 159 schon.",
+        "Kostenvoranschläge von Fachbetrieben einholen und für alle Anträge aufbewahren — die SAB verlangt mindestens ein Angebot je Fachfirma."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wird ein Treppenlift in Sachsen vom Land gefördert?",
+      "a": "Ja — das ist eine sächsische Besonderheit. Die Bewilligungsstelle (SAB) nennt Treppenlifte ausdrücklich: Laut offizieller SAB-FAQ (Stand 02/2026) sind sie „innerhalb der Mietwohnung bzw. eines Einfamilienhauses förderfähig“; außerhalb von Wohnungen (Treppenhaus, Zugangsbereich) nur bei selbstgenutzten Gebäuden mit bis zu zwei Wohnungen. Förderfähig heißt nicht automatisch bewilligt: Einkommensgrenzen, Fachstellen-Votum und Nachrangigkeit der Pflegekasse gelten genauso, und im Richtlinienkatalog selbst steht das Wort Treppenlift nicht — im Zweifel vor dem Antrag bei der SAB nachfragen."
+    },
+    {
+      "q": "Welche Einkommensgrenzen gelten für den SAB-Zuschuss?",
+      "a": "Für Anträge ab dem 18.03.2026 zählen die positiven Einkünfte des Haushalts (Maßstab § 2 Abs. 2 EStG): 40.000 € bei einem Erwachsenen, 60.000 € bei zwei Erwachsenen, zuzüglich 10.000 € je weiterer zum Haushalt rechnender Person. Wer SGB II, SGB XII oder Wohngeld bezieht, erfüllt die Grenze automatisch und erhält zugleich den erweiterten Rahmen (100 %, max. 5.000 € bzw. 12.500 € bei Kennzeichen „R“). Eine Wohnflächenbegrenzung gibt es nicht mehr."
+    },
+    {
+      "q": "Wo beantrage ich die SAB-Förderung, und wie lange dauert es?",
+      "a": "Direkt bei der Sächsischen Aufbaubank — grundsätzlich elektronisch im Förderportal Sachsen, nicht beim Landratsamt. Zwingend vorher: das Votum einer der drei beauftragten Fachstellen (VdK Sachsen in Chemnitz, LAG Selbsthilfe Sachsen in Dresden, Behindertenverband Leipzig — je nach Wohnort). Die SAB gibt eine Bearbeitungsdauer von „ca. 4 bis max. 12 Wochen“ an; laut Programmseite (Stand 16.11.2026) wurden Anträge bis Eingang 24.09.2026 bewilligt und bis Eingang 05.11.2026 ausgezahlt. Entscheidend bleibt: Vorhabensbeginn erst nach Antragseingang."
+    },
+    {
+      "q": "Ist der KfW-Zuschuss 455-B im Jahr 2026 beantragbar?",
+      "a": "Nein — Stand 24.11.2026 schreibt die KfW: „Wegen der hohen Nachfrage sind die Fördermittel für Maßnahmen zur Barrierereduzierung bereits ausgeschöpft.“ Neue Anträge im Produkt 455-B sind nicht mehr möglich, laufende Anträge sind nicht betroffen. Der zinsverbilligte Kredit „Altersgerecht Umbauen“ (159) ist nach KfW-Angabe verfügbar; Zinssätze listen wir bewusst nicht, weil sie im Wochenrhythmus schwanken."
+    },
+    {
+      "q": "Können Pflegekasse und SAB-Zuschuss kombiniert werden?",
+      "a": "Ja, aber nur in der richtigen Reihenfolge: Die SAB-Förderung ist nachrangig — Leistungen der Pflegekasse (die SAB-FAQ nennt den Wohnumfeld-Zuschuss „i. d. R. 4.180,00 EUR“) reduzieren die bei der SAB förderfähigen Ausgaben und werden vor der 80-%-Berechnung abgezogen. Praktisch heißt das: Erst den Pflegekassen-Antrag stellen und den Bescheid abwarten, dann die SAB-Förderung für die verbleibenden Kosten beantragen — beides vor der Beauftragung."
+    },
+    {
+      "q": "Warum gibt es in Sachsen keine Pflegestützpunkte?",
+      "a": "Das Label „Pflegestützpunkt“ wird in Sachsen offiziell nicht verwendet — die Beratung läuft über das PflegeNetz Sachsen des Sozialministeriums sowie über Pflegekassen, Sozialämter und Wohlfahrtsverbände. Ihr Recht auf kostenlose Pflegeberatung bleibt dasselbe: Nach Antragstellung muss die Pflegekasse Ihnen innerhalb von zwei Wochen aktiv eine Beratung anbieten (PflegeNetz Sachsen)."
+    }
+  ],
+  "ctaEarly": {"label": "Pflegekassen-Zuschuss für den Umbau: Beträge und Antragsstrecke", "slug": "treppenlift-zuschuss"},
+  "related": [
+    {"label": "Treppenlift in der Mietwohnung — Vermieter-Zustimmung und Kosten", "slug": "treppenlift-mietwohnung"},
+    {"label": "Wohnumfeld-Zuschuss beantragen — Ablauf und Fristen", "slug": "wohnumfeldverbesserung-beantragen"},
+    {"label": "Treppenlift-Kosten: was wirklich zu zahlen ist", "slug": "treppenlift-kosten"}
+  ],
+  "standLine": "Alle Angaben am 24.11.2026 aus den verlinkten offiziellen Seiten geprüft (Förderrichtlinie Wohnraumanpassung vom 26.02.2026, SAB-Programmseite und -FAQ, Amt24, PflegeNetz, KfW). Förderbedingungen ändern sich häufig; prüfen Sie vor jedem Antrag den aktuellen Stand bei der zuständigen Stelle.",
+  "sources": [
+    {"label": "Sächsische Aufbaubank (SAB) — Programmseite „Wohnraumanpassung“ (Konditionen, Treppenlift-Nennung, Fachstellen, Bearbeitungsstand, „zuletzt aktualisiert am: 16.11.2026“)", "url": "https://sab.sachsen.de/wohnraumanpassung", "checked_at": "2026-11-24"},
+    {"label": "FRL Wohnraumanpassung vom 26.02.2026 (SächsABl. Nr. 11/2026) — Text bei REVOSax: Zuwendungshöhe 80 %/4.000 bzw. 10.000 €, 100 %/5.000 bzw. 12.500 €, Mindestförderhöhe 1.500 €, Nachrangigkeit, Einkommensgrenzen, Bewilligungsstelle SAB, Laufzeit bis 30.12.2032", "url": "https://www.revosax.sachsen.de/vorschrift/21505-FRL-Wohnraumanpassung", "checked_at": "2026-11-24"},
+    {"label": "FRL Wohnraumanpassung — Original-PDF (Sächsisches Amtsblatt Nr. 11/2026, veröffentlicht auf sab.sachsen.de)", "url": "https://sab.sachsen.de/documents/d/guest/2026-02-26_frl-wohnraumanpassung_sachsisches-amtsblatt-nr-11_2026?download=true", "checked_at": "2026-11-24"},
+    {"label": "SAB — Häufige Fragen zum Programm Wohnraumanpassung (FAQ, Vordruck 68552, Stand 02/2026: Treppenlifte förderfähig, Vorhabensbeginn, 4–12 Wochen, Pflegekassen-Anrechnung „i. d. R. 4.180,00 EUR“)", "url": "https://fs.egov.sachsen.de/formserv/findform?shortname=sab68552&areashortname=sab", "checked_at": "2026-11-24"},
+    {"label": "SAB — News-Eintrag vom 06.08.2025 (historisch: Wiederöffnung 01.08.2025, „Förderhöchstbeträge wurden halbiert“ — betraf die alte Richtlinie 2017; nur zur Einordnung)", "url": "https://sab.sachsen.de/news", "checked_at": "2026-11-24"},
+    {"label": "Sächsisches Staatsministerium für Infrastruktur und Verkehr — bauen-wohnen.sachsen.de „Wohnraumanpassung“ (Fachstellen beratend verfügbar; Beispielmaßnahmen ohne Treppenlift-Nennung — Abweichung dokumentiert)", "url": "https://www.bauen-wohnen.sachsen.de/wohnraumanpassung-4352.html", "checked_at": "2026-11-24"},
+    {"label": "Amt24 Sachsen — „Eingliederungshilfe beantragen“ (Leistungen grundsätzlich von den Landkreisen und Kreisfreien Städten; KSV-Sonderfall; formloser Antrag per E-Mail möglich)", "url": "https://amt24.sachsen.de/zufi/leistungen/6001773", "checked_at": "2026-11-24"},
+    {"label": "Gesetze im Internet — § 113 SGB IX (Leistungen zur sozialen Teilhabe, Nr. 1 „Leistungen für Wohnraum“)", "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__113.html", "checked_at": "2026-11-24"},
+    {"label": "Gesetze im Internet — § 77 SGB IX (Leistungen für Wohnraum: Beschaffung, Umbau, Ausstattung, Erhaltung)", "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__77.html", "checked_at": "2026-11-24"},
+    {"label": "Gesetze im Internet — § 554 BGB „Barrierereduzierung, E-Mobilität, Einbruchsschutz und Steckersolargeräte“ (Mieter kann bauliche Veränderungen für den Gebrauch durch Menschen mit Behinderungen verlangen; Zumutbarkeitsgrenze; Abweichungen unwirksam)", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-11-24"},
+    {"label": "PflegeNetz Sachsen (Herausgeber: Sächsisches Staatsministerium für Soziales) — Pflegeberatung: Pflegekasse muss innerhalb von zwei Wochen aktiv eine kostenfreie Beratung anbieten", "url": "https://www.pflegenetz.sachsen.de/pflegeberatung.html", "checked_at": "2026-11-24"},
+    {"label": "KfW — Produktseite „Barrierereduzierung – Investitionszuschuss (455-B)“ (Ausschöpfungswortlaut, keine neuen Anträge, laufende Anträge unberührt)", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/", "checked_at": "2026-11-24"},
+    {"label": "KfW — Produktseite „Altersgerecht Umbauen – Kredit (159)“ (bis 50.000 € je Wohneinheit, Treppenlifte im Maßnahmenkatalog, Kombination mit Pflegekassenzuschuss, Haushaltsmittelvorbehalt)", "url": "https://www.kfw.de/159", "checked_at": "2026-11-24"}
+  ]
+}
