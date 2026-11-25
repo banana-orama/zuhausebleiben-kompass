@@ -5,7 +5,7 @@
     "activation": "Nur nach dokumentierter Programmzusage: Status-Readback im Awin-Login (Bewerbung offen -> zugelassen) in approval_readback ablegen, echte Tracker-URL aus dem Programm-Inventory eintragen, approved und active auf true setzen, npm run test:partner + npm test laufen lassen, dann Deploy. Eine Platzierung mit URL aber approved=false ist eine Konfigurations-Kontradiktion und bricht den Build (Absicht).",
     "test_override": "Tests ueberschreiben diese Datei ueber die Umgebungsvariable PARTNER_LINKS_CONFIG und das Ausgabeverzeichnis ueber DIST_DIR; der Produktionspfad bleibt data/partner-links.json.",
     "disclosure": "Jede Platzierung rendert mit rel=\"sponsored\", Anzeige-Kennzeichnung und Verguetungshinweis. placement_id ist die stabile, nicht-personale Messkennung; Klick-Messung bleibt consent-gated wie alle Events.",
-    "known_windows": "Malteser 112616: 1-€-CPL Informationsmaterial nur bis 31.10.2026 (Fenster abgelaufen — CTA führt zum laufenden 10-€-Beratungstermin-Modell). Profil 04.11. öffentlich gelesen: '10€ CPL für wahrgenommenen Vor-Ort-Beratungstermin' weiterhin gelistet, der 1-€-Text steht im Profil unaktualisiert weiter drin; ob Informationsmaterial nach Fensterende vergütet wird, ist öffentlich nicht dokumentiert — offener Posten für den nächsten Awin-Login-Readback. Lifta 40988: 50 EUR/validem Lead bzw. 500 EUR/Auftrag (Profil 15.10. gelesen, Bewerbung offen). Aroundhome 68536: Umsatzbeteiligung Regelfall 30% (Profil 23.10. gelesen, research/partner-scan-badumbau-231026.md)."
+    "known_windows": "Malteser 112616: 1-€-CPL Informationsmaterial nur bis 31.10.2026 (Fenster abgelaufen — CTA führt zum laufenden 10-€-Beratungstermin-Modell). Profil 04.11. öffentlich gelesen: '10€ CPL für wahrgenommenen Vor-Ort-Beratungstermin' weiterhin gelistet, der 1-€-Text steht im Profil unaktualisiert weiter drin; ob Informationsmaterial nach Fensterende vergütet wird, ist öffentlich nicht dokumentiert — offener Posten für den nächsten Awin-Login-Readback. Lifta 40988: 50 EUR/validem Lead bzw. 500 EUR/Auftrag (Profil 15.10. gelesen, Bewerbung offen). Aroundhome 68536: Umsatzbeteiligung Regelfall 30%, Cookie-Laufzeit 30 Tage (Profil 25.11. gelesen — kein Drift zu 23.10./19.11.; aktiviert 25.11. nach Agency-Mail-Beleg, research/aroundhome-activation-251126.md)."
   },
   "partners": [
     {
@@ -55,10 +55,37 @@
       "id": "aroundhome",
       "name": "Aroundhome DE",
       "awin_advertiser_id": 68536,
-      "approved": false,
-      "approval_readback": null,
-      "compensation_note": "Umsatzbeteiligung (Regelfall 30%), kein Fix-CPL — CTA-Text bei Aktivierung entsprechend formulieren",
-      "placements": []
+      "approved": true,
+      "approval_readback": {
+        "date": "2026-11-25",
+        "evidence": "Agency-Mail-Beleg (Artefact, Katharina Folker, Senior Specialist Affiliate Marketing, 25.11.2026 10:10, Mail-ID 11239, CC Leidloff/aroundhome@artefact.com): 'ich kann bestätigen, dass ihr nun als Publisher zugelassen seid' — Antwort auf die Bestätigungsanfrage (Sent 1033, 09:40) zur von Tobias angenommenen Einladung (Betreiberakt 24.11.). Roh-Mail: research/evidence/aroundhome-251126/artefact-confirm-11239.txt. Tracker heute re-verifiziert: cread.php?awinmid=68536&awinaffid=3124891 → HTTP 302 auf aaa.aroundhome.de/trck/eclick/... mit awc=68536_1795613100_a16eaa06152e22cd4a9b6d15adaed1fc + ext_publisher_id=3124891 (Header-Log research/evidence/aroundhome-251126/tracker-302-header-251126.txt). Öffentliches Profil 25.11. gelesen: Umsatzbeteiligung 30 %, Cookie-Laufzeit 30 Tage — kein Drift zu 19.11./23.10."
+      },
+      "compensation_note": "Umsatzbeteiligung (Regelfall 30%), kein Fix-CPL — CTA-Text entsprechend formuliert",
+      "placements": [
+        {
+          "placement_id": "aroundhome_badumbau_angebote",
+          "articles": [
+            "badumbau-angebote-vergleichen",
+            "bad-umbau-barrierefrei"
+          ],
+          "url": "https://www.awin1.com/cread.php?awinmid=68536&awinaffid=3124891",
+          "label": "Fachbetriebe für den barrierefreien Badumbau finden",
+          "cta_text": "Passende Fachbetriebe vergleichen",
+          "subline": "Kostenlos und unverbindlich · Aroundhome prüft die Anfrage und vermittelt passende regionale Fachbetriebe"
+        },
+        {
+          "placement_id": "aroundhome_badumbau_planung",
+          "articles": [
+            "badumbau-kosten",
+            "wanne-zur-dusche",
+            "bodengleiche-dusche-altbau"
+          ],
+          "url": "https://www.awin1.com/cread.php?awinmid=68536&awinaffid=3124891",
+          "label": "Badumbau: Angebote von regionalen Fachbetrieben einholen",
+          "cta_text": "Angebote für Ihren Badumbau einholen",
+          "subline": "Kostenlos und unverbindlich · Qualifizierung und Matching erfolgen beim Anbieter, nicht auf dieser Seite"
+        }
+      ]
     }
   ]
 }

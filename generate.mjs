@@ -61,7 +61,7 @@ pages.push({path:'impressum.html',title:'Impressum — ZuhauseBleiben Kompass',d
 // geschaltete Programme beschreiben; fehlender DSE_META-Eintrag für einen freigegebenen
 // Partner bricht den Build (Aktivierung ohne Datenschutzabschnitt ist eine Kontradiktion).
 const DSE_PARTNER=(()=>{try{return JSON.parse(readFileSync(process.env.PARTNER_LINKS_CONFIG||join(ROOT,'data/partner-links.json'),'utf8'));}catch{return{partners:[]};}})();
-const DSE_META={malteser:{desc:'Hausnotruf',cookie:'30 Tage',checked:'2. November 2026',url:'https://www.malteser.de/datenschutz.html'}};
+const DSE_META={malteser:{desc:'Hausnotruf',cookie:'30 Tage',checked:'2. November 2026',url:'https://www.malteser.de/datenschutz.html'},aroundhome:{desc:'Badumbau-Vermittlung',cookie:'30 Tage',checked:'25. November 2026',url:'https://www.aroundhome.de/datenschutzerklaerung/'}};
 const dseAwinLive=(DSE_PARTNER.partners||[]).filter(p=>p&&p.approved&&p.awin_advertiser_id&&Array.isArray(p.placements)&&p.placements.length>0);
 for(const p of dseAwinLive){if(!DSE_META[p.id])throw new Error('DSE_META fehlt für freigegebenen Partner '+p.id+' — Datenschutzerklärung des Anbieters verifizieren, Eintrag in generate.mjs ergänzen, erst dann aktivieren.');}
 const dseBereiche=[...new Set(dseAwinLive.map(p=>DSE_META[p.id].desc))].join(' und ');
