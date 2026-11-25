@@ -1,4 +1,6 @@
-# Aroundhome-Aktivierungs-Playbook (textfertig, 19.11.2026)
+# Aroundhome-Aktivierungs-Playbook (textfertig, 19.11.2026) — **AUSGEFÜHRT 25.11.2026**
+
+**Receipt 25.11.:** Beleg = Agency-Mail 11239 (25.11. 10:10, „ich kann bestätigen, dass ihr nun als Publisher zugelassen seid", `research/evidence/aroundhome-251126/artefact-confirm-11239.txt`). Commit `10e6966` (volle SHA 10e696664f9920198bca800f17170ae939f59174, exakt die 2 Dateien + Gates/Evidenz), CI-Run 45623941761 success, **öffentlicher Live-Readback 42/0 PASS** (`research/verify_aroundhome_live_251126.py`: 5 Artikel mit Marker/rel/tracker/Anzeige + robots index,follow, datenschutz spiegelt Aroundhome mit „Profil geprüft am 25. November 2026", Malteser intakt, 0 Leaks, Sitemap 57 locs unverändert), Activation-Gate 85/0 (`research/verify_aroundhome_activation_251126.py`), Mobile 390 px 0 px Overflow + CTA-Screenshot-Vision sauber (`research/verify_aroundhome_mobile_251126.py`), Tracker 302+awc re-verifiziert, IndexNow 200 (7 URLs). Rest offen: Awin-Login-Readback (erste Klick-Tests im Tracker-Inventory), Zielseiten-/Matching-/Testzeitraum-Fragen.
 
 Zweck: Wenn die Agency (Artefact, Katharina Folker, zurück ab **23.11.**) über Publisher-ID 3124891 freischaltet, ist die Aktivierung **ein Commit mit exakt 2 Dateien** — vollständig vortestet am 19.11. (Dry-Run 22/22 PASS). Kein Warten, kein Explorieren am Freischalttag.
 
