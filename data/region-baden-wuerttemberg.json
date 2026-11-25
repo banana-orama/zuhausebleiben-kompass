@@ -1,0 +1,179 @@
+{
+  "slug": "baden-wuerttemberg",
+  "name": "Baden-Württemberg",
+  "teaser": "Vierte ausführlich recherchierte Region: L-Bank-Darlehen bis 50.000 € mit Tilgungszuschuss bis 1.500 €, Eingliederungshilfe der 44 Stadt- und Landkreise, Pflegestützpunkte und der KfW-Stand.",
+  "title": "Umbau-Förderung in Baden-Württemberg",
+  "description": "Vier Förderwege in Baden-Württemberg: L-Bank-Darlehen mit Tilgungszuschuss, Eingliederungshilfe der Kreise, Pflegekasse und KfW-Stand — geprüft am 25.11.2026.",
+  "h1": "Umbau und Förderung in Baden-Württemberg",
+  "leads": [
+    "Wenn in Baden-Württemberg ein Treppenlift, ein barrierearmes Bad oder eine Schwelle im Alltag zum Problem wird, laufen mehrere Förderwege parallel: die Pflegekasse, das Landesprogramm „Zusatzfinanzierung Barrierefreiheit“ der L-Bank, die Eingliederungshilfe der 44 Stadt- und Landkreise — und die KfW, deren Zuschuss für Barrierereduzierung 2026 ausgeschöpft ist. Diese Seite ordnet die vier Wege für Baden-Württemberg — ohne Garantien und ohne Vermittlungsinteresse.",
+    "Alle Angaben wurden am 25.11.2026 aus den verlinkten offiziellen Seiten geprüft. Das Landesprogramm ist eine Finanzierungshilfe der L-Bank im Rahmen der Wohnungsbau- und Wohnraumförderung des Landes; Förderbedingungen ändern sich häufig, und im Einzelfall entscheidet immer die zuständige Stelle. Diese Seite wurde mit KI-Unterstützung erstellt und redaktionell gegen die Quellen geprüft."
+  ],
+  "sections": [
+    {
+      "h2": "Die vier Förderwege im Überblick",
+      "p": [
+        "Nicht jeder Weg passt zu jedem Haushalt. Die Tabelle zeigt, wer jeweils entscheidet und was Sie vorher klären sollten. Die ausführlichen Antragsstrecken behandeln unsere Ratgeber; die Links dazu finden Sie auf dieser Seite."
+      ],
+      "table": {
+        "head": ["Weg", "Zuständig", "Was infrage kommt", "Vorher klären"],
+        "rows": [
+          ["1. Wohnumfeld-Zuschuss", "Ihre Pflegekasse", "Zuschuss zu wohnumfeldverbessernden Maßnahmen (Ermessensleistung)", "Antrag vor der Beauftragung; Bescheid abwarten"],
+          ["2. L-Bank „Zusatzfinanzierung Barrierefreiheit“", "L-Bank (Landesförderbank), Antrag über die Wohnraumförderungsstelle im Landratsamt bzw. Bürgermeisteramt", "Darlehen bis 50.000 € mit Tilgungszuschuss bis 1.500 € bei vollständiger Barrierefreiheit (DIN 18040-2)", "Zugangsweg (Basisförderung oder Schwerbehinderung); Eigenleistung; Vorhabensbeginn erst nach Antrag"],
+          ["3. Leistungen für Wohnraum (Eingliederungshilfe)", "der Stadt- bzw. Landkreis, in dem Sie wohnen", "Beschaffung, Umbau, Ausstattung und Erhaltung behinderungsgerechten Wohnraums (Einzelfallentscheidung)", "Antrag beim Sozialamt; Gesamtplanverfahren"],
+          ["4. KfW-Programme", "KfW (bundesweit)", "Kredit „Altersgerecht Umbauen“ (159); der Zuschuss 455-B ist derzeit gestoppt", "Aktuellen Programmstand direkt bei der KfW prüfen"]
+        ]
+      }
+    },
+    {
+      "h2": "Weg 1: Pflegekasse — zuerst prüfen",
+      "p": [
+        "Der Wohnumfeld-Zuschuss ist eine bundesweite Leistung: Bei Pflegebedürftigkeit kann die Pflegekasse Maßnahmen zur Verbesserung des Wohnumfeldes subsidiär fördern — als Ermessensleistung, nicht als automatischen Anspruch. In Baden-Württemberg gelten dafür keine abweichenden Regeln.",
+        "Entscheidend ist die Reihenfolge: Der Antrag gehört vor der Beauftragung, und der Bescheid sollte abgewartet werden. Beträge, Fristen und die Genehmigungsfiktion behandeln unsere Ratgeber — dort finden Sie auch den Verweis auf das Gesetz im Original. Das Bundesgesundheitsministerium nennt als Beispielmaßnahmen ausdrücklich „Maßnahmen zur Überwindung von Treppen und Stufen durch Rampen oder Aufzüge/Treppenlifte“ neben dem Umbau von Sanitärräumen."
+      ],
+      "cta": {"label": "Wohnumfeld-Zuschuss richtig beantragen: Beträge, Fristen, Form", "slug": "wohnumfeldverbesserung-beantragen"}
+    },
+    {
+      "h2": "Weg 2: L-Bank „Zusatzfinanzierung Barrierefreiheit“ — ein Darlehen, kein Zuschuss",
+      "p": [
+        "Das Landesprogramm für den barrierearmen Umbau ist eine Finanzierungshilfe der Landesförderbank L-Bank. Die Produktseite „Zusatzfinanzierung Barrierefreiheit“ (Teil der Eigentumsfinanzierung Baden-Württemberg) listet den Rahmen wörtlich: „Kredithöhe: bis zu 50.000 €“, „Sollzinssatz: 1,00 %“, „Sollzinsverbilligung und -bindung: 10 Jahre“, „Tilgung: 3,00 % p.a. … mit 2 tilgungsfreien Anlaufjahren“ sowie „Bereitstellungsfreie Zeit: 12 Monate“. Zinssätze ändern sich — prüfen Sie den aktuellen Stand vor einer Finanzierungsplanung direkt bei der L-Bank.",
+        "Gefördert werden „Einzelmaßnahmen zur Barriere-Reduzierung nach DIN 18040-2“ — die Produktseite nennt ausdrücklich „Umbau von Wegen zu Gebäuden und Wohnumfeldmaßnahmen“, „Umbau Eingangsbereich und Wohnungszugang“, „Überwindung von Treppen und Stufen“, „Anpassung der Raumaufteilung und Schwellenabbau“ und „Maßnahmen an Sanitärräumen“ — das Bad ist also ausdrücklich eingeschlossen. Bemerkenswert zur Einordnung: Das Wort Treppenlift taucht auf der Produktseite nicht auf; die Förderfähigkeit von Liften folgt aus der Formulierung „Überwindung von Treppen und Stufen“ und ist nicht als Modell- oder Produktzusage zu lesen. Im Zweifel vor dem Antrag bei der Wohnraumförderungsstelle nachfragen.",
+        "Der ergänzende Zuschuss ist eng begrenzt: „Ergänzender Tilgungszuschuss bei Herstellung von Barrierefreiheit eines altersgerechten Hauses durch die vollständige Umsetzung der DIN 18040-2: 3 % der förderfähigen Kosten, maximal 1.500 €.“ Die L-Bank definiert „altersgerecht“ so: „In einem altersgerechten Haus oder einer altersgerechten Wohnung müssen Zugang, Wohn- und Schlafzimmer, Küche und Bad barrierereduziert sein und bestimmte Bedienelemente aufweisen.“ Für ein reines Treppenlift- oder Bad-Einzelprojekt gibt es diesen Zuschuss folglich nicht — er gehört zum vollständigen Umbau.",
+        "Wichtig für die Planung: Ein vorzeitiger Vorhabenbeginn führt zur Ablehnung der Förderung. Nach Angaben der Bewilligungsstellen auf service-bw gilt: „Achtung: Ein vorzeitiger Vorhabenbeginn führt zur Ablehnung der Förderung.“ Zugelassen wird erst, wenn der Eingang des vollständigen, prüffähigen und unterschriebenen Antrags von der Wohnraumförderungsstelle bestätigt wurde."
+      ],
+      "table": {
+        "head": ["Kondition (Produktseite)", "Angabe (Stand 25.11.2026)"],
+        "rows": [
+          ["Kredithöhe", "bis zu 50.000 €"],
+          ["Sollzinssatz", "1,00 % — Sollzinsverbilligung und -bindung 10 Jahre"],
+          ["Tilgung", "3,00 % p. a. mit 2 tilgungsfreien Anlaufjahren"],
+          ["Bereitstellungsfreie Zeit", "12 Monate"],
+          ["Ergänzender Tilgungszuschuss", "3 % der förderfähigen Kosten, maximal 1.500 € — nur bei vollständiger DIN-18040-2-Umsetzung"]
+        ],
+        "note": "Wörtliche Angaben der L-Bank-Produktseite „Zusatzfinanzierung Barrierefreiheit“, abgerufen am 25.11.2026. Es handelt sich um ein Darlehen, das zurückgezahlt werden muss — kein Zuschuss. Die 1,00-%-Angabe trägt ein Verfallrisiko; das Produktinformationsblatt verweist für aktuelle Zinsen auf die L-Bank."
+      },
+      "bullets": [
+        "Die L-Bank warnt aktuell auf der Produktseite: „Nach aktuellem Stand ist jedoch von einer Wartezeit von mindestens einem Jahr bis zur Bewilligung auszugehen.“ (Abruf 25.11.2026, seitenweiter Hinweis wegen hoher Nachfrage und begrenzter Subventionsmittel.) Planen Sie diesen Vorlauf ein — und halten Sie den Vorhabensbeginn zurück, bis der Antrag bestätigt ist.",
+        "Zwei Zugänge: mit der Basisförderung der Eigentumsfinanzierung BW (Z15-Darlehen), wenn deren Zusage nicht länger als 10 Jahre zurückliegt — oder als „Anpassungsförderung“ unabhängig von einer vorherigen oder gleichzeitigen Förderung (siehe nächster Abschnitt).",
+        "Es ist eine Eigenleistung erforderlich: „Die Eigenleistung beträgt mindestens 25 Prozent der Gesamtkosten des förderfähigen Vorhabens. Bei erstrangiger Absicherung des Darlehens beträgt die Eigenleistung mindestens 15 Prozent der Gesamtkosten.“ (service-bw)",
+        "Einkommensgrenzen gelten: Das Gesamtjahreseinkommen darf die maßgebliche Grenze nicht überschreiten. Das Ministerium für Landesentwicklung und Wohnen hat die Bezugsgröße zum 01.12.2025 auf „71 000 Euro“ fortgeschrieben (Dynamisierung nach § 10 Abs. 3 LWoFG); die konkreten Grenzen je Personenzahl stehen in der Anlage zum Erlass — wir listen sie hier bewusst nicht als Zuordnung, weil die amtliche Tabelle spaltenweise nicht zeilengesichert abrufbar ist. Klären Sie Ihre Grenze vor dem Antrag bei der Wohnraumförderungsstelle.",
+        "Nicht finanzierbar sind nach Produktseitenangabe gebrauchte Immobilien, die mit der Basisförderung (Z15) vor mehr als 10 Jahren gekauft wurden (Datum der Zusage)."
+      ]
+    },
+    {
+      "h2": "Wer kann das L-Bank-Darlehen beantragen?",
+      "p": [
+        "Die service-bw-Leistungsseite zur Wohnraumförderung benennt zwei Zielgruppen: zum einen Paare, Alleinerziehende mit mindestens einem im Haushalt lebenden Kind und Familien beim Erwerb einer gebrauchten Immobilie, die sie barrierearm umbauen. Zum anderen „schwerbehinderte Menschen mit speziellen Wohnbedürfnissen. Die Schwerbehinderung bestimmt sich nach dem Sozialgesetzbuch, wonach ein Grad der Behinderung von wenigstens 50 erforderlich ist. Die speziellen Wohnbedürfnisse hinsichtlich des Grundrisses oder der Ausstattung müssen von der Schwerbehinderung herrühren.“ Diese „Anpassungsförderung“ der L-Bank richtet sich an Menschen, die „bestehenden, selbst genutzten Wohnraum unabhängig von einer vorherigen oder gleichzeitigen Förderung altersgerecht umbauen“ möchten.",
+        "Der Antrag läuft über die Wohnraumförderungsstelle: „in Landkreisen: die Wohnraumförderungsstelle im Landratsamt“, „in Stadtkreisen: die Wohnraumförderungsstelle im Bürgermeisteramt des Bauortes“. Der Antrag selbst wird „über das Förderportal der L-Bank“ gestellt (Z15 Online-Antrag); die Wohnraumförderungsstelle prüft Vollständigkeit und Förderfähigkeit und leitet den Antrag an die L-Bank weiter. Es besteht „grundsätzlich keine Antragsfrist“ — entscheidend bleiben Einkommensgrenze, Eigenleistung und die Reihenfolge Antrag vor Vorhabensbeginn."
+      ]
+    },
+    {
+      "h2": "Weg 3: Eingliederungshilfe — Leistungen für Wohnraum der Stadt- und Landkreise",
+      "p": [
+        "Bundesrechtliche Grundlage ist das SGB IX: Zu den Leistungen zur sozialen Teilhabe gehören ausdrücklich „Leistungen für Wohnraum“ (§ 113 Abs. 2 Nr. 1). § 77 SGB IX beschreibt sie so: „Die Leistungen umfassen Leistungen für die Beschaffung, den Umbau, die Ausstattung und die Erhaltung von Wohnraum, der den besonderen Bedürfnissen von Menschen mit Behinderungen entspricht.“",
+        "Die baden-württembergische Besonderheit: Es gibt keine Landschaftsverbände oder Bezirke als Träger. Nach dem Sozialministerium hat das Land die 44 Stadt- und Landkreise als Träger der Eingliederungshilfe bestimmt; der Antrag läuft über das Sozialamt der Stadtverwaltung bzw. des Landratsamts. Der Träger prüft im Gesamtplanverfahren; die Verfahren sind gebührenfrei, im Einzelfall kann aber ein Einkommens- und Vermögenseinsatz verlangt werden. Höhe und Umfang richten sich nach dem Einzelfall — anders als beim L-Bank-Programm gibt es hier kein Prozent- und Höchstbetrags-Schema.",
+        "Kommunale Zusatzprogramme sind in Baden-Württemberg Einzelfälle. Ein beispielhaft dokumentierter Fall: Die Stadt Friedrichshafen fördert „Aufzug / Treppenlift – Maximale Förderung 2.500 Euro“ sowie Maßnahmen an Sanitärräumen (maximal 1.500 Euro) — laut service-bw als „freiwillige Sozialleistung, auf die kein Rechtsanspruch besteht“, ohne Mittel aus dem Landeswohnraumförderungsrecht, und nur für Grundstückseigentümer in Friedrichshafen. Ob Ihre Stadt oder Ihr Kreis eine ähnliche freiwillige Leistung anbietet, klären Sie direkt beim Sozialamt — aus diesem Einzelfall lässt sich keine allgemeine Förderroute ableiten."
+      ],
+      "cta": {"label": "Förderung ohne Pflegegrad: welche Wege real offen sind", "slug": "treppenlift-foerderung-ohne-pflegegrad"}
+    },
+    {
+      "h2": "Weg 4: KfW — Zuschuss gestoppt, Kredit verfügbar (Stand 25.11.2026)",
+      "p": [
+        "Der KfW-Zuschuss „Altersgerecht Umbauen – Barrierereduzierung“ (455-B) kann derzeit nicht beantragt werden. Die KfW schreibt auf der Produktseite: „Diesen Zuschuss können Sie nicht mehr beantragen.“ Für eine Wiederaufnahme gilt die Bedingung: „Sollten im Jahr 2027 erneut Bundesmittel für barrierereduzierende Maßnahmen bereitgestellt werden, wird eine Antragstellung wieder möglich sein.“",
+        "Verfügbar ist nach KfW-Angabe der zinsverbilligte Kredit „Altersgerecht Umbauen“ (159) — ein Darlehen bis zu 50.000 Euro je Wohneinheit, das zurückgezahlt werden muss. Der Maßnahmenkatalog nennt „Treppenlifte, Senkrecht-, Hebe- oder Plattformlifte installieren“ ausdrücklich. Zur Kombination mit der Pflegekasse hält die KfW selbst fest: „Wird eine Maßnahme (z. B. Badumbau) mit dem Zuschuss der Pflegeversicherung gefördert, können andere Maßnahmen (z. B. Treppenlift) mit dem Kredit der KfW gefördert werden.“",
+        "Zinssätze listen wir bewusst nicht auf dieser Seite: Sie schwanken im Wochenrhythmus und werden bei Zusage durch die KfW festgelegt. Den aktuellen Stand lesen Sie vor jeder Planung im KfW-Konditionen-Anzeiger und auf der Produktseite."
+      ]
+    },
+    {
+      "h2": "Beratung vor dem Antrag: Pflegestützpunkte in allen Stadt- und Landkreisen",
+      "p": [
+        "Für die Pflegethemen rund um den Umbau gibt es in Baden-Württemberg eine flächendeckende neutrale Anlaufstelle: „Alle Stadt- und Landkreise in Baden-Württemberg haben Pflegestützpunkte mit regionalen Standorten und bieten eine wohnortnahe Beratung an.“ Das Sozialministerium beschreibt die Beratung als unabhängig, neutral und kostenlos. Ein Pflegestützpunkt berät zu Pflegegrad, Pflegekassen-Leistungen und zur Kombination mit den anderen hier genannten Wegen — und ist unabhängig von L-Bank, Kreisen und KfW, also keine Vertriebsstelle.",
+        "Für die Landesförderung selbst ist die Wohnraumförderungsstelle im Landratsamt bzw. Bürgermeisteramt die richtige erste Adresse: dort gibt es vor dem Antrag Auskunft zur Einkommensgrenze, zur Eigenleistung und dazu, ob Ihr konkretes Vorhaben — etwa ein Treppenlift als Einzelmaßnahme — unter die genannten Maßnahmen fallen wird."
+      ]
+    },
+    {
+      "h2": "Mieter in Baden-Württemberg: der §-554-Weg",
+      "p": [
+        "Das Mietrecht ist bundesweit geregelt — für Mieterinnen und Mieter in Baden-Württemberg gelten also keine abweichenden Regeln. Nach der Neufassung des § 554 BGB („Barrierereduzierung, E-Mobilität, Einbruchsschutz und Steckersolargeräte“) kann der Mieter verlangen, dass ihm der Vermieter bauliche Veränderungen der Mietsache erlaubt, die dem Gebrauch durch Menschen mit Behinderungen dienen — der Anspruch besteht nicht, wenn die Veränderung dem Vermieter auch unter Würdigung der Interessen des Mieters nicht zumutbar ist, und eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam. Wie Sie diese Route strukturieren, behandelt unser Ratgeber zum Treppenlift in der Mietwohnung.",
+        "Zum Landesprogramm: Die Anpassungsförderung der L-Bank nennt „bestehenden, selbst genutzten Wohnraum“ — ob und wie eine Mieterkonstellation bei der Anpassungsförderung behandelt wird, ist auf den verlinkten Seiten nicht abschließend geregelt. Klären Sie diese Frage vor dem Antrag mit der Wohnraumförderungsstelle; über die Pflegekasse läuft der Weg für Mieter ohnehin unabhängig vom Eigentumsverhältnis."
+      ]
+    },
+    {
+      "h2": "Reihenfolge für Ihren Antrag in Baden-Württemberg",
+      "p": [
+        "Diese Reihenfolge vermeidet die häufigsten Umwege: abgelehnte Anträge wegen vorzeitiger Beauftragung und vergessene Voraussetzungen, die sich vorher hätten klären lassen."
+      ],
+      "bullets": [
+        "Pflegegrad bzw. bestehende Leistungsansprüche klären — der Bescheid ist die Grundlage für mehrere Wege; der Wohnumfeld-Antrag gehört vor jeder Beauftragung.",
+        "Zugangsweg zum L-Bank-Programm bestimmen: Basisförderung mit Zusage innerhalb der letzten 10 Jahre — oder Anpassungsförderung mit Grad der Behinderung von wenigstens 50, dessen spezielle Wohnbedürfnisse von der Schwerbehinderung herrühren müssen.",
+        "Einkommensgrenze gegenrechnen: maßgeblich ist das Gesamtjahreseinkommen gegen die Grenzen nach dem Erlass zum Wohnungsbau BW 2022 (Bezugsgröße 71.000 €, Stand 01.12.2025) — die Wohnraumförderungsstelle rechnet Ihre Grenze konkret durch.",
+        "Eigenleistung planen: mindestens 25 Prozent der förderfähigen Kosten, bei erstrangiger Absicherung mindestens 15 Prozent — bevor Sie Angebote einholen.",
+        "Antrag IMMER vor dem Vorhabensbeginn: Ein vorzeitiger Beginn führt zur Ablehnung; begonnen wird erst nach der Bestätigung des Antrageingangs durch die Wohnraumförderungsstelle — und die L-Bank rechnet aktuell mit mindestens einem Jahr Vorlauf bis zur Bewilligung (Stand 25.11.2026).",
+        "Parallel prüfen: KfW-Kredit 159 für Teile des Vorhabens und — bei Schwerbehinderung mit Leistungsbezug — die Eingliederungshilfe beim Sozialamt; Reihenfolge und Kombination vorher abstimmen, Doppelwürdigungen vermeiden."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Gibt es in Baden-Württemberg einen Zuschuss für den Treppenlift?",
+      "a": "Für den Zuschuss durch die Pflegekasse gelten bundesweite Regeln (Ermessensleistung — Details und Grenzen behandeln unsere Ratgeber). Das Landesprogramm der L-Bank ist dagegen ein Darlehen, das zurückgezahlt werden muss. Einen echten Zuschuss gibt es dort nur eng begrenzt: den Tilgungszuschuss von 3 % der förderfähigen Kosten, maximal 1.500 €, und nur bei vollständiger Barrierefreiheit nach DIN 18040-2. Kommunale Einzelfälle wie Friedrichshafen (freiwillige Sozialleistung, dort max. 2.500 € für Aufzug/Treppenlift) sind auf einzelne Städte begrenzt."
+    },
+    {
+      "q": "Ist der Treppenlift im L-Bank-Programm förderfähig?",
+      "a": "Das lässt sich aus der Produktseite nicht direkt bejahen: Das Wort Treppenlift kommt dort nicht vor — genannt sind „Einzelmaßnahmen zur Barriere-Reduzierung nach DIN 18040-2“ mit Beispielen wie „Überwindung von Treppen und Stufen“ und „Maßnahmen an Sanitärräumen“. Der dazugehörige Maßnahmen- und Anforderungskatalog ist auf der Seite nicht direkt abrufbar. Klären Sie die Förderfähigkeit Ihres konkreten Modells vor dem Antrag bei der Wohnraumförderungsstelle in Ihrem Landratsamt bzw. beim Bürgermeisteramt."
+    },
+    {
+      "q": "Wer kann die Anpassungsförderung der L-Bank nutzen?",
+      "a": "Schwerbehinderte Menschen mit speziellen Wohnbedürfnissen: Nach der service-bw-Leistungsseite ist „ein Grad der Behinderung von wenigstens 50 erforderlich“, und „die speziellen Wohnbedürfnisse hinsichtlich des Grundrisses oder der Ausstattung müssen von der Schwerbehinderung herrühren“. Gefördert wird der Umbau bestehenden, selbst genutzten Wohnraums — unabhängig von einer vorherigen oder gleichzeitigen Förderung. Daneben gibt es den Zugang über die Basisförderung (Z15) beim Kauf einer gebrauchten Immobilie."
+    },
+    {
+      "q": "Wie lange dauert die Bewilligung beim L-Bank-Programm?",
+      "a": "Die L-Bank warnt auf der Produktseite (Abruf 25.11.2026): „Nach aktuellem Stand ist jedoch von einer Wartezeit von mindestens einem Jahr bis zur Bewilligung auszugehen.“ Der Grund sind hohe Nachfrage und begrenzter Subventionsmittel. Wichtig dabei: Der Vorhabensbeginn darf trotzdem nicht vor dem bestätigten Antragseingang liegen — ein vorzeitiger Beginn führt zur Ablehnung der Förderung."
+    },
+    {
+      "q": "Was gilt für Mieter in einer Mietwohnung?",
+      "a": "Der bürgerlich-rechtliche Weg läuft über § 554 BGB: Der Mieter kann bauliche Veränderungen, die dem Gebrauch durch Menschen mit Behinderungen dienen, vom Vermieter verlangen — mit Zumutbarkeitsgrenze. Die Pflegekasse (Wohnumfeld-Zuschuss) ist unabhängig vom Eigentumsverhältnis. Ob die Anpassungsförderung der L-Bank auch für gemieteten Wohnraum offen ist, ist auf den offiziellen Seiten nicht abschließend geregelt (dort heißt es „selbst genutzten Wohnraum“) — fragen Sie bei der Wohnraumförderungsstelle nach."
+    },
+    {
+      "q": "Gibt es kommunale Zuschüsse für den Umbau?",
+      "a": "Manche Städte und Kreise bieten freiwillige Leistungen — das ist aber kein Anspruch und keine Landesförderung. Das dokumentierte Beispiel ist Friedrichshafen: dort maximal 2.500 Euro für Aufzug/Treppenlift und 1.500 Euro für Sanitärräume, ausdrücklich als „freiwillige Sozialleistung, auf die kein Rechtsanspruch besteht“. Fragen Sie direkt beim Sozialamt Ihrer Stadt bzw. Ihres Landkreises nach; ein Anspruch auf ähnliche Leistungen in anderen Kommunen lässt sich daraus nicht ableiten."
+    }
+  ],
+  "ctaEarly": {
+    "label": "Pflegekassen-Zuschuss für den Umbau: Beträge und Antragsstrecke",
+    "slug": "treppenlift-zuschuss"
+  },
+  "standLine": "Alle Angaben am 25.11.2026 aus den verlinkten offiziellen Seiten geprüft (L-Bank, service-bw, Ministerien des Landes Baden-Württemberg, BMG, KfW, Gesetze im Internet). Förderbedingungen ändern sich häufig; prüfen Sie vor jedem Antrag den aktuellen Stand bei der zuständigen Stelle.",
+  "sources": [
+    {"label": "L-Bank — Produktseite „Zusatzfinanzierung Barrierefreiheit“ (Kredithöhe bis 50.000 €, Sollzins 1,00 %, Tilgung 3,00 % mit 2 tilgungsfreien Anlaufjahren, Tilgungszuschuss 3 %/max. 1.500 € nur bei vollständiger DIN 18040-2, Maßnahmenliste inkl. „Überwindung von Treppen und Stufen“, Wartezeit-Hinweis)", "url": "https://www.l-bank.de/produkte/wohnimmobilien/eigentumsfinanzierung-bw-zusatzfinanzierung-barrierefreiheit.html", "checked_at": "2026-11-25"},
+    {"label": "service-bw — „Wohnraumförderung beantragen“ (Zuständige Wohnraumförderungsstellen, Zielgruppen, GdB ≥ 50, Eigenleistung 25/15 %, Förderportal der L-Bank, Vorhabensbeginn-Ablehnung, keine Antragsfrist; Freigabe MLW 05.03.2026)", "url": "https://www.service-bw.de/zufi/leistungen/553", "checked_at": "2026-11-25"},
+    {"label": "Ministerium für Landesentwicklung und Wohnen BW — Erlass vom 01.12.2025 zu geänderten Einkommensgrenzen (Bezugsgröße 71 000 Euro, Dynamisierung § 10 Abs. 3 LWoFG)", "url": "https://mlw.baden-wuerttemberg.de/fileadmin/redaktion/m-mlw/intern/Dateien/03_Bauen-Wohnen/Wohnungsbau/Wohnraumfoerderung/2025_12_VwV-Wohnungsbau_BW_2022_-_Erlass_Aenderung_Einkommensgrenzen.pdf", "checked_at": "2026-11-25"},
+    {"label": "Ministerium für Landesentwicklung und Wohnen BW — Anlage zum Erlass vom 01.12.2025 (Berechnungsbeispiele Einkommensgrenzen, u. a. mit schwerbehinderter Person)", "url": "https://mlw.baden-wuerttemberg.de/fileadmin/redaktion/m-mlw/intern/Dateien/03_Bauen-Wohnen/Wohnungsbau/Wohnraumfoerderung/2025_12_VwV-Wohnungsbau_BW_2022_Anlage_zum_Erlass_vom_01.12.2025_ge.pdf", "checked_at": "2026-11-25"},
+    {"label": "Sozialministerium Baden-Württemberg — Eingliederungshilfe (44 Stadt- und Landkreise als Träger bestimmt)", "url": "https://sozialministerium.baden-wuerttemberg.de/de/soziales/bundesteilhabegesetz/eingliederungshilfe/", "checked_at": "2026-11-25"},
+    {"label": "service-bw — „Eingliederungshilfe beantragen“ (Sozialamt, Gesamtplanverfahren, Verfahren ohne Gebühren, Einkommens-/Vermögenseinsatz möglich)", "url": "https://www.service-bw.de/zufi/leistungen/1179", "checked_at": "2026-11-25"},
+    {"label": "service-bw — Stadt Friedrichshafen, kommunale Förderung (Aufzug/Treppenlift max. 2.500 €, freiwillige Sozialleistung ohne Rechtsanspruch, keine LWoFG-Mittel)", "url": "https://www.service-bw.de/zufi/leistungen/531", "checked_at": "2026-11-25"},
+    {"label": "Gesetze im Internet — § 113 SGB IX (Leistungen zur sozialen Teilhabe, Nr. 1 „Leistungen für Wohnraum“)", "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__113.html", "checked_at": "2026-11-25"},
+    {"label": "Gesetze im Internet — § 77 SGB IX (Leistungen für Wohnraum: Beschaffung, Umbau, Ausstattung, Erhaltung)", "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__77.html", "checked_at": "2026-11-25"},
+    {"label": "Gesetze im Internet — § 40 SGB XI (Wohnumfeld-Zuschuss der Pflegekasse, bundesweite Grundlage; Details in unseren Ratgebern)", "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html", "checked_at": "2026-11-25"},
+    {"label": "Gesetze im Internet — § 554 BGB „Barrierereduzierung, E-Mobilität, Einbruchsschutz und Steckersolargeräte“ (Mieter-Verlangensroute, Zumutbarkeitsgrenze, Abweichungen unwirksam)", "url": "https://www.gesetze-im-internet.de/bgb/__554.html", "checked_at": "2026-11-25"},
+    {"label": "Bundesgesundheitsministerium — Zuschüsse zur Wohnungsanpassung (Beispielmaßnahmen inkl. „Überwindung von Treppen und Stufen durch Rampen oder Aufzüge/Treppenlifte“)", "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/zuschuesse-zur-wohnungsanpassung", "checked_at": "2026-11-25"},
+    {"label": "Sozialministerium Baden-Württemberg — Pflegeberatung (Pflegestützpunkte beraten unabhängig, neutral und kostenlos)", "url": "https://sozialministerium.baden-wuerttemberg.de/de/gesundheit-pflege/pflege/beratung", "checked_at": "2026-11-25"},
+    {"label": "Pflegestützpunkte Baden-Württemberg — Trägerportal (Pflegestützpunkte in allen Stadt- und Landkreisen, wohnortnahe Beratung)", "url": "https://www.bw-pflegestuetzpunkt.de/", "checked_at": "2026-11-25"},
+    {"label": "KfW — Produktseite „Barrierereduzierung – Investitionszuschuss (455-B)“ (Stopp-Wortlaut, 2027-Bedingung für Wiederaufnahme)", "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/", "checked_at": "2026-11-25"},
+    {"label": "KfW — Produktseite „Altersgerecht Umbauen – Kredit (159)“ (bis 50.000 Euro je Wohneinheit, Treppenlifte im Maßnahmenkatalog, Kombinationsausnahme mit Pflegekassenzuschuss)", "url": "https://www.kfw.de/159", "checked_at": "2026-11-25"}
+  ],
+  "related": [
+    {
+      "label": "Treppenlift in der Mietwohnung — Vermieter-Zustimmung und Kosten",
+      "slug": "treppenlift-mietwohnung"
+    },
+    {
+      "label": "Wohnumfeld-Zuschuss beantragen — Ablauf und Fristen",
+      "slug": "wohnumfeldverbesserung-beantragen"
+    },
+    {
+      "label": "Treppenlift-Kosten: was wirklich zu zahlen ist",
+      "slug": "treppenlift-kosten"
+    }
+  ]
+}
