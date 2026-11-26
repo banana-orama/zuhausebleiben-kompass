@@ -1,0 +1,527 @@
+                                      Niedersächsisches
+                               Ministerialblatt
+76. (81.) Jahrgang                  Hannover, den 1. Juli 2026                             Nummer 316
+
+
+
+                               Ministerium für Wirtschaft, Verkehr und Bauen
+
+
+                                  Verwaltungsvorschrift zum Vollzug
+      der §§ 5 und 7 bis 14 des Niedersächsischen Wohnraum- und Wohnquartierfördergesetzes
+                                            (VV NWoFG)
+                               RdErl. d. MW v. 25.06.2026 – 60-25100/70/00 –
+                                                – VORIS 23400 –
+
+
+                                             Inhaltsübersicht
+
+1.    Regelungsbereich
+2.    Begriffsbestimmungen
+3.    Zusammenarbeit der Wohnraumförderstellen und der Bewilligungsbehörde
+4.    Elektronische Erfassung von gefördertem Wohnraum und Berichterstattung
+5.    Zu § 5 Haushalt
+6.    Zu § 7 – Belegungsbindung
+
+6.1   Zu § 7 Abs. 1 – Belegungsbindung, Grundsätze
+6.2   Zu § 7 Abs. 2 und 3 – Gebiete mit erhöhtem Wohnungsbedarf, Benennungsrecht
+6.3   Zu § 7 Abs. 4 – Sanktionen
+7.    Zu § 8 Erteilung eines Wohnberechtigungsscheins
+7.1   Zu § 8 Abs. 1 – Wohnberechtigungsschein für ausländische Wohnungssuchende
+
+7.2   Zu § 8 Abs. 2, 3 und 5 – Angemessene Größe des Wohnraums
+7.3   Zu § 8 Abs. 7 – Missbrauch
+8.    Zu § 9 – Mietbindung
+9.    Zu § 11 – Freistellung und Änderung von Belegungs- und Mietbindungen
+9.1   Zu § 11 – Verfahren bei Freistellung und Änderung von Belegungs- und Mietbindungen
+9.2   Zu § 11 Abs. 1 – Dauer und Umfang der Freistellung
+
+9.3   Zu § 11 Abs. 2 – Ausgleichsleistungen bei Freistellungen
+9.4   Zu § 11 Abs. 3 – Änderung von Belegungs- und Mietbindungen, Entlassung
+10.   Schlussbestimmungen
+
+
+
+                                    Herausgeber: Niedersächsische Staatskanzlei
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                               Seite 2
+
+
+
+
+  Die im nachstehenden Verzeichnis mit ihrer amtlichen Abkürzung und ihrer Kurzbezeichnung oder vollen
+Bezeichnung aufgeführten Gesetze finden in der jeweils geltenden Fassung Anwendung:
+ AsylG                Asylgesetz
+ AufenthG             Aufenthaltsgesetz
+ BGB                  Bürgerliches Gesetzbuch
+ EStG                 Einkommensteuergesetz
+ NWoFG                Niedersächsisches Wohnraum- und Wohnquartierfördergesetz
+ SGB IX               Neuntes Buch des Sozialgesetzbuchs – Rehabilitation und Teilhabe von Menschen
+                      mit Behinderungen
+ II. WoBauG           Zweites Wohnungsbaugesetz
+ WoBindG              Wohnungsbindungsgesetz
+ WoFG                 Wohnraumförderungsgesetz
+
+
+1. Regelungsbereich
+    Diese Verwaltungsvorschriften dienen der Gewährleistung einer landeseinheitlichen Anwendung der §§ 5
+und 7 bis 14 NWoFG. Sie enthalten insbesondere Regelungen zur Sicherstellung der Zweckbestimmung von
+in die Förderung einbezogenem Mietwohnraum, zur Überwachung der Einhaltung der Miet- und Belegungs-
+bindungen sowie zur Erteilung eines Wohnberechtigungsscheins. Des Weiteren wird mit diesen Verwaltungs-
+vorschriften die Berichterstattung über den Bestand der in einer Bindung stehenden geförderten Wohnungen
+in Niedersachsen geregelt. Diese Verwaltungsvorschriften regeln nicht die Gewährung von Zuwendungen zur
+sozialen Wohnraumförderung; diesbezügliche Bestimmungen enthalten die jeweils geltenden Förderrichtlinien
+des Landes.
+2. Begriffsbestimmungen
+      Für diesen RdErl. gelten folgende Begriffsbestimmungen:
+2.1      Bewilligungsbehörde:
+         Bewilligungsbehörde ist die Investitions- und Förderbank Niedersachsen (NBank).
+2.2      Menschen mit Behinderungen:
+         Menschen mit Behinderungen sind solche gemäß § 2 Abs. 1 SGB IX. Als Menschen mit Behinderungen
+         gelten unbeschadet der gesetzlichen Definition Personen mit einem Grad der Behinderung von mindes-
+         tens 50 sowie hilfe- und pflegebedürftige Personen mit Pflegegrad 2 oder höher.
+2.3      Wohnraumförderstelle:
+         Der Begriff Wohnraumförderstelle bezeichnet die nach § 21 Abs. 1 Satz 1 NWoFG zuständige Stelle.
+2.4      Wohnraumversorgungskonzept:
+         Wohnraumversorgungskonzept bezeichnet ein strategisches Planungsinstrument der Kommunen, um
+         den Bedarf an Wohnraum in einer bestimmten Region zu analysieren und geeignete Maßnahmen zur
+         Sicherstellung einer ausreichenden Wohnraumversorgung abzuleiten. Ein Wohnraumversorgungskon-
+         zept enthält in der Regel eine Bestandsaufnahme und eine Bedarfsabschätzung für den örtlichen Woh-
+         nungsmarkt, darunter Aussagen zur Versorgung mit sozial gefördertem Wohnraum und zum Neubau-
+         bedarf sowie Zielsetzungen, Handlungsempfehlungen und Maßnahmen für die örtliche Wohnraumver-
+         sorgung.
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                             Seite 3
+
+
+
+
+3. Zusammenarbeit der Wohnraumförderstellen und der Bewilligungsbehörde
+3.1      Um die Ziele des NWoFG und das jeweilige Förderziel zu erreichen, arbeiten die Wohnraumförder-
+stellen und die Bewilligungsbehörde zusammen. Sie unterrichten einander über Angelegenheiten von grund-
+sätzlicher Bedeutung und tauschen Informationen aus, die zur Wahrnehmung ihrer Aufgaben jeweils notwen-
+dig sind.
+3.2     Die Bewilligungsbehörde unterrichtet die zuständige Wohnraumförderstelle insbesondere unverzüg-
+lich über jede Änderung von maßgeblichen Umständen, die Auswirkungen auf die Dauer der Belegungs- und
+Mietbindungen von geförderten Wohnungen haben. Ändert sich in der Folge das Ende der Belegungs- und
+Mietbindung des Wohnraums, teilt die Wohnraumförderstelle dies der Zuwendungsempfängerin oder dem Zu-
+wendungsempfänger mit.
+3.3     Die Wohnraumförderstellen informieren die Bewilligungsbehörde, soweit ihnen vorsätzliche oder grob
+fahrlässige Verstöße der Zuwendungsempfängerinnen oder Zuwendungsempfänger oder sonstiger Verpflich-
+teter gegen Bestimmungen einer Förderentscheidung bekannt geworden sind.
+3.4      Die Vorschriften zum Schutz personenbezogener Daten bleiben unberührt.
+4. Elektronische Erfassung von gefördertem Wohnraum und Berichterstattung
+4.1    Die Wohnraumförderstellen haben alle geförderten Mietwohnungen in ihrem Bezirk, die nach dem
+WoFG, dem II. WoBauG oder dem NWoFG gefördert wurden und die einer geltenden Belegungs- oder Miet-
+bindung gemäß Förderrecht unterliegen, getrennt nach Gemeinden in elektronischen Dateien zu erfassen. Für
+jede Wohnung sind folgende Daten zu speichern:
+–      Bezeichnung der Wohnung nach Straße, Hausnummer, Stockwerk und Lage,
+–      bei mittelbarer Belegung: Art und Umfang der Einräumung von Belegungs- und Mietbindungen an Er-
+       satzwohnungen,
+–      Zahl der Wohnräume und Wohnfläche der Wohnung,
+–      Art und Ausstattung der Wohnung (z. B. Mietwohnung im Mehrfamilienhaus, Aufzug, Badewanne
+       und/oder Dusche, Balkon),
+–      Datum und Aktenzeichen der Förderentscheidung (Bewilligung) sowie die Darlehensnummer der Bewil-
+       ligungsbehörde,
+–      Verfügungsberechtigte oder Verfügungsberechtigter,
+–      Art und Dauer der Bindungen sowie Ausübung von Belegungsrechten,
+–      Art und Dauer eines Vorbehalts für Angehörige eines bestimmten Personenkreises,
+–      jeweilige Mieterin oder jeweiliger Mieter oder Wohnungsnutzer, Datum des Einzugs sowie Datum und
+       Aktenzeichen des Wohnberechtigungsscheins oder der Benennung,
+–      Zeitpunkt des Endes der Belegungs- und Mietbindung, soweit schon eingetreten oder bestimmbar,
+–      Nettokaltmiete bei Bezug (Erstbezug und Wiedervermietung) und Nebenkosten warm/kalt,
+–      Genehmigungen für die Selbstnutzung, Nichtvermietung, Zweckentfremdung und bauliche Änderung
+       nach § 10 NWoFG,
+–      Freistellungen und Entlassungen aus den Bindungen nach § 11 NWoFG,
+–      Art des Ausgleichs und Höhe der Ausgleichszahlungen für Maßnahmen nach den §§ 10 und
+       11 NWoFG,
+–      Erhebung von Geldleistungen und Bußgeldbescheide nach § 14 NWoFG.
+    Die notwendigen Auskünfte sind erforderlichenfalls nach § 10 Abs. 5 NWoFG bei den Verfügungsberech-
+tigten einzuholen.
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                               Seite 4
+
+
+
+
+4.2     Landesweit wird eine Übersicht über den Bestand der in einer Bindung stehenden geförderten Miet-
+wohnungen in Niedersachsen geführt. In diese Übersicht sind die Mietwohnungen nach Nummer 4.1, nach
+dem NWoFG geförderte Wohnheimplätze sowie Mietwohnungen, für die im Rahmen einer kommunalen För-
+derung Auflagen zur Belegungs- und Mietbindung unter Bezugnahme auf das WoFG, das II. WoBauG oder
+das NWoFG erteilt wurden und die danach einer geltenden Belegungs- oder Mietbindung unterliegen, aufzu-
+nehmen. Die Wohnraumförderstellen übersenden der Bewilligungsbehörde hierfür Angaben nach dem Tabel-
+lenmuster der Anlage in digitaler Form. Sie übersenden die Daten mit Stand 30. Juni und 31. Dezember des
+Jahres jeweils bis zum 10. des darauffolgenden Monats.
+5. Zu § 5 Haushalt
+   „Alsbald“ im Sinne des § 5 Abs. 2 Satz 1 und 3 bedeutet, dass die betreffende Person spätestens innerhalb
+von sechs Monaten nach Bezug der Wohnung in den Haushalt aufgenommen werden oder den Haushalt
+verlassen soll.
+6. Zu § 7 – Belegungsbindung
+   Die Wohnraumförderstellen überprüfen bei den ihnen vorgelegten Wohnberechtigungsscheinen, ob die in
+der Förderentscheidung geregelten Vorgaben für die Belegungsbindung eingehalten werden. Zudem haben
+die Wohnraumförderstellen die Belegungsbindungen nach § 7 NWoFG regelmäßig einer systematischen
+Überprüfung zu unterziehen. Es wird eine jährliche Überprüfung empfohlen. Die Überprüfung kann beispiels-
+weise durch einen Abgleich der vom Verfügungsberechtigten gemeldeten Wohnungsbelegung mit den Melde-
+daten aus dem Melderegister erfolgen. Soweit für die Durchführung der Überprüfung erforderlich, sind die
+notwendigen Auskünfte gemäß § 10 Abs. 5 NWoFG einzuholen.
+6.1 Zu § 7 Abs. 1 – Belegungsbindung, Grundsätze
+6.1.1 Die Vorlage eines Wohnberechtigungsscheins seitens der oder des Wohnungssuchenden gegenüber
+der oder dem Verfügungsberechtigten ist grundsätzlich bei jeder Überlassung von gefördertem Mietwohnraum
+erforderlich, auch wenn die oder der Wohnungssuchende bereits zuvor eine geförderte Wohnung bewohnt
+hat. Dies gilt auch im Fall eines Wohnungstauschs innerhalb desselben Wohngebäudes. Dagegen ist die Vor-
+lage eines Wohnberechtigungsscheins nicht erforderlich, wenn die Mieterin oder der Mieter einer geförderten
+Mietwohnung aufgrund von Sanierungsmaßnahmen vorübergehend in einer anderen geförderten Mietwoh-
+nung untergebracht wird.
+6.1.2 Die oder der Verfügungsberechtigte hat der Wohnraumförderstelle unverzüglich nach Überlassung
+der geförderten Wohnung an eine wohnberechtigte Personen den Namen dieser Person sowie ihrer Haus-
+haltsangehörigen mitzuteilen und den übergebenen Wohnberechtigungsschein vorzulegen.
+6.2 Zu § 7 Abs. 2 und 3 – Gebiete mit erhöhtem Wohnungsbedarf, Benennungsrecht
+6.2.1 In der Verordnung kann nach § 7 Abs. 3 Satz 2 NWoFG auch bestimmt werden, dass das Benen-
+nungsrecht für bestimmten Wohnraum ausgeschlossen ist. So ist es etwa möglich, genossenschaftlichen
+Wohnraum vom Benennungsrecht auszunehmen, soweit dies vor Ort bei dem Erlass einer entsprechenden
+Verordnung für notwendig gehalten wird.
+6.2.2 Voraussetzung für den Erlass einer Benennungs-Verordnung ist, dass im Geltungsbereich ein erhöh-
+ter Wohnungsbedarf besteht. Damit wird die bewährte und in höchstrichterlicher Rechtsprechung (BVerwG,
+Urteil vom 24.08.1998 – 8 C 26/86 – NJW 1989, S. 181) gefestigte Voraussetzung der Verordnung über die
+Überlassung von Sozialwohnungen übernommen. Ein erhöhter Wohnungsbedarf ist gegeben, wenn die Nach-
+frage nicht oder nicht angemessen mit Wohnraum versorgter Wohnberechtigter innerhalb angemessener Frist
+weder aus dem Bestand oder der Neubaurate an geförderten Mietwohnungen noch mit erschwinglichen Miet-
+wohnungen aus dem Altbestand oder dem frei finanzierten Wohnungsbau gedeckt werden kann. Die Feststel-
+lung des erhöhten Wohnungsbedarfs kann auf verschiedene Weise erfolgen. Da die Instrumentarien zur Ver-
+hinderung von Wohnungsnot zu Beeinträchtigungen der Verfügungsberechtigten sozial geförderten Wohn-
+raums führen können, kann ein erhöhter Wohnungsbedarf seitens der Kommune nicht einfach behauptet wer-
+den. Ein Wohnraumversorgungskonzept, in dem der erhöhte Wohnungsbedarf als Ergebnis einer
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                               Seite 5
+
+
+
+
+Untersuchung der Wohnraumsituation festgestellt wird, bietet hingegen beispielsweise eine belastbare Grund-
+lage für die Entscheidung.
+6.2.3 Verordnungen nach § 7 Abs. 3 NWoFG sind nach deren Erlass der Bewilligungsbehörde zur Kenntnis
+zu übermitteln. Dabei genügt eine elektronische Übermittlung.
+6.2.4 Sofern die Wohnraumförderstelle gemäß § 7 Abs. 2 NWoFG das Verlangen der Benennung von Per-
+sonen gegenüber der oder dem Verfügungsberechtigten ausgesprochen hat, hierauf aber im konkreten Ein-
+zelfall verzichten möchte, hat sie dies unverzüglich gegenüber der oder dem Verfügungsberechtigten zu er-
+klären. Eine mündliche Erklärung ist nicht ausreichend.
+6.3 Zu § 7 Abs. 4 – Sanktionen
+   Ist Mietwohnraum entgegen § 7 Abs. 1 oder 2 NWoFG zum Gebrauch überlassen worden, sind vor einer
+Prüfung der in § 7 Abs. 4 NWoFG genannten Sanktionen zunächst die nachfolgenden Maßnahmen zu ergrei-
+fen. Ist geförderter Wohnraum einer wohnungssuchenden Person ohne Wohnberechtigungsschein überlassen
+worden, so haben die Verfügungsberechtigten diese zunächst aufzufordern, nachträglich und unverzüglich
+einen Wohnberechtigungsschein, ggf. einen solchen nach § 8 Abs. 4 bis 6 NWoFG, zu beantragen; dieser
+kann nur für die Zukunft erteilt werden. Etwaige Geldleistungen nach § 14 Abs. 3 NWoFG dürfen durch die
+zuständige Stelle von den Verfügungsberechtigten nur für die Zeit bis zur Erteilung des Wohnberechtigungs-
+scheins erhoben werden.
+7. Zu § 8 Erteilung eines Wohnberechtigungsscheins
+7.1 Zu § 8 Abs. 1 – Wohnberechtigungsschein für ausländische Wohnungssuchende
+7.1.1 Ausländische Wohnungssuchende sind nur dann rechtlich und tatsächlich in der Lage, auf längere
+Dauer einen Wohnsitz als Mittelpunkt der Lebensbeziehungen zu begründen, wenn ein Aufenthalt im Bundes-
+gebiet gegeben ist, der voraussichtlich noch mindestens ein Jahr ab dem Tag der Antragstellung auf Erteilung
+eines Wohnberechtigungsscheins beibehalten werden kann. Dies ist grundsätzlich anzunehmen, wenn aus-
+ländische Wohnungssuchende im Besitz einer Niederlassungserlaubnis oder einer Erlaubnis zum Dauer-
+aufenthalt-EU sind. Bei einer Blauen Karte EU, einer Aufenthaltserlaubnis sowie einer Duldung nach § 60 a
+Abs. 2 Satz 3 i. V. m. § 60 c AufenthG (Ausbildungsduldung) oder i. V. m. § 60 d AufenthG (Beschäftigungs-
+duldung) ist die Aufenthaltsdauer im Einzelfall zu prüfen. Wenn die Dauer der Blauen Karte EU, der Aufent-
+haltserlaubnis oder der Duldung weniger als ein Jahr umfasst und die Ausländerbehörde keine aufenthalts-
+rechtlichen Bedenken geltend macht, kann von einem Aufenthalt von noch mindestens einem Jahr ausgegan-
+gen werden.
+7.1.2 Bei Personen mit einer Aufenthaltsgestattung nach § 55 Abs. 1 AsylG aus Herkunftsländern mit einer
+Schutzquote von über 50 % (gute Bleibeperspektive) kann von einem Aufenthalt von noch mindestens einem
+Jahr ausgegangen werden. Die für die Wohnraumförderung zuständige oberste Fachaufsichtsbehörde stellt
+den Wohnraumförderstellen Informationen darüber bereit, auf welche Herkunftsländer dies zutrifft.
+7.1.3 Bei Personen mit einer Aufenthaltsgestattung nach § 55 Abs. 1 AsylG aus anderen als den in Num-
+mer 7.1.2 beschriebenen Herkunftsländern kann von einem Aufenthalt von noch mindestens einem Jahr aus-
+gegangen werden, wenn ihr Aufenthalt nach Einschätzung der Ausländerbehörde im Fall einer negativen Ent-
+scheidung über ihren Asylantrag voraussichtlich nach § 60 a Abs. 2 Satz 1 AufenthG zu dulden wäre.
+7.1.4 Die Nummern 7.1.1 bis 7.1.3 gelten nicht für Wohnungssuchende anderer Mitgliedstaaten der EU
+(Unionsbürgerinnen und Unionsbürger) und deren Haushaltsangehörige. Nicht als Wohnungssuchende gelten
+die Angehörigen der im Bundesgebiet stationierten ausländischen Streitkräfte und deren Haushaltsangehö-
+rige.
+7.2 Zu § 8 Abs. 2, 3 und 5 – Angemessene Größe des Wohnraums
+7.2.1 Im Wohnberechtigungsschein ist zu bestimmen, welche Größe des Wohnraums für den Haushalt der
+Wohnungssuchenden angemessen ist. Angemessen sind grundsätzlich die folgenden Wohnungsgrößen:
+a)     für Haushalte mit einer Person: bis 50 m2,
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                                Seite 6
+
+
+
+
+b)     für Haushalte mit zwei Personen: bis 60 m2,
+c)     für Haushalte mit drei Personen: bis 75 m2,
+d)     für Haushalte mit vier Personen: bis 85 m2, und
+e)     für jede weitere zum Haushalt gehörende Person: weitere 10 m2.
+   Die angemessene Wohnungsgröße erhöht sich um 10 m², wenn dem Haushalt Alleinerziehende oder Men-
+schen mit Behinderungen angehören. Wird nachgewiesen, dass ein Mensch mit Behinderungen auf die Nut-
+zung eines Rollstuhls angewiesen ist, erhöht sich die angemessene Wohnungsgröße stattdessen um 15 m².
+Soweit in der jeweiligen Förderentscheidung nach Quadratmetern größere Wohnflächen angegeben sind als
+die unter den Buchstaben a bis e angegebenen Wohnflächen, so gelten für einen wohnungsbezogenen Wohn-
+berechtigungsschein die größeren Wohnflächen als angemessen.
+7.2.2 Die angemessene Wohnfläche kann für die Erteilung eines Wohnberechtigungsscheins nach § 8
+Abs. 5 NWoFG um bis zu 10 m2 erhöht werden, wenn besondere persönliche oder berufliche Bedürfnisse oder
+eine besondere Härte nachgewiesen werden:
+a)     Besondere persönliche Bedürfnisse können insbesondere in der Zusammensetzung des Haushalts be-
+       gründet sein, wie in der Aufnahme von Eltern oder Pflegekindern in eine kinderreiche Familie, oder bei
+       dauerhafter Erkrankung oder Behinderung von im Haushalt lebenden Personen. Dazu gehören Erkran-
+       kungen, die eine Pflegebedürftigkeit zur Folge haben, oder eine geistige oder körperliche Behinderung.
+b)     Besondere berufliche Bedürfnisse können insbesondere vorliegen, wenn Haushaltsangehörige eine zu-
+       sätzliche Wohnfläche zur beruflichen Nutzung benötigen, etwa bei freiberuflicher Tätigkeit oder Heim-
+       arbeit.
+c)     Eine besondere Härte kann im Einzelfall insbesondere gegeben sein, wenn Wohnungssuchende wegen
+       der Behinderung oder Pflegebedürftigkeit von Haushaltsangehörigen auf bestimmten Wohnraum ange-
+       wiesen sind. Dies kann in der Lage oder Ausstattung begründet sein, etwa wenn es sich um die einzige
+       barrierefreie Wohnung oder Erdgeschosswohnung für Rollstuhlbenutzerinnen und Rollstuhlbenutzer
+       handelt.
+7.2.3 Eine Überschreitung der nach Nummer 7.2.1 und 7.2.2 ermittelten angemessenen Wohnungsgrößen
+um bis zu 10 % ist unbeachtlich.
+7.3 Zu § 8 Abs. 7 – Missbrauch
+7.3.1 Nach § 8 Abs. 7 NWoFG ist die Erteilung eines Wohnberechtigungsscheins abzulehnen, soweit die
+Inanspruchnahme missbräuchlich wäre. Dies kann insbesondere der Fall sein, wenn erhebliches Vermögen
+vorhanden ist oder wenn die Einkommensgrenze nach § 3 NWoFG nur vorübergehend nicht überschritten
+wird. Eine Prüfung der Tatbestände ist nur vorzunehmen, soweit konkrete Anhaltspunkte für deren Vorliegen
+gegeben sind.
+   Der Missbrauchstatbestand ist erfüllt, wenn die Gesamtumstände des Einzelfalles den Schluss zulassen,
+dass die Erteilung eines Wohnberechtigungsscheins bei den festgestellten Vermögensverhältnissen den Zie-
+len der Wohnraumförderung widerspricht, nämlich der Unterstützung von Haushalten, die sich am Markt nicht
+angemessen mit Mietwohnraum versorgen können (§ 2 Abs. 2 NWoFG).
+7.3.2 Erhebliches Vermögen i. S. von § 8 Abs. 7 NWoFG ist in der Regel vorhanden, wenn die Summe des
+verwertbaren Vermögens der zum Haushalt rechnenden Personen folgende Beträge übersteigt:
+–      60 000 EUR für die erste zum Haushalt rechnende Person und
+–      30 000 EUR für jede weitere zum Haushalt rechnende Person.
+7.3.3 Vermögen i. S. des § 8 Abs. 7 NWoFG ist die Gesamtheit der in Geld messbaren Güter aller zum
+Haushalt rechnenden Personen. Einkommen und Vermögen grenzen sich grundsätzlich dadurch voneinander
+ab, dass Einkommen alles das ist, was jemand während der einjährigen Geltungsdauer des Wohnberechti-
+gungsscheins wertmäßig dazu erhält, und Vermögen das, was sie oder er während der Geltungsdauer des
+Wohnberechtigungsscheins bereits hat (vgl. BVerwG, Urteil vom 18.02.1999 – 5 C 35.97 – Randnummer 14).
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                                      Seite 7
+
+
+
+
+7.3.4 Zum Vermögen i. S. des § 8 Abs. 7 NWoFG gehören nur verwertbare Vermögensgegenstände mit
+ihrem Verkehrswert. Vermögen ist verwertbar, wenn es für den Lebensunterhalt verwendet oder sein Geldwert
+für den Lebensunterhalt, insbesondere durch Verkauf, durch Verbrauch, Übertragung, Beleihung, Vermietung
+oder Verpachtung nutzbar gemacht werden kann. Nicht verwertbar sind Vermögensgegenstände, über die die
+Inhaberin oder der Inhaber z. B. aufgrund von Insolvenz, Beschlagnahme oder Verpfändung nicht frei verfügen
+kann. Ist ein Vermögensgegenstand nur zu einem Teil verwertbar, ist nur dieser Teil als Vermögen zu berück-
+sichtigen. Liegt erhebliches Vermögen vor, wird widerleglich vermutet, dass es verwertbar ist. Die volle Be-
+weislast für die Nichtverwertbarkeit des Vermögens liegt bei der Person, die den Wohnberechtigungsschein
+beantragt. Grundsätzlich nicht verwertbar sind:
+a)      Anwartschaften auf betriebliche Altersversorgung nach Maßgabe des Betriebsrentengesetzes (§§ 2 und
+        3 BetrAVG), unabhängig vom gewählten Durchführungsweg (Direktzusage, Unterstützungskasse, Di-
+        rektversicherung, Pensionskasse oder Pensionsfonds) und unabhängig davon, ob die betriebliche Al-
+        tersversorgung über die Arbeitgeberin oder den Arbeitgeber oder über Entgeltumwandlung finanziert
+        wurde;
+b)      der Anspruch auf eine persönliche Leibrente (sog. Rürup-Rente), die nach § 10 Abs. 1 Nr. 2 Buchst. b
+        EStG nicht vererblich, nicht übertragbar, nicht beleihbar, nicht veräußerbar und nicht kapitalisierbar ist,
+        und bei der darüber hinaus kein Auszahlungsanspruch besteht.
+7.3.5    Zum Vermögen i. S. des § 8 Abs. 7 NWoFG gehören:
+a)      Geld und Geldwerte, z. B. Bargeld (gesetzliche Zahlungsmittel) und Schecks,
+b)      bewegliche Sachen, z. B. Schmuckstücke, Gemälde und Möbel,
+c)      unbewegliche Sachen, z. B. bebaute und unbebaute Grundstücke,
+d)      auf Geld gerichtete Forderungen, z. B. Ansprüche auf Darlehensrückzahlung,
+e)      sonstige Rechte, z. B. Rechte aus Wechseln, Aktien und anderen Gesellschaftsanteilen, Rechte aus
+        Wohnungseigentum, Rechte aus Grundschulden, Nießbrauch, Dienstbarkeiten, Altenteil, auch Urhe-
+        berrechte, soweit es sich bei der Nutzung um ein in Geld schätzbares Gut handelt.
+7.3.6    Zum Vermögen i. S. des § 8 Abs. 7 NWoFG gehören nicht:
+a)      Vermögen, das aus öffentlichen Mitteln zum Aufbau oder zur Sicherung einer Lebensgrundlage oder
+        zur Gründung eines Hausstandes erbracht wird,
+b)      Altersvorsorge auf Basis eines zertifizierten Altersvorsorgevertrages in Höhe des nach § 10 a und/oder
+        Abschnitt XI EStG geförderten Vermögens einschließlich seiner Erträge und der geförderten laufenden
+        Altersvorsorgebeiträge, soweit die Inhaberin oder der Inhaber das Altersvorsorgevermögen nicht vor-
+        zeitig verwendet (vgl. § 93 EStG),
+c)      geldwerte Ansprüche, die der Altersvorsorge dienen, soweit die Inhaberin oder der Inhaber sie vor dem
+        Eintritt in den Ruhestand aufgrund einer vertraglichen Vereinbarung nicht verwerten kann und der Wert
+        der geldwerten Ansprüche 1 500 EUR je vollendetem Lebensjahr der erwerbsfähigen zum Haushalt
+        rechnenden Person, höchstens jedoch jeweils 90 000 EUR, nicht übersteigt,
+d)      angemessener Hausrat,
+e)      ein angemessenes Kraftfahrzeug für jede volljährige zum Haushalt rechnende Person,
+f)      Gegenstände, die
+        aa)   für die Berufsausbildung oder Erwerbstätigkeit unentbehrlich sind oder
+        bb)   der Befriedigung geistiger, insbesondere wissenschaftlicher oder künstlerischer Bedürfnisse die-
+              nen und deren Besitz nicht Luxus ist,
+g)      Schmerzensgeld nach § 253 Abs. 2 BGB, mit Ausnahme der aus der Anlage von Schmerzensgeld er-
+        langten Zinsen (BVerwG, Urteil vom 09.02.2012 – 5 C 10/11 – Leitsatz und Randnummern 9 und 30)
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                                    Seite 8
+
+
+
+
+       sowie sonstige Leistungen mit Entschädigungscharakter (z. B. aus den Fonds „Heimerziehung in der
+       DDR in den Jahren 1949 bis 1990" und „Heimerziehung West").
+7.3.7 Soweit zum Zeitpunkt der Antragstellung auf Erteilung des Wohnberechtigungsscheins bekannt ist
+oder es sich konkret vorausschaubar abzeichnet, dass die Einhaltung der Einkommensgrenze nach
+§ 3 NWoFG nicht länger als ein Jahr andauern wird, ist davon auszugehen, dass die Einkommensgrenze nach
+§ 3 NWoFG nur vorübergehend nicht überschritten wird. In diesem Fall wäre die Inanspruchnahme eines
+Wohnberechtigungsscheins missbräuchlich.
+8. Zu § 9 – Mietbindung
+   Die Miethöhe und die Mietbindung sind im Interesse der Erfüllung des Förderzwecks zu überwachen. Dazu
+kann sich die Wohnraumförderstelle den Mietvertrag und ggf. Unterlagen über Mieterhöhungsverlangen vor-
+legen lassen (§ 10 Abs. 5 NWoFG).
+9. Zu § 11 – Freistellung und Änderung von Belegungs- und Mietbindungen
+9.1 Zu § 11 – Verfahren bei Freistellung und Änderung von Belegungs- und Mietbindungen
+   Ein Antrag auf Freistellung von der Belegungsbindung, Änderung von oder Entlassung aus Belegungs- und
+Mietbindungen soll spätestens vier Wochen vor dem Freiwerden oder der Bezugsfertigkeit einer Wohnung bei
+der Wohnraumförderstelle gestellt werden. Die oder der Verfügungsberechtigte hat der Wohnraumförderstelle
+unter genauer Bezeichnung der Wohnung nachzuweisen, dass trotz entsprechender Bemühungen der Ab-
+schluss eines Mietvertrages mit einer berechtigten Person nicht möglich ist und die Gründe zu benennen. Die
+Bemühungen können durch Veröffentlichung von angemessenen, marktüblichen Inseraten in geeigneten
+elektronischen oder Druckmedien in dem Monat vor der Antragstellung nachgewiesen werden. Die oder der
+Verfügungsberechtigte hat weiterhin darzulegen, ob und inwieweit sie oder er die Wohnung auch zu einem
+Mietpreis unterhalb des förderungsrechtlich Zulässigen angeboten hat.
+9.1.1 Soweit sich ein Antrag auf Freistellung von der Belegungsbindung, Änderung von oder Entlassung
+aus Belegungs- und Mietbindungen auf Wohnraum bezieht, der seit Bezugsfertigkeit oder Übertragung der
+Bindung nicht bestimmungsgemäß belegt werden konnte und eine bestimmungsgemäße Belegung auch nicht
+zu erwarten ist, legt die Wohnraumförderstelle den Antrag mit ihrer Stellungnahme unter Verwendung des
+Vordrucks 6001 (siehe Internet-Partnerportal der NBank) der Bewilligungsbehörde vor. Die Bewilligungsbe-
+hörde prüft auf dieser Grundlage die Rückforderung der Fördermittel. Die oder der Verfügungsberechtigte ist
+über die Abgabe an die Bewilligungsbehörde zu benachrichtigen.
+9.1.2 Bescheide und Verträge über Freistellungen von der Belegungsbindung sowie vertragliche Vereinba-
+rungen über Entlassungen aus oder Änderungen von Belegungs- und Mietbindungen sind der Bewilligungs-
+behörde in Kopie vorzulegen.
+9.1.3 Folgende Entscheidungen nach § 11 NWoFG bedürfen der vorherigen Zustimmung durch das Fach-
+ministerium:
+a)     Freistellung für mehr als acht Wohnungen bestimmter Art,
+b)     Freistellung für Wohnungen in bestimmten Gebieten,
+c)     vertragliche Entlassung von mehr als acht Wohnungen aus der Belegungs- und Mietbindung,
+d)     vertragliche Änderung der Belegungs- und Mietbindung bei mehr als acht Wohnungen.
+9.2 Zu § 11 Abs. 1 – Dauer und Umfang der Freistellung
+9.2.1 Eine Freistellung kann nach § 11 Abs. 1 Satz 1 nur von der Belegungsbindung erfolgen. Sie kann sich
+auch nur auf Teile der Belegungsbindung beschränken, indem z. B. eine Freistellung von der Beschränkung
+auf den Kreis älterer Menschen erfolgt. Die Freistellung darf nur befristet erfolgen. Die Freistellungsdauer soll
+fünf Jahre nicht überschreiten. Sie darf höchstens einmal verlängert werden. Beträgt die Restdauer der Bin-
+dungen je freizustellender Wohnung zum Zeitpunkt der Entscheidung über die Freistellung weniger als
+fünf Jahre oder kann der Zweck der Freistellung auch nach einer Verlängerung nicht erreicht werden, ist zu
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                                 Seite 9
+
+
+
+
+prüfen, ob eine Änderung oder Beendigung der Belegungs- und Mietbindung nach § 11 Abs. 3 NWoFG in
+Betracht kommt (siehe Nummer 17).
+9.2.2 Die Freistellung für eine einzelne bestimmte Wohnung kommt nur in Betracht, wenn kein Wohnbe-
+rechtigungsschein nach § 8 Abs. 4 bis 6 NWoFG erteilt werden kann. Sie ist auf die Dauer des Mietverhältnis-
+ses zu befristen. Mit Ablauf der Frist kann ein neuer Antrag gestellt werden.
+9.2.3 Der Umfang einer Freistellung nach § 11 Abs. 1 Satz 3 NWoFG hängt maßgeblich vom beantragten
+Freistellungsumfang und davon ab, aus welchem der in § 11 Abs. 1 NWoFG genannten Gründe die Freistel-
+lung erteilt wird. Eine Freistellung kann für einzelne Wohnungen, für Wohnraum bestimmter Art oder für Woh-
+nungen in bestimmten Gebieten erteilt werden. Die Entscheidung kann durch Verwaltungsakt oder durch öf-
+fentlich-rechtlichen Vertrag getroffen werden. Dabei sind an eine Freistellung für Wohnungen bestimmter Art
+oder in bestimmten Gebieten höhere Anforderungen zu stellen als an Freistellungen für einzelne bestimmte
+Wohnungen.
+9.2.4 Die Erteilung einer Vielzahl von Einzelfreistellungen darf nicht dazu führen, das Freistellungsverfahren
+für Wohnungen in einem bestimmten Gebiet zu umgehen. Bevor eine Freistellung für Wohnungen in bestimm-
+ten Gebieten in Betracht kommt, ist zu prüfen, ob das angestrebte Ziel nicht ebenso durch eine Freistellung
+für Wohnungen bestimmter Art erreicht werden kann.
+9.2.5 Von einer Freistellung für Wohnungen bestimmter Art können auch mehrere Wohnungen bestimmter
+Art erfasst sein; beispielsweise Wohnungen, die laut Förderentscheidung für ältere Menschen oder Menschen
+mit Behinderungen vorzusehen sind, sowie nicht nachgefragte Kleinst- oder Großwohnungen, Dachgeschoss-
+oder Souterrainwohnungen.
+9.2.6 Eine Freistellung für Wohnungen in bestimmten Gebieten kann insbesondere zur Erhaltung oder
+Schaffung sozial stabiler Bewohnerstrukturen erfolgen. Die Freistellung für Wohnungen in bestimmten Gebie-
+ten ist vorrangig vertraglich zu vereinbaren. Für die Entscheidung über die Freistellung ist ein zielführendes
+Konzept, das auch Bestandteil des Wohnraumversorgungskonzeptes sein kann, vorzulegen. Damit kann auch
+ein Plan des Gebietes erforderlich werden, der Angaben über dessen Zustand, unter anderem bezogen auf
+die Bausubstanz, die Verkehrswege und die Infrastruktur enthält.
+9.2.7 Der örtliche Bereich, für den die Freistellung für Wohnungen in bestimmten Gebieten erfolgen soll, ist
+genau festzulegen. Unter dem Begriff des Gebietes i. S. des § 11 Abs. 1 Satz 3 NWoFG sind zusammenhän-
+gende Flächen oder Teilbereiche zu verstehen, die
+–      mehr als ein Grundstück oder ein einzelnes Gebäude umfassen,
+–      mit auffälligen sozialen und baulichen Problemen belastet sind und
+–      sich räumlich durch Verkehrswege, Bauten oder die natürliche Umgebung abgrenzen.
+    Bei der Gebietsabgrenzung sollen auch Merkmale wie Gebäude- und Siedlungsstruktur, historische Iden-
+tität und Bezüge berücksichtigt werden.
+9.3 Zu § 11 Abs. 2 – Ausgleichsleistungen bei Freistellungen
+9.3.1 Entscheidungen über Freistellungen sowie über Ausgleichsleistungen nach § 11 Abs. 2 NWoFG sind
+fallbezogen auf die Besonderheiten des Einzelfalles und auf die Möglichkeiten der oder des Verfügungsbe-
+rechtigten abzustimmen. Der Ausgleich besteht gleichrangig entweder in einem angemessenen Geldaus-
+gleich, der vertraglichen Einräumung eines Belegungsrechts an einer oder mehreren Ersatzwohnungen oder
+einem sonstigen angemessenen Ausgleich. Die Auswahl zwischen diesen Formen des Ausgleichs erfolgt nach
+pflichtgemäßem Ermessen.
+9.3.2 Eine Freistellung soll bei Geldausgleich davon abhängig gemacht werden, dass die oder der Verfü-
+gungsberechtigte eine laufende monatliche Ausgleichszahlung entrichtet. Die Festsetzung der laufenden
+Geldleistung ist als Auflage (Nebenbestimmung) mit der Genehmigung zu verbinden. Bei einer Freistellung
+von der Belegungsbindung soll die laufende Geldleistung 0,50 EUR je m2 Wohnfläche und Monat betragen.
+Die Ausgleichszahlung kann aus Gründen der Verwaltungsvereinfachung auch für die gesamte Freistellungs-
+dauer im Voraus entrichtet werden. Dabei ist eine Mietdauer von regelmäßig mindestens fünf Jahren zugrunde
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                               Seite 10
+
+
+
+
+zu legen, soweit im Einzelfall nicht eine Freistellung von kürzerer Dauer erteilt wurde. Abweichungen der zu-
+grunde zu legenden Mietdauer von fünf Jahren sind unter Berücksichtigung der örtlichen wohnungswirtschaft-
+lichen Verhältnisse zulässig. Die Entscheidung ist zu dokumentieren.
+9.3.3 Eine Abwälzung der Ausgleichsabgabe auf die Mieterinnen und Mieter ist mangels Rechtsgrundlage
+nicht zulässig. Hierauf ist die oder der Verfügungsberechtigte in der Freistellungsentscheidung hinzuweisen.
+9.3.4 Geldleistungen der oder des Verfügungsberechtigten an die Wohnraumförderstelle sind von dieser
+ohne Abzug halbjährlich zum 30. Juni und zum 31. Dezember eines jeden Jahres an die Bewilligungsbehörde
+abzuführen. Betrifft die Freistellung Bindungen, die mit einer zu der Wohnraumförderung des Landes hinzu-
+getretenen Förderung einer Gemeinde, eines Landkreises oder der Region Hannover begründet wurden, ist
+die Ausgleichszahlung im Verhältnis der einbezogenen Förderanteile aufzuteilen. Der auf die Förderung von
+dritter Seite entfallende Anteil ist nicht an die Bewilligungsbehörde abzuführen.
+9.3.5 Ein Ausgleich unter der Bedingung der vertraglichen Einräumung eines Belegungsrechts für Ersatz-
+wohnungen kommt nur in Betracht, wenn die oder der Verfügungsberechtigte in der Standortgemeinde der
+freizustellenden Wohnung über mindestens eine weitere gleichwertige und bezugsfertige oder freie, nicht ge-
+bundene Wohnung (Ersatzwohnung) verfügt. Über die Freistellung gegen Einräumung eines Belegungsrechts
+an einer oder mehreren Ersatzwohnungen ist erst dann wirksam zu entscheiden, wenn die oder der Verfü-
+gungsberechtigte der Wohnraumförderstelle das Belegungsrecht für den konkret bestimmten Ersatzwohnraum
+vertraglich eingeräumt hat und sich verpflichtet, dieses Recht jederzeit auf Verlangen der Wohnraumförder-
+stelle durch Eintragung einer beschränkten persönlichen Dienstbarkeit im Grundbuch sichern zu lassen. In
+dem Vertrag muss sich die oder der Verfügungsberechtigte auch verpflichten, jede Ersatzwohnung zu gleichen
+Bedingungen wie die Förderwohnung zu überlassen. Der Ersatzwohnraum muss frei oder bezugsfertig sein.
+Mit der Einräumung des Belegungsrechts werden öffentlich-rechtliche Bindungen an der Ersatzwohnung ver-
+traglich begründet. Diese entsprechen den Bindungen der freigestellten Wohnung. Bei der Einräumung eines
+Belegungsrechts an einer gleichwertigen Wohnung entfällt ein Ausgleich in Geld oder ein sonstiger Ausgleich.
+Ist jedoch die Ersatzwohnung nicht mindestens gleichwertig, kann daneben ein angemessener Geldausgleich
+verlangt werden.
+9.3.6 Ein sonstiger Ausgleich in angemessener Art und Weise kann z. B. durch die Verlängerung eines
+bereits bestehenden Belegungsrechts erfolgen.
+9.3.7 Nur bei einer Freistellung im überwiegenden öffentlichen Interesse kann im Einzelfall von einem Aus-
+gleich abgesehen werden. Ein genereller Verzicht auf Ausgleichsleistungen bei Freistellungen von den Bele-
+gungsbindungen ist nicht zulässig.
+9.3.8 Die Entscheidung, ob und in welcher Art und Höhe Ausgleichsleistungen erhoben werden oder aus
+welchen Gründen darauf verzichtet wird, ist im Einzelfall zu dokumentieren. Freistellungsentscheidungen sind
+einschließlich etwaiger Verpflichtungen zu Ausgleichsleistungen der oder dem Verfügungsberechtigten und
+der Bewilligungsbehörde mitzuteilen und in der Wohnungsdatei elektronisch zu erfassen (siehe Nummer 4).
+9.4 Zu § 11 Abs. 3 – Änderung von Belegungs- und Mietbindungen, Entlassung
+    Die Wohnraumförderstelle kann unter den Voraussetzungen des § 11 Abs. 3 NWoFG Belegungs- und Miet-
+bindungen über Wohnraum vertraglich ändern oder eine Entlassung aus den Miet- und Belegungsbindungen
+vertraglich regeln. Über den Inhalt der Verträge ist die Bewilligungsbehörde zu unterrichten. Sofern hierbei
+Vereinbarungen über bewilligte Fördermittel getroffen werden, bedürfen diese der Zustimmung durch die Be-
+willigungsbehörde.
+10. Schlussbestimmungen
+   Dieser RdErl. tritt am 01.07.2026 in Kraft.
+An die
+Region Hannover, Landkreise, kreisfreien und großen selbständigen
+Städte und selbständigen Gemeinden als zuständige Stellen nach § 21 Abs. 1 NWoFG
+Investitions- und Förderbank Niedersachsen (NBank) als Bewilligungsstelle nach § 21 Abs. 2 NWoFG
+Gemeinden
+Nds. MBl. 2026 Nr. 316 vom 1. Juli 2026                                                                                                                                                           Seite 11
+
+
+
+
+                                                                                                                                                                                              Anlage
+
+
+ Name der                    Anzahl der aktuell         Anzahl der aktuell von                              Erteilte Freistellungen seit dem letzten Berichtszeitpunkt3)
+ Kommune                     grundsätzlich in           Bindungen
+                                                                               im öffentlichen               im privaten       mit           mit sonstigen        ohne Ausgleich
+                             einer Bindung              freigestellten
+                                                                               Interesse                     Interesse         Geldausgleich Ausgleichsleistungen
+                             befindlichen               geförderten
+                             geförderten                Wohnungen2)
+                             Wohnungen1)
+              1                          2                            3                         4                   5                  6                     7                           8
+
+
+
+
+ 1)
+      Hier sind alle geförderten Wohnungen aufzuführen, bei denen die im Förderbescheid festgelegte Bindungsfrist noch nicht ausgelaufen ist, also auch die Wohnungen, die aktuell für einen bestimmten
+      Zeitraum von Bindungen freigestellt sind.
+
+ 2)
+      Hier ist aufzuführen, wie viele der in Spalte 2 bezifferten Wohnungen aktuell von Bindungen (Miet- und/oder Belegungsbindung) freigestellt sind.
+
+ 3)
+      Bitte beim Ausfüllen die Plausibilität der Angaben überprüfen: Die Summe der Spalten 4 und 5 muss deckungsgleich sein mit der Summe der Spalten 6 bis 8.
+

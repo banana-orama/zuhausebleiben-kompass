@@ -1,0 +1,444 @@
+{
+  "batch": "region-screen-261126-hessen",
+  "checked_at": "2026-11-26",
+  "evidence_dir": "research/evidence/region-screen-261126/hessen",
+  "notes": "MASCHINELLER VERBATIM-CHECK: research/check_quotes_region_screen_261126_hessen.py (Zitate + Absenz-Needles mit Soll-Count + 26-EGH-Einheiten-Check; Normalisierung U+00AD/Zeilenumbruch-Hyphen/Tausendertrennzeichen; schreibt QUOTES.md ins Evidenz-Verzeichnis). PDF-Richtlinie als -raw-pdftotext-Extrakt gesichert (Spaltenreihenfolge Content-Stream), -layout-Fassung als *.-layout.txt Referenz daneben.",
+  "sources": [
+    {
+      "id": 1,
+      "label": "WIBank — Behindertengerechter Umbau von Wohneigentum (Produktseite, Kernquelle Weg 2)",
+      "url": "https://www.wibank.de/wibank/behindertengerechter-umbau-von-wohneigentum",
+      "evidence": "wibank-umbau.txt",
+      "quotes": [
+        "Die Wirtschafts- und Infrastrukturbank gewährt Kostenzuschüsse für den Umbau von Wohnraum, um behinderten Menschen die eigene Haushaltsführung zu ermöglichen sowie selbstständig und unabhängig leben zu können.",
+        "Es werden nur Baumaßnahmen gefördert, für die vor Bewilligung des Kostenzuschusses noch keine Aufträge erteilt wurden und mit deren Arbeiten nicht begonnen wurde.",
+        "Einbau von geeigneten Aufzügen (z.B. Treppenschrägaufzug), Küchen, Toilettenräumen und Bädern",
+        "Für die förderungsfähigen Maßnahmen wird ein Kostenzuschuss bis zu 50% gewährt, max. jedoch folgende maßnahmenspezifischen Höchstbeträge:",
+        "Bad: Um-/Einbau 5.500 Euro",
+        "Lift-/Aufzugseinbau 6.500 Euro",
+        "Alle anderen förderungsfähigen Einzelmaßnahmen: 3.000 Euro",
+        "Förderungsfähig sind Kosten bis zu 30.000 Euro je Wohneinheit. Maßnahmekosten unter 1.500 Euro sowie Eigenleistungen werden nicht gefördert.",
+        "Es wird ein einmaliges Bearbeitungsentgelt von 1% des Gesamtbetrages des beantragten Kostenzuschusses, mindestens jedoch 25 Euro, erhoben.",
+        "Bitte stellen Sie den Antrag auf die Gewährung eines Kostenzuschusses für die Beseitigung baulicher Hindernisse bei der Wohnungsbauförderstelle des Kreises oder der kreisfreien Stadt, in der der umzubauende Wohnraum liegt.",
+        "Sofern Fördermittel zur Verfügung stehen und die Prüfung ergibt, dass die Voraussetzungen vorliegen, leitet der Magistrat/der Kreisausschuss den Antrag an die WIBank weiter.",
+        "Die Wirtschafts- und Infrastrukturbank Hessen erteilt die Förderzusage durch Bewilligungsbescheid.",
+        "WIBank. Ihre Förderbank in Hessen."
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 0, "note": "ABSENZ: 'Treppenlift' 0× auf der Produktseite; benannt sind 'Treppenschrägaufzug' (1×, als Aufzugsbeispiel) und der Höchstbetrag 'Lift-/Aufzugseinbau 6.500 Euro'."},
+        {"needle": "Treppenschrägaufzug", "expect": 1},
+        {"needle": "Lift-/Aufzugseinbau", "expect": 1}
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Richtlinie des Landes Hessen zur Förderung des behindertengerechten Umbaus von selbstgenutztem Wohneigentum (PDF, Fassung 14.12.2021/01.09.2023, Druck 12/2024)",
+      "url": "https://www.wibank.de/resource/blob/wibank/306346/39845aeb7d0d5a93fc4aa1b251a398e0/richtlinie-behindertengerechter-umbau-von-wohneigentum-data.pdf",
+      "evidence": "wibank-richtlinie.txt",
+      "quotes": [
+        "Richtlinie des Landes Hessen zur Förderung des behindertengerechten Umbaus von selbstgenutztem Wohneigentum",
+        "Ein Mensch mit Behinderung im Sinne dieser Richtlinie ist eine Person, die einen Grad der Behinderung von 50 Prozent oder mehr bzw. eine Einstufung in den Pflegegrad 2 oder höher aufweist.",
+        "Die Behinderung ist in der Regel durch • einen Schwerbehindertenausweis oder • einen Pflegegradnachweis zu belegen.",
+        "barrierefreier Badumbau",
+        "barrierereduzierender Badumbau, z. B. Austausch der Badewanne gegen eine Dusche",
+        "Einbau von geeigneten Aufzügen (z. B. Treppenschrägaufzug, Plattformlift)",
+        "Die Maßnahmen sollen nach Möglichkeit den Anforderungen der Norm DIN 18040 Teil 2 entsprechen.",
+        "Baumaßnahmen, mit deren Bau vor Bewilligung der Fördermittel durch die Wirtschafts- und Infrastrukturbank Hessen (WIBank) begonnen wurde (Teil II Nr. 11).",
+        "Die Förderung (Zuwendung) wird als Projektförderung im Wege der Anteilfinanzierung als nicht rückzahlbarer Zuschuss in Höhe von bis zu 50 Prozent der zuwendungsfähigen Ausgaben gewährt.",
+        "Zuschüsse anderer Stellen (zum Beispiel Pflegekasse, Rehabilitationsträger, Stiftungen, Versicherungen) werden auf die zuwendungsfähigen Ausgaben angerechnet (Teil II Nr. 13).",
+        "• Bad: Um-/Einbau 5.500 Euro",
+        "• Küche: Um-/Einbau 5.500 Euro",
+        "• Lift-/Aufzugeinbau 6.500 Euro",
+        "• Alle anderen förderungsfähigen Einzelmaßnahmen je 3.000 Euro",
+        "Förderfähig sind Ausgaben in Höhe von bis zu 30.000 Euro je Wohneinheit, auch wenn die Ausgaben der baulichen Maßnahmen insgesamt höher sind. Dies entspricht einem Zuschuss in Höhe von maximal 15.000 Euro je Wohneinheit.",
+        "Maßnahmen mit Ausgaben in Höhe von unter 1.500 Euro werden nicht gefördert.",
+        "Das für das Wohnungswesen zuständige Ministerium teilt den Wohnungsbauförderstellen jährlich ein Fördermittelkontingent zu.",
+        "beim Magistrat der kreisfreien Stadt, beim Magistrat von kreisangehörigen Städten mit mehr als 50.000 Einwohnerinnen und Einwohnern oder beim Kreisausschuss des Landkreises, in dessen Gebiet das Vorhaben durchgeführt werden soll, einzureichen.",
+        "Steht dem Magistrat/Kreisausschuss nur ein begrenztes Mittelkontingent zur Verfügung und reichen die Mittel nicht aus, um alle Anträge zu berücksichtigen, ist eine Auswahl nach sozialer Dringlichkeit vorzunehmen. Hierbei werden insbesondere der Grad der Behinderung und weitere soziale Kriterien (z. B. finanzielle Situation, zeitliche Dringlichkeit) berücksichtigt.",
+        "Die Bewilligungsbehörde erteilt die Förderzusage durch einen Zuwendungsbescheid.",
+        "Die Bewilligungsbehörde erhebt nach § 13 HWoFG ein einmaliges Bearbeitungsentgelt von 1 Prozent des bewilligten Zuschusses, mindestens jedoch 25 Euro.",
+        "Der Zuschuss wird in einer Summe nach Abschluss der Maßnahmen und Vorlage der Schlussabrechnung ausgezahlt.",
+        "Ein Rechtsanspruch auf Gewährung der Förderung besteht nicht. Die Bewilligungsbehörde entscheidet aufgrund ihres pflichtgemäßen Ermessens im Rahmen der verfügbaren Haushaltsmittel.",
+        "Die Förderung erfolgt auf der Grundlage des Hessischen Wohnraumfördergesetzes (HWoFG) vom 13. Dezember 2012 (GVBl. S. 600), zuletzt geändert durch Gesetz vom 11. Dezember 2020 (GVBl. S. 941), in der jeweils geltenden Fassung.",
+        "Eine Förderung nach diesen Richtlinien wird nur für solche Vorhaben bewilligt, die noch nicht begonnen worden sind (Refinanzierungsverbot).",
+        "Als Vorhabenbeginn ist grundsätzlich der Abschluss eines der Ausführung zuzurechnenden Lieferungs- und Leistungsvertrages zu werten, wenn dieser in direktem Zusammenhang mit dem Förderprojekt steht.",
+        "Für Maßnahmen, die nach dieser Richtlinie gefördert werden, dürfen in der Regel keine weiteren Fördermittel aus öffentlichen Haushalten in Anspruch genommen werden. Bei Inanspruchnahme von Fördermitteln öffentlicher Haushalte oder anderer Stellen wird der Zuschuss des Landes durch Anrechnung auf die zuwendungsfähigen Ausgaben reduziert (Teil I Nr. 5).",
+        "Die Anzahl der jährlich geförderten Wohnungen wird im jeweils geltenden Haushaltsplan des Landes Hessen unter Nr. 6 des Förderprodukts 87 „Förderung behindertengerechter Umbau“ bei Kap. 07 25 veranschlagt.",
+        "Hessisches Ministerium für Wirtschaft, Energie, Verkehr, Wohnen und ländlichen Raum",
+        "Wiesbaden, den 14.12.2021/01.09.2023"
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 0, "note": "ABSENZ: 'Treppenlift' 0× in der Richtlinie; Lift-Maßnahme heißt 'Lift-/Aufzugeinbau 6.500 Euro', Aufzugsbeispiele 'Treppenschrägaufzug, Plattformlift'."},
+        {"needle": "Einkommen", "expect": 0, "note": "ABSENZ: KEINE Einkommensgrenze im Programm — 'Einkommen' 0× in der Richtlinie; stattdessen soziale Dringlichkeitsauswahl (finanzielle Situation als Kriterium)."}
+      ],
+      "note": "2-Spalten-PDF: Extrakt über pdftotext -raw (Content-Stream-Reihenfolge); -layout-Fassung als wibank-richtlinie-layout.txt Referenz. Zitat-Prüfung mit Dehyphen-Normalisierung (Zeilenendehyphens wie 'Projekt- förderung')."
+    },
+    {
+      "id": 3,
+      "label": "HMWEVW — Soziale Wohnraumförderung (Ministeriums-Seite, Förderrichtlinien-Liste + Programmjahr 2025-Zahlen)",
+      "url": "https://wirtschaft.hessen.de/wohnen-und-bauen/soziale-wohnraumfoerderung",
+      "evidence": "wirtschaft-hessen.txt",
+      "quotes": [
+        "der behindertengerechte Umbau von selbstgenutztem Wohneigentum",
+        "Richtlinie Behindertengerechter Umbau (PDF/1.74 MB)",
+        "Die Beantragung erfolgt über die Seite der WIBank.",
+        "4,0 Mio. Euro behindertengerechter Umbau bestehender Wohnungen"
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 0, "note": "ABSENZ: Ministeriums-Übersichtsseite nennt Treppenlift nicht (0×)."}
+      ]
+    },
+    {
+      "id": 4,
+      "label": "HMWEVW-Pressemitteilung — Hessen verbessert die soziale Wohnraumförderung (01.07.2026; Status Programmjahr 2026)",
+      "url": "https://wirtschaft.hessen.de/presse/hessen-verbessert-die-soziale-wohnraumfoerderung-mehr-unterstuetzung-fuer-neubau-und-modernisierung",
+      "evidence": "hmwevw-pm-2026.txt",
+      "quotes": [
+        "Hessen entwickelt seine soziale Wohnraumförderung weiter und passt die Förderrichtlinie zum Programmjahr 2026 gezielt an.",
+        "01.07.2026",
+        "Hessisches Ministerium für Wirtschaft, Energie, Verkehr, Wohnen und ländlichen Raum"
+      ],
+      "needles": [
+        {"needle": "behindertengerecht", "expect": 0, "note": "ABSENZ: Die PM 01.07.2026 betrifft nur Neubau Mietwohnungen/Studierende/Modernisierung — der behindertengerechte Umbau wird nicht erwähnt (Änderungen treffen das Programm nicht; Richtlinie bleibt Fassung 2021/2023)."}
+      ],
+      "note": "Status-Beleg: Programm unverändert; PM nennt mansoori-Zitat zur Wohnraumförderung 2026."
+    },
+    {
+      "id": 5,
+      "label": "wohnen-im-alter.hessen.de — Hessische Fachstelle für Wohnberatung (Land Hessen): Soziale Wohnraumförderung / behindertengerechter Umbau",
+      "url": "https://wohnen-im-alter.hessen.de/wohnberatung/finanzierung/soziale-wohnraumfoerderung",
+      "evidence": "wohnen-im-alter.txt",
+      "quotes": [
+        "Das Hessische Ministerium für Wirtschaft, Energie, Verkehr und Wohnen stellt jährlich Fördermittel als Kostenzuschuss für den behindertengerechten Umbau von selbst genutztem Wohneigentum zur Verfügung.",
+        "Förderungsfähig sind bauliche Maßnahmen, Einrichtungen und Ausstattungen an und in bestehenden selbst genutzten Wohnungen bzw. Häusern für Menschen mit einer Behinderung (Grad der Behinderung von mind. 50 % oder mind. Pflegegrad 2).",
+        "Bad und Küche: Um-/Einbau jeweils: 5.500 €",
+        "Lift-/Aufzugseinbau: 6.500 €",
+        "Förderungsfähig sind Gesamtkosten bis zu 30.000 € je Wohneinheit, auch wenn die Ausgaben der baulichen Maßnahmen höher sind. Dies entspricht einem Zuschuss in Höhe von maximal 15.000 €. Innerhalb von fünf Jahren können auch nur bis zu dieser Höhe Zuschüsse pro Wohnung bzw. Antragstellerin oder Antragsteller gewährt werden.",
+        "Die Maßnahmen sollen nach Möglichkeit den Anforderungen der DIN 18040-2 entsprechen.",
+        "Zuschüsse anderer Stellen (z. B. Pflegekasse, Rehabilitationsträger, Stiftungen, Versicherungen) werden auf die Förderung angerechnet.",
+        "Anträge sind über die Wohnungsbauförderungsstellen der Landkreise bzw. der Städte an die Wirtschafts- und Infrastrukturbank Hessen zu stellen.",
+        "Vor Bewilligung darf nicht mit dem Bau der Maßnahme begonnen und es darf auch kein entsprechender Lieferungs- und Leistungsvertrag abgeschlossen werden."
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 0, "note": "ABSENZ: Fachstelle-Seite nennt Treppenlift nicht (0×); Lift-Linie heißt 'Lift-/Aufzugseinbau: 6.500 €'."}
+      ],
+      "note": "Zusatz-Details gegenüber Produktseite/Richtlinie: 5-Jahres-Obergrenze je Wohnung/Antragsteller; GdB/Pflegegrad als Förderungsvoraussetzung."
+    },
+    {
+      "id": 6,
+      "label": "Verwaltungsportal Hessen — Eingliederungshilfe für Erwachsene beantragen (Weg 3 Leistungsseite; HMSI-Freigabe 06.03.2026)",
+      "url": "https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_8960876",
+      "evidence": "vp-egh.txt",
+      "quotes": [
+        "Für Leistungen nach Abschluss der Schulausbildung ist der Landeswohlfahrtverband Hessen zuständig.",
+        "Die Kosten für die Leistungen übernimmt der zuständige Träger der Eingliederungshilfe. Die Bundesländer legen fest, wer Träger der Eingliederungshilfe ist.",
+        "Bei den Leistungen der Eingliederungshilfe müssen Sie grundsätzlich einen Beitrag aus Ihrem Einkommen sowie aus Ihrem Vermögen, sofern es eine festgesetzte Grenze überschreitet, zahlen.",
+        "Es fallen keine Kosten an.",
+        "§§ 90 fortfolgende Sozialgesetzbuch Neuntes Buch (Teil 2, SGB IX)",
+        "Fachlich freigegeben durch Hessisches Ministerium für Arbeit, Integration, Jugend und Soziales (HMSI) am 06.03.2026"
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 0, "note": "ABSENZ: Leistungsseite nennt Treppenlift nicht (0×); Wohnroute über LWV-Leistungsseite (Quelle 8) und §§ 113/77 SGB IX belegt."}
+      ],
+      "note": "Hessen-Spezifik: bis Schulabschluss Landkreis/kreisfreie Stadt zuständig, danach LWV Hessen; Verfahrensfristen (2 Wochen Zuständigkeit, 3 Wochen ohne/2 Wochen mit Gutachten) auf derselben Seite."
+    },
+    {
+      "id": 7,
+      "label": "HMSI (Sozialministerium Hessen) — Übersicht der EGH-zuständigen Organisationseinheiten in Landkreisen und kreisfreien Städten (Stand August 2022; Träger-Struktur)",
+      "url": "https://soziales.hessen.de/leistungen-der-eingliederungshilfe-gemaess-sgb-ix",
+      "evidence": "soziales-egh-org.txt",
+      "quotes": [
+        "Übersicht der in den hessischen Landkreisen und kreisfreien Städten für Leistungen der Eingliederungshilfe gemäß SGB IX zuständigen Organisationseinheiten (Stand August 2022)."
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 0, "note": "ABSENZ: 0×."}
+      ],
+      "entities_check": ["Hochtaunuskreis", "Kreis Bergstraße", "Kreis Darmstadt-Dieburg", "Kreis Fulda", "Kreis Gießen", "Kreis Groß-Gerau", "Kreis Hersfeld-Rotenburg", "Kreis Kassel", "Kreis Limburg-Weilburg", "Kreis Marburg-Biedenkopf", "Kreis Offenbach", "Kreis Waldeck-Frankenberg", "Lahn-Dill-Kreis", "Main-Kinzig-Kreis", "Main-Taunus-Kreis", "Odenwaldkreis", "Rheingau-Taunus-Kreis", "Schwalm-Eder-Kreis", "Vogelsbergkreis", "Werra-Meißner-Kreis", "Wetteraukreis", "Wissenschaftsstadt Darmstadt", "Stadt Frankfurt am Main", "Stadt Kassel", "Stadt Offenbach am Main", "Landeshauptstadt Wiesbaden"],
+      "note": "21 Landkreise + 5 kreisfreie Städte = 26 Organisationseinheiten (maschinell als Entities-Check geprüft); Abschnitt 'Kreisfreie Städte' mit 5 Einheiten (Darmstadt, Frankfurt, Kassel, Offenbach, Wiesbaden)."
+    },
+    {
+      "id": 8,
+      "label": "LWV Hessen — Leistungen für Wohnraum (Weg 3 offizielle Leistungsseite des Trägers; Treppenlift NENNUNG)",
+      "url": "https://www.lwv-hessen.de/leben-wohnen/wohnen/leistungen-fuer-wohnraum.html",
+      "evidence": "lwv-wohnraum.txt",
+      "quotes": [
+        "Dies kann z. B. ein behindertengerechter Bad- und/oder Küchenumbau oder der Einbau eines Treppenlifts sein.",
+        "Bevor Leistungen der Eingliederungshilfe bewilligt werden können, ist vorrangig zu klären, ob andere Personen oder Leistungsträger (zum Beispiel Vermieter, Pflegekasse, KfW-Förderbank oder Wirtschafts- und Infrastrukturbank Hessen) die Finanzierung der Wohnraum-Anpassung übernehmen.",
+        "Leistungen für Wohnraum können Personen erhalten, die wesentlich behindert oder von einer wesentlichen Behinderung bedroht sind. Der Umbau muss wegen der Behinderung erfolgen, z. B. wegen Verschlechterung einer bestehenden Erkrankung/Behinderung.",
+        "Der LWV Hessen ist ein Zusammenschluss der hessischen Landkreise und kreisfreien Städte mit sozialen Aufgaben.",
+        "§ 77 (1) SGB IX"
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 1, "note": "NENNUNG: 'Einbau eines Treppenlifts' 1× auf der offiziellen Wohnraum-Leistungsseite des überörtlichen EGH-Trägers."}
+      ]
+    },
+    {
+      "id": 9,
+      "label": "§ 113 SGB IX — Leistungen zur Sozialen Teilhabe inkl. Leistungen für Wohnraum (Bundesrecht)",
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__113.html",
+      "evidence": "sgb9-113.txt",
+      "quotes": [
+        "Leistungen zur Sozialen Teilhabe sind insbesondere 1. Leistungen für Wohnraum,"
+      ],
+      "needles": []
+    },
+    {
+      "id": 10,
+      "label": "§ 77 SGB IX — Leistungen für Wohnraum (Bundesrecht)",
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__77.html",
+      "evidence": "sgb9-77.txt",
+      "quotes": [
+        "Leistungen für Wohnraum werden erbracht, um Leistungsberechtigten zu Wohnraum zu verhelfen, der zur Führung eines möglichst selbstbestimmten, eigenverantwortlichen Lebens geeignet ist.",
+        "Die Leistungen umfassen Leistungen für die Beschaffung, den Umbau, die Ausstattung und die Erhaltung von Wohnraum, der den besonderen Bedürfnissen von Menschen mit Behinderungen entspricht."
+      ],
+      "needles": []
+    },
+    {
+      "id": 11,
+      "label": "Verwaltungsportal Hessen — Zuschuss für wohnumfeldverbessernde Maßnahmen (Pflegekasse; BMG-Freigabe 04.09.2026; Weg 1 Leistungsseite Hessen-Portal)",
+      "url": "https://verwaltungsportal.hessen.de/leistung?leistung_id=B100019_581678",
+      "evidence": "vp-pflegekasse-wohnumfeld.txt",
+      "quotes": [
+        "Dazu gehören zum Beispiel das Einbauen eines Treppenlifts, verbreiterte Türen und Schwellen statt Stufen.",
+        "Auf Antrag zahlt Ihre Pflegekasse für solche Anpassungen und Umbauten einen Zuschuss von bis zu 4.180 EUR.",
+        "Der Zuschuss ist auf 16.720 EUR begrenzt.",
+        "Anpassung der Wohnumgebung an Ihre Bedürfnisse: Fenstergriffe auf rollstuhlgerechter Höhe, Treppenlift, Aufzug",
+        "Erfolgt keine Mitteilung eines hinreichenden Grundes, gilt die Leistung nach Ablauf der Frist als genehmigt.",
+        "Fachlich freigegeben durch Bundesministerium für Gesundheit (BMG) am 04.09.2026"
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 3, "note": "NENNUNG: 3× (Beschreibung, Maßnahmenliste, Stichwörter) auf der Hessen-Leistungsseite zum § 40 SGB XI-Zuschuss."}
+      ],
+      "note": "Weg 1 (bundesweit): Region-Seite WEITERHIN ohne Beträge (Schema NRW/Bayern/Sachsen/BW); Beleg dient nur Kontext/Antragsfristen (3/5 Wochen, Genehmigungsfiktion)."
+    },
+    {
+      "id": 12,
+      "label": "§ 40 SGB XI — wohnumfeldverbessernde Maßnahmen (Bundesrecht, Weg 1)",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "evidence": "sgb11-40.txt",
+      "quotes": [
+        "Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen.",
+        "Der Gesamtbetrag je Maßnahme nach Satz 3 ist auf 16 720 Euro begrenzt und wird bei mehr als vier Anspruchsberechtigten anteilig auf die Versicherungsträger der Anspruchsberechtigten aufgeteilt.",
+        "spätestens bis zum Ablauf von drei Wochen nach Antragseingang",
+        "Erfolgt keine Mitteilung eines hinreichenden Grundes, gilt die Leistung nach Ablauf der Frist als genehmigt."
+      ],
+      "needles": [],
+      "note": "geschützte Tausendertrennzeichen ('4 180') im Gesetzestext — Checker normalisiert Ziffernabstände."
+    },
+    {
+      "id": 13,
+      "label": "Pflegestützpunkte — Pflege in Hessen (Land-Hessen-Portal; Beratungsbeleg)",
+      "url": "https://www.pflege-in-hessen.de/beratung-und-information/pflegestuetzpunkte/",
+      "evidence": "pflege-in-hessen.txt",
+      "quotes": [
+        "In Hessen gibt es 26 Pflegestützpunkte - in jedem Landkreis und in jeder kreisfreien Stadt einen.",
+        "Die Kranken- und Pflegekassen betreiben deshalb gemeinsam mit kommunalen Trägern vor Ort so genannte Pflegestützpunkte.",
+        "neutral zum Thema Pflege zu informieren, zu beraten und zu vermitteln",
+        "die Beratung in den Pflegestützpunkten für die gesetzlich Versicherten und ihre Angehörigen kostenlos"
+      ],
+      "needles": [],
+      "note": "© 2018-2026 Land Hessen (Footer). Hessen-Struktur: 26 Stützpunkte je Landkreis/kreisfreie Stadt."
+    },
+    {
+      "id": 14,
+      "label": "Hessen Familie (HMSFSG) — Pflegestützpunkte (Ministeriums-Seite, 'kostenlos, neutral und vertraulich')",
+      "url": "https://familie.hessen.de/gesundheit-und-pflege/pflege/pflegestuetzpunkte",
+      "evidence": "familie-pflegestuetzpunkte.txt",
+      "quotes": [
+        "In Hessen gibt es in jedem Landkreis und jeder kreisfreien Stadt einen Pflegestützpunkt. Die Beratung ist kostenlos, neutral und vertraulich."
+      ],
+      "needles": [],
+      "note": "Fachliche Freigabe-Umfeld: Hessisches Ministerium für Familie, Senioren, Sport, Gesundheit und Pflege (Footer)."
+    },
+    {
+      "id": 15,
+      "label": "KfW — Barrierereduzierung Investitionszuschuss 455-B (Produktseite, Weg 4; frisch 26.11.2026)",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
+      "evidence": "kfw-455b.txt",
+      "quotes": [
+        "Diesen Zuschuss können Sie nicht mehr beantragen.",
+        "Wegen der hohen Nachfrage sind die Fördermittel für Maßnahmen zur Barrierereduzierung bereits ausgeschöpft.",
+        "Sollten im Jahr 2027 erneut Bundesmittel für barrierereduzierende Maßnahmen bereitgestellt werden, wird eine Antragstellung wieder möglich sein."
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 0, "note": "ABSENZ: 0× auf der 455-B-Produktseite (nur 159 nennt Treppenlifte)."}
+      ],
+      "note": "Identischer Stand wie BW-Lauf 25.11.2026: 455-B gestoppt, 2027-Wiederaufnahme-Bedingung."
+    },
+    {
+      "id": 16,
+      "label": "KfW — Altersgerecht Umbauen Kredit 159 (Weg 4)",
+      "url": "https://www.kfw.de/159",
+      "evidence": "kfw-159.txt",
+      "quotes": [
+        "Kreditbetrag: bis zu 50.000 Euro je Wohneinheit",
+        "Treppenlifte, Senkrecht-, Hebe- oder Plattformlifte installieren",
+        "Ausnahme: Wird eine Maßnahme (z. B. Badumbau) mit dem Zuschuss der Pflegeversicherung gefördert, können andere Maßnahmen (z. B. Treppenlift) mit dem Kredit der KfW gefördert werden.",
+        "Die Förderung steht unter dem Vorbehalt verfügbarer Haushaltsmittel."
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 2},
+        {"needle": "Treppenlifte", "expect": 1},
+        {"needle": "-,-- % p.a.", "expect": 2, "note": "Zins-Platzhalter ('-,-- % p.a.', Soll- und Effektivzins im Zinsbeispiel) — KEINE Zinszahlen übernehmen (Volatilitäts-Politik der Region-Seiten)."}
+      ]
+    },
+    {
+      "id": 17,
+      "label": "WIBank — Förderbank für Hessen ('Über die WIBank'; IB/Helaba-Zusammenhang empirisch)",
+      "url": "https://www.wibank.de/wibank/diewibank",
+      "evidence": "wibank-diewibank.txt",
+      "quotes": [
+        "Die WIBank ist die Förderbank des Landes Hessen.",
+        "Die WIBank entstand im Jahr 2009 aus der Zusammenführung der Investitionsbank Hessen und der LTH – Bank für Infrastruktur.",
+        "konzernweiten Nachhaltigkeits- und Risikovorgaben der Helaba"
+      ],
+      "needles": [],
+      "note": "Klärung: Hessens Landesförderbank ist die WIBank (Rechtsnachfolgerin der Investitionsbank Hessen, 2009 fusioniert mit LTH); sie operiert unter Helaba-Konzern-Vorgaben. Helaba ist NICHT die Bewilligungsbehörde des Wohnraumprogramms — WIBank ist es."
+    },
+    {
+      "id": 18,
+      "label": "WIBank — Wohnungsbauförderstellen-Liste Hessen (PDF; Antragsweg-Kontext)",
+      "url": "https://www.wibank.de/resource/blob/wibank/306310/fb82459dcaa2e32209314e2a623f8896/wohnungsbaufoerderstellen-hessen-baudarlehen-et-all-data.pdf",
+      "evidence": "wibank-foerderstellen.txt",
+      "quotes": [],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 0, "note": "ABSENZ: 0× (Stellenliste)."}
+      ],
+      "note": "4-Seiten-Liste der Wohnungsbauförderstellen (Kontext für 'Antrag bei der Wohnungsbauförderstelle'); keine Zitate, nur Verweis."
+    },
+    {
+      "id": 19,
+      "label": "Stadt Bad Homburg v. d. Höhe — kommunale Mitteilung zum Landesprogramm (07.07.2026; GEKENNZEICHNET: kommunale Vermittlungsstelle, kein eigenes kommunales Programm)",
+      "url": "https://www.bad-homburg.de/de/stadt/aktuelles/land-hessen-foerdert-den-behindertengerechten-umbau-von-wohneigentum-ov8e4kbakn",
+      "evidence": "bad-homburg-umbau.txt",
+      "quotes": [
+        "Das Land Hessen übernimmt 50 Prozent der förderfähigen Kosten, maximal jedoch 15.000 Euro je Wohneinheit.",
+        "Voraussetzung ist, dass im Haushalt eine Person mit einem Grad der Behinderung von mindestens 50 oder einem Pflegegrad ab Stufe 2 lebt.",
+        "• Badumbau: bis zu 5.500 Euro",
+        "• Küchenumbau: bis zu 5.500 Euro",
+        "• Treppenlift oder Aufzug: bis zu 6.500 Euro",
+        "Anträge auf Gewährung eines Kostenzuschusses können beim Wohnungsamt der Stadt Bad Homburg gestellt werden.",
+        "Interessierte werden gebeten, sich vor Beginn der Umbaumaßnahmen mit dem Wohnungsamt der Stadt Bad Homburg in Verbindung zu setzen",
+        "07.07.2026"
+      ],
+      "needles": [
+        {"needle": "Treppenlift", "expect": 1, "note": "NENNUNG: 'Treppenlift oder Aufzug: bis zu 6.500 Euro' 1× — kommunale Umsetzung der Höchstbetrags-Gruppe 'Lift-/Aufzugeinbau' der Landesrichtlinie."}
+      ],
+      "note": "KEIN eigenes kommunales Förderprogramm (anders als Friedrichshafen in BW): die Stadt kommuniziert das Landesprogramm und nimmt Anträge als Wohnungsamt entgegen. Nur mit dieser Kennzeichnung verwendbar."
+    },
+    {
+      "id": 20,
+      "label": "Verwaltungsportal Hessen — Investitionszuschuss der KfW 455 (Leistungsbeschreibung; veraltet bzgl. Stopp — NUR Antragsweg-Kontext)",
+      "url": "https://verwaltungsportal.hessen.de/leistung?leistung_id=B100019_101338702",
+      "evidence": "vp-kfw-455.txt",
+      "quotes": [
+        "Investitionszuschuss der KfW für Maßnahmen zur Barrierereduzierung und zum Einbruchschutz in bestehenden Wohngebäuden aus Mitteln des Bundes",
+        "Bei der Zuschussförderung „Barrierereduzierung“ liegt die Mindestinvestitionssumme bei EUR 2.000.",
+        "KfW: Zuschuss 455-B: Altersgerecht Umbauen – Investitionszuschuss - Barrierereduzierung"
+      ],
+      "needles": [
+        {"needle": "nicht mehr beantragen", "expect": 0, "note": "ABSENZ: Leistungsbeschreibung spiegelt den 455-B-Antragsstopp NICHT (Stand 26.11.2026) — Status-Aussagen nur aus Quelle 15 (kfw.de), nicht aus dieser Seite."}
+      ],
+      "note": "Verwaltungsportal-Leistungsbeschreibung (BMG-Vorlage) ohne Stopp-Hinweis; für die Region-Seite nur kfw.de als Statusquelle verwenden."
+    }
+  ],
+  "sources_checked": 22,
+  "checked_urls_note": "22 URLs abgerufen (20 Ledger-Quellen + 2 ohne verwertbares Ergebnis): zusätzlich raw-vp-soziale-wrf.html (verwaltungsportal.hessen.de/leistung?leistung_id=L100001_8960248 — HTTP 404, Extrakt als 404-Stub gesichert) und raw-frankfurt-modernisierung.html (frankfurt.de Frankfurter Programm zur Modernisierung des Wohnbestandes — HTTP 403/Cloudflare-Challenge 'Just a moment...', auch im Browser-Render nicht überwunden; als offene Frage an Parent zurückgegeben).",
+  "unverified": [
+    "EIGENES KOMMUNALES Treppenlift-Programm einer hessischen Stadt/eines Kreises (analog Friedrichshafen, BW): NICHT gefunden. Frankfurt.de-Seite 'Frankfurter Programm zur Modernisierung des Wohnbestandes' (erwähnt ergänzende Barrierefreiheits-Maßnahmen) ist Cloudflare-blockiert (403, Browser-Challenge nicht überwunden) — Treppenlift-Nennung dort OFFEN, URL: https://frankfurt.de/themen/planen-bauen-und-wohnen/wohnen/gefoerderte-wohnungen-foerderprogramme/frankfurter-programm-zur-modenisierung-des-wohnbestandes",
+    "Höchstbetrags-Zusammensetzung bei mehreren Lift-/Bad-Maßnahmen in EINEM Antrag (z. B. Lift 6.500 € + Bad 5.500 € innerhalb der 50 %-/15.000-€-Deckel): Richtlinie lässt Deutung zu, liest sich aber als je-Maßnahme-Höchstbetrag UNTER dem Gesamtdeckel; für die Region-Seite nur beide Deckelebenen getrennt zitieren, keine kombinierte Beispielrechnung.",
+    "Antragsvordruck-Details (Excel/PDF-Antrag WIBank, Zusatzformular der Förderstelle) heruntergeladen aber nicht inhaltlich geprüft — Formular-Workflow (Hauptantrag + Förderstellen-Zusatz) nur via werra-meissner-kreis.de-Snippet (Sekundärquelle) gesehen, NICHT belegt.",
+    "Pflegestützpunkt-Anzahl '26' (Land-Portal, Stand Hessenkarte 05/2025) vs. vdek '33' (Sekundärquelle, Nebenstellen): Primärbeleg ist 26 je Landkreis/kreisfreie Stadt; vdek-Zahl nicht übernommen.",
+    "Ob die WIBank ein aktuelles Merkblatt/PIB mit abweichenden Details zum Produkt führt: Produktseite verweist direkt auf Richtlinie + Antragsvordrucke (Downloads); kein separates PIB gefunden — anders als bei L-Bank (BW) kein Verfallsrisiko über Zinsdokumente."
+  ],
+  "warnings": [
+    "KEINE Zinszahlen im Landesprogramm (Kostenzuschuss, kein Darlehen) — Volatilitäts-Politik der Region-Seiten unberührt; KfW 159-Seite zeigt Zins-Platzhalter '-,-- % p.a.'.",
+    "Treppenlift-Wording: Landesprogramm benennt 'Treppenlift' NIRGENDS namentlich (Produktseite 0×, Richtlinie 0×) — nur 'Lift-/Aufzugeinbau 6.500 Euro' + Beispiele 'Treppenschrägaufzug, Plattformlift'. Explizite 'Treppenlift'-Wortlaute nur auf: LWV-EGH-Leistungsseite (1×), Hessen-Pflegekassen-Leistungsseite (3×), Bad Homburg kommunal (1×), KfW 159 (3×). Region-Seite: Landeszuschuss für Treppenlift über die Lift-/Aufzugeinbau-Zeile begründen, nicht über ein 'Treppenlift'-Zitat des Landesprogramms.",
+    "Kumulation: Landesrichtlinie schreibt Kumulationsverbot + Anrechnung von Pflegekassen-Zuschüssen vor ('Zuschüsse anderer Stellen ... werden auf die zuwendungsfähigen Ausgaben angerechnet'; 'Zuschuss des Landes wird ... reduziert') — anders als die KfW-159-Kombinausnahme. Region-Seite darf keine Addier-Beispiele zeigen.",
+    "Status/Laufzeit: kein Antragsstopp, aber kein Rechtsanspruch, jährliches Fördermittelkontingent je Förderstelle, 'Auswahl nach sozialer Dringlichkeit' bei knappen Kontingenten; Programmvolumen 2025: 4,0 Mio. € (HMWEVW-Bilanz). Keine offizielle Wartezeit-Botschaft (anders als L-Bank 1-Jahres-Warnung in BW).",
+    "Vorhabensbeginn streng: schon der Abschluss eines Lieferungs-/Leistungsvertrages gilt als Beginn ('Als Vorhabenbeginn ist grundsätzlich der Abschluss eines der Ausführung zuzurechnenden Lieferungs- und Leistungsvertrages zu werten'); vor Bewilligung auch keine Aufträge erteilen.",
+    "Maßnahmekosten unter 1.500 € nicht förderfähig; Eigenleistungen nicht förderfähig; Bearbeitungsentgelt 1 % (mind. 25 €) — für Beratungstext relevant.",
+    "geschützte Tausendertrennzeichen im § 40 SGB XI-Wortlaut ('4 180 Euro') — Zitat-Prüfung normalisiert Ziffernabstände (siehe Checker).",
+    "Bad Homburg-Seite (07.07.2026) ist kommunale Pressemitteilung zum LANDESprogramm — gekennzeichnet führen, nicht als 'kommunales Förderprogramm'."
+  ],
+  "key_findings": [
+    {
+      "claim": "Hessens Weg-2-Programm für Wohnraumanpassung ist ein KOSTENZUSCHUSS (kein Darlehen): 'Behindertengerechter Umbau von Wohneigentum' des Landes Hessen, bewilligt von der WIBank — bis zu 50 % der zuwendungsfähigen Ausgaben, Höchstbetrag 15.000 € je Wohneinheit (förderfähige Kosten bis 30.000 € je Wohneinheit).",
+      "exact_quote": "Förderfähig sind Ausgaben in Höhe von bis zu 30.000 Euro je Wohneinheit, auch wenn die Ausgaben der baulichen Maßnahmen insgesamt höher sind. Dies entspricht einem Zuschuss in Höhe von maximal 15.000 Euro je Wohneinheit.",
+      "url": "https://www.wibank.de/resource/blob/wibank/306346/39845aeb7d0d5a93fc4aa1b251a398e0/richtlinie-behindertengerechter-umbau-von-wohneigentum-data.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/wibank-richtlinie.txt"
+    },
+    {
+      "claim": "Maßnahmenspezifische Höchstbeträge: Bad 5.500 €, Küche 5.500 €, Lift-/Aufzugeinbau 6.500 €, alle anderen Einzelmaßnahmen je 3.000 €; Maßnahmen unter 1.500 € und Eigenleistungen nicht gefördert; einmaliges Bearbeitungsentgelt 1 % (mind. 25 €).",
+      "exact_quote": "• Lift-/Aufzugeinbau 6.500 Euro",
+      "url": "https://www.wibank.de/resource/blob/wibank/306346/39845aeb7d0d5a93fc4aa1b251a398e0/richtlinie-behindertengerechter-umbau-von-wohneigentum-data.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/wibank-richtlinie.txt"
+    },
+    {
+      "claim": "Personenbezug: GdB ≥ 50 ODER Pflegegrad ≥ 2 im Haushalt (Nachweis via Schwerbehindertenausweis/Pflegegradnachweis); selbstgenutztes Bestands-Wohneigentum (Eigentümer/Erbbau, Nutzung auch durch Angehörige gerader Linie/3. Grad Seitenlinie).",
+      "exact_quote": "Ein Mensch mit Behinderung im Sinne dieser Richtlinie ist eine Person, die einen Grad der Behinderung von 50 Prozent oder mehr bzw. eine Einstufung in den Pflegegrad 2 oder höher aufweist.",
+      "url": "https://www.wibank.de/resource/blob/wibank/306346/39845aeb7d0d5a93fc4aa1b251a398e0/richtlinie-behindertengerechter-umbau-von-wohneigentum-data.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/wibank-richtlinie.txt"
+    },
+    {
+      "claim": "Treppenlift wird im Landesprogramm NICHT namentlich genannt (0× auf Produktseite und in der Richtlinie); förderfähig benannt: 'Lift-/Aufzugeinbau 6.500 Euro', Aufzugsbeispiele 'Treppenschrägaufzug, Plattformlift'; Bad doppelt belegt ('barrierefreier Badumbau', 'barrierereduzierender Badumbau, z. B. Austausch der Badewanne gegen eine Dusche').",
+      "exact_quote": "Einbau von geeigneten Aufzügen (z. B. Treppenschrägaufzug, Plattformlift)",
+      "url": "https://www.wibank.de/resource/blob/wibank/306346/39845aeb7d0d5a93fc4aa1b251a398e0/richtlinie-behindertengerechter-umbau-von-wohneigentum-data.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/wibank-richtlinie.txt"
+    },
+    {
+      "claim": "Keine Einkommensgrenze im Hessischen Umbau-Programm (Kontrast zu BW: Bezugsgröße 71.000 €): 'Einkommen' kommt 0× in der Richtlinie vor; bei knappen Kontingenten gilt soziale Dringlichkeitsauswahl mit finanzieller Situation als Kriterium.",
+      "exact_quote": "Steht dem Magistrat/Kreisausschuss nur ein begrenztes Mittelkontingent zur Verfügung und reichen die Mittel nicht aus, um alle Anträge zu berücksichtigen, ist eine Auswahl nach sozialer Dringlichkeit vorzunehmen.",
+      "url": "https://www.wibank.de/resource/blob/wibank/306346/39845aeb7d0d5a93fc4aa1b251a398e0/richtlinie-behindertengerechter-umbau-von-wohneigentum-data.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/wibank-richtlinie.txt"
+    },
+    {
+      "claim": "Antragsweg: Wohnungsbauförderstelle (Kreisausschuss/Magistrat; bei kreisangehörigen Städten > 50.000 EW der Magistrat) prüft und leitet an WIBank weiter; Förderzusage durch Zuwendungsbescheid; vor Bewilligung keine Aufträge/Beginn (Abschluss eines Lieferungs-/Leistungsvertrages = Vorhabensbeginn).",
+      "exact_quote": "beim Magistrat der kreisfreien Stadt, beim Magistrat von kreisangehörigen Städten mit mehr als 50.000 Einwohnerinnen und Einwohnern oder beim Kreisausschuss des Landkreises, in dessen Gebiet das Vorhaben durchgeführt werden soll, einzureichen.",
+      "url": "https://www.wibank.de/resource/blob/wibank/306346/39845aeb7d0d5a93fc4aa1b251a398e0/richtlinie-behindertengerechter-umbau-von-wohneigentum-data.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/wibank-richtlinie.txt"
+    },
+    {
+      "claim": "Status 26.11.2026: Programm offen (kein Stopp, keine offizielle Wartezeit); aber kein Rechtsanspruch, jährliches Kontingent je Förderstelle, Programmvolumen 2025 4,0 Mio. €; PM 01.07.2026 ändert nur Neubau/Modernisierung/Studierende-Richtlinien, behindertengerechter Umbau nicht erwähnt.",
+      "exact_quote": "4,0 Mio. Euro behindertengerechter Umbau bestehender Wohnungen",
+      "url": "https://wirtschaft.hessen.de/wohnen-und-bauen/soziale-wohnraumfoerderung",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/wirtschaft-hessen.txt"
+    },
+    {
+      "claim": "Weg 3 Hessen: Träger der Eingliederungshilfe — für Leistungen nach Schulabschluss der LWV Hessen (Zusammenschluss der hessischen Landkreise und kreisfreien Städte), davor/örtlich 26 Organisationseinheiten (21 Landkreise + 5 kreisfreie Städte, maschinell verifiziert); Wohnroute §§ 77/113 SGB IX; LWV-Wohnraum-Seite nennt Treppenlift ausdrücklich.",
+      "exact_quote": "Dies kann z. B. ein behindertengerechter Bad- und/oder Küchenumbau oder der Einbau eines Treppenlifts sein.",
+      "url": "https://www.lwv-hessen.de/leben-wohnen/wohnen/leistungen-fuer-wohnraum.html",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/lwv-wohnraum.txt"
+    },
+    {
+      "claim": "Subsidiarität in der EGH-Wohnroute (Kontrastpunkt für Region-Seite): vor Bewilligung ist zu klären, ob Vermieter, Pflegekasse, KfW oder WIBank die Finanzierung übernehmen.",
+      "exact_quote": "Bevor Leistungen der Eingliederungshilfe bewilligt werden können, ist vorrangig zu klären, ob andere Personen oder Leistungsträger (zum Beispiel Vermieter, Pflegekasse, KfW-Förderbank oder Wirtschafts- und Infrastrukturbank Hessen) die Finanzierung der Wohnraum-Anpassung übernehmen.",
+      "url": "https://www.lwv-hessen.de/leben-wohnen/wohnen/leistungen-fuer-wohnraum.html",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/lwv-wohnraum.txt"
+    },
+    {
+      "claim": "Kumulation Landesprogramm vs. Pflegekasse: Richtlinie ordnet ANRECHNUNG an (Kumulationsverbot) — Zuschüsse anderer Stellen (z. B. Pflegekasse) werden auf die zuwendungsfähigen Ausgaben angerechnet und der Landes-Zuschuss entsprechend reduziert.",
+      "exact_quote": "Zuschüsse anderer Stellen (zum Beispiel Pflegekasse, Rehabilitationsträger, Stiftungen, Versicherungen) werden auf die zuwendungsfähigen Ausgaben angerechnet (Teil II Nr. 13).",
+      "url": "https://www.wibank.de/resource/blob/wibank/306346/39845aeb7d0d5a93fc4aa1b251a398e0/richtlinie-behindertengerechter-umbau-von-wohneigentum-data.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/wibank-richtlinie.txt"
+    },
+    {
+      "claim": "Beratungsweg: 26 Pflegestützpunkte (je einer je Landkreis/kreisfreier Stadt), getragen von Kranken-/Pflegekassen gemeinsam mit kommunalen Trägern; Beratung neutral und kostenlos.",
+      "exact_quote": "In Hessen gibt es 26 Pflegestützpunkte - in jedem Landkreis und in jeder kreisfreien Stadt einen.",
+      "url": "https://www.pflege-in-hessen.de/beratung-und-information/pflegestuetzpunkte/",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/pflege-in-hessen.txt"
+    },
+    {
+      "claim": "KfW-Stand 26.11.2026 (Weg 4, wie BW): Zuschuss 455-B weiter gestoppt (Mittel ausgeschöpft; 2027-Wiederaufnahme-Bedingung); Kredit 159 läuft mit bis zu 50.000 € je Wohneinheit, nennt Treppenlifte (2×+1×) und erlaubt Kombination Pflegekassen-Zuschuss/159 für unterschiedliche Maßnahmen.",
+      "exact_quote": "Diesen Zuschuss können Sie nicht mehr beantragen.",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455)/",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/kfw-455b.txt"
+    },
+    {
+      "claim": "Kommunal (GEKENNZEICHNET): kein eigenes kommunales Treppenlift-Programm belegt; Stadt Bad Homburg kommuniziert das Landesprogramm kommunal (Wohnungsamt als Antragsstelle) mit expliziter Zeile 'Treppenlift oder Aufzug: bis zu 6.500 Euro' — als Einzelfall-Kommunikation, nicht als flächendeckendes Kommunales Programm.",
+      "exact_quote": "• Treppenlift oder Aufzug: bis zu 6.500 Euro",
+      "url": "https://www.bad-homburg.de/de/stadt/aktuelles/land-hessen-foerdert-den-behindertengerechten-umbau-von-wohneigentum-ov8e4kbakn",
+      "evidence_file": "research/evidence/region-screen-261126/hessen/bad-homburg-umbau.txt"
+    }
+  ]
+}

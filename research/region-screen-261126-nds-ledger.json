@@ -1,0 +1,391 @@
+{
+  "batch": "region-screen-261126-nds",
+  "checked_at": "2026-11-26",
+  "evidence_dir": "research/evidence/region-screen-261126/nds",
+  "notes": "Maschineller Verbatim-Check research/check_quotes_region_screen_261126_nds.py (Normalisierung: U+00AD strippen, NBSP/U+202F -> Leerzeichen, De-Hyphenation am Zeilenumbruch mit Grossbuchstaben-Heuristik, Whitespace-Collapse). Treppenlift-Absenz auf allen NBank-Kernquellen dokumentiert (Needles). Alle Abrufe 26.11.2026.",
+  "sources": [
+    {
+      "id": 1,
+      "label": "NBank — Eigentumsförderung (Selbst genutztes Wohneigentum) (Produktseite, Kernquelle Weg 2)",
+      "url": "https://www.nbank.de/F%C3%B6rderprogramme/Aktuelle-F%C3%B6rderprogramme/Eigentumsf%C3%B6rderung-(Selbst-genutztes-Wohneigentum).html",
+      "evidence": "nbank-eigentumsfoerderung.txt",
+      "quotes": [
+        "Wenn Sie selbst genutztes Wohneigentum bauen bzw. erwerben oder Ihr selbst genutztes Wohneigentum modernisieren wollen, unterstützt Sie diese Förderung bei verschiedenen Maßnahmen.",
+        "Neubau, Erwerb, barrierereduzierende Modernisierung, klimagerechte Modernisierung",
+        "Derzeit verzeichnen wir ein besonders hohes Antragsaufkommen. Dadurch kann sich die Bearbeitung Ihres Antrags leider etwas verzögern. Wir bearbeiten alle Anträge so schnell wie möglich und danken Ihnen für Ihre Geduld und Ihr Verständnis.",
+        "Die Produktinformation zur Modernisierung von selbstgenutztem Wohneigentum erhalten Sie hier .",
+        "Barrierereduzierende Modernisierung eines bestehenden Gebäudes",
+        "Darlehen bis zu 180.000 Euro für Haushalte der Einkommmensgruppe A Darlehen bis zu 140.000 Euro für Haushalte der Einkommmensgruppe B und C.",
+        "Den Antrag auf ein Darlehen zur Eigentumsförderung stellen Sie bitte bei der für Ihren Bauort zuständigen Wohnraumförderstelle (Landkreis, Stadt, Gemeinde).",
+        "Richtlinie Förderung von selbst genutztem Wohneigentum (RL Wohneigentum 2026)"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0× auf der Produktseite. 'Einkommmensgruppe' [sic] = Triple-m-Tippfehler der NBank-Seite, wörtlich übernommen."
+    },
+    {
+      "id": 2,
+      "label": "NBank — Produktinformation Modernisierung von selbstgenutztem Wohneigentum (PDF, Stand 10.07.2026)",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Programminformation/Produktinformationen/Produktinformation-Modernisierung-von-selbstgenutztem-Wohneigentum.pdf",
+      "evidence": ["nbank-produktinfo-modernisierung.txt", "nbank-produktinfo-modernisierung.layout.txt"],
+      "quotes": [
+        "Produktinformation (Stand 10.07.2026)",
+        "Diese Förderung unterstützt Sie bei der barrierereduzierenden Modernisierung und/oder der klimagerechten Modernisierung Ihrer selbst genutzten Bestandsimmobilie.",
+        "Barrierereduzierende Modernisierung bezeichnet bauliche Maßnahmen, die bestehende Hindernisse im selbst genutzten Wohneigentum verringern oder beseitigen und dadurch die Zugänglichkeit, Bewegungsfreiheit oder Nutzbarkeit für die Bewohnerinnen und Bewohner verbessern.",
+        "Barrierereduzierende Modernisierung eines bestehenden Gebäudes mit Gesamtkosten von bis zu 15.000 Euro",
+        "Einkommensgruppe A: bis zu 40 % der Gesamtkosten, max. 6.000 Euro",
+        "Einkommensgruppen B+C: bis zu 30 % der Gesamtkosten, max. 4.500 Euro",
+        "Bei der barrierereduzierenden Modernisierung mit Gesamtkosten ab 15.001 Euro und bei der klimagerechten Modernisierung ist die Gewährung des Zuschusses an die Inanspruchnahme des Darlehens gebunden; eine Zuwendung ausschließlich in Form des Zuschusses bei diesen Förderungen ist ausgeschlossen.",
+        "Jahr 1–15: 0%",
+        "Tilgung: 2%",
+        "Jährlicher Verwaltungskostenbetrag: 0,5 % vom jeweiligen Darlehensrestschuldbetrag",
+        "Bearbeitungsentgelt: jeweils einmalig 1 % des bewilligten Darlehens und/oder 0,75 % des bewilligten Zuschusses",
+        "Die Eigenmittel müssen 10 %, bei Haushalten mit 2 oder mehr Kindern sowie mit Menschen mit Behinderungen 7,5 %, der Gesamtkosten (z. B. Bargeld, Guthaben, Sach- und Arbeitsleistungen) betragen.",
+        "Als Vorhabenbeginn ist grundsätzlich der Abschluss eines dem Vorhaben zuzurechnenden Lieferungs-, Leistungs-, Kauf- oder Werkvertrages zu werten.",
+        "Einkommensgruppe A § 3 Abs. 2 NWoFG",
+        "Einkommensgruppe B § 3 Abs. 2 NWoFG + 40 %",
+        "Den Antrag auf barrierereduzierende und/oder klimagerechte Modernisierung selbstgenutzten Wohneigentums stellen Sie bitte bei der für Ihren Bauort zuständigen Wohnraumförderstelle (Landkreis, Stadt, Gemeinde).",
+        "− für die Antragstellerin oder den Antragsteller 675 Euro,",
+        "− für jede weitere zum Haushalt rechnende Person zusätzlich 600 Euro,",
+        "− für jedes Kind ein Betrag von 475 Euro."
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0× in der Produktinformation. Tabellenzeilen der Fördersätze im PDF spalteninterleavt — verbindliche Fördersatz-Tabelle über RL WoE 2026 (Quelle 3) abgedeckt."
+    },
+    {
+      "id": 3,
+      "label": "RL Wohneigentum 2026 — RdErl. d. MW v. 25.06.2026 (Nds. MBl. 2026 Nr. 317, PDF via NBank; Rechtsgrundlage)",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Rechtliche-Grundlagen/Richtlinien/Richtlinie-F%C3%B6rderung-von-selbst-genutztem-Wohneigentum-(RL-Wohneigentum-2026).pdf",
+      "evidence": "nbank-rl-wohneigentum-2026.txt",
+      "quotes": [
+        "Richtlinie über die Gewährung von Zuwendungen zur Förderung von selbst genutztem Wohneigentum (RL Wohneigentum 2026)",
+        "RdErl. d. MW v. 25.06.2026 – 60-25110-3//000-26 –",
+        "Zweck der Förderung ist, Haushalten die Bildung von selbst genutztem Wohneigentum zu ermöglichen sowie Haushalte bei der Modernisierung bestehenden Wohneigentums zu unterstützen.",
+        "Ein Anspruch auf Gewährung einer Zuwendung besteht nicht, vielmehr entscheidet die Bewilligungsbehörde aufgrund ihres pflichtgemäßen Ermessens im Rahmen der verfügbaren Haushaltsmittel.",
+        "Zuwendungsberechtigt sind Haushalte, deren Gesamtjahreseinkommen die Einkommensgrenzen nach § 3 Abs. 2 NWoFG – nicht überschreitet (Einkommensgruppe A), – um bis zu 40 % überschreitet (Einkommensgruppe B) und, – sofern sich das selbst genutzte Wohneigentum in einem Gebiet nach § 4 Abs. 1 Nr. 3 oder 4 DVO-NWoFG befindet, um bis zu 60 % überschreitet (Einkommensgruppe C).",
+        "Bereits begonnene Vorhaben werden nicht gefördert. Als Vorhabenbeginn ist grundsätzlich der Abschluss eines dem Vorhaben zuzurechnenden Lieferungs-, Leistungs-, Kauf- oder Werkvertrages zu werten.",
+        "Bei Maßnahmen mit im Antrag zugrunde gelegten zuwendungsfähigen Ausgaben von weniger als 100 000 EUR ist der Vorhabenbeginn ab Antragstellung zugelassen.",
+        "Die Zuwendungsempfängerin oder der Zuwendungsempfänger ist verpflichtet, zur Finanzierung der Maßnahme Eigenmittel in Höhe von mindestens 10 % der Gesamtkosten einzusetzen.",
+        "Der Begriff Wohnraumförderstelle bezeichnet die nach § 21 Abs. 1 Satz 1 NWoFG zuständige Stelle.",
+        "7. Barrierereduzierende Modernisierung (Nummer 2.1.3)",
+        "Die Zuwendungen werden als ein anfänglich zinsloses, rückzahlbares Darlehen und als ein nicht rückzahlbarer Zuschuss in Form einer Anteilsfinanzierung zur Projektförderung gewährt.",
+        "Zuwendungsfähig sind die Gesamtkosten der Maßnahme.",
+        "Durch die baulichen Maßnahmen muss eine Verringerung bestehender Barrieren erreicht werden, die die Zugänglichkeit, Bewegungsfreiheit oder Nutzbarkeit des Wohnraums für die Bewohnerinnen und Bewohner verbessert.",
+        "bis 15 000 EUR – – bis zu 40 % 6 000 EUR",
+        "bis 50 000 EUR bis zu 55 % 27 500 EUR bis zu 35 % 17 500 EUR",
+        "mehr als 50 000 EUR bis zu 60 % 60 000 EUR bis zu 30 % 30 000 EUR",
+        "bis 15 000 EUR – – bis zu 30 % 4 500 EUR",
+        "bis 50 000 EUR bis zu 65 % 32 500 EUR bis zu 25 % 12 500 EUR",
+        "mehr als 50 000 EUR bis zu 70 % 70 000 EUR bis zu 20 % 20 000 EUR",
+        "das Darlehen für die Dauer von 15 Jahren zu einem Zinssatz von 0 % gewährt wird.",
+        "Der Zuwendungszeitraum beginnt nach Abschluss der Modernisierungsmaßnahme und endet nach Ablauf von 15 Jahren. Abweichend hiervon endet der Zuwendungszeitraum bei Maßnahmen mit Gesamtkosten bis 15 000 EUR nach Ablauf von fünf Jahren.",
+        "– bis zu 30 % nach Beginn der Baumaßnahme, – weitere 60 %, wenn Kosten in entsprechender Höhe nachgewiesen sind, – 10 % nach Abschluss der Modernisierungsmaßnahme und Vorlage der Schlussbescheinigung."
+      ],
+      "needles_absent": {"Treppenlift": 0, "Rollstuhl": 0},
+      "needles_note": "Absenz-Needles: 'Treppenlift' 0× UND 'Rollstuhl' 0× im gesamten RL-WoE-2026-Text — anders als die SAB-FRL Sachsen kein R-Standard-Konzept; Maßnahmen definiert rein funktional über Barrieren-Verringerung (Zugänglichkeit/Bewegungsfreiheit/Nutzbarkeit)."
+    },
+    {
+      "id": 4,
+      "label": "NWoFG-Änderungsgesetz v. 30.01.2025 — Einkommensgrenzen § 3 Abs. 2 (Nds. GVBl. 2025 Nr. 7, PDF via NBank)",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Rechtliche-Grundlagen/Landesrecht/%C3%84nderung-NWoFG-(Nieders%C3%A4chsisches-Wohnraum-und-Wohnquartierf%C3%B6rdergesetz-)-%E2%80%93-g%C3%BCltig-ab-01.03.2025.pdf",
+      "evidence": "nbank-nwofg-aenderung-2025.txt",
+      "quotes": [
+        "Gesetz zur Änderung des Niedersächsischen Wohnraum- und Wohnquartierfördergesetzes Vom 30. Januar 2025",
+        "In Nummer 1 wird die Angabe „17 000“ durch die Angabe „21 250“ ersetzt.",
+        "In Nummer 2 wird die Angabe „23 000“ durch die Angabe „28 750“ ersetzt.",
+        "In den Sätzen 2 und 3 wird jeweils die Angabe „3 000“ durch die Angabe „3 750“ ersetzt.",
+        "Dieses Gesetz tritt am Ersten des Monats, der auf den Monat folgt, in dem das Gesetz verkündet wurde, in Kraft."
+      ],
+      "needles": [],
+      "note": "Änderungswortlaut des GVBl: § 3 Abs. 2 NWoFG neue Grenzen 21 250 / 28 750 EUR (+3 750 je Person/Kind), gültig ab 01.03.2025 (NI-VORIS-Version 'ab 01.03.2025')."
+    },
+    {
+      "id": 5,
+      "label": "DVO-NWoFG v. 30.07.2025 (Nds. GVBl. 2025 Nr. 58, gültig ab 01.09.2025, PDF via NBank) — Einkommensermittlung, Freibeträge, Grenzüberschreitung",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Rechtliche-Grundlagen/Richtlinien/DVO-NWoFG-Verordnung-zur-Durchf%C3%BChrung-des-Nieders%C3%A4chsischen-Wohnraum-und-Wohnraumquartierf%C3%B6rdergesetzes-(G%C3%BCltig-ab-01.09.2025).pdf",
+      "evidence": ["nbank-dvo-nwofg-2025.txt", "nbank-dvo-nwofg-2025.layout.txt"],
+      "quotes": [
+        "Verordnung zur Durchführung des Niedersächsischen Wohnraum- und Wohnquartierfördergesetzes (DVO-NWoFG) Vom 30. Juli 2025",
+        "4 000 Euro für jede dem Haushalt angehörende Person mit einem Grad der Behinderung von wenigstens 50 und für jede dem Haushalt angehörende pflegebedürftige Person des Pflegegrads 2, 3, 4 oder 5, jedoch höchstens 4 000 Euro pro Person,",
+        "Bei der Eigentumsförderung kann in der Förderentscheidung nach § 6 Abs. 1 Satz 3 NWoFG bestimmt werden, dass die in § 3 Abs. 2 NWoFG festgelegten Einkommensgrenzen um bis zu 40 Prozent überschritten werden dürfen.",
+        "Diese Verordnung tritt am 01. September 2025 in Kraft."
+      ],
+      "needles": [],
+      "note": "§ 3 Abs. 1 Nr. 1 DVO-NWoFG: Freibetrag 4 000 €/Jahr je Person mit GdB ≥ 50 ODER Pflegegrad 2–5 — direkt zielgrupprelevant. § 5 Satz 2 DVO: bis 60 % Überschreitung in Gebieten nach § 4 Abs. 1 Nr. 3/4 (= Einkommensgruppe C)."
+    },
+    {
+      "id": 6,
+      "label": "VV NWoFG — RdErl. d. MW v. 25.06.2026 (Nds. MBl. 2026 Nr. 316, PDF via NBank) — Vollzugs-VwV",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Rechtliche-Grundlagen/Landesrecht/Verwaltungsvorschrift-zum-Vollzug-der-%C2%A7%C2%A7-5-und-7-bis-14-des-Nieders%C3%A4chsischen-Wohnraum-und-Wohnquartierf%C3%B6rdergesetzes-(VV-NWoFG).pdf",
+      "evidence": "nbank-vv-nwofg.txt",
+      "quotes": [
+        "Verwaltungsvorschrift zum Vollzug der §§ 5 und 7 bis 14 des Niedersächsischen Wohnraum- und Wohnquartierfördergesetzes (VV NWoFG)",
+        "RdErl. d. MW v. 25.06.2026 – 60-25100/70/00 –",
+        "Der Begriff Wohnraumförderstelle bezeichnet die nach § 21 Abs. 1 Satz 1 NWoFG zuständige Stelle."
+      ],
+      "needles_absent": {"Treppenlift": 0}
+    },
+    {
+      "id": 7,
+      "label": "MW — Eigentumsförderung (Nds. Ministerium für Wirtschaft, Verkehr und Bauen, Ministeriums-Seite)",
+      "url": "https://www.mw.niedersachsen.de/startseite/bauen_wohnen/wohnraumforderung/eigentumsforderung/eigentumsforderung-217032.html",
+      "evidence": "mw-eigentumsfoerderung.txt",
+      "quotes": [
+        "Gefördert werden der Neubau, der Erwerb, die Modernisierung einschließlich altersgerechter Modernisierung sowie die energetische Modernisierung von selbst genutztem Wohnraum.",
+        "Gefördert wird mit anfänglich zinslosen Darlehen.",
+        "In die Finanzierung des Objektes soll ein Eigenkapitalanteil von in der Regel 15 Prozent der Gesamtkosten einfließen (Eigenleistungen können angerechnet werden).",
+        "Fragen zu den Förderkonditionen im Rahmen der Eigentumsförderung beantworten Ihnen die örtlichen Wohnraumförderstellen bei den Landkreisen, kreisfreien und großen selbständigen Städten sowie selbständigen Gemeinden sowie die Mitarbeiterinnen und Mitarbeiter der Förderberatung der NBank , Tel. 0511/30031-9333, Fax 0511/3003111333, E-Mail: info@nbank.de ."
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0×. ACHTUNG Alt-Text: MW-Seite beschreibt Altkonditionen ('altersgerechte Modernisierung', Eigenkapital 'in der Regel 15 Prozent') — vor der RL WoE 2026 (Eigenmittel 10 %/7,5 %, Bezeichnung 'barrierereduzierende Modernisierung'). Ministeriumsseite nicht aktualisiert — nur mit Datierung verwenden."
+    },
+    {
+      "id": 8,
+      "label": "NBank — Standorte & Beratungsstellen (Wohnraumförderstellen-Übersicht, Antragsweg)",
+      "url": "https://www.nbank.de/Service/Beratungssstellen/",
+      "evidence": "nbank-beratungsstellen.txt",
+      "quotes": [
+        "Wir beraten und fördern in ganz Niedersachsen. Lernen Sie unsere Beratungsstellen kennen.",
+        "Darüber hinaus stellen wir Ihnen auf dieser Seite die Kontaktdaten von Wohnraumförderstellen und Fachkundigen Stellen für den MikroSTARTer in Ihrer Nähe zur Verfügung.",
+        "Haben Sie Fragen zu einer Wohnraumförderung oder wünschen Sie eine fachliche Beratung? Ihre zuständige Wohnraumförderstelle finden Sie hier."
+      ],
+      "needles": [],
+      "note": "Seite listet die Wohnraumförderstellen (Städte/Landkreise) mit Kontaktdaten; Anker-Link der Produktseiten: nbank.de/Service/Beratungssstellen/#wohnraumfoerderstellen."
+    },
+    {
+      "id": 9,
+      "label": "soziales.niedersachsen.de (Nds. Landesamt für Soziales, Jugend und Familie) — EGH: 6. Wie erhalte ich Leistungen? (Weg 3 Kernquelle inkl. Trägerliste)",
+      "url": "https://soziales.niedersachsen.de/startseite/menschen_mit_behinderungen/eingliederungshilfe/wie_erhalte_ich_leistungen/-200447.html",
+      "evidence": "nds-soziales-egh-leistungen.txt",
+      "quotes": [
+        "Leistungen der Eingliederungshilfe erhalten Sie nur auf Antrag.",
+        "Die Antragstellung ist nicht an Fristen gebunden.",
+        "Beachten Sie aber, dass Leistungen erst beginnend mit dem Monat der Antragstellung gewährt werden können.",
+        "Für die Beantragung einzelner oder mehrerer Leistungen müssen Sie einen Antrag bei dem zuständigen Rehabilitationsträger stellen.",
+        "Zuständig für die Leistungen der Eingliederungshilfe sind in Niedersachsen die Kommunen, das heißt die Landkreise, die kreisfreien Städte, die Region Hannover, die Städte Hannover, Göttingen, Hildesheim, Lingen (Ems) und Lüneburg.",
+        "Landkreise (alphabetisch)",
+        "Kreisfreie Städte (alphabetisch)",
+        "Große selbständige Städte (alphabetisch)"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0×; Wohnraum-Umbau nur via §§ 113/77 SGB IX erschließbar. Namensliste im Evidenzfile maschinell gezählt: 36 benannte Landkreise, Region Hannover (inline im Landkreis-Block als 37. Einheit), 8 kreisfreie Städte, 3 große selbständige Städte (Hildesheim, Lingen (Ems), Lüneburg)."
+    },
+    {
+      "id": 10,
+      "label": "Serviceportal Niedersachsen — Eingliederungshilfe für Erwachsene ... beantragen (pstId=8664328, offizielle Leistungsseite Weg 3)",
+      "url": "https://service.niedersachsen.de/detail?pstId=8664328",
+      "evidence": "serviceportal-nds-egh-8664328-rendered.txt",
+      "quotes": [
+        "Die Leistungen der Eingliederungshilfe sollen eine umfassende Teilhabe von Menschen mit wesentlichen Behinderungen in allen Bereichen des gesellschaftlichen Lebens ermöglichen.",
+        "Sie erhalten Leistungen der Eingliederungshilfe, sofern Sie die erforderliche Leistung nicht von anderen Sozialleistungs- oder Rehabilitationsträgern, zum Beispiel der Krankenkasse, dem Rentenversicherungsträger, der Agentur für Arbeit, dem Unfallversicherungsträger, erhalten.",
+        "Die Kosten für die Leistungen übernimmt der zuständige Träger der Eingliederungshilfe. Die Bundesländer legen fest, wer Träger der Eingliederungshilfe ist.",
+        "Bei den Leistungen der Eingliederungshilfe müssen Sie grundsätzlich einen Beitrag aus Ihrem Einkommen sowie aus Ihrem Vermögen, sofern es eine festgesetzte Grenze überschreitet, zahlen."
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "JS-SPA mit ALTCHA-Bot-Schutz + Cookie-Banner; Text über Browser-Render gesichert (gerenderte Fassung). Akkordeon-Sektionen (An wen muss ich mich wenden? / Verfahrensablauf / Fristen / Bearbeitungsdauer) konnten in dieser Session nicht expandiert werden — Details (formloser Antrag, Gesamtplanverfahren, 2-/3-Wochen-Fristen) daher NICHT zitiert, siehe offene Fragen."
+    },
+    {
+      "id": 11,
+      "label": "soziales.niedersachsen.de — Förderung der Seniorenberatung in den Senioren- und Pflegestützpunkten Niedersachsen (SPN) (Pflegestützpunkte-Beleg)",
+      "url": "https://soziales.niedersachsen.de/startseite/soziales_amp_gesundheit/soziale_forderungen/forderung_von_senioren_und_pflegestutzpunkten_niedersachsen_spn/forderung-von-senioren-und-pflegestutzpunkten-niedersachsen-spn-179120.html",
+      "evidence": "nds-soziales-spn.txt",
+      "quotes": [
+        "Es liegt im Interesse des Landes Niedersachsen die Lebensqualität der älteren Menschen zu verbessern, einen langen Verbleib in der eigenen Wohnung und bedarfsgerechte Unterstützungsleistungen zu ermöglichen. Daher fördert das Land die Einrichtung und den Betrieb eines Senioren- und Pflegestützpunktes Niedersachsen oder eines Seniorenstützpunktes Niedersachsen in jedem Landkreis und jeder kreisfreien Stadt sowie in der Region Hannover, der Landeshauptstadt Hannover und der Stadt Göttingen.",
+        "Zuwendungsempfänger (Erstempfänger) sind in der Regel die Landkreise und kreisfreien Städte sowie die Region Hannover, die Landeshauptstadt Hannover und die Stadt Göttingen.",
+        "Das Land fördert jeden Senioren- und Pflegestützpunkt Niedersachsen richtlinienbasiert mit bis zu 70 % der zuwendungsfähigen Gesamtausgaben, höchstens jedoch mit 40.000 € im Rahmen einer Anteilfinanzierung.",
+        "Zu beachten ist, dass sich die Landkreise und kreisfreien Städte sowie die Region Hannover, die Landeshauptstadt Hannover und die Stadt Göttingen mit mindestens 30% an den zuwendungsfähigen Ausgaben zu beteiligen haben."
+      ],
+      "needles": [],
+      "note": "NDS-Konzept heißt flächendeckend 'Senioren- und Pflegestützpunkt Niedersachsen (SPN)' (Zusammenschluss Seniorenservicebüro + Pflegestützpunkt, seit 01.01.2014); je kommunaler Gebietskörperschaft ein SPN/SN."
+    },
+    {
+      "id": 12,
+      "label": "Niedersachsenbüro Neues Wohnen — Fördermöglichkeiten (Wohnberatung-Landesbüro; GEKENNZEICHNET: Träger FWG e.V. + BAG Wohnungsanpassung e.V., kein Regierungsorgan)",
+      "url": "https://neues-wohnen-nds.de/wohnberatung/fachinformationen/foerdermoeglichkeiten/",
+      "evidence": "neues-wohnen-nds-foerdermoeglichkeiten.txt",
+      "quotes": [
+        "Das Land Niedersachsen fördert in seinem Wohnungsbauprogramm die Finanzierung von Wohnungsanpassungsmaßnahmen (Modernisierungsmaßnahmen) für selbstnutzende Wohneigentümer und für Investoren .",
+        "Die Mittelvergabe erfolgt über die Investitions- und Förderbank Niedersachsen (NBank) und ist an Einkommensgrenzen (Einkommensgruppen A, B und C) und limitierte Wohnungsgrößen der Nutzerinnen und Nutzer gebunden.",
+        "Gefördert wird, was über Einzelmaßnahmen hinausgeht und wird im Einzelfall entschieden. Ein Badumbau oder die Verbreiterung mehrerer Türen wird gefördert, auch der Badumbau und Treppenlift, aber nicht der alleinige Treppenlift.",
+        "– Einkommensgruppe A: bis zu 40 % der Gesamtkosten, max. 6.000 Euro",
+        "– Einkommensgruppen B+C: bis zu 30 % der Gesamtkosten, max. 4.500 Euro",
+        "Informationen gibt es bei den Wohnraumförderstellen in den Landkreisen, Städten oder Gemeinden – hier werden auch die Anträge gestellt."
+      ],
+      "needles": ["Treppenlift"],
+      "needles_note": "Count-Needle: 'Treppenlift' 3× (1× Pflegekassen-Kontext 'fest installierte Rampen und Treppenlifte', 2× NBank-Auslegung 'Badumbau und Treppenlift ... nicht der alleinige Treppenlift'). Interpretationshilfe eines landesfinanzierten Wohnberatungsbüros — KEINE Rechtsquelle; auf der Region-Seite nur gekennzeichnet als Auslegungshinweis."
+    },
+    {
+      "id": 13,
+      "label": "Niedersachsenbüro Neues Wohnen — Impressum (Träger-Beleg für Quelle 12)",
+      "url": "https://neues-wohnen-nds.de/impressum/",
+      "evidence": "neues-wohnen-nds-impressum.txt",
+      "quotes": [
+        "Träger des NIEDERSACHSENBÜRO Neues Wohnen im Alter",
+        "IMG-ALT-Attribute der Traeger-Logos (aus dem HTML extrahiert): Logo FORUM Gemeinschaftliches Wohnen | Logo  BAG Wohnungsanpassung e. V. | Niedersächsisches Ministerium für Soziales, Gesundheit und Gleichstellung"
+      ],
+      "needles": [],
+      "note": "IMG-ALT-Zeile ist in der Evidenzdatei dokumentiert (Logos = Träger-Kennzeichnung). Quellen 12/13 sind NICHT amtlich — Interessenlage: Wohlfahrtsverbände/Wohnberatung, keine Treppenlift-Anbieter, aber auch keine Behörde."
+    },
+    {
+      "id": 14,
+      "label": "MS — Broschüre 'Wohnen im Alter – am liebsten zu Hause' (Nds. Ministerium für Soziales; Kontext + ALT-Konditionen-Falle)",
+      "url": "https://www.ms.niedersachsen.de/download/194009/Wohnen_im_Alter_-_AM_LIEBSTEN_ZU_HAUSE.pdf",
+      "evidence": ["ms-wohnen-im-alter.txt", "ms-wohnen-im-alter.layout.txt", "ms-wohnen-im-alter.raw.txt"],
+      "quotes": [
+        "Wohnen im Alter am liebsten zu Hause",
+        "Können Sie die Treppe nicht mehr zu Fuß überwinden, kann ein Treppenlift helfen.",
+        "Mit den wohnumfeldverbessernden Maßnahmen gewährt Ihnen die Pflegekasse einen Zuschuss zu baulichen Maßnahmen wie z.B. Türverbreiterungen, Badumbau oder fest installierte Rampen und Treppenlifte.",
+        "Die Landesförderung umfasst zinslose Darlehen und – in Verbindung mit einem Darlehen – Zuschüsse in Höhe von jeweils 3.000 Euro für Menschen mit Behinderung oder Kinder, die mit im Haushalt leben.",
+        "Anspruch auf Eingliederungshilfe besteht nur nachrangig, das heißt die Leistungen der Eingliederungshilfe werden nur gewährt, wenn die Leistungen nicht durch einen vorrangig verpflichteten Leistungsträger wie zum Beispiel die Krankenversicherung, Rentenversicherung, das Integrationsamt oder die Bundesagentur für Arbeit erbracht werden."
+      ],
+      "needles": ["Treppenlift"],
+      "needles_note": "Count-Needle: 'Treppenlift' 6× im Broschüren-PDF (Ratgeber-Kapitel, Pflegekasse, KfW-Kontext, Arbeitsplatz-EGH, Hilfsmittel-Bezugsquellen-Tabelle; Checker summiert 19 über die 3 Extrakte desselben Dokuments). WARNUNG: Die 3.000-€-Zuschussangabe beschreibt den ALT-Programmstand (vor RL WoE 2026; neu: 10.000 €/Kind bzw. Mensch mit Behinderung laut NBank-Produktseite) — Broschüre nicht aktualisiert, Konditionen immer aus RL/NBank-Produktinfo."
+    },
+    {
+      "id": 15,
+      "label": "LSN — 'Niedersachsen in Zahlen' (Landesamt für Statistik Niedersachsen, PDF) — Verwaltungsgliederung-Zählweise",
+      "url": "https://www.statistik.niedersachsen.de/download/49134",
+      "evidence": ["lsn-niedersachsen-in-zahlen.txt", "lsn-niedersachsen-in-zahlen.layout.txt"],
+      "quotes": [
+        "Es gliedert sich in 8 kreisfreie Städte und 37 Landkreise. Eine Besonderheit ist die Region Hannover, in der die Landeshauptstadt Hannover und die Städte und Gemeinden ihres Umlandes zusammengeschlossen sind."
+      ],
+      "needles": [],
+      "note": "Formel '37 Landkreise + Region Hannover' des Landesportals/LSN vs. operative EGH-Namensliste (36 benannte Landkreise + Region Hannover, Quelle 9): Differenz dokumentiert — Region Hannover wird als 'Landkreis-Besonderheit' gezählt. Für die Region-Seite: EGH-Träger immer über die Namensliste (Quelle 9) + SPN-Satz (Quelle 11) belegen."
+    },
+    {
+      "id": 16,
+      "label": "VERWORFEN (Alt-Falle) — NBank Produktinformation 'Altersgerechte Modernisierung von Wohneigentum' (Stand 12.04.2017)",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Programminformation/Produktinformationen/Produktinformation-Altersgerechte-Modernisierung-von-Wohneigentum.pdf",
+      "evidence": "nbank-produktinfo-altersgerecht-alt.txt",
+      "quotes": [
+        "PRODUKTINFORMATION (STAN D 12.04.2017)",
+        "Altersgerechte Modernisierung Ein Darlehen des Landes"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Alte Produktinformation (STAND 12.04.2017 [sic, Spatium aus pdftotext-Layout]) weiterhin im Netz indexiert; Begriff 'barrierereduzierende Modernisierung' fehlt. Durch Produktinfo v. 10.07.2026 (Quelle 2) ersetzt — NICHT als Konditionsquelle verwenden."
+    },
+    {
+      "id": 17,
+      "label": "VERWORFEN (Zielgruppen-Falle) — NBank Produktinformation Modernisierung von Mietwohnungen in Mehrfamilienhäusern (Stand 21.01.2026, Investoren)",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Programminformation/Produktinformationen/Produktinformation-Modernisierung-von-Mietwohnungen-in-Mehrfamilienh%C3%A4usern.pdf",
+      "evidence": "nbank-produktinfo-mietwohnungen.txt",
+      "quotes": [
+        "Produktinformation (Stand 21.01.2026)",
+        "Zusätzliche Zuschüsse in Höhe von 5.000 Euro für jede barrierefrei nutzbare Wohnung gemäß DIN 18040-2"
+      ],
+      "needles": [],
+      "needles_note": "Investoren-Produkt (Vermieter): 5.000-€-Zuschuss je barrierefreier Mietwohnung = kein Zuschuss an Mieter/Eigentümer für den eigenen Umbau — für die Zielgruppe 'Wohnraumanpassung im Bestand' ungeeignet."
+    },
+    {
+      "id": 18,
+      "label": "VERWORFEN (kommunaler Kandidat-Check) — Landeshauptstadt Hannover: Wohnraumförderprogramm (Anlage zu Rats-Vorlage 1049-2022, Fassung 17.02.2022)",
+      "url": "https://e-government.hannover-stadt.de/lhhSIMwebdd.nsf/3250A65C3CB2D7F8C125882B00187821/$FILE/1049-2022_Anlage1.pdf",
+      "evidence": "lhh-wohnraumfoerderprogramm-1049-2022.txt",
+      "quotes": [
+        "Wohnraumförderprogramm der Landeshauptstadt Hannover",
+        "Fassung 17.02.2022",
+        "Es wird die Neuschaffung von Wohnungen"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0×; 'barrierefrei' nur als Belegungsanforderung. Kommunales Programm fördert Neuschaffung von Mietwohnungen (Investoren) — KEIN kommunaler Umbau-Zuschuss für Private, damit kein Friedrichshafen-Äquivalent gefunden."
+    },
+    {
+      "id": 19,
+      "label": "SEKUNDÄR (gekennzeichneter Interessenkonflikt-Kontext) — Siemer Treppenlifte: 'Landesförderung Niedersachsen' (Treppenlift-Anbieter-Blog)",
+      "url": "https://www.siemer-treppenlifte.de/ratgeber/treppenlift-finanzierung/landesfoerderung-niedersachsen",
+      "evidence": "SEKUNDAER-siemer-landesfoerderung.txt",
+      "quotes": [
+        "Seit dem 1. Juli 2026 fördert Niedersachsen den Treppenlift im eigenen Haus mit einem NBank-Zuschuss: bis zu 6.000 Euro, ohne Pflegegrad und Altersgrenze.",
+        "kommunale Ergänzungsprogramme gibt, wie sie etwa die Region Hannover kennt"
+      ],
+      "needles": ["Treppenlift"],
+      "needles_note": "Vendor-Aussage (Verkaufsinteresse!). Kernaussage deckt sich mit RL WoE 2026 (40 %/6.000 €); die Behauptung zu kommunalen Ergänzungsprogrammen der Region Hannover ist NICHT amtlich verifiziert — nur als Recherchespur in offene Fragen."
+    },
+    {
+      "id": 20,
+      "label": "SEKUNDÄR (gekennzeichneter Interessenkonflikt-Kontext) — altersgerecht-modernisieren.de: Osnabrück-Seite (Kommerzielles Ratgeberportal)",
+      "url": "https://altersgerecht-modernisieren.de/foerderungen/osnabrueck",
+      "evidence": "SEKUNDAER-altersgerecht-osnabrueck.txt",
+      "quotes": [
+        "Der Zuschuss ist zu. Der Investitionszuschuss Barrierereduzierung, Programmnummer 455-B, nimmt seit Ende Juli 2026 keine Anträge mehr an"
+      ],
+      "needles": [],
+      "needles_note": "Nur als Interessenkonflikt-Kontext: Bestätigt KfW-455-B-Stop (konsistent mit BW-Lauf 25.11.2026: 'Diesen Zuschuss können Sie nicht mehr beantragen'); Weg 4 bleibt übersprungen, keine Übernahme in Region-Content."
+    }
+  ],
+  "sources_checked": 20,
+  "checked_urls_note": "20 Quellen abgerufen und gespeichert (davon 4 verworfen/Sekundär-gekennzeichnet): zusätzlich geprüft ohne verwertbares Ergebnis — service.niedersachsen.de erstmals nur JS-Shell + ALTCHA (dann Browser-Render erfolgreich), Serviceportal-Akkordeons nicht expandierbar (Runtime-Timeout), NI-VORIS (voris.wolterskluwer-online.de) nicht gerendert (SPA), hannover.de/Osnabrück/Emden/Wilhelmshaven kommunale Treppenlift-Suchen ohne amtlichen Treffer.",
+  "unverified": [
+    "Kommunale Treppenlift-/Umbau-Zuschussprogramme in NDS: kein amtliches Beispiel gefunden (LHH-Programm = Neubau-Mietwohnraum, Treppenlift 0×). Siemer-Vendor-Claim zu 'kommunale Ergänzungsprogramme, wie sie etwa die Region Hannover kennt' unverifiziert — offene Frage mit URL region-hannover.gov.de / hannover.de.",
+    "Serviceportal-EGH-Akkordeon-Inhalte (formloser Antrag, Gesamtplanverfahren, 2-Wochen-Zuständigkeitsprüfung, 3-Wochen-Entscheidung ohne Gutachten): in Suchtreffern sichtbar, im gerenderten SPA aber nicht expandierbar — NICHT zitiert; ggf. über PDF-Download-Funktion der Leistungsseite nachholen.",
+    "NI-VORIS-Volltexte (NWoFG § 3, RL WoE 2026 Abschnitt 7): Wolters-Kluwer-SPA in dieser Session nicht gerendert; Belege stattdessen über die amtlichen GVBl./MBl.-PDFs (NBank-Host, Quellen 3-6) geführt.",
+    "NBank-Archivseite 'Ausgelaufene Förderungen': nicht abgerufen — Auslaufsdatum des Vorgängerprogramms 'Altersgerechte Modernisierung' (2017er Produktinfo, Quelle 16) nicht datiert belegt (nur: neue Produktinfo 10.07.2026 ersetzt alte Konditionen).",
+    "KfW 455-B/159-Status: nicht neu recherchiert (Weg 4 übersprungen gemäß Schema); BW-Ledger 25.11.2026 belegt 455-B-Stop; Sekundärquelle (Quelle 20) konsistent.",
+    "Erklärung der 36-gegen-37-Differenz (Fusion Landkreis Osterode am Harz in Landkreis Göttingen, 2016) nicht amtlich belegt — nur die Namenslisten (Quellen 9/15) sind Zitat-Grundlage."
+  ],
+  "warnings": [
+    "NBank-Status: 'besonders hohes Antragsaufkommen ... kann sich die Bearbeitung ... etwas verzögern' (Produktseite, 26.11.2026) = Wartezeit-Hinweis, aber KEIN Förderstopp/keine Queue-Nummer. Auf der Region-Seite nur mit Abrufdatum zitieren.",
+    "Programmfokus Eigentum: RL WoE 2026 fördert barrierereduzierende Modernisierung NUR von selbst genutztem Wohneigentum (Eigentümer/Verfügungsberechtigte, Ziff. 7.2). Mieter ohne Eigentum gehen leer aus (anders: SAB Sachsen fördert Mieter) — für die Treppenlift-Zielgruppe Mietwohnung ist NDS strukturell schwächer als Sachsen. Verdict-Kriterium.",
+    "Treppenlift-Namentlichkeit: 0× in RL WoE 2026, Produktinfo (10.07.2026), NBank-Produktseite, MW-Seite, VV NWoFG. Förderfähigkeit nur über Funktionsdefinition ('Verringerung bestehender Barrieren ... Zugänglichkeit, Bewegungsfreiheit oder Nutzbarkeit') + nichtamtliche Auslegung des Niedersachsenbüros ('Badumbau und Treppenlift, aber nicht der alleinige Treppenlift'). Im Gegensatz zu Sachsen (SAB nennt Treppenlift auf der Programmseite namentlich) ist die Treppenlift-Eignung in NDS nur mit Kennzeichnung behauptbar.",
+    "Konditionen-Dualität: reiner Zuschuss (40 %/6.000 € A; 30 %/4.500 € B+C) nur bei Gesamtkosten bis 15.000 €; ab 15.001 € Darlehen+Zuschuss-Kombi (Zuschuss an Darlehen gebunden). Treppenlift-typische Kosten (~3-8 k€) liegen im reinen Zuschussband.",
+    "Einkommensgrenzen: Gruppe A = 21.250 € (1 Person) / 28.750 € (2 Personen) + 3.750 € je weitere Person/Kind (§ 3 Abs. 2 NWoFG i.d.F. ab 01.03.2025, GVBl. 2025 Nr. 7); B = +40 %, C = +60 % (nur Gebiete nach § 4 Abs. 1 Nr. 3/4 DVO-NWoFG, § 5 DVO); Freibetrag 4.000 €/Jahr je Person mit GdB ≥ 50 oder Pflegegrad 2-5 (DVO § 3).",
+    "Alt-Texte im Umlauf: MW-Ministeriumsseite ('altersgerechte Modernisierung', Eigenkapital 15 %), MS-Broschüre (3.000-€-Zuschuss), NBank-2017-Produktinfo — alle vor RL WoE 2026; Konditionen niemals aus diesen Seiten auf der Region-Seite.",
+    "Zahlformat: MBl./GVBl.-PDFs nutzen Layout-Abstände/geschützte Trennzeichen ('6 000 EUR', '21 250'); Zitatprüfung mit Normalisierung (check-Skript); Zahlen im späteren Content in deutscher Portal-Schreibweise (6.000 €) mit Quelle.",
+    "NBank-Seite schreibt 'Einkommmensgruppe' (Triple-m, sic) — Wörtzitate übernehmen den Fehler nur im Evidenz-Kontext, nicht in den Content."
+  ],
+  "key_findings": [
+    {
+      "claim": "NDS-Landesprogramm (Weg 2) = 'Barrierereduzierende Modernisierung von selbstgenutztem Wohneigentum' innerhalb der NBank-Eigentumsförderung, Rechtsgrundlage RL Wohneigentum 2026 (RdErl. d. MW v. 25.06.2026, Nds. MBl. 2026 Nr. 317): bei Gesamtkosten bis 15.000 € reiner Zuschuss (Einkommensgruppe A: bis zu 40 %, max. 6.000 €; B+C: bis zu 30 %, max. 4.500 €); ab 15.001 € Darlehen (15 Jahre 0 %) + gebundener Zuschuss (A bis 35 %/17.500 € bei ≤50.000 €; B+C bis 25 %/12.500 €).",
+      "exact_quote": "Die Zuwendungen werden als ein anfänglich zinsloses, rückzahlbares Darlehen und als ein nicht rückzahlbarer Zuschuss in Form einer Anteilsfinanzierung zur Projektförderung gewährt.",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Rechtliche-Grundlagen/Richtlinien/Richtlinie-F%C3%B6rderung-von-selbst-genutztem-Wohneigentum-(RL-Wohneigentum-2026).pdf",
+      "evidence_file": "research/evidence/region-screen-261126/nds/nbank-rl-wohneigentum-2026.txt"
+    },
+    {
+      "claim": "Status 26.11.2026: Programm OFFEN, kein Förderstopp, aber offizieller Bearbeitungsverzögerungs-Hinweis (Antragsaufkommen).",
+      "exact_quote": "Derzeit verzeichnen wir ein besonders hohes Antragsaufkommen. Dadurch kann sich die Bearbeitung Ihres Antrags leider etwas verzögern. Wir bearbeiten alle Anträge so schnell wie möglich und danken Ihnen für Ihre Geduld und Ihr Verständnis.",
+      "url": "https://www.nbank.de/F%C3%B6rderprogramme/Aktuelle-F%C3%B6rderprogramme/Eigentumsf%C3%B6rderung-(Selbst-genutztes-Wohneigentum).html",
+      "evidence_file": "research/evidence/region-screen-261126/nds/nbank-eigentumsfoerderung.txt"
+    },
+    {
+      "claim": "Treppenlift wird im kompletten Landesprogramm-Umfeld NICHT namentlich genannt (RL WoE 2026 0×, Produktinfo 0×, Produktseite 0×, MW 0×, VV NWoFG 0×); förderfähig nur über Funktionsdefinition; nichtamtliche Auslegung des Niedersachsenbüros: 'auch der Badumbau und Treppenlift, aber nicht der alleinige Treppenlift'.",
+      "exact_quote": "Gefördert wird, was über Einzelmaßnahmen hinausgeht und wird im Einzelfall entschieden. Ein Badumbau oder die Verbreiterung mehrerer Türen wird gefördert, auch der Badumbau und Treppenlift, aber nicht der alleinige Treppenlift.",
+      "url": "https://neues-wohnen-nds.de/wohnberatung/fachinformationen/foerdermoeglichkeiten/",
+      "evidence_file": "research/evidence/region-screen-261126/nds/neues-wohnen-nds-foerdermoeglichkeiten.txt"
+    },
+    {
+      "claim": "Antragsweg: Wohnraumförderstelle am Bau-/Wohnort (Landkreis, Stadt, Gemeinde), nicht NBank direkt; NBank bewilligt/zahlt/verwaltet; Vorhabensbeginn vor Bewilligung killt die Förderung bei Ausgaben ≥100.000 €, darunter ist Beginn ab Antragstellung zugelassen.",
+      "exact_quote": "Den Antrag auf barrierereduzierende und/oder klimagerechte Modernisierung selbstgenutzten Wohneigentums stellen Sie bitte bei der für Ihren Bauort zuständigen Wohnraumförderstelle (Landkreis, Stadt, Gemeinde).",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Programminformation/Produktinformationen/Produktinformation-Modernisierung-von-selbstgenutztem-Wohneigentum.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/nds/nbank-produktinfo-modernisierung.txt"
+    },
+    {
+      "claim": "Einkommensgrenzen (ab 01.03.2025): 21.250 € (Einpersonen-), 28.750 € (Zweipersonenhaushalt), +3.750 € je weitere Person/Kind (§ 3 Abs. 2 NWoFG, GVBl. 2025 Nr. 7); Gruppe B +40 %, Gruppe C +60 % (DVO § 5); Freibetrag 4.000 €/Jahr je Person mit GdB ≥ 50 oder Pflegegrad 2-5 (DVO § 3) — zielgrupp positiv.",
+      "exact_quote": "4 000 Euro für jede dem Haushalt angehörende Person mit einem Grad der Behinderung von mindestens 50 und für jede dem Haushalt angehörende pflegebedürftige Person des Pflegegrads 2, 3, 4 oder 5, jedoch höchstens 4 000 Euro pro Person,",
+      "url": "https://www.nbank.de/medien/nb-media/Downloads/Rechtliche-Grundlagen/Richtlinien/DVO-NWoFG-Verordnung-zur-Durchf%C3%BChrung-des-Nieders%C3%A4chsischen-Wohnraum-und-Wohnraumquartierf%C3%B6rdergesetzes-(G%C3%BCltig-ab-01.09.2025).pdf",
+      "evidence_file": "research/evidence/region-screen-261126/nds/nbank-dvo-nwofg-2025.txt"
+    },
+    {
+      "claim": "Weg 3 (EGH): örtliche Träger sind die Kommunen — Landkreise, kreisfreie Städte, Region Hannover, herangezogen die Städte Hannover, Göttingen, Hildesheim, Lingen (Ems), Lüneburg; Antrag fristlos beim Rehabilitationsträger; Nachrang- und Einkommens-/Vermögensbeteiligung auf der offiziellen Leistungsseite des Serviceportals.",
+      "exact_quote": "Zuständig für die Leistungen der Eingliederungshilfe sind in Niedersachsen die Kommunen, das heißt die Landkreise, die kreisfreien Städte, die Region Hannover, die Städte Hannover, Göttingen, Hildesheim, Lingen (Ems) und Lüneburg.",
+      "url": "https://soziales.niedersachsen.de/startseite/menschen_mit_behinderungen/eingliederungshilfe/wie_erhalte_ich_leistungen/-200447.html",
+      "evidence_file": "research/evidence/region-screen-261126/nds/nds-soziales-egh-leistungen.txt"
+    },
+    {
+      "claim": "Trägerstruktur-Verifikation: Task-Annahme '37 Landkreise + Region Hannover + 8 kreisfreie Städte' trifft die operative EGH-Namensliste nicht exakt — die Liste enthält 36 benannte Landkreise + Region Hannover (inline als 37. Einheit im Landkreis-Block) + 8 kreisfreie Städte + 3 große selbständige Städte (Hildesheim, Lingen (Ems), Lüneburg). Landesportal/LSN kommunizieren '8 kreisfreie Städte und 37 Landkreise' mit Region Hannover als 'Besonderheit'.",
+      "exact_quote": "Es gliedert sich in 8 kreisfreie Städte und 37 Landkreise. Eine Besonderheit ist die Region Hannover, in der die Landeshauptstadt Hannover und die Städte und Gemeinden ihres Umlandes zusammengeschlossen sind.",
+      "url": "https://www.statistik.niedersachsen.de/download/49134",
+      "evidence_file": "research/evidence/region-screen-261126/nds/lsn-niedersachsen-in-zahlen.txt"
+    },
+    {
+      "claim": "Pflegestützpunkte-Beleg (Weg 1-Beratung): Landeskonzept 'Senioren- und Pflegestützpunkt Niedersachsen (SPN)' — vom Land in jedem Landkreis/jeder kreisfreien Stadt, Region Hannover, Landeshauptstadt Hannover und Stadt Göttingen mit bis zu 70 % (max. 40.000 €) gefördert, kommunale Mindestbeteiligung 30 %.",
+      "exact_quote": "Daher fördert das Land die Einrichtung und den Betrieb eines Senioren- und Pflegestützpunktes Niedersachsen oder eines Seniorenstützpunktes Niedersachsen in jedem Landkreis und jeder kreisfreien Stadt sowie in der Region Hannover, der Landeshauptstadt Hannover und der Stadt Göttingen.",
+      "url": "https://soziales.niedersachsen.de/startseite/soziales_amp_gesundheit/soziale_forderungen/forderung_von_senioren_und_pflegestutzpunkten_niedersachsen_spn/forderung-von-senioren-und-pflegestutzpunkten-niedersachsen-spn-179120.html",
+      "evidence_file": "research/evidence/region-screen-261126/nds/nds-soziales-spn.txt"
+    },
+    {
+      "claim": "Kommunales Treppenlift-Beispiel (analog Friedrichshafen BW): NICHT belegbar. Einziges geprüftes kommunales Förderprogramm (LHH Wohnraumförderprogramm 1049-2022) fördert Neuschaffung von Mietwohnungen, 'Treppenlift' 0×; Siemer-Vendor-Claim zu Region-Hannover-Ergänzungsprogrammen unverifiziert.",
+      "exact_quote": "Es wird die Neuschaffung von Wohnungen",
+      "url": "https://e-government.hannover-stadt.de/lhhSIMwebdd.nsf/3250A65C3CB2D7F8C125882B00187821/$FILE/1049-2022_Anlage1.pdf",
+      "evidence_file": "research/evidence/region-screen-261126/nds/lhh-wohnraumfoerderprogramm-1049-2022.txt"
+    }
+  ]
+}

@@ -1,0 +1,967 @@
+                                      Niedersächsisches
+                               Ministerialblatt
+76. (81.) Jahrgang                  Hannover, den 1. Juli 2026                         Nummer 317
+
+
+
+                                Ministerium für Wirtschaft, Verkehr und Bauen
+
+
+                              Richtlinie über die Gewährung von Zuwendungen
+                             zur Förderung von selbst genutztem Wohneigentum
+                                           (RL Wohneigentum 2026)
+                              RdErl. d. MW v. 25.06.2026 – 60-25110-3//000-26 –
+                                                – VORIS 23400 –
+
+
+                                              Inhaltsübersicht
+
+1.   Zuwendungszweck, Rechtsgrundlage
+2.   Gegenstand der Förderung
+3.   Zuwendungsempfängerinnen und Zuwendungsempfänger
+4.   Allgemeine Bewilligungsvoraussetzungen
+5.   Neubau (Nummer 2.1.1)
+6.   Erwerb (Nummer 2.1.2)
+
+7.   Barrierereduzierende Modernisierung (Nummer 2.1.3)
+8.   Klimagerechte Modernisierung (Nummer 2.1.4)
+9.   Sonstige Zuwendungsbestimmungen
+10. Allgemeine Anweisungen zum Verfahren
+11. Schlussbestimmungen
+
+
+
+1. Zuwendungszweck, Rechtsgrundlage
+1.1      Das Land fördert unter finanzieller Beteiligung des Bundes auf der Grundlage des NWoFG den Woh-
+nungsbau und andere Maßnahmen zur Unterstützung von Haushalten bei der Versorgung mit angemessenem
+Wohnraum. Dazu werden auf Antrag Zuwendungen aus dem zur Finanzierung der sozialen Wohnraumförde-
+rung errichteten Sondervermögen „Wohnraum- und Wohnquartierförderfonds Niedersachsen" gewährt. Diese
+Richtlinie regelt die Gewährung von Zuwendungen für Zwecke der Eigentumsförderung i. S. des § 2 Abs. 3
+NWoFG. Zweck der Förderung ist, Haushalten die Bildung von selbst genutztem Wohneigentum zu ermögli-
+chen sowie Haushalte bei der Modernisierung bestehenden Wohneigentums zu unterstützen. Die Förderung
+soll zur Verbesserung der Eigentumsbildung und der Wohnraumversorgung in Niedersachsen beitragen.
+
+
+
+
+                                    Herausgeber: Niedersächsische Staatskanzlei
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                  Seite 2
+
+
+1.2    Ein Anspruch auf Gewährung einer Zuwendung besteht nicht, vielmehr entscheidet die Bewilligungs-
+behörde aufgrund ihres pflichtgemäßen Ermessens im Rahmen der verfügbaren Haushaltsmittel.
+1.3    Die VV zu § 44 LHO finden Anwendung, soweit in dieser Richtlinie auf diese Verwaltungsvorschriften
+verwiesen wird.
+1.4      Für diese Richtlinie gelten folgende Begriffsbestimmungen:
+–      Barrierereduzierende Modernisierung:
+       Barrierereduzierende Modernisierung bezeichnet bauliche Maßnahmen, die bestehende Hindernisse
+       im selbst genutzten Wohneigentum verringern oder beseitigen und dadurch die Zugänglichkeit, Bewe-
+       gungsfreiheit oder Nutzbarkeit für die Bewohnerinnen und Bewohner verbessern. Hierzu zählen insbe-
+       sondere Maßnahmen, die den Wohnraum an unterschiedliche Lebenssituationen anpassen und eine
+       selbstbestimmte Nutzung erleichtern. Barrierereduzierende Modernisierungen setzen nicht voraus,
+       dass die Anforderungen an die Vorgaben der als technische Baubestimmung eingeführten DIN 18040-
+       2:2011-09, Barrierefreies Bauen – Planungsgrundlagen – Teil 2: Wohnungen (im Folgenden:
+       DIN 18040-2) vollständig erfüllt werden; sie sollen sich jedoch an deren Grundsätzen orientieren. In-
+       standsetzungen, die durch barrierereduzierende Modernisierungen verursacht werden, fallen unter die
+       barrierereduzierende Modernisierung.
+–      Bewilligungsbehörde:
+       Bewilligungsbehörde ist die Investitions- und Förderbank Niedersachsen (NBank).
+–      Eigentumswohnung:
+       Eine Eigentumswohnung ist eine Wohnung, an der Wohnungseigentum nach den Vorschriften des
+       Wohnungseigentumsgesetzes begründet ist.
+–      Erwerb:
+       Erwerb von selbst genutztem Wohneigentum bezeichnet den entgeltlichen Erwerb einer bereits beste-
+       henden Wohnimmobilie mit dem Ziel der dauerhaften Nutzung zu eigenen Wohnzwecken.
+–      Gesamtkosten:
+       Gesamtkosten bezeichnet die Summe aller Kosten, die für ein Bauvorhaben in den Kostengruppen 100
+       bis 700 entstehen entsprechend einer Kostenberechnung nach DIN 276:2018-12, Kosten im Bauwesen
+       (im Folgenden: DIN 276).
+–      Häusliches Arbeitszimmer:
+       Ein häusliches Arbeitszimmer ist ein zur Wohnung gehörender, aber vom übrigen Wohnbereich abge-
+       trennter Raum, der ausschließlich oder mindestens im Umfang von 90 % zu beruflichen Zwecken ge-
+       nutzt wird. Eine private Mitbenutzung, die nur gelegentlich und von untergeordneter Bedeutung ist, steht
+       der Annahme eines häuslichen Arbeitszimmers nicht entgegen.
+–      Klimagerechte Modernisierung:
+       Klimagerechte Modernisierung bezeichnet über eine Einzelmaßnahme hinausgehende bauliche Ge-
+       samtmaßnahmen an und in bestehenden Wohngebäuden, die vorrangig der Verbesserung der Ener-
+       gieeffizienzklasse gemäß § 86 Abs. 1 i. V. m. Anlage 10 Gebäudeenergiegesetz (GEG), der Reduzie-
+       rung von Treibhausgasemissionen sowie der Anpassung an die Folgen des Klimawandels dienen.
+       Hierzu zählen insbesondere Maßnahmen zur Nutzung erneuerbarer Energien, zur sparsamen Nutzung
+       von Ressourcen und zum baulichen Schutz vor Extremwettereignissen wie Starkregen, Hochwasser
+       oder Hitze. Instandsetzungen, die im unmittelbaren Zusammenhang mit Maßnahmen der klimagerech-
+       ten Modernisierung stehen oder durch diese verursacht werden, gelten als Bestandteil der klimagerech-
+       ten Modernisierung.
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                 Seite 3
+
+
+–       Menschen mit Behinderungen:
+        Menschen mit Behinderungen sind solche gemäß § 2 Abs. 1 SGB IX. Als Menschen mit Behinderungen
+        gelten unbeschadet der gesetzlichen Definition Personen mit einem Grad der Behinderung von mindes-
+        tens 50 sowie hilfe- und pflegebedürftige Personen mit Pflegegrad 2 oder höher.
+–       Modernisierungskosten:
+        Modernisierungskosten umfassen alle Aufwendungen, die in den Kostengruppen 300 bis 700 nach DIN
+        276 entstehen und der Modernisierung des förderfähigen Wohnraums zuzurechnen sind. Maßgeblich
+        sind die Verhältnisse zum Zeitpunkt der Bewilligung.
+–       Neubau:
+        Neubau bezeichnet bauliche Maßnahmen, durch die dauerhafter Wohnraum in einem neuen selbstän-
+        digen Gebäude geschaffen wird.
+–       Selbst genutztes Wohneigentum:
+        Selbst genutztes Wohneigentum ist Wohnraum im eigenen Haus oder in einer eigenen Eigentumswoh-
+        nung, der zu eigenen Wohnzwecken genutzt wird, § 2 Abs. 5 Satz 2 NWoFG. Das Wohneigentum wird
+        als Hauptwohnsitz genutzt und stellt den Lebensmittelpunkt der Eigentümerin oder des Eigentümers
+        sowie der Haushaltsangehörigen i. S. des § 5 Abs. 1 NWoFG dar. Es ist nicht dauerhaft oder teilweise
+        vermietet.
+–       Wohnraum:
+        Wohnraum ist umbauter Raum, der tatsächlich und rechtlich zur dauernden Wohnnutzung geeignet und
+        von der oder dem Verfügungsberechtigten dazu bestimmt ist.
+–       Wohnraum im eigenen Haus:
+        Wohnraum im eigenen Haus liegt vor, wenn eine natürliche Person Eigentümerin oder Eigentümer eines
+        Grundstücks ist, auf dem sich ein Wohngebäude befindet, in dem sich der von ihr oder von ihm selbst
+        genutzte Wohnraum befindet. Das Wohngebäude darf nicht mehr als zwei Wohnungen enthalten.
+–       Wohnraumförderstelle:
+        Der Begriff Wohnraumförderstelle bezeichnet die nach § 21 Abs. 1 Satz 1 NWoFG zuständige Stelle.
+2. Gegenstand der Förderung
+2.1      Gefördert wird
+2.1.1      der Neubau (siehe Nummer 5),
+2.1.2      der Erwerb (siehe Nummer 6),
+2.1.3      die barrierereduzierende Modernisierung (siehe Nummer 7) und
+2.1.4      die klimagerechte Modernisierung (siehe Nummer 8)
+von selbst genutztem Wohneigentum.
+2.2      Nicht gefördert wird selbst genutztes Wohneigentum, das
+–       an einem Ort außerhalb Niedersachsens gelegen ist oder geschaffen werden soll,
+–       in seiner Bauausführung, Ausstattung oder Größe sowie hinsichtlich der Belastung nicht den allgemei-
+        nen Wohnbedürfnissen entspricht, aus sonstigen Gründen nicht mit den Zielen und Fördergrundsätzen
+        der sozialen Wohnraumförderung in Einklang steht oder nach seiner Beschaffenheit nicht wirtschaftlich,
+        kostensparend und umweltschonend gebaut und betrieben werden kann,
+–       als Ferienwohnung, Ferienhaus oder Wochenendhaus errichtet ist oder werden soll.
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                 Seite 4
+
+
+3. Zuwendungsempfängerinnen und Zuwendungsempfänger
+   Zuwendungsempfängerinnen und Zuwendungsempfänger sind natürliche Personen, die zu eigenen Wohn-
+zwecken Wohnraum im eigenen Haus oder in einer eigenen Eigentumswohnung neu errichten, erwerben oder
+barrierereduzierend oder klimagerecht modernisieren.
+4. Allgemeine Bewilligungsvoraussetzungen
+4.1    Zuwendungsberechtigt sind Haushalte, deren Gesamtjahreseinkommen die Einkommensgrenzen
+nach § 3 Abs. 2 NWoFG
+–      nicht überschreitet (Einkommensgruppe A),
+–      um bis zu 40 % überschreitet (Einkommensgruppe B) und,
+–      sofern sich das selbst genutzte Wohneigentum in einem Gebiet nach § 4 Abs. 1 Nr. 3 oder 4 DVO-
+       NWoFG befindet, um bis zu 60 % überschreitet (Einkommensgruppe C).
+4.2      Die Bewilligung einer Zuwendung setzt voraus, dass
+–      die Zuwendungsempfängerin oder der Zuwendungsempfänger sich nicht nur vorübergehend im Bun-
+       desgebiet aufhält und rechtlich und tatsächlich in der Lage ist, auf längere Dauer einen Wohnsitz als
+       Mittelpunkt der Lebensbeziehungen zu begründen und dabei einen selbständigen Haushalt zu führen,
+–      die Zuwendungsempfängerin oder der Zuwendungsempfänger die persönliche Zuverlässigkeit besitzt,
+–      Baukosten und Kaufpreise nach den Gegebenheiten des örtlichen Wohnungsmarkts angemessen und
+       wirtschaftlich sind, und
+–      die Gesamtfinanzierung des zu fördernden Objekts gesichert ist und die Zuwendungsempfängerin oder
+       der Zuwendungsempfänger in der Lage ist, die Belastungen, die durch die laufenden Aufwendungen für
+       das selbst genutzte Wohneigentum ausgelöst werden, auf Dauer zu tragen.
+4.3     Die Tragbarkeit der Belastung wird vermutet, wenn dem Haushalt monatlich folgende Mindestbeträge,
+nach Abzug der Belastungen aus dem selbst genutzten Wohneigentum sowie der weiteren Zahlungsverpflich-
+tungen, zum Lebensunterhalt verbleiben:
+–      für die Antragstellerin oder den Antragssteller 675 EUR,
+–      für jede weitere zum Haushalt rechnende Person zusätzlich 600 EUR,
+–      jedoch für jedes Kind ein Betrag von 475 EUR.
+    Die Beurteilung orientiert sich an den Geldmitteln, die dem Haushalt tatsächlich und regelmäßig zur allge-
+meinen Lebensführung zur Verfügung stehen. Dazu gehört in erster Linie das durchschnittliche monatliche
+Nettoeinkommen. Wiederkehrende Sonderzuwendungen wie etwa Weihnachts- und Urlaubsgeld sind eben-
+falls zu berücksichtigen. Zu den verfügbaren Geldmitteln gehören ferner das Kindergeld und ein etwaiges
+Wohngeld (Lastenzuschuss). Nicht zu den verfügbaren Geldmitteln gehören Einnahmen, denen entspre-
+chende Aufwendungen der Leistungsempfängerin oder des Leistungsempfängers gegenüberstehen (bei-
+spielsweise Blindengeld, Pflegegeld, BAföG-Leistungen).
+   Bei zeitlich befristeten Einnahmen (beispielsweise Elterngeld, Einkünfte aus befristeten Arbeitsverhältnis-
+sen, Unterhaltsleistungen) ist auch zu prüfen, ob die Belastung nach Wegfall dieser Einnahmen tragbar ist.
+Künftige Änderungen in der Belastung sind zu berücksichtigen, sofern sich diese hinreichend konkretisiert
+haben und von der Antragstellerin oder dem Antragsteller nachgewiesen werden.
+4.4    Bei Maßnahmen mit im Antrag zugrunde gelegten zuwendungsfähigen Ausgaben von 100 000 EUR
+und mehr setzt die Bewilligung weiterhin voraus, dass mit dem Vorhaben noch nicht begonnen wurde. Bereits
+begonnene Vorhaben werden nicht gefördert. Als Vorhabenbeginn ist grundsätzlich der Abschluss eines dem
+Vorhaben zuzurechnenden Lieferungs-, Leistungs-, Kauf- oder Werkvertrages zu werten. Nicht als Vorhaben-
+beginn gelten jedoch der Erwerb des Baugrundstücks, die Bestellung eines Erbbaurechts, die Erstellung der
+Planungsunterlagen für das Vorhaben, bei Planungsaufträgen die Beauftragung bis einschließlich Leistungs-
+phase 6 HOAI, eine Baugrunduntersuchung einschließlich des Auftrags zur Planung einer solchen
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                  Seite 5
+
+
+Untersuchung, ein Herrichten des Grundstücks und ein rechtlich nicht bindender Abschluss eines Reservie-
+rungsvertrages für eine Kaufmaßnahme.
+   Ein Vorhaben gilt nicht als begonnen, wenn der Vertrag ein eindeutiges und ohne finanzielle Folgen blei-
+bendes Rücktrittsrecht für den Fall der Nichtgewährung der beantragten Zuwendung enthält, oder unter einer
+eindeutigen aufschiebenden oder auflösenden Bedingung für den Fall der Nichtgewährung der beantragten
+Zuwendung geschlossen wird.
+   Die Bewilligungsbehörde kann im Einzelfall auf Antrag einen vorzeitigen Vorhabenbeginn auf eigenes Ri-
+siko der Antragstellerin oder des Antragstellers zulassen. Ein Antrag kann frühestens zeitgleich mit dem Antrag
+auf Gewährung einer Zuwendung gestellt werden. Für voraussichtlich nicht förderfähige Vorhaben darf ein
+vorzeitiger Vorhabenbeginn nicht zugelassen werden. Die Zulassung eines vorzeitigen Vorhabenbeginns be-
+gründet keinen Anspruch auf Gewährung einer Zuwendung.
+  Bei Maßnahmen mit im Antrag zugrunde gelegten zuwendungsfähigen Ausgaben von weniger als 100 000
+EUR ist der Vorhabenbeginn ab Antragstellung zugelassen.
+4.5     Die Zuwendungsempfängerin oder der Zuwendungsempfänger ist verpflichtet, zur Finanzierung der
+Maßnahme Eigenmittel in Höhe von mindestens 10 % der Gesamtkosten einzusetzen. Als Eigenmittel gelten
+insbesondere eigene Geldmittel, Eigenleistungen (in Geldwert umzurechnende Sach- und Arbeitsleistungen)
+und der Wert des nicht durch Fremdmittel finanzierten, nachweislich grundbuchlastenfreien Baugrundstücks,
+das im Rahmen des Projekts verwendet wird. Bei der Förderung von Haushalten mit mindestens zwei Kindern
+oder mit Menschen mit Behinderungen kann die Bewilligungsbehörde eine geringere Eigenleistung zulassen,
+jedoch nicht weniger als 7,5 % der Gesamtkosten. Für Eigenleistungen darf nicht mehr als 5 % der Gesamt-
+kosten in Ansatz gebracht werden, es sei denn, die Eigenleistungen werden konkret und nachvollziehbar dar-
+gelegt. Zuwendungen von Dritten können angerechnet werden.
+4.6 Die Gewährung einer Zuwendung ist grundsätzlich ausgeschlossen,
+–      soweit die Inanspruchnahme missbräuchlich wäre. Eine missbräuchliche Inanspruchnahme liegt insbe-
+       sondere vor, wenn die Gesamtumstände des Einzelfalles den Schluss zulassen, dass die Zuwendung
+       aufgrund der festgestellten Vermögens- oder Einkommensverhältnisse des Haushalts den Zielen der
+       Wohnraumförderung widersprechen würde. Dies kann insbesondere der Fall sein, wenn erhebliches
+       Vermögen vorhanden ist oder wenn die maßgebliche Einkommensgrenze nur vorübergehend nicht
+       überschritten wird. Die Verwaltungsvorschriften zu § 8 Abs. 7 NWoFG sind entsprechend anzuwenden;
+–      wenn der Haushalt in Fällen der Nummern 2.1.1 und 2.1.2 über bereits vorhandenes selbst genutztes
+       Wohneigentum verfügt, das nicht wegen objektiver und zwingender Gründe aufgegeben werden muss.
+       Zwingende Gründe für die Aufgabe sind nur solche, die die Fortnutzung objektiv unzumutbar machen.
+       Dies umfasst insbesondere die dauerhafte und erhebliche Verschlechterung der Nutzbarkeit, ein nach-
+       weislich unzureichendes Raumangebot sowie Fälle, in denen die Wiederherstellung einer Nutzbarkeit
+       außerhalb der finanziellen Leistungsfähigkeit des Haushalts liegen;
+–      wenn vorhandenes Wohneigentum vermietet, verpachtet oder leerstehend gehalten wird oder in ande-
+       rer Weise zur Vermögensbildung zurückgehalten werden soll, während gleichzeitig für ein weiteres Ob-
+       jekt die Wohnraumförderung beansprucht werden soll.
+5. Neubau (Nummer 2.1.1)
+5.1 Gegenstand der Förderung
+    Gefördert wird der Neubau von selbst genutztem Wohneigentum, dessen Größe entsprechend seiner
+Zweckbestimmung angemessen ist (§ 4 Abs. 1 Satz 1 NWoFG). Die Größe des Wohnraums muss den allge-
+mein üblichen Anforderungen an gesunde Wohnverhältnisse entsprechen und einen bestimmungsgemäßen
+Gebrauch zu eigenen Wohnzwecken dauerhaft gewährleisten. Folgende Wohnflächen gelten als angemessen
+i. S. des § 4 Abs. 1 NWoFG:
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                  Seite 6
+
+
+
+         Personenzahl                     Eigentumswohnung                   Wohnraum im eigenen Haus
+
+
+                                                                 Wohnfläche
+
+
+          eine Person                         bis 60 m2                                    –
+
+
+        zwei Personen                         bis 75 m2                               bis 90 m2
+
+
+         drei Personen                        bis 90 m2                               bis 110 m2
+
+
+         vier Personen                        bis 105 m2                              bis 130 m2
+
+
+         fünf Personen                        bis 120 m2                              bis 150 m2
+
+
+    Bei der Bemessung der angemessenen Wohnraumgröße ist die voraussichtliche Entwicklung des Haus-
+halts, insbesondere im Hinblick auf die Familienplanung, zu berücksichtigen, sofern eine realistische und nach-
+vollziehbare Prognose vorliegt. Für Haushalte mit sechs und mehr Personen dürfen zusätzliche Wohnflächen
+zugelassen werden, sofern dies zur Sicherstellung angemessener Wohnverhältnisse erforderlich ist. Die an-
+gemessene Größe des Wohnraums erhöht sich außerdem um weitere 15 m2, wenn dem Haushalt mindestens
+ein Mensch mit Behinderungen oder eine pflegebedürftige Person i. S. des § 14 SGB XI angehört und nach-
+gewiesen ist, dass größere Bewegungsflächen nach der als technische Baubestimmung eingeführten DIN
+18040-2 erforderlich sind.
+   Für Haushaltsangehörige, denen für die berufliche oder betriebliche Tätigkeit kein anderer Arbeitsplatz zur
+Verfügung steht oder ein häusliches Arbeitszimmer Mittelpunkt der beruflichen oder betrieblichen Tätigkeit ist,
+kann die Wohnfläche bis zu 15 m2 mehr betragen.
+  Bei der Berechnung der Wohnfläche ist die Verordnung zur Berechnung der Wohnfläche anzuwenden (§ 4
+Abs. 2 NWoFG).
+5.2 Zuwendungsempfängerinnen und Zuwendungsempfänger
+   Zuwendungsempfängerin oder Zuwendungsempfänger ist, wer das Bauvorhaben für eigene Rechnung im
+eigenen Namen durchführt oder durch Dritte durchführen lässt.
+5.3 Besondere Bewilligungsvoraussetzungen
+    Die Zuwendungsempfängerin oder der Zuwendungsempfänger muss Eigentümerin oder Eigentümer eines
+für das Bauvorhaben geeigneten Baugrundstücks sein oder Miteigentümerin oder Miteigentümer eines sol-
+chen Grundstücks in Verbindung mit Sondereigentum an der zu errichtenden Wohnung sein. Alternativ genügt
+der Erwerb eines entsprechenden Erbbaurechts mit einer Restlaufzeit von mindestens 60 Jahren. Diese Vo-
+raussetzungen gelten auch als erfüllt, wenn nachgewiesen wird, dass der Erwerb gesichert ist oder durch die
+Gewährung der Zuwendung gesichert werden soll. Die Regelungen über die Auszahlung der Zuwendung blei-
+ben unberührt.
+5.4 Art und Umfang, Höhe der Zuwendung
+5.4.1 Die Zuwendungen werden als ein anfänglich zinsloses, rückzahlbares Darlehen und als ein nicht rück-
+zahlbarer Zuschuss in Form einer Anteilfinanzierung zur Projektförderung gewährt.
+5.4.2    Grundlage für die Bemessung der Zuwendung
+   Grundlage für die Bemessung der Zuwendung sind die Gesamtkosten.
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                 Seite 7
+
+
+5.4.3 Fördersätze
+    Die Höhe des Darlehens beträgt bis zu 90 % der Gesamtkosten, höchstens jedoch
+–      180 000 EUR für Haushalte der Einkommensgruppe A und
+–      140 000 EUR für Haushalte der Einkommensgruppen B und C.
+   Der jeweilige Darlehenshöchstbetrag nach Satz 1 erhöht sich für jedes zum Haushalt rechnende Kind so-
+wie für jede zum Haushalt gehörende Person mit Behinderungen bei Haushalten der Einkommensgruppe A
+um 10 000 EUR und bei Haushalten der Einkommensgruppe B und C um 7 500 EUR. Erhöhungsbeträge nach
+Satz 2 sind nur zu berücksichtigen, soweit dadurch die Grenze von 90 % der Gesamtkosten nicht überschritten
+wird.
+   Zusätzlich wird ein Zuschuss in Höhe von 10 000 EUR je Kind und je Person mit Behinderungen gewährt.
+Der Zuschuss wird unabhängig von der Höhe des Darlehens oder der nachgewiesenen Kosten gewährt. Die
+Gewährung des Zuschusses ist jedoch an die Inanspruchnahme des Darlehens gebunden; eine Zuwendung
+ausschließlich in Form des Zuschusses ist ausgeschlossen.
+   Jede zum Haushalt rechnende Person wird sowohl bei der Erhöhung des Darlehenshöchstbetrages als
+auch bei der Gewährung des Zuschusses nur einmal berücksichtigt, auch wenn in der Person mehrere Merk-
+male gleichzeitig vorliegen.
+5.4.4 Das Darlehen wird für die Dauer von 20 Jahren zu einem Zinssatz von 0 % gewährt. Im Anschluss ist
+das Darlehen jährlich mit einem Zinssatz zu verzinsen, der bis zu drei Prozentpunkte über dem zum Zeitpunkt
+der Zinserhöhung gültigen Basiszinssatz gemäß § 247 BGB liegt, jedoch den marktüblichen Zinssatz nicht
+überschreitet. Die Bewilligungsbehörde kann den Zinssatz für die Restlaufzeit des Darlehens fest vereinbaren.
+5.4.5 Die Tilgung beginnt mit dem auf die vollständige Auszahlung des Darlehens folgenden Monatsersten,
+spätestens jedoch zwei Jahre nach dem Monat, der auf die Bekanntgabe der Förderentscheidung folgt. Das
+Darlehen ist in der Regel ab dem ersten Jahr mit 2 % zu tilgen. Eine höhere Tilgung kann mit der Bewilligungs-
+behörde vereinbart werden. Zur Vermeidung unbilliger Härten kann die Bewilligungsbehörde den Beginn der
+Tilgung hinausschieben und eine abweichende Tilgung festsetzen.
+5.5 Sonstige Zuwendungsbestimmungen
+5.5.1 Die Zuwendungsempfängerin oder der Zuwendungsempfänger ist verpflichtet, den geförderten Wohn-
+raum während des Zuwendungszeitraums zu eigenen Wohnzwecken zu nutzen. Der Zuwendungszeitraum
+beginnt mit der Bezugsfertigkeit und endet nach Ablauf von 20 Jahren.
+5.5.2 Gibt die Zuwendungsempfängerin oder der Zuwendungsempfänger die Nutzung zu eigenen Wohn-
+zwecken vor Ablauf des Zuwendungszeitraums auf, so endet der Zuwendungszeitraum mit dem Zeitpunkt der
+Aufgabe. Die Bewilligungsbehörde entscheidet nach pflichtgemäßem Ermessen über die Aufhebung der För-
+derentscheidung.
+5.5.3 Unterbricht die Zuwendungsempfängerin oder der Zuwendungsempfänger die Nutzung zu eigenen
+Wohnzwecken vorübergehend, so entscheidet die Bewilligungsbehörde nach pflichtgemäßem Ermessen über
+die Fortführung der Förderung. Während der Unterbrechung, die innerhalb des Zuwendungszeitraums nicht
+länger als drei Jahre dauern darf, wird das Darlehen zu den Bedingungen nach Nummer 5.4.4 Satz 2 gewährt.
+Wird die Nutzung zu eigenen Wohnzwecken wieder aufgenommen und sind die sonstigen Zuwendungsvo-
+raussetzungen weiterhin erfüllt, so wird das Darlehen wieder zu einem Zinssatz von 0 % gewährt.
+5.5.4 Wird das Darlehen ohne rechtliche Verpflichtung vorzeitig vollständig zurückgezahlt, so endet die
+Pflicht zur Nutzung zu eigenen Wohnzwecken nach Nummer 5.5.1 mit dem Zeitpunkt der Rückzahlung. Glei-
+ches gilt, wenn die gewährte Zuwendung wegen Verstoßes gegen Bestimmungen des Zuwendungsbeschei-
+des zurückgefordert wird.
+5.5.5 Die Zuwendungsempfängerin oder der Zuwendungsempfänger ist verpflichtet, der Bewilligungsbe-
+hörde maßgebliche Änderungen in der Nutzung der Wohnimmobilie oder sonstiger für die Gewährung der
+Zuwendung maßgeblicher Umstände unverzüglich mitzuteilen.
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                Seite 8
+
+
+5.5.6 Zuwendungsempfängerinnen und Zuwendungsempfänger haben mit Baubeginn bis zur vollständigen
+Rückzahlung des Darlehens eine ausreichende Brandschadenversicherung und ab der Bezugsfertigkeit des
+selbst genutzten Wohneigentums zusätzlich eine Sturmschadenversicherung (jeweils gleitende Neuwertver-
+sicherung) abzuschließen. Auf Verlangen ist der Bewilligungsbehörde eine Kopie des Versicherungsscheins
+vorzulegen.
+5.6 Anweisungen zum Verfahren
+5.6.1 Die Zuwendungsempfängerin oder der Zuwendungsempfänger ist verpflichtet, der Bewilligungsbe-
+hörde den Baubeginn anzuzeigen (Baubeginnanzeige). Dazu ist der von der Bewilligungsbehörde zur Verfü-
+gung gestellte Vordruck in der jeweils geltenden Fassung zu verwenden (Anlage 1).
+5.6.2 Die Zuwendungsempfängerin oder der Zuwendungsempfänger ist verpflichtet, der Bewilligungsbe-
+hörde die Fertigstellung des Neubaus anzuzeigen (Fertigstellungsanzeige). Dazu ist der von der Bewilligungs-
+behörde zur Verfügung gestellte Vordruck in der jeweils geltenden Fassung zu verwenden (Anlage 2). In der
+Fertigstellungsanzeige hat die Zuwendungsempfängerin oder der Zuwendungsempfänger zu erklären,
+–      dass die Zuwendung zweckentsprechend verwendet worden ist,
+–      dass das Bauvorhaben entsprechend den Antragsunterlagen ausgeführt worden ist und
+–      seit wann der Wohnraum bezugsfertig ist.
+   Die Wohnraumförderstelle nimmt die Fertigstellungsanzeige entgegen, prüft diese und vermerkt das Er-
+gebnis der Prüfung. Der fertiggestellte Wohnraum soll in Augenschein genommen werden. Die Wohnraumför-
+derstelle teilt der Bewilligungsbehörde das Ergebnis der Prüfung mit, einschließlich ihrer Feststellungen an-
+lässlich der Inaugenscheinnahme (Schlussbescheinigung).
+5.6.3 Die Auszahlung der Zuwendung erfolgt auf Anforderung der Zuwendungsempfängerin oder des Zu-
+wendungsempfängers in folgenden vier Teilraten:
+–      bis zu 30 % nach Baubeginn,
+–      bis zu 30 % nach der Fertigstellung des Rohbaus,
+–      bis zu 30 % nach Anbringung des Innenputzes oder anderer vergleichbarer Herrichtung der Innen-
+       räume,
+–      10 % nach restloser Fertigstellung und Vorlage der Schlussbescheinigung.
+   Die Auszahlung der Zuwendung erfolgt unabhängig von der Art der Zuwendung (Darlehen oder Zuschuss)
+anteilig im gleichen Verhältnis entsprechend der Teilrate. Die Auszahlung erfolgt einheitlich und zeitgleich,
+sofern die Auszahlungsvoraussetzungen für die jeweilige Teilrate vorliegen.
+6. Erwerb (Nummer 2.1.2)
+6.1 Gegenstand der Förderung
+   Gefördert wird der Erwerb von selbst genutztem Wohneigentum, dessen Größe entsprechend seiner
+Zweckbestimmung angemessen ist (§ 4 Abs. 1 Satz 1 NWoFG). Nicht gefördert wird der Erwerb von Wohn-
+raum, der im Hinblick auf seine Größe und Ausstattung offenkundig über die angemessenen Wohnbedürfnisse
+des Haushalts hinausgeht. Als angemessen gilt Wohnraum, der unter Berücksichtigung der Zahl der Haus-
+haltsmitglieder über eine zweckmäßige Anzahl an Wohn- und Schlafräumen sowie über die üblichen Funkti-
+onsräume (Küche, Bad/WC, Abstell- oder Hauswirtschaftsraum) verfügt. Eine zweckmäßige Anzahl liegt ins-
+besondere dann nicht mehr vor, wenn neben der bedarfsgerechten Versorgung aller Haushaltsmitglieder zu-
+sätzliche Räume ohne erkennbaren Nutzungszweck bereitgestellt werden oder der Wohnraum in seiner Ge-
+samtstruktur unverhältnismäßig groß ist und dadurch unangemessen hohe Kosten verursacht. Zusätzliche
+Räume sind nur dann unschädlich, wenn sie funktional begründet sind, etwa als häusliches Arbeitszimmer,
+Pflege- oder Betreuungszimmer oder zur absehbaren Nutzung durch ein Haushaltsmitglied.
+6.2 Zuwendungsempfängerinnen und Zuwendungsempfänger
+    Zuwendungsempfängerin oder Zuwendungsempfänger ist, wer das selbst genutzte Wohneigentum erwirbt.
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                Seite 9
+
+
+6.3 Art und Umfang, Höhe der Zuwendung
+    Nummer 5.4 gilt entsprechend.
+6.4 Sonstige Zuwendungsbestimmungen
+   Nummer 5.5 gilt entsprechend mit der Maßgabe, dass der Zuwendungszeitraum mit dem Eigentumsüber-
+gang auf die Zuwendungsempfängerin oder den Zuwendungsempfänger beginnt.
+6.5 Anweisungen zum Verfahren
+   Die Auszahlung der Zuwendung erfolgt auf Anforderung der Zuwendungsempfängerin oder des Zuwen-
+dungsempfängers in folgenden zwei Teilraten:
+–       90 % bei Fälligkeit des Kaufpreises,
+–       10 % nach Eigentumsumschreibung im Grundbuch und bestimmungsgemäßer Wohnungsbelegung.
+   Die Auszahlung der Zuwendung erfolgt unabhängig von der Art der Zuwendung (Darlehen oder Zuschuss)
+anteilig im gleichen Verhältnis entsprechend der Teilrate. Die Auszahlung erfolgt einheitlich und zeitgleich,
+sofern die Auszahlungsvoraussetzungen für die jeweilige Teilrate vorliegen.
+7. Barrierereduzierende Modernisierung (Nummer 2.1.3)
+7.1 Gegenstand der Förderung
+  Gefördert wird die barrierereduzierende Modernisierung von selbst genutztem Wohneigentum i. S. der
+Nummer 6.1.
+7.2 Zuwendungsempfängerinnen und Zuwendungsempfänger
+   Zuwendungsempfängerin oder Zuwendungsempfänger ist die Eigentümerin oder der Eigentümer des
+selbst genutzten Wohneigentums oder eine sonstige verfügungsberechtigte Person.
+7.3 Besondere Bewilligungsvoraussetzungen
+   Die baulichen Maßnahmen müssen nach öffentlich-rechtlichen und zivilrechtlichen Vorschriften zulässig
+sein. Das selbst genutzte Wohneigentum muss nach Durchführung der barrierereduzierenden Modernisierung
+den allgemeinen Anforderungen an zeitgemäßen Wohnraum genügen. Durch die baulichen Maßnahmen
+muss eine Verringerung bestehender Barrieren erreicht werden, die die Zugänglichkeit, Bewegungsfreiheit
+oder Nutzbarkeit des Wohnraums für die Bewohnerinnen und Bewohner verbessert.
+7.4 Art und Umfang, Höhe der Zuwendung
+7.4.1 Die Zuwendungen werden als ein anfänglich zinsloses, rückzahlbares Darlehen und als ein nicht rück-
+zahlbarer Zuschuss in Form einer Anteilsfinanzierung zur Projektförderung gewährt.
+7.4.2    Zuwendungsfähig sind die Gesamtkosten der Maßnahme.
+7.4.3 Fördersätze für Haushalte der Einkommensgruppe A:
+
+     Maßnahmen mit               Anteil Darlehen    Höchstbetrag       Anteil Zuschuss      Höchstbetrag
+     Gesamtkosten                      (%)         Darlehen (EUR)             (%)          Zuschuss (EUR)
+        (EUR)
+
+          bis 15 000 EUR                  –              –               bis zu 40 %            6 000 EUR
+          bis 50 000 EUR           bis zu 55 %         27 500 EUR        bis zu 35 %           17 500 EUR
+    mehr als 50 000 EUR            bis zu 60 %         60 000 EUR        bis zu 30 %           30 000 EUR
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                 Seite 10
+
+
+7.4.4 Fördersätze für Haushalte der Einkommensgruppen B und C:
+
+    Maßnahmen mit Ge-         Anteil Darlehen (%)    Höchstbetrag       Anteil Zuschuss      Höchstbetrag
+     samtkosten (EUR)                               Darlehen (EUR)             (%)          Zuschuss (EUR)
+
+         bis 15 000 EUR                   –               –               bis zu 30 %             4 500 EUR
+         bis 50 000 EUR            bis zu 65 %          32 500 EUR        bis zu 25 %            12 500 EUR
+    mehr als 50 000 EUR            bis zu 70 %          70 000 EUR        bis zu 20 %            20 000 EUR
+
+7.4.5 Im Übrigen gelten für die Bemessung der Zuwendung Nummern 5.4.4 und 5.4.5 entsprechend mit der
+Maßgabe, dass das Darlehen für die Dauer von 15 Jahren zu einem Zinssatz von 0 % gewährt wird.
+7.5 Sonstige Zuwendungsbestimmungen
+   Nummern 5.5.1 bis 5.5.5 gelten entsprechend mit folgenden Maßgaben: Die Zuwendungsempfängerin oder
+der Zuwendungsempfänger ist verpflichtet, den geförderten Wohnraum während des Zuwendungszeitraums
+zu eigenen Wohnzwecken zu nutzen. Der Zuwendungszeitraum beginnt nach Abschluss der Modernisierungs-
+maßnahme und endet nach Ablauf von 15 Jahren. Abweichend hiervon endet der Zuwendungszeitraum bei
+Maßnahmen mit Gesamtkosten bis 15 000 EUR nach Ablauf von fünf Jahren.
+7.6 Anweisungen zum Verfahren
+7.6.1 Nummern 5.6.1 und 5.6.2 gelten entsprechend mit der Maßgabe, dass anstelle der Bezugsfertigkeit
+das Datum des Abschlusses der Modernisierungsmaßnahme anzugeben ist.
+7.6.2 Die Auszahlung der Zuwendung erfolgt auf Anforderung der Zuwendungsempfängerin oder des Zu-
+wendungsempfängers in folgenden drei Teilraten:
+–      bis zu 30 % nach Beginn der Baumaßnahme,
+–      weitere 60 %, wenn Kosten in entsprechender Höhe nachgewiesen sind,
+–      10 % nach Abschluss der Modernisierungsmaßnahme und Vorlage der Schlussbescheinigung.
+     Die Auszahlung der Zuwendung erfolgt unabhängig von der Art der Zuwendung (Darlehen oder Zu-
+schuss) anteilig im gleichen Verhältnis entsprechend der Teilrate. Die Auszahlung erfolgt einheitlich und zeit-
+gleich, sofern die Auszahlungsvoraussetzungen für die jeweilige Teilrate vorliegen. Soweit die Zuwendung
+ausschließlich in Form eines Zuschusses gewährt wird, wird dieser nach Abschluss der Modernisierungsmaß-
+nahme und Vorlage der Schlussbescheinigung in einer Summe ausgezahlt.
+8. Klimagerechte Modernisierung (Nummer 2.1.4)
+8.1 Gegenstand der Förderung
+  Gefördert wird die klimagerechte Modernisierung von selbst genutztem Wohneigentum i. S. der Num-
+mer 6.1, das vor dem 08.12.2004 fertiggestellt worden ist.
+8.2 Zuwendungsempfängerinnen und Zuwendungsempfänger
+   Zuwendungsempfängerin oder Zuwendungsempfänger ist die Eigentümerin oder der Eigentümer des
+selbst genutzten Wohneigentums oder eine sonstige verfügungsberechtigte Person.
+8.3 Besondere Bewilligungsvoraussetzungen
+   Die baulichen Maßnahmen müssen nach öffentlich-rechtlichen und zivilrechtlichen Vorschriften zulässig
+sein. Das selbst genutzte Wohneigentum muss nach der klimagerechten Modernisierung den allgemeinen
+Anforderungen an zeitgemäßen Wohnraum genügen. Durch die baulichen Maßnahmen muss eine Verbesse-
+rung der Energieeffizienzklasse des Wohngebäudes erreicht werden, die mindestens zwei Effizienzklassen
+nach dem GEG oder einer gleichwertigen Verbesserung nach den an seine Stelle tretenden Vorschriften ent-
+spricht. Sofern eine Verbesserung um zwei Klassen aus technischen, funktionalen oder wirtschaftlichen Grün-
+den, insbesondere bei Baudenkmalen, bei aufgrund von Vorschriften des Bundes- oder Landesrechts beson-
+ders geschützter oder sonstiger besonders erhaltenswerter Bausubstanz, nicht oder nur mit unverhältnismäßig
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                             Seite 11
+
+
+hohem Aufwand möglich ist, kann die Bewilligungsbehörde stattdessen ausnahmsweise eine Verbesserung
+nur um eine Klasse als förderfähig zulassen.
+8.4 Art und Umfang, Höhe der Zuwendung
+8.4.1 Die Zuwendungen werden als ein anfänglich zinsloses, rückzahlbares Darlehen und als ein nicht rück-
+zahlbarer Zuschuss in Form einer Anteilfinanzierung zur Projektförderung gewährt.
+8.4.2    Zuwendungsfähig sind die Modernisierungskosten.
+8.4.3 Die Höhe der Zuwendung ist abhängig von der Verbesserung der Energieeffizienzklasse nach dem
+Energiebedarfsausweis gemäß GEG und ergibt sich aus der nachstehenden Übersicht:
+
+ Verbesserung der              Höhe des Darlehens                  Höhe des Zuschusses
+ Energieeffizienz-
+ klasse um                                          für Haushalte der          für Haushalte der
+                                                    Einkommensgruppe A         Einkommensgruppen
+                                                                               B und C
+
+ 2 Klassen                                                bis zu 15 %,                bis zu 10 %,
+                                                     höchstens 15 000 EUR        höchstens 10 000 EUR
+ 3 Klassen                                                bis zu 20 %,                bis zu 15 %,
+                                  bis zu 60 %,       höchstens 20 000 EUR        höchstens 15 000 EUR
+ 4 Klassen                   höchstens 60 000 EUR         bis zu 25 %,                bis zu 20 %,
+                                                     höchstens 25 000 EUR        höchstens 20 000 EUR
+ 5 oder mehr Klassen                                      bis zu 30 %,                bis zu 25 %,
+                                                     höchstens 30 000 EUR        höchstens 25 000 EUR
+
+   Wird nach Nummer 8.3 ausnahmsweise eine Verbesserung um nur eine Energieeffizienzklasse zugelas-
+sen, gilt dies für die Bemessung der Zuwendung als Verbesserung um zwei Energieeffizienzklassen.
+8.4.4    Im Übrigen gelten für die Bemessung der Zuwendung Nummern 5.4.4 und 5.4.5 entsprechend.
+8.5 Sonstige Zuwendungsbestimmungen
+   Nummern 5.5.1 bis 5.5.5 gelten entsprechend mit der Maßgabe, dass der Zuwendungszeitraum mit Ab-
+schluss der Modernisierungsmaßnahme beginnt.
+8.6 Anweisungen zum Verfahren
+8.6.1 Die Zuwendungsempfängerin oder der Zuwendungsempfänger hat vor der Gewährung der Zuwen-
+dung den zum Zeitpunkt der Antragstellung gültigen Energiebedarfsausweis vorzulegen, aus dem die Aus-
+gangs-Energieeffizienzklasse des Wohngebäudes hervorgeht.
+8.6.2 Mit der Fertigstellungsanzeige ist der neue Energiebedarfsausweis vorzulegen, der die erreichte Ener-
+gieeffizienzklasse nach dem Abschluss der Modernisierungsmaßnahmen ausweist.
+8.6.3    Im Übrigen gilt Nummer 7.6 entsprechend.
+9. Sonstige Zuwendungsbestimmungen
+9.1 Zusammenarbeit der zuständigen Stellen
+   Um die Ziele des NWoFG und das jeweilige Förderziel zu erreichen, arbeiten die Wohnraumförderstellen
+und die Bewilligungsbehörde zusammen. Sie unterrichten einander über Angelegenheiten von grundsätzlicher
+Bedeutung und tauschen Informationen aus, die zur Wahrnehmung ihrer Aufgaben jeweils notwendig sind.
+Sie gewährleisten durch die Zusammenarbeit eine zügige und sachgerechte Entscheidung über die Anträge.
+Die Vorschriften zum Schutz personenbezogener Daten bleiben unberührt.
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                Seite 12
+
+
+9.2 Einsatz anderer Finanzierungshilfen, Kumulierung
+9.2.1 Neben der sozialen Wohnraumförderung dürfen auch andere Förderungen für denselben Zweck in
+Anspruch genommen werden. Sollen Zuwendungen von mehreren Stellen des Landes oder sowohl vom Land
+als auch von anderen öffentlichen Stellen bewilligt werden, so haben sich die beteiligten Stellen vor der Be-
+willigung so weit wie möglich abzustimmen; VV Nr. 1.4 zu § 44 LHO findet entsprechende Anwendung. Soweit
+anderweitige vertragliche oder gesetzliche Ansprüche auf Finanzierungsmittel für dieselben baulichen Maß-
+nahmen bestehen, sind diese Finanzierungsmittel vorrangig einzusetzen.
+9.2.2 Zuwendungen für Maßnahmen nach Nummer 2.1.2 dürfen mit Zuwendungen für Maßnahmen nach
+Nummer 2.1.3 und 2.1.4 kumuliert werden, soweit sich die Zuwendungen auf unterschiedliche bestimmbare
+förderfähige Kosten beziehen. Unter der gleichen Voraussetzung dürfen Zuwendungen für Maßnahmen nach
+Nummer 2.1.3 und 2.1.4 kumuliert werden.
+9.3 Dingliche Sicherung, Sicherung der Zweckbestimmung
+   Die als Zuwendung gewährten Darlehen sind im Rang unmittelbar nach den der Finanzierung des Bau-
+vorhabens dienenden Kapitalmarktmitteln, aber vor etwaigen als Ersatz der Eigenmittel anerkannten Fremd-
+mitteln dinglich zu sichern. Die laufende Tilgung solcher Kapitalmarktmittel muss mindestens 1 % jährlich zu-
+züglich ersparter Zinsen betragen. Die Bewilligungsbehörde kann eine bestimmte Rangfolge verlangen sowie
+nach den Umständen des Einzelfalles eine andere Rangfolge festlegen.
+   Sollen Darlehen durch eine Grundschuld dinglich gesichert werden, so ist sicherzustellen, dass die Grund-
+schuld nach Rückzahlung des gesicherten Darlehens nicht erneut zur Sicherung einer Forderung verwendet
+wird. Außerdem muss sichergestellt sein, dass ein Aufrücken des als Zuwendung gewährten Darlehens ent-
+sprechend der Tilgung der im Rang vorgehenden oder gleichstehenden Darlehen erfolgt. Grundschuldgläubi-
+gerinnen und -gläubiger sowie Schuldnerinnen und Schuldner müssen entsprechende Erklärungen abgeben.
+Die Bewilligungsbehörde kann Ausnahmen zulassen.
+9.4 Durchführung der Bauvorhaben
+9.4.1 Mit Bauvorhaben ist unverzüglich, spätestens jedoch vier Monate nach Bekanntgabe der Förderent-
+scheidung zu beginnen. Die Bewilligungsbehörde kann in begründeten Fällen Abweichungen zulassen sowie
+eine Frist zur Fertigstellung von Bauvorhaben bestimmen.
+9.4.2 Die Zuwendungsempfängerin oder der Zuwendungsempfänger hat Aufträge nur an fachkundige und
+leistungsfähige Anbieter nach wettbewerblichen Gesichtspunkten zu wirtschaftlichen Bedingungen zu verge-
+ben. Grundsätzlich sind dazu mindestens drei Unternehmen zur Angebotsabgabe aufzufordern. Verfahren und
+Ergebnisse sind zu dokumentieren. Beträgt die Zuwendung oder bei Finanzierung durch mehrere Stellen der
+Gesamtbetrag der Zuwendungen nicht mehr als 100 000 EUR oder beträgt der voraussichtliche Auftragswert
+nicht mehr als 25 000 EUR (ohne Umsatzsteuer), können Leistungen dabei unter Berücksichtigung des Grund-
+satzes der Wirtschaftlichkeit und Sparsamkeit als Direktauftrag vergeben werden.
+10. Allgemeine Anweisungen zum Verfahren
+10.1 Antragstellung
+10.1.1 Für das Antragsverfahren findet die VV Nr. 3 zu § 44 LHO entsprechende Anwendung.
+10.1.2 Die Wohnraumförderstelle erörtert, soweit erforderlich, bereits vor Stellung eines Antrags mit der zu-
+künftigen Antragstellerin oder dem zukünftigen Antragsteller, welche Nachweise und Unterlagen von ihr oder
+ihm zu erbringen sind. Sie wirkt im Rahmen ihrer Auskunfts- und Beratungspflicht darauf hin, dass der Antrag
+vollständig und richtig eingereicht wird, insbesondere der von der Bewilligungsbehörde vorgeschriebenen
+Form entspricht und alle zur Entscheidung über den Antrag erforderlichen Angaben enthält.
+10.1.3 Die Wohnraumförderstelle prüft den Antrag und vermerkt das Ergebnis der Antragsprüfung. Ist der
+Antrag aus ihrer Sicht entscheidungsreif, leitet sie ihn der Bewilligungsbehörde zu. Die Antragstellerin oder
+der Antragsteller ist über die Weiterleitung des Antrags an die Bewilligungsbehörde unverzüglich zu unterrich-
+ten. In ihrer Stellungnahme nach § 6 Abs. 1 Satz 2 NWoFG hat die Wohnraumförderstelle das wesentliche
+Ergebnis ihrer Prüfung darzulegen.
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                                Seite 13
+
+
+10.2 Verfahren bei der Bewilligungsbehörde
+10.2.1 Die Bewilligungsbehörde nimmt eine eingehende Prüfung der formellen und materiellen Vorausset-
+zungen für die Gewährung der Zuwendung vor. Die Bewilligungsbehörde hat im Rahmen ihrer Ermittlungen
+alle Erkenntnismöglichkeiten heranzuziehen, die sich ihr vernünftigerweise bieten. Art und Umfang der Sach-
+verhaltsermittlung bestimmt sie nach den Erfordernissen des Einzelfalles. Die Antragstellerin oder der Antrag-
+steller hat bei der Ermittlung des Sachverhaltes sowie bei der Klärung der formellen und materiellen Voraus-
+setzungen der Entscheidung einschließlich notwendiger Vorfragen mitzuwirken.
+10.2.2 Maßgebender Zeitpunkt für die Feststellung des Sachverhaltes und seine rechtliche Beurteilung über
+die Zulässigkeit und Begründetheit ist in der Regel der Zeitpunkt der Entscheidung der Bewilligungsbehörde.
+Über Förderanträge soll innerhalb von drei Monaten abschließend entschieden werden.
+10.3 Förderentscheidung
+10.3.1 Unbeschadet der gesetzlichen Bestimmungen über die Förderentscheidung in § 6 NWoFG finden die
+VV Nrn. 4 und 5 zu § 44 LHO entsprechende Anwendung.
+10.3.2 Die Bewilligungsbehörde legt in der Förderentscheidung nach § 6 Abs. 1 Satz 3 NWoFG die maßgeb-
+liche Einkommensgruppe des Haushaltes fest und bestimmt, sofern es sich um einen Haushalt der Einkom-
+mensgruppen B oder C handelt, auf Grundlage des § 5 DVO-NWoFG, dass die in § 3 Abs. 2 NWoFG festge-
+legten Einkommensgrenzen überschritten werden dürfen.
+10.3.3 Die Bewilligungsbehörde übermittelt der Wohnraumförderstelle eine Kopie der Förderentscheidung
+nach § 6 Abs. 1 Satz 3 NWoFG.
+10.4 Auszahlung der Fördermittel
+   Für die Auszahlung der Fördermittel findet die VV Nr. 7 zu § 44 LHO Anwendung. Die Zuwendungs-emp-
+fängerin oder der Zuwendungsempfänger hat die von ihr oder ihm einzubringenden Deckungsmittel für mit
+dem Zuwendungszweck zusammenhängende Ausgaben grundsätzlich vorrangig einzusetzen.
+10.5 Verwendungsnachweis
+10.5.1 Die Zuwendungsempfängerin oder der Zuwendungsempfänger hat der Wohnraumförderstelle die Ver-
+wendung der Zuwendung innerhalb von sechs Monaten nach Erfüllung des Zuwendungszwecks nachzuwei-
+sen (Verwendungsnachweis). Für den Umfang und den Inhalt des Verwendungsnachweises finden die Rege-
+lungen der Nummer 6 ANBest-P (Anlage 2 zu VV Nr. 5.1 zu § 44 LHO) Anwendung, wobei ein einfacher Ver-
+wendungsnachweis nach Nummer 6.6 ANBest-P zugelassen wird.
+10.5.2 Die Wohnraumförderstelle prüft den Verwendungsnachweis und teilt der Bewilligungsbehörde das Er-
+gebnis der Prüfung mit. Für die Prüfung der Verwendung findet Nummer 7 ANBest-P Anwendung.
+10.5.3 Die Bewilligungsbehörde überprüft regelmäßig anhand von Stichproben sowie aus begründetem An-
+lass die Verwendung der Zuwendung sowie den Verwendungsnachweis. Die Bewilligungsbehörde kann Dritte
+mit der Prüfung beauftragen. Die Wohnraumförderstelle sowie die Zuwendungsempfängerin oder der Zuwen-
+dungsempfänger haben auf Verlangen die erforderlichen Unterlagen bereitzustellen und die notwendigen Aus-
+künfte zu erteilen.
+10.6 Unwirksamkeit, Rücknahme oder Widerruf der Förderentscheidung
+   Unwirksamkeit, Rücknahme oder Widerruf der Förderentscheidung, Erstattung der Zuwendung und Ver-
+zinsung richten sich nach VV Nr. 8 zu § 44 LHO.
+10.7 Verwaltungskostenbeitrag, Bearbeitungsentgelt
+10.7.1 Mit Beginn der Auszahlung wird für Darlehen ein jährlicher Verwaltungskostenbeitrag in Höhe von
+0,5 % des jeweiligen Restkapitals erhoben, der zusätzlich zu Tilgung und Zinsen anfällt.
+10.7.2 Für Darlehen wird ein einmaliges Bearbeitungsentgelt in Höhe von 1 % des bewilligten Darlehensbe-
+trages erhoben. Das Bearbeitungsentgelt wird mit Auszahlung der ersten Darlehensrate fällig und wird gegen
+diese aufgerechnet. Wird die Förderentscheidung vor Beginn der Auszahlung der Zuwendung widerrufen oder
+zurückgenommen, oder verzichtet die Zuwendungsempfängerin oder der Zuwendungsempfänger nach
+Nds. MBl. 2026 Nr. 317 vom 1. Juli 2026                                                               Seite 14
+
+
+Bekanntgabe der Förderentscheidung, aber vor Beginn der Auszahlung auf die Zuwendung, so ist das volle
+Bearbeitungsentgelt zu entrichten.
+10.7.3 Für Zuschüsse wird ein einmaliges Bearbeitungsentgelt in Höhe von 0,75 % des bewilligten Betrages
+erhoben. Das Bearbeitungsentgelt wird mit Auszahlung des Zuschusses fällig und wird gegen diesen aufge-
+rechnet. Nummer 10.7.2 Satz 3 gilt entsprechend.
+10.7.4 Soweit nach der Bewilligung der Zuwendung für die Bearbeitung zusätzliche Kosten entstehen, kann
+die Bewilligungsbehörde diese im Rahmen ihres mit dem Fachministerium abgestimmten Entgeltkataloges als
+sonstige Entgelte geltend machen. Die Bewilligungsbehörde veröffentlicht den Entgeltkatalog im Internet unter
+http://www.nbank.de.
+11. Schlussbestimmungen
+   Dieser RdErl. tritt am 01.07.2026 in Kraft und mit Ablauf des 31.12.2031 außer Kraft.
+
+
+An die
+Region Hannover, Landkreise, kreisfreien und großen selbständigen
+Städte und selbständigen Gemeinden
+Investitions- und Förderbank Niedersachsen (NBank)
+                                   Investitions- und Förderbank Niedersachsen - NBank
+                                   Günther-Wagner-Allee 12 - 16                                                                                                     KWR -
+                                   30177 Hannover
+
+
+
+                                   Anzeige über den Beginn des Modernisierungs-/Bauvorhabens
+
+                                      Ausfertigung für die NBank
+                                     Bauort                                                                                                  Bewilligungs- bzw. Zuwendungsbescheid/Fördervertragsnummer
+
+
+
+                                     Vorhaben/Maßnahme
+
+
+
+                                     Angaben zum Zuwendungsempfangenden
+
+                                     Name des Zuwendungsempfangenden
+
+
+                                     Straße                                                                                                                                                                      Hausnummer
+
+
+                                      PLZ                          Ort
+
+
+
+                                     Beginn der Modernisierungs-/Bauarbeiten am:
+
+
+
+                                     Hinweis: Bitte erst ausstellen, nachdem mit dem Bauvorhaben begonnen wurde.
+
+                                     Für Unternehmen gilt:
+
+                                     Mir/Uns ist bekannt, dass die Erklärung zum Baubeginn eine subventionserhebliche Tatsache im Sinne von § 264 StGB ist und ein Subventionsbetrug nach dieser Vorschrift strafbar ist.
+
+
+                                                                               Allgemeine Informationen zur Datenverarbeitung und zu Ihren Rechten finden Sie unter Datenschutz & Cookie-Richtlinie.
+
+                                                               Bei Fragen wenden Sie sich an die NBank, Günther-Wagner-Allee 12 - 16, 30177 Hannover oder an unsere Datenschutzbeauftragte [datenschutz@nbank.de].
+
+
+
+                                      Datum                                         Ort
+
+
+
+                                      Unterschrift der zuwendungsempfangenden Person/ beauftragten Person/architekturschaffenden Person
+
+
+
+
+                                      Zweitschrift nachrichtlich an:
+
+
+
+
+Vordruck 4001 - Baubeginnanzeige
+
+
+
+
+Stand:Juni 2026
+
+
+                                   Investitions- und Förderbank Niedersachsen - NBank Günther-Wagner-Allee 12 - 16 30177 Hannover Telefon 0511 30031-9333 Telefax 0511 30031-119333 info@nbank.de www.nbank.de
+                                   Seite 2 der Beschreibung und Begründung zum Antrag
+
+                                     Ausfertigung für die Wohnraumförderstelle
+                                     Bauort                                                                                               Bewilligungs- bzw. Zuwendungsbescheid/Fördervertragsnummer
+
+
+
+                                     Vorhaben/Maßnahme
+
+
+
+                                     Angaben zum Zuwendungsempfangenden
+
+                                     Name des Zuwendungsempfangenden
+
+
+                                     Straße                                                                                                                                                                       Hausnummer
+
+
+                                      PLZ                       Ort
+
+
+
+                                     Beginn der Modernisierungs-/Bauarbeiten am:
+
+
+
+                                     Hinweis: Bitte erst ausstellen, nachdem mit dem Bauvorhaben begonnen wurde.
+                                     Für Unternehmen gilt:
+
+                                     Mir/Uns ist bekannt, dass die Erklärung zum Baubeginn eine subventionserhebliche Tatsache im Sinne von § 264 StGB ist und ein Subventionsbetrug nach dieser Vorschrift strafbar ist.
+
+
+                                                                            Allgemeine Informationen zur Datenverarbeitung und zu Ihren Rechten finden Sie unter Datenschutz & Cookie-Richtlinie.
+
+                                                            Bei Fragen wenden Sie sich an die NBank, Günther-Wagner-Allee 12 - 16, 30177 Hannover oder an unsere Datenschutzbeauftragte [datenschutz@nbank.de].
+
+
+
+                                      Aktenzeichen
+
+
+                                     Datum                                       Ort
+
+
+                                      Unterschrift der zuwendungsempfangenden Person/ beauftragten Person/architekturschaffenden Person
+
+
+
+
+Vordruck 4001 - Baubeginnanzeige
+
+
+
+
+Stand:Juni 2026
+
+                                   Investitions- und Förderbank Niedersachsen - NBank Günther-Wagner-Allee 12 - 16 30177 Hannover Telefon 0511 30031-9333 Telefax 0511 30031-119333 info@nbank.de www.nbank.de
+                                   Seite 3 der Beschreibung und Begründung zum Antrag
+
+
+                                     Ausfertigung für den Bauherrn
+                                     Bauort                                                                                               Bewilligungs- bzw. Zuwendungsbescheid/Fördervertragsnummer
+
+
+
+                                     Vorhaben/Maßnahme
+
+
+
+
+                                     Angaben zum Zuwendungsempfangenden
+
+                                     Name des Zuwendungsempfangenden
+
+
+                                     Straße                                                                                                                                                                       Hausnummer
+
+
+
+                                      PLZ                       Ort
+
+
+
+                                     Beginn der Modernisierungs-/Bauarbeiten am:
+
+
+
+                                     Hinweis: Bitte erst ausstellen, nachdem mit dem Bauvorhaben begonnen wurde.
+                                     Für Unternehmen gilt:
+
+                                     Mir/Uns ist bekannt, dass die Erklärung zum Baubeginn eine subventionserhebliche Tatsache im Sinne von § 264 StGB ist und ein Subventionsbetrug nach dieser Vorschrift strafbar ist.
+
+                                                                            Allgemeine Informationen zur Datenverarbeitung und zu Ihren Rechten finden Sie unter Datenschutz & Cookie-Richtlinie.
+
+                                                            Bei Fragen wenden Sie sich an die NBank, Günther-Wagner-Allee 12 - 16, 30177 Hannover oder an unsere Datenschutzbeauftragte [datenschutz@nbank.de].
+
+
+
+                                      Datum                                      Ort
+
+
+
+                                      Unterschrift der zuwendungsempfangenden Person/ beauftragten Person/architekturschaffenden Person
+
+
+
+
+Vordruck 4001 - Baubeginnanzeige
+
+
+
+
+Stand:Juni 2026
+
+                                   Investitions- und Förderbank Niedersachsen - NBank Günther-Wagner-Allee 12 - 16 30177 Hannover Telefon 0511 30031-9333 Telefax 0511 30031-119333 info@nbank.de www.nbank.de
+                                         Anschrift der Wohnraumförderstelle:
+
+
+
+
+                                                                                                                                                         KWR -
+
+
+
+
+                                         Fertigstellungsanzeige
+                                           Bauort                                                                                      Bewilligungs- bzw. Zuwendungsbescheid/Fördervertragsnummer
+
+
+
+                                           Vorhaben/Maßnahme
+
+
+
+                                          Angaben zum Zuwendungsempfangenden
+
+                                          Name des Zuwendungsempfangenden
+
+
+                                          Straße                                                                                                                                                    Hausnummer
+
+
+                                           PLZ                          Ort
+
+
+
+                                          a) Wann waren die Wohnungen bezugsfertig?
+
+
+
+                                          b) Wann wurden die Modernisierungmaßnahmen abgeschlossen?
+
+
+
+                                          c) Wann wurden die energetischen, klimagerechten bzw. barrierereduzierenden Modernisierungsmaßnahmen abgeschlossen?
+
+
+
+                                                 d) Durch die Modernisierungsmaßnahme(n) wurde eine Verbesserung um mindestens zwei Energieeffizienzklassen
+                                                 erreicht (bei – klimagerechter Modernisierung).
+                                                 e) Durch die Modernisierungsmaßnahme(n) wurde eine Verbesserung bestehender Barrieren erreicht (bei –
+                                                 barrierereduzierender Modernisierung).
+
+                                                 f) Das Objekt erreicht mind. das energetische Niveau eines KfW-Effizienzhauses 70.
+
+                                                 g) Das Objekt erreicht mind. das Niveau eines KfW-Effizienzhauses 40.
+
+                                          Die Bestätigung des Sachverständigen/Energie-Effizienz-Experten als Nachweis der durchgeführten energetischen Maßnahme(n) und Einhaltung des für die Zuwendung erforderlichen
+                                          energetischen Standards ist beigefügt (Sofern KfW-Mittel zur Mitfinanzierung der Maßnahme(n) in Anspruch genommen werden, reicht eine Kopie der Bescheinigung, die von der KfW
+                                          verlangt wird).
+
+                                          Die im Förderantrag angesetzten Gesamtkosten und laufenden Gesamtaufwendungen
+
+                                                 sind unverändert.
+
+                                                                              Betrag in Euro
+                                                 werden unterschritten
+                                                 um::
+
+                                                 werden überschritten         Betrag in Euro
+                                                 um:
+
+
+                                          Wie viele Wohnungen wurden erstellt?
+
+
+
+                                           Wohnungen                                           Anzahl               Wohnfläche (m²)           Vollgeschoss (m²)           Dachgeschoss (m²)            Geschäftsraum (m²)
+
+
+
+
+Vordruck 4005 - Fertigstellungsanzeige
+                                           kleine Wohnungen
+
+                                           Wohnungen für kinderreiche Familien
+
+                                           Wohnungen barrierefrei nach DIN 18040
+
+
+
+
+Stand:Juni 2026
+
+
+
+                                         Investitions- und Förderbank Niedersachsen - NBank Günther-Wagner-Allee 12 - 16 30177 Hannover Telefon 0511 30031-9333 Telefax 0511 30031-119333 info@nbank.de www.nbank.de
+                                         Seite 2 der Beschreibung und Begründung zum Antrag
+
+                                             Ausstattung
+                                                    Anzahl                                                                                          Anzahl                        Anzahl
+                                                                        Anzahl Personenaufzüge                Anzahl Garagen
+                                              Gemeinschaftsräume                                                                                 Einstellplätze           überdachte Einstellplätze
+
+
+
+                                             Die Bedingungen und Auflagen des Bewilligungs-/Zuwendungsbescheides/des Fördervertrages sind beachtet worden, insbesondere sind keine anderen oder höheren
+                                             Finanzierungsbeiträge entgegengenommen worden, als im Förderantrag angegeben wurden.
+
+
+                                             Die baufachlichen Anforderungen nach den WFB bzw. der Richtlinie sind eingehalten worden. Eine entsprechende Bescheinigung des bauleitenden Architekten / Baubetreuers liegt
+                                             bei.
+
+                                             Für Unternehmen gilt:
+                                             Mir/Uns ist bekannt, dass die in den Nrn. 1 bis 5 enthaltenen Angaben und Erklärungen sowie die nachfolgenden Bemerkungen subventionserhebliche Tatsachen im Sinne von § 264 StGB
+                                             sind und ein Subventionsbetrug nach dieser Vorschrift strafbar ist.
+
+                                             Bemerkungen (insbesondere bei Veränderungen gegenüber den Angaben im Förderantrag):
+
+
+
+
+                                                                                    Allgemeine Informationen zur Datenverarbeitung und zu Ihren Rechten finden Sie unter Datenschutz & Cookie-Richtlinie.
+
+                                                                    Bei Fragen wenden Sie sich an die NBank, Günther-Wagner-Allee 12 - 16, 30177 Hannover oder an unsere Datenschutzbeauftragte [datenschutz@nbank.de].
+
+
+
+                                              Datum                                      Ort
+
+
+
+                                              Unterschrift der zuwendungsempfangenden Person/ beauftragten Person/architekturschaffenden Person
+
+
+
+
+Vordruck 4005 - Fertigstellungsanzeige
+
+
+
+
+Stand:Juni 2026
+
+
+                                         Investitions- und Förderbank Niedersachsen - NBank Günther-Wagner-Allee 12 - 16 30177 Hannover Telefon 0511 30031-9333 Telefax 0511 30031-119333 info@nbank.de www.nbank.de
+
