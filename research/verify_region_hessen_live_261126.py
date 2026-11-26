@@ -142,7 +142,7 @@ rss = text(BASE + "/rss.xml")
 check("rss 41 items live", rss.count("<item>") == 41, str(rss.count("<item>")))
 hp = text(BASE + "/")
 check("homepage index,follow", '<meta name="robots" content="index,follow"' in hp)
-check("llms 200", "ZuhauseBleiben" in text(BASE + "/llms.txt"))
+check("llms 200", "Ratgeber für ältere Menschen" in text(BASE + "/llms.txt"))
 check("robots.txt sitemap", "sitemap" in text(BASE + "/robots.txt").lower())
 
 print("\n== LIVE READBACK HESSEN: %d PASS, %d FAIL ==" % (PASSED, FAILED))
