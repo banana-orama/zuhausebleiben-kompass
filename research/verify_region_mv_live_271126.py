@@ -115,8 +115,8 @@ LIVE_NEEDLES = [
 for n in LIVE_NEEDLES:
     check("live: " + n[:52], n.lower() in pn)
 check("geprueft 13x live", page.count("geprüft 2026-11-27") == 13, str(page.count("geprüft 2026-11-27")))
-check("faqs 6 live", page.count("<details>") == 6, str(page.count("<details>")))
-check("sources 13 live", page.count("<li>") >= 13, str(page.count("<li>")))
+check("faqs 6 live", raw_page.count("<details>") == 6, str(raw_page.count("<details>")))
+check("sources 13 live", raw_page.count('class="fine"> — geprüft') == 13, str(raw_page.count('class="fine"> — geprüft')))
 
 # --- 4) Absenzen live ---
 for bad in ["4.180", "16.720", "17.500", "12.500", "Niedersachsenbüro", "WIBank", "L-Bank", "Friedrichshafen",
