@@ -1,0 +1,165 @@
+{
+  "batch": "region-screen-271126-rheinland-pfalz",
+  "checked_at": "2026-11-27",
+  "evidence_dir": "research/evidence/region-screen-271126/rheinland-pfalz",
+  "notes": "Maschineller Verbatim-Check research/check_quotes_region_screen_271126.py (Normalisierung: U+00AD strippen, NBSP/U+202F -> Leerzeichen, De-Hyphenation am Zeilenumbruch mit Grossbuchstaben-Heuristik, Whitespace-Collapse). ISB-Produktseite + mkbwk.rlp.de-VV-PDF + Foerderdatenbank live 27.11.2026; LSJV-Seiten live 27.11.2026; Bundesrecht gesetze-im-internet live 27.11.2026 (ISO-8859-1 -> cp1252-Dekodierung). Bundesrecht-HTML doppelt gepflegt (Identikopien aus mv/).",
+  "sources": [
+    {
+      "id": 1,
+      "label": "ISB Rheinland-Pfalz — Produktseite 505 „Modernisierung selbst genutzten Wohnraums“ (Kernquelle Weg 2, live 27.11.2026)",
+      "url": "https://isb.rlp.de/foerderung/505.html",
+      "evidence": "isb-505.txt",
+      "quotes": [
+        "505 Modernisierung selbst genutzten Wohnraums",
+        "Zinsfestschreibung über 20 Jahre",
+        "Tilgungszuschuss bis zu 25 % möglich",
+        "Eigentümerinnen/Eigentümer oder dinglich Nutzungsberechtigte selbst genutzten Wohneigentums, deren Einkommen die Einkommensgrenze des § 13 Abs. 2 Landeswohnraumförderungsgesetz (LWoFG)",
+        "Daneben können Haushalte, deren Einkommen die Einkommensgrenze des § 13 Abs. 2 Landeswohnraumförderungsgesetz (LWoFG) um nicht mehr als 10 % überschreitet, einen Tilgungszuschuss von bis zu 25 % des ISB-Darlehens beantragen.",
+        "können einen Tilgungszuschuss von bis zu 15 % des ISB-Darlehens beantragen.",
+        "Das Darlehen beträgt für einen 4-Personenhaushalt max. 100.000 Euro, für jedes weitere Haushaltsmitglied kann das Darlehen um 5.000 Euro erhöht werden",
+        "Das Darlehen wird für die Dauer der Zinsfestschreibung von 20 Jahren mit 3,70 % p. a. verzinst.",
+        "Dieser Zinssatz gilt bis auf weiteres und kann nach Veränderungen des Kapitalmarktes angepasst werden.",
+        "einmaliges Bearbeitungsentgelt von 1 % des beantragten Darlehensbetrages, mindestens 250 Euro",
+        "Finanziert werden bauliche Maßnahmen, die ein barrierefreies Wohnen ermöglichen, wie zum Beispiel der Einbau einer Rampe, breiterer Türen, eines Treppenlifts, einer bodengleiche Dusche oder sonstige Maßnahmen, die einer barrierefreien Zugänglichkeit dienen.",
+        "Dabei sollen die Maßnahmen in Anlehnung an die DIN 18040 Teil 2 durchgeführt werden.",
+        "Zur Beantragung des ISB-Darlehens und ggf. des Tilgungszuschusses reichen Sie diesen Antrag bei der zuständigen Stadt- oder Kreisverwaltung, in deren Gebiet der zu fördernde Wohnraum liegt, ein.",
+        "Maßnahmenbeginn erst nach Erhalt der Förderzusage",
+        "Liefer- und Leistungsverträge dürfen bis Leistungsphase 7 HOAI förderunschädlich geschlossen werden.",
+        "Diese Einkommensgrenze ist für den erhöhten Tilgungszuschuss von bis zu 25 % maßgeblich."
+      ],
+      "needles_absent": {"Treppenlift": 1, "Mieter": 0},
+      "needles_note": "Treppenlift 1× NAMENTLICH auf der ISB-Produktseite (Barrierefreie Maßnahmen, [sic] 'einer bodengleiche Dusche'). 'Mieter' 0× — Programm ist reines Eigentümer-/dinglich-Nutzungsberechtigten-Darlehen; keine Mieter-Route im Landesprogramm. Kein Status-/Wartezeit-/Antragsstopp-Hinweis auf der Seite (Suchbegriffe 'Stopp/ausgeschöpft/Wartezeit/Antragsaufkommen' 0×, Stand 27.11.2026)."
+    },
+    {
+      "id": 2,
+      "label": "VV Modernisierung selbst genutzter Wohnraum — VwV des MF v. 02.04.2020, zuletzt geändert 30.09.2025, konsolidierte Arbeitsfassung gültig ab 1.10.2025 (PDF, Ministerium mkbwk.rlp.de)",
+      "url": "https://mkbwk.rlp.de/fileadmin/07/Bilder/Themen/Bauen_und_Wohnen/Wohnraumfoerderung/Soziale_Wohnraumfoerderung/Foerderung_selbst_genutzten_Wohnraums/VV_Modernisierung_selbstgenutzter_Wohnraum__konsolidierte_Arbeitsfassung__gueltig_ab_1._Oktober_2025_.pdf",
+      "evidence": ["vv-modernisierung-505.txt", "vv-modernisierung-505.layout.txt", "vv-modernisierung-505.raw.txt"],
+      "quotes": [
+        "Konsolidierte Arbeitsfassung (gültig ab 1. Oktober 2025)",
+        "Verwaltungsvorschrift des Ministeriums der Finanzen vom 2. April 2020",
+        "zuletzt geändert durch Verwaltungsvorschrift des Ministeriums der Finanzen vom 30. September 2025",
+        "Das Land fördert zusammen mit der Investitions- und Strukturbank Rheinland-Pfalz (ISB) auf der Grundlage des Landeswohnraumförderungsgesetzes (LWoFG) vom 22. November 2013 (GVBl. S. 472, BS 233-3)",
+        "die ein barrierefreies Wohnen ermöglichen, wenn sie in Anlehnung an die Vorgaben der Norm DIN 18040 Teil 2 durchgeführt werden.",
+        "Gefördert werden Antragsberechtigte (Nummer 8.2), wenn deren Einkommen und das der Haushaltsmitglieder die Einkommensgrenze des § 13 Abs. 2 LWoFG um nicht mehr als 60 v. H. übersteigt.",
+        "Für Haushalte mit bis zu vier Personen beträgt das Darlehen maximal",
+        "Die ISB legt die jeweils gültigen Darlehenskonditionen für den Förderzeitraum fest.",
+        "wird durch das Land für die Dauer der ersten Zinsfestschreibung um 1 Pro-zentpunkt p. a. im Zins verbilligt",
+        "einmaliges Bearbeitungsentgelt von 1,0 v. H. der Darlehenssumme, mindestens 250 EUR",
+        "Während des Förderzeitraums wird das Darlehen bis zu 80 v. H. durch das Land verbürgt.",
+        "Eine Förderbestätigung kann insbesondere nicht gewährt werden, wenn mit dem Vorhaben tatsächlich begonnen wurde oder es bereits abgeschlossen ist",
+        "muss innerhalb von zwei Monaten nach Eintritt der objektiven Dringlichkeit",
+        "Die zuständige Stadt-/Kreisverwaltung erteilt der Antragstellerin oder dem Antragsteller eine Förderbestätigung.",
+        "Nach Erteilung der Förderbestätigung leitet die zuständige Stadt-/Kreisverwaltung den Förderantrag an die ISB weiter.",
+        "Diese Verwaltungsvorschrift tritt am 1. Oktober 2025 in Kraft."
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0× in der VV (Quellverweis: 'in Anlehnung an die DIN 18040 Teil 2'). Zinsverbilligungs-Satz im Original über Zeilenumbruch 'Pro-zentpunkt' gespalten — De-Hyphenation im Checker. Vorhabensbeginn: Förderausschluss bei tatsächlichem Beginn (Nr. 7.1) + 2-Monats-Nachfrist bei objektiver Dringlichkeit (Nr. 7.2)."
+    },
+    {
+      "id": 3,
+      "label": "Förderdatenbank des Bundes (foerderdatenbank.de) — Wohnraumförderung ISB-Darlehen Modernisierung (offizielles Bund/Länder-Portal, live 27.11.2026)",
+      "url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Rheinland-Pfalz/wohnraumfoerderung-isb-darlehen-modernisierung.html",
+      "evidence": "fdb-isb-modernisierung.txt",
+      "quotes": [
+        "Richten Sie Ihren Antrag bitte vor Beginn der Maßnahme über die örtlich zuständige Stadt- beziehungsweise Kreisverwaltung an die Investitions- und Strukturbank Rheinland-Pfalz",
+        "Antragsberechtigt sind Wohnungseigentümerinnen und Wohnungseigentümer oder sonstige dinglich Nutzungsberechtigte, deren Gesamteinkommen die Einkommensgrenzen nach Paragraf 13 Absatz 2 Landeswohnraumförderungsgesetz (LWoFG) um nicht mehr als 60 Prozent übersteigt.",
+        "die ein barrierefreies Wohnen ermöglichen, wenn sie in Anlehnung an die Vorgaben der Norm DIN 18040 Teil 2 durchgeführt werden."
+      ],
+      "needles_absent": {},
+      "needles_note": "Bund/Länder-offizielles Portal (BMWSB-Fachinformationssystem) — Korroboration der VV."
+    },
+    {
+      "id": 4,
+      "label": "LSJV Rheinland-Pfalz — Eingliederungshilfe (Landesamt für Soziales, Jugend und Versorgung, live 27.11.2026)",
+      "url": "https://lsjv.rlp.de/themen/inklusion/eingliederungshilfe",
+      "evidence": "rp-lsjv-egh.txt",
+      "quotes": [
+        "Für die sogenannten individuellen Leistungsangelegenheiten sind nach wie vor die Landkreise und kreisfreien Städte zuständig, so dass Menschen mit Behinderungen weiterhin dieselben direkten Ansprechpartner vor Ort, nämlich die Sozialämter, haben.",
+        "Seit dem 1. Januar 2020 benötigt das örtliche Sozialamt von allen Personen, für die erstmals Leistungen der Eingliederungshilfe erbracht werden sollen, einen Antrag. Dieser Antrag kann formlos erfolgen.",
+        "Die Leistungen der Eingliederungshilfe können erst ab dem Monat der Antragstellung bewilligt und finanziert werden – nicht hingegen für Zeiträume, die davorliegen.",
+        "Die Eingliederungshilfe beinhaltet insbesondere Leistungen zur Sozialen Teilhabe sowie zur Teilhabe am Arbeitsleben.",
+        "Die Schiedsstelle gemäß § 133 SGB IX ist organisatorisch dem Ministerium für Arbeit, Soziales, Transformation und Digitalisierung angegliedert"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "EGH-Träger RP: örtlich Landkreise + kreisfreie Städte (Sozialämter); überörtlich LSJV. Formlose Antragstellung + Antragsmonats-Grundsatz amtlich belegt. 'Treppenlift' 0× auf der EGH-Seite (anders als LWV Hessen)."
+    },
+    {
+      "id": 5,
+      "label": "LSJV Rheinland-Pfalz — Soziale Teilhabe (Leistungsseite, live 27.11.2026)",
+      "url": "https://lsjv.rlp.de/themen/inklusion/eingliederungshilfe/soziale-teilhabe",
+      "evidence": "rp-lsjv-soziale-teilhabe.txt",
+      "quotes": [
+        "Um Menschen mit Behinderungen eine gleichberechtigte Teilhabe am Leben in der Gemeinschaft zu ermöglichen und zu erleichtern, werden Leistungen zur Sozialen Teilhabe im Rahmen der Eingliederungshilfe erbracht.",
+        "Die Leistungen sollen Menschen befähigen und unterstützen, ihre Lebensführung im eigenen Wohnraum und in ihrem Sozialraum möglichst selbstbestimmt und eigenverantwortlich zu gestalten."
+      ],
+      "needles_absent": {},
+      "needles_note": "Funktionsbezug Wohnraum auf Landesebene ohne namentliche Maßnahmenliste."
+    },
+    {
+      "id": 6,
+      "label": "LSJV Rheinland-Pfalz — Pflegestützpunkte (Landesamt, live 27.11.2026)",
+      "url": "https://lsjv.rlp.de/themen/pflege/menschen-mit-pflegebedarf/pflegestuetzpunkte",
+      "evidence": "rp-lsjv-pflegestuetzpunkte.txt",
+      "quotes": [
+        "Im Land Rheinland-Pfalz gibt es 135 Pflegestützpunkte.",
+        "Ein Pflegestützpunkt ist eine örtliche Anlaufstelle für Pflegebedürftige, beeinträchtigte Menschen jeden Alters und deren Angehörige.",
+        "Die Mitarbeitenden in den Pflegestützpunkten beraten kostenlos rund um das Thema Pflege",
+        "Mit den 135 Pflegestützpunkten wurde durch finanzielle Förderung des Landes, der Kommunen, der Kranken- und Pflegekassen und der Träger der Fachkräfte der Beratung"
+      ],
+      "needles_absent": {},
+      "needles_note": "135 PSP landesweit (Stand laut Seite); Kontaktliste des Sozialportals (pflegestuetzpunkte-rlp.de) nicht einzeln gesichert."
+    },
+    {
+      "id": 7,
+      "label": "§ 40 SGB XI — Wohnumfeldzuschuss der Pflegekasse (bundesweit; gesetze-im-internet, live 27.11.2026; Identikopie aus mv/)",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "evidence": "sgb11-40.txt",
+      "quotes": [
+        "Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen.",
+        "Der Gesamtbetrag je Maßnahme nach Satz 3 ist auf 16 720 Euro begrenzt",
+        "gilt die Leistung nach Ablauf der Frist als genehmigt"
+      ],
+      "needles_absent": {},
+      "needles_note": "Tausendertrennzeichen im Amtstext mit Leerzeichen ('4 180'/'16 720')."
+    },
+    {
+      "id": 8,
+      "label": "§ 113 + § 77 SGB IX — EGH-Wohnraumroute (bundesweit; gesetze-im-internet, live 27.11.2026; Identikopie aus mv/)",
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__113.html",
+      "evidence": ["sgb9-113.txt", "sgb9-77.txt"],
+      "quotes": [
+        "Leistungen zur Sozialen Teilhabe sind insbesondere 1.",
+        "Leistungen für Wohnraum,",
+        "Die Leistungen umfassen Leistungen für die Beschaffung, den Umbau, die Ausstattung und die Erhaltung von Wohnraum, der den besonderen Bedürfnissen von Menschen mit Behinderungen entspricht."
+      ],
+      "needles_absent": {},
+      "needles_note": "Bundesrecht."
+    },
+    {
+      "id": 9,
+      "label": "§ 554 BGB — Mieter-Route Barrierereduzierung (bundesweit; gesetze-im-internet, live 27.11.2026; Identikopie aus mv/)",
+      "url": "https://www.gesetze-im-internet.de/bgb/__554.html",
+      "evidence": "bgb-554.txt",
+      "quotes": [
+        "§ 554 Barrierereduzierung, E-Mobilität, Einbruchsschutz und Steckersolargeräte",
+        "Der Mieter kann verlangen, dass ihm der Vermieter bauliche Veränderungen der Mietsache erlaubt, die dem Gebrauch durch Menschen mit Behinderungen, dem Laden elektrisch betriebener Fahrzeuge, dem Einbruchsschutz oder der Stromerzeugung durch Steckersolargeräte dienen.",
+        "Der Anspruch besteht nicht, wenn die bauliche Veränderung dem Vermieter auch unter Würdigung der Interessen des Mieters nicht zugemutet werden kann.",
+        "Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam."
+      ],
+      "needles_absent": {},
+      "needles_note": "RP: einzige Mieter-Route, da Programm 505 eigentümerbezogen (Mieter 0× auf ISB-Seite, Quelle 1)."
+    },
+    {
+      "id": 10,
+      "label": "SEKUNDÄR (nichtamtlich, Treppenlift-Info-Kontext) — treppenliftwissen.de, RP-Seite",
+      "url": "https://www.treppenliftwissen.de/foerderung/rheinland-pfalz/",
+      "evidence": "SEKUNDAER-treppenliftwissen-rp.txt",
+      "quotes": [
+        "Rheinland-Pfalz hat kein eigenes Treppenlift-Programm, aber eine Landesroute über die Wohnraumförderung, die Barriere-Modernisierung einschließt."
+      ],
+      "needles_absent": {},
+      "needles_note": "NICHTAMTLICH (Treppenlift-Interessenkontext): interpretiert 505 als Landesroute; die namentliche Treppenlift-Nennung ist dagegen amtlich über die ISB-Produktseite (Quelle 1) belegt — Sekundärquelle nur als Einordnung, nicht als Beleg."
+    }
+  ]
+}

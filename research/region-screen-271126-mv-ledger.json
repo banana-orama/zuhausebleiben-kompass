@@ -1,0 +1,197 @@
+{
+  "batch": "region-screen-271126-mv",
+  "checked_at": "2026-11-27",
+  "evidence_dir": "research/evidence/region-screen-271126/mv",
+  "notes": "Maschineller Verbatim-Check research/check_quotes_region_screen_271126.py (Normalisierung: U+00AD strippen, NBSP/U+202F -> Leerzeichen, De-Hyphenation am Zeilenumbruch mit Grossbuchstaben-Heuristik, Whitespace-Collapse). LFI-MV-Host blockt curl (TLS-Timeout) und Browser-Daemon down -> Produktseite + Richtlinie + Merkblatt via web.archive.org-Snapshots (09./08.11.2026, id_-Rohbytes); regierung-mv.de Next.js-SPA ohne Content -> Ministeriumsseiten via Wayback-Snapshots (25./29.09.2026, noch server-gerendert); PMs offizieller IM-MV-Wortlaut via Presseportal-ots-Spiegel. Alle sonstigen Abrufe live am 27.11.2026.",
+  "sources": [
+    {
+      "id": 1,
+      "label": "LFI M-V — Förderfinder „Personenaufzüge und Lifte, barrierearmes Wohnen“ (Produktseite, Kernquelle Weg 2; Wayback 09.11.2026)",
+      "url": "https://www.lfi-mv.de/foerderfinder/personenaufzuege-und-lifte-barrierearmes-wohnen",
+      "evidence": "lfi-barrierearmes-wohnen.txt",
+      "quotes": [
+        "Gewährung von Zuwendungen des Landes Mecklenburg-Vorpommern zur Reduzierung von Barrieren im Wohnungsbestand. Gefördert werden barrierearme Wohnanpassungsmaßnahmen im selbstgenutzen Wohneigentum oder in selbstgenutzten Mietwohnungen (hier: Antragstellung durch den Mieter).",
+        "A - Eigentümer, deren Grundstücke mit selbst genutztem Wohneigentum bebaut sind",
+        "B - Mieter, im Einverständnis mit dem Eigentümer/Vermieter für die selbstgenutzte Mietwohnung",
+        "Die Zuwendungen werden im Rahmen der Projektförderung als nichtrückzahlbare Zuschüsse gewährt.",
+        "A/B - Barrieren reduzierende Maßnahmen: 30 % von max. 15.000 EUR förderfähiger Ausgaben/WE",
+        "Die Baumaßnahme sollte innerhalb von 12 Monaten nach Bewilligung fertiggestellt sein.",
+        "wobei ein einmaliges Bearbeitungsentgelt in Höhe von 1,5 % des bewilligten Zuschussbetrages, mindestens jedoch in Höhe von 30 EUR, erhoben wird.",
+        "Schriftliche Anträge sind formgebunden vor Vorhabenbeginn, d. h. vor Abschluss jeglicher Lieferungs- und Leistungsverträge im Landesförderinstitut M-V einzureichen.",
+        "Planungsleistungen gelten nicht als Beginn.",
+        "Ein Rechtsanspruch des Antragstellers auf Gewährung der Zuwendung besteht nicht.",
+        "Das Land entscheidet nach pflichtgemäßem Ermessen im Rahmen der verfügbaren Haushaltsmittel.",
+        "Lesefassung der Richtlinie inkl. Änderungserlasse",
+        "FAQ - Barrierenreduzierung gemäß RLPaBaWo"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0× auf der LFI-Produktseite. 'selbstgenutzen' [sic] = Tippfehler der LFI-Seite, wörtlich übernommen. Kein Status-/Wartezeit-Hinweis auf der Seite; Statusdatierung über PM 12.08.2026 (Quelle 5)."
+    },
+    {
+      "id": 2,
+      "label": "RL RLPaBaWo M-V — Lesefassung der Richtlinie inkl. Änderungserlasse (PDF via Wayback 08.11.2026; Rechtsgrundlage)",
+      "url": "https://www.lfi-mv.de/export/sites/lfi/.galleries/personenaufzuege-und-lifte-barrierearmes-wohnen/lesefassung-richtlinie-inkl-aenderungserlasse.pdf",
+      "evidence": ["lfi-rl-lesefassung.txt", "lfi-rl-lesefassung.layout.txt", "lfi-rl-lesefassung.raw.txt"],
+      "quotes": [
+        "Lesefassung der Richtlinie für die Gewährung von Zuwendungen des Landes Mecklenburg-Vorpommern zur Reduzierung von Barrieren im Wohnungsbestand (Richtlinie Personenaufzüge und Lifte, barrierearmes Wohnen RLPaBaWo M-V)",
+        "Verwaltungsvorschrift des Ministeriums für Inneres und Bau vom 10. September 2014",
+        "Zuwendungen für bauliche Maßnahmen zur Reduzierung von Barrieren in vorhandenen Wohngebäuden mit Miet- und Genossenschaftswohnungen sowie mit selbst genutztem Wohneigentum.",
+        "Gefördert werden bauliche Maßnahmen zur Nachrüstung von barrierefreien Personenaufzügen, Treppenliften oder anderen mechanischen vertikalen Personenfördersystemen an oder in Wohngebäuden mit Miet- und Genossenschaftswohnungen.",
+        "Nachrüstung von Personenaufzügen, Treppenliften oder anderen mechanischen vertikalen Personenfördersystemen",
+        "Barrieren reduzierender Umbau von Bädern.",
+        "Für Maßnahmen nach Nummer 2.2 beträgt der Zuschuss bis zu 30 Prozent der zuwendungsfähigen Ausgaben von bis zu 15 000 Euro je Wohnung.",
+        "Für Maßnahmen, bei denen der Mieter Zuwendungsempfänger ist, gilt Nummer 5.2.2 entsprechend.",
+        "müssen mindestens 2 000 Euro je Wohnung betragen.",
+        "Werden zur Finanzierung der Maßnahmen auch finanzielle Zuschüsse zur Verbesserung des individuellen Wohnumfeldes von Pflegebedürftigen gemäß § 40 des Elften Buches Sozialgesetzbuch - Soziale Pflegeversicherung - eingesetzt, darf die Summe aus Landeszuschuss und Zuschuss der Pflegeversicherung die zuwendungsfähigen Ausgaben nicht übersteigen.",
+        "Bei nachgewiesenem Bedarf an einer barrierefreien und uneingeschränkt mit dem Rollstuhl nutzbaren Wohnung gemäß DIN 18040-2",
+        "beträgt der Zuschuss für Maßnahmen nach Nummer 2.2 bis zu 30 Prozent der anerkannten zuwendungsfähigen Ausgaben.",
+        "ein einmaliges Bearbeitungsentgelt von 1,5 Prozent des bewilligten Zuschussbetrages, mindestens jedoch 30 Euro",
+        "Bewilligungsstelle ist das Landesförderinstitut Mecklenburg-Vorpommern, Geschäftsbereich der NORD/LB Girozentrale",
+        "Der Förderungsantrag ist vom Antragsteller in zweifacher Ausfertigung unter Beifügung der im Formblatt bezeichneten Anlagen bei der Bewilligungsstelle einzureichen.",
+        "Die Auszahlung des Zuschusses erfolgt durch die Bewilligungsstelle nach Abschluss der Modernisierungsmaßnahme und nach Vorlage des Nachweises der Verwendung der Fördermittel nach Nummer 7.4.",
+        "Diese Verwaltungsvorschrift tritt mit Wirkung vom 01. Januar 2026 in Kraft und am 31. Dezember 2026 außer Kraft."
+      ],
+      "needles_absent": {"Treppenlift": 6, "Rollstuhl": 3},
+      "needles_note": "Count-Needles (Fallcount ueber die 3 gemeinsam geprueften Textextrakt-Modi .txt/.layout/.raw, je 2 bzw. 1 Fundstelle): 'Treppenlift(en)' 2× namentlich im Förderkatalog (Nr. 2.1 UND Nr. 2.2) — namentliche Nennung im amtlichen RL-Wortlaut; 'Rollstuhl' 1× je Modi (Nr. 5.2.4 DIN-18040-2-Ausnahme ohne Ausgaben-Deckel). Geltungszeitraum 2026 datiert (Nr. 9)."
+    },
+    {
+      "id": 3,
+      "label": "LFI M-V — Merkblatt „Reduzierung von Barrieren im Wohnungsbestand – ab 2022“ (PDF, Stand 05.06.2026, via Wayback 08.11.2026)",
+      "url": "https://www.lfi-mv.de/export/sites/lfi/.galleries/personenaufzuege-und-lifte-barrierearmes-wohnen/merkblatt-personenaufzuege-lifte-barrierearmes-wohnen.pdf",
+      "evidence": ["lfi-merkblatt.txt", "lfi-merkblatt.layout.txt"],
+      "quotes": [
+        "Förderung von Maßnahmen zur Reduzierung von Barrieren im Wohnungsbestand im Land Mecklenburg-Vorpommern - ab 2022",
+        "Gefördert werden barrierearme Wohnanpassungsmaßnahmen im selbstgenutzen Wohneigentum oder in selbstgenutzten Mietwohnungen (hier: Antragstellung durch den Mieter).",
+        "Die Zuwendungshöhe beträgt für:",
+        "A/B - Barrieren reduzierende Maßnahmen: 30 % von max. 15.000,00 EUR förderfähiger Ausgaben/WE",
+        "Die Baumaßnahme sollte innerhalb von 12 Monaten nach Bewilligung fertiggestellt sein.",
+        "Schriftliche Anträge sind formgebunden vor Vorhabenbeginn, d. h. vor Abschluss jeglicher Lieferungs- und Leistungsverträge im Landesförderinstitut M-V einzureichen."
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0× im Merkblatt — dort nur 'Verbesserung von Treppenanlagen, Nachrüstung mit Aufzügen'."
+    },
+    {
+      "id": 4,
+      "label": "IM-MV Pressemitteilung Nr. 83/2026 v. 18.04.2026 — Programm-Auflegung 2026 (offizieller Wortlaut via Presseportal/ots; regierung-mv.de-SPA liefert leer)",
+      "url": "https://www.presseportal.de/blaulicht/pm/108531/6257916",
+      "evidence": "mv-pm-183-2026-presseportal.txt",
+      "quotes": [
+        "IM-MV: Barrierefreiheit in Wohnungen: LFI nimmt wieder Förderanträge für Umbau an",
+        "Ab sofort nimmt das Landesförderinstitut (LFI) wieder Förderanträge zum Umbau von Wohnungen an, durch den Barrieren reduziert werden.",
+        "Für das \"Landesprogramm zur Reduzierung von Barrieren im Wohnungsbestand\" stehen in diesem Jahr wieder zwei Millionen Euro zur Verfügung.",
+        "Mit einem Zuschuss von bis zu 30 Prozent der zuwendungsfähigen Ausgaben bei maximal 4.500 Euro je Wohnung können Treppenlifte und viele andere Umbaumaßnahmen gefördert werden.",
+        "Antragsberechtigt sind Eigentümer von selbst genutztem Wohnraum und Mieter mit Zustimmung des Vermieters.",
+        "Seit dem Jahr 2018 wurden rund 18,6 Millionen Euro bewilligt."
+      ],
+      "needles_absent": {},
+      "needles_note": "Treppenlift namentlich im Ministeriums-PM-Wortlaut (IM-MV = Ministerium für Inneres und Bau, ots-Distribution 18.04.2026, 10:00)."
+    },
+    {
+      "id": 5,
+      "label": "IM-MV Pressemitteilung v. 12.08.2026 — Aufstockung um 2 Mio. € (Status/Wartezeit datiert; offizieller Wortlaut via Presseportal/ots)",
+      "url": "https://www.presseportal.de/blaulicht/pm/108531/6331780",
+      "evidence": "mv-pm-aufstockung-1208-2026-presseportal.txt",
+      "quotes": [
+        "IM-MV: Programm zum Abbau von Barrieren in Wohnungen wird aufgestockt",
+        "Das Programm zum Abbau von Barrieren im Wohnungsbestand wurde jetzt um 2 Millionen Euro aufgestockt.",
+        "\"In diesem Jahr hatten wir rund 3,6 Millionen für das Programm zur Verfügung. Bereits Ende Juli war es fast vollständig belegt, sodass wir aufstocken müssen, um einen Antragsannahmestopp zu vermeiden\"",
+        "Der Zuschuss beträgt bis zu 30 Prozent der zuwendungsfähigen Ausgaben von bis zu 15.000 Euro je Wohnung, so dass bis zu 4.500 Euro Förderung für Treppenlifte sowie ein breites Spektrum an Umbaumaßnahmen möglich sind.",
+        "Anträge können Eigentümer und Mieter von Wohnraum stellen."
+      ],
+      "needles_absent": {},
+      "needles_note": "Datiertes Status-Fenster: 2026 insgesamt rund 3,6 Mio. € (+2 Mio. € Aufstockung am 12.08.2026); 'Ende Juli fast vollständig belegt' — knappes, schnell auslaufendes Jahresbudget; danach kein neuerer Status-Beleg verfügbar (Abruf 27.11.2026)."
+    },
+    {
+      "id": 6,
+      "label": "Ministerium für Inneres und Bau M-V — Wohnraumförderung (Regierungsportal, Wayback 25.09.2026, noch server-gerenderte Fassung)",
+      "url": "https://www.regierung-mv.de/Landesregierung/im/Bau/wohnen/wohnraumf%C3%B6rderung",
+      "evidence": "mv-ministerium-wohnraumfoerderung-wb.txt",
+      "quotes": [
+        "Über die Richtlinie zur Reduzierung von Barrieren im Wohnungsbestand fördert die Landesregierung u.a. bauliche Maßnahmen zur Reduzierung von Barrieren in Wohnungen und Wohngebäuden (z.B. bessere Zugänglichkeit von Wohngebäuden, Wohnungen und Räumen, Verbreiterung von Türdurchgängen, oder aber auch den Barrieren reduzierenden Umbau von Bädern).",
+        "Aus dem Programm können 30 Prozent der zuwendungsfähigen Ausgaben der Barrieren reduzieren Anpassungsmaßnahmen bezuschusst werden, maximal 15.000 Euro je Wohnung."
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0× auf der Ministeriums-Seite. Wortstellung 'der Barrieren reduzieren Anpassungsmaßnahmen' [sic] wörtlich. Live-Seite ist Next.js-SPA ohne serverseitigen Content (Abruf 27.11.2026)."
+    },
+    {
+      "id": 7,
+      "label": "Pflegestützpunkte M-V — Ministeriums-Seite SM (Wayback 29.09.2026) + gemeinsames PSP-Portal psp-mv.de",
+      "url": "https://www.regierung-mv.de/Landesregierung/sm/Soziales/Pflege/Pflegest%C3%BCtzpunkte",
+      "evidence": ["mv-psp-ministerium-wb.txt", "mv-psp.txt"],
+      "quotes": [
+        "19 Pflegestützpunkte beraten unabhängig und trägerübergreifend",
+        "Die Pflegestützpunkte stehen in einer gemeinsamen Trägerschaft aller Pflege- und Krankenkassen und einzelnen Kommunen im Land Mecklenburg-Vorpommern.",
+        "Mit 19 Pflegestützpunkten in Mecklenburg-Vorpommern bieten die Kranken- und Pflegekassen gemeinsam mit den Landkreisen und kreisfreien Städten allen Ratsuchenden eine kostenfreie und trägerunabhängige Beratung"
+      ],
+      "needles_absent": {},
+      "needles_note": "19 PSP (nicht je Landkreis/kreisfreie Stadt eine Einheit — Trägerschaft nur mit 'einzelnen Kommunen')."
+    },
+    {
+      "id": 8,
+      "label": "Landesplan Pflege M-V (Oktober 2026, land-mv.de, PDF) — EGH-Kontext: Träger § 95 SGB IX, kommunale Sozialhilfeträger-Struktur",
+      "url": "https://land-mv.de/sites/default/files/2026-10/2026_Landesplan%20Pflege%20Mecklenburg-Vorpommern_AGP_dip-1.pdf",
+      "evidence": ["mv-landesplan-pflege-2026.txt", "mv-landesplan-pflege-2026.layout.txt"],
+      "quotes": [
+        "Auch Menschen mit Demenz im Erwerbsalter haben grundsätzlich als Menschen mit Behinderungen Anspruch auf Leistungen der Eingliederungshilfe nach dem SGB IX, sofern sie die Anspruchsvoraussetzungen erfüllen.",
+        "Zuständig sind die Landkreise und kreisfreien Städte in Mecklenburg-Vorpommern als Sozialhilfeträger weiterhin für die Gewährung der Hilfe zur Pflege gemäß §§ 61ff. SGB XII",
+        "ein Wohnungswechsel oder der Einbau von Mobilitätshilfen (Treppenliften) erforderlich sein, um das Verlassen der Wohnung zu ermöglichen."
+      ],
+      "needles_absent": {"Treppenlift": 2},
+      "needles_note": "Count-Needle: 'Treppenliften' 2× im Landesplan (Kap. Wohnraumanpassung/Selbstbestimmt wohnen: 'Einbau von Mobilitätshilfen (Treppenliften)') — Landesregierungs-Dokument nennt Treppenlifte im Pflege-Kontext, aber ohne Förderbeträge. Kein EGH-Leistungsblatt mit Formlosigkeit/Fristen in diesem Lauf (MV-Serviceportal/SM-EGH-Seite nicht gerendert erhältlich) — offene Frage. Der § 95-SGB-IX-Satz ist im PDF an Seitenumbruch/Page-Number '85' gebrochen, daher nur als gestutzter Teilstring im Note, nicht als Zitat."
+    },
+    {
+      "id": 9,
+      "label": "§ 40 SGB XI — Wohnumfeldzuschuss der Pflegekasse (bundesweit; gesetze-im-internet, live 27.11.2026)",
+      "url": "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+      "evidence": "sgb11-40.txt",
+      "quotes": [
+        "Die Zuschüsse dürfen einen Betrag in Höhe von 4 180 Euro je Maßnahme nicht übersteigen.",
+        "Der Gesamtbetrag je Maßnahme nach Satz 3 ist auf 16 720 Euro begrenzt",
+        "spätestens bis zum Ablauf von drei Wochen nach Antragseingang oder in Fällen, in denen eine Pflegefachperson oder der Medizinische Dienst nach Absatz 1 Satz 2 beteiligt wird, innerhalb von fünf Wochen nach Antragseingang zu entscheiden",
+        "gilt die Leistung nach Ablauf der Frist als genehmigt"
+      ],
+      "needles_absent": {},
+      "needles_note": "Tausendertrennzeichen im Amtstext mit Leerzeichen ('4 180'/'16 720') — Normalisierung im Checker. MV-spezifische Kumulation: RL 5.2.2 (Quelle 2) deckelt Landeszuschuss + Pflegekasse auf die Ausgaben."
+    },
+    {
+      "id": 10,
+      "label": "§ 113 + § 77 SGB IX — EGH-Wohnraumroute (bundesweit; gesetze-im-internet, live 27.11.2026)",
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__113.html",
+      "evidence": ["sgb9-113.txt", "sgb9-77.txt"],
+      "quotes": [
+        "Leistungen zur Sozialen Teilhabe sind insbesondere 1.",
+        "Leistungen für Wohnraum,",
+        "Hierzu gehört, Leistungsberechtigte zu einer möglichst selbstbestimmten und eigenverantwortlichen Lebensführung im eigenen Wohnraum sowie in ihrem Sozialraum zu befähigen oder sie hierbei zu unterstützen.",
+        "Die Leistungen umfassen Leistungen für die Beschaffung, den Umbau, die Ausstattung und die Erhaltung von Wohnraum, der den besonderen Bedürfnissen von Menschen mit Behinderungen entspricht."
+      ],
+      "needles_absent": {},
+      "needles_note": "Bundesrecht, identisch in beiden Landesteilen des Screens; gesetze-im-internet ISO-8859-1 -> cp1252-Dekodierung vor Extraktion (Mojibake-Abgleich im Checker unnötig)."
+    },
+    {
+      "id": 11,
+      "label": "§ 554 BGB — Mieter-Route Barrierereduzierung (bundesweit; gesetze-im-internet, live 27.11.2026)",
+      "url": "https://www.gesetze-im-internet.de/bgb/__554.html",
+      "evidence": "bgb-554.txt",
+      "quotes": [
+        "§ 554 Barrierereduzierung, E-Mobilität, Einbruchsschutz und Steckersolargeräte",
+        "Der Mieter kann verlangen, dass ihm der Vermieter bauliche Veränderungen der Mietsache erlaubt, die dem Gebrauch durch Menschen mit Behinderungen, dem Laden elektrisch betriebener Fahrzeuge, dem Einbruchsschutz oder der Stromerzeugung durch Steckersolargeräte dienen.",
+        "Der Anspruch besteht nicht, wenn die bauliche Veränderung dem Vermieter auch unter Würdigung der Interessen des Mieters nicht zugemutet werden kann.",
+        "Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam."
+      ],
+      "needles_absent": {},
+      "needles_note": "MV ist das einzige Land des Screens, in dem das Landesprogramm Mieter direkt als Antragsberechtigte nennt (PM + LFI-Seite + RL 5.2.3 'Für Maßnahmen, bei denen der Mieter Zuwendungsempfänger ist, gilt Nummer 5.2.2 entsprechend.') — § 554-BGB-Route nur ergänzend."
+    },
+    {
+      "id": 12,
+      "label": "SEKUNDÄR (nichtamtlich, Treppenlift-Verkaufskontext) — treppenlifte-foerderung.de, MV-Seite",
+      "url": "https://treppenlifte-foerderung.de/regionale-zuschuesse/mecklenburg-vorpommern",
+      "evidence": "SEKUNDAER-treppenlifte-foerderung-mv.txt",
+      "quotes": [
+        "30 % der Kosten zahlt das Land als Zuschuss, höchstens 4.500 € je Wohnung",
+        "keine Einkommensgrenze"
+      ],
+      "needles_absent": {},
+      "needles_note": "NICHTAMTLICH: kommerzielles Treppenlift-Portal (Interessenkonflikt), nur als Interpretations-Kontext mit Träger-Kennzeichnung führen — keine Zahlenübernahme über die dortigen Zusatzangaben hinaus (Mindestausgaben 2.000 € und RL-Befristung sind über die amtliche RL, Quelle 2, belegt)."
+    }
+  ]
+}

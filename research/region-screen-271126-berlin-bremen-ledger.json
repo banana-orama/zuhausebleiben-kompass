@@ -1,0 +1,414 @@
+{
+  "batch": "region-screen-271126-berlin-bremen",
+  "checked_at": "2026-11-27",
+  "evidence_dir": "research/evidence/region-screen-271126",
+  "notes": "Maschineller Verbatim-Check research/check_quotes_region_screen_271126_berlin_bremen.py (Normalisierung: U+00AD strippen, NBSP/U+202F -> Leerzeichen, De-Hyphenation am Zeilenumbruch mit Grossbuchstaben-Heuristik, Whitespace-Collapse). Treppenlift-Counts je Dokument als Needles dokumentiert. Alle Abrufe 27.11.2026. IBB-Foerderungs-SPA im Agent-Browser gerendert (Cookie-Wall: ohne Consent nur 'Inhalt wird geladen').",
+  "sources": [
+    {
+      "id": 1,
+      "label": "BERLIN IBB — Förderübersicht (SPA, im Browser gerendert; Karten-Auszug Barrierere-relevant)",
+      "url": "https://www.ibb.de/de/foerderungen/foerderungen.html",
+      "evidence": "berlin/ibb-foerderungen-rendered.txt",
+      "quotes": [
+        "Förderdarlehen für Vermieter:innen und Investor:innen",
+        "Zinssubvention von bis zu 0,6 % p.a. auf KfW-Zinssatz",
+        "Förderdarlehen für selbstnutzende Eigentümer:innen",
+        "Förderdarlehen für Vermieter:innen und Investor:innen sowie selbstnutzende Eigentümer:innen",
+        "Förderdarlehen für Einzeleigentümer:innen von Wohnungseigentümergemeinschaften (WEG)"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle: 'Treppenlift' 0× auf der Programm-Übersicht; die Karten für KfW-159/IBB-Altersgerecht-Wohnen nennen als Beispiele nur 'Fahrstuhleinbau' bzw. generische Barrierereduzierung."
+    },
+    {
+      "id": 2,
+      "label": "BERLIN IBB — Produktseite KfW-Altersgerecht Umbauen (KfW-Nr. 159), Kernquelle Selbstnutzer-Route",
+      "url": "https://www.ibb.de/de/foerderprogramme/kfw-altersgerecht-umbauen.html",
+      "evidence": "berlin/ibb-kfw-altersgerecht-umbauen.txt",
+      "quotes": [
+        "Gemeinsam mit der KfW-Bankengruppe fördern wir Baumaßnahmen in Berlin, mit deren Hilfe Barrieren reduziert werden – unabhängig davon, ob es sich dabei um Ihren vermieteten Wohnungsbestand, Ihr Einfamilienhaus oder Ihre Eigentumswohnung handelt.",
+        "Förderdarlehen für selbstnutzende Eigentümer:innen",
+        "kommunale und private Wohnungsunternehmen",
+        "selbstnutzende Eigentümer:innen, auch im Rahmen einer WEG-Finanzierung",
+        "zinsgünstiger Kredit bis zu 50.000 EUR pro Wohneinheit",
+        "Der Antrag für das Förderprogramm \"KfW-Altersgerecht Umbauen\" muss vor Beginn des Vorhabens gestellt werden. Planungs- und Beratungsleistungen gelten nicht als Vorhabensbeginn.",
+        "Für Wohneigentümer: Es gilt ein Eigenkapitaleinsatz (ohne Anrechnung von Eigenleistungen) von mind. 7,5 % der Kaufpreissumme bzw. der Herstellungs- und Anschaffungskosten.",
+        "variable Laufzeit mit bis zu 5 Tilgungsfreijahren (alternativ auch endfälliges Darlehen möglich)",
+        "100% Auszahlung",
+        "bis 50.000 EUR verzichtet die IBB ggf. auf eine Grundschuldeintragung",
+        "Die Abruffrist für die Auszahlung beträgt 12 Monate nach Kreditzusage.",
+        "Es gelten die jeweils aktuellen Merkblätter und technischen Mindestanforderungen der KfW.",
+        "Die KfW-Förderung für altersgerechtes Bauen ist grundsätzlich mit anderen öffentlichen Fördermitteln kombinierbar, sofern die Summe aller öffentlichen Fördermittel die Summe der förderfähigen Aufwendungen nicht übersteigt."
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Absenz-Needle 'Treppenlift' 0× auf der Berlin-Selbstnutzer-Produktseite; Maßnahmen werden nur generisch ('Barrieren reduzieren') benannt, konkrete Aufzählung verweist auf KfW-TMAs (s. Quelle 6, KfW-technische Mindestanforderungen via BAB-PDF)."
+    },
+    {
+      "id": 3,
+      "label": "BERLIN IBB — Vorvertragliche Informationen KfW-Altersgerecht Umbauen (PDF, Stand 10/2019 [sic])",
+      "url": "https://www.ibb.de/media/dokumente/foerderprogramme/immobilienfoerderung/kfw-altersgerecht-umbauen/kfwaltersgerechtumbauen_g_vvi.pdf",
+      "evidence": ["berlin/ibb-kfw-altersgerecht-vvi.txt", "berlin/ibb-kfw-altersgerecht-vvi.layout.txt"],
+      "quotes": [
+        "Vorvertragliche Informationen",
+        "Umsetzung barrierearmer Wohnkonzepte an Wohngebäuden in Berlin.",
+        "Das Darlehen wird für einen Zeitraum von 4 bis 30 Jahren bereitgestellt.",
+        "Das Darlehen wird zu einem anfänglich festen Sollzinssatz angeboten. Es gilt der bei Antragseingang bei der KfW gültige Produktzinssatz.",
+        "Seitens der IBB fällt keine Bereitstellungsprovision bei Abruf des Darlehens innerhalb von 12 Monaten an, danach ist eine Bereitstellungsprovision von monatlich 0,15 % auf den noch nicht abgerufenen Kreditbetrag zu zahlen.",
+        "Stand 10/2019"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "VVI trägt 'Stand 10/2019' [sic] — Vorvertragliche Informationen werden nicht neu datiert; Konditionsaktualität nur über Produktseite + KfW-Produktzinssatz (Quelle 2)."
+    },
+    {
+      "id": 4,
+      "label": "BERLIN IBB — Produktseite IBB Altersgerecht Wohnen (nur Vermieter:innen/Investor:innen)",
+      "url": "https://www.ibb.de/de/foerderprogramme/ibb-altersgerecht-wohnen.html",
+      "evidence": "berlin/ibb-altersgerecht-wohnen.txt",
+      "quotes": [
+        "Sie wollen in Ihrem vermieteten Wohnungsbestand Barrieren reduzieren, den Wohnkomfort erhöhen oder den Einbruchschutz verbessern?",
+        "Mit dem Darlehensprogramm \"IBB Altersgerecht Wohnen\" bieten wir Ihnen einen zinsgünstigen Kredit der KfW-Bankengruppe an, der von der IBB zusätzlich mit einer weiteren Zinssubvention ausgestattet werden kann.",
+        "Förderdarlehen für Vermieter:innen und Investor:innen",
+        "Modernisierungsmaßnahmen zur Reduzierung von Barrieren, z.B. Fahrstuhleinbau, Erhöhung des Wohnkomforts oder Einbruchschutzmaßnahmen",
+        "bis zu 50.000 EUR je Wohneinheit",
+        "Zinssubvention von bis zu 0,6 % p.a. auf KfW-Zinssatz"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "IBBs eigenes Barrierereduzierungs-Produkt ist explizit auf den VERMIETETEN Bestand adressiert ('in Ihrem vermieteten Wohnungsbestand'); Selbstnutzer laufen über KfW-159 (Quelle 2) oder Wohnraum modernisieren (Quelle 6)."
+    },
+    {
+      "id": 5,
+      "label": "BERLIN IBB — Vorvertragliche Informationen IBB Altersgerecht Wohnen (PDF, Stand 10/2019 [sic])",
+      "url": "https://www.ibb.de/media/dokumente/foerderprogramme/immobilienfoerderung/ibb-altersgerecht-wohnen/ibbaltersgerechtwohnen_b_vvi.pdf",
+      "evidence": ["berlin/ibb-altersgerecht-wohnen-vvi.txt", "berlin/ibb-altersgerecht-wohnen-vvi.layout.txt"],
+      "quotes": [
+        "Der Zinssatz der KfW wird von der IBB zusätzlich um bis zu 0,6% p.a. zinsvergünstigt.",
+        "Stand 10/2019"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "0,6%-Zinsvergünstigung im PDF ohne Leerzeichen vor % ('0,6%'), auf der Produktseite mit ('0,6 %') — beide Formen je Evidenzfile verifiziert."
+    },
+    {
+      "id": 6,
+      "label": "BERLIN IBB — Produktseite IBB Wohnraum modernisieren (Selbstnutzer + Vermieter, Treppenlifte NAMENTLICH)",
+      "url": "https://www.ibb.de/de/foerderprogramme/ibb-wohnraum-modernisieren.html",
+      "evidence": "berlin/ibb-wohnraum-modernisieren.txt",
+      "quotes": [
+        "Förderdarlehen für Vermieter:innen und Investor:innen sowie selbstnutzende Eigentümer:innen",
+        "Maßnahmen zur Verbesserung der Energieeffizienz, Barrierereduzierung sowie allgemeine Instandhaltung und Modernisierung",
+        "bis zu 100.000 EUR je Wohneinheit",
+        "selbstnutzende Eigentümer:innen, auch im Rahmen einer \"IBB WEG-Finanzierung\"",
+        "barrierereduzierende Maßnahmen, z.B. Nachrüstung von Aufzügen und Treppenliften",
+        "Bis zu einer Darlehenshöhe von 50.000 EUR kann auf die Eintragung einer Grundschuld bei selbstgenutztem Wohneigentum verzichtet werden.",
+        "Der Antrag für das Förderprogramm \"IBB Wohnraum modernisieren\" muss vor Beginn des Vorhabens gestellt werden. Planungs- und Beratungsleistungen gelten nicht als Vorhabensbeginn."
+      ],
+      "needles_absent": {"Treppenlift": 1},
+      "needles_note": "Treppenlift-Count: 'Treppenliften' 1× — EINZIGE namentliche Treppenlift-Nennung auf einer Berlin-IBB-Selbstnutzer-relevanten Produktseite (im Maßnahmenbeispiel der Barrierereduzierung)."
+    },
+    {
+      "id": 7,
+      "label": "BERLIN IBB — Produktseite IBB WEG-Finanzierung (Treppenlifte NAMENTLICH)",
+      "url": "https://www.ibb.de/de/foerderprogramme/ibb-weg-finanzierung.html",
+      "evidence": "berlin/ibb-weg-finanzierung.txt",
+      "quotes": [
+        "Förderdarlehen für Einzeleigentümer:innen von Wohnungseigentümergemeinschaften (WEG)",
+        "barrierereduzierende Maßnahmen, z.B. Nachrüstung von Aufzügen und Treppenliften",
+        "Darlehensverträge mit einzelnen Eigentümer:innen der WEG"
+      ],
+      "needles_absent": {"Treppenlift": 1},
+      "needles_note": "Treppenlift-Count: 1× ('Treppenliften') — zweite namentliche Nennung im Berlin-IBB-Produktumfeld (Gemeinschaftseigentum-Route)."
+    },
+    {
+      "id": 8,
+      "label": "BERLIN IBB — Vorvertragliche Informationen IBB Wohnraum modernisieren (PDF, Stand 01.12.2017 [sic])",
+      "url": "https://www.ibb.de/media/dokumente/foerderprogramme/immobilienfoerderung/ibb-wohnraum-modernisieren/ibbwohnraummodernisieren_c_vvi.pdf",
+      "evidence": ["berlin/ibb-wohnraum-modernisieren-vvi.txt", "berlin/ibb-wohnraum-modernisieren-vvi.layout.txt"],
+      "quotes": [
+        "Umbau und Modernisierung von Wohngebäuden in Berlin.",
+        "Das Darlehen wird zu einem anfänglich festen Sollzinssatz angeboten.",
+        "Stand 01.12.2017"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "VVI stark veraltet (Stand 01.12.2017) — nur Vertragsstruktur, keine Zins-/Betragsextraktion daraus."
+    },
+    {
+      "id": 9,
+      "label": "BERLIN Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen — Wohnungsneubauförderung (Senats-Seite, Wohnraumförderprogramm-Landschaft)",
+      "url": "https://www.berlin.de/sen/bauen/neubau/neubaufoerderung/",
+      "evidence": "berlin/senbauen-neubaufoerderung.txt",
+      "quotes": [
+        "Im Land Berlin bestehen unterschiedliche Wohnraumförderprogramme – für den Neubau (mit Zusatzoptionen für Genossenschaften und besondere Bedarfsgruppen), die energetische Modernisierung und den genossenschaftlichen Bestandserwerb.",
+        "Wohnungsbauförderungsbestimmungen (WFB 2026)",
+        "Die aktuell gültigen WFB 2026 traten am 29.05.2026 in Kraft und ersetzten die WFB 2023.",
+        "WFB 2026 (Verwaltungsvorschriften für die soziale Wohnraumförderung des Miet- und Genossenschaftswohnungsbaus in Berlin 2026)"
+      ],
+      "needles_absent": {"Barrierereduzierung": 0},
+      "needles_note": "Die Senats-Seite listet die Berliner Wohnraumförderprogramme: KEIN eigenes Landesprogramm zur Barrierereduzierung im selbstgenutzten Wohneigentum — soziale Wohnraumförderung = Miet-/Genossenschaftsneubau (WFB 2026); Barrierereduzierung-Thema fehlt auf der Seite (Needle 0×)."
+    },
+    {
+      "id": 10,
+      "label": "BERLIN Serviceportal — Eingliederungshilfe für erwachsene Menschen mit Behinderungen beantragen (dienstleistung 324484)",
+      "url": "https://service.berlin.de/dienstleistung/324484/",
+      "evidence": "berlin/service-berlin-egh-324484.txt",
+      "quotes": [
+        "Leistungen zur selbstbestimmten Lebensführung für erwachsene Menschen mit Behinderungen (Eingliederungshilfe) können umfassen:",
+        "Soziale Teilhabe: Assistenz (z. B. Einzelfallhilfe), persönliche Unterstützung in der eigenen Wohnung (betreutes Einzelwohnen), Wohnen in Wohngemeinschaften oder besonderen Wohnformen, Beschäftigungstagesstätten, psychosoziale Betreuung für Suchterkrankte",
+        "Bitte nehmen Sie vor der Antragstellung Kontakt mit dem für Sie zuständigen Teilhabefachdienst im Amt für Soziales auf und lassen Sie sich zur Teilhabeplanung beraten.",
+        "Beantragen Sie Leistungen der Eingliederungshilfe (Leistungen zur Teilhabe). Das können Sie online erledigen oder Sie reichen den Antrag schriftlich per Post ein.",
+        "Ein Teilhabebedarf liegt vor. Eine wesentliche und nicht nur vorübergehende Behinderung liegt vor oder droht. Sie gehören zum berechtigten Personenkreis nach § 99 SGB IX.",
+        "Amt für Soziales in Ihrem Wohnbezirk",
+        "Sollten Ihnen die erforderlichen Unterlagen und Nachweise derzeit nicht vorliegen, können Sie diese auch nachreichen."
+      ],
+      "needles_note": "Berlin-EGH-Träger: 12 Bezirksämter (Amt für Soziales je Wohnbezirk; Teilhabefachdienste); Sonderfälle LAGeSo. Keine Fristangabe auf der Seite — Antrag online/schriftlich, Unterlagen nachreichbar (Formlosigkeit praktisch: Online-Dienst + Nachreiche-Option)."
+    },
+    {
+      "id": 11,
+      "label": "BERLIN Senatsverwaltung (Wissenschaft, Gesundheit, Pflege) — Pflegestützpunkte Berlin",
+      "url": "https://www.berlin.de/sen/pflege/pflege-und-rehabilitation/pflegestuetzpunkte/",
+      "evidence": "berlin/berlin-pflegestuetzpunkte.txt",
+      "quotes": [
+        "Die Berliner Pflegestützpunkte sind wohnortnahe Anlaufstellen für ältere Menschen, Pflegebedürftige und ihre Angehörigen.",
+        "Sie informieren, beraten und unterstützen unabhängig und kostenfrei bei allen Fragen zur Pflege sowie rund ums Alter und im Vorfeld von Pflege.",
+        "Träger der Pflegestützpunkte sind die Pflege- und Krankenkassen gemeinsam mit dem Land Berlin."
+      ],
+      "needles_note": "Offizielle PSP-Seite des Landes; Träger = Pflege-/Krankenkassen + Land Berlin."
+    },
+    {
+      "id": 12,
+      "label": "BERLIN pflegestuetzpunkteberlin.de — gemeinsame PSP-Website (Startseite)",
+      "url": "https://www.pflegestuetzpunkteberlin.de/",
+      "evidence": "berlin/pflegestuetzpunkteberlin-start.txt",
+      "quotes": [
+        "Informieren, Beraten und Unterstützen rund um Pflege und Alter – neutral, kostenlos, individuell."
+      ],
+      "needles_note": "Gemeinsame Website der Berliner PSP (kassen+landesgetragen); Sprechzeiten- und Terminangaben live gezogen."
+    },
+    {
+      "id": 13,
+      "label": "BERLIN SEKUNDÄR — pflege.de Förderprogramme nach Bundesland (kommerzielles Pflegeportal, Treppenlift-Vermittlungskontext)",
+      "url": "https://www.pflege.de/barrierefreies-wohnen/foerderprogramme-zur-wohnraumanpassung/",
+      "evidence": "berlin/SEKUNDAER-pflegede-foerderprogramme.txt",
+      "quotes": [
+        "Investitionsbank Berlin (IBB)",
+        "Eine bodengleiche Dusche, breitere Türen oder ein Treppenlift machen das Zuhause sicherer, kosten aber schnell mehrere tausend Euro."
+      ],
+      "needles_absent": {},
+      "needles_note": "NICHTAMTLICH: kommerzielles Portal ('Ein Service von pflege.de'), ordnet Berlin der IBB zu; nennt Treppenlift als Umzugs-/Umbaubeispiel (Treppenlift 19× auf der Seite). Keine Zahlen übernommen. Treppenlift-Anbieter-SEO (vergl. NDS-Lauf: SEKUNDAER-Siemer) ist nichtamtlicher Interessenkonflikt-Kontext."
+    },
+    {
+      "id": 14,
+      "label": "BUND § 554 BGB — Barrierereduzierung (Mieter-Route, gesetze-im-internet, ISO-8859-1 dekodiert)",
+      "url": "https://www.gesetze-im-internet.de/bgb/__554.html",
+      "evidence": "shared/bgb-554.iso.txt",
+      "quotes": [
+        "§ 554 Barrierereduzierung, E-Mobilität, Einbruchsschutz und Steckersolargeräte",
+        "(1) Der Mieter kann verlangen, dass ihm der Vermieter bauliche Veränderungen der Mietsache erlaubt, die dem Gebrauch durch Menschen mit Behinderungen, dem Laden elektrisch betriebener Fahrzeuge, dem Einbruchsschutz oder der Stromerzeugung durch Steckersolargeräte dienen. Der Anspruch besteht nicht, wenn die bauliche Veränderung dem Vermieter auch unter Würdigung der Interessen des Mieters nicht zugemutet werden kann.",
+        "(2) Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam."
+      ],
+      "needles_note": "Bundesrecht, für beide Stadtstaaten identisch; Ermessen des Vermieters ('nicht zugemutet') + Abweichungsverbot."
+    },
+    {
+      "id": 15,
+      "label": "BREMEN BAB — Wohnraumförderung-Übersicht (Programmlandschaft inkl. Mieter-Topf)",
+      "url": "https://www.bab-bremen.de/de/page/wohnraumfoerderung",
+      "evidence": "bremen/bab-wohnraumfoerderung.txt",
+      "quotes": [
+        "Unsere Programme zur Wohnraumförderung unterstützen Wohnungsbaugesellschaften, Wohnungseigentümergemeinschaften und Privatpersonen bei Vorhaben, die folgenden Zielen dienen:",
+        "Barrierefreier Wohnraum",
+        "Wir sind Ihr Kontakt für die Wohnraumförderung in Bremen und Bremerhaven.",
+        "Gefördert wird im Rahmen der sozialen Wohnraumförderung die energetische und barrierearme Modernisierung von Mietwohnungen mit mehr als zwei Mietwohnungen oder von Mietreihenhäusern. Durch eine Mietpreis- und Belegungsbindung entsteht bezahlbarer Wohnraum.",
+        "Für Privatpersonen - zinsgünstige Kredite (u.a. KfW 358/359, 261, 159)"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Übersichtsseite: Selbstnutzer/Landwirte-Route = 'Rund ums Haus' (Kredite), Mieter-Versorgung läuft über Vermieter-Topf ('Modernisierungsförderung für Mietwohnungen', barrierearme Modernisierung)."
+    },
+    {
+      "id": 16,
+      "label": "BREMEN BAB — Produktseite Rund ums Haus (Kernquelle: KfW-159-Durchleitung, Treppenlifte NAMENTLICH, Wartezeit-Hinweis 12.08.2026)",
+      "url": "https://www.bab-bremen.de/de/page/programm/rund-ums-haus",
+      "evidence": "bremen/bab-rund-ums-haus.txt",
+      "quotes": [
+        "12.08.2026: Aufgrund der Änderungen der Bundesförderung und der damit stark gestiegenen Antragszahlen in diesem Programm, kommt es derzeit zu längeren Bearbeitungszeiten . Bitte planen Sie daher aktuell rund acht Wochen für die Bearbeitung ein.",
+        "Nutzen Sie günstiges Geld und unsere kompetente Beratung, um den Wert Ihrer Immobilie zu erhalten und zu verbessern: Mit dem Programm Rund ums Haus fördern wir, unter anderem mit der Durchleitung von KfW-Mitteln, Maßnahmen zur energetischen Sanierung. Zudem können Sie den Einbruchschutz verbessern, oder Sie erhöhen durch den Abbau von Barrieren Ihren Wohnkomfort. So können Sie im Alter möglichst lange eigenständig in Ihren eigenen vier Wänden leben.",
+        "Privatpersonen von selbstgenutzten oder vermieteten Wohngebäuden/Eigentumswohnungen",
+        "im Land Bremen",
+        "Annuitätendarlehen bis zu 50.000 €",
+        "Verzicht auf Grundschuldeintrag",
+        "Förderung bis 100% der förderfähigen Kosten",
+        "Darlehenslaufzeit bis 10 Jahre",
+        "Vergabe direkt an die Eigentümer",
+        "Kombinierbar mit anderen Förderprogrammen",
+        "Altersgerecht Umbauen",
+        "Barrieren ab-, Perspektiven aufbauen (KfW 159)",
+        "zur vertikalen Erschließung, z.B. Rampen, Treppen, Treppenlifte und Aufzüge",
+        "zur Anpassung der Raumgeometrie, z.B. Schwellenbeseitigung, Innentürverbreiterung und Raumgrößenanpassung",
+        "an Sanitärräumen, z.B. bodengleiche Duschen und Halterungsstützen",
+        "Durchleitung des KfW-Förderdarlehen (159): Altersgerecht Umbauen",
+        "Die aktuellen KfW-Voraussetzungen sind zu beachten",
+        "Beginn der Maßnahme erst nach Antragstellung und Genehmigung, als Beginn der Maßnahme gilt der Abschluss von Liefer- und Leistungsverträgen. Die Einholung von Angeboten und Begutachtungen können jedoch durchgeführt werden.",
+        "Es dürfen keine Aufträge für die Umsetzung der Maßnahme vor der Förderzusage erteilt werden",
+        "Den Antrag stellen Sie direkt an uns."
+      ],
+      "needles_absent": {"Treppenlift": 1},
+      "needles_note": "Treppenlift-Count: 'Treppenlifte' 1× im Programmbereich 'Altersgerecht Umbauen (KfW 159)'. Wartezeit-Satz enthält Original-Abstand 'Bearbeitungszeiten .' [sic, Leerzeichen vor Punkt]. Zielgruppe enthält AUCH vermietete Gebäude (Vermieter) — Mieterhaushalte selbst sind nicht antragsberechtigt."
+    },
+    {
+      "id": 17,
+      "label": "BREMEN BAB — Produktseite Kredit für Wohnungseigentümergemeinschaften (WEG, Treppenlifte NAMENTLICH)",
+      "url": "https://www.bab-bremen.de/de/page/programm/weg-finanzierungen",
+      "evidence": "bremen/bab-weg-finanzierungen.txt",
+      "quotes": [
+        "Kredit für Wohnungseigentümergemeinschaften (WEG)",
+        "Das Förderprogramm \"Kredit für Wohnungseigentümergemeinschaften\" besteht aus sechs Programmbereichen, die Sie beliebig bis zur maximalen Fördersumme kombinieren können. Was in den einzelnen Bereichen gefördert wird und welche Besonderheiten jeweils zu beachten sind ist nachstehend aufgeführt.",
+        "zur vertikalen Erschließung, z.B. Rampen, Treppen, Treppenlifte und Aufzüge"
+      ],
+      "needles_absent": {"Treppenlift": 1},
+      "needles_note": "Treppenlift-Count: 1× (identisches Maßnahmen-Beispiel wie Rund ums Haus)."
+    },
+    {
+      "id": 18,
+      "label": "BREMEN BAB — KfW-159 Merkblatt (PDF, Stand 10/2023; BAB-eigene Programminfo)",
+      "url": "https://www.bab-bremen.de/sixcms/media.php/163/74908/KfW_159_Merkblatt_2023_10.pdf",
+      "evidence": ["bremen/bab-kfw159-merkblatt-2023-10.txt", "bremen/bab-kfw159-merkblatt-2023-10.layout.txt"],
+      "quotes": [
+        "Finanzierung von Maßnahmen zur Barrierereduzierung und zum Einbruchschutz an bestehenden Wohngebäuden",
+        "Die KfW fördert mit zinsgünstigen, langfristigen Krediten bauliche Maßnahmen an Wohngebäuden, mit denen Barrieren im Wohnungsbestand reduziert und die Sicherheit erhöht werden.",
+        "Alternativ können natürliche Personen auch eine Zuschussförderung \"Barrierereduzierung Investitionszuschuss\" (455-B) und \"Einbruchschutz Investitionszuschuss\" (455-E) aus dem Produkt Altersgerecht Umbauen beantragen.",
+        "Das Produkt „Altersgerecht Umbauen – Kredit“ wird im Auftrag des Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen von der KfW durchgeführt.",
+        "Förderfähig sind Investitionskosten mit einem Kreditbetrag von maximal 50.000 Euro pro Wohneinheit.",
+        "Stand: 10/2023"
+      ],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "455-B/455-E-Nennung ist ALT-Stand (Merkblatt 10/2023): 455-B ist seit 2026 gestoppt (bundesweiter Stand laut BW/NDS-Läufen: 'Diesen Zuschuss können Sie nicht mehr beantragen.', kfw.de, geprüft 25./26.11.2026) — Merkblatt-Satz nur mit Datums-Kennzeichnung. Zielgruppen-Satz: 'Selbstnutzer von Wohnimmobilien oder Mieter' (Mieter als Investoren von Maßnahmen im Mietobjekt)."
+    },
+    {
+      "id": 19,
+      "label": "BREMEN BAB — KfW-159 Anlage technische Mindestanforderungen (PDF, TMA; Treppenlifte NAMENTLICH)",
+      "url": "https://www.bab-bremen.de/sixcms/media.php/163/75759/6000003991_M_159_AU_Anlage_TMA_ff_Ma%C3%9Fnahmen_2021_09.pdf",
+      "evidence": ["bremen/bab-kfw159-tma-anlage-2021-09.txt", "bremen/bab-kfw159-tma-anlage-2021-09.layout.txt"],
+      "quotes": [
+        "Treppenlifte, Hebe- oder Plattformlifte oder andere ergänzende mechanische Fördersysteme zur Personenbeförderung im Innenbereich, zum Beispiel Senkrechtlifte.",
+        "Barrierereduzierende Umgestaltung von bestehenden Treppenanlagen:"
+      ],
+      "needles_absent": {"Treppenlift": 2},
+      "needles_note": "Treppenlift-Count: je Extrakt-Variante (.txt und .layout.txt) 1× ('Treppenlifte'), im Join beider Varianten 2×. KfW-TMA-Anlage gilt bundesweit für Programm 159 — deckt damit auch die Berlin-IBB-Route ab ('Es gelten die jeweils aktuellen Merkblätter und technischen Mindestanforderungen der KfW.', Quelle 2)."
+    },
+    {
+      "id": 20,
+      "label": "BREMEN BAB — Konditionenübersicht Rund ums Haus / WEG (PDF, KfW-159-Zeile, Stand 10.11.2026)",
+      "url": "https://www.bab-bremen.de/sixcms/media.php/163/74906/Konditionentableau_RuH_BIK-WEG_261109.pdf",
+      "evidence": ["bremen/bab-konditionentableau-ruh-261109.txt", "bremen/bab-konditionentableau-ruh-261109.layout.txt"],
+      "quotes": [
+        "Altersgerecht Umbauen und Einbruchschutz KfW-Kredit Nr. 159",
+        "4 - 10 10 1-2 100 3,35 3,40 0,15",
+        "Die Bremer Aufbau-Bank GmbH (BAB) leitet die Mittel aus dem Programm 159 der Kreditanstalt für Wiederaufbau (KfW) an den Endkreditnehmer durch.",
+        "Konditionenänderungen bei den KfW-Programmen gelten insofern immer auch mit Wirkung für die Produkte „Rund ums Haus“ und „Bremer Immobilienkredit – WEG“."
+      ],
+      "needles_note": "KfW-159-Zeile (Zinssätze gültig ab 10.11.2026): Laufzeit 4-10 Jahre, Zinsbindung 10, Tilgungsfreijahre 1-2, Auszahlung 100 %, Sollzins 3,35 % p.a., Effektivzins 3,40 %, Bereitstellungsprovision 0,15 %/Monat. Spaltenreihenfolge im .layout.txt; Zitat aus gestripptem .txt."
+    },
+    {
+      "id": 21,
+      "label": "BREMEN BAB — Produktseite Modernisierungsförderung für Mietwohnungen (Mieter-Topf, Treppenlift-Absenz)",
+      "url": "https://www.bab-bremen.de/de/page/programm/modernisierungsfoerderung-mietwohnungen",
+      "evidence": "bremen/bab-modernisierung-mietwohnungen.txt",
+      "quotes": [],
+      "needles_absent": {"Treppenlift": 0},
+      "needles_note": "Vermieter-Produkt der sozialen Wohnraumförderung (Land Bremen); 'Treppenlift' 0× — barrierearme Modernisierung wird generisch benannt (Kernsatz auf Übersichtsseite, Quelle 15)."
+    },
+    {
+      "id": 22,
+      "label": "BREMEN Senatorin für Bau, Mobilität und Stadtentwicklung — Wohnraumförderung (Senats-Seite: WRP-Status ausgebucht)",
+      "url": "https://bau.bremen.de/bau/wohnen-und-foerdern/wohnraumfoerderung-3566",
+      "evidence": "bremen/bau-bremen-wohnraumfoerderung.txt",
+      "quotes": [
+        "Die Wohnraumförderung ab dem WRP 2026 enthält die Förderbausteine Neubauförderung (Mietenstufe 1 und Mietenstufe 2 sowie Junges Wohnen), Modernisierungsförderung und Ankauf sowie Verlängerung von Miet- und Belegungsbindungen.",
+        "Die aktuellen Wohnraumförderungsprogramme bis einschließlich des Wohnraumförderungsprogramms 2026 sind bereits ausgebucht, eine Berücksichtigung neu eingereichter Projekte ist erst wieder an dem Wohnraumförderungsprogramm 2027 möglich.",
+        "Nach Auswahl der Projekte, die gefördert werden können, erfolgt die Bestätigung der Förderung seitens der Bremer Aufbau-Bank (BAB)."
+      ],
+      "needles_note": "Status (27.11.2026): soziale Wohnraumförderung (WRP) 2026 ausgebucht, Projektantrag erst wieder für WRP 2027 — betrifft den MIETER-Topf (Vermieter-Modernisierung), nicht die KfW-Durchleitung Rund ums Haus."
+    },
+    {
+      "id": 23,
+      "label": "BREMEN — Richtlinie Modernisierung von Mietwohnraum ab WRP 2026 (PDF, Senatorin für Bau, Mobilität und Stadtentwicklung, Vom 27.08.2026; 'Barrier*' 0×)",
+      "url": "https://bau.bremen.de/sixcms/media.php/13/01b_Richtlinie%20Modernisierung%20ab%20WRP%202026.pdf",
+      "evidence": ["bremen/bau-bremen-rl-modernisierung-wrp2026.txt", "bremen/bau-bremen-rl-modernisierung-wrp2026.layout.txt"],
+      "quotes": [
+        "Richtlinie zur Durchführung der vertraglich vereinbarten Förderung der Modernisierung von Mietwohnraum in der Freien Hansestadt Bremen - Mietwohnraumförderung – ab dem Jahr 2026",
+        "Vom 27.08.2026",
+        "Zweck der Förderung ist die Modernisierung von Mietwohnraum zugunsten des unter Nummer 6 genannten Personenkreises.",
+        "Die Modernisierung von Mietwohnraum wird nur gefördert, wenn diese in Gebäuden mit mehr als zwei geförderten Mietwohnungen oder in mehr als zwei geförderten Mietreihenhäusern durchgeführt wird.",
+        "Förderungsstelle für die Freie Hansestadt Bremen ist die Bremer Aufbau-Bank GmbH, Domshof 14/15, 28195 Bremen.",
+        "deren Gesamteinkommen die Einkommensgrenzen des § 9 Absatz 2 WoFG in Verbindung mit § 2 der Einkommensgrenzenverordnung vom 18. Mai 2009 (Brem. GBl. S. 189) in der jeweils geltenden Fassung um nicht mehr als 70 % überschreitet.",
+        "b) Ältere und Menschen mit Behinderung,"
+      ],
+      "needles_absent": {"Barrier": 0},
+      "needles_note": "Mieter-Topf-Richtlinie kennt Barrieren NICHT als Kriterium (Needle 'Barrier' 0×) — Modernisierung ist energiegetrieben (EH-Standard), Zielgruppe 'Ältere und Menschen mit Behinderung' nur als Belegungsziel. Bewilligungsstelle = BAB (Außenstelle Bremerhaven Uhlandstraße 25)."
+    },
+    {
+      "id": 24,
+      "label": "BREMEN Senatorin für Arbeit, Soziales, Jugend und Integration — Menschen mit Behinderung (EGH-Seite)",
+      "url": "https://www.soziales.bremen.de/soziales/menschen-mit-behinderung-60135",
+      "evidence": "bremen/soziales-bremen-egh-60135.txt",
+      "quotes": [
+        "Die gesetzlichen Voraussetzungen und Anspruchsgrundlagen für Leistungen der Eingliederungshilfe finden sich im Sozialgesetzbuch Neuntes Buch – Rehabilitation und Teilhabe von Menschen mit Behinderungen (SGB IX).",
+        "In der Stadtgemeinde Bremen ist das Amt für Soziale Dienste, Fachdienst Teilhabe für die Prüfung und Bearbeitung von Anträgen auf Leistungen der Eingliederungshilfe zuständig.",
+        "BENi-Bremen - das Bedarfsermittlungsinstrument"
+      ],
+      "needles_note": "EGH-Träger-Struktur: SGB IX AG Bremen § 1 (Transparenzportal): 'Träger der Eingliederungshilfe gemäß Teil 2 des Neunten Buches Sozialgesetzbuch sind vorbehaltlich des Absatzes 2 die Stadtgemeinden Bremen und Bremerhaven.'; Vollzug: Bremen = AfSD Fachdienst Teilhabe, Bremerhaven = Sozialamt des Magistrats."
+    },
+    {
+      "id": 25,
+      "label": "BREMEN service.bremen.de — Eingliederungshilfe für Erwachsene beantragen (Leistungsseite, formlos + Fristen)",
+      "url": "https://www.service.bremen.de/dienstleistungen/eingliederungshilfe-fuer-erwachsene-mit-behinderungen-minderjaehrige-mit-koerperlichen-geistigen-behinderungen-oder-sinnesbeeintraechtigungen-beantragen-11348",
+      "evidence": "bremen/service-bremen-egh-11348.txt",
+      "quotes": [
+        "Sie müssen bei der zuständigen Stelle einen Antrag stellen. Dieser kann formlos sein.",
+        "Sie erhalten Leistungen der Eingliederungshilfe, sofern Sie die erforderliche Leistung nicht von anderen Sozialleistungs- oder Rehabilitationsträgern, zum Beispiel der Krankenkasse, dem Rentenversicherungsträger, der Agentur für Arbeit, dem Unfallversicherungsträger, erhalten.",
+        "Bei den Leistungen der Eingliederungshilfe müssen Sie grundsätzlich einen Beitrag aus Ihrem Einkommen sowie aus Ihrem Vermögen, sofern es eine festgesetzte Grenze überschreitet, zahlen.",
+        "Zuständig für alle anderen Anträge auf Leistungen der Eingliederungshilfe ist: Amt für soziale Dienste – Fachdienst Teilhabe",
+        "Ist für die Feststellung Ihres Bedarfs ein Gutachten notwendig, muss die Behörde innerhalb von 2 Wochen entscheiden, sobald das Gutachten bei der Behörde vorliegt. Muss die Behörde kein Gutachten einholen, entscheidet sie innerhalb von 3 Wochen, nachdem Ihr Antrag eingegangen ist."
+      ],
+      "needles_note": "Leistungsseite 'Aktualisiert am 01.09.2026'. Nachrang-Prüfung nennt explizit andere Rehabilitationsträger (Pflegekasse-Kontext über Krankenkasse)."
+    },
+    {
+      "id": 26,
+      "label": "BREMEN-BREMERHAVEN bremerhaven.de — Sozialamt/Eingliederungshilfe (Stadtgemeinde Bremerhaven)",
+      "url": "https://www.bremerhaven.de/de/verwaltung-politik-sicherheit/buergerservice/adressen-oeffnungszeiten/sozialamt-eingliederungshilfe-fuer-menschen-mit-behinderung.27752.html",
+      "evidence": "bremen/bremerhaven-sozialamt-egh.txt",
+      "quotes": [
+        "Aufgabe der Eingliederungshilfe ist es nach § 90 Neuntes Sozialgesetzbuch IX (SGB IX), Leistungsberechtigten eine individuelle Lebensführung zu ermöglichen, die der Würde des Menschen entspricht, und die volle, wirksame und gleichberechtigte Teilhabe am Leben in der Gesellschaft zu fördern."
+      ],
+      "needles_note": "Bremerhaven-Route: Sozialamt des Magistrats (Hinrich-Schmalfeldt-Straße 36, Stadthaus 4); Antragsformulare 'Eingliederung: Antrag auf Eingliederungshilfe für Erwachsene' als Download."
+    },
+    {
+      "id": 27,
+      "label": "BREMEN Senatorin für Gesundheit — Hilfreiche Links (Pflegestützpunkte Bremen/Bremerhaven offiziell benannt)",
+      "url": "https://www.gesundheit.bremen.de/gesundheit/pflege-heimrecht-wohn-und-betreuungsaufsicht/hilfreiche-links-und-informationen-55092",
+      "evidence": "bremen/gesundheit-bremen-hilfreiche-links-55092.txt",
+      "quotes": [
+        "Die Pflegestützpunkte Bremen/Bremerhaven bieten kostenfreie Beratung rund um alle Themen der Pflege an. Sie erhalten dort unabhängige und neutrale Informationen"
+      ],
+      "needles_note": "Senats-Seite verweist offiziell auf die PSP; gemeinsame Träger-Angabe auf der PSP-Website (Quelle 28)."
+    },
+    {
+      "id": 28,
+      "label": "BREMEN bremen-pflegestuetzpunkt.de — Über Uns (Träger: Kassen + Land + Städte)",
+      "url": "https://bremen-pflegestuetzpunkt.de/ueber-uns/",
+      "evidence": "bremen/bremen-pflegestuetzpunkt-ueber-uns.txt",
+      "quotes": [
+        "Die Pflegestützpunkte dienen keinem kommerziellen Zweck und werden getragen von den Kranken- und Pflegekassen sowie vom Land Bremen und von den Städten Bremen und Bremerhaven.",
+        "Wir beraten Sie: neutral unabhängig und persönlich"
+      ],
+      "needles_note": "Standorte lt. Seite: Bremen-Gröpelingen, -Huchting, -Huckelriede, -Vahr, -Vegesack + Bremerhaven."
+    },
+    {
+      "id": 29,
+      "label": "BREMEN SEKUNDÄR — regional-treppenlift.de 'BAB Wohnraumförderung Bremen' (Treppenlift-Anbieter-Portal)",
+      "url": "https://www.regional-treppenlift.de/bab-wohnraumfoerderung-bremen/",
+      "evidence": "bremen/SEKUNDAER-regional-treppenlift-bab-bremen.txt",
+      "quotes": [
+        "Sicher verfügbar sind die Pflegekasse mit bis zu 4.180 € je Person und der KfW-Kredit 159.",
+        "Fragen Sie direkt bei Bremer Aufbau-Bank (BAB) nach, ob aktuell Mittel für den barrierefreien Umbau bereitstehen und welche Bedingungen gelten."
+      ],
+      "needles_note": "NICHTAMTLICH: Treppenlift-Anbieter-Portal (Lead-Vermittlung, 'Redaktion Regional-Treppenlift. Richtwerte ohne Gewähr.', Treppenlift 57×). Bestätigt nur die Richtung (BAB = Landeskontakt, KfW-159 läuft); keine Zahlen übernommen."
+    }
+  ]
+}
